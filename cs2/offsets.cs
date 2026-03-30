@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-29 09:09:35.367780500 UTC
+// 2026-03-30 05:34:21.289787400 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
