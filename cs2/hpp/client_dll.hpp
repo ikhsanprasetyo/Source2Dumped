@@ -1,5 +1,5 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 528
+        // Class count: 529
         // Enum count: 12
         namespace client_dll {
             // Alignment: 4
@@ -7909,6 +7909,10 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_PreGenerationKVs = 0x18; // KeyValues3
                 constexpr std::ptrdiff_t m_FinalKVs = 0x58; // KeyValues3
                 constexpr std::ptrdiff_t m_vecGeneratedTextures = 0x80; // CUtlVector<GeneratedTextureHandle_t>
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _p_k__ {
             }
         }
     }

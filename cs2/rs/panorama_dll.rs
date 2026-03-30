@@ -1,5 +1,5 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 

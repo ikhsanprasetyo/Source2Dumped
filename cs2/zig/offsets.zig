@@ -1,5 +1,5 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {

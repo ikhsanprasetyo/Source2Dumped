@@ -1,11 +1,11 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
-        // Class count: 887
-        // Enum count: 165
+        // Class count: 902
+        // Enum count: 174
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -13502,6 +13502,66 @@ pub const source2_dumper = struct {
             pub const Relationship_t = struct {
                 pub const disposition: usize = 0x0; // Disposition_t
                 pub const priority: usize = 0x4; // int32
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_NOISE_TYPE_PERLIN = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_INPUT_MODE_CLAMPED = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_RANDOM_MODE_CONSTANT = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_MAP_TYPE_DIRECT = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_INPUT_MODE_CLAMPED = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_NOISE_TYPE_PERLIN = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PVEC_TYPE_LITERAL_COLOR = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_ROUND_TYPE_NEAREST = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_RANDOM_MODE_CONSTANT = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_MAP_TYPE_DIRECT = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_INPUT_MODE_CLAMPED = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_NOISE_TYPE_PERLIN = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_ROUND_TYPE_NEAREST = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_RANDOM_MODE_CONSTANT = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const PF_NOISE_MODIFIER_NONE = struct {
             };
         };
     };

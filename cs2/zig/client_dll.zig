@@ -1,10 +1,10 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 528
+        // Class count: 529
         // Enum count: 12
         pub const client_dll = struct {
             // Alignment: 4
@@ -7904,6 +7904,10 @@ pub const source2_dumper = struct {
                 pub const m_PreGenerationKVs: usize = 0x18; // KeyValues3
                 pub const m_FinalKVs: usize = 0x58; // KeyValues3
                 pub const m_vecGeneratedTextures: usize = 0x80; // CUtlVector<GeneratedTextureHandle_t>
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _p_k__ = struct {
             };
         };
     };

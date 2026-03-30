@@ -1,5 +1,5 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
-        // Class count: 887
-        // Enum count: 165
+        // Class count: 902
+        // Enum count: 174
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13543,6 +13543,66 @@ namespace source2_dumper {
             namespace Relationship_t {
                 constexpr std::ptrdiff_t disposition = 0x0; // Disposition_t
                 constexpr std::ptrdiff_t priority = 0x4; // int32
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_NOISE_TYPE_PERLIN {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_INPUT_MODE_CLAMPED {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_RANDOM_MODE_CONSTANT {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_MAP_TYPE_DIRECT {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_INPUT_MODE_CLAMPED {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_NOISE_TYPE_PERLIN {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PVEC_TYPE_LITERAL_COLOR {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_ROUND_TYPE_NEAREST {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_RANDOM_MODE_CONSTANT {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_MAP_TYPE_DIRECT {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_INPUT_MODE_CLAMPED {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_NOISE_TYPE_PERLIN {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_ROUND_TYPE_NEAREST {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_RANDOM_MODE_CONSTANT {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace PF_NOISE_MODIFIER_NONE {
             }
         }
     }

@@ -1,9 +1,9 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 528
+    // Class count: 529
     // Enum count: 12
     public static class ClientDll {
         // Alignment: 4
@@ -7903,6 +7903,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_PreGenerationKVs = 0x18; // KeyValues3
             public const nint m_FinalKVs = 0x58; // KeyValues3
             public const nint m_vecGeneratedTextures = 0x80; // CUtlVector<GeneratedTextureHandle_t>
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _p_k__ {
         }
     }
 }

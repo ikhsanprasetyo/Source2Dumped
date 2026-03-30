@@ -1,10 +1,10 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 887
-    // Enum count: 165
+    // Class count: 902
+    // Enum count: 174
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -13537,6 +13537,66 @@ namespace Source2Dumper.Schemas {
         public static class Relationship_t {
             public const nint disposition = 0x0; // Disposition_t
             public const nint priority = 0x4; // int32
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_TYPE_PERLIN {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_INPUT_MODE_CLAMPED {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_RANDOM_MODE_CONSTANT {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_MAP_TYPE_DIRECT {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_INPUT_MODE_CLAMPED {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_TYPE_PERLIN {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PVEC_TYPE_LITERAL_COLOR {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_ROUND_TYPE_NEAREST {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_RANDOM_MODE_CONSTANT {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_MAP_TYPE_DIRECT {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_INPUT_MODE_CLAMPED {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_TYPE_PERLIN {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_ROUND_TYPE_NEAREST {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_RANDOM_MODE_CONSTANT {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_MODIFIER_NONE {
         }
     }
 }

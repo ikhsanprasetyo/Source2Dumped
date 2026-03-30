@@ -1,13 +1,13 @@
-// Generated using https://github.com/ikhsanprasetyo/Source2Dumped
-// 2026-03-30 05:58:07.794201800 UTC
+// Generated using https://github.com/ikhsanprasetyo/source2-dumper
+// 2026-03-30 13:26:13.707080100 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
-        // Class count: 887
-        // Enum count: 165
+        // Class count: 902
+        // Enum count: 174
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13669,6 +13669,66 @@ pub mod source2_dumper {
             pub mod Relationship_t {
                 pub const disposition: usize = 0x0; // Disposition_t
                 pub const priority: usize = 0x4; // int32
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_TYPE_PERLIN {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_INPUT_MODE_CLAMPED {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_RANDOM_MODE_CONSTANT {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_MAP_TYPE_DIRECT {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_INPUT_MODE_CLAMPED {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_TYPE_PERLIN {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PVEC_TYPE_LITERAL_COLOR {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_ROUND_TYPE_NEAREST {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_RANDOM_MODE_CONSTANT {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_MAP_TYPE_DIRECT {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_INPUT_MODE_CLAMPED {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_TYPE_PERLIN {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_ROUND_TYPE_NEAREST {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_RANDOM_MODE_CONSTANT {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_MODIFIER_NONE {
             }
         }
     }
