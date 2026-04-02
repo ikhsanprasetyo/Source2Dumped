@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 18:55:24.612541300 +07:00
+// 2026-04-02 19:15:51.295207800 +07:00
 
 package schemas
 
@@ -4407,7 +4407,7 @@ const (
     ServerDll_CCSGameRules_m_iRoundStartRoundNumber = 0x1410 // int32
     ServerDll_CCSGameRules_m_nRoundStartCount = 0x1414 // uint8
     ServerDll_CCSGameRules_m_flLastPerfSampleTime = 0x5420 // float64
-    ServerDll_CCSGameRules_game_coopmission_manager = 0xBD50CD98 // MNetworkEnable
+    ServerDll_CCSGameRules_game_coopmission_manager = 0xB258CD98 // MNetworkEnable
     ServerDll_CCSGameRules_m_nMatchSeed = 0x138 // int32
     ServerDll_CCSGameRules_m_bBlockersPresent = 0x13C // bool
     ServerDll_CCSGameRules_m_bRoundInProgress = 0x13D // bool
@@ -4882,8 +4882,8 @@ const (
     ServerDll_CBaseEntity_m_flVPhysicsUpdateLocalTime = 0x498 // float32
     ServerDll_CBaseEntity_m_nBloodType = 0x49C // BloodType
     ServerDll_CBaseEntity_m_pPulseGraphInstance = 0x4A0 // CPulseGraphInstance_ServerEntity*
-    ServerDll_CBaseEntity_Default = 0xBD47FDB8 // MPropertyFriendlyName
-    ServerDll_CBaseEntity_Tripmine = 0xBD45D1C0 // MPropertyFriendlyName
+    ServerDll_CBaseEntity_Default = 0xB24FFDB8 // MPropertyFriendlyName
+    ServerDll_CBaseEntity_Tripmine = 0xB24DD1C0 // MPropertyFriendlyName
     ServerDll_CGameSceneNodeHandle_m_hOwner = 0x8 // CEntityHandle
     ServerDll_CGameSceneNodeHandle_m_name = 0xC // CUtlStringToken
     ServerDll_CMarkupVolumeWithRef_m_bUseRef = 0x778 // bool

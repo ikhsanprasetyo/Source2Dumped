@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 18:55:24.612541300 +07:00
+// 2026-04-02 19:15:51.295207800 +07:00
 
 #pragma once
 
@@ -111,7 +111,6 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // 
             // RENDER_MULTISAMPLE_INVALID
             // RENDER_MULTISAMPLE_2X
             // RENDER_MULTISAMPLE_4X
@@ -119,11 +118,9 @@ namespace source2_dumper {
             // RENDER_MULTISAMPLE_8X
             // RENDER_MULTISAMPLE_16X
             // RENDER_MULTISAMPLE_TYPE_COUNT
-            // 
             // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
             // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
             // INPUT_LAYOUT_VARIATION_MAX
-            // 
             // RENDER_PRIM_LINES
             // RENDER_PRIM_LINES_WITH_ADJACENCY
             // RENDER_PRIM_LINE_STRIP
@@ -137,7 +134,6 @@ namespace source2_dumper {
             // RENDER_PRIM_COMPUTE_SHADER
             // RENDER_PRIM_MESH_SHADER
             // RENDER_PRIM_TYPE_COUNT
-            // 
             // RENDER_BUFFER_USAGE_VERTEX_BUFFER
             // RENDER_BUFFER_USAGE_INDEX_BUFFER
             // RENDER_BUFFER_USAGE_SHADER_RESOURCE
@@ -150,111 +146,10 @@ namespace source2_dumper {
             // RENDER_BUFFER_POOL_ALLOCATED
             // RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING
             // RENDER_BUFFER_IMMOVABLE_ALLOCATION
-            // 
             // RENDER_SLOT_INVALID
             // RENDER_SLOT_PER_INSTANCE
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // `Y���
-            // 
-            // �3���
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // H��(賉
-            // H���
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
+            // E!
+            // E!
             namespace SheetSequenceIntegerId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }

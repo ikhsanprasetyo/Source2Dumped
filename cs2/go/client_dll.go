@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 18:55:24.612541300 +07:00
+// 2026-04-02 19:15:51.295207800 +07:00
 
 package schemas
 
@@ -2795,7 +2795,7 @@ const (
     ClientDll_C_PlantedC4_m_vecC4ExplodeSpectatePos = 0x16C0 // Vector
     ClientDll_C_PlantedC4_m_vecC4ExplodeSpectateAng = 0x16CC // QAngle
     ClientDll_C_PlantedC4_m_flC4ExplodeSpectateDuration = 0x16D8 // float32
-    ClientDll_C_PlantedC4_spectating = 0xBABE10C0 // MNetworkEnable
+    ClientDll_C_PlantedC4_spectating = 0xB03010C0 // MNetworkEnable
     ClientDll_CFilterName_m_iFilterName = 0x640 // CUtlSymbolLarge
     ClientDll_C_RagdollProp_m_ragEnabled = 0x1170 // C_NetworkUtlVectorBase<bool>
     ClientDll_C_RagdollProp_m_ragPos = 0x1188 // C_NetworkUtlVectorBase<Vector>

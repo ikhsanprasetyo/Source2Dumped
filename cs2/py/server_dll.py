@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 18:55:24.612541300 +07:00
+# 2026-04-02 19:15:51.295207800 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -5224,7 +5224,7 @@ class Schemas:
             m_iRoundStartRoundNumber = 0x1410 # int32
             m_nRoundStartCount = 0x1414 # uint8
             m_flLastPerfSampleTime = 0x5420 # float64
-            game_coopmission_manager = 0xBD50CD98 # MNetworkEnable
+            game_coopmission_manager = 0xB258CD98 # MNetworkEnable
             m_nMatchSeed = 0x138 # int32
             m_bBlockersPresent = 0x13C # bool
             m_bRoundInProgress = 0x13D # bool
@@ -5755,8 +5755,8 @@ class Schemas:
             m_flVPhysicsUpdateLocalTime = 0x498 # float32
             m_nBloodType = 0x49C # BloodType
             m_pPulseGraphInstance = 0x4A0 # CPulseGraphInstance_ServerEntity*
-            Default = 0xBD47FDB8 # MPropertyFriendlyName
-            Tripmine = 0xBD45D1C0 # MPropertyFriendlyName
+            Default = 0xB24FFDB8 # MPropertyFriendlyName
+            Tripmine = 0xB24DD1C0 # MPropertyFriendlyName
         class CPlayer_UseServices:
             pass
         class CGameSceneNodeHandle:
