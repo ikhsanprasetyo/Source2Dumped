@@ -1,0 +1,55 @@
+# Generated using https://github.com/ikhsanprasetyo/source2-dumper
+# 2026-04-02 19:22:16.019179300 +07:00
+
+class Schemas:
+    # Module: scenesystem.dll
+    class ScenesystemDll:
+        class ESceneViewDebugOverlaysListenerDataType_t:
+            k_ESceneViewDebugOverlaysListenerDataType_Unknown = 0x0
+            k_ESceneViewDebugOverlaysListenerDataType_Sphere = 0x1
+            k_ESceneViewDebugOverlaysListenerDataType_Capsule = 0x2
+            k_ESceneViewDebugOverlaysListenerDataType_BoxAngles = 0x3
+            k_ESceneViewDebugOverlaysListenerDataType_Line = 0x4
+            k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles = 0x5
+            k_ESceneViewDebugOverlaysListenerDataType_Text3D = 0x6
+        class ESilhouetteType_t:
+            SILHOUETTE_NONE = 0x0
+            SILHOUETTE_LIGHT = 0x1
+            SILHOUETTE_ENVMAP = 0x2
+            SILHOUETTE_LPV = 0x4
+        class DisableShadows_t:
+            kDisableShadows_None = 0x0
+            kDisableShadows_All = 0x1
+            kDisableShadows_Baked = 0x2
+            kDisableShadows_Realtime = 0x3
+            kDisableShadows_ReallyNone = 0x4
+        class DecalRtEncoding_t:
+            kDecalInvalid = 0xFF
+            kDecalMin = 0x0
+            kDecalCloak = 0x1
+            kDecalMax = 0x2
+        class ESceneObjectVisualization:
+            SCENEOBJECT_VIS_NONE = 0x0
+            SCENEOBJECT_VIS_OBJECT = 0x1
+            SCENEOBJECT_VIS_MATERIAL = 0x2
+            SCENEOBJECT_VIS_TEXTURE_SIZE = 0x3
+            SCENEOBJECT_VIS_LOD = 0x4
+            SCENEOBJECT_VIS_INSTANCING = 0x5
+        class CSSDSMsg_ViewTarget:
+            pass
+        class SceneViewId_t:
+            pass
+        class CSSDSEndFrameViewInfo:
+            pass
+        class CSSDSMsg_PostLayer:
+            pass
+        class CSSDSMsg_LayerBase:
+            pass
+        class CSSDSMsg_PreLayer:
+            pass
+        class CSSDSMsg_ViewTargetList:
+            pass
+        class CSSDSMsg_ViewRender:
+            pass
+        class CSSDSMsg_EndFrame:
+            pass

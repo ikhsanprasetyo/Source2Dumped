@@ -1,0 +1,127 @@
+# Generated using https://github.com/ikhsanprasetyo/source2-dumper
+# 2026-04-02 19:22:16.019179300 +07:00
+
+class Schemas:
+    # Module: engine2.dll
+    class Engine2Dll:
+        class EntityDormancyType_t:
+            ENTITY_NOT_DORMANT = 0x0
+            ENTITY_DORMANT = 0x1
+            ENTITY_SUSPENDED = 0x2
+        class EntityIOTargetType_t:
+            ENTITY_IO_TARGET_INVALID = 0xFFFFFFFFFFFFFFFF
+            ENTITY_IO_TARGET_ENTITYNAME = 0x2
+            ENTITY_IO_TARGET_EHANDLE = 0x6
+            ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
+        class CEntityInstance:
+            pass
+        class CEntityComponent:
+            pass
+        class CScriptComponent:
+            pass
+        class CEntityIdentity:
+            pass
+        class EventClientPostSimulate_t:
+            pass
+        class EventSimpleLoopFrameUpdate_t:
+            pass
+        class EventPostAdvanceTick_t:
+            pass
+        class CEntityIOOutput:
+            pass
+        class EventClientSceneSystemThreadStateChange_t:
+            pass
+        class EventClientOutput_t:
+            pass
+        class EventServerPostSimulate_t:
+            pass
+        class CEntityComponentHelper:
+            pass
+        class GameTime_t:
+            pass
+        class EventServerBeginSimulate_t:
+            pass
+        class EntityIOQueuePrioritizedEvent_t:
+            pass
+        class EventServerEndAsyncPostTickWork_t:
+            pass
+        class EventClientAdvanceTick_t:
+            pass
+        class EntInput_t:
+            pass
+        class CNetworkVarChainer:
+            pass
+        class EventClientSimulate_t:
+            pass
+        class EventClientPostOutput_t:
+            pass
+        class GameTick_t:
+            pass
+        class EventClientPollInput_t:
+            pass
+        class EventPreDataUpdate_t:
+            pass
+        class EventClientProcessGameInput_t:
+            pass
+        class EventFrameBoundary_t:
+            pass
+        class EventAppShutdown_t:
+            pass
+        class EventServerPostAdvanceTick_t:
+            pass
+        class EventProfileStorageAvailable_t:
+            pass
+        class EventPostDataUpdate_t:
+            pass
+        class EventClientPreSimulate_t:
+            pass
+        class EventClientPauseSimulate_t:
+            pass
+        class EventClientProcessNetworking_t:
+            pass
+        class CEntityAttributeTable:
+            pass
+        class EventClientPreOutputParallelWithServer_t:
+            pass
+        class EventAdvanceTick_t:
+            pass
+        class EventSplitScreenStateChanged_t:
+            pass
+        class EventClientPostAdvanceTick_t:
+            pass
+        class CVariantDefaultAllocator:
+            pass
+        class EventModInitialized_t:
+            pass
+        class EventClientPreOutput_t:
+            pass
+        class EventClientFrameSimulate_t:
+            pass
+        class EventServerAdvanceTick_t:
+            pass
+        class EventSetTime_t:
+            pass
+        class EventSimulate_t:
+            pass
+        class CEntityKeyValues:
+            pass
+        class EventClientAdvanceNonRenderedFrame_t:
+            pass
+        class EventServerProcessNetworking_t:
+            pass
+        class CEmptyEntityInstance:
+            pass
+        class EntComponentInfo_t:
+            pass
+        class EngineLoopState_t:
+            pass
+        class EventClientPollNetworking_t:
+            pass
+        class EventServerBeginAsyncPostTickWork_t:
+            pass
+        class EventClientProcessInput_t:
+            pass
+        class EventServerEndSimulate_t:
+            pass
+        class EventServerPollNetworking_t:
+            pass

@@ -1,0 +1,92 @@
+{
+  "steamaudio.dll": {
+    "classes": {
+      "CSteamAudioAmbisonicsField": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedDimensionsData": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedMaterialsData": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedOcclusionData": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedPathingData": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedReverbData": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioCompressedReverb": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioProbeData": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioProbeGrid": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioProbeLineSegment": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioSceneData": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioCustomDataDimensionsSettings_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioCustomDataOcclusionSettings_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioPathSettings_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioReverbClusteringSettings_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioReverbCompressionSettings_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioReverbSettings_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      }
+    },
+    "enums": {}
+  }
+}
