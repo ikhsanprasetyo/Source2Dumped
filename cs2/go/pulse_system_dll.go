@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 package schemas
 
@@ -151,6 +151,8 @@ const (
     PulseSystemDll_CPulse_BlackboardReference_m_nNodeID = 0x18 // PulseDocNodeID_t
     PulseSystemDll_CPulse_BlackboardReference_m_NodeName = 0x20 // CGlobalSymbol
     PulseSystemDll_CPulseCell_Step_TestDomainEntFire_m_Input = 0x48 // CUtlString
+    PulseSystemDll_CPulseCell_Step_TestDomainEntFire_flWaitValue = 0x0 // float32
+    PulseSystemDll_CPulseCell_Step_TestDomainEntFire_bFailOnCancel = 0x4 // bool
     PulseSystemDll_CPulseCell_ExampleSelector_m_OutflowList = 0x48 // PulseSelectorOutflowList_t
     PulseSystemDll_CPulse_CallInfo_m_PortName = 0x0 // PulseSymbol_t
     PulseSystemDll_CPulse_CallInfo_m_nEditorNodeID = 0x10 // PulseDocNodeID_t

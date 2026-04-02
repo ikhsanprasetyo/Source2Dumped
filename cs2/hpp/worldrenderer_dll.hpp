@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 #pragma once
 
@@ -51,6 +51,244 @@ namespace source2_dumper {
             // Metadata:
             // NetworkVarNames: m_pEntity (CEntityIdentity*)
             // NetworkVarNames: m_CScriptComponent (CScriptComponent::Storage_t)
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��f��
+            // ��f��
+            // ��f��
+            // �l���
+            // 
+            //  r���
+            //  m���
+            // P�n��
+            // `l���
+            // 
+            // 
+            // �t���
+            // 
+            // H�\$H�l$H�t$WH��PI��A��H������H�����{
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MNetworkSerializeAs
+            // MNetworkSerializeAs
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��f��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0�f��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // NetworkVarNames: m_nameStringableIndex (int32)
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�
+            // 3���������������H��H�PH�HSUVWAVH��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CEntityInstance {
                 constexpr std::ptrdiff_t m_iszPrivateVScripts = 0x8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_pEntity = 0x10; // CEntityIdentity*
@@ -70,6 +308,251 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_nameStringableIndex (int32)
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�
+            // 3���������������H��H�PH�HSUVWAVH��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �+
+            // 
+            // 
+            // 
+            // 
+            // �+
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CEntityIdentity {
                 constexpr std::ptrdiff_t m_nameStringableIndex = 0x14; // int32
                 constexpr std::ptrdiff_t m_name = 0x18; // CUtlSymbolLarge
@@ -89,6 +572,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace RTProxyInstanceInfo_t {
                 constexpr std::ptrdiff_t m_nFlags = 0x0; // RTProxyInstanceFlags_t
                 constexpr std::ptrdiff_t m_albedoFormat = 0x1; // VertexAlbedoFormat_t
@@ -102,6 +588,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
             namespace AggregateVertexAlbedoStreamOnDiskData_t {
                 constexpr std::ptrdiff_t m_BufferData = 0x0; // CUtlBinaryBlock
             }
@@ -109,6 +601,11 @@ namespace source2_dumper {
             // Field count: 14
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace SceneObject_t {
                 constexpr std::ptrdiff_t m_nObjectID = 0x0; // uint32
@@ -131,6 +628,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // OBJECT_TYPE_MODEL
+            // OBJECT_TYPE_BLOCK_LIGHT
             namespace AggregateLODSetup_t {
                 constexpr std::ptrdiff_t m_vLODOrigin = 0x0; // Vector
                 constexpr std::ptrdiff_t m_fMaxObjectScale = 0xC; // float32
@@ -141,6 +641,205 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // OBJECT_TYPE_MODEL
+            // OBJECT_TYPE_BLOCK_LIGHT
+            // OBJECT_TYPE_NO_SHADOWS
+            // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
+            // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
+            // OBJECT_TYPE_NO_SUN_SHADOWS
+            // OBJECT_TYPE_RENDER_WITH_DYNAMIC
+            // OBJECT_TYPE_RENDER_TO_CUBEMAPS
+            // OBJECT_TYPE_MODEL_HAS_LODS
+            // OBJECT_TYPE_OVERLAY
+            // OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
+            // OBJECT_TYPE_STATIC_CUBE_MAP
+            // OBJECT_TYPE_DISABLE_VIS_CULLING
+            // OBJECT_TYPE_BAKED_GEOMETRY
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
+            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
+            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // pbo��
+            // �Xo��
+            // `Yo��
+            // ro��
+            // @io��
+            //  fo��
+            // �io��
+            // �do��
+            // �co��
+            // �jo��
+            // 0^o��
+            // 
+            // �to��
+            // �so��
+            // 0Zo��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  AY��
+            // �&Y��
+            // `NY��
+            // �0Y��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @�T��
+            // 
+            // �Vf��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // /
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace ExtraVertexStreamOverride_t {
                 constexpr std::ptrdiff_t m_nSubSceneObject = 0x4; // uint32
                 constexpr std::ptrdiff_t m_nDrawCallIndex = 0x8; // uint32
@@ -152,6 +851,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
             namespace ClutterTile_t {
                 constexpr std::ptrdiff_t m_nFirstInstance = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nLastInstance = 0x4; // uint32
@@ -161,6 +862,10 @@ namespace source2_dumper {
             // Field count: 10
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace AggregateSceneObject_t {
                 constexpr std::ptrdiff_t m_allFlags = 0x0; // ObjectTypeFlags_t
@@ -179,6 +884,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace NodeData_t {
                 constexpr std::ptrdiff_t m_nParent = 0x0; // int32
                 constexpr std::ptrdiff_t m_vOrigin = 0x4; // Vector
@@ -197,6 +909,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // OBJECT_TYPE_MODEL
             namespace AggregateInstanceStreamOnDiskData_t {
                 constexpr std::ptrdiff_t m_DecodedSize = 0x0; // uint32
                 constexpr std::ptrdiff_t m_BufferData = 0x8; // CUtlBinaryBlock
@@ -206,6 +922,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
             namespace RTProxyBLAS_t {
                 constexpr std::ptrdiff_t m_nFirstIndex = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nIndexCount = 0x4; // uint32
@@ -222,6 +940,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // OBJECT_TYPE_MODEL
             namespace ClutterSceneObject_t {
                 constexpr std::ptrdiff_t m_Bounds = 0x0; // AABB_t
                 constexpr std::ptrdiff_t m_flags = 0x18; // ObjectTypeFlags_t
@@ -240,6 +963,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace WorldBuilderParams_t {
                 constexpr std::ptrdiff_t m_flMinDrawVolumeSize = 0x0; // float32
                 constexpr std::ptrdiff_t m_bBuildBakedLighting = 0x4; // bool
@@ -253,6 +983,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace PermEntityLumpData_t {
                 constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_childLumps = 0x10; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
@@ -263,6 +1000,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
             namespace WorldNode_t {
                 constexpr std::ptrdiff_t m_sceneObjects = 0x0; // CUtlVector<SceneObject_t>
                 constexpr std::ptrdiff_t m_visClusterMembership = 0x18; // CUtlVector<uint16>
@@ -285,6 +1026,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace BaseSceneObjectOverride_t {
                 constexpr std::ptrdiff_t m_nSceneObjectIndex = 0x0; // uint32
             }
@@ -293,6 +1037,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace EntityIOConnectionData_t {
                 constexpr std::ptrdiff_t m_outputName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_targetType = 0x8; // uint32
@@ -308,6 +1059,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
+            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
             namespace BakedLightingInfo_t {
                 constexpr std::ptrdiff_t m_nLightmapVersionNumber = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nLightmapGameVersionNumber = 0x4; // uint32
@@ -326,6 +1080,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace VoxelVisBlockOffset_t {
                 constexpr std::ptrdiff_t m_nOffset = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nElementCount = 0x4; // uint32
@@ -335,6 +1092,249 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // RTPROXY_INSTANCE_UNIQUE_MESH
+            // MGetKV3ClassDefaults
             namespace InfoForResourceTypeVMapResourceData_t {
             }
             // Parent: None
@@ -342,6 +1342,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // OBJECT_TYPE_MODEL
+            // OBJECT_TYPE_BLOCK_LIGHT
             namespace WorldNodeOnDiskBufferData_t {
                 constexpr std::ptrdiff_t m_nElementCount = 0x0; // int32
                 constexpr std::ptrdiff_t m_nElementSizeInBytes = 0x4; // int32
@@ -352,6 +1356,9 @@ namespace source2_dumper {
             // Field count: 12
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace AggregateMeshInfo_t {
                 constexpr std::ptrdiff_t m_nVisClusterMemberOffset = 0x0; // uint32
@@ -372,6 +1379,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace World_t {
                 constexpr std::ptrdiff_t m_builderParams = 0x0; // WorldBuilderParams_t
                 constexpr std::ptrdiff_t m_worldNodes = 0x60; // CUtlVector<NodeData_t>
@@ -383,6 +1397,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
             namespace BakedLightingInfo_t__BakedShadowAssignment_t {
                 constexpr std::ptrdiff_t m_nLightHash = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nMapHash = 0x4; // uint32
@@ -393,6 +1408,204 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // OBJECT_TYPE_MODEL
+            // OBJECT_TYPE_BLOCK_LIGHT
+            // OBJECT_TYPE_NO_SHADOWS
+            // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
+            // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
+            // OBJECT_TYPE_NO_SUN_SHADOWS
+            // OBJECT_TYPE_RENDER_WITH_DYNAMIC
+            // OBJECT_TYPE_RENDER_TO_CUBEMAPS
+            // OBJECT_TYPE_MODEL_HAS_LODS
+            // OBJECT_TYPE_OVERLAY
+            // OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
+            // OBJECT_TYPE_STATIC_CUBE_MAP
+            // OBJECT_TYPE_DISABLE_VIS_CULLING
+            // OBJECT_TYPE_BAKED_GEOMETRY
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
+            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
+            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // pbo��
+            // �Xo��
+            // `Yo��
+            // ro��
+            // @io��
+            //  fo��
+            // �io��
+            // �do��
+            // �co��
+            // �jo��
+            // 0^o��
+            // 
+            // �to��
+            // �so��
+            // 0Zo��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  AY��
+            // �&Y��
+            // `NY��
+            // �0Y��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @�T��
+            // 
+            // �Vf��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // /
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace MaterialOverride_t {
                 constexpr std::ptrdiff_t m_nSubSceneObject = 0x4; // uint32
                 constexpr std::ptrdiff_t m_nDrawCallIndex = 0x8; // uint32
@@ -404,6 +1617,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
+            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
             namespace AggregateRTProxySceneObject_t {
                 constexpr std::ptrdiff_t m_nLayer = 0x0; // int16
                 constexpr std::ptrdiff_t m_BLASes = 0x8; // CUtlVector<RTProxyBLAS_t>
@@ -417,6 +1634,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
             namespace EntityKeyValueData_t {
                 constexpr std::ptrdiff_t m_connections = 0x8; // CUtlVector<EntityIOConnectionData_t>
                 constexpr std::ptrdiff_t m_keyValuesData = 0x20; // CUtlBinaryBlock
@@ -426,6 +1650,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CVoxelVisibility {
                 constexpr std::ptrdiff_t m_nBaseClusterCount = 0x40; // uint32
                 constexpr std::ptrdiff_t m_nPVSBytesPerCluster = 0x44; // uint32

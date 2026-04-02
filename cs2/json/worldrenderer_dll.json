@@ -10,6 +10,22 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -23,6 +39,18 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_BLOCK_LIGHT",
             "type": "Unknown"
           }
         ],
@@ -47,6 +75,18 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63,6 +103,22 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8",
             "type": "Unknown"
           }
         ],
@@ -85,6 +141,22 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -96,6 +168,30 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
             "type": "Unknown"
           }
         ],
@@ -119,6 +215,18 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -133,6 +241,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -142,6 +254,18 @@
           "m_nSceneObjectIndex": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -174,6 +298,986 @@
             "name": "m_nameStringableIndex",
             "type": "NetworkVarNames",
             "type_name": "int32"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0001",
+            "type": "Unknown"
+          },
+          {
+            "name": "H��(�����H��t\u0006�\u0015",
+            "type": "Unknown"
+          },
+          {
+            "name": "3���������������H��H�P\u0010H�H\bSUVWAVH��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�+\u001a",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�+\u001a",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -194,6 +1298,959 @@
             "name": "m_CScriptComponent",
             "type": "NetworkVarNames",
             "type_name": "CScriptComponent::Storage_t"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "��f��",
+            "type": "Unknown"
+          },
+          {
+            "name": "��f��",
+            "type": "Unknown"
+          },
+          {
+            "name": "��f��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�l���",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": " r���",
+            "type": "Unknown"
+          },
+          {
+            "name": " m���",
+            "type": "Unknown"
+          },
+          {
+            "name": "P�n��",
+            "type": "Unknown"
+          },
+          {
+            "name": "`l���",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�t���",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "H�\\$\bH�l$\u0010H�t$\u0018WH��PI��A��H������H����\u000f�{\u0001",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkSerializeAs",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkSerializeAs",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "��f��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "0�f��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "m_nameStringableIndex",
+            "type": "NetworkVarNames",
+            "type_name": "int32"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0001",
+            "type": "Unknown"
+          },
+          {
+            "name": "H��(�����H��t\u0006�\u0015",
+            "type": "Unknown"
+          },
+          {
+            "name": "3���������������H��H�P\u0010H�H\bSUVWAVH��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -225,6 +2282,34 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -247,6 +2332,26 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -260,6 +2365,14 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
             "type": "Unknown"
           }
         ],
@@ -280,6 +2393,34 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "\u0001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -292,6 +2433,34 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
             "type": "Unknown"
           }
         ],
@@ -308,6 +2477,802 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_BLOCK_LIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_NO_SHADOWS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_DISABLED_IN_LOW_QUALITY",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_NO_SUN_SHADOWS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_RENDER_WITH_DYNAMIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_RENDER_TO_CUBEMAPS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL_HAS_LODS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_OVERLAY",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_PRECOMPUTED_VISMEMBERS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_STATIC_CUBE_MAP",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_DISABLE_VIS_CULLING",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_BAKED_GEOMETRY",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0001",
+            "type": "Unknown"
+          },
+          {
+            "name": "pbo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�Xo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "`Yo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0010ro��",
+            "type": "Unknown"
+          },
+          {
+            "name": "@io��",
+            "type": "Unknown"
+          },
+          {
+            "name": " fo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�io��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�do��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�co��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�jo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "0^o��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�to��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�so��",
+            "type": "Unknown"
+          },
+          {
+            "name": "0Zo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": " AY��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�&Y��",
+            "type": "Unknown"
+          },
+          {
+            "name": "`NY��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�0Y��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "@�T��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�Vf��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -317,6 +3282,978 @@
         "metadata": [
           {
             "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "RTPROXY_INSTANCE_UNIQUE_MESH",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -332,6 +4269,798 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_BLOCK_LIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_NO_SHADOWS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_DISABLED_IN_LOW_QUALITY",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_NO_SUN_SHADOWS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_RENDER_WITH_DYNAMIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_RENDER_TO_CUBEMAPS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL_HAS_LODS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_OVERLAY",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_PRECOMPUTED_VISMEMBERS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_STATIC_CUBE_MAP",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_DISABLE_VIS_CULLING",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_BAKED_GEOMETRY",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0001",
+            "type": "Unknown"
+          },
+          {
+            "name": "pbo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�Xo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "`Yo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0010ro��",
+            "type": "Unknown"
+          },
+          {
+            "name": "@io��",
+            "type": "Unknown"
+          },
+          {
+            "name": " fo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�io��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�do��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�co��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�jo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "0^o��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�to��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�so��",
+            "type": "Unknown"
+          },
+          {
+            "name": "0Zo��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": " AY��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�&Y��",
+            "type": "Unknown"
+          },
+          {
+            "name": "`NY��",
+            "type": "Unknown"
+          },
+          {
+            "name": "�0Y��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "@�T��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�Vf��",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
             "type": "Unknown"
           }
         ],
@@ -351,6 +5080,34 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -364,6 +5121,34 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
             "type": "Unknown"
           }
         ],
@@ -385,6 +5170,14 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -399,6 +5192,18 @@
           "m_nVertexAlbedoByteOffset": 8
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -427,6 +5232,26 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -442,6 +5267,18 @@
           "m_nOffset": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -462,6 +5299,34 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -476,6 +5341,22 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_MODEL",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_BLOCK_LIGHT",
             "type": "Unknown"
           }
         ],
@@ -503,6 +5384,22 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -517,6 +5414,34 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
             "type": "Unknown"
           }
         ],

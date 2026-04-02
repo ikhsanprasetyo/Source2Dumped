@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-03-30 13:26:13.707080100 +07:00
+# 2026-04-02 18:55:24.612541300 +07:00
 
 class Schemas:
     # Module: pulse_system.dll
@@ -269,6 +269,8 @@ class Schemas:
             pass
         class CPulseCell_Step_TestDomainEntFire:
             m_Input = 0x48 # CUtlString
+            flWaitValue = 0x0 # float32
+            bFailOnCancel = 0x4 # bool
         class FakeEntityDerivedA_tAPI:
             pass
         class CPulseCell_ExampleSelector:

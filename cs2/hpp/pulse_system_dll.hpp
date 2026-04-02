@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 #pragma once
 
@@ -54,6 +54,259 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��t
+            // �
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Step_TestDomainDestroyFakeEntity {
             }
             // Parent: None
@@ -64,6 +317,251 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xjB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // nB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // �oB��
+            // 
+            // 
+            // 
+            // 
+            // pB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �nB��
+            // pB��
+            // pB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `vB��
+            // �<��
+            // �nB��
+            // 
+            // 
+            // 
+            // ��
+            // H�q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 
+            // �
+            // H��
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // ���
+            // 
+            // H�\$WH��0H��H���[
+            // H��
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_WaitForCursorsWithTag {
                 constexpr std::ptrdiff_t m_bTagSelfWhenComplete = 0x98; // bool
                 constexpr std::ptrdiff_t m_nDesiredKillPriority = 0x9C; // PulseCursorCancelPriority_t
@@ -73,6 +571,259 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��t
+            // �
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Test_NoInflow {
             }
             // Parent: None
@@ -83,6 +834,12 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Base {
                 constexpr std::ptrdiff_t m_nEditorNodeID = 0x8; // PulseDocNodeID_t
@@ -106,6 +863,253 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // XB��
+            // 
+            // SORT_BY_OUTFLOW_INDEX
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // H�\$WH��0H��H���m��H��@
+            // H�im
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H��3��V���������@SH�� H��H��
+            // H��(H�uS
+            // 
+            // �~
+            // H��m
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H��(H�EU
+            // 
+            // @VWH��hH��H���>o��H��@
+            // H�q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�p
+            // L�9
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �t9��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �z9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �|9��
+            // �~9��
+            // 
+            // 
+            // ��9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��9��
+            // ��9��
+            // ��9��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0�9��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_PickBestOutflowSelector {
                 constexpr std::ptrdiff_t m_nCheckType = 0x48; // PulseBestOutflowRules_t
                 constexpr std::ptrdiff_t m_OutflowList = 0x50; // PulseSelectorOutflowList_t
@@ -115,6 +1119,186 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // 
+            // �~
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H��(H��
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H�Q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // x�G��
+            // ��G��
+            // ��G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H�y
+            // H�\$WH�� H��
+            // 
+            // H�y
+            // 
+            // 
+            // 
+            // �~1��
+            // 
+            // P A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseTestFuncs_LibraryA {
             }
             // Parent: None
@@ -124,6 +1308,259 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // H�\$VWAUAVAWH��`H�BL��H�JA��I��L���P8L�L�GL�L$ H�pL�D$(H��tH�6H�L$ H��$�
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // f�
+            // H����
+            // H�l$H�t$ AVH��pH�BH�rH��H���P8H��H��L��董�����
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // hB��
+            // 
+            // 
+            // 
+            // 
+            // �hB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��<��
+            // 
+            //  iB��
+            // �nB��
+            // 
+            // 
+            // 
+            // �lB��
+            // 
+            // @mB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��<��
+            // �jB��
+            // �jB��
+            // �kB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `lB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �lB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �nB��
+            // �nB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �lB��
+            // 
+            // @mB��
+            // 
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorHeaderIcon
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_WaitForObservable {
                 constexpr std::ptrdiff_t m_Condition = 0x48; // PulseObservableBoolExpression_t
                 constexpr std::ptrdiff_t m_OnTrue = 0xC0; // CPulse_ResumePoint
@@ -141,6 +1578,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseGraphDef {
                 constexpr std::ptrdiff_t m_DomainIdentifier = 0x8; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_DomainSubType = 0x18; // CPulseValueFullType
@@ -166,6 +1609,260 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H�)7
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H��E3�H��H��ID���
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H��-
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // YB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `5<��
+            // x\B��
+            // �\B��
+            // �\B��
+            // 
+            // 
+            // @SH�� H��H���
+            // L�I
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // L�RH�BL�AHE3ɺ
+            // H�\$UVWH���
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���0��H���D$X����H��(
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �T<��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // @SH�� H��H�@�
+            // L���
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // L��I�[I�kI�s WH��p3�H�ZH��A�CH��A��H���
+            // ����������������H�\$H�l$H�t$WH�� H��A��H��A��H����:��D�ǋ�H���K���H��H��H�\$0H�l$8H�t$@H�� _����������������L��I�[I�kI�s W
+            // �
+            // H�ʺ
+            // H�\$WH�� H�BH��H�JI���PHH��H���Z=��L��(
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Px<��
+            // �aB��
+            // bB��
+            // �bB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // pt<��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyFriendlyName
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
             namespace CPulseCell_FireCursors {
                 constexpr std::ptrdiff_t m_Outflows = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 constexpr std::ptrdiff_t m_bWaitForChildOutflows = 0x60; // bool
@@ -177,6 +1874,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // @SH�� H��H�@�
+            // L���
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
             namespace CPulseCell_Timeline__TimelineEvent_t {
                 constexpr std::ptrdiff_t m_flTimeFromPrevious = 0x0; // float32
                 constexpr std::ptrdiff_t m_EventOutflow = 0x8; // CPulse_OutflowConnection
@@ -186,6 +1890,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace CPulseCell_IntervalTimer__CursorState_t {
                 constexpr std::ptrdiff_t m_StartTime = 0x0; // GameTime_t
                 constexpr std::ptrdiff_t m_EndTime = 0x4; // GameTime_t
@@ -198,6 +1905,263 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // @'8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �08��
+            // 
+            // �58��
+            // �:8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  G8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �J8��
+            // ��G��
+            // ��A��
+            // ��A��
+            // ��A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �N8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
             namespace CPulseCell_BaseRequirement {
             }
             // Parent: None
@@ -206,6 +2170,505 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Px<��
+            // �aB��
+            // bB��
+            // �bB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // pt<��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyFriendlyName
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // H�\$VWAUAVAWH��`H�BL��H�JA��I��L���P8L�L�GL�L$ H�pL�D$(H��tH�6H�L$ H��$�
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // f�
+            // H����
+            // H�l$H�t$ AVH��pH�BH�rH��H���P8H��H��L��董�����
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // hB��
+            // 
+            // 
+            // 
+            // 
+            // �hB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��<��
+            // 
+            //  iB��
+            // �nB��
+            // 
+            // 
+            // 
+            // �lB��
+            // 
+            // @mB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��<��
+            // �jB��
+            // �jB��
+            // �kB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `lB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �lB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �nB��
+            // �nB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �lB��
+            // 
+            // @mB��
+            // 
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorHeaderIcon
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // @SH�� H��H��X
+            // L�)
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // H��t#SH�� H�JH���ڌ���0
+            // H�\$H�t$UWAVH��H��@H�BH��H�JI���PHH��H���O+��H���E(����H��(
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� H��H�S
+            // L�9
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // H��t#SH�� H�JH���ڌ���0
+            // H�\$H�t$UWAVH��H��@H�BH��H�JI���PHH��H���O+��H���E(����H��(
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� H��H�pT
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // H��t#SH�� H�JH���ڌ���0
+            // H�\$H�t$UWAVH��H��@H�BH��H�JI���PHH��H���O+��H���E(����H��(
+            // ���
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -213,6 +2676,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace OutflowWithRequirements_t {
                 constexpr std::ptrdiff_t m_Connection = 0x0; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_DestinationFlowNodeID = 0x48; // PulseDocNodeID_t
@@ -224,6 +2693,260 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // HB��
+            // �G��
+            // ��G��
+            // `�G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // 
+            // 
+            // @9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `9��
+            // B��
+            // 0B��
+            // 
+            // 
+            // 
+            // @SH�� H��H��
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3�����������H�\$H�t$UWATAVAWH�l$�H���
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H�
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H��
+            // L��
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �{
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Ps9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ��9��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ��9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_IsRequirementValid {
             }
             // Parent: None
@@ -232,6 +2955,260 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // 
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H��-
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // YB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `5<��
+            // x\B��
+            // �\B��
+            // �\B��
+            // 
+            // 
+            // @SH�� H��H���
+            // L�I
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // L�RH�BL�AHE3ɺ
+            // H�\$UVWH���
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���0��H���D$X����H��(
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �T<��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // @SH�� H��H�@�
+            // L���
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // L��I�[I�kI�s WH��p3�H�ZH��A�CH��A��H���
+            // ����������������H�\$H�l$H�t$WH�� H��A��H��A��H����:��D�ǋ�H���K���H��H��H�\$0H�l$8H�t$@H�� _����������������L��I�[I�kI�s W
+            // �
+            // H�ʺ
+            // H�\$WH�� H�BH��H�JI���PHH��H���Z=��L��(
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Px<��
+            // �aB��
+            // bB��
+            // �bB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // pt<��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyFriendlyName
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // H�\$VWAUAVAWH��`H�BL��H�JA��I��L���P8L�L�GL�L$ H�pL�D$(H��tH�6H�L$ H��$�
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // f�
+            // H����
+            // H�l$H�t$ AVH��pH�BH�rH��H���P8H��H��L��董�����
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Value_Gradient {
                 constexpr std::ptrdiff_t m_Gradient = 0x48; // CColorGradient
             }
@@ -240,6 +3217,247 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // nB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // �oB��
+            // 
+            // 
+            // 
+            // 
+            // pB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �nB��
+            // pB��
+            // pB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `vB��
+            // �<��
+            // �nB��
+            // 
+            // 
+            // 
+            // ��
+            // H�q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 
+            // �
+            // H��
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // ���
+            // 
+            // H�\$WH��0H��H���[
+            // H��
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCursorFuncs {
             }
             // Parent: None
@@ -247,6 +3465,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace PulseNodeDynamicOutflows_t__DynamicOutflow_t {
                 constexpr std::ptrdiff_t m_OutflowID = 0x0; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_Connection = 0x8; // CPulse_OutflowConnection
@@ -256,6 +3481,259 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // РG��
+            // �G��
+            // P�3��
+            // ȚG��
+            // @SH�� H��H�@p
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��t
+            // �
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Test_MultiOutflow_WithParams {
                 constexpr std::ptrdiff_t m_Out1 = 0x48; // SignatureOutflow_Continue
                 constexpr std::ptrdiff_t m_Out2 = 0x90; // SignatureOutflow_Continue
@@ -269,6 +3747,258 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // � 8��
+            // 
+            // 0=8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B8��
+            // 
+            // 
+            // �C8��
+            // PE8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �O8��
+            // 
+            // �Q8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
             namespace CPulseCell_Inflow_GraphHook {
                 constexpr std::ptrdiff_t m_HookName = 0x80; // PulseSymbol_t
             }
@@ -281,6 +4011,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H����
             namespace CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t {
                 constexpr std::ptrdiff_t nTestStep = 0x0; // int32
             }
@@ -297,6 +4030,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             namespace CPulseCell_TestWaitWithCursorState__CursorState_t {
                 constexpr std::ptrdiff_t flWaitValue = 0x0; // float32
                 constexpr std::ptrdiff_t bFailOnCancel = 0x4; // bool
@@ -306,6 +4042,258 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // `.8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // � 8��
+            // 
+            // 0=8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B8��
+            // 
+            // 
+            // �C8��
+            // PE8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �O8��
+            // 
+            // �Q8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
             namespace CPulseCell_Inflow_BaseEntrypoint {
                 constexpr std::ptrdiff_t m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
                 constexpr std::ptrdiff_t m_RegisterMap = 0x50; // PulseRegisterMap_t
@@ -315,6 +4303,258 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // �~
+            // H�y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��3��
+            // @SH�� H��H�@l
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �~
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // @SH�� H��H��l
+            // H�\$H�t$H�|$ UH��H��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // �
+            // H�\$H�t$H�|$UAVAWH�l$�H���
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���6
+            // 
+            // WHITE
+            // 
+            // RED
+            // 
+            // GREEN
+            // 
+            // BLUE
+            // 
+            // 
+            // �~
+            // H�	v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �G��
+            // ��G��
+            // @SH�� H��H��w
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H����
+            // H��r
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // @SH�� H��H� z
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // РG��
+            // �G��
+            // P�3��
+            // ȚG��
+            // @SH�� H��H�@p
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��t
+            // �
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Test_MultiInflow_NoDefault {
             }
             // Parent: None
@@ -323,6 +4563,267 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // @SH�� H��H��X
+            // L�)
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // H��t#SH�� H�JH���ڌ���0
+            // H�\$H�t$UWAVH��H��@H�BH��H�JI���PHH��H���O+��H���E(����H��(
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� H��H�S
+            // L�9
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // H��t#SH�� H�JH���ڌ���0
+            // H�\$H�t$UWAVH��H��@H�BH��H�JI���PHH��H���O+��H���E(����H��(
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� H��H�pT
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // H��t#SH�� H�JH���ڌ���0
+            // H�\$H�t$UWAVH��H��@H�BH��H�JI���PHH��H���O+��H���E(����H��(
+            // ���
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // CUtlRBTree<struct CUtlOrderedMapBase<enum KV3MetatextType_t,class CBufferString,class CDefLess<enum KV3MetatextType_t>,int>::Nod
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �A�
+            // �3H��
+            // ��J��
+            //  �G��
+            // ��G��
+            // 0G	��
+            // pI	��
+            // �^��
+            //  ^��
+            //  ^��
+            // 0gU��
+            // 
+            // �>���
+            // �����
+            // �Z��
+            // �=��
+            // 0-���
+            // (6���
+            // p4���
+            // 
+            // �:���
+            // @�{��
+            // 
+            //  ~��
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // ����
+            // `C���
+            // �H�
+            // �-���
+            // ��0��
+            // p&P��
+            // ��	��
+            // 
+            // 
+            // 
+            // p{��
+            // ��/��
+            // 
             namespace CPulseCell_WaitForCursorsWithTagBase {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToWait = 0x48; // int32
                 constexpr std::ptrdiff_t m_WaitComplete = 0x50; // CPulse_ResumePoint
@@ -332,6 +4833,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0�9��
+            // 
             namespace CPulse_InvokeBinding {
                 constexpr std::ptrdiff_t m_RegisterMap = 0x0; // PulseRegisterMap_t
                 constexpr std::ptrdiff_t m_FuncName = 0x30; // PulseSymbol_t
@@ -347,6 +4855,253 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // �
+            // H�	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V<��
+            // 
+            // 
+            // 
+            // �
+            // H�i�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$H�t$WH�� H��A��H��A��H����:��D�ǋ�H���K���H��H��H�\$0H�l$8H�t$@H�� _����������������L��I�[I�kI�s WH��p3�H�ZH��A�C
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$WH��P
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �aB��
+            // �dB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �dB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �v<��
+            // �dB��
+            // eB��
+            // 
+            // 
+            // @SH�� H��H��
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���%��H���
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H�\$H�t$H�|$UH��$`���H��
+            // �
+            // H�\$UVWATAUAVAWH��H��
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xjB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_IntervalTimer {
                 constexpr std::ptrdiff_t m_Completed = 0x48; // CPulse_ResumePoint
                 constexpr std::ptrdiff_t m_OnInterval = 0x90; // SignatureOutflow_Continue
@@ -356,6 +5111,244 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �<��
+            // �TB��
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H��G
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            //  <��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H��H� 
+            // L��/
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$H�l$H�t$WH��pH��A��H�L$PH���F�����
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // p%<��
+            // WB��
+            // 
+            // 
+            // @SH�� H��H�P�
+            // L�Y#
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �WB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // (XB��
+            // `]B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `YB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `9<��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  \B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // �
+            // H�	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V<��
+            // 
+            // 
+            // 
+            // �
+            // H�i�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$H�t$WH�� H��A��H��A��H����:��D�ǋ�H���K���H��H��H�\$0H�l$8H�t$@H�� _����������������L��I�[I�kI�s WH��p3�H�ZH��A�C
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$WH��P
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �aB��
+            // �dB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseTestScriptLib {
             }
             // Parent: None
@@ -363,6 +5356,506 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  G8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �J8��
+            // ��G��
+            // ��A��
+            // ��A��
+            // ��A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �N8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��h
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���[
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H��3��w��������H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��k
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���[
+            // H�1U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�(
+            // H�\$WH�� �
+            // H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��l
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�qU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��o
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �k
+            // H�J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VWAVH��pH�BH��H�JA��H���PHH��H��蟐��H���w���L��H���G
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H��q
+            // H�\$WH��0H��H����
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ЅI��
+            // 
+            // 
+            // ��I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // HB��
+            // �G��
+            // ��G��
+            // `�G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // 
+            // 
+            // @9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `9��
+            // B��
+            // 0B��
+            // 
+            // 
+            // 
+            // @SH�� H��H��
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3�����������H�\$H�t$UWATAVAWH�l$�H���
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H�
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H��
+            // L��
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �{
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Ps9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
             }
@@ -373,6 +5866,257 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Value_TestValue50 {
             }
             // Parent: None
@@ -380,6 +6124,265 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�	s
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPulseSignatureForOutflow
+            // 
+            // H�\$WH��0H��H�����
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(H��b
+            // H�\$H�l$H�t$ WH��
+            // �
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // @SH�� H��H��r
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // �~
+            // H�ay
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // ��G��
+            // ̭G��
+            // 
+            // ̭G��
+            // ЭG��
+            // 
+            // P73��
+            // X�G��
+            // @SH�� H��H�`h
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPropertyDescription
+            // 
+            // �~
+            // H�Iy
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // p�3��
+            // @SH�� H��H��s
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPulseSignatureForOutflow
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPulseEditorHeaderText
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H����
+            // H��r
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �G��
+            // P�G��
+            // �G��
+            // 
+            // ��G��
+            // КG��
+            // ��G��
+            // ԚG��
+            // ��3��
+            // 
+            //  J3��
+            // x�G��
+            // ܚG��
+            // �G��
+            // @SH�� H��H��q
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���b
+            // H�)y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // `�3��
+            // @�G��
+            // `�G��
+            // ��G��
+            // ��G��
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // �?3��
+            //  �G��
+            // ��3��
+            // ��G��
+            // �G��
+            // ��3��
+            // @SH�� H��H� l
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���k>
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H�9g
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H�0v
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Test_MultiOutflow_WithParams_Yielding {
                 constexpr std::ptrdiff_t m_Out1 = 0x48; // SignatureOutflow_Continue
                 constexpr std::ptrdiff_t m_AsyncChild1 = 0x90; // SignatureOutflow_Continue
@@ -393,6 +6396,260 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // 
+            // 
+            // @SH�� H��H�
+            // L��?
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H�)7
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H��E3�H��H��ID���
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // 
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H��-
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // YB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `5<��
+            // x\B��
+            // �\B��
+            // �\B��
+            // 
+            // 
+            // @SH�� H��H���
+            // L�I
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // L�RH�BL�AHE3ɺ
+            // H�\$UVWH���
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���0��H���D$X����H��(
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �T<��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // @SH�� H��H�@�
+            // L���
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // L��I�[I�kI�s WH��p3�H�ZH��A�CH��A��H���
+            // ����������������H�\$H�l$H�t$WH�� H��A��H��A��H����:��D�ǋ�H���K���H��H��H�\$0H�l$8H�t$@H�� _����������������L��I�[I�kI�s W
+            // �
+            // H�ʺ
+            // H�\$WH�� H�BH��H�JI���PHH��H���Z=��L��(
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Px<��
+            // �aB��
+            // bB��
+            // �bB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // pt<��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Value_Curve {
                 constexpr std::ptrdiff_t m_Curve = 0x48; // CPiecewiseCurve
             }
@@ -401,6 +6658,258 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // � 8��
+            // 
+            // 0=8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B8��
+            // 
+            // 
+            // �C8��
+            // PE8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �O8��
+            // 
+            // �Q8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
             }
@@ -409,6 +6918,266 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��h
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���[
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H��3��w��������H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��k
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���[
+            // H�1U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�(
+            // H�\$WH�� �
+            // H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��l
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�qU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��o
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �k
+            // H�J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VWAVH��pH�BH��H�JA��H���PHH��H��蟐��H���w���L��H���G
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H��q
+            // H�\$WH��0H��H����
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ЅI��
+            // 
+            // 
+            // ��I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // HB��
+            // �G��
+            // ��G��
+            // `�G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
             namespace CPulseCell_BaseFlow {
             }
             // Parent: None
@@ -417,6 +7186,259 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H����
+            // H��r
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // @SH�� H��H� z
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // РG��
+            // �G��
+            // P�3��
+            // ȚG��
+            // @SH�� H��H�@p
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��t
+            // �
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Step_TestDomainTracepoint {
             }
             // Parent: None
@@ -424,6 +7446,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Outflow_CycleShuffled__InstanceState_t {
                 constexpr std::ptrdiff_t m_Shuffle = 0x0; // CUtlVectorFixedGrowable<uint8,8>
                 constexpr std::ptrdiff_t m_nNextShuffle = 0x20; // int32
@@ -432,6 +7461,9 @@ namespace source2_dumper {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // 
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseLerp__CursorState_t {
                 constexpr std::ptrdiff_t m_StartTime = 0x0; // GameTime_t
@@ -452,6 +7484,256 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // 
+            // 
+            // 
+            // MPulseExpressionAlias
+            // 
+            // �3B��
+            // MPulseExpressionAlias
+            // 
+            // 4B��
+            // MPulseExpressionAlias
+            // 
+            // 84B��
+            // MPulseExpressionAlias
+            // 
+            // h4B��
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // 
+            // �4B��
+            // �4B��
+            // MPulseExpressionAlias
+            // 
+            // 5B��
+            // 5B��
+            // 5B��
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // 
+            // x5B��
+            // MPulseExpressionAlias
+            // 
+            // �5B��
+            // MPulseExpressionAlias
+            // 
+            // �5B��
+            // MPulseExpressionAlias
+            // 
+            // 6B��
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // 
+            // H6B��
+            // 
+            // `6B��
+            // MPulseExpressionAlias
+            // 
+            // �6B��
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // MPulseExpressionAlias
+            // 
+            // �6B��
+            // �6B��
+            // 
+            // 7B��
+            // 
+            // 07B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseArraylib {
             }
             // Parent: None
@@ -476,6 +7758,253 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V<��
+            // 
+            // 
+            // 
+            // �
+            // H�i�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$H�t$WH�� H��A��H��A��H����:��D�ǋ�H���K���H��H��H�\$0H�l$8H�t$@H�� _����������������L��I�[I�kI�s WH��p3�H�ZH��A�C
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$WH��P
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �aB��
+            // �dB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �dB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �v<��
+            // �dB��
+            // eB��
+            // 
+            // 
+            // @SH�� H��H��
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���%��H���
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H�\$H�t$H�|$UH��$`���H��
+            // �
+            // H�\$UVWATAUAVAWH��H��
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xjB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // nB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
             namespace CPulseCell_Timeline {
                 constexpr std::ptrdiff_t m_TimelineEvents = 0x48; // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
                 constexpr std::ptrdiff_t m_bWaitForChildOutflows = 0x60; // bool
@@ -487,6 +8016,258 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // � 8��
+            // 
+            // 0=8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B8��
+            // 
+            // 
+            // �C8��
+            // PE8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �O8��
+            // 
+            // �Q8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
             namespace CPulseCell_Inflow_EntOutputHandler {
                 constexpr std::ptrdiff_t m_SourceEntity = 0x80; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_SourceOutput = 0x90; // PulseSymbol_t
@@ -499,6 +8280,256 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // �~
+            // H�y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��3��
+            // @SH�� H��H�@l
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �~
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // @SH�� H��H��l
+            // H�\$H�t$H�|$ UH��H��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // �
+            // H�\$H�t$H�|$UAVAWH�l$�H���
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���6
+            // 
+            // WHITE
+            // 
+            // RED
+            // 
+            // GREEN
+            // 
+            // BLUE
+            // 
+            // 
+            // �~
+            // H�	v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �G��
+            // ��G��
+            // @SH�� H��H��w
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H����
+            // H��r
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // @SH�� H��H� z
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // РG��
+            // �G��
+            // P�3��
+            // ȚG��
+            // @SH�� H��H�@p
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��t
+            // �
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Outflow_TestExplicitYesNo {
                 constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_No = 0x90; // CPulse_OutflowConnection
@@ -510,6 +8541,257 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Outflow_TestRandomYesNo {
                 constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_No = 0x90; // CPulse_OutflowConnection
@@ -519,6 +8801,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
             namespace CPulseCell_Outflow_CycleOrdered__InstanceState_t {
                 constexpr std::ptrdiff_t m_nNextIndex = 0x0; // int32
             }
@@ -526,6 +8811,8 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
             // MGetKV3ClassDefaults
             namespace CPulseCell_LimitCount__InstanceState_t {
                 constexpr std::ptrdiff_t m_nCurrentCount = 0x0; // int32
@@ -539,6 +8826,259 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Test_MultiInflow_WithDefault {
             }
             // Parent: None
@@ -546,6 +9086,263 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�`l
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // H�B�B
+            // H����
+            // 
+            // �
+            // H�AU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�n
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��I	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�0q
+            // L�y�
+            // @SH�� H��HI����A��L��H�$-
+
+            // �
+            // �
+            // �
+            // H�\$H�l$H�t$H�|$ AVH��PH�BH��H�JE��H���PHH��H��跎��H������H��H��tQH�L$0�����3�H�NH��H�T$0HD�����A��H����Y��D���D$ ����
+            // �
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // H�\$WH�� H��H�����
+            // H�)J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @�I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0�I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Step_DebugLog {
             }
             // Parent: None
@@ -553,6 +9350,506 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  G8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �J8��
+            // ��G��
+            // ��A��
+            // ��A��
+            // ��A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �N8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��h
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���[
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H��3��w��������H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��k
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���[
+            // H�1U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�(
+            // H�\$WH�� �
+            // H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��l
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�qU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��o
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �k
+            // H�J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VWAVH��pH�BH��H�JA��H���PHH��H��蟐��H���w���L��H���G
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H��q
+            // H�\$WH��0H��H����
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ЅI��
+            // 
+            // 
+            // ��I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // HB��
+            // �G��
+            // ��G��
+            // `�G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // 
+            // 
+            // @9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `9��
+            // B��
+            // 0B��
+            // 
+            // 
+            // 
+            // @SH�� H��H��
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3�����������H�\$H�t$UWATAVAWH�l$�H���
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H�
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H��
+            // L��
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �{
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Ps9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_BaseYieldingInflow {
             }
             // Parent: None
@@ -560,6 +9857,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  �7��
+            // 
+            // 
             namespace PulseNodeDynamicOutflows_t {
                 constexpr std::ptrdiff_t m_Outflows = 0x0; // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
             }
@@ -573,6 +9877,265 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  G8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �J8��
+            // ��G��
+            // ��A��
+            // ��A��
+            // ��A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �N8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��h
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
             namespace CPulseCell_Inflow_ObservableVariableListener {
                 constexpr std::ptrdiff_t m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 constexpr std::ptrdiff_t m_bSelfReference = 0x82; // bool
@@ -582,6 +10145,265 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �O8��
+            // 
+            // �Q8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�`l
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // H�B�B
+            // H����
+            // 
+            // �
+            // H�AU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�n
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��I	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�0q
+            // L�y�
+            // @SH�� H��HI����A��L��H�$-
+
+            // �
+            // �
+            // �
+            // H�\$H�l$H�t$H�|$ AVH��PH�BH��H�JE��H���PHH��H��跎��H������H��H��tQH�L$0�����3�H�NH��H�T$0HD�����A��H����Y��D���D$ ����
+            // �
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // H�\$WH�� H��H�����
+            // H�)J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Outflow_CycleOrdered {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -590,6 +10412,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace PulseSelectorOutflowList_t {
                 constexpr std::ptrdiff_t m_Outflows = 0x0; // CUtlVector<OutflowWithRequirements_t>
             }
@@ -603,6 +10431,263 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���k>
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H�9g
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H�0v
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Val_TestDomainGetEntityName {
             }
             // Parent: None
@@ -614,6 +10699,256 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �O8��
+            // 
+            // �Q8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�`l
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // H�B�B
+            // H����
+            // 
+            // �
+            // H�AU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�n
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��I	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
             }
@@ -622,6 +10957,258 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // �~
+            // H�y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��3��
+            // @SH�� H��H�@l
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �~
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // @SH�� H��H��l
+            // H�\$H�t$H�|$ UH��H��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // �
+            // H�\$H�t$H�|$UAVAWH�l$�H���
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���6
+            // 
+            // WHITE
+            // 
+            // RED
+            // 
+            // GREEN
+            // 
+            // BLUE
+            // 
+            // 
+            // �~
+            // H�	v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �G��
+            // ��G��
+            // @SH�� H��H��w
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H����
+            // H��r
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // @SH�� H��H� z
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // ��G��
+            // 
+            // РG��
+            // �G��
+            // P�3��
+            // ȚG��
+            // @SH�� H��H�@p
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPulseSignatureForOutflow
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���
+            // H��u
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��t
+            // �
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPulseSignatureForOutflow
+            // CIRCLE
+            // 
+            // SQUARE
+            // 
+            // TRIANGLE
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_TestWaitWithCursorState {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
                 constexpr std::ptrdiff_t m_WakeCancel = 0x90; // CPulse_ResumePoint
@@ -632,6 +11219,264 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�`l
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // H�B�B
+            // H����
+            // 
+            // �
+            // H�AU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�n
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��I	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�0q
+            // L�y�
+            // @SH�� H��HI����A��L��H�$-
+
+            // �
+            // �
+            // �
+            // H�\$H�l$H�t$H�|$ AVH��PH�BH��H�JE��H���PHH��H��跎��H������H��H��tQH�L$0�����3�H�NH��H�T$0HD�����A��H����Y��D���D$ ����
+            // �
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // H�\$WH�� H��H�����
+            // H�)J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Outflow_CycleShuffled {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -640,6 +11485,264 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �08��
+            // 
+            // �58��
+            // �:8��
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  G8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �J8��
+            // ��G��
+            // ��A��
+            // ��A��
+            // ��A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �N8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
             namespace CPulseCell_Inflow_Method {
                 constexpr std::ptrdiff_t m_MethodName = 0x80; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_Description = 0x90; // CUtlString
@@ -652,6 +11755,266 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  G8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �J8��
+            // ��G��
+            // ��A��
+            // ��A��
+            // ��A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �N8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��h
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���[
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
             namespace CPulseCell_BaseValue {
             }
             // Parent: None
@@ -662,6 +12025,251 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �dB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �v<��
+            // �dB��
+            // eB��
+            // 
+            // 
+            // @SH�� H��H��
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���%��H���
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H�\$H�t$H�|$UH��$`���H��
+            // �
+            // H�\$UVWATAUAVAWH��H��
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xjB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // nB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // �oB��
+            // 
+            // 
+            // 
+            // 
+            // pB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �nB��
+            // pB��
+            // pB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_BooleanSwitchState {
                 constexpr std::ptrdiff_t m_Condition = 0x48; // PulseObservableBoolExpression_t
                 constexpr std::ptrdiff_t m_SubGraph = 0xC0; // CPulse_OutflowConnection
@@ -677,6 +12285,258 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �O8��
+            // 
+            // �Q8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �U8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
             }
@@ -685,6 +12545,254 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseMathlib {
             }
             // Parent: None
@@ -697,6 +12805,265 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��h
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���[
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H��3��w��������H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��k
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���[
+            // H�1U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�(
+            // H�\$WH�� �
+            // H�\$H�t$H�|$UH��$`���H��
+            // @SH�� H��H��l
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�qU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��o
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �k
+            // H�J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VWAVH��pH�BH��H�JA��H���PHH��H��蟐��H���w���L��H���G
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H��(�
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H��q
+            // H�\$WH��0H��H����
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Outflow_CycleRandom {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -705,6 +13072,266 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  G8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �J8��
+            // ��G��
+            // ��A��
+            // ��A��
+            // ��A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �N8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // �S8��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V8��
+            // xB��
+            // �B��
+            // �B��
+            // @yI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // xB��
+            // �B��
+            // �B��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // `fI��
+            // 
+            // 
+            // �8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  iI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �jI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // H��y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H����a��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�Z
+            // 
+            // �{
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� `
+            // L���
+            // H�\$H�l$H�t$WH��@3��D$4
+            // @SVWATAUH��0H��H��H���v���Lc�H���
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���K
+            // H�1S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // ��
+            // H�	T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�pc
+            // L���
+            // H�\$H�l$H�t$WAVAWH��P3��D$D
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��d
+            // L�Y�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$WH��0H��H���
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��h
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H���[
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H��3��w��������H�\$H�t$H�|$UH��$`���H��
             namespace CPulseCell_Step_PublicOutput {
                 constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -714,12 +13341,276 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���k>
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H�9g
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H�0v
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Val_TestDomainFindEntityByName {
             }
             // Parent: None
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulse_BlackboardReference {
                 constexpr std::ptrdiff_t m_hBlackboardResource = 0x0; // CStrongHandle<InfoForResourceTypeIPulseGraphDef>
@@ -735,17 +13626,531 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // 0hI��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�`l
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // H�B�B
+            // H����
+            // 
+            // �
+            // H�AU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�n
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��I	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�0q
+            // L�y�
+            // @SH�� H��HI����A��L��H�$-
+
+            // �
+            // �
+            // �
+            // H�\$H�l$H�t$H�|$ AVH��PH�BH��H�JE��H���PHH��H��跎��H������H��H��tQH�L$0�����3�H�NH��H�T$0HD�����A��H����Y��D���D$ ����
+            // �
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // H�\$WH�� H��H�����
+            // H�)J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Value_RandomInt {
             }
             // Parent: None
-            // Field count: 1
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPulseEditorHeaderText
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H����
+            // H��r
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �G��
+            // P�G��
+            // �G��
+            // 
+            // ��G��
+            // КG��
+            // ��G��
+            // ԚG��
+            // ��3��
+            // 
+            //  J3��
+            // x�G��
+            // ܚG��
+            // �G��
+            // @SH�� H��H��q
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���b
+            // H�)y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // `�3��
+            // @�G��
+            // `�G��
+            // ��G��
+            // ��G��
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // �?3��
+            //  �G��
+            // ��3��
+            // ��G��
+            // �G��
+            // ��3��
+            // @SH�� H��H� l
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // 
+            // H�\$WH��0H��H���k>
+            // H��x
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // H�9g
+            // H�\$H�l$H�t$ WH��p
+            // �
+            // @SH�� H��H�0v
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Step_TestDomainEntFire {
                 constexpr std::ptrdiff_t m_Input = 0x48; // CUtlString
+                constexpr std::ptrdiff_t flWaitValue = 0x0; // float32
+                constexpr std::ptrdiff_t bFailOnCancel = 0x4; // bool
             }
             // Parent: None
             // Field count: 0
@@ -760,6 +14165,187 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // 
+            // �~
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H��(H��
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H�Q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // x�G��
+            // ��G��
+            // ��G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H�y
+            // H�\$WH�� H��
+            // 
+            // H�y
+            // 
+            // 
+            // 
+            // �~1��
+            // 
+            // P A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_ExampleSelector {
                 constexpr std::ptrdiff_t m_OutflowList = 0x48; // PulseSelectorOutflowList_t
             }
@@ -768,6 +14354,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ��9��
+            // 
+            // 
+            // 
             namespace CPulse_CallInfo {
                 constexpr std::ptrdiff_t m_PortName = 0x0; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_nEditorNodeID = 0x10; // PulseDocNodeID_t
@@ -781,6 +14374,261 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // HB��
+            // �G��
+            // ��G��
+            // `�G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // (�G��
+            // 
+            // (�G��
+            // 
+            // 
+            // 
+            // @9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `9��
+            // B��
+            // 0B��
+            // 
+            // 
+            // 
+            // @SH�� H��H��
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3�����������H�\$H�t$UWATAVAWH�l$�H���
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H�
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H��(�
+            // H�ʺ
+            // @SH�� H��H��
+            // L��
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �{
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Ps9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ��9��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ��9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_InlineNodeSkipSelector {
                 constexpr std::ptrdiff_t m_nFlowNodeID = 0x48; // PulseDocNodeID_t
                 constexpr std::ptrdiff_t m_bAnd = 0x4C; // bool
@@ -801,6 +14649,185 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // 
+            // �~
+            // H���
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H��(H��
+            // 
+            // H�\$H�l$H�t$ WH��p
+            // H�Q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // x�G��
+            // ��G��
+            // ��G��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H�y
+            // H�\$WH�� H��
+            // 
+            // H�y
+            // 
+            // 
+            // 
+            // �~1��
+            // 
+            // P A��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_ExampleCriteria {
             }
             // Parent: None
@@ -810,6 +14837,260 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // H�\$WH��0H��H���m��H��@
+            // H�im
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // H��3��V���������@SH�� H��H��
+            // H��(H�uS
+            // 
+            // �~
+            // H��m
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H��(H�EU
+            // 
+            // @VWH��hH��H���>o��H��@
+            // H�q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�p
+            // L�9
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �t9��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �z9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �|9��
+            // �~9��
+            // 
+            // 
+            // ��9��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��9��
+            // ��9��
+            // ��9��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0�9��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �:��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_LimitCount {
                 constexpr std::ptrdiff_t m_nLimitCount = 0x48; // int32
             }
@@ -818,6 +15099,264 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�`l
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // H�B�B
+            // H����
+            // 
+            // �
+            // H�AU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�n
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��I	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�0q
+            // L�y�
+            // @SH�� H��HI����A��L��H�$-
+
+            // �
+            // �
+            // �
+            // H�\$H�l$H�t$H�|$ AVH��PH�BH��H�JE��H���PHH��H��跎��H������H��H��tQH�L$0�����3�H�NH��H�T$0HD�����A��H����Y��D���D$ ����
+            // �
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // H�\$WH�� H��H�����
+            // H�)J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @�I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0�I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �9��
+            // 
             namespace CPulseCell_Step_CallExternalMethod {
                 constexpr std::ptrdiff_t m_MethodName = 0x48; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_GameBlackboard = 0x58; // PulseSymbol_t
@@ -830,6 +15369,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace PulseObservableBoolExpression_t {
                 constexpr std::ptrdiff_t m_EvaluateConnection = 0x0; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_DependentObservableVars = 0x48; // CUtlVector<PulseRuntimeVarIndex_t>
@@ -846,6 +15392,258 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // 
+            // �~
+            // H�!v
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            //  �3��
+            // @k3��
+            // ��G��
+            // �a3��
+            // P�G��
+            // @SH�� H��H�Py
+            // H�\$H�t$WH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // H�\$WH�� H�BH�ZH��H���PHH��H���i
+            // L�RH�BL�AHE3�3�H��I�bp��������H�\$WH�� �,�
+            // �
+            // H�g
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // �~
+            // H�Av
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_Step_TestDomainCreateFakeEntity {
             }
             // Parent: None
@@ -856,6 +15654,253 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // nB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // �oB��
+            // 
+            // 
+            // 
+            // 
+            // pB��
+            // �lB��
+            // 
+            // @mB��
+            // �nB��
+            // �nB��
+            // pB��
+            // pB��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `vB��
+            // �<��
+            // �nB��
+            // 
+            // 
+            // 
+            // ��
+            // H�q�
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 
+            // �
+            // H��
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // ���
+            // 
+            // H�\$WH��0H��H���[
+            // H��
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // H�\$H�l$VAVAWH��0H�BL�rH��H��I���PHH��H����(��H��H�������L���D$ L�MH��H��������t]H�H�����
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // @SH�� �0
+            // H�\$H�t$UWAVH�l$�H��p
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CPulseCell_CursorQueue {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToRunParallel = 0x98; // int32
             }
@@ -867,6 +15912,261 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // @cI��
+            // 
+            //  eI��
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // �eI��
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0$8��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @SH�� H���"b��H�k�
+            // L�	�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H�9y
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���{��H��
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H��_
+            // L�I�
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��R	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H� a
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$WH��@3��D$4
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��@H��H���[
+            // H��S	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H��b
+            // H�\$H�t$WH��@H��@
+            // H�\$H�l$H�t$H�|$ AVH��@3��D$4
+            // H�\$H�l$H�t$WH��@
+            // �
+            // �
+            // 
+            // @SWH��hH��$�
+            // H�I		
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H���a��H���
+            // H�\$WH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // H�\$ WH��`H��H����
+            // H�9T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�
+            // H�\$H�l$H�t$ WH��@H��@
+            // @SH��03��D$$
+            // �
+            // �
+            // �
+            // H�BH�JE3�L���
+            // �
+            // �
+            // �
+            // ���������������H�t$UWAVH��$�����p
+            // 
+            // H�\$WH��0H��H����
+            // H��T	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // �
+            // 2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // 3���������������2��������������̸��������������̰��������������H�t$UWAVH��$�����p
+            // ���������������H�t$UWAVH��$�����p
+            // �
+            // @SH�� H��H�0j
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // H��3��i��������H����
+            // 
+            // H�\$WH��0H��H���[
+            // H�!U	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�`l
+            // H�\$H�t$ WAVAWH��@H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // H�B�B
+            // H����
+            // 
+            // �
+            // H�AU	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�n
+            // H�\$H�l$H�|$AVH�� H��@
+            // @SH��0H�H�T$@I���H�L�A�K�����?vH�C��rH�
+            // �
+            // �
+            // �
+            // 
+            // �
+            // H��I	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // @SH�� H��H�0q
+            // L�y�
+            // @SH�� H��HI����A��L��H�$-
+
+            // �
+            // �
+            // �
+            // H�\$H�l$H�t$H�|$ AVH��PH�BH��H�JE��H���PHH��H��跎��H������H��H��tQH�L$0�����3�H�NH��H�T$0HD�����A��H����Y��D���D$ ����
+            // �
+            // �
+            // H�ʺ
+            // H�\$H�l$H�t$ WH��@H�BH��H�JI���PHH��H���
+            // 
+            // H�\$WH�� H��H�����
+            // H�)J	
+            // @SH�� H�H��H�T$0�H��H��r
+            // H�
+            // �
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @�I��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0�I��
+            // 
+            // 
+            // 
             namespace CPulseCell_Value_RandomFloat {
             }
             // Parent: None

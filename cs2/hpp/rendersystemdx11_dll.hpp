@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 #pragma once
 
@@ -109,6 +109,152 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // 
+            // RENDER_MULTISAMPLE_INVALID
+            // RENDER_MULTISAMPLE_2X
+            // RENDER_MULTISAMPLE_4X
+            // RENDER_MULTISAMPLE_6X
+            // RENDER_MULTISAMPLE_8X
+            // RENDER_MULTISAMPLE_16X
+            // RENDER_MULTISAMPLE_TYPE_COUNT
+            // 
+            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
+            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
+            // INPUT_LAYOUT_VARIATION_MAX
+            // 
+            // RENDER_PRIM_LINES
+            // RENDER_PRIM_LINES_WITH_ADJACENCY
+            // RENDER_PRIM_LINE_STRIP
+            // RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY
+            // RENDER_PRIM_TRIANGLES
+            // RENDER_PRIM_TRIANGLES_WITH_ADJACENCY
+            // RENDER_PRIM_TRIANGLE_STRIP
+            // RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY
+            // RENDER_PRIM_INSTANCED_QUADS
+            // RENDER_PRIM_HETEROGENOUS
+            // RENDER_PRIM_COMPUTE_SHADER
+            // RENDER_PRIM_MESH_SHADER
+            // RENDER_PRIM_TYPE_COUNT
+            // 
+            // RENDER_BUFFER_USAGE_VERTEX_BUFFER
+            // RENDER_BUFFER_USAGE_INDEX_BUFFER
+            // RENDER_BUFFER_USAGE_SHADER_RESOURCE
+            // RENDER_BUFFER_USAGE_UNORDERED_ACCESS
+            // RENDER_BUFFER_BYTEADDRESS_BUFFER
+            // RENDER_BUFFER_STRUCTURED_BUFFER
+            // RENDER_BUFFER_UAV_DRAW_INDIRECT_ARGS
+            // RENDER_BUFFER_ACCELERATION_STRUCTURE
+            // RENDER_BUFFER_SHADER_BINDING_TABLE
+            // RENDER_BUFFER_POOL_ALLOCATED
+            // RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING
+            // RENDER_BUFFER_IMMOVABLE_ALLOCATION
+            // 
+            // RENDER_SLOT_INVALID
+            // RENDER_SLOT_PER_INSTANCE
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `Y���
+            // 
+            // �3���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(賉
+            // H���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace SheetSequenceIntegerId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }

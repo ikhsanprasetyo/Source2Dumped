@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 #pragma once
 
@@ -17,6 +17,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace SteamAudioReverbClusteringSettings_t {
                 constexpr std::ptrdiff_t m_bEnableClustering = 0x0; // bool
                 constexpr std::ptrdiff_t m_nCubeMapResolution = 0x4; // int32
@@ -26,6 +29,9 @@ namespace source2_dumper {
             // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace SteamAudioCustomDataDimensionsSettings_t {
                 constexpr std::ptrdiff_t m_nAmbisonicsOrderOutsideField = 0x0; // int32
@@ -39,6 +45,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace SteamAudioPathSettings_t {
                 constexpr std::ptrdiff_t m_nNumVisSamples = 0x0; // int32
                 constexpr std::ptrdiff_t m_flProbeVisRadius = 0x4; // float32
@@ -50,6 +59,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // ��z��
             namespace CSteamAudioAmbisonicsField {
                 constexpr std::ptrdiff_t m_field = 0x0; // CUtlVector<float32>
             }
@@ -58,6 +74,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
             namespace CSteamAudioBakedPathingData {
                 constexpr std::ptrdiff_t m_nBands = 0x0; // int32
                 constexpr std::ptrdiff_t m_probes = 0x8; // CSteamAudioProbeData
@@ -68,6 +91,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
             namespace SteamAudioReverbSettings_t {
                 constexpr std::ptrdiff_t m_nNumRays = 0x0; // int32
                 constexpr std::ptrdiff_t m_nNumBounces = 0x4; // int32
@@ -79,6 +105,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // ��z��
+            // ��z��
+            // ��z��
             namespace CSteamAudioProbeData {
                 constexpr std::ptrdiff_t m_pProbeBatch = 0x0; // IPLProbeBatch
             }
@@ -87,6 +120,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace SteamAudioReverbCompressionSettings_t {
                 constexpr std::ptrdiff_t m_bEnableCompression = 0x0; // bool
                 constexpr std::ptrdiff_t m_flQuality = 0x4; // float32
@@ -95,6 +131,13 @@ namespace source2_dumper {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CSteamAudioBakedMaterialsData {
                 constexpr std::ptrdiff_t m_probes = 0x0; // CSteamAudioProbeData
@@ -105,6 +148,13 @@ namespace source2_dumper {
             // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CSteamAudioBakedOcclusionData {
                 constexpr std::ptrdiff_t m_settings = 0x0; // SteamAudioCustomDataOcclusionSettings_t
@@ -118,6 +168,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // ��z��
+            // ��z��
+            // ��z��
+            // `�z��
             namespace CSteamAudioBakedReverbData {
                 constexpr std::ptrdiff_t m_nBands = 0x0; // int32
                 constexpr std::ptrdiff_t m_probes = 0x8; // CSteamAudioProbeData
@@ -136,6 +193,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CSteamAudioProbeLineSegment {
                 constexpr std::ptrdiff_t m_vStart = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vEnd = 0xC; // Vector
@@ -146,6 +210,9 @@ namespace source2_dumper {
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace SteamAudioCustomDataOcclusionSettings_t {
                 constexpr std::ptrdiff_t m_bEnablePathing = 0x0; // bool
@@ -158,6 +225,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace CSteamAudioBakedDimensionsData {
                 constexpr std::ptrdiff_t m_settings = 0x0; // SteamAudioCustomDataDimensionsSettings_t
                 constexpr std::ptrdiff_t m_probes = 0x18; // CSteamAudioProbeData
@@ -172,6 +246,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // ��z��
+            // ��z��
             namespace CSteamAudioProbeGrid {
                 constexpr std::ptrdiff_t m_aabb = 0x0; // AABB_t
                 constexpr std::ptrdiff_t m_flSpacing = 0x18; // float32
@@ -186,6 +267,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // ��z��
+            // ��z��
+            // ��z��
+            // `�z��
+            // ��z��
             namespace CSteamAudioCompressedReverb {
                 constexpr std::ptrdiff_t m_nChannels = 0x0; // int32
                 constexpr std::ptrdiff_t m_nBands = 0x4; // int32

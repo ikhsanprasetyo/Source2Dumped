@@ -74,7 +74,584 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_MULTISAMPLE_INVALID",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_MULTISAMPLE_2X",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_MULTISAMPLE_4X",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_MULTISAMPLE_6X",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_MULTISAMPLE_8X",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_MULTISAMPLE_16X",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_MULTISAMPLE_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID",
+            "type": "Unknown"
+          },
+          {
+            "name": "INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID",
+            "type": "Unknown"
+          },
+          {
+            "name": "INPUT_LAYOUT_VARIATION_MAX",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_LINES",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_LINES_WITH_ADJACENCY",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_LINE_STRIP",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_TRIANGLES",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_TRIANGLES_WITH_ADJACENCY",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_TRIANGLE_STRIP",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_INSTANCED_QUADS",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_HETEROGENOUS",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_COMPUTE_SHADER",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_MESH_SHADER",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_PRIM_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_USAGE_VERTEX_BUFFER",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_USAGE_INDEX_BUFFER",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_USAGE_SHADER_RESOURCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_USAGE_UNORDERED_ACCESS",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_BYTEADDRESS_BUFFER",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_STRUCTURED_BUFFER",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_UAV_DRAW_INDIRECT_ARGS",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_ACCELERATION_STRUCTURE",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_SHADER_BINDING_TABLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_POOL_ALLOCATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_BUFFER_IMMOVABLE_ALLOCATION",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_SLOT_INVALID",
+            "type": "Unknown"
+          },
+          {
+            "name": "RENDER_SLOT_PER_INSTANCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "`Y���",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "�3���",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "H��(賉",
+            "type": "Unknown"
+          },
+          {
+            "name": "H�\u0005��\u001b",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "\u0016",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          },
+          {
+            "name": "",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "VsInputSignatureElement_t": {

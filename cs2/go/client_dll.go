@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 package schemas
 
@@ -215,6 +215,14 @@ const (
     ClientDll_C_EnvVolumetricFogVolume_m_bOverrideIndirectLightStrength = 0x64D // bool
     ClientDll_C_EnvVolumetricFogVolume_m_bOverrideSunLightStrength = 0x64E // bool
     ClientDll_C_EnvVolumetricFogVolume_m_bOverrideNoiseStrength = 0x64F // bool
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_hCubemapTexture = 0x688 // CStrongHandle<InfoForResourceTypeCTextureBase>
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_bCustomCubemapTexture = 0x690 // bool
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_flInfluenceRadius = 0x694 // float32
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_vBoxProjectMins = 0x698 // Vector
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_vBoxProjectMaxs = 0x6A4 // Vector
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_bMoveable = 0x6B0 // bool
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_nHandshake = 0x6B4 // int32
+    ClientDll_C_EnvVolumetricFogVolume_m_Entity_nEnvCubeMapArrayIndex = 0x6B8 // int32
     ClientDll_CPulseCell_PlaySequence_m_SequenceName = 0x48 // CUtlString
     ClientDll_CPulseCell_PlaySequence_m_PulseAnimEvents = 0x50 // PulseNodeDynamicOutflows_t
     ClientDll_CPulseCell_PlaySequence_m_OnFinished = 0x68 // CPulse_ResumePoint
@@ -296,6 +304,7 @@ const (
     ClientDll_C_BarnLight_m_vPrecomputedOBBExtent5 = 0x1124 // Vector
     ClientDll_C_BarnLight_m_bInitialBoneSetup = 0x1170 // bool
     ClientDll_C_BarnLight_m_VisClusters = 0x1178 // C_NetworkUtlVectorBase<uint16>
+    ClientDll_C_BarnLight_m_bShowLight = 0x1198 // bool
     ClientDll_CPulseCell_LerpCameraSettings_m_flSeconds = 0x90 // float32
     ClientDll_CPulseCell_LerpCameraSettings_m_Start = 0x94 // PointCameraSettings_t
     ClientDll_CPulseCell_LerpCameraSettings_m_End = 0xA4 // PointCameraSettings_t
@@ -328,6 +337,7 @@ const (
     ClientDll_C_VoteController_m_bVotesDirty = 0x638 // bool
     ClientDll_C_VoteController_m_bTypeDirty = 0x639 // bool
     ClientDll_C_VoteController_m_bIsYesNoVote = 0x63A // bool
+    ClientDll_C_VoteController_m_vecMoveDirEntitySpace = 0xE90 // Vector
     ClientDll_C_CSPlayerPawnBase_m_pPingServices = 0x15C0 // CCSPlayer_PingServices*
     ClientDll_C_CSPlayerPawnBase_m_previousPlayerState = 0x15C8 // CSPlayerState
     ClientDll_C_CSPlayerPawnBase_m_iPlayerState = 0x15CC // CSPlayerState
@@ -354,6 +364,7 @@ const (
     ClientDll_C_CSPlayerPawnBase_m_flLastSmokeAge = 0x161C // float32
     ClientDll_C_CSPlayerPawnBase_m_vLastSmokeOverlayColor = 0x1620 // Vector
     ClientDll_C_CSPlayerPawnBase_m_hOriginalController = 0x1648 // CHandle<CCSPlayerController>
+    ClientDll_C_CSPlayerPawnBase_m_hDetectParentChange = 0x1650 // CEntityHandle
     ClientDll_C_C4_m_activeLightParticleIndex = 0x1F40 // ParticleIndex_t
     ClientDll_C_C4_m_eActiveLightEffect = 0x1F44 // C4LightEffect_t
     ClientDll_C_C4_m_bStartedArming = 0x1F48 // bool
@@ -502,6 +513,24 @@ const (
     ClientDll_C_EnvVolumetricFogController_m_fWindSpeed = 0x6A0 // float32
     ClientDll_C_EnvVolumetricFogController_m_vWindDirection = 0x6A4 // Vector
     ClientDll_C_EnvVolumetricFogController_m_bFirstTime = 0x6B0 // bool
+    ClientDll_C_EnvVolumetricFogController_m_flEndDistance = 0x608 // float32
+    ClientDll_C_EnvVolumetricFogController_m_flStartDistance = 0x60C // float32
+    ClientDll_C_EnvVolumetricFogController_m_flFogFalloffExponent = 0x610 // float32
+    ClientDll_C_EnvVolumetricFogController_m_bHeightFogEnabled = 0x614 // bool
+    ClientDll_C_EnvVolumetricFogController_m_flFogHeightWidth = 0x618 // float32
+    ClientDll_C_EnvVolumetricFogController_m_flFogHeightEnd = 0x61C // float32
+    ClientDll_C_EnvVolumetricFogController_m_flFogHeightStart = 0x620 // float32
+    ClientDll_C_EnvVolumetricFogController_m_flFogHeightExponent = 0x624 // float32
+    ClientDll_C_EnvVolumetricFogController_m_flLODBias = 0x628 // float32
+    ClientDll_C_EnvVolumetricFogController_m_bActive = 0x62C // bool
+    ClientDll_C_EnvVolumetricFogController_m_bStartDisabled = 0x62D // bool
+    ClientDll_C_EnvVolumetricFogController_m_flFogMaxOpacity = 0x630 // float32
+    ClientDll_C_EnvVolumetricFogController_m_nCubemapSourceType = 0x634 // int32
+    ClientDll_C_EnvVolumetricFogController_m_hSkyMaterial = 0x638 // CStrongHandle<InfoForResourceTypeIMaterial2>
+    ClientDll_C_EnvVolumetricFogController_m_iszSkyEntity = 0x640 // CUtlSymbolLarge
+    ClientDll_C_EnvVolumetricFogController_m_hFogCubemapTexture = 0x648 // CStrongHandle<InfoForResourceTypeCTextureBase>
+    ClientDll_C_EnvVolumetricFogController_m_bHasHeightFogEnd = 0x650 // bool
+    ClientDll_C_EnvVolumetricFogController_m_bFirstTime = 0x651 // bool
     ClientDll_CPulseGraphDef_m_DomainIdentifier = 0x8 // PulseSymbol_t
     ClientDll_CPulseGraphDef_m_DomainSubType = 0x18 // CPulseValueFullType
     ClientDll_CPulseGraphDef_m_ParentMapName = 0x30 // PulseSymbol_t
@@ -722,6 +751,7 @@ const (
     ClientDll_C_PathParticleRope_m_PathNodes_Color = 0x6A0 // C_NetworkUtlVectorBase<Vector>
     ClientDll_C_PathParticleRope_m_PathNodes_PinEnabled = 0x6B8 // C_NetworkUtlVectorBase<bool>
     ClientDll_C_PathParticleRope_m_PathNodes_RadiusScale = 0x6D0 // C_NetworkUtlVectorBase<float32>
+    ClientDll_C_PathParticleRope_m_bIsOn = 0x10 // bool
     ClientDll_C_DecoyProjectile_m_nDecoyShotTick = 0x1438 // int32
     ClientDll_C_DecoyProjectile_m_nClientLastKnownDecoyShotTick = 0x143C // int32
     ClientDll_C_DecoyProjectile_m_flTimeParticleEffectSpawn = 0x1460 // GameTime_t
@@ -816,6 +846,14 @@ const (
     ClientDll_C_PointClientUIHUD_m_unOrientation = 0x105C // uint32
     ClientDll_C_PointClientUIHUD_m_bAllowInteractionFromAllSceneWorlds = 0x1060 // bool
     ClientDll_C_PointClientUIHUD_m_vecCSSClasses = 0x1068 // C_NetworkUtlVectorBase<CUtlSymbolLarge>
+    ClientDll_C_PointClientUIHUD_m_bForceRecreateNextUpdate = 0xEC0 // bool
+    ClientDll_C_PointClientUIHUD_m_bMoveViewToPlayerNextThink = 0xEC1 // bool
+    ClientDll_C_PointClientUIHUD_m_bCheckCSSClasses = 0xEC2 // bool
+    ClientDll_C_PointClientUIHUD_m_anchorDeltaTransform = 0xED0 // CTransform
+    ClientDll_C_PointClientUIHUD_m_pOffScreenIndicator = 0x1060 // CPointOffScreenIndicatorUi*
+    ClientDll_C_PointClientUIHUD_m_bIgnoreInput = 0x1088 // bool
+    ClientDll_C_PointClientUIHUD_m_bLit = 0x1089 // bool
+    ClientDll_C_PointClientUIHUD_m_bFollowPlayerAcrossTeleport = 0x108A // bool
     ClientDll_CPulseCell_Inflow_GraphHook_m_HookName = 0x80 // PulseSymbol_t
     ClientDll_C_PointCommentaryNode_m_bActive = 0x1180 // bool
     ClientDll_C_PointCommentaryNode_m_bWasActive = 0x1181 // bool
@@ -1024,6 +1062,10 @@ const (
     ClientDll_C_Hostage_m_chestAttachment = 0x1492 // AttachmentHandle_t
     ClientDll_C_Hostage_m_pPredictionOwner = 0x1498 // CBasePlayerController*
     ClientDll_C_Hostage_m_fNewestAlphaThinkTime = 0x14A0 // GameTime_t
+    ClientDll_C_Hostage_m_defaultAnim = 0x1350 // CUtlString
+    ClientDll_C_Hostage_m_nDefaultAnimLoopMode = 0x1358 // AnimLoopMode_t
+    ClientDll_C_Hostage_m_flInitialModelScale = 0x135C // float32
+    ClientDll_C_Hostage_m_sInitialWeaponState = 0x1360 // CUtlString
     ClientDll_C_fogplayerparams_t_m_hCtrl = 0x8 // CHandle<C_FogController>
     ClientDll_C_fogplayerparams_t_m_flTransitionTime = 0xC // float32
     ClientDll_C_fogplayerparams_t_m_OldColor = 0x10 // Color
@@ -1166,6 +1208,13 @@ const (
     ClientDll_C_PointWorldText_m_nJustifyHorizontal = 0x1154 // PointWorldTextJustifyHorizontal_t
     ClientDll_C_PointWorldText_m_nJustifyVertical = 0x1158 // PointWorldTextJustifyVertical_t
     ClientDll_C_PointWorldText_m_nReorientMode = 0x115C // PointWorldTextReorientMode_t
+    ClientDll_C_PointWorldText_m_boneIndexAttached = 0x11F8 // uint32
+    ClientDll_C_PointWorldText_m_ragdollAttachedObjectIndex = 0x11FC // uint32
+    ClientDll_C_PointWorldText_m_attachmentPointBoneSpace = 0x1200 // Vector
+    ClientDll_C_PointWorldText_m_attachmentPointRagdollSpace = 0x120C // Vector
+    ClientDll_C_PointWorldText_m_vecOffset = 0x1218 // Vector
+    ClientDll_C_PointWorldText_m_parentTime = 0x1224 // float32
+    ClientDll_C_PointWorldText_m_bHasParent = 0x1228 // bool
     ClientDll_C_RopeKeyframe_m_LinksTouchingSomething = 0xE90 // CBitVec<10>
     ClientDll_C_RopeKeyframe_m_nLinksTouchingSomething = 0xE94 // int32
     ClientDll_C_RopeKeyframe_m_bApplyWind = 0xE98 // bool
@@ -1206,6 +1255,7 @@ const (
     ClientDll_C_RopeKeyframe_m_bEndPointAttachmentAnglesDirty = 0x0 // bitfield:1
     ClientDll_C_RopeKeyframe_m_bNewDataThisFrame = 0x0 // bitfield:1
     ClientDll_C_RopeKeyframe_m_bPhysicsInitted = 0x0 // bitfield:1
+    ClientDll_C_RopeKeyframe_m_pKeyframe = 0x8 // C_RopeKeyframe*
     ClientDll_C_RopeKeyframe__CPhysicsDelegate_m_pKeyframe = 0x8 // C_RopeKeyframe*
     ClientDll_CInfoDynamicShadowHint_m_bDisabled = 0x608 // bool
     ClientDll_CInfoDynamicShadowHint_m_flRange = 0x60C // float32
@@ -1280,6 +1330,7 @@ const (
     ClientDll_C_BaseModelEntity_m_ClientOverrideTint = 0xE40 // Color
     ClientDll_C_BaseModelEntity_m_bUseClientOverrideTint = 0xE44 // bool
     ClientDll_C_BaseModelEntity_m_bvDisabledHitGroups = 0xE80 // uint32[1]
+    ClientDll_C_BaseModelEntity_m_bIsUsable = 0xE88 // bool
     ClientDll_CCSPlayer_BulletServices_m_totalHitsOnServer = 0x48 // int32
     ClientDll_C_EnvCombinedLightProbeVolume_m_Entity_Color = 0x1680 // Color
     ClientDll_C_EnvCombinedLightProbeVolume_m_Entity_flBrightness = 0x1684 // float32
@@ -1393,6 +1444,9 @@ const (
     ClientDll_C_BaseEntity_m_bSimulationTimeChanged = 0x5EA // bool
     ClientDll_C_BaseEntity_m_sUniqueHammerID = 0x5F8 // CUtlString
     ClientDll_C_BaseEntity_m_nBloodType = 0x600 // BloodType
+    ClientDll_C_BaseEntity_m_glowEntity = 0xE88 // CHandle<C_BaseModelEntity>
+    ClientDll_C_BaseEntity_m_usable = 0xE8C // bool
+    ClientDll_C_BaseEntity_m_szDisplayText = 0xE90 // CUtlSymbolLarge
     ClientDll_ActiveModelConfig_t_m_Handle = 0x30 // ModelConfigHandle_t
     ClientDll_ActiveModelConfig_t_m_Name = 0x38 // CUtlSymbolLarge
     ClientDll_ActiveModelConfig_t_m_AssociatedEntities = 0x40 // C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
@@ -1426,6 +1480,20 @@ const (
     ClientDll_C_BasePlayerPawn_m_hController = 0x15A0 // CHandle<CBasePlayerController>
     ClientDll_C_BasePlayerPawn_m_hDefaultController = 0x15A4 // CHandle<CBasePlayerController>
     ClientDll_C_BasePlayerPawn_m_bIsSwappingToPredictableController = 0x15A8 // bool
+    ClientDll_C_BasePlayerPawn_m_nMaxCarry = 0x10 // int32
+    ClientDll_C_BasePlayerPawn_m_nSplashSize = 0x1C // CRangeInt
+    ClientDll_C_BasePlayerPawn_m_nFlags = 0x24 // AmmoFlags_t
+    ClientDll_C_BasePlayerPawn_m_flMass = 0x28 // float32
+    ClientDll_C_BasePlayerPawn_m_flSpeed = 0x2C // CRangeFloat
+    ClientDll_C_BasePlayerPawn_m_CRenderComponent = 0xAF0 // CRenderComponent*
+    ClientDll_C_BasePlayerPawn_m_CHitboxComponent = 0xAF8 // CHitboxComponent
+    ClientDll_C_BasePlayerPawn_m_nDestructiblePartInitialStateDestructed0 = 0xB10 // HitGroup_t
+    ClientDll_C_BasePlayerPawn_m_nDestructiblePartInitialStateDestructed1 = 0xB14 // HitGroup_t
+    ClientDll_C_BasePlayerPawn_m_nDestructiblePartInitialStateDestructed2 = 0xB18 // HitGroup_t
+    ClientDll_C_BasePlayerPawn_m_nDestructiblePartInitialStateDestructed3 = 0xB1C // HitGroup_t
+    ClientDll_C_BasePlayerPawn_m_nDestructiblePartInitialStateDestructed4 = 0xB20 // HitGroup_t
+    ClientDll_C_BasePlayerPawn_m_nDestructiblePartInitialStateDestructed0_PartIndex = 0xB24 // int32
+    ClientDll_C_BasePlayerPawn_m_nDestructiblePartInitialStateDestructed1_PartIndex = 0xB28 // int32
     ClientDll_C_Chicken_m_hHolidayHatAddon = 0x13A8 // CHandle<CBaseAnimGraph>
     ClientDll_C_Chicken_m_jumpedThisFrame = 0x13AC // bool
     ClientDll_C_Chicken_m_leader = 0x13B0 // CHandle<C_CSPlayerPawn>
@@ -1751,6 +1819,18 @@ const (
     ClientDll_CCSPlayer_MovementServices_m_flTicksSinceLastSurfingDetected = 0x598 // float32
     ClientDll_CCSPlayer_MovementServices_m_bWasSurfing = 0x59C // bool
     ClientDll_CCSPlayer_MovementServices_m_vecInputRotated = 0x62C // Vector
+    ClientDll_CCSPlayer_MovementServices_m_flWaterJumpTime = 0x48 // float32
+    ClientDll_CCSPlayer_MovementServices_m_vecWaterJumpVel = 0x4C // Vector
+    ClientDll_CCSPlayer_MovementServices_m_flSwimSoundTime = 0x58 // float32
+    ClientDll_CCSPlayer_MovementServices_m_nLastActualJumpPressTick = 0x10 // GameTick_t
+    ClientDll_CCSPlayer_MovementServices_m_flLastActualJumpPressFrac = 0x14 // float32
+    ClientDll_CCSPlayer_MovementServices_m_nLastUsableJumpPressTick = 0x18 // GameTick_t
+    ClientDll_CCSPlayer_MovementServices_m_flLastUsableJumpPressFrac = 0x1C // float32
+    ClientDll_CCSPlayer_MovementServices_m_nLastLandedTick = 0x20 // GameTick_t
+    ClientDll_CCSPlayer_MovementServices_m_flLastLandedFrac = 0x24 // float32
+    ClientDll_CCSPlayer_MovementServices_m_flLastLandedVelocityX = 0x28 // float32
+    ClientDll_CCSPlayer_MovementServices_m_flLastLandedVelocityY = 0x2C // float32
+    ClientDll_CCSPlayer_MovementServices_m_flLastLandedVelocityZ = 0x30 // float32
     ClientDll_SellbackPurchaseEntry_t_m_unDefIdx = 0x30 // uint16
     ClientDll_SellbackPurchaseEntry_t_m_nCost = 0x34 // int32
     ClientDll_SellbackPurchaseEntry_t_m_nPrevArmor = 0x38 // int32
@@ -1810,6 +1890,11 @@ const (
     ClientDll_C_Inferno_m_minBounds = 0x8464 // Vector
     ClientDll_C_Inferno_m_maxBounds = 0x8470 // Vector
     ClientDll_C_Inferno_m_flLastGrassBurnThink = 0x847C // float32
+    ClientDll_C_Inferno_m_hHolidayHatAddon = 0x13A8 // CHandle<CBaseAnimGraph>
+    ClientDll_C_Inferno_m_jumpedThisFrame = 0x13AC // bool
+    ClientDll_C_Inferno_m_leader = 0x13B0 // CHandle<C_CSPlayerPawn>
+    ClientDll_C_Inferno_m_AttributeManager = 0x13B8 // C_AttributeContainer
+    ClientDll_C_Inferno_m_bAttributesInitialized = 0x1888 // bool
     ClientDll_CPointOrient_m_iszSpawnTargetName = 0x608 // CUtlSymbolLarge
     ClientDll_CPointOrient_m_hTarget = 0x610 // CHandle<C_BaseEntity>
     ClientDll_CPointOrient_m_bActive = 0x614 // bool
@@ -1884,6 +1969,7 @@ const (
     ClientDll_C_CSWeaponBaseGun_m_inPrecache = 0x1F5C // bool
     ClientDll_C_CSWeaponBaseGun_m_bNeedsBoltAction = 0x1F5D // bool
     ClientDll_C_CSWeaponBaseGun_m_nRevolverCylinderIdx = 0x1F60 // int32
+    ClientDll_C_CSWeaponBaseGun_m_bSequenceInProgress = 0x1F40 // bool
     ClientDll_C_CSGameRulesProxy_m_pGameRules = 0x608 // C_CSGameRules*
     ClientDll_CCollisionProperty_m_collisionAttribute = 0x10 // VPhysicsCollisionAttribute_t
     ClientDll_CCollisionProperty_m_vecMins = 0x40 // Vector
@@ -1926,6 +2012,8 @@ const (
     ClientDll_C_FuncMonitor_m_hTargetCamera = 0xEA0 // CHandle<C_BaseEntity>
     ClientDll_C_FuncMonitor_m_bEnabled = 0xEA4 // bool
     ClientDll_C_FuncMonitor_m_bDraw3DSkybox = 0xEA5 // bool
+    ClientDll_C_FuncMonitor_m_aAttachedObjectsFromServer = 0x1168 // CUtlVector<int32>
+    ClientDll_C_FuncMonitor_m_aAttachedObjects = 0x1180 // CUtlVector<CHandle<C_BaseEntity>>
     ClientDll_C_ClientRagdoll_m_bFadeOut = 0x1168 // bool
     ClientDll_C_ClientRagdoll_m_bImportant = 0x1169 // bool
     ClientDll_C_ClientRagdoll_m_flEffectTime = 0x116C // GameTime_t
@@ -1951,6 +2039,10 @@ const (
     ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_agentItem = 0x628 // C_EconItemView
     ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_glovesItem = 0xA98 // C_EconItemView
     ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_weaponItem = 0xF08 // C_EconItemView
+    ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_iEnemy5Ks = 0x68 // int32
+    ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_iEnemy4Ks = 0x6C // int32
+    ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_iEnemy3Ks = 0x70 // int32
+    ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_iEnemyKnifeKills = 0x74 // int32
     ClientDll_C_SmokeGrenadeProjectile_m_nSmokeEffectTickBegin = 0x1450 // int32
     ClientDll_C_SmokeGrenadeProjectile_m_bDidSmokeEffect = 0x1454 // bool
     ClientDll_C_SmokeGrenadeProjectile_m_nRandomSeed = 0x1458 // int32
@@ -1961,6 +2053,9 @@ const (
     ClientDll_C_SmokeGrenadeProjectile_m_nVoxelUpdate = 0x1494 // int32
     ClientDll_C_SmokeGrenadeProjectile_m_bSmokeVolumeDataReceived = 0x1498 // bool
     ClientDll_C_SmokeGrenadeProjectile_m_bSmokeEffectSpawned = 0x1499 // bool
+    ClientDll_C_SmokeGrenadeProjectile_m_nDecoyShotTick = 0x1438 // int32
+    ClientDll_C_SmokeGrenadeProjectile_m_nClientLastKnownDecoyShotTick = 0x143C // int32
+    ClientDll_C_SmokeGrenadeProjectile_m_flTimeParticleEffectSpawn = 0x1460 // GameTime_t
     ClientDll_CScriptComponent_m_scriptClassName = 0x30 // CUtlSymbolLarge
     ClientDll_CCSPlayer_BuyServices_m_vecSellbackPurchaseEntries = 0x48 // C_UtlVectorEmbeddedNetworkVar<SellbackPurchaseEntry_t>
     ClientDll_C_DynamicProp_m_bUseHitboxesForRenderBox = 0x12D0 // bool
@@ -1986,6 +2081,7 @@ const (
     ClientDll_C_DynamicProp_m_iCachedFrameCount = 0x1378 // int32
     ClientDll_C_DynamicProp_m_vecCachedRenderMins = 0x137C // Vector
     ClientDll_C_DynamicProp_m_vecCachedRenderMaxs = 0x1388 // Vector
+    ClientDll_C_DynamicProp_m_eDoorState = 0x13B0 // DoorState_t
     ClientDll_C_CSTeam_m_szTeamMatchStat = 0x6C0 // char[512]
     ClientDll_C_CSTeam_m_numMapVictories = 0x8C0 // int32
     ClientDll_C_CSTeam_m_bSurrendered = 0x8C4 // bool
@@ -2109,6 +2205,13 @@ const (
     ClientDll_C_ParticleSystem_m_clrTint = 0x13FC // Color
     ClientDll_C_ParticleSystem_m_bOldActive = 0x1420 // bool
     ClientDll_C_ParticleSystem_m_bOldFrozen = 0x1421 // bool
+    ClientDll_C_ParticleSystem_m_vecCsViewPunchAngle = 0x48 // QAngle
+    ClientDll_C_ParticleSystem_m_nCsViewPunchAngleTick = 0x54 // GameTick_t
+    ClientDll_C_ParticleSystem_m_flCsViewPunchAngleTickRatio = 0x58 // float32
+    ClientDll_C_ParticleSystem_m_PlayerFog = 0x60 // C_fogplayerparams_t
+    ClientDll_C_ParticleSystem_m_hColorCorrectionCtrl = 0xA0 // CHandle<C_ColorCorrection>
+    ClientDll_C_ParticleSystem_m_hViewEntity = 0xA4 // CHandle<C_BaseEntity>
+    ClientDll_C_ParticleSystem_m_hTonemapController = 0xA8 // CHandle<C_TonemapController2>
     ClientDll_CPulseCell_Outflow_CycleShuffled_m_Outputs = 0x48 // CUtlVector<CPulse_OutflowConnection>
     ClientDll_C_BaseFlex_m_flexWeight = 0x1170 // C_NetworkUtlVectorBase<float32>
     ClientDll_C_BaseFlex_m_vLookTargetPosition = 0x1188 // VectorWS
@@ -2195,6 +2298,16 @@ const (
     ClientDll_CLightComponent_m_flLightStyleStartTime = 0x1A0 // GameTime_t
     ClientDll_CLightComponent_m_flCapsuleLength = 0x1A4 // float32
     ClientDll_CLightComponent_m_flMinRoughness = 0x1A8 // float32
+    ClientDll_CLightComponent_m_bDisabled = 0x608 // bool
+    ClientDll_CLightComponent_m_flRange = 0x60C // float32
+    ClientDll_CLightComponent_m_nImportance = 0x610 // int32
+    ClientDll_CLightComponent_m_nLightChoice = 0x614 // int32
+    ClientDll_CLightComponent_m_hLight = 0x618 // CHandle<C_BaseEntity>
+    ClientDll_CLightComponent_m_vBoxMins = 0x620 // Vector
+    ClientDll_CLightComponent_m_vBoxMaxs = 0x62C // Vector
+    ClientDll_CLightComponent_m_pSceneNode = 0x8 // CGameSceneNode*
+    ClientDll_CLightComponent___m_pChainEntity = 0x48 // CNetworkVarChainer
+    ClientDll_CLightComponent_m_sceneNode = 0x80 // CGameSceneNode
     ClientDll_CCSPlayer_ActionTrackingServices_m_hLastWeaponBeforeC4AutoSwitch = 0x48 // CHandle<C_BasePlayerWeapon>
     ClientDll_CCSPlayer_ActionTrackingServices_m_bIsRescuing = 0x4C // bool
     ClientDll_CCSPlayer_ActionTrackingServices_m_weaponPurchasesThisMatch = 0x50 // WeaponPurchaseTracker_t
@@ -2217,6 +2330,9 @@ const (
     ClientDll_C_EnvCubemap_m_Entity_bIndoorCubeMap = 0x6D7 // bool
     ClientDll_C_EnvCubemap_m_Entity_bCopyDiffuseFromDefaultCubemap = 0x6D8 // bool
     ClientDll_C_EnvCubemap_m_Entity_bEnabled = 0x6E8 // bool
+    ClientDll_C_EnvCubemap_m_hSkyMaterial = 0xE88 // CStrongHandle<InfoForResourceTypeIMaterial2>
+    ClientDll_C_EnvCubemap_m_hSkyMaterialLightingOnly = 0xE90 // CStrongHandle<InfoForResourceTypeIMaterial2>
+    ClientDll_C_EnvCubemap_m_bStartDisabled = 0xE98 // bool
     ClientDll_CBodyComponent_m_pSceneNode = 0x8 // CGameSceneNode*
     ClientDll_CBodyComponent___m_pChainEntity = 0x48 // CNetworkVarChainer
     ClientDll_CPulseCell_Inflow_Method_m_MethodName = 0x80 // PulseSymbol_t
@@ -2679,6 +2795,7 @@ const (
     ClientDll_C_PlantedC4_m_vecC4ExplodeSpectatePos = 0x16C0 // Vector
     ClientDll_C_PlantedC4_m_vecC4ExplodeSpectateAng = 0x16CC // QAngle
     ClientDll_C_PlantedC4_m_flC4ExplodeSpectateDuration = 0x16D8 // float32
+    ClientDll_C_PlantedC4_spectating = 0xBABE10C0 // MNetworkEnable
     ClientDll_CFilterName_m_iFilterName = 0x640 // CUtlSymbolLarge
     ClientDll_C_RagdollProp_m_ragEnabled = 0x1170 // C_NetworkUtlVectorBase<bool>
     ClientDll_C_RagdollProp_m_ragPos = 0x1188 // C_NetworkUtlVectorBase<Vector>
@@ -2844,6 +2961,8 @@ const (
     ClientDll_C_BaseGrenade_m_hThrower = 0x137C // CHandle<C_CSPlayerPawn>
     ClientDll_C_BaseGrenade_m_flNextAttack = 0x1394 // GameTime_t
     ClientDll_C_BaseGrenade_m_hOriginalThrower = 0x1398 // CHandle<C_CSPlayerPawn>
+    ClientDll_C_BaseGrenade_m_bSpotted = 0x8 // bool
+    ClientDll_C_BaseGrenade_m_bSpottedByMask = 0xC // uint32[2]
     ClientDll_C_PlayerSprayDecal_m_nUniqueID = 0xE88 // int32
     ClientDll_C_PlayerSprayDecal_m_unAccountID = 0xE8C // uint32
     ClientDll_C_PlayerSprayDecal_m_unTraceID = 0xE90 // uint32
@@ -2891,29 +3010,6 @@ const (
     ClientDll_CCSGameModeRules_Deathmatch_m_flDMBonusTimeLength = 0x34 // float32
     ClientDll_CCSGameModeRules_Deathmatch_m_sDMBonusWeapon = 0x38 // CUtlString
     ClientDll_CPulseCell_CursorQueue_m_nCursorsAllowedToRunParallel = 0x98 // int32
-    ClientDll_C_Sprite_m_hSpriteMaterial = 0xE88 // CStrongHandle<InfoForResourceTypeIMaterial2>
-    ClientDll_C_Sprite_m_hAttachedToEntity = 0xE90 // CHandle<C_BaseEntity>
-    ClientDll_C_Sprite_m_nAttachment = 0xE94 // AttachmentHandle_t
-    ClientDll_C_Sprite_m_flSpriteFramerate = 0xE98 // float32
-    ClientDll_C_Sprite_m_flFrame = 0xE9C // float32
-    ClientDll_C_Sprite_m_flDieTime = 0xEA0 // GameTime_t
-    ClientDll_C_Sprite_m_nBrightness = 0xEB0 // uint32
-    ClientDll_C_Sprite_m_flBrightnessDuration = 0xEB4 // float32
-    ClientDll_C_Sprite_m_flSpriteScale = 0xEB8 // float32
-    ClientDll_C_Sprite_m_flScaleDuration = 0xEBC // float32
-    ClientDll_C_Sprite_m_bWorldSpaceScale = 0xEC0 // bool
-    ClientDll_C_Sprite_m_flGlowProxySize = 0xEC4 // float32
-    ClientDll_C_Sprite_m_flHDRColorScale = 0xEC8 // float32
-    ClientDll_C_Sprite_m_flLastTime = 0xECC // GameTime_t
-    ClientDll_C_Sprite_m_flMaxFrame = 0xED0 // float32
-    ClientDll_C_Sprite_m_flStartScale = 0xED4 // float32
-    ClientDll_C_Sprite_m_flDestScale = 0xED8 // float32
-    ClientDll_C_Sprite_m_flScaleTimeStart = 0xEDC // GameTime_t
-    ClientDll_C_Sprite_m_nStartBrightness = 0xEE0 // int32
-    ClientDll_C_Sprite_m_nDestBrightness = 0xEE4 // int32
-    ClientDll_C_Sprite_m_flBrightnessTimeStart = 0xEE8 // GameTime_t
-    ClientDll_C_Sprite_m_nSpriteWidth = 0xEF8 // int32
-    ClientDll_C_Sprite_m_nSpriteHeight = 0xEFC // int32
     ClientDll_C_CsmFovOverride_m_cameraName = 0x608 // CUtlString
     ClientDll_C_CsmFovOverride_m_flCsmFovOverrideValue = 0x610 // float32
     ClientDll_C_PhysicsProp_m_bAwake = 0x12D0 // bool

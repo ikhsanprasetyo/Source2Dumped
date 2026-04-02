@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-03-30 13:26:13.707080100 +07:00
+# 2026-04-02 18:55:24.612541300 +07:00
 
 class Schemas:
     # Module: particles.dll
@@ -1139,6 +1139,7 @@ class Schemas:
             m_bCPPairs = 0x1E1 # bool
             m_bSaveOffset = 0x1E2 # bool
             m_PathParams = 0x1F0 # CPathParameters
+            m_bKillUnused = 0x1D8 # bool
         class C_OP_EndCapTimedDecay:
             m_flDecayTime = 0x1D0 # float32
         class C_OP_RemapDistanceToLineSegmentBase:

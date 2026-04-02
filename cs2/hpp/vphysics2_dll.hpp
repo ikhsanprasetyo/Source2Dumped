@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 #pragma once
 
@@ -39,6 +39,253 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // 0���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 0���
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 01���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �Q���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0����
+            // 
+            // 
+            // 
+            // 
+            // �����
+            // �����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnSphereDesc_t {
                 constexpr std::ptrdiff_t m_Sphere = 0x18; // SphereBase_t<float32>
             }
@@ -47,6 +294,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
             namespace RnSoftbodyParticle_t {
                 constexpr std::ptrdiff_t m_flMassInv = 0x0; // float32
             }
@@ -55,6 +305,257 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnHullDesc_t {
                 constexpr std::ptrdiff_t m_Hull = 0x18; // RnHull_t
             }
@@ -63,6 +564,257 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnCapsuleDesc_t {
                 constexpr std::ptrdiff_t m_Capsule = 0x18; // RnCapsule_t
             }
@@ -71,6 +823,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace PhysFeModelDesc_t {
                 constexpr std::ptrdiff_t m_CtrlHash = 0x0; // CUtlVector<uint32>
                 constexpr std::ptrdiff_t m_CtrlName = 0x18; // CUtlVector<CUtlString>
@@ -188,6 +947,257 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 0���
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 01���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �Q���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0����
+            // 
+            // 
+            // 
+            // 
+            // �����
+            // �����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnMeshDesc_t {
                 constexpr std::ptrdiff_t m_Mesh = 0x18; // RnMesh_t
             }
@@ -195,6 +1205,9 @@ namespace source2_dumper {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // 
             // MGetKV3ClassDefaults
             namespace RnSoftbodySpring_t {
                 constexpr std::ptrdiff_t m_nParticle = 0x0; // uint16[2]
@@ -205,6 +1218,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace RnSoftbodyCapsule_t {
                 constexpr std::ptrdiff_t m_vCenter = 0x0; // Vector[2]
                 constexpr std::ptrdiff_t m_flRadius = 0x18; // float32
@@ -215,6 +1231,170 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �����
+            // 0��
+            // ��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            //  ���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �7,�
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace vphysics_save_cphysicsbody_t {
                 constexpr std::ptrdiff_t m_nOldPointer = 0xE0; // uint64
             }
@@ -223,6 +1403,274 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // p,���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // p!��
+            // �!��
+            // 
+            // 
+            // 
+            // �!��
+            // �!��
+            // 
+            // 
+            // 
+            //  "��
+            // 
+            // 
+            // 
+            // 
+            // `"��
+            // 
+            // 
+            // �3���
+            // 
+            // �����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 1���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�8O
+            // H�\$H�t$WH�� �y 
+            // 
+            // @VH�� H��;Qv[H�\$0H�|$8�<U?
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // 3��������������̋B,�������������H�\$H�l$VWAVH��PH�YI��H��
+            // �
+            // �
+            // ����������������H�t$UWAVH��$�����p
+            // H�\$H�t$WH�� H�\$PH��H��H��H��P8L��H��L��H��H�\$0H�t$8H�� _�
+            // �
+            // ���������������H�A��H
+            // H�\$ H�L$UVAUAVAWH��0
+            // �
+            // H��(�����H��t�8O
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // C:\buildworker\csgo_rel_win64\build\src\rubikon\rncommon.cpp
+            // 0
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�8O
+            // @SH�� H���
+            // 
+            // �A�A��BH����������������H�\$H�t$ UWATAVAWH�l$�H��
+            // @SH�� H��1
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FeBuildBoxRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x40; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x44; // uint32
@@ -233,6 +1681,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace CFeIndexedJiggleBone {
                 constexpr std::ptrdiff_t m_nNode = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nJiggleParent = 0x4; // uint32
@@ -243,6 +1694,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeBandBendLimit_t {
                 constexpr std::ptrdiff_t flDistMin = 0x0; // float32
                 constexpr std::ptrdiff_t flDistMax = 0x4; // float32
@@ -253,6 +1707,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeTaperedCapsuleStretch_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t nCollisionMask = 0x4; // uint16
@@ -272,6 +1729,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �D���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // I���
             namespace FeSimdRodConstraintAnim_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][2]
                 constexpr std::ptrdiff_t f4Weight0 = 0x10; // fltx4
@@ -282,6 +1753,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // @���
+            // 
+            // �?���
+            // ����
+            // 
+            // pA���
+            // 
+            // ����
+            // 
+            // 
             namespace FeSimdRodConstraint_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][2]
                 constexpr std::ptrdiff_t f4MaxDist = 0x10; // fltx4
@@ -302,6 +1788,263 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �����
+            // 3���
+            // 
+            // 
+            // �����
+            // 
+            // 
+            // 
+            // �5���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // ���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �:���
+            // 
+            // 
+            // 
+            // 
+            // `���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �D���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // I���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0L���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // O���
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // p���
+            // 
+            // 
+            // �[���
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // ����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // �c���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �e���
+            //  ���
+            // 
+            // 
+            // 
+            //  g���
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 0j���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // k���
+            // 
+            // 
+            // ����
+            // 
+            // `l���
+            // p!���
+            // 
+            // 
+            // 
+            // Pm���
+            // p"���
+            // �o���
+            // 
+            // 
+            // 
+            //  %���
+            // 
+            // 
+            // 
+            // 
+            // �r���
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // �s���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Px���
+            // �,���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MVDataOutlinerLeafNameFn
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
             namespace FeBuildSphereRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x20; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x24; // uint32
@@ -312,6 +2055,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeSimdAnimStrayRadius_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][2]
                 constexpr std::ptrdiff_t flMaxDist = 0x10; // fltx4
@@ -322,6 +2079,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
             namespace RnTriangle_t {
                 constexpr std::ptrdiff_t m_nIndex = 0x0; // int32[3]
             }
@@ -330,6 +2089,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
             namespace FeProxyVertexMap_t {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_flWeight = 0x8; // float32
@@ -339,6 +2104,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeNodeIntegrator_t {
                 constexpr std::ptrdiff_t flPointDamping = 0x0; // float32
                 constexpr std::ptrdiff_t flAnimationForceAttraction = 0x4; // float32
@@ -350,6 +2118,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace RnCapsule_t {
                 constexpr std::ptrdiff_t m_vCenter = 0x0; // Vector[2]
                 constexpr std::ptrdiff_t m_flRadius = 0x18; // float32
@@ -359,6 +2130,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CFeNamedJiggleBone {
                 constexpr std::ptrdiff_t m_strParentBone = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_transform = 0x10; // CTransform
@@ -370,6 +2156,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FeAntiTunnelProbeBuild_t {
                 constexpr std::ptrdiff_t flWeight = 0x0; // float32
                 constexpr std::ptrdiff_t flActivationDistance = 0x4; // float32
@@ -384,6 +2177,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnBodyDesc_t {
                 constexpr std::ptrdiff_t m_sDebugName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_vPosition = 0x8; // Vector
@@ -427,6 +2227,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace OldFeEdge_t {
                 constexpr std::ptrdiff_t m_flK = 0x0; // float32[3]
                 constexpr std::ptrdiff_t invA = 0xC; // float32
@@ -446,6 +2249,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeFollowNode_t {
                 constexpr std::ptrdiff_t nParentNode = 0x0; // uint16
                 constexpr std::ptrdiff_t nChildNode = 0x2; // uint16
@@ -456,6 +2262,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace RnMesh_t {
                 constexpr std::ptrdiff_t m_vMin = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vMax = 0xC; // Vector
@@ -480,6 +2293,256 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �����
+            // 3���
+            // 
+            // 
+            // �����
+            // 
+            // 
+            // 
+            // �5���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // ���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �:���
+            // 
+            // 
+            // 
+            // 
+            // `���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �D���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // I���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0L���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // `���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // O���
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // p���
+            // 
+            // 
+            // �[���
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // ����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // �c���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �e���
+            //  ���
+            // 
+            // 
+            // 
+            //  g���
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 0j���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // k���
+            // 
+            // 
+            // ����
+            // 
+            // `l���
+            // p!���
+            // 
+            // 
+            // 
+            // Pm���
+            // p"���
+            // �o���
+            // 
+            // 
+            // 
+            //  %���
+            // 
+            // 
+            // 
+            // 
+            // �r���
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // �s���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Px���
+            // �,���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // 
+            // 
+            // 
+            // 
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MVDataOutlinerLeafNameFn
+            // 
             namespace FeBuildSDFRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x50; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x54; // uint32
@@ -490,6 +2553,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnBlendVertex_t {
                 constexpr std::ptrdiff_t m_nWeight0 = 0x0; // uint16
                 constexpr std::ptrdiff_t m_nIndex0 = 0x2; // uint16
@@ -505,6 +2583,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace CFeMorphLayer {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nNameHash = 0x8; // uint32
@@ -519,6 +2604,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
             namespace FeCtrlSoftOffset_t {
                 constexpr std::ptrdiff_t nCtrlParent = 0x0; // uint16
                 constexpr std::ptrdiff_t nCtrlChild = 0x2; // uint16
@@ -530,6 +2617,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FeVertexMapDesc_t {
                 constexpr std::ptrdiff_t sName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t nNameHash = 0x8; // uint32
@@ -549,6 +2643,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // �c���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �e���
+            //  ���
+            // 
             namespace FeTaperedCapsuleRigid_t {
                 constexpr std::ptrdiff_t vSphere = 0x0; // fltx4[2]
                 constexpr std::ptrdiff_t nNode = 0x20; // uint16
@@ -561,6 +2670,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
             namespace FeAnimStrayRadius_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t flMaxDist = 0x4; // float32
@@ -571,6 +2683,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
             namespace FeEdgeDesc_t {
                 constexpr std::ptrdiff_t nEdge = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t nSide = 0x4; // uint16[2][2]
@@ -581,6 +2694,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �D���
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // I���
+            // 
             namespace FeNodeStrayBox_t {
                 constexpr std::ptrdiff_t vMin = 0x0; // Vector
                 constexpr std::ptrdiff_t nFlags = 0xC; // uint32
@@ -592,6 +2719,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeNodeReverseOffset_t {
                 constexpr std::ptrdiff_t vOffset = 0x0; // Vector
                 constexpr std::ptrdiff_t nBoneCtrl = 0xC; // uint16
@@ -602,6 +2732,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
             namespace RnPlane_t {
                 constexpr std::ptrdiff_t m_vNormal = 0x0; // Vector
                 constexpr std::ptrdiff_t m_flOffset = 0xC; // float32
@@ -610,6 +2743,12 @@ namespace source2_dumper {
             // Field count: 11
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace FeSDFRigid_t {
                 constexpr std::ptrdiff_t vLocalMin = 0x0; // Vector
@@ -629,6 +2768,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace CFeJiggleBone {
                 constexpr std::ptrdiff_t m_nFlags = 0x0; // uint32
                 constexpr std::ptrdiff_t m_flLength = 0x4; // float32
@@ -671,6 +2813,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CRegionSVM {
                 constexpr std::ptrdiff_t m_Planes = 0x0; // CUtlVector<RnPlane_t>
                 constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<uint32>
@@ -680,6 +2829,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeWorldCollisionParams_t {
                 constexpr std::ptrdiff_t flWorldFriction = 0x0; // float32
                 constexpr std::ptrdiff_t flGroundFriction = 0x4; // float32
@@ -691,6 +2843,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnNode_t {
                 constexpr std::ptrdiff_t m_vMin = 0x0; // Vector
                 constexpr std::ptrdiff_t m_nChildren = 0xC; // uint32
@@ -702,6 +2869,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            //  )���
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FeFitMatrix_t {
                 constexpr std::ptrdiff_t bone = 0x0; // CTransform
                 constexpr std::ptrdiff_t vCenter = 0x20; // Vector
@@ -714,6 +2895,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // �s���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FeSimdQuad_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][4]
                 constexpr std::ptrdiff_t f4Slack = 0x20; // fltx4
@@ -725,6 +2920,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // O���
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeSimdSpringIntegrator_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][2]
                 constexpr std::ptrdiff_t flSpringRestLength = 0x10; // fltx4
@@ -737,6 +2946,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // I���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 0L���
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FeSimdNodeBase_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4]
                 constexpr std::ptrdiff_t nNodeX0 = 0x8; // uint16[4]
@@ -751,6 +2975,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace FeQuad_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4]
                 constexpr std::ptrdiff_t flSlack = 0x8; // float32
@@ -761,6 +2988,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeHingeLimit_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[6]
                 constexpr std::ptrdiff_t nFlags = 0xC; // uint32
@@ -774,6 +3004,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace RnWing_t {
                 constexpr std::ptrdiff_t m_nIndex = 0x0; // int32[3]
             }
@@ -782,6 +3015,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
             namespace FeWeightedNode_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16
                 constexpr std::ptrdiff_t nWeight = 0x2; // uint16
@@ -792,6 +3026,11 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerLeafNameFn
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CollisionDetailLayerInfo_t {
                 constexpr std::ptrdiff_t m_sDescription = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_sFriendlyName = 0x8; // CUtlString
@@ -805,6 +3044,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeEffectDesc_t {
                 constexpr std::ptrdiff_t sName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t nNameHash = 0x8; // uint32
@@ -816,6 +3061,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeSpringIntegrator_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t flSpringRestLength = 0x4; // float32
@@ -828,6 +3075,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // N���
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �Q���
+            // 
+            // @T���
+            // 0U���
+            // 
+            // 
+            // �W���
             namespace FourVectors2D {
                 constexpr std::ptrdiff_t x = 0x0; // fltx4
                 constexpr std::ptrdiff_t y = 0x10; // fltx4
@@ -837,6 +3099,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeKelagerBend2_t {
                 constexpr std::ptrdiff_t flWeight = 0x0; // float32[3]
                 constexpr std::ptrdiff_t flHeight0 = 0xC; // float32
@@ -848,6 +3112,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CastSphereSATParams_t {
                 constexpr std::ptrdiff_t m_vRayStart = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vRayDelta = 0xC; // Vector
@@ -861,6 +3132,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
             namespace FeRigidColliderIndices_t {
                 constexpr std::ptrdiff_t m_nTaperedCapsuleRigidIndex = 0x0; // uint16
                 constexpr std::ptrdiff_t m_nSphereRigidIndex = 0x2; // uint16
@@ -873,6 +3145,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // p���
+            // 
             namespace FeCollisionPlane_t {
                 constexpr std::ptrdiff_t nCtrlParent = 0x0; // uint16
                 constexpr std::ptrdiff_t nChildNode = 0x2; // uint16
@@ -884,6 +3159,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeStiffHingeBuild_t {
                 constexpr std::ptrdiff_t flMaxAngle = 0x0; // float32
                 constexpr std::ptrdiff_t flStrength = 0x4; // float32
@@ -895,6 +3173,19 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeBoxRigid_t {
                 constexpr std::ptrdiff_t tmFrame2 = 0x0; // CTransform
                 constexpr std::ptrdiff_t nNode = 0x20; // uint16
@@ -908,6 +3199,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeMorphLayerDepr_t {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nNameHash = 0x8; // uint32
@@ -923,6 +3221,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeCtrlOffset_t {
                 constexpr std::ptrdiff_t vOffset = 0x0; // Vector
                 constexpr std::ptrdiff_t nCtrlParent = 0xC; // uint16
@@ -936,6 +3237,20 @@ namespace source2_dumper {
             // Field count: 7
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             // MGetKV3ClassDefaults
             namespace FeNodeBase_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16
@@ -951,6 +3266,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FeVertexMapBuild_t {
                 constexpr std::ptrdiff_t m_VertexMapName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nNameHash = 0x8; // uint32
@@ -964,6 +3286,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // �9���
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
             namespace CFeVertexMapBuildArray {
                 constexpr std::ptrdiff_t m_Array = 0x0; // CUtlVector<FeVertexMapBuild_t*>
             }
@@ -972,6 +3301,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
             namespace FeTri_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[3]
                 constexpr std::ptrdiff_t w1 = 0x8; // float32
@@ -984,6 +3316,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnHull_t {
                 constexpr std::ptrdiff_t m_vCentroid = 0x0; // Vector
                 constexpr std::ptrdiff_t m_flMaxAngularRadius = 0xC; // float32
@@ -1005,6 +3344,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �D���
+            // MGetKV3ClassDefaults
             namespace FeModelSelfCollisionLayer_t {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_Nodes = 0x8; // CUtlVector<uint16>
@@ -1017,6 +3362,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // ���
             namespace FeAntiTunnelGroupBuild_t {
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nCollisionMask = 0x4; // uint32
@@ -1026,6 +3374,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
             namespace CovMatrix3 {
                 constexpr std::ptrdiff_t m_vDiag = 0x0; // Vector
                 constexpr std::ptrdiff_t m_flXY = 0xC; // float32
@@ -1034,6 +3385,260 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // 
+            // p,���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // p!��
+            // �!��
+            // 
+            // 
+            // 
+            // �!��
+            // �!��
+            // 
+            // 
+            // 
+            //  "��
+            // 
+            // 
+            // 
+            // 
+            // `"��
+            // 
+            // 
+            // �3���
+            // 
+            // �����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 1���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�8O
+            // H�\$H�t$WH�� �y 
+            // 
+            // @VH�� H��;Qv[H�\$0H�|$8�<U?
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // 3��������������̋B,�������������H�\$H�l$VWAVH��PH�YI��H��
+            // �
+            // �
+            // ����������������H�t$UWAVH��$�����p
+            // H�\$H�t$WH�� H�\$PH��H��H��H��P8L��H��L��H��H�\$0H�t$8H�� _�
+            // �
+            // ���������������H�A��H
+            // H�\$ H�L$UVAUAVAWH��0
+            // �
+            // H��(�����H��t�8O
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // C:\buildworker\csgo_rel_win64\build\src\rubikon\rncommon.cpp
+            // 0
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�8O
+            // @SH�� H���
+            // 
+            // �A�A��BH����������������H�\$H�t$ UWATAVAWH�l$�H��
+            // @SH�� H��1
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace PhysicsParticleId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -1050,6 +3655,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace Dop26_t {
                 constexpr std::ptrdiff_t m_flSupport = 0x0; // float32[26]
             }
@@ -1058,6 +3666,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
             namespace FeDynKinLink_t {
                 constexpr std::ptrdiff_t m_nParent = 0x0; // uint16
                 constexpr std::ptrdiff_t m_nChild = 0x2; // uint16
@@ -1075,6 +3684,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
             namespace FeCtrlOsOffset_t {
                 constexpr std::ptrdiff_t nCtrlParent = 0x0; // uint16
                 constexpr std::ptrdiff_t nCtrlChild = 0x2; // uint16
@@ -1084,6 +3695,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeAntiTunnelProbe_t {
                 constexpr std::ptrdiff_t flWeight = 0x0; // float32
                 constexpr std::ptrdiff_t nFlags = 0x4; // uint32
@@ -1099,6 +3713,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace FeSourceEdge_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
             }
@@ -1107,6 +3722,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeTwistConstraint_t {
                 constexpr std::ptrdiff_t nNodeOrient = 0x0; // uint16
                 constexpr std::ptrdiff_t nNodeEnd = 0x2; // uint16
@@ -1117,6 +3734,7 @@ namespace source2_dumper {
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace FeNodeWindBase_t {
                 constexpr std::ptrdiff_t nNodeX0 = 0x0; // uint16
@@ -1129,6 +3747,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeAxialEdgeBend_t {
                 constexpr std::ptrdiff_t te = 0x0; // float32
                 constexpr std::ptrdiff_t tv = 0x4; // float32
@@ -1141,6 +3762,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FourCovMatrices3 {
                 constexpr std::ptrdiff_t m_vDiag = 0x0; // FourVectors
                 constexpr std::ptrdiff_t m_flXY = 0x30; // fltx4
@@ -1161,6 +3796,18 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
             namespace FeSphereRigid_t {
                 constexpr std::ptrdiff_t vSphere = 0x0; // fltx4
                 constexpr std::ptrdiff_t nNode = 0x10; // uint16
@@ -1173,6 +3820,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CollisionDetailLayerInfo_t__Name_t {
                 constexpr std::ptrdiff_t m_nNameToken = 0x0; // CUtlStringToken
                 constexpr std::ptrdiff_t m_sNameString = 0x8; // CUtlString
@@ -1182,6 +3835,274 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // 
+            // 
+            // p,���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // p!��
+            // �!��
+            // 
+            // 
+            // 
+            // �!��
+            // �!��
+            // 
+            // 
+            // 
+            //  "��
+            // 
+            // 
+            // 
+            // 
+            // `"��
+            // 
+            // 
+            // �3���
+            // 
+            // �����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 1���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�8O
+            // H�\$H�t$WH�� �y 
+            // 
+            // @VH�� H��;Qv[H�\$0H�|$8�<U?
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �
+            // 3��������������̋B,�������������H�\$H�l$VWAVH��PH�YI��H��
+            // �
+            // �
+            // ����������������H�t$UWAVH��$�����p
+            // H�\$H�t$WH�� H�\$PH��H��H��H��P8L��H��L��H��H�\$0H�t$8H�� _�
+            // �
+            // ���������������H�A��H
+            // H�\$ H�L$UVAUAVAWH��0
+            // �
+            // H��(�����H��t�8O
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // C:\buildworker\csgo_rel_win64\build\src\rubikon\rncommon.cpp
+            // 0
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // H��(�����H��t�8O
+            // @SH�� H���
+            // 
+            // �A�A��BH����������������H�\$H�t$ UWATAVAWH�l$�H��
             namespace FeBuildTaperedCapsuleRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x30; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x34; // uint32
@@ -1192,6 +4113,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace FeSoftParent_t {
                 constexpr std::ptrdiff_t nParent = 0x0; // int32
                 constexpr std::ptrdiff_t flAlpha = 0x4; // float32
@@ -1201,6 +4125,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace RnShapeDesc_t {
                 constexpr std::ptrdiff_t m_nCollisionAttributeIndex = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nSurfacePropertyIndex = 0x4; // uint32
@@ -1214,6 +4145,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
             namespace FeTreeChildren_t {
                 constexpr std::ptrdiff_t nChild = 0x0; // uint16[2]
             }
@@ -1222,6 +4154,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeRodConstraint_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t flMaxDist = 0x4; // float32
@@ -1234,6 +4169,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
             namespace FeFitWeight_t {
                 constexpr std::ptrdiff_t flWeight = 0x0; // float32
                 constexpr std::ptrdiff_t nNode = 0x4; // uint16
@@ -1255,6 +4193,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 
+            // 
             namespace FeSimdTri_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint32[4][3]
                 constexpr std::ptrdiff_t w1 = 0x30; // fltx4
@@ -1272,6 +4225,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
             namespace FeFitInfluence_t {
                 constexpr std::ptrdiff_t nVertexNode = 0x0; // uint32
                 constexpr std::ptrdiff_t flWeight = 0x4; // float32
@@ -1281,6 +4237,9 @@ namespace source2_dumper {
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // 
             // MGetKV3ClassDefaults
             namespace FeHingeLimitBuild_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[6]

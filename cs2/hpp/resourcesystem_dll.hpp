@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-03-30 13:26:13.707080100 +07:00
+// 2026-04-02 18:55:24.612541300 +07:00
 
 #pragma once
 
@@ -36,6 +36,189 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCNmIKRig {
             }
             // Parent: None
@@ -43,6 +226,196 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCResponseRulesList {
             }
             // Parent: None
@@ -50,6 +423,189 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCDotaItemDefinitionResource {
             }
             // Parent: None
@@ -57,6 +613,191 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCMorphSetData {
             }
             // Parent: None
@@ -64,6 +805,180 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCVSoundStackScriptList {
             }
             // Parent: None
@@ -77,6 +992,187 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCVPhysXSurfacePropertiesList {
             }
             // Parent: None
@@ -84,6 +1180,162 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeManifestTestResource_t {
             }
             // Parent: None
@@ -91,6 +1343,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace ConstantInfo_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nameToken = 0x8; // CUtlStringToken
@@ -98,6 +1357,256 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B[��
+            // 8C[��
+            // HC[��
+            // 
+            // @<T��
+            //  >T��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MPropertyCustomFGDType
+            // 
+            // 
+            // 
+            // MResourceTypeForInfoType
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // � Y��
+            // MGetKV3ClassDefaults
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // H�\$WH��0H��@
+            // H�q
+            // 
+            // H�\$H�t$WH��0H��@
+            // H��
+            // 
+            // H�\$H�t$WH��0H��@
+            // H��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �A�
+            // �3H��
+            // ��J��
+            //  �G��
+            // ��G��
+            // 0G	��
+            // pI	��
+            // �^��
+            //  ^��
+            //  ^��
+            // 0gU��
+            // 
+            // �>���
+            // �����
+            // �Z��
+            // �=��
+            // 0-���
+            // (6���
+            // p4���
+            // 
+            // �:���
+            // @�{��
+            // 
+            //  ~��
+            // 
+            // 
+            // 
+            // 
+            // ����
+            // ����
+            // `C���
+            // �H�
+            // �-���
+            // ��0��
+            // p&P��
+            // ��	��
+            // 
+            // 
+            // 
+            // p{��
+            // ��/��
+            // 
+            // �
+            ��
+            // �d��
+            // �|��
+            // �S$��
+            // �����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // Ф���
+            // �%���
+            // 
+            // �����
+            // pE���
+            // P����
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �O��
+            // P9��
+            // ����
+            // pP��
+            // 
+            // Н@��
+            // `���
+            // ���
+            // �.���
+            // ��3��
+            // 
+            // �	���
+            // �0���
+            // `���
+            // �R���
+            // 
+            // 0���
+            // p���
+            //  ���
+            // �P���
+            // ����
+            // ���
+            //  Q���
+            // 0���
+            // ����
+            // @���
+            // @L���
+            // 0I���
+            // 
+            // 0J���
+            // �J���
+            // ����
+            // ����
+            // ����
+            // @���
+            //  &��
+            // �
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �i���
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FuseFunctionIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -106,6 +1615,184 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCGcExportableExternalData {
             }
             // Parent: None
@@ -113,6 +1800,187 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeIAnimGraphModelBinding {
             }
             // Parent: None
@@ -120,6 +1988,191 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCJavaScriptResource {
             }
             // Parent: None
@@ -127,6 +2180,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CFuseSymbolTable {
                 constexpr std::ptrdiff_t m_constants = 0x0; // CUtlVector<ConstantInfo_t>
                 constexpr std::ptrdiff_t m_variables = 0x18; // CUtlVector<VariableInfo_t>
@@ -140,6 +2200,186 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCRenderMesh {
             }
             // Parent: None
@@ -147,6 +2387,191 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCVoxelVisibility {
             }
             // Parent: None
@@ -154,6 +2579,192 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCPhysAggregateData {
             }
             // Parent: None
@@ -161,6 +2772,194 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCNmClip {
             }
             // Parent: None
@@ -168,6 +2967,184 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeWorld_t {
             }
             // Parent: None
@@ -175,6 +3152,161 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeProceduralTestResource_t {
             }
             // Parent: None
@@ -188,6 +3320,190 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCPostProcessingResource {
             }
             // Parent: None
@@ -195,6 +3511,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // �X��
+            // 
             namespace VariableInfo_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nameToken = 0x8; // CUtlStringToken
@@ -208,6 +3530,196 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeIParticleSnapshot {
             }
             // Parent: None
@@ -223,6 +3735,181 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCPanoramaLayout {
             }
             // Parent: None
@@ -230,6 +3917,189 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCTypeScriptResource {
             }
             // Parent: None
@@ -237,6 +4107,184 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCChoreoSceneResource {
             }
             // Parent: None
@@ -244,6 +4292,183 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCNmSkeleton {
             }
             // Parent: None
@@ -251,6 +4476,162 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
@@ -258,6 +4639,182 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCAnimationGroup {
             }
             // Parent: None
@@ -265,6 +4822,180 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCVSoundEventScriptList {
             }
             // Parent: None
@@ -272,6 +5003,184 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCVoiceContainerBase {
             }
             // Parent: None
@@ -279,6 +5188,198 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCPanoramaStyle {
             }
             // Parent: None
@@ -286,6 +5387,186 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCWorldNode {
             }
             // Parent: None
@@ -293,6 +5574,189 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCSurfaceGraph {
             }
             // Parent: None
@@ -300,6 +5764,183 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCCSGOEconItem {
             }
             // Parent: None
@@ -307,6 +5948,187 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCNmGraphDefinition {
             }
             // Parent: None
@@ -314,6 +6136,197 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCSmartProp {
             }
             // Parent: None
@@ -321,6 +6334,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace CFuseProgram {
                 constexpr std::ptrdiff_t m_programBuffer = 0x0; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_variablesRead = 0x18; // CUtlVector<FuseVariableIndex_t>
@@ -332,6 +6350,185 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCCompositeMaterialKit {
             }
             // Parent: None
@@ -339,6 +6536,195 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCVMixListResource {
             }
             // Parent: None
@@ -346,6 +6732,193 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCAnimData {
             }
             // Parent: None
@@ -353,6 +6926,191 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeIMaterial2 {
             }
             // Parent: None
@@ -360,6 +7118,190 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeIVectorGraphic {
             }
             // Parent: None
@@ -367,6 +7309,186 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCPanoramaDynamicImages {
             }
             // Parent: None
@@ -374,6 +7496,180 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeIPulseGraphDef {
             }
             // Parent: None
@@ -381,6 +7677,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
             namespace FunctionInfo_t {
                 constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_nameToken = 0x10; // CUtlStringToken
@@ -393,6 +7696,180 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCVDataResource {
             }
             // Parent: None
@@ -400,6 +7877,190 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCModel {
             }
             // Parent: None
@@ -407,6 +8068,196 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCDOTANovelsList {
             }
             // Parent: None
@@ -414,10 +8265,445 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCTextureBase {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // 
+            // 
+            // ��X��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // ��X��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �B[��
+            // C[��
+            // XC[��
+            // pC[��
+            // �<T��
+            // �=T��
+            // �>T��
+            // 
+            // H�\$H�t$WH��PI��A��H���Su��H�ȅ���
+            // 
+            // 
+            // 
+            // MPropertyCustomFGDType
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �C[��
+            // 
+            // 
+            // 
+            // vrman
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // MGetKV3ClassDefaults
+            // 
+            // $Y��
+            // 
+            // @'Y��
+            // 
+            // @SH�� H��H���
+            // L���
+            // @SH�� H��
+            // @SH�� H��H���
+            // L���
+            // @SH�� H��
+            // @SH�� H��H�`�
+            // L�q�
+            // @SH�� H��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // VApplication001
+            // VEngineCvar007
+            // VStringTokenSystem001
+            // TestScriptMgr001
+            // VProcessUtils002
+            // VFileSystem017
+            // VAsyncFileSystem2_001
+            // ResourceSystem013
+            // ResourceManifestRegistry001
+            // ResourceHandleUtils001
+            // SchemaSystem_001
+            // ResourceCompilerSystem001
+            // VMaterialSystem2_001
+            // PostProcessingSystem_001
+            // InputSystemVersion001
+            // InputStackSystemVersion001
+            // RenderDeviceMgr001
+            // RenderUtils_001
+            // SoundSystem001
+            // SoundOpSystemEdit001
+            // SoundOpSystem001
+            // SteamAudio001
+            // VP4003
+            // Localize_001
+            // VMediaFoundation001
+            // VAvi001
+            // VWebm001
+            // VBik001
+            // MeshSystem001
+            // MeshUtils001
+            // RenderDevice003
+            // VRenderDeviceSetupV001
+            // RenderHardwareConfig002
+            // SceneSystem_002
+            // IPulseSystem_001
+            // SceneUtils_001
+            // WorldRendererMgr001
+            // AssetSystem001
+            // AssetSystemTest001
+            // ParticleSystemMgr003
+            // VScriptManager010
+            // PropertyEditorSystem_001
+            // MATCHFRAMEWORK_001
+            // Source2V8System001
+            // PanoramaUIEngine001
+            // PanoramaUIClient001
+            // PanoramaTextServices001
+            // ToolFramework2_002
+            // PhysicsBuilderMgr001
+            // VisBuilder_001
+            // BakedLODBuilderMgr001
+            // HelpSystem_001
+            // ToolSceneNodeFactory_001
+            // EconItemToolModel_001
+            // SchemaTestExternal_Two_001
+            // SchemaTestExternal_One_001
+            // AnimationSystem_001
+            // AnimationSystemUtils_001
+            // HammerMapLoader001
+            // MaterialUtils_001
+            // FontManager_001
+            // TextLayout_001
+            // AssetPreviewSystem_001
+            // AssetBrowserSystem_001
+            // AssetRenameSystem_001
+            // VConComm001
+            // MODEL_PROCESSING_SERVICES_INTERFACE_001
+            // NetworkSystemVersion001
+            // NetworkMessagesVersion001
+            // FlattenedSerializersVersion001
+            // SerializedEntitiesVersion001
+            // DemoUpconverterVersion001
+            // Source2Client002
+            // Source2ClientUI001
+            // Source2ClientPrediction001
+            // Source2Server001
+            // Source2Host001
+            // Source2ModTools001
+            // Source2GameClients001
+            // Source2GameEntities001
+            // EngineServiceMgr001
+            // HostStateMgr001
+            // NetworkService_001
+            // NetworkClientService_001
+            // NetworkP2PService_001
+            // NetworkServerService_001
+            // ToolService_001
+            // RenderService_001
+            // StatsService_001
+            // VProfService_001
+            // InputService_001
+            // MapListService_001
+            // GameUIService_001
+            // SoundService_001
+            // BenchmarkService001
+            // KeyValueCache001
+            // GameResourceServiceClientV001
+            // GameResourceServiceServerV001
+            // Source2EngineToClient001
+            // Source2EngineToServer001
+            // Source2EngineToServerStringTable001
+            // Source2EngineToClientStringTable001
+            // VPhysics2_Interface_001
+            // VPhysics2_Handle_Interface_001
+            // ModelDocUtils001
+            // AnimGraphEditorUtils001
+            // EXPORTSYSTEM_INTERFACE_VERSION_001
+            // ServerToolsInfo_001
+            // ClientToolsInfo_001
+            // Vrad3_001
+            // NavSystem001
+            // NavGameTest001
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace FuseVariableIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -426,6 +8712,199 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeIParticleSystemDefinition {
             }
             // Parent: None
@@ -433,6 +8912,195 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCSequenceGroupData {
             }
             // Parent: None
@@ -440,6 +9108,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace ManifestTestResource_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_child = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
@@ -449,6 +9124,188 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCEntityLump {
             }
             // Parent: None
@@ -456,6 +9313,191 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // 
+            // <]��
+            // �<]��
+            // 06]��
+            // @1]��
+            // 
+            // p(]��
+            // -]��
+            // �7]��
+            // P5]��
+            // ']��
+            // �8]��
+            // @+]��
+            // �3]��
+            // @:]��
+            // �:]��
+            // p8]��
+            // 0,]��
+            // `/]��
+            // `4]��
+            // 3]��
+            // �.]��
+            // �6]��
+            // �']��
+            // �9]��
+            // 
+            // H��XL��E��u}H�Mc
+            // �=\��
+            // �=\��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // �V��
+            // 
+            // �[��
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
             namespace InfoForResourceTypeCDOTAPatchNotesList {
             }
         }
