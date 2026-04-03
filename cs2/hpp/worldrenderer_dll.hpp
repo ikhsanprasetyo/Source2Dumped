@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 #pragma once
 
@@ -417,6 +417,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // ;.JSE;.WSF;.WSH;.MSC
             // RTPROXY_INSTANCE_UNIQUE_MESH
             // MGetKV3ClassDefaults
             namespace InfoForResourceTypeVMapResourceData_t {

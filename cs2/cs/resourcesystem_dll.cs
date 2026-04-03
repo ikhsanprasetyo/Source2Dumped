@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: resourcesystem.dll
@@ -57,6 +57,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCNmIKRig {
         }
         // Parent: None
@@ -110,6 +111,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCResponseRulesList {
         }
         // Parent: None
@@ -146,6 +148,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCDotaItemDefinitionResource {
         }
         // Parent: None
@@ -188,6 +191,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCMorphSetData {
         }
         // Parent: None
@@ -203,6 +207,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCVSoundStackScriptList {
         }
         // Parent: None
@@ -238,6 +243,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCVPhysXSurfacePropertiesList {
         }
         // Parent: None
@@ -248,6 +254,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeManifestTestResource_t {
         }
         // Parent: None
@@ -293,6 +300,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCGcExportableExternalData {
         }
         // Parent: None
@@ -324,6 +332,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeIAnimGraphModelBinding {
         }
         // Parent: None
@@ -368,6 +377,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCJavaScriptResource {
         }
         // Parent: None
@@ -408,6 +418,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCRenderMesh {
         }
         // Parent: None
@@ -451,6 +462,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCVoxelVisibility {
         }
         // Parent: None
@@ -497,6 +509,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCPhysAggregateData {
         }
         // Parent: None
@@ -545,6 +558,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCNmClip {
         }
         // Parent: None
@@ -569,6 +583,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeWorld_t {
         }
         // Parent: None
@@ -577,6 +592,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeProceduralTestResource_t {
         }
         // Parent: None
@@ -622,6 +638,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCPostProcessingResource {
         }
         // Parent: None
@@ -686,6 +703,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeIParticleSnapshot {
         }
         // Parent: None
@@ -711,6 +729,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCPanoramaLayout {
         }
         // Parent: None
@@ -746,6 +765,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCTypeScriptResource {
         }
         // Parent: None
@@ -767,6 +787,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCChoreoSceneResource {
         }
         // Parent: None
@@ -786,6 +807,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCNmSkeleton {
         }
         // Parent: None
@@ -797,6 +819,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCTestResourceData {
         }
         // Parent: None
@@ -815,6 +838,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCAnimationGroup {
         }
         // Parent: None
@@ -829,6 +853,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCVSoundEventScriptList {
         }
         // Parent: None
@@ -852,6 +877,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCVoiceContainerBase {
         }
         // Parent: None
@@ -907,6 +933,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCPanoramaStyle {
         }
         // Parent: None
@@ -933,6 +960,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCWorldNode {
         }
         // Parent: None
@@ -970,6 +998,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCSurfaceGraph {
         }
         // Parent: None
@@ -990,6 +1019,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCCSGOEconItem {
         }
         // Parent: None
@@ -1020,6 +1050,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCNmGraphDefinition {
         }
         // Parent: None
@@ -1074,6 +1105,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCSmartProp {
         }
         // Parent: None
@@ -1110,6 +1142,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCCompositeMaterialKit {
         }
         // Parent: None
@@ -1160,6 +1193,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCVMixListResource {
         }
         // Parent: None
@@ -1207,6 +1241,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCAnimData {
         }
         // Parent: None
@@ -1252,6 +1287,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeIMaterial2 {
         }
         // Parent: None
@@ -1290,6 +1326,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeIVectorGraphic {
         }
         // Parent: None
@@ -1318,6 +1355,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCPanoramaDynamicImages {
         }
         // Parent: None
@@ -1331,6 +1369,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeIPulseGraphDef {
         }
         // Parent: None
@@ -1360,6 +1399,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCVDataResource {
         }
         // Parent: None
@@ -1400,6 +1440,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCModel {
         }
         // Parent: None
@@ -1452,6 +1493,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCDOTANovelsList {
         }
         // Parent: None
@@ -1485,6 +1527,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCTextureBase {
         }
         // Parent: None
@@ -1664,6 +1707,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeIParticleSystemDefinition {
         }
         // Parent: None
@@ -1713,6 +1757,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCSequenceGroupData {
         }
         // Parent: None
@@ -1720,6 +1765,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // S
         public static class ManifestTestResource_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_child = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
@@ -1754,6 +1800,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCEntityLump {
         }
         // Parent: None
@@ -1795,6 +1842,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // S
         public static class InfoForResourceTypeCDOTAPatchNotesList {
         }
     }

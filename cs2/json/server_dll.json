@@ -627,14 +627,6 @@
             "type_name": "int"
           },
           {
-            "name": "eofDescriptorProto",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "PROVIDER_WEAPON",
             "type": "Unknown"
           }
@@ -803,14 +795,6 @@
             "name": "m_nFallbackStatTrak",
             "type": "NetworkVarNames",
             "type_name": "int"
-          },
-          {
-            "name": "eofDescriptorProto",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
-            "type": "Unknown"
           },
           {
             "name": "PROVIDER_WEAPON",
@@ -1736,10 +1720,6 @@
             "type_name": "CHandle<CEconWearable>"
           },
           {
-            "name": "s",
-            "type": "Unknown"
-          },
-          {
             "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
@@ -1772,26 +1752,11 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
           {
-            "name": "m_glowEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseModelEntity>"
-          },
-          {
-            "name": "m_usable",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_szDisplayText",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "MNetworkSendProxyRecipientsFilter",
+            "name": "MNetworkPriority",
             "type": "Unknown"
           },
           {
@@ -1912,6 +1877,10 @@
           },
           {
             "name": "MSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -2133,6 +2102,10 @@
             "name": "m_nBloodType",
             "type": "NetworkVarNames",
             "type_name": "BloodType"
+          },
+          {
+            "name": "l",
+            "type": "Unknown"
           },
           {
             "name": "MNetworkIncludeByUserGroup",
@@ -2466,18 +2439,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -2683,344 +2644,28 @@
             "type": "Unknown"
           },
           {
-            "name": "MNetworkPriority",
+            "name": " ",
             "type": "Unknown"
           },
           {
-            "name": "MNetworkSerializer",
+            "name": " ",
             "type": "Unknown"
           },
           {
-            "name": "MNetworkUserGroup",
+            "name": " ",
             "type": "Unknown"
           },
           {
-            "name": "MNetworkPriority",
+            "name": "OnEffectsChanged",
+            "type": "NetworkChangeCallback"
+          },
+          {
+            "name": " ",
             "type": "Unknown"
           },
           {
-            "name": "MNetworkSerializer",
+            "name": " ",
             "type": "Unknown"
-          },
-          {
-            "name": "MNetworkSendProxyRecipientsFilter",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkPriority",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkPriority",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkPriority",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkPriority",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkPriority",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkBitCount",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkMinValue",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkMaxValue",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkEncodeFlags",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkEncoder",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkBitCount",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkMinValue",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkMaxValue",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkEncodeFlags",
-            "type": "Unknown"
-          },
-          {
-            "name": "MSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkExcludeByName",
-            "type": "Unknown"
-          },
-          {
-            "name": "m_CBodyComponent",
-            "type": "NetworkVarNames",
-            "type_name": "CBodyComponent::Storage_t"
-          },
-          {
-            "name": "m_iHealth",
-            "type": "NetworkVarNames",
-            "type_name": "int32"
-          },
-          {
-            "name": "m_iMaxHealth",
-            "type": "NetworkVarNames",
-            "type_name": "int32"
-          },
-          {
-            "name": "m_lifeState",
-            "type": "NetworkVarNames",
-            "type_name": "uint8"
-          },
-          {
-            "name": "m_bTakesDamage",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_nTakeDamageFlags",
-            "type": "NetworkVarNames",
-            "type_name": "TakeDamageFlags_t"
-          },
-          {
-            "name": "m_nPlatformType",
-            "type": "NetworkVarNames",
-            "type_name": "EntityPlatformTypes_t"
-          },
-          {
-            "name": "m_MoveCollide",
-            "type": "NetworkVarNames",
-            "type_name": "MoveCollide_t"
-          },
-          {
-            "name": "m_MoveType",
-            "type": "NetworkVarNames",
-            "type_name": "MoveType_t"
-          },
-          {
-            "name": "m_nSubclassID",
-            "type": "NetworkVarNames",
-            "type_name": "EntitySubclassID_t"
-          },
-          {
-            "name": "MNetworkUserGroupProxy",
-            "type": "Unknown"
-          },
-          {
-            "name": "m_flAnimTime",
-            "type": "NetworkVarNames",
-            "type_name": "float32"
-          },
-          {
-            "name": "m_flSimulationTime",
-            "type": "NetworkVarNames",
-            "type_name": "float32"
-          },
-          {
-            "name": "m_flCreateTime",
-            "type": "NetworkVarNames",
-            "type_name": "GameTime_t"
-          },
-          {
-            "name": "m_bClientSideRagdoll",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_ubInterpolationFrame",
-            "type": "NetworkVarNames",
-            "type_name": "uint8"
-          },
-          {
-            "name": "m_iTeamNum",
-            "type": "NetworkVarNames",
-            "type_name": "uint8"
-          },
-          {
-            "name": "m_flSpeed",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          },
-          {
-            "name": "m_spawnflags",
-            "type": "NetworkVarNames",
-            "type_name": "uint32"
-          },
-          {
-            "name": "m_nNextThinkTick",
-            "type": "NetworkVarNames",
-            "type_name": "GameTick_t"
-          },
-          {
-            "name": "m_fFlags",
-            "type": "NetworkVarNames",
-            "type_name": "uint32"
-          },
-          {
-            "name": "m_vecVelocity",
-            "type": "NetworkVarNames",
-            "type_name": "CNetworkVelocityVector"
-          },
-          {
-            "name": "m_vecBaseVelocity",
-            "type": "NetworkVarNames",
-            "type_name": "Vector"
-          },
-          {
-            "name": "m_hEffectEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseEntity>"
-          },
-          {
-            "name": "m_hOwnerEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseEntity>"
-          },
-          {
-            "name": "m_fEffects",
-            "type": "NetworkVarNames",
-            "type_name": "uint32"
-          },
-          {
-            "name": "m_hGroundEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseEntity>"
-          },
-          {
-            "name": "m_nGroundBodyIndex",
-            "type": "NetworkVarNames",
-            "type_name": "int"
-          },
-          {
-            "name": "m_flFriction",
-            "type": "NetworkVarNames",
-            "type_name": "float32"
-          },
-          {
-            "name": "m_flElasticity",
-            "type": "NetworkVarNames",
-            "type_name": "float32"
-          },
-          {
-            "name": "m_flGravityScale",
-            "type": "NetworkVarNames",
-            "type_name": "float32"
-          },
-          {
-            "name": "m_flTimeScale",
-            "type": "NetworkVarNames",
-            "type_name": "float32"
-          },
-          {
-            "name": "m_flWaterLevel",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          },
-          {
-            "name": "m_bGravityDisabled",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bAnimatedEveryTick",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_flNavIgnoreUntilTime",
-            "type": "NetworkVarNames",
-            "type_name": "GameTime_t"
-          },
-          {
-            "name": "m_nBloodType",
-            "type": "NetworkVarNames",
-            "type_name": "BloodType"
           }
         ],
         "parent": "CBaseToggle"
@@ -3108,6 +2753,10 @@
             "type_name": "CHandle<CCSWeaponBase>"
           },
           {
+            "name": "u",
+            "type": "Unknown"
+          },
+          {
             "name": "m_OwningPlayer",
             "type": "NetworkVarNames",
             "type_name": "CHandle<CCSPlayerPawn>"
@@ -3156,6 +2805,10 @@
             "name": "m_nVoxelUpdate",
             "type": "NetworkVarNames",
             "type_name": "int"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": "CCSWeaponBase"
@@ -3281,6 +2934,10 @@
             "name": "m_hSwitchToWeaponAfterThrow",
             "type": "NetworkVarNames",
             "type_name": "CHandle<CCSWeaponBase>"
+          },
+          {
+            "name": "u",
+            "type": "Unknown"
           },
           {
             "name": "m_OwningPlayer",
@@ -3483,6 +3140,10 @@
             "type": "Unknown"
           },
           {
+            "name": "h",
+            "type": "Unknown"
+          },
+          {
             "name": "m_bDisabled",
             "type": "NetworkVarNames",
             "type_name": "bool"
@@ -3558,10 +3219,6 @@
             "type_name": "CHandle<CEconWearable>"
           },
           {
-            "name": "s",
-            "type": "Unknown"
-          },
-          {
             "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
@@ -3594,26 +3251,11 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
           {
-            "name": "m_glowEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseModelEntity>"
-          },
-          {
-            "name": "m_usable",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_szDisplayText",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "MNetworkSendProxyRecipientsFilter",
+            "name": "MNetworkPriority",
             "type": "Unknown"
           },
           {
@@ -3734,6 +3376,10 @@
           },
           {
             "name": "MSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -4008,8 +3654,8 @@
       },
       "CBaseEntity": {
         "fields": {
-          "Default": -1303380552,
-          "Tripmine": -1303522880,
+          "Default": -148832800,
+          "Tripmine": -148975152,
           "m_CBodyComponent": 56,
           "m_MoveCollide": 762,
           "m_MoveType": 763,
@@ -4313,6 +3959,10 @@
             "type_name": "BloodType"
           },
           {
+            "name": "l",
+            "type": "Unknown"
+          },
+          {
             "name": "MNetworkIncludeByUserGroup",
             "type": "Unknown"
           },
@@ -4497,10 +4147,6 @@
             "type": "Unknown"
           },
           {
-            "name": "g",
-            "type": "Unknown"
-          },
-          {
             "name": "MSaveOpsForField",
             "type": "Unknown"
           },
@@ -4511,6 +4157,10 @@
           {
             "name": "OnClientRagdollChanged",
             "type": "NetworkChangeCallback"
+          },
+          {
+            "name": "h",
+            "type": "Unknown"
           },
           {
             "name": "MPropertyDescription",
@@ -5189,6 +4839,10 @@
             "name": "m_iDesiredFOV",
             "type": "NetworkVarNames",
             "type_name": "uint32"
+          },
+          {
+            "name": "l",
+            "type": "Unknown"
           }
         ],
         "parent": "CBaseEntity"
@@ -5411,10 +5065,6 @@
             "type_name": "CHandle<CEconWearable>"
           },
           {
-            "name": "s",
-            "type": "Unknown"
-          },
-          {
             "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
@@ -5447,26 +5097,11 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
           {
-            "name": "m_glowEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseModelEntity>"
-          },
-          {
-            "name": "m_usable",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_szDisplayText",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "MNetworkSendProxyRecipientsFilter",
+            "name": "MNetworkPriority",
             "type": "Unknown"
           },
           {
@@ -5806,7 +5441,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -6773,11 +6408,26 @@
             "type": "Unknown"
           },
           {
-            "name": "MNetworkUserGroup",
+            "name": " ",
             "type": "Unknown"
           },
           {
-            "name": "MNetworkPriority",
+            "name": "m_glowEntity",
+            "type": "NetworkVarNames",
+            "type_name": "CHandle<CBaseModelEntity>"
+          },
+          {
+            "name": "m_usable",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_szDisplayText",
+            "type": "NetworkVarNames",
+            "type_name": "string_t"
+          },
+          {
+            "name": "MNetworkSendProxyRecipientsFilter",
             "type": "Unknown"
           },
           {
@@ -7916,10 +7566,6 @@
             "type": "Unknown"
           },
           {
-            "name": "steam_overlay_1=1",
-            "type": "Unknown"
-          },
-          {
             "name": "m_zoomLevel",
             "type": "NetworkVarNames",
             "type_name": "int"
@@ -8048,6 +7694,10 @@
             "type_name": "int"
           },
           {
+            "name": "h",
+            "type": "Unknown"
+          },
+          {
             "name": "m_perRoundStats",
             "type": "NetworkVarNames",
             "type_name": "CSPerRoundStats_t"
@@ -8071,10 +7721,6 @@
             "name": "m_flTotalRoundDamageDealt",
             "type": "NetworkVarNames",
             "type_name": "float"
-          },
-          {
-            "name": "ICECandidate",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -8905,7 +8551,7 @@
       },
       "CCSGameRules": {
         "fields": {
-          "game_coopmission_manager": -1302803048,
+          "game_coopmission_manager": -148255288,
           "mTeamDMLastThinkTime": 3700,
           "mTeamDMLastWinningTeamNumber": 3696,
           "m_BtGlobalBlackboard": 4256,
@@ -9574,7 +9220,7 @@
             "type_name": "uint8"
           },
           {
-            "name": "LE_VK_LAYER_VALVE_steam_overlay_1=1",
+            "name": "a",
             "type": "Unknown"
           }
         ],
@@ -9707,6 +9353,10 @@
             "type_name": "CHandle<CBaseEntity>"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9732,6 +9382,10 @@
           },
           {
             "name": "CAnimGraph2ParamRefBase<bool>::Bind",
+            "type": "Unknown"
+          },
+          {
+            "name": "teHW",
             "type": "Unknown"
           },
           {
@@ -10206,10 +9860,6 @@
             "type_name": "float"
           },
           {
-            "name": "ICECandidate",
-            "type": "Unknown"
-          },
-          {
             "name": "weapon_tec9",
             "type": "Unknown"
           },
@@ -10275,6 +9925,14 @@
           {
             "name": "MNetworkReplayCompatField",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
           }
         ],
         "parent": "CPlayerControllerComponent"
@@ -10310,6 +9968,10 @@
             "type_name": "int"
           },
           {
+            "name": "h",
+            "type": "Unknown"
+          },
+          {
             "name": "m_perRoundStats",
             "type": "NetworkVarNames",
             "type_name": "CSPerRoundStats_t"
@@ -10333,10 +9995,6 @@
             "name": "m_flTotalRoundDamageDealt",
             "type": "NetworkVarNames",
             "type_name": "float"
-          },
-          {
-            "name": "ICECandidate",
-            "type": "Unknown"
           },
           {
             "name": "weapon_tec9",
@@ -10489,10 +10147,6 @@
             "type_name": "EKillTypes_t"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
             "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
@@ -10544,6 +10198,10 @@
             "name": "m_iCashSpentThisRound",
             "type": "NetworkVarNames",
             "type_name": "int"
+          },
+          {
+            "name": "h",
+            "type": "Unknown"
           },
           {
             "name": "m_perRoundStats",
@@ -11787,6 +11445,10 @@
             "type_name": "CHandle<CBaseEntity>"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11815,6 +11477,10 @@
             "type": "Unknown"
           },
           {
+            "name": "teHW",
+            "type": "Unknown"
+          },
+          {
             "name": "CAnimGraph2ParamRefBase<float>::Bind",
             "type": "Unknown"
           }
@@ -11832,7 +11498,7 @@
             "type_name": "int32"
           },
           {
-            "name": " ",
+            "name": "h",
             "type": "Unknown"
           }
         ],
@@ -12149,6 +11815,10 @@
           {
             "name": "MEDAL_RANK_COUNT",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": "CPlayer_MovementServices_Humanoid"
@@ -12163,10 +11833,6 @@
             "name": "m_hPlayerPing",
             "type": "NetworkVarNames",
             "type_name": "CHandle<CPlayerPing>"
-          },
-          {
-            "name": "rogram Files",
-            "type": "Unknown"
           }
         ],
         "parent": "CPlayerPawnComponent"
@@ -12273,6 +11939,10 @@
             "type_name": "int"
           },
           {
+            "name": "h",
+            "type": "Unknown"
+          },
+          {
             "name": "m_perRoundStats",
             "type": "NetworkVarNames",
             "type_name": "CSPerRoundStats_t"
@@ -12296,10 +11966,6 @@
             "name": "m_flTotalRoundDamageDealt",
             "type": "NetworkVarNames",
             "type_name": "float"
-          },
-          {
-            "name": "ICECandidate",
-            "type": "Unknown"
           }
         ],
         "parent": "CPlayer_WeaponServices"
@@ -12753,6 +12419,14 @@
           },
           {
             "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -13741,6 +13415,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "EXPLOSION_TYPE_GRENADE",
             "type": "Unknown"
           },
@@ -14119,10 +13801,6 @@
             "type_name": "EKillTypes_t"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
             "name": "MNetworkUserGroup",
             "type": "Unknown"
           },
@@ -14474,11 +14152,23 @@
             "type_name": "bool"
           },
           {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
             "name": "MNetworkOverride",
             "type": "Unknown"
           },
           {
             "name": "MNetworkOverride",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -14596,14 +14286,6 @@
             "name": "m_nFallbackStatTrak",
             "type": "NetworkVarNames",
             "type_name": "int"
-          },
-          {
-            "name": "eofDescriptorProto",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
-            "type": "Unknown"
           },
           {
             "name": "PROVIDER_WEAPON",
@@ -14782,6 +14464,10 @@
           },
           {
             "name": "!link",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -14964,10 +14650,6 @@
             "type": "Unknown"
           },
           {
-            "name": "g",
-            "type": "Unknown"
-          },
-          {
             "name": "MSaveOpsForField",
             "type": "Unknown"
           },
@@ -14978,6 +14660,10 @@
           {
             "name": "OnClientRagdollChanged",
             "type": "NetworkChangeCallback"
+          },
+          {
+            "name": "h",
+            "type": "Unknown"
           },
           {
             "name": "MPropertyDescription",
@@ -15224,6 +14910,10 @@
             "name": "m_bCheapEffect",
             "type": "NetworkVarNames",
             "type_name": "bool"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           },
           {
             "name": "OnDecalDimensionsChanged",
@@ -15541,10 +15231,6 @@
             "type": "Unknown"
           },
           {
-            "name": "INGLE_FILE=1",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -15554,6 +15240,14 @@
           },
           {
             "name": "eNotifyTriggered",
+            "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "h",
             "type": "Unknown"
           },
           {
@@ -15973,6 +15667,10 @@
             "name": "m_vWindDirection",
             "type": "NetworkVarNames",
             "type_name": "Vector"
+          },
+          {
+            "name": "h",
+            "type": "Unknown"
           },
           {
             "name": "m_flEndDistance",
@@ -16865,18 +16563,6 @@
           {
             "name": "CNetworkOriginQuantizedVector",
             "type": "NetworkChangeCallback"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
           },
           {
             "name": "MPropertyStartGroup",
@@ -17929,6 +17615,10 @@
             "type_name": "Vector"
           },
           {
+            "name": "h",
+            "type": "Unknown"
+          },
+          {
             "name": "m_flEndDistance",
             "type": "NetworkVarNames",
             "type_name": "float"
@@ -18395,6 +18085,10 @@
             "name": "m_vWindDirection",
             "type": "NetworkVarNames",
             "type_name": "Vector"
+          },
+          {
+            "name": "h",
+            "type": "Unknown"
           },
           {
             "name": "m_flEndDistance",
@@ -20055,6 +19749,14 @@
           {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -20118,6 +19820,14 @@
           },
           {
             "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -20250,18 +19960,6 @@
           {
             "name": "CNetworkOriginQuantizedVector",
             "type": "NetworkChangeCallback"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
           },
           {
             "name": "MPropertyStartGroup",
@@ -20559,10 +20257,6 @@
             "name": "m_hPlayerPing",
             "type": "NetworkVarNames",
             "type_name": "CHandle<CPlayerPing>"
-          },
-          {
-            "name": "rogram Files",
-            "type": "Unknown"
           }
         ],
         "parent": "CBaseTrigger"
@@ -20857,6 +20551,10 @@
             "name": "m_EffectName",
             "type": "NetworkVarNames",
             "type_name": "string_t"
+          },
+          {
+            "name": "l",
+            "type": "Unknown"
           }
         ],
         "parent": "CFuncBrush"
@@ -21514,6 +21212,10 @@
           },
           {
             "name": "MNetworkOverride",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -23026,6 +22728,10 @@
             "name": "m_bSendHandle",
             "type": "NetworkVarNames",
             "type_name": "bool"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
@@ -24843,6 +24549,10 @@
             "name": "m_flMinRoughness",
             "type": "NetworkVarNames",
             "type_name": "float"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -25792,10 +25502,6 @@
             "type_name": "int8"
           },
           {
-            "name": "steam_overlay_1=1",
-            "type": "Unknown"
-          },
-          {
             "name": "skeletonMaterialGroupChanged",
             "type": "NetworkChangeCallback"
           },
@@ -26026,6 +25732,10 @@
             "name": "m_hSwitchToWeaponAfterThrow",
             "type": "NetworkVarNames",
             "type_name": "CHandle<CCSWeaponBase>"
+          },
+          {
+            "name": "u",
+            "type": "Unknown"
           },
           {
             "name": "m_OwningPlayer",
@@ -26382,18 +26092,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -26535,18 +26233,6 @@
           "m_vecZ": 32
         },
         "metadata": [
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
           {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
@@ -27145,10 +26831,6 @@
             "name": "m_nIdealMotionType",
             "type": "NetworkVarNames",
             "type_name": "int8"
-          },
-          {
-            "name": "steam_overlay_1=1",
-            "type": "Unknown"
           },
           {
             "name": "skeletonMaterialGroupChanged",
@@ -28894,6 +28576,10 @@
             "type_name": "CUtlString"
           },
           {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
             "name": "MNetworkEncoder",
             "type": "Unknown"
           },
@@ -29706,10 +29392,6 @@
             "type": "Unknown"
           },
           {
-            "name": "steam_overlay_1=1",
-            "type": "Unknown"
-          },
-          {
             "name": "m_zoomLevel",
             "type": "NetworkVarNames",
             "type_name": "int"
@@ -29795,6 +29477,14 @@
           },
           {
             "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -30488,7 +30178,15 @@
             "type_name": "bool"
           },
           {
-            "name": "ICECandidate",
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -30813,10 +30511,6 @@
           },
           {
             "name": "MNetworkUserGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "ICECandidate",
             "type": "Unknown"
           }
         ],
@@ -31320,217 +31014,9 @@
             "type_name": "EHANDLE"
           },
           {
-            "name": "m_bEnabled",
+            "name": "m_messageText",
             "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_DialogXMLName",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_PanelClassName",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_PanelID",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_bIgnoreInput",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bLit",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bFollowPlayerAcrossTeleport",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_flWidth",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          },
-          {
-            "name": "m_flHeight",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          },
-          {
-            "name": "m_flDPI",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          },
-          {
-            "name": "m_flInteractDistance",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          },
-          {
-            "name": "m_flDepthOffset",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          },
-          {
-            "name": "m_unOwnerContext",
-            "type": "NetworkVarNames",
-            "type_name": "uint32"
-          },
-          {
-            "name": "m_unHorizontalAlign",
-            "type": "NetworkVarNames",
-            "type_name": "uint32"
-          },
-          {
-            "name": "m_unVerticalAlign",
-            "type": "NetworkVarNames",
-            "type_name": "uint32"
-          },
-          {
-            "name": "m_unOrientation",
-            "type": "NetworkVarNames",
-            "type_name": "uint32"
-          },
-          {
-            "name": "m_bAllowInteractionFromAllSceneWorlds",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_vecCSSClasses",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_bOpaque",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bNoDepth",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bVisibleWhenParentNoDraw",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bRenderBackface",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bUseOffScreenIndicator",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bExcludeFromSaveGames",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bGrabbable",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bOnlyRenderToTexture",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bDisableMipGen",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_nExplicitImageLayout",
-            "type": "NetworkVarNames",
-            "type_name": "int32"
-          },
-          {
-            "name": "WORLDTEXT_HORIZONTAL_ALIGN_CENTER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_HORIZONTAL_ALIGN_RIGHT",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_VERTICAL_ALIGN_CENTER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_VERTICAL_ALIGN_BOTTOM",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_ORIENTATION_FACEUSER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT",
-            "type": "Unknown"
-          },
-          {
-            "name": "m_bDisabled",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_nResolutionX",
-            "type": "NetworkVarNames",
-            "type_name": "int"
-          },
-          {
-            "name": "m_nResolutionY",
-            "type": "NetworkVarNames",
-            "type_name": "int"
-          },
-          {
-            "name": "m_szPanelType",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_szLayoutFileName",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_RenderAttrName",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_TargetEntities",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseModelEntity>"
-          },
-          {
-            "name": "m_nTargetChangeCount",
-            "type": "NetworkVarNames",
-            "type_name": "int"
-          },
-          {
-            "name": "m_vecCSSClasses",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "OnDialogActivatorChanged",
-            "type": "NetworkChangeCallback"
+            "type_name": "char"
           }
         ],
         "parent": "CBaseClientUIEntity"
@@ -31710,6 +31196,10 @@
           },
           {
             "name": "WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "h",
             "type": "Unknown"
           },
           {
@@ -32743,10 +32233,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -32822,10 +32308,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -32849,6 +32331,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "m",
             "type": "Unknown"
           },
           {
@@ -32912,10 +32398,6 @@
             "type": "Unknown"
           },
           {
-            "name": "BLE_VK_LAYER_VALVE_steam_overlay_1=1",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -32947,10 +32429,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -32993,10 +32471,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -33222,10 +32696,6 @@
             "type": "Unknown"
           },
           {
-            "name": "escriptorProto",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -33243,6 +32713,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -33259,6 +32733,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "m",
             "type": "Unknown"
           },
           {
@@ -33693,10 +33171,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -33743,10 +33217,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -34095,10 +33565,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "escriptorProto",
             "type": "Unknown"
           },
           {
@@ -34972,10 +34438,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -35506,10 +34968,6 @@
             "type": "Unknown"
           },
           {
-            "name": "BLE_VK_LAYER_VALVE_steam_overlay_1=1",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -35648,10 +35106,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -35746,10 +35200,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -36080,6 +35530,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -36093,10 +35547,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "escriptorProto",
             "type": "Unknown"
           },
           {
@@ -36152,6 +35602,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -36165,10 +35619,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "escriptorProto",
             "type": "Unknown"
           },
           {
@@ -36456,10 +35906,6 @@
           {
             "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
-          },
-          {
-            "name": "BLE_VK_LAYER_VALVE_steam_overlay_1=1",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -36646,6 +36092,10 @@
           {
             "name": "MPropertyDescription",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -36751,6 +36201,10 @@
           },
           {
             "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "46b/0x0303,0x0d9d/0x3013,0x0e8f/0x3114,0x0738/0xa856,0x0010/0x0082,0x0e8f/0x0003,0x20d6/0x4026,0x20d6/0x4033,0x20d6/0x5795,0x20d",
             "type": "Unknown"
           }
         ],
@@ -36960,6 +36414,10 @@
           {
             "name": "SOUNDEVENT_START_ENTITY",
             "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -37000,6 +36458,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -37013,10 +36475,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "escriptorProto",
             "type": "Unknown"
           },
           {
@@ -37694,6 +37152,10 @@
             "name": "m_hBombPlanter",
             "type": "NetworkVarNames",
             "type_name": "CHandle<CCSPlayerPawn>"
+          },
+          {
+            "name": "l",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -38016,10 +37478,6 @@
             "name": "m_nIdealMotionType",
             "type": "NetworkVarNames",
             "type_name": "int8"
-          },
-          {
-            "name": "steam_overlay_1=1",
-            "type": "Unknown"
           },
           {
             "name": "skeletonMaterialGroupChanged",
@@ -39293,6 +38751,10 @@
             "name": "m_flRadius",
             "type": "NetworkVarNames",
             "type_name": "float"
+          },
+          {
+            "name": "d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0x24c6/0x5d04,0x24c6/0xfafa,0x24c6/0xfafb,",
+            "type": "Unknown"
           }
         ],
         "parent": "CBaseEntity"
@@ -39611,6 +39073,10 @@
             "type": "Unknown"
           },
           {
+            "name": "l",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -39778,6 +39244,10 @@
           },
           {
             "name": "generic",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -40237,6 +39707,10 @@
             "type_name": "float32"
           },
           {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
             "name": "m_iszStackName",
             "type": "NetworkVarNames",
             "type_name": "string_t"
@@ -40571,6 +40045,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -41802,6 +41280,10 @@
           {
             "name": "OnWeaponBurstModeNetworkChange",
             "type": "NetworkChangeCallback"
+          },
+          {
+            "name": "e",
+            "type": "Unknown"
           }
         ],
         "parent": "CCSWeaponBase"
@@ -42101,6 +41583,10 @@
           },
           {
             "name": "WEAPON_LEGACY_STATE_CLEAR_FIRING",
+            "type": "Unknown"
+          },
+          {
+            "name": "<Y",
             "type": "Unknown"
           }
         ],
@@ -42853,6 +42339,10 @@
             "type": "NetworkChangeCallback"
           },
           {
+            "name": "h",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -43375,6 +42865,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -43483,6 +42977,10 @@
           "m_Value": 0
         },
         "metadata": [
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
           {
             "name": " ",
             "type": "Unknown"
@@ -43667,6 +43165,10 @@
         "metadata": [
           {
             "name": "generic",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -44216,6 +43718,10 @@
             "type_name": "CHandle<CBaseEntity>"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -44279,6 +43785,10 @@
             "name": "m_hZoomOwner",
             "type": "NetworkVarNames",
             "type_name": "CHandle<CBaseEntity>"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",

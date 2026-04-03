@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -207,7 +207,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorCanvasItemSpecKV3
         // MPulseEditorHeaderIcon
         // MPulseEditorHeaderIcon
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         public static class CPulseCell_WaitForObservable {
             public const nint m_Condition = 0x48; // PulseObservableBoolExpression_t
             public const nint m_OnTrue = 0xC0; // CPulse_ResumePoint
@@ -259,10 +258,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
+        // d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
         // MPropertyDescription
+        // m
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
@@ -309,7 +310,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseRequirement {
@@ -321,6 +321,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
         // MPropertyDescription
+        // m
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
@@ -336,7 +337,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorCanvasItemSpecKV3
         // MPulseEditorHeaderIcon
         // MPulseEditorHeaderIcon
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
@@ -393,10 +393,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
+        // d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
         // MPropertyDescription
+        // m
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
@@ -642,7 +644,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // escriptorProto
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -672,13 +673,12 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
-        // escriptorProto
         // MPropertyDescription
+        // t
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // escriptorProto
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -696,7 +696,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -728,7 +727,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         public static class CPulseCell_Value_TestValue50 {
         }
         // Parent: None
@@ -774,10 +772,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
+        // d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
         // MPropertyDescription
+        // m
         // MPropertyDescription
         public static class CPulseCell_Value_Curve {
             public const nint m_Curve = 0x48; // CPiecewiseCurve
@@ -1059,7 +1059,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         public static class CPulseCell_Outflow_TestRandomYesNo {
             public const nint m_Yes = 0x48; // CPulse_OutflowConnection
             public const nint m_No = 0x90; // CPulse_OutflowConnection
@@ -1091,7 +1090,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         public static class CPulseCell_Test_MultiInflow_WithDefault {
         }
         // Parent: None
@@ -1113,7 +1111,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1151,7 +1148,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_ObservableVariableListener {
@@ -1195,6 +1191,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // t
         public static class CPulseCell_Val_TestDomainGetEntityName {
         }
         // Parent: None
@@ -1308,7 +1305,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Method {
@@ -1326,7 +1322,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseValue {
@@ -1404,6 +1399,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
+        // a
         public static class CPulseMathlib {
         }
         // Parent: None
@@ -1416,7 +1412,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleRandom {
@@ -1429,7 +1424,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_PublicOutput {
@@ -1443,6 +1437,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // t
         public static class CPulseCell_Val_TestDomainFindEntityByName {
         }
         // Parent: None
@@ -1627,7 +1622,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         public static class CPulseCell_Step_TestDomainCreateFakeEntity {
         }
         // Parent: None

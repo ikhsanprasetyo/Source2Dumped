@@ -1,19 +1,19 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 package interfaces
 
 const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x7F25B8
     AnimationsystemDll_AnimationSystem_001 = 0x7EA4D0
-    ClientDll_ClientToolsInfo_001 = 0x2062F90
-    ClientDll_EmptyWorldService001_Client = 0x201CE60
-    ClientDll_GameClientExports001 = 0x205FC70
-    ClientDll_LegacyGameUI001 = 0x207D4D0
-    ClientDll_Source2Client002 = 0x2309DD0
-    ClientDll_Source2ClientConfig001 = 0x228DF00
-    ClientDll_Source2ClientPrediction001 = 0x206A8F0
-    ClientDll_Source2ClientUI001 = 0x207BD60
+    ClientDll_ClientToolsInfo_001 = 0x2065F90
+    ClientDll_EmptyWorldService001_Client = 0x201FE50
+    ClientDll_GameClientExports001 = 0x2062C70
+    ClientDll_LegacyGameUI001 = 0x20804D0
+    ClientDll_Source2Client002 = 0x230CDD0
+    ClientDll_Source2ClientConfig001 = 0x2290F00
+    ClientDll_Source2ClientPrediction001 = 0x206D8F0
+    ClientDll_Source2ClientUI001 = 0x207ED60
     Engine2Dll_BenchmarkService001 = 0x614930
     Engine2Dll_BugService001 = 0x8C9E10
     Engine2Dll_ClientServerEngineLoopService_001 = 0x90B4B0

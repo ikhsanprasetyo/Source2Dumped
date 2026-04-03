@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -2105,7 +2105,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // NetworkVarNames: m_hPlayerPing (CHandle<CPlayerPing>)
-        // rogram Files
         public static class CCSPlayer_PingServices {
             public const nint m_flPlayerPingTokens = 0x48; // GameTime_t[5]
             public const nint m_hPlayerPing = 0x5C; // CHandle<CPlayerPing>
@@ -2368,7 +2367,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iLastBulletUpdate (int)
         // NetworkVarNames: m_bIsOtherEnemy (bool)
         // NetworkVarNames: m_killType (EKillTypes_t)
-        // r
         // MNetworkUserGroup
         // NetworkVarNames: m_flNextAttack (GameTime_t)
         // NetworkVarNames: m_bIsLookingAtWeapon (bool)
@@ -2380,6 +2378,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iStartAccount (int)
         // NetworkVarNames: m_iTotalCashSpent (int)
         // NetworkVarNames: m_iCashSpentThisRound (int)
+        // h
         // NetworkVarNames: m_perRoundStats (CSPerRoundStats_t)
         // NetworkVarNames: m_matchStats (CSMatchStats_t)
         // NetworkVarNames: m_iNumRoundKills (int)
@@ -2470,10 +2469,10 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_flexWeight (float32)
         // NetworkVarNames: m_vLookTargetPosition (VectorWS)
         // MPropertyAttributeRange
-        // g
         // MSaveOpsForField
         // NetworkChangeCallback: OnClientRagdollEnabledChanged
         // NetworkChangeCallback: OnClientRagdollChanged
+        // h
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
@@ -2922,9 +2921,6 @@ namespace Source2Dumper.Schemas {
         // NetworkChangeCallback: CNetworkOriginQuantizedVector
         // MPropertyStartGroup
         // MPropertyDescription
-        // MPropertyAttributeEditor
-        // MPropertyStartGroup
-        // MPropertyDescription
         // MPropertyDescription
         // MPropertySuppressExpr
         // MGetKV3ClassDefaults
@@ -3140,6 +3136,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_Handle (CHandle<CBaseEntity>)
         // NetworkVarNames: m_bSendHandle (bool)
+        //  
         // MPropertyFriendlyName
         // NetworkVarNames: m_bTestOcclusion (bool)
         // NetworkVarNames: m_bTestAllVisibleOcclusion (bool)
@@ -3350,7 +3347,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorCanvasItemSpecKV3
         // MPulseEditorHeaderIcon
         // MPulseEditorHeaderIcon
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         public static class CPulseCell_WaitForObservable {
             public const nint m_Condition = 0x48; // PulseObservableBoolExpression_t
             public const nint m_OnTrue = 0xC0; // CPulse_ResumePoint
@@ -3435,7 +3431,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MPropertyAttributeSuggestionName
         public static class CPulseCell_Step_EntFire {
@@ -3539,7 +3534,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_MeshGroupMask (MeshGroupMask_t)
         // NetworkVarNames: m_nBodyGroupChoices (int32)
         // NetworkVarNames: m_nIdealMotionType (int8)
-        // steam_overlay_1=1
         // NetworkChangeCallback: skeletonMaterialGroupChanged
         // NetworkVarNames: m_modelState (CModelState)
         // NetworkVarNames: m_bIsAnimationEnabled (bool)
@@ -3583,7 +3577,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MNetworkExcludeByUserGroup
         // NetworkVarNames: m_hMyWearables (CHandle<CEconWearable>)
-        // s
         // MNetworkUserGroup
         // MNetworkAlias
         // MNetworkTypeAlias
@@ -3592,11 +3585,8 @@ namespace Source2Dumper.Schemas {
         // MNetworkSerializer
         // MNetworkUserGroup
         // MNetworkPriority
-        //  
-        // NetworkVarNames: m_glowEntity (CHandle<CBaseModelEntity>)
-        // NetworkVarNames: m_usable (bool)
-        // NetworkVarNames: m_szDisplayText (string_t)
-        // MNetworkSendProxyRecipientsFilter
+        // MNetworkUserGroup
+        // MNetworkPriority
         // MNetworkPriority
         // MNetworkSerializer
         // MNetworkUserGroup
@@ -3627,6 +3617,7 @@ namespace Source2Dumper.Schemas {
         // MNetworkMaxValue
         // MNetworkEncodeFlags
         // MSaveOpsForField
+        // e
         // MNetworkExcludeByName
         // MNetworkExcludeByName
         // MNetworkExcludeByUserGroup
@@ -4229,7 +4220,6 @@ namespace Source2Dumper.Schemas {
         // DOOR_CLOSING
         // MNetworkExcludeByUserGroup
         // NetworkVarNames: m_hMyWearables (CHandle<CEconWearable>)
-        // s
         // MNetworkUserGroup
         // MNetworkAlias
         // MNetworkTypeAlias
@@ -4238,11 +4228,8 @@ namespace Source2Dumper.Schemas {
         // MNetworkSerializer
         // MNetworkUserGroup
         // MNetworkPriority
-        //  
-        // NetworkVarNames: m_glowEntity (CHandle<CBaseModelEntity>)
-        // NetworkVarNames: m_usable (bool)
-        // NetworkVarNames: m_szDisplayText (string_t)
-        // MNetworkSendProxyRecipientsFilter
+        // MNetworkUserGroup
+        // MNetworkPriority
         // MNetworkPriority
         // MNetworkSerializer
         // MNetworkUserGroup
@@ -4273,6 +4260,7 @@ namespace Source2Dumper.Schemas {
         // MNetworkMaxValue
         // MNetworkEncodeFlags
         // MSaveOpsForField
+        // e
         // MNetworkExcludeByName
         // MNetworkExcludeByName
         // MNetworkExcludeByUserGroup
@@ -4319,6 +4307,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_bAnimatedEveryTick (bool)
         // NetworkVarNames: m_flNavIgnoreUntilTime (GameTime_t)
         // NetworkVarNames: m_nBloodType (BloodType)
+        // l
         // MNetworkIncludeByUserGroup
         // NetworkVarNames: m_flFadeInDuration (float32)
         // NetworkVarNames: m_flFadeOutDuration (float32)
@@ -4491,16 +4480,17 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // escriptorProto
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
+        // d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
         // MPropertyDescription
+        // m
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
@@ -4781,7 +4771,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseRequirement {
@@ -4812,6 +4801,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
         // MPropertyDescription
+        // m
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorHeaderIcon
@@ -4827,7 +4817,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorCanvasItemSpecKV3
         // MPulseEditorHeaderIcon
         // MPulseEditorHeaderIcon
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
@@ -4900,7 +4889,6 @@ namespace Source2Dumper.Schemas {
         // MNetworkUserGroup
         // MNetworkUserGroup
         // NetworkVarNames: m_hPlayerPing (CHandle<CPlayerPing>)
-        // rogram Files
         public static class CFootstepControl {
             public const nint m_source = 0x890; // CUtlSymbolLarge
             public const nint m_destination = 0x898; // CUtlSymbolLarge
@@ -4925,11 +4913,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
+        // t
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // escriptorProto
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -5089,6 +5077,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iszSoundAreaType (string_t)
         // NetworkVarNames: m_vPos (Vector)
         // NetworkVarNames: m_flRadius (float)
+        // d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0x24c6/0x5d04,0x24c6/0xfafa,0x24c6/0xfafb,
         public static class CSoundAreaEntityBase {
             public const nint m_bDisabled = 0x4A8; // bool
             public const nint m_iszSoundAreaType = 0x4B0; // CUtlSymbolLarge
@@ -5367,7 +5356,6 @@ namespace Source2Dumper.Schemas {
         // DOOR_CLOSING
         // MNetworkExcludeByUserGroup
         // NetworkVarNames: m_hMyWearables (CHandle<CEconWearable>)
-        // s
         // MNetworkUserGroup
         // MNetworkAlias
         // MNetworkTypeAlias
@@ -5376,11 +5364,8 @@ namespace Source2Dumper.Schemas {
         // MNetworkSerializer
         // MNetworkUserGroup
         // MNetworkPriority
-        //  
-        // NetworkVarNames: m_glowEntity (CHandle<CBaseModelEntity>)
-        // NetworkVarNames: m_usable (bool)
-        // NetworkVarNames: m_szDisplayText (string_t)
-        // MNetworkSendProxyRecipientsFilter
+        // MNetworkUserGroup
+        // MNetworkPriority
         // MNetworkPriority
         // MNetworkSerializer
         // MNetworkUserGroup
@@ -5455,6 +5440,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_flFOVTime (GameTime_t)
         // NetworkVarNames: m_flFOVRate (float32)
         // NetworkVarNames: m_hZoomOwner (CHandle<CBaseEntity>)
+        // S
         // MGetKV3ClassDefaults
         // C:\buildworker\csgo_rel_win64\build\src\game\shared\animgraphcontroller.h
         // m_nParamIndex < 0
@@ -5693,8 +5679,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nFallbackSeed (int)
         // NetworkVarNames: m_flFallbackWear (float)
         // NetworkVarNames: m_nFallbackStatTrak (int)
-        // eofDescriptorProto
-        //  
         // PROVIDER_WEAPON
         public static class CEconEntity {
             public const nint m_AttributeManager = 0xAC0; // CAttributeContainer
@@ -5768,10 +5752,11 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_Entity_nLightProbeAtlasZ (int)
         // NetworkVarNames: m_Entity_bEnabled (bool)
         // MGetKV3ClassDefaults
-        // INGLE_FILE=1
         // MGetKV3ClassDefaults
         // eNotifyWhenFinished
         // eNotifyTriggered
+        // i
+        // h
         // C:\buildworker\csgo_rel_win64\build\src\public\tier0\quantizedfloatencoder.h
         // nBits != 32
         public static class CEnvCombinedLightProbeVolume {
@@ -6023,6 +6008,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_flFOVTime (GameTime_t)
         // NetworkVarNames: m_flFOVRate (float32)
         // NetworkVarNames: m_hZoomOwner (CHandle<CBaseEntity>)
+        // S
         // MGetKV3ClassDefaults
         // C:\buildworker\csgo_rel_win64\build\src\game\shared\animgraphcontroller.h
         // m_nParamIndex < 0
@@ -6030,6 +6016,7 @@ namespace Source2Dumper.Schemas {
         // nullptr == GetControllerInternal( T::s_nControllerTypeID, pOwner, hExternalGraph, false )
         // CUtlRBTree<struct CUtlOrderedMapBase<class CPlayerSlot,unsigned __int64,class CDefLess<class CPlayerSlot>,int>::Node_t,class CUt
         // CAnimGraph2ParamRefBase<bool>::Bind
+        // teHW
         // CAnimGraph2ParamRefBase<float>::Bind
         // NetworkChangeCallback: OnPendingTeamChanged
         // NetworkChangeCallback: OnCompTeammateColorChanged
@@ -6524,6 +6511,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // SOUNDEVENT_START_WORLD
         // SOUNDEVENT_START_ENTITY
+        //  
         public static class CPulseServerFuncs_Sounds {
         }
         // Parent: None
@@ -6555,6 +6543,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPulseLegacyName
+        // 46b/0x0303,0x0d9d/0x3013,0x0e8f/0x3114,0x0738/0xa856,0x0010/0x0082,0x0e8f/0x0003,0x20d6/0x4026,0x20d6/0x4033,0x20d6/0x5795,0x20d
         public static class CPulsePhysicsConstraintsFuncs {
         }
         // Parent: CPlayerPawnComponent
@@ -6565,7 +6554,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_hObserverTarget (CHandle<CBaseEntity>)
         // NetworkChangeCallback: OnActiveWeaponChanged
         // MNetworkUserGroup
-        // ICECandidate
         public static class CPlayer_ObserverServices {
             public const nint m_iObserverMode = 0x48; // uint8
             public const nint m_hObserverTarget = 0x4C; // CHandle<CBaseEntity>
@@ -6761,6 +6749,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nNextHoldTick (GameTick_t)
         // NetworkVarNames: m_flNextHoldFrac (float)
         // NetworkVarNames: m_hSwitchToWeaponAfterThrow (CHandle<CCSWeaponBase>)
+        // u
         // NetworkVarNames: m_OwningPlayer (CHandle<CCSPlayerPawn>)
         // NetworkVarNames: m_KillingPlayer (CHandle<CCSPlayerPawn>)
         // NetworkVarNames: m_nSmokeEffectTickBegin (int)
@@ -6771,6 +6760,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_VoxelFrameData (uint8)
         // NetworkVarNames: m_nVoxelFrameDataSize (int)
         // NetworkVarNames: m_nVoxelUpdate (int)
+        // A
         public static class CBaseCSGrenade {
             public const nint m_bRedraw = 0x1130; // bool
             public const nint m_bIsHeldByPlayer = 0x1131; // bool
@@ -6890,7 +6880,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // escriptorProto
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -6947,11 +6936,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
+        // t
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // escriptorProto
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -7107,7 +7096,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseLerp {
@@ -7344,7 +7332,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_MeshGroupMask (MeshGroupMask_t)
         // NetworkVarNames: m_nBodyGroupChoices (int32)
         // NetworkVarNames: m_nIdealMotionType (int8)
-        // steam_overlay_1=1
         // NetworkChangeCallback: skeletonMaterialGroupChanged
         // NetworkVarNames: m_modelState (CModelState)
         // NetworkVarNames: m_bIsAnimationEnabled (bool)
@@ -7427,7 +7414,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // NetworkVarNames: m_totalHitsOnServer (int32)
-        //  
+        // h
         public static class CCSPlayer_BulletServices {
             public const nint m_totalHitsOnServer = 0x48; // int32
         }
@@ -7486,6 +7473,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressBaseClassField
         // NetworkChangeCallback: WeaponGameplayAnimStateNetworkChangeCallback
         // NetworkChangeCallback: OnWeaponBurstModeNetworkChange
+        // e
         public static class CWeaponBaseItem {
             public const nint m_bSequenceInProgress = 0x1130; // bool
             public const nint m_bRedraw = 0x1131; // bool
@@ -7555,11 +7543,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
+        // t
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // escriptorProto
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -7608,7 +7596,6 @@ namespace Source2Dumper.Schemas {
         // c90
         // vest
         // vesthelm
-        // steam_overlay_1=1
         // NetworkVarNames: m_zoomLevel (int)
         // NetworkVarNames: m_iBurstShotsRemaining (int)
         // NetworkVarNames: m_bNeedsBoltAction (bool)
@@ -7778,6 +7765,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_hEntAttached (CHandle<CBaseEntity>)
         // NetworkVarNames: m_bCheapEffect (bool)
+        // d
         // NetworkChangeCallback: OnDecalDimensionsChanged
         // NetworkChangeCallback: OnDecalDimensionsChanged
         // NetworkChangeCallback: OnDecalDimensionsChanged
@@ -8406,8 +8394,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nFallbackSeed (int)
         // NetworkVarNames: m_flFallbackWear (float)
         // NetworkVarNames: m_nFallbackStatTrak (int)
-        // eofDescriptorProto
-        //  
         // PROVIDER_WEAPON
         public static class CAttributeManager {
             public const nint m_Providers = 0x8; // CUtlVector<CHandle<CBaseEntity>>
@@ -8511,7 +8497,9 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_bNoSave (bool)
         // NetworkVarNames: m_bNoFreeze (bool)
         // NetworkVarNames: m_bNoRamp (bool)
-        // ICECandidate
+        //  
+        // d
+        //  
         // CLoopModeGame::LoopInit
         public static class CPlayer_CameraServices {
             public const nint m_vecCsViewPunchAngle = 0x48; // QAngle
@@ -8688,6 +8676,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_vNoiseScale (Vector)
         // NetworkVarNames: m_fWindSpeed (float)
         // NetworkVarNames: m_vWindDirection (Vector)
+        // h
         // NetworkVarNames: m_flEndDistance (float)
         // NetworkVarNames: m_flStartDistance (float)
         // NetworkVarNames: m_flFogFalloffExponent (float)
@@ -9222,6 +9211,7 @@ namespace Source2Dumper.Schemas {
         // MEDAL_RANK_SILVER
         // MEDAL_RANK_GOLD
         // MEDAL_RANK_COUNT
+        // d
         public static class CCSPlayer_MovementServices {
             public const nint m_vecLadderNormal = 0x278; // Vector
             public const nint m_nLadderSurfacePropIndex = 0x284; // int32
@@ -9899,6 +9889,8 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nSendUpdate (int)
         // NetworkVarNames: m_DamageList (CDamageRecord)
         // MNetworkReplayCompatField
+        // a
+        //  
         public static class CCSPlayerController_DamageServices {
             public const nint m_nSendUpdate = 0x40; // int32
             public const nint m_DamageList = 0x48; // CUtlVectorEmbeddedNetworkVar<CDamageRecord>
@@ -10004,82 +9996,12 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_usable (bool)
         // NetworkVarNames: m_szDisplayText (string_t)
         // MNetworkSendProxyRecipientsFilter
-        // MNetworkPriority
-        // MNetworkSerializer
-        // MNetworkUserGroup
-        // MNetworkPriority
-        // MNetworkSerializer
-        // MNetworkSendProxyRecipientsFilter
-        // MNetworkUserGroup
-        // MNetworkPriority
-        // MNetworkUserGroup
-        // MNetworkUserGroup
-        // MNetworkPriority
-        // MNetworkUserGroup
-        // MNetworkPriority
-        // MNetworkPriority
-        // MNetworkUserGroup
-        // MNetworkPriority
-        // MNetworkUserGroup
-        // MNetworkBitCount
-        // MNetworkMinValue
-        // MNetworkMaxValue
-        // MNetworkEncodeFlags
-        // MNetworkUserGroup
-        // MNetworkEncoder
-        // MNetworkUserGroup
-        // MNetworkUserGroup
-        // MNetworkBitCount
-        // MNetworkMinValue
-        // MNetworkMaxValue
-        // MNetworkEncodeFlags
-        // MSaveOpsForField
-        // MNetworkExcludeByName
-        // MNetworkExcludeByName
-        // MNetworkExcludeByUserGroup
-        // MNetworkExcludeByUserGroup
-        // MNetworkExcludeByUserGroup
-        // MNetworkExcludeByName
-        // MNetworkExcludeByName
-        // MNetworkExcludeByName
-        // MNetworkExcludeByName
-        // NetworkVarNames: m_CBodyComponent (CBodyComponent::Storage_t)
-        // NetworkVarNames: m_iHealth (int32)
-        // NetworkVarNames: m_iMaxHealth (int32)
-        // NetworkVarNames: m_lifeState (uint8)
-        // NetworkVarNames: m_bTakesDamage (bool)
-        // NetworkVarNames: m_nTakeDamageFlags (TakeDamageFlags_t)
-        // NetworkVarNames: m_nPlatformType (EntityPlatformTypes_t)
-        // NetworkVarNames: m_MoveCollide (MoveCollide_t)
-        // NetworkVarNames: m_MoveType (MoveType_t)
-        // NetworkVarNames: m_nSubclassID (EntitySubclassID_t)
-        // MNetworkUserGroupProxy
-        // NetworkVarNames: m_flAnimTime (float32)
-        // NetworkVarNames: m_flSimulationTime (float32)
-        // NetworkVarNames: m_flCreateTime (GameTime_t)
-        // NetworkVarNames: m_bClientSideRagdoll (bool)
-        // NetworkVarNames: m_ubInterpolationFrame (uint8)
-        // NetworkVarNames: m_iTeamNum (uint8)
-        // NetworkVarNames: m_flSpeed (float)
-        // NetworkVarNames: m_spawnflags (uint32)
-        // NetworkVarNames: m_nNextThinkTick (GameTick_t)
-        // NetworkVarNames: m_fFlags (uint32)
-        // NetworkVarNames: m_vecVelocity (CNetworkVelocityVector)
-        // NetworkVarNames: m_vecBaseVelocity (Vector)
-        // NetworkVarNames: m_hEffectEntity (CHandle<CBaseEntity>)
-        // NetworkVarNames: m_hOwnerEntity (CHandle<CBaseEntity>)
-        // NetworkVarNames: m_fEffects (uint32)
-        // NetworkVarNames: m_hGroundEntity (CHandle<CBaseEntity>)
-        // NetworkVarNames: m_nGroundBodyIndex (int)
-        // NetworkVarNames: m_flFriction (float32)
-        // NetworkVarNames: m_flElasticity (float32)
-        // NetworkVarNames: m_flGravityScale (float32)
-        // NetworkVarNames: m_flTimeScale (float32)
-        // NetworkVarNames: m_flWaterLevel (float)
-        // NetworkVarNames: m_bGravityDisabled (bool)
-        // NetworkVarNames: m_bAnimatedEveryTick (bool)
-        // NetworkVarNames: m_flNavIgnoreUntilTime (GameTime_t)
-        // NetworkVarNames: m_nBloodType (BloodType)
+        //  
+        //  
+        //  
+        // NetworkChangeCallback: OnEffectsChanged
+        //  
+        //  
         public static class CBaseButton {
             public const nint m_angMoveEntitySpace = 0x7B0; // QAngle
             public const nint m_fStayPushed = 0x7BC; // bool
@@ -10114,7 +10036,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // BLE_VK_LAYER_VALVE_steam_overlay_1=1
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -10242,7 +10163,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iNumRoundKills (int)
         // NetworkVarNames: m_iNumRoundKillsHeadshots (int)
         // NetworkVarNames: m_flTotalRoundDamageDealt (float)
-        // ICECandidate
         // weapon_tec9
         // weapon_revolver
         // weapon_mp5sd
@@ -10268,8 +10188,11 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_animationController (CBaseAnimGraphController)
         // 0
         //  
-        // MNetworkUserGroup
-        // MNetworkPriority
+        //  
+        // NetworkVarNames: m_glowEntity (CHandle<CBaseModelEntity>)
+        // NetworkVarNames: m_usable (bool)
+        // NetworkVarNames: m_szDisplayText (string_t)
+        // MNetworkSendProxyRecipientsFilter
         //  
         //  
         //  
@@ -10290,7 +10213,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseYieldingInflow {
@@ -10318,6 +10240,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MNetworkOverride
         // MNetworkOverride
+        // d
         // NetworkVarNames: m_flFadeInStart (float32)
         // NetworkVarNames: m_flFadeInLength (float32)
         // NetworkVarNames: m_flFadeOutModelStart (float32)
@@ -10528,7 +10451,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_ObservableVariableListener {
@@ -10651,7 +10573,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_MeshGroupMask (MeshGroupMask_t)
         // NetworkVarNames: m_nBodyGroupChoices (int32)
         // NetworkVarNames: m_nIdealMotionType (int8)
-        // steam_overlay_1=1
         // NetworkChangeCallback: skeletonMaterialGroupChanged
         // NetworkVarNames: m_modelState (CModelState)
         // NetworkVarNames: m_bIsAnimationEnabled (bool)
@@ -10918,6 +10839,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyStartGroup
         // MPropertyStartGroup
         // MPropertyStartGroup
+        //  
+        // e
         public static class CCSWeaponBaseGun {
             public const nint m_zoomLevel = 0x1130; // int32
             public const nint m_iBurstShotsRemaining = 0x1134; // int32
@@ -10984,8 +10907,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nFallbackSeed (int)
         // NetworkVarNames: m_flFallbackWear (float)
         // NetworkVarNames: m_nFallbackStatTrak (int)
-        // eofDescriptorProto
-        //  
         // PROVIDER_WEAPON
         public static class CAttributeContainer {
             public const nint m_Item = 0x50; // CEconItemView
@@ -11088,9 +11009,6 @@ namespace Source2Dumper.Schemas {
         // MNetworkMaxValue
         // MNetworkEncodeFlags
         // NetworkChangeCallback: CNetworkOriginQuantizedVector
-        // MPropertyStartGroup
-        // MPropertyDescription
-        // MPropertyAttributeEditor
         // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyDescription
@@ -11656,12 +11574,12 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iStartAccount (int)
         // NetworkVarNames: m_iTotalCashSpent (int)
         // NetworkVarNames: m_iCashSpentThisRound (int)
+        // h
         // NetworkVarNames: m_perRoundStats (CSPerRoundStats_t)
         // NetworkVarNames: m_matchStats (CSMatchStats_t)
         // NetworkVarNames: m_iNumRoundKills (int)
         // NetworkVarNames: m_iNumRoundKillsHeadshots (int)
         // NetworkVarNames: m_flTotalRoundDamageDealt (float)
-        // ICECandidate
         public static class CCS2WeaponGraphController {
             public const nint m_action = 0x90; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
             public const nint m_bActionReset = 0xA8; // CAnimGraph2ParamOptionalRef<bool>
@@ -11888,7 +11806,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nRoundEndCount (uint8)
         // NetworkVarNames: m_iRoundStartRoundNumber (int)
         // NetworkVarNames: m_nRoundStartCount (uint8)
-        // LE_VK_LAYER_VALVE_steam_overlay_1=1
+        // a
         public static class CCSGameRules {
             public const nint m_bFreezePeriod = 0xD8; // bool
             public const nint m_bWarmupPeriod = 0xD9; // bool
@@ -12079,7 +11997,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_iRoundStartRoundNumber = 0x1410; // int32
             public const nint m_nRoundStartCount = 0x1414; // uint8
             public const nint m_flLastPerfSampleTime = 0x5420; // float64
-            public const nint game_coopmission_manager = 0xB258CD98; // MNetworkEnable
+            public const nint game_coopmission_manager = 0xF729CDC8; // MNetworkEnable
             public const nint m_nMatchSeed = 0x138; // int32
             public const nint m_bBlockersPresent = 0x13C; // bool
             public const nint m_bRoundInProgress = 0x13D; // bool
@@ -12129,6 +12047,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nNextHoldTick (GameTick_t)
         // NetworkVarNames: m_flNextHoldFrac (float)
         // NetworkVarNames: m_hSwitchToWeaponAfterThrow (CHandle<CCSWeaponBase>)
+        // u
         // NetworkVarNames: m_OwningPlayer (CHandle<CCSPlayerPawn>)
         // NetworkVarNames: m_KillingPlayer (CHandle<CCSPlayerPawn>)
         // NetworkVarNames: m_nSmokeEffectTickBegin (int)
@@ -12256,6 +12175,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_flLightStyleStartTime (GameTime_t)
         // NetworkVarNames: m_flCapsuleLength (float)
         // NetworkVarNames: m_flMinRoughness (float)
+        // r
         public static class CLightComponent {
             public const nint __m_pChainEntity = 0x38; // CNetworkVarChainer
             public const nint m_Color = 0x75; // Color
@@ -12423,50 +12343,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // NetworkVarNames: m_hActivator (EHANDLE)
-        // NetworkVarNames: m_bEnabled (bool)
-        // NetworkVarNames: m_DialogXMLName (string_t)
-        // NetworkVarNames: m_PanelClassName (string_t)
-        // NetworkVarNames: m_PanelID (string_t)
-        // NetworkVarNames: m_bIgnoreInput (bool)
-        // NetworkVarNames: m_bLit (bool)
-        // NetworkVarNames: m_bFollowPlayerAcrossTeleport (bool)
-        // NetworkVarNames: m_flWidth (float)
-        // NetworkVarNames: m_flHeight (float)
-        // NetworkVarNames: m_flDPI (float)
-        // NetworkVarNames: m_flInteractDistance (float)
-        // NetworkVarNames: m_flDepthOffset (float)
-        // NetworkVarNames: m_unOwnerContext (uint32)
-        // NetworkVarNames: m_unHorizontalAlign (uint32)
-        // NetworkVarNames: m_unVerticalAlign (uint32)
-        // NetworkVarNames: m_unOrientation (uint32)
-        // NetworkVarNames: m_bAllowInteractionFromAllSceneWorlds (bool)
-        // NetworkVarNames: m_vecCSSClasses (string_t)
-        // NetworkVarNames: m_bOpaque (bool)
-        // NetworkVarNames: m_bNoDepth (bool)
-        // NetworkVarNames: m_bVisibleWhenParentNoDraw (bool)
-        // NetworkVarNames: m_bRenderBackface (bool)
-        // NetworkVarNames: m_bUseOffScreenIndicator (bool)
-        // NetworkVarNames: m_bExcludeFromSaveGames (bool)
-        // NetworkVarNames: m_bGrabbable (bool)
-        // NetworkVarNames: m_bOnlyRenderToTexture (bool)
-        // NetworkVarNames: m_bDisableMipGen (bool)
-        // NetworkVarNames: m_nExplicitImageLayout (int32)
-        // WORLDTEXT_HORIZONTAL_ALIGN_CENTER
-        // WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
-        // WORLDTEXT_VERTICAL_ALIGN_CENTER
-        // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
-        // WORLDTEXT_ORIENTATION_FACEUSER
-        // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
-        // NetworkVarNames: m_bDisabled (bool)
-        // NetworkVarNames: m_nResolutionX (int)
-        // NetworkVarNames: m_nResolutionY (int)
-        // NetworkVarNames: m_szPanelType (string_t)
-        // NetworkVarNames: m_szLayoutFileName (string_t)
-        // NetworkVarNames: m_RenderAttrName (string_t)
-        // NetworkVarNames: m_TargetEntities (CHandle<CBaseModelEntity>)
-        // NetworkVarNames: m_nTargetChangeCount (int)
-        // NetworkVarNames: m_vecCSSClasses (string_t)
-        // NetworkChangeCallback: OnDialogActivatorChanged
+        // NetworkVarNames: m_messageText (char)
         public static class CPointClientUIDialog {
             public const nint m_hActivator = 0x890; // CHandle<CBaseEntity>
             public const nint m_bStartEnabled = 0x894; // bool
@@ -12499,6 +12376,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_flFOVTime (GameTime_t)
         // NetworkVarNames: m_flFOVRate (float32)
         // NetworkVarNames: m_hZoomOwner (CHandle<CBaseEntity>)
+        // S
         // MGetKV3ClassDefaults
         // C:\buildworker\csgo_rel_win64\build\src\game\shared\animgraphcontroller.h
         // m_nParamIndex < 0
@@ -12506,6 +12384,7 @@ namespace Source2Dumper.Schemas {
         // nullptr == GetControllerInternal( T::s_nControllerTypeID, pOwner, hExternalGraph, false )
         // CUtlRBTree<struct CUtlOrderedMapBase<class CPlayerSlot,unsigned __int64,class CDefLess<class CPlayerSlot>,int>::Node_t,class CUt
         // CAnimGraph2ParamRefBase<bool>::Bind
+        // teHW
         // CAnimGraph2ParamRefBase<float>::Bind
         public static class CCSPlayer_ActionTrackingServices {
             public const nint m_hLastWeaponBeforeC4AutoSwitch = 0x1F8; // CHandle<CBasePlayerWeapon>
@@ -12601,7 +12480,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Method {
@@ -12632,6 +12510,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_szCustomName (char)
         // C:\buildworker\csgo_rel_win64\build\src\public\tier0\utlrbtree.h
         // !link
+        // l
         // generic
         public static class CEconItemView {
             public const nint m_iItemDefinitionIndex = 0x38; // uint16
@@ -12960,7 +12839,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseValue {
@@ -13068,7 +12946,6 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iLastBulletUpdate (int)
         // NetworkVarNames: m_bIsOtherEnemy (bool)
         // NetworkVarNames: m_killType (EKillTypes_t)
-        // r
         // MNetworkUserGroup
         // NetworkVarNames: m_flNextAttack (GameTime_t)
         // NetworkVarNames: m_bIsLookingAtWeapon (bool)
@@ -13246,7 +13123,6 @@ namespace Source2Dumper.Schemas {
         // c90
         // vest
         // vesthelm
-        // steam_overlay_1=1
         // NetworkVarNames: m_zoomLevel (int)
         // NetworkVarNames: m_iBurstShotsRemaining (int)
         // NetworkVarNames: m_bNeedsBoltAction (bool)
@@ -13268,6 +13144,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyStartGroup
         // MPropertyStartGroup
         // MPropertyStartGroup
+        //  
+        // e
         public static class CPlantedC4 {
             public const nint m_bBombTicking = 0xA28; // bool
             public const nint m_flC4Blow = 0xA2C; // GameTime_t
@@ -13384,6 +13262,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
+        // a
         public static class CPulseMathlib {
         }
         // Parent: CPointEntity
@@ -13443,6 +13322,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_bAnimatedEveryTick (bool)
         // NetworkVarNames: m_flNavIgnoreUntilTime (GameTime_t)
         // NetworkVarNames: m_nBloodType (BloodType)
+        // l
         // MNetworkIncludeByUserGroup
         // NetworkVarNames: m_flFadeInDuration (float32)
         // NetworkVarNames: m_flFadeOutDuration (float32)
@@ -13557,8 +13437,8 @@ namespace Source2Dumper.Schemas {
             public const nint m_flVPhysicsUpdateLocalTime = 0x498; // float32
             public const nint m_nBloodType = 0x49C; // BloodType
             public const nint m_pPulseGraphInstance = 0x4A0; // CPulseGraphInstance_ServerEntity*
-            public const nint Default = 0xB24FFDB8; // MPropertyFriendlyName
-            public const nint Tripmine = 0xB24DD1C0; // MPropertyFriendlyName
+            public const nint Default = 0xF720FDE0; // MPropertyFriendlyName
+            public const nint Tripmine = 0xF71ED1D0; // MPropertyFriendlyName
         }
         // Parent: CPlayerPawnComponent
         // Field count: 0
@@ -13693,6 +13573,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_vNoiseScale (Vector)
         // NetworkVarNames: m_fWindSpeed (float)
         // NetworkVarNames: m_vWindDirection (Vector)
+        // h
         // NetworkVarNames: m_flEndDistance (float)
         // NetworkVarNames: m_flStartDistance (float)
         // NetworkVarNames: m_flFogFalloffExponent (float)
@@ -13930,7 +13811,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleRandom {
@@ -13943,7 +13823,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_PublicOutput {
@@ -14100,6 +13979,7 @@ namespace Source2Dumper.Schemas {
         // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
         // WORLDTEXT_ORIENTATION_FACEUSER
         // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
+        // h
         // NetworkVarNames: m_bDisabled (bool)
         // NetworkVarNames: m_nResolutionX (int)
         // NetworkVarNames: m_nResolutionY (int)
@@ -14147,6 +14027,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_flRadius (float)
         // generic
+        // l
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
@@ -14164,12 +14045,12 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iStartAccount (int)
         // NetworkVarNames: m_iTotalCashSpent (int)
         // NetworkVarNames: m_iCashSpentThisRound (int)
+        // h
         // NetworkVarNames: m_perRoundStats (CSPerRoundStats_t)
         // NetworkVarNames: m_matchStats (CSMatchStats_t)
         // NetworkVarNames: m_iNumRoundKills (int)
         // NetworkVarNames: m_iNumRoundKillsHeadshots (int)
         // NetworkVarNames: m_flTotalRoundDamageDealt (float)
-        // ICECandidate
         // weapon_tec9
         // weapon_revolver
         // weapon_mp5sd
@@ -14400,6 +14281,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyStartGroup
         // MGetKV3ClassDefaults
+        // l
         public static class CTextureBasedAnimatable {
             public const nint m_bLoop = 0x730; // bool
             public const nint m_flFPS = 0x734; // float32
@@ -14426,6 +14308,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_bWorldSpaceScale (bool)
         // NetworkVarNames: m_flGlowProxySize (float32)
         // NetworkVarNames: m_flHDRColorScale (float32)
+        // a
         // NetworkVarNames: m_iszStackName (string_t)
         // NetworkVarNames: m_iszOperatorName (string_t)
         // NetworkVarNames: m_iszOpvarName (string_t)
@@ -14540,6 +14423,7 @@ namespace Source2Dumper.Schemas {
         // WPN_ANIMSTATE_INVENTORY_UI_KEYCHAIN_APPLY
         // WPN_ANIMSTATE_END_VALID
         // WEAPON_LEGACY_STATE_CLEAR_FIRING
+        // <Y
         public static class CWeaponTaser {
             public const nint m_fFireTime = 0x1150; // GameTime_t
             public const nint m_nLastAttackTick = 0x1154; // int32
@@ -14589,6 +14473,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_CPathQueryComponent (CPathQueryComponent::Storage_t)
         // NetworkVarNames: m_pathString (CUtlString)
+        // i
         // MNetworkEncoder
         // MNetworkEncoder
         // MNetworkBitCount
@@ -14646,6 +14531,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // NetworkVarNames: m_EffectName (string_t)
+        // l
         public static class CFuncElectrifiedVolume {
             public const nint m_EffectName = 0x750; // CUtlSymbolLarge
             public const nint m_EffectInterpenetrateName = 0x758; // CUtlSymbolLarge
@@ -14772,6 +14658,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_vMaxs (Vector)
         // NetworkVarNames: m_flRadius (float)
         // generic
+        // l
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
@@ -14933,12 +14820,12 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iStartAccount (int)
         // NetworkVarNames: m_iTotalCashSpent (int)
         // NetworkVarNames: m_iCashSpentThisRound (int)
+        // h
         // NetworkVarNames: m_perRoundStats (CSPerRoundStats_t)
         // NetworkVarNames: m_matchStats (CSMatchStats_t)
         // NetworkVarNames: m_iNumRoundKills (int)
         // NetworkVarNames: m_iNumRoundKillsHeadshots (int)
         // NetworkVarNames: m_flTotalRoundDamageDealt (float)
-        // ICECandidate
         public static class CCSPlayer_WeaponServices {
             public const nint m_flNextAttack = 0xC0; // GameTime_t
             public const nint m_bIsLookingAtWeapon = 0xC4; // bool
@@ -14967,6 +14854,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_iFirstSecondHalfRound (int)
         // NetworkVarNames: m_iBombSite (int)
         // NetworkVarNames: m_hBombPlanter (CHandle<CCSPlayerPawn>)
+        // l
         public static class CRetakeGameRules {
             public const nint m_nMatchSeed = 0x138; // int32
             public const nint m_bBlockersPresent = 0x13C; // bool
@@ -16019,6 +15907,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_nNextHoldTick (GameTick_t)
         // NetworkVarNames: m_flNextHoldFrac (float)
         // NetworkVarNames: m_hSwitchToWeaponAfterThrow (CHandle<CCSWeaponBase>)
+        // u
         // NetworkVarNames: m_OwningPlayer (CHandle<CCSPlayerPawn>)
         // NetworkVarNames: m_KillingPlayer (CHandle<CCSPlayerPawn>)
         // NetworkVarNames: m_nSmokeEffectTickBegin (int)
@@ -16142,6 +16031,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // EXPLOSION_TYPE_GRENADE
         // EXPLOSION_TYPE_MOLOTOV
         // EXPLOSION_TYPE_FIREWORKS
@@ -16231,6 +16122,7 @@ namespace Source2Dumper.Schemas {
         // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
         // WORLDTEXT_ORIENTATION_FACEUSER
         // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
+        // h
         // NetworkVarNames: m_bDisabled (bool)
         // NetworkVarNames: m_nResolutionX (int)
         // NetworkVarNames: m_nResolutionY (int)
@@ -16345,6 +16237,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_flFOVTime (GameTime_t)
         // NetworkVarNames: m_flFOVRate (float32)
         // NetworkVarNames: m_hZoomOwner (CHandle<CBaseEntity>)
+        // S
         // MGetKV3ClassDefaults
         // C:\buildworker\csgo_rel_win64\build\src\game\shared\animgraphcontroller.h
         // m_nParamIndex < 0
@@ -16790,8 +16683,11 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_bUseHitboxesForRenderBox (bool)
         // NetworkVarNames: m_bUseAnimGraph (bool)
+        // d
+        // d
         // MNetworkOverride
         // MNetworkOverride
+        // d
         // NetworkVarNames: m_flFadeInStart (float32)
         // NetworkVarNames: m_flFadeInLength (float32)
         // NetworkVarNames: m_flFadeOutModelStart (float32)
@@ -16959,7 +16855,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // r
+        // l
         public static class CBasePlayerWeaponVData {
             public const nint m_szWorldModel = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_sToolsOnlyOwnerModelName = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -17184,6 +17080,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_vNoiseScale (Vector)
         // NetworkVarNames: m_fWindSpeed (float)
         // NetworkVarNames: m_vWindDirection (Vector)
+        // h
         // NetworkVarNames: m_flEndDistance (float)
         // NetworkVarNames: m_flStartDistance (float)
         // NetworkVarNames: m_flFogFalloffExponent (float)
@@ -17308,6 +17205,7 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_steamID (uint64)
         // NetworkVarNames: m_bNoClipEnabled (bool)
         // NetworkVarNames: m_iDesiredFOV (uint32)
+        // l
         public static class CBasePlayerController {
             public const nint m_nInButtonsWhichAreToggles = 0x4B0; // uint64
             public const nint m_nTickBase = 0x4B8; // uint32
@@ -17902,6 +17800,7 @@ namespace Source2Dumper.Schemas {
         //  
         //  
         //  
+        //  
         // NetworkChangeCallback: skeletonModelChanged
         // NetworkChangeCallback: skeletonMeshGroupMaskChanged
         // NetworkVarNames: m_skyboxData (sky3dparams_t)
@@ -17925,6 +17824,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        //  
         public static class PulseScriptedSequenceData_t {
             public const nint m_nActorID = 0x0; // int32
             public const nint m_szPreIdleSequence = 0x8; // CUtlString
@@ -18012,9 +17912,6 @@ namespace Source2Dumper.Schemas {
         // MNetworkMaxValue
         // MNetworkEncodeFlags
         // NetworkChangeCallback: CNetworkOriginQuantizedVector
-        // MPropertyStartGroup
-        // MPropertyDescription
-        // MPropertyAttributeEditor
         // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyDescription
@@ -18258,9 +18155,6 @@ namespace Source2Dumper.Schemas {
         // NetworkChangeCallback: CNetworkOriginQuantizedVector
         // MPropertyStartGroup
         // MPropertyDescription
-        // MPropertyAttributeEditor
-        // MPropertyStartGroup
-        // MPropertyDescription
         // MPropertyDescription
         // MPropertySuppressExpr
         // MGetKV3ClassDefaults
@@ -18352,9 +18246,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
-        // MPropertyStartGroup
-        // MPropertyDescription
-        // MPropertyAttributeEditor
         // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyDescription
@@ -18493,6 +18384,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // generic
+        // l
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
@@ -18594,6 +18486,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyStartGroup
         // MPropertyStartGroup
         // MPropertyStartGroup
+        //  
+        // e
         public static class CFiringModeFloat {
             public const nint m_flValues = 0x0; // float32[2]
         }
@@ -19135,6 +19029,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyStartGroup
         // MPropertyStartGroup
         // MPropertyStartGroup
+        //  
+        // e
         public static class CFiringModeInt {
             public const nint m_nValues = 0x0; // int32[2]
         }
@@ -19166,10 +19062,10 @@ namespace Source2Dumper.Schemas {
         // NetworkVarNames: m_flexWeight (float32)
         // NetworkVarNames: m_vLookTargetPosition (VectorWS)
         // MPropertyAttributeRange
-        // g
         // MSaveOpsForField
         // NetworkChangeCallback: OnClientRagdollEnabledChanged
         // NetworkChangeCallback: OnClientRagdollChanged
+        // h
         // MPropertyDescription
         // MGetKV3ClassDefaults
         public static class CEmptyGraphController {
@@ -19181,6 +19077,7 @@ namespace Source2Dumper.Schemas {
         // MSaveOpsForField
         // NetworkChangeCallback: OnClientRagdollEnabledChanged
         // NetworkChangeCallback: OnClientRagdollChanged
+        // h
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)

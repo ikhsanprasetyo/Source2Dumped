@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -257,7 +257,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // rogram Files
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -265,6 +264,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyStartGroup
         // MPropertyFriendlyName
+        // a
         // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -285,9 +285,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -437,7 +434,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `8
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -445,10 +441,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // p;
         // MGetKV3ClassDefaults
-        // pC
-        //  (
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
@@ -459,15 +452,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @Y
-        // @+
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -691,7 +681,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // 255
+        // 251
         public static class CSosGroupActionSetSoundeventParameterSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_flMinValue = 0xC; // float32
@@ -903,7 +893,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  g
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -955,9 +944,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -996,7 +982,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  g
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1112,9 +1097,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1184,8 +1166,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // pC
-        //  (
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
@@ -1196,15 +1176,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @Y
-        // @+
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1249,7 +1226,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 255
+        // 251
         public static class CSosGroupActionSchema {
         }
         // Parent: None
@@ -1316,9 +1293,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1531,7 +1505,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  g
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1638,7 +1611,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 0b
         public static class CVMixPresetDSPProcessorDesc {
             public const nint m_desc = 0x20; // VMixPresetDSPDesc_t
         }
@@ -1683,13 +1655,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @5
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `8
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -1697,10 +1667,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // p;
         // MGetKV3ClassDefaults
-        // pC
-        //  (
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
@@ -1711,7 +1678,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         public static class CVMixDynamicsProcessorDesc {
             public const nint m_desc = 0x20; // VMixDynamicsDesc_t
         }
@@ -1795,9 +1761,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1847,9 +1810,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2013,7 +1973,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0b
         public static class CVMixBaseProcessorDesc {
             public const nint m_name = 0x8; // CUtlString
             public const nint m_nChannels = 0x14; // int32
@@ -2036,9 +1995,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2086,9 +2042,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2168,9 +2121,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2208,15 +2158,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @Y
-        // @+
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2275,15 +2222,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @Y
-        // @+
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2442,9 +2386,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2487,13 +2428,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @5
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `8
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -2501,10 +2440,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // p;
         // MGetKV3ClassDefaults
-        // pC
-        //  (
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
@@ -2515,7 +2451,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         public static class CVMixEffectChainProcessorDesc {
             public const nint m_desc = 0x20; // VMixEffectChainDesc_t
         }
@@ -2555,13 +2490,11 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @5
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `8
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -2569,10 +2502,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // p;
         // MGetKV3ClassDefaults
-        // pC
-        //  (
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
@@ -2583,15 +2513,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @Y
-        // @+
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2674,15 +2601,12 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  O
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @Y
-        // @+
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2698,8 +2622,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // @Y
-        // @+
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2856,13 +2778,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @5
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `8
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -2870,10 +2790,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // p;
         // MGetKV3ClassDefaults
-        // pC
-        //  (
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
@@ -2884,7 +2801,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  O
         public static class CVMixVocoderProcessorDesc {
             public const nint m_desc = 0x20; // VMixVocoderDesc_t
         }
@@ -2939,7 +2855,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // 255
+        // 251
         public static class CSosGroupActionLimitSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_nStopType = 0xC; // SosActionStopType_t
@@ -3090,9 +3006,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3162,9 +3075,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3292,7 +3202,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // 255
+        // 251
         public static class CSosGroupActionTimeBlockLimitSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_flMaxDuration = 0xC; // float32
@@ -3378,9 +3288,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3413,6 +3320,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyStartGroup
         // MPropertyFriendlyName
+        // a
         // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -3433,9 +3341,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3532,7 +3437,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 255
+        // 251
         public static class CSosGroupActionTimeLimitSchema {
             public const nint m_flMaxDuration = 0x8; // float32
         }
@@ -3576,7 +3481,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // rogram Files
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -3584,6 +3488,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyStartGroup
         // MPropertyFriendlyName
+        // a
         // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -3631,7 +3536,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0b
         public static class CVMixDelayProcessorDesc {
             public const nint m_desc = 0x20; // VMixDelayDesc_t
         }
@@ -3640,7 +3544,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // YER_VALVE_steam_overlay_1=1
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3672,9 +3575,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // PR
-        // p~
-        // `V
         // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults

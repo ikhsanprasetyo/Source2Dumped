@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 #pragma once
 
@@ -768,7 +768,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace CPulseCell_WaitForObservable {
                 constexpr std::ptrdiff_t m_Condition = 0x48; // PulseObservableBoolExpression_t
                 constexpr std::ptrdiff_t m_OnTrue = 0xC0; // CPulse_ResumePoint
@@ -812,6 +811,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -861,7 +861,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseRequirement {
             }
@@ -872,6 +871,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -887,7 +887,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
@@ -932,6 +931,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -985,7 +985,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_GraphHook {
                 constexpr std::ptrdiff_t m_HookName = 0x80; // PulseSymbol_t
@@ -1148,6 +1147,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1162,17 +1162,17 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // escriptorProto
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // escriptorProto
+            // d
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -1189,7 +1189,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
@@ -1205,6 +1204,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             namespace CPulseCell_BaseFlow {
             }
             // Parent: None
@@ -1270,6 +1270,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -1291,7 +1292,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EntOutputHandler {
                 constexpr std::ptrdiff_t m_SourceEntity = 0x80; // PulseSymbol_t
@@ -1368,6 +1368,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1505,7 +1506,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Method {
                 constexpr std::ptrdiff_t m_MethodName = 0x80; // PulseSymbol_t
@@ -1586,7 +1586,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
@@ -1596,6 +1595,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // a
             namespace CPulseMathlib {
             }
             // Parent: None
@@ -1608,7 +1608,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2135,6 +2134,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // (0
+            // p%
             namespace C_OP_RenderDeferredLight {
                 constexpr std::ptrdiff_t m_bUseAlphaTestWindow = 0x220; // bool
                 constexpr std::ptrdiff_t m_bUseTexture = 0x221; // bool
@@ -2303,7 +2304,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  
+            // 0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PET_GROUND_GRID
@@ -2452,7 +2453,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // d
+            // d
             namespace C_OP_FadeOutSimple {
                 constexpr std::ptrdiff_t m_flFadeOutTime = 0x1D0; // float32
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D4; // ParticleAttributeIndex_t
@@ -2692,6 +2694,8 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // 8
+            // 04
+            // ("
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -2710,7 +2714,12 @@ namespace source2_dumper {
             // F_NUM_SEQUENCES_PER_PARTICLE
             // F_SELF_ILLUM_PER_PARTICLE
             // F_REFRACT_SOLID
+            // @&
+            // X+
+            // 0,
             // p
+            // h#
+            // @#
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2788,6 +2797,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // i
+            // /
             namespace C_OP_SetControlPointsToParticle {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1D0; // int32
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1D4; // int32
@@ -3612,6 +3623,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // i
+            // /
             namespace C_OP_ModelDampenMovement {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1D0; // int32
                 constexpr std::ptrdiff_t m_bBoundBox = 0x1D4; // bool
@@ -4201,6 +4214,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // i
+            // /
             namespace C_OP_OrientTo2dDirection {
                 constexpr std::ptrdiff_t m_flRotOffset = 0x1D0; // float32
                 constexpr std::ptrdiff_t m_flSpinStrength = 0x1D4; // float32
@@ -4359,6 +4374,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // (0
+            // p%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -4868,6 +4885,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // d
             namespace C_OP_FadeInSimple {
                 constexpr std::ptrdiff_t m_flFadeInTime = 0x1D0; // float32
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D4; // ParticleAttributeIndex_t
@@ -5001,6 +5019,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // d
+            // d
             namespace C_OP_RemapVelocityToVector {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flScale = 0x1D4; // float32
@@ -5011,9 +5031,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // r
-            // r
-            // r
+            //  
             namespace C_INIT_SetHitboxToClosest {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nDesiredHitbox = 0x1DC; // int32
@@ -5497,7 +5515,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // s
+            // i
             namespace C_OP_RemapDistanceToLineSegmentBase {
                 constexpr std::ptrdiff_t m_nCP0 = 0x1D0; // int32
                 constexpr std::ptrdiff_t m_nCP1 = 0x1D4; // int32
@@ -5538,6 +5556,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // a
+            // a
+            // a
+            // a
             namespace C_OP_ContinuousEmitter {
                 constexpr std::ptrdiff_t m_flEmissionDuration = 0x1D8; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flStartTime = 0x348; // CParticleCollectionFloatInput
@@ -5686,7 +5708,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // /
             namespace C_INIT_SequenceLifeTime {
                 constexpr std::ptrdiff_t m_flFramerate = 0x1D8; // float32
             }
@@ -6167,6 +6189,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // (0
+            // p%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -7325,7 +7349,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // /
             namespace C_INIT_PositionWarp {
                 constexpr std::ptrdiff_t m_vecWarpMin = 0x1D8; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_vecWarpMax = 0x890; // CParticleCollectionVecInput
@@ -7406,6 +7430,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // @4
+            // 03
+            // P,
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MGetKV3ClassDefaults
@@ -7493,7 +7520,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  
+            // 0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PET_GROUND_GRID
@@ -8028,6 +8055,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 0'
+            // 82
+            // P-
+            // `0
+            // (&
+            // 8%
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8613,6 +8646,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // i
+            // /
             namespace C_OP_SpinUpdate {
             }
             // Parent: None
@@ -8940,6 +8975,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // (0
+            // p%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -8973,6 +9010,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // a
+            // a
+            // a
+            // a
             namespace C_OP_InstantaneousEmitter {
                 constexpr std::ptrdiff_t m_nParticlesToEmit = 0x1D8; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flStartTime = 0x348; // CParticleCollectionFloatInput
@@ -9093,6 +9134,10 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // 8-
+            // x-
+            // H3
+            //  #
             // MPropertyFriendlyName
             namespace CBaseTrailRenderer {
                 constexpr std::ptrdiff_t m_nOrientationType = 0x2DE8; // ParticleOrientationChoiceList_t
@@ -9507,6 +9552,7 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // x0
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9935,7 +9981,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // d
+            // d
             namespace C_OP_RemapNamedModelElementOnceTimed {
                 constexpr std::ptrdiff_t m_hModel = 0x1D0; // CStrongHandle<InfoForResourceTypeCModel>
                 constexpr std::ptrdiff_t m_inNames = 0x1D8; // CUtlVector<CUtlString>
@@ -10121,6 +10168,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // h(
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10151,6 +10199,7 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // h)
             namespace C_OP_RenderGpuImplicit {
                 constexpr std::ptrdiff_t m_bUsePerParticleRadius = 0x220; // bool
                 constexpr std::ptrdiff_t m_nVertexCountKb = 0x224; // uint32
@@ -10564,7 +10613,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  
+            // 0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PET_GROUND_GRID
@@ -11717,6 +11766,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // X%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -12286,6 +12336,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // (0
+            // p%
             namespace C_OP_RenderPostProcessing {
                 constexpr std::ptrdiff_t m_flPostProcessStrength = 0x220; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_hPostTexture = 0x390; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -12343,6 +12395,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // h(
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -12373,6 +12426,8 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // h)
+            // P4
             namespace C_OP_RenderBlobs {
                 constexpr std::ptrdiff_t m_cubeWidth = 0x220; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_cutoffRadius = 0x390; // CParticleCollectionRendererFloatInput
@@ -12570,6 +12625,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // (0
+            // p%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -12784,6 +12841,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // 8
+            //  
             namespace C_OP_CollideWithParentParticles {
                 constexpr std::ptrdiff_t m_flParentRadiusScale = 0x1D0; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x340; // CPerParticleFloatInput
@@ -13159,6 +13217,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // X%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14184,6 +14243,11 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 0*
+            // `.
+            // 0.
+            //  4
+            // h4
             namespace C_OP_GameDecalRenderer {
                 constexpr std::ptrdiff_t m_sDecalGroupName = 0x220; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_nEventType = 0x228; // EventTypeSelection_t
@@ -14438,6 +14502,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // (0
+            // p%
             namespace C_OP_RenderLights {
                 constexpr std::ptrdiff_t m_flAnimationRate = 0x228; // float32
                 constexpr std::ptrdiff_t m_nAnimationType = 0x22C; // AnimationType_t
@@ -14603,7 +14669,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // rogram Files
             namespace C_OP_RenderPoints {
                 constexpr std::ptrdiff_t m_hMaterial = 0x220; // CStrongHandle<InfoForResourceTypeIMaterial2>
             }
@@ -14635,7 +14700,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // /
             namespace C_INIT_SetAttributeToScalarExpression {
                 constexpr std::ptrdiff_t m_nExpression = 0x1D8; // ScalarExpressionType_t
                 constexpr std::ptrdiff_t m_flInput1 = 0x1E0; // CPerParticleFloatInput
@@ -15159,6 +15224,9 @@ namespace source2_dumper {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // 0'
+            // 82
+            // P-
             namespace C_OP_RenderClothForce {
             }
             // Parent: None
@@ -15826,6 +15894,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // X%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17872,6 +17941,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // i
+            // /
             namespace C_OP_SetVec {
                 constexpr std::ptrdiff_t m_InputValue = 0x1D0; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_nOutputField = 0x888; // ParticleAttributeIndex_t
@@ -18083,6 +18154,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // H+
+            // h!
+            // P"
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -18094,6 +18168,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // T$
+            // p/
+            // H%
             namespace C_OP_RenderOmni2Light {
                 constexpr std::ptrdiff_t m_nLightType = 0x220; // ParticleOmni2LightTypeChoiceList_t
                 constexpr std::ptrdiff_t m_vColorBlend = 0x228; // CParticleCollectionVecInput
@@ -19348,7 +19425,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // d
+            // d
             namespace C_OP_DifferencePreviousParticle {
                 constexpr std::ptrdiff_t m_nFieldInput = 0x1D0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D4; // ParticleAttributeIndex_t
@@ -19396,7 +19474,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // d
+            // d
             namespace C_OP_PercentageBetweenTransforms {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flInputMin = 0x1D4; // float32
@@ -19609,6 +19688,8 @@ namespace source2_dumper {
             // TEXTURE_REPETITION_PATH
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // X/
+            // X3
             namespace C_OP_RenderCables {
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x220; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flAlphaScale = 0x390; // CParticleCollectionFloatInput
@@ -19884,7 +19965,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // /
             namespace C_INIT_NormalAlignToCP {
                 constexpr std::ptrdiff_t m_transformInput = 0x1D8; // CParticleTransformInput
                 constexpr std::ptrdiff_t m_nControlPointAxis = 0x240; // ParticleControlPointAxis_t
@@ -21105,7 +21186,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // /
             namespace C_INIT_CreateOnModel {
                 constexpr std::ptrdiff_t m_modelInput = 0x1D8; // CParticleModelInput
                 constexpr std::ptrdiff_t m_transformInput = 0x238; // CParticleTransformInput
@@ -21296,7 +21377,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // /
             namespace C_INIT_RandomNamedModelMeshGroup {
             }
             // Parent: None
@@ -21316,6 +21397,10 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // 8-
+            // x-
+            // H3
+            //  #
             // MPropertyFriendlyName
             namespace C_OP_RenderProjected {
                 constexpr std::ptrdiff_t m_bProjectCharacter = 0x220; // bool
@@ -21524,6 +21609,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // a
+            // a
+            // a
+            // a
             namespace C_OP_MaintainEmitter {
                 constexpr std::ptrdiff_t m_nParticlesToMaintain = 0x1D8; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flStartTime = 0x348; // float32
@@ -22660,6 +22749,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // T$
+            // p/
+            // H%
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -22905,6 +22997,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // X%
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -23775,7 +23868,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // rogram Files
             namespace C_OP_RenderScreenShake {
                 constexpr std::ptrdiff_t m_flDurationScale = 0x220; // float32
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x224; // float32
@@ -23933,6 +24025,8 @@ namespace source2_dumper {
             // TEXTURE_REPETITION_PATH
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // X/
+            // X3
             namespace C_OP_HSVShiftToCP {
                 constexpr std::ptrdiff_t m_nColorCP = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nColorGemEnableCP = 0x1DC; // int32
@@ -24755,6 +24849,11 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // a
+            // a
+            // a
+            // a
+            // teHW
             namespace C_OP_NoiseEmitter {
                 constexpr std::ptrdiff_t m_flEmissionDuration = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_flStartTime = 0x1DC; // float32
@@ -24906,7 +25005,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  
+            // 0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PET_GROUND_GRID
@@ -25312,6 +25411,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // i
+            // /
+            // l
+            //  
+            //  
+            //  
             namespace C_OP_RemapNamedModelElementEndCap {
                 constexpr std::ptrdiff_t m_hModel = 0x1D0; // CStrongHandle<InfoForResourceTypeCModel>
                 constexpr std::ptrdiff_t m_inNames = 0x1D8; // CUtlVector<CUtlString>
@@ -25839,6 +25944,8 @@ namespace source2_dumper {
             // TEXTURE_REPETITION_PATH
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // X/
+            // X3
             namespace C_OP_SetGravityToCP {
                 constexpr std::ptrdiff_t m_nCPInput = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nCPOutput = 0x1DC; // int32
@@ -26836,7 +26943,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  
+            // 0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PET_GROUND_GRID
@@ -27021,6 +27128,8 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // 8
+            // 04
+            // ("
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -27039,7 +27148,12 @@ namespace source2_dumper {
             // F_NUM_SEQUENCES_PER_PARTICLE
             // F_SELF_ILLUM_PER_PARTICLE
             // F_REFRACT_SOLID
+            // @&
+            // X+
+            // 0,
             // p
+            // h#
+            // @#
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -27322,7 +27436,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  
+            // 0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PET_GROUND_GRID
@@ -28105,7 +28219,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // rogram Files
             namespace C_OP_ClientPhysics {
                 constexpr std::ptrdiff_t m_strPhysicsType = 0x220; // CUtlString
                 constexpr std::ptrdiff_t m_bStartAsleep = 0x228; // bool
@@ -28439,7 +28552,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // r
+            // d
+            // d
             namespace C_OP_PercentageBetweenTransformLerpCPs {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flInputMin = 0x1D4; // float32
@@ -28469,6 +28583,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // i
+            // /
             namespace C_OP_SetPerChildControlPoint {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1D0; // int32
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1D4; // int32
@@ -28491,6 +28607,8 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // h)
+            // P4
             // MPropertyFriendlyName
             namespace C_OP_RenderTreeShake {
                 constexpr std::ptrdiff_t m_flPeakStrength = 0x220; // float32
@@ -28730,6 +28848,8 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // 8
+            // 04
+            // ("
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -28748,7 +28868,12 @@ namespace source2_dumper {
             // F_NUM_SEQUENCES_PER_PARTICLE
             // F_SELF_ILLUM_PER_PARTICLE
             // F_REFRACT_SOLID
+            // @&
+            // X+
+            // 0,
             // p
+            // h#
+            // @#
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName

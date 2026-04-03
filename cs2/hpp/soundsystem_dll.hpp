@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 #pragma once
 
@@ -263,7 +263,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // rogram Files
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -271,6 +270,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // a
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -291,9 +291,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -443,7 +440,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `8
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -451,10 +447,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // p;
             // MGetKV3ClassDefaults
-            // pC
-            //  (
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
@@ -465,15 +458,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @Y
-            // @+
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -697,7 +687,7 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // 255
+            // 251
             namespace CSosGroupActionSetSoundeventParameterSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_flMinValue = 0xC; // float32
@@ -909,7 +899,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  g
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -961,9 +950,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1002,7 +988,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  g
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1118,9 +1103,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1190,8 +1172,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // pC
-            //  (
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
@@ -1202,15 +1182,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @Y
-            // @+
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1255,7 +1232,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // 255
+            // 251
             namespace CSosGroupActionSchema {
             }
             // Parent: None
@@ -1322,9 +1299,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1537,7 +1511,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  g
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1644,7 +1617,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 0b
             namespace CVMixPresetDSPProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixPresetDSPDesc_t
             }
@@ -1689,13 +1661,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @5
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `8
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -1703,10 +1673,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // p;
             // MGetKV3ClassDefaults
-            // pC
-            //  (
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
@@ -1717,7 +1684,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             namespace CVMixDynamicsProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixDynamicsDesc_t
             }
@@ -1801,9 +1767,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1853,9 +1816,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2019,7 +1979,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0b
             namespace CVMixBaseProcessorDesc {
                 constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_nChannels = 0x14; // int32
@@ -2042,9 +2001,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2092,9 +2048,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2174,9 +2127,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2214,15 +2164,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @Y
-            // @+
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2281,15 +2228,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @Y
-            // @+
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2448,9 +2392,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2493,13 +2434,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @5
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `8
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -2507,10 +2446,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // p;
             // MGetKV3ClassDefaults
-            // pC
-            //  (
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
@@ -2521,7 +2457,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             namespace CVMixEffectChainProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixEffectChainDesc_t
             }
@@ -2561,13 +2496,11 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @5
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `8
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -2575,10 +2508,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // p;
             // MGetKV3ClassDefaults
-            // pC
-            //  (
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
@@ -2589,15 +2519,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @Y
-            // @+
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2680,15 +2607,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  O
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @Y
-            // @+
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2704,8 +2628,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @Y
-            // @+
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2862,13 +2784,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @5
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `8
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -2876,10 +2796,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // p;
             // MGetKV3ClassDefaults
-            // pC
-            //  (
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
@@ -2890,7 +2807,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  O
             namespace CVMixVocoderProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixVocoderDesc_t
             }
@@ -2945,7 +2861,7 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // 255
+            // 251
             namespace CSosGroupActionLimitSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_nStopType = 0xC; // SosActionStopType_t
@@ -3096,9 +3012,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3168,9 +3081,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3298,7 +3208,7 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // 255
+            // 251
             namespace CSosGroupActionTimeBlockLimitSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_flMaxDuration = 0xC; // float32
@@ -3384,9 +3294,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3419,6 +3326,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // a
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -3439,9 +3347,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3538,7 +3443,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // 255
+            // 251
             namespace CSosGroupActionTimeLimitSchema {
                 constexpr std::ptrdiff_t m_flMaxDuration = 0x8; // float32
             }
@@ -3582,7 +3487,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // rogram Files
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3590,6 +3494,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // a
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -3637,7 +3542,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0b
             namespace CVMixDelayProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixDelayDesc_t
             }
@@ -3646,7 +3550,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // YER_VALVE_steam_overlay_1=1
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3678,9 +3581,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // PR
-            // p~
-            // `V
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults

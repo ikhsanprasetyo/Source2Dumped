@@ -621,6 +621,10 @@
             "type": "Unknown"
           },
           {
+            "name": ";.JSE;.WSF;.WSH;.MSC",
+            "type": "Unknown"
+          },
+          {
             "name": "RTPROXY_INSTANCE_UNIQUE_MESH",
             "type": "Unknown"
           },

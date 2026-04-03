@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -3675,7 +3675,7 @@ export const Schemas = {
             m_vecC4ExplodeSpectatePos: 0x16C0, // Vector
             m_vecC4ExplodeSpectateAng: 0x16CC, // QAngle
             m_flC4ExplodeSpectateDuration: 0x16D8, // float32
-            spectating: 0xB03010C0, // MNetworkEnable
+            spectating: 0xF50140E0, // MNetworkEnable
         },
         CCSGO_WingmanIntroCharacterPosition: {
         },

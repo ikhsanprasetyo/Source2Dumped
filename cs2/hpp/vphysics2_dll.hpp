@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 #pragma once
 
@@ -40,7 +40,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6
             namespace RnSphereDesc_t {
                 constexpr std::ptrdiff_t m_Sphere = 0x18; // SphereBase_t<float32>
             }
@@ -210,7 +209,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 6
             namespace RnMeshDesc_t {
                 constexpr std::ptrdiff_t m_Mesh = 0x18; // RnMesh_t
             }

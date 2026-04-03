@@ -2084,10 +2084,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "6",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2237,10 +2233,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "6",
             "type": "Unknown"
           }
         ],

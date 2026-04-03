@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 #pragma once
 
@@ -213,7 +213,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace CPulseCell_WaitForObservable {
                 constexpr std::ptrdiff_t m_Condition = 0x48; // PulseObservableBoolExpression_t
                 constexpr std::ptrdiff_t m_OnTrue = 0xC0; // CPulse_ResumePoint
@@ -265,10 +264,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // d
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -315,7 +316,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseRequirement {
@@ -327,6 +327,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -342,7 +343,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
@@ -399,10 +399,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // d
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -648,7 +650,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -678,13 +679,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // escriptorProto
             // MPropertyDescription
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -702,7 +702,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -734,7 +733,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace CPulseCell_Value_TestValue50 {
             }
             // Parent: None
@@ -780,10 +778,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // d
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             namespace CPulseCell_Value_Curve {
                 constexpr std::ptrdiff_t m_Curve = 0x48; // CPiecewiseCurve
@@ -1065,7 +1065,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace CPulseCell_Outflow_TestRandomYesNo {
                 constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_No = 0x90; // CPulse_OutflowConnection
@@ -1097,7 +1096,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace CPulseCell_Test_MultiInflow_WithDefault {
             }
             // Parent: None
@@ -1119,7 +1117,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1157,7 +1154,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_ObservableVariableListener {
@@ -1201,6 +1197,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // t
             namespace CPulseCell_Val_TestDomainGetEntityName {
             }
             // Parent: None
@@ -1314,7 +1311,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Method {
@@ -1332,7 +1328,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseValue {
@@ -1410,6 +1405,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // a
             namespace CPulseMathlib {
             }
             // Parent: None
@@ -1422,7 +1418,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleRandom {
@@ -1435,7 +1430,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_PublicOutput {
@@ -1449,6 +1443,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // t
             namespace CPulseCell_Val_TestDomainFindEntityByName {
             }
             // Parent: None
@@ -1633,7 +1628,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace CPulseCell_Step_TestDomainCreateFakeEntity {
             }
             // Parent: None

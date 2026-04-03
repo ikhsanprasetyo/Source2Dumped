@@ -1257,6 +1257,22 @@
             "type": "Unknown"
           },
           {
+            "name": "8-",
+            "type": "Unknown"
+          },
+          {
+            "name": "x-",
+            "type": "Unknown"
+          },
+          {
+            "name": "H3",
+            "type": "Unknown"
+          },
+          {
+            "name": " #",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           }
@@ -3137,7 +3153,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f",
             "type": "Unknown"
           },
           {
@@ -3901,7 +3917,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f",
             "type": "Unknown"
           },
           {
@@ -4171,7 +4187,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f",
             "type": "Unknown"
           },
           {
@@ -5119,7 +5135,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f",
             "type": "Unknown"
           },
           {
@@ -5453,7 +5469,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f",
             "type": "Unknown"
           },
           {
@@ -5957,7 +5973,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "0c12/0x0e20,0x0c12/0x0ef6,0x0c12/0x1cf6,0x0c12/0x1e10,0x0c12/0x2e18,0x0e6f/0x0203,0x0e6f/0x0207,0x0e6f/0x020a,0x0f0d/0x0055,0x0f",
             "type": "Unknown"
           },
           {
@@ -8205,6 +8221,10 @@
           {
             "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
+          },
+          {
+            "name": "t",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -8327,6 +8347,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8402,10 +8426,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -8425,6 +8445,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "m",
             "type": "Unknown"
           },
           {
@@ -8485,10 +8509,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "BLE_VK_LAYER_VALVE_steam_overlay_1=1",
             "type": "Unknown"
           },
           {
@@ -8713,6 +8733,10 @@
           },
           {
             "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "t",
             "type": "Unknown"
           },
           {
@@ -8970,6 +8994,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9149,10 +9177,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -9189,10 +9213,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -9222,10 +9242,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -9270,10 +9286,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -9483,10 +9495,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -9954,10 +9962,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10333,6 +10337,10 @@
             "type": "Unknown"
           },
           {
+            "name": "m",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -10397,10 +10405,6 @@
             "type": "Unknown"
           },
           {
-            "name": "escriptorProto",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -10421,7 +10425,7 @@
             "type": "Unknown"
           },
           {
-            "name": "escriptorProto",
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -10438,6 +10442,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "m",
             "type": "Unknown"
           },
           {
@@ -10478,6 +10486,10 @@
           },
           {
             "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "t",
             "type": "Unknown"
           },
           {
@@ -10809,10 +10821,6 @@
           {
             "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
-          },
-          {
-            "name": "BLE_VK_LAYER_VALVE_steam_overlay_1=1",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -10906,6 +10914,10 @@
         "metadata": [
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
             "type": "Unknown"
           }
         ],
@@ -13403,7 +13415,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -18434,7 +18446,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -20064,7 +20076,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -22065,7 +22077,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -28344,7 +28356,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -28457,7 +28469,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -28542,15 +28554,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -31897,6 +31901,14 @@
             "type": "Unknown"
           },
           {
+            "name": "(0",
+            "type": "Unknown"
+          },
+          {
+            "name": "p%",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -33553,10 +33565,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "rogram Files",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -33589,6 +33597,10 @@
           },
           {
             "name": "8",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -34917,6 +34929,22 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -35512,6 +35540,18 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "@4",
+            "type": "Unknown"
+          },
+          {
+            "name": "03",
+            "type": "Unknown"
+          },
+          {
+            "name": "P,",
             "type": "Unknown"
           },
           {
@@ -37862,7 +37902,11 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -42452,6 +42496,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -42804,7 +42852,11 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -43279,6 +43331,26 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "0*",
+            "type": "Unknown"
+          },
+          {
+            "name": "`.",
+            "type": "Unknown"
+          },
+          {
+            "name": "0.",
+            "type": "Unknown"
+          },
+          {
+            "name": " 4",
+            "type": "Unknown"
+          },
+          {
+            "name": "h4",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -43428,6 +43500,14 @@
           },
           {
             "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "(0",
+            "type": "Unknown"
+          },
+          {
+            "name": "p%",
             "type": "Unknown"
           },
           {
@@ -43921,6 +44001,14 @@
           },
           {
             "name": "MPropertyAttributeRange",
+            "type": "Unknown"
+          },
+          {
+            "name": "X/",
+            "type": "Unknown"
+          },
+          {
+            "name": "X3",
             "type": "Unknown"
           }
         ],
@@ -44912,6 +45000,22 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
             "type": "Unknown"
           }
         ],
@@ -49356,6 +49460,22 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -50062,6 +50182,14 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -53032,6 +53160,26 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "teHW",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -53949,6 +54097,14 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -55642,7 +55798,11 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -55691,7 +55851,11 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -65104,7 +65268,7 @@
             "type": "Unknown"
           },
           {
-            "name": "s",
+            "name": "i",
             "type": "Unknown"
           }
         ],
@@ -67166,6 +67330,30 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -67204,7 +67392,11 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -72475,6 +72667,14 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -73089,6 +73289,10 @@
             "type": "Unknown"
           },
           {
+            "name": "h(",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -73206,6 +73410,14 @@
           },
           {
             "name": "MPropertyAttributeChoiceName",
+            "type": "Unknown"
+          },
+          {
+            "name": "h)",
+            "type": "Unknown"
+          },
+          {
+            "name": "P4",
             "type": "Unknown"
           }
         ],
@@ -73400,6 +73612,14 @@
           },
           {
             "name": "MPropertyAttributeRange",
+            "type": "Unknown"
+          },
+          {
+            "name": "X/",
+            "type": "Unknown"
+          },
+          {
+            "name": "X3",
             "type": "Unknown"
           }
         ],
@@ -73821,6 +74041,18 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "0'",
+            "type": "Unknown"
+          },
+          {
+            "name": "82",
+            "type": "Unknown"
+          },
+          {
+            "name": "P-",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -74131,6 +74363,14 @@
           },
           {
             "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "(0",
+            "type": "Unknown"
+          },
+          {
+            "name": "p%",
             "type": "Unknown"
           }
         ],
@@ -74507,6 +74747,10 @@
             "type": "Unknown"
           },
           {
+            "name": "h(",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -74624,6 +74868,10 @@
           },
           {
             "name": "MPropertyAttributeChoiceName",
+            "type": "Unknown"
+          },
+          {
+            "name": "h)",
             "type": "Unknown"
           }
         ],
@@ -75157,6 +75405,14 @@
           {
             "name": "MPropertySuppressExpr",
             "type": "Unknown"
+          },
+          {
+            "name": "(0",
+            "type": "Unknown"
+          },
+          {
+            "name": "p%",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -75330,6 +75586,14 @@
             "type": "Unknown"
           },
           {
+            "name": "04",
+            "type": "Unknown"
+          },
+          {
+            "name": "(\"",
+            "type": "Unknown"
+          },
+          {
             "name": "UNUSED",
             "type": "Unknown"
           },
@@ -75402,7 +75666,27 @@
             "type": "Unknown"
           },
           {
+            "name": "@&",
+            "type": "Unknown"
+          },
+          {
+            "name": "X+",
+            "type": "Unknown"
+          },
+          {
+            "name": "0,",
+            "type": "Unknown"
+          },
+          {
             "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "h#",
+            "type": "Unknown"
+          },
+          {
+            "name": "@#",
             "type": "Unknown"
           },
           {
@@ -75568,6 +75852,14 @@
             "type": "Unknown"
           },
           {
+            "name": "04",
+            "type": "Unknown"
+          },
+          {
+            "name": "(\"",
+            "type": "Unknown"
+          },
+          {
             "name": "UNUSED",
             "type": "Unknown"
           },
@@ -75640,7 +75932,27 @@
             "type": "Unknown"
           },
           {
+            "name": "@&",
+            "type": "Unknown"
+          },
+          {
+            "name": "X+",
+            "type": "Unknown"
+          },
+          {
+            "name": "0,",
+            "type": "Unknown"
+          },
+          {
             "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "h#",
+            "type": "Unknown"
+          },
+          {
+            "name": "@#",
             "type": "Unknown"
           },
           {
@@ -75915,6 +76227,18 @@
             "type": "Unknown"
           },
           {
+            "name": "H+",
+            "type": "Unknown"
+          },
+          {
+            "name": "h!",
+            "type": "Unknown"
+          },
+          {
+            "name": "P\"",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -75956,6 +76280,18 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T$",
+            "type": "Unknown"
+          },
+          {
+            "name": "p/",
+            "type": "Unknown"
+          },
+          {
+            "name": "H%",
             "type": "Unknown"
           }
         ],
@@ -76032,10 +76368,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "rogram Files",
             "type": "Unknown"
           }
         ],
@@ -76367,6 +76699,14 @@
           {
             "name": "MPropertySuppressExpr",
             "type": "Unknown"
+          },
+          {
+            "name": "(0",
+            "type": "Unknown"
+          },
+          {
+            "name": "p%",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -76443,6 +76783,22 @@
           },
           {
             "name": "MPropertySortPriority",
+            "type": "Unknown"
+          },
+          {
+            "name": "8-",
+            "type": "Unknown"
+          },
+          {
+            "name": "x-",
+            "type": "Unknown"
+          },
+          {
+            "name": "H3",
+            "type": "Unknown"
+          },
+          {
+            "name": " #",
             "type": "Unknown"
           },
           {
@@ -76691,10 +77047,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "rogram Files",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -76767,6 +77119,10 @@
           },
           {
             "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "X%",
             "type": "Unknown"
           },
           {
@@ -76923,6 +77279,30 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "0'",
+            "type": "Unknown"
+          },
+          {
+            "name": "82",
+            "type": "Unknown"
+          },
+          {
+            "name": "P-",
+            "type": "Unknown"
+          },
+          {
+            "name": "`0",
+            "type": "Unknown"
+          },
+          {
+            "name": "(&",
+            "type": "Unknown"
+          },
+          {
+            "name": "8%",
             "type": "Unknown"
           },
           {
@@ -77425,6 +77805,14 @@
             "type": "Unknown"
           },
           {
+            "name": "04",
+            "type": "Unknown"
+          },
+          {
+            "name": "(\"",
+            "type": "Unknown"
+          },
+          {
             "name": "UNUSED",
             "type": "Unknown"
           },
@@ -77497,7 +77885,27 @@
             "type": "Unknown"
           },
           {
+            "name": "@&",
+            "type": "Unknown"
+          },
+          {
+            "name": "X+",
+            "type": "Unknown"
+          },
+          {
+            "name": "0,",
+            "type": "Unknown"
+          },
+          {
             "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "h#",
+            "type": "Unknown"
+          },
+          {
+            "name": "@#",
             "type": "Unknown"
           },
           {
@@ -77906,6 +78314,10 @@
             "type": "Unknown"
           },
           {
+            "name": "X%",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -78080,6 +78492,10 @@
             "type": "Unknown"
           },
           {
+            "name": "X%",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -78230,6 +78646,18 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T$",
+            "type": "Unknown"
+          },
+          {
+            "name": "p/",
+            "type": "Unknown"
+          },
+          {
+            "name": "H%",
             "type": "Unknown"
           },
           {
@@ -78399,6 +78827,10 @@
           },
           {
             "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "X%",
             "type": "Unknown"
           },
           {
@@ -78641,6 +79073,14 @@
             "type": "Unknown"
           },
           {
+            "name": "(0",
+            "type": "Unknown"
+          },
+          {
+            "name": "p%",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -78810,6 +79250,14 @@
             "type": "Unknown"
           },
           {
+            "name": "h)",
+            "type": "Unknown"
+          },
+          {
+            "name": "P4",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           }
@@ -78854,6 +79302,10 @@
           },
           {
             "name": "MPropertySortPriority",
+            "type": "Unknown"
+          },
+          {
+            "name": "x0",
             "type": "Unknown"
           },
           {
@@ -87824,6 +88276,14 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -89139,6 +89599,14 @@
           {
             "name": "MPropertyAttributeRange",
             "type": "Unknown"
+          },
+          {
+            "name": "X/",
+            "type": "Unknown"
+          },
+          {
+            "name": "X3",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -89465,6 +89933,14 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -91486,6 +91962,14 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -92615,6 +93099,14 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "i",
+            "type": "Unknown"
+          },
+          {
+            "name": "/",
             "type": "Unknown"
           }
         ],
@@ -94933,6 +95425,14 @@
           },
           {
             "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "(0",
+            "type": "Unknown"
+          },
+          {
+            "name": "p%",
             "type": "Unknown"
           },
           {

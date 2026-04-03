@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-03 12:44:57.093718900 +07:00
 
 #pragma once
 
@@ -324,6 +324,7 @@ namespace source2_dumper {
             // MNetworkEncodeFlags
             // MNetworkPriority
             // MNetworkEncoder
+            // d01,0x146b/0x0d02,0x146b/0x0d06,0x146b/0x0d08,0x146b/0x0d09,0x146b/0x0d10,0x146b/0x0d10,0x146b/0x0d13,0x146b/0x1103,0x1532/0x040
             // MNetworkIncludeByUserGroup
             // MNetworkIncludeByName
             // MNetworkIncludeByName
@@ -398,6 +399,8 @@ namespace source2_dumper {
             // Metadata:
             // NetworkVarNames: m_skyboxData (sky3dparams_t)
             // NetworkVarNames: m_skyboxSlotToken (CUtlStringToken)
+            // d
+            //  
             namespace C_SkyCamera {
                 constexpr std::ptrdiff_t m_skyboxData = 0x608; // sky3dparams_t
                 constexpr std::ptrdiff_t m_skyboxSlotToken = 0x698; // CUtlStringToken
@@ -440,9 +443,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MFgdHelper
@@ -473,6 +473,7 @@ namespace source2_dumper {
             // NetworkChangeCallback: OnTransformChanged
             // NetworkVarNames: m_Transforms (CTransform)
             // NetworkVarNames: m_hOwner (EHANDLE)
+            // d
             // MNetworkBitCount
             // MNetworkMinValue
             // MNetworkMaxValue
@@ -657,6 +658,7 @@ namespace source2_dumper {
             // weapon_deagle
             // weapon_mp7
             // weapon_m4a1_silencer
+            // d
             namespace CCSPlayerController_InventoryServices {
                 constexpr std::ptrdiff_t m_vecNetworkableLoadout = 0x40; // CUtlVector<CCSPlayerController_InventoryServices::NetworkedLoadoutSlot_t>
                 constexpr std::ptrdiff_t m_unMusicID = 0x58; // uint16
@@ -784,9 +786,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MFgdHelper
@@ -877,6 +876,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bStartDisabled (bool)
             // NetworkVarNames: m_bIsEnabled (bool)
             // East
+            // r
             // North
             // Up
             namespace C_EnvVolumetricFogVolume {
@@ -918,6 +918,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // i
+            // h
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_PlaySequence {
@@ -1325,7 +1327,6 @@ namespace source2_dumper {
             // MNetworkIncludeByName
             // MNetworkVarTypeOverride
             // MNetworkIncludeByName
-            // LE_VK_LAYER_VALVE_steam_overlay_1=1
             // NetworkChangeCallback: RecvProxy_Jumped
             namespace C_CSPlayerPawnBase {
                 constexpr std::ptrdiff_t m_pPingServices = 0x15C0; // CCSPlayer_PingServices*
@@ -1477,7 +1478,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace CPulseCell_WaitForObservable {
                 constexpr std::ptrdiff_t m_Condition = 0x48; // PulseObservableBoolExpression_t
                 constexpr std::ptrdiff_t m_OnTrue = 0xC0; // CPulse_ResumePoint
@@ -1531,11 +1531,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MPropertyAttributeSuggestionName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // i
+            // h
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_EntFire {
                 constexpr std::ptrdiff_t m_Input = 0x48; // CUtlString
@@ -1566,6 +1567,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_RagdollPose (PhysicsRagdollPose_t)
             // NetworkVarNames: m_bRagdollEnabled (bool)
             // NetworkVarNames: m_bRagdollClientSide (bool)
+            // h
             // MNetworkIncludeByUserGroup
             // NetworkVarNames: m_MinFalloff (float32)
             // NetworkVarNames: m_MaxFalloff (float32)
@@ -1578,6 +1580,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bMaster (bool)
             // NetworkVarNames: m_bClientSide (bool)
             // NetworkVarNames: m_bExclusive (bool)
+            // e
             // eUnbind
             // eUnbindAndDelete
             // NetworkChangeCallback: AG2_OnAnimGraphDefinitionOrModeChanged
@@ -1992,7 +1995,6 @@ namespace source2_dumper {
             // MNetworkUserGroup
             //  
             // NetworkVarNames: m_hCtrl (CHandle<CFogController>)
-            // @
             namespace C_EnvDetailController {
                 constexpr std::ptrdiff_t m_flFadeStartDist = 0x608; // float32
                 constexpr std::ptrdiff_t m_flFadeEndDist = 0x60C; // float32
@@ -2183,6 +2185,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_bOldJumpPressed (bool)
+            // h
             // NetworkVarNames: m_totalHitsOnServer (int32)
             // NetworkChangeCallback: OnPendingTeamChanged
             // NetworkChangeCallback: OnCompTeammateColorChanged
@@ -2395,6 +2398,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bMaster (bool)
             // NetworkVarNames: m_bClientSide (bool)
             // NetworkVarNames: m_bExclusive (bool)
+            // e
             // eUnbind
             // eUnbindAndDelete
             // NetworkChangeCallback: AG2_OnAnimGraphDefinitionOrModeChanged
@@ -2496,16 +2500,17 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // escriptorProto
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // d
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -2562,7 +2567,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_sceneNode (CGameSceneNode)
-            // he
+            // r
             namespace CBodyComponentPoint {
                 constexpr std::ptrdiff_t m_sceneNode = 0x80; // CGameSceneNode
             }
@@ -2678,6 +2683,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // m
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -2693,7 +2699,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
@@ -2890,11 +2895,11 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2928,6 +2933,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             namespace IntervalTimer {
                 constexpr std::ptrdiff_t m_timestamp = 0x8; // GameTime_t
                 constexpr std::ptrdiff_t m_nWorldGroupId = 0xC; // WorldGroupId_t
@@ -2951,6 +2957,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_hTonemapController (CHandle<CTonemapController2>)
             // NetworkVarNames: m_audio (audioparams_t)
             // NetworkVarNames: m_PostProcessingVolumes (CHandle<C_PostProcessingVolume>)
+            //  
             namespace audioparams_t {
                 constexpr std::ptrdiff_t localSound = 0x8; // Vector[8]
                 constexpr std::ptrdiff_t soundscapeIndex = 0x68; // int32
@@ -3116,10 +3123,8 @@ namespace source2_dumper {
             // MNetworkIncludeByName
             // MNetworkIncludeByName
             // NetworkVarNames: m_Item (CEconItemView)
-            // eofDescriptorProto
             // CGCClientWelcomeJob
             // CGCClientJobSteamDatagramTicket
-            //  
             namespace C_AttributeContainer {
                 constexpr std::ptrdiff_t m_Item = 0x50; // C_EconItemView
                 constexpr std::ptrdiff_t m_iExternalItemProviderRegisteredToken = 0x4C0; // int32
@@ -3232,6 +3237,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3409,6 +3415,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bStartDisabled (bool)
             // NetworkVarNames: m_bIsEnabled (bool)
             // East
+            // r
             // North
             // Up
             namespace C_TonemapController2 {
@@ -3440,6 +3447,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             namespace CountdownTimer {
                 constexpr std::ptrdiff_t m_duration = 0x8; // float32
                 constexpr std::ptrdiff_t m_timestamp = 0xC; // GameTime_t
@@ -3534,6 +3542,7 @@ namespace source2_dumper {
             // WORLDTEXT_ORIENTATION_FACEUSER
             // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
             // NetworkChangeCallback: OnDialogActivatorChanged
+            // bm]P0'
             namespace C_PointClientUIHUD {
                 constexpr std::ptrdiff_t m_bCheckCSSClasses = 0xEC0; // bool
                 constexpr std::ptrdiff_t m_bIgnoreInput = 0x1038; // bool
@@ -3566,7 +3575,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_GraphHook {
@@ -3770,8 +3778,8 @@ namespace source2_dumper {
             // MNetworkIncludeByName
             // MNetworkVarTypeOverride
             // MNetworkIncludeByName
-            // LE_VK_LAYER_VALVE_steam_overlay_1=1
             // NetworkChangeCallback: RecvProxy_Jumped
+            //  @
             // NetworkChangeCallback: OnGrabberChanged
             // MNetworkIncludeByName
             // MNetworkIncludeByName
@@ -3796,6 +3804,7 @@ namespace source2_dumper {
             // MNetworkUserGroup
             // NetworkChangeCallback: OnRetakesOfferingChanged
             // NetworkChangeCallback: OnRetakesOfferingCardChanged
+            // PF
             // MNetworkMinValue
             // MNetworkMaxValue
             // MNetworkMinValue
@@ -3864,7 +3873,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_nCollisionGroup (uint8)
             // NetworkVarNames: m_nCollisionFunctionMask (uint8)
             // NetworkChangeCallback: CollisionAttributeChanged
-            // NetworkChangeCallback: OnUpdateOBB
             // NetworkChangeCallback: OnUpdateOBB
             namespace C_FuncLadder {
                 constexpr std::ptrdiff_t m_vecLadderDir = 0xE88; // Vector
@@ -3935,7 +3943,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_BaseEntrypoint {
@@ -4032,7 +4039,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_bGunGameImmunity (bool)
             // NetworkVarNames: m_fMolotovDamageTime (float)
             // text
-            // INGLE_FILE=1
             // C:\buildworker\csgo_rel_win64\build\src\game\shared\animgraphcontroller.h
             // ANIMPARAM_GLOBALSYMBOL == m_pParameter->GetParameterType()
             // C:\buildworker\csgo_rel_win64\build\src\game\shared\animgraphcontroller.h
@@ -4214,6 +4220,7 @@ namespace source2_dumper {
             // MNetworkUserGroup
             // NetworkChangeCallback: OnRetakesOfferingChanged
             // NetworkChangeCallback: OnRetakesOfferingCardChanged
+            // PF
             // MNetworkMinValue
             // MNetworkMaxValue
             // MNetworkMinValue
@@ -4269,7 +4276,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_hCtrl (CHandle<CFogController>)
-            // @
             // MGetKV3ClassDefaults
             namespace C_fogplayerparams_t {
                 constexpr std::ptrdiff_t m_hCtrl = 0x8; // CHandle<C_FogController>
@@ -4386,6 +4392,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_hObserverTarget (CHandle<CBaseEntity>)
             // NetworkChangeCallback: OnActiveWeaponChanged
             // MNetworkUserGroup
+            // d
             namespace CPlayer_ObserverServices {
                 constexpr std::ptrdiff_t m_iObserverMode = 0x48; // uint8
                 constexpr std::ptrdiff_t m_hObserverTarget = 0x4C; // CHandle<C_BaseEntity>
@@ -4455,6 +4462,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bStartDisabled (bool)
             // NetworkVarNames: m_bIsEnabled (bool)
             // East
+            // r
             // North
             // Up
             namespace C_PlayerVisibility {
@@ -4552,7 +4560,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFogMaxStart (float)
             // NetworkVarNames: m_flFogMaxEnd (float)
             // NetworkVarNames: m_bEnabled (bool)
-            // ICECandidate
+            // h
             // NetworkVarNames: m_flScattering (float)
             // NetworkVarNames: m_TintColor (Color)
             // NetworkVarNames: m_flAnisotropy (float)
@@ -4760,6 +4768,7 @@ namespace source2_dumper {
             // BEAM_SPLINE
             // BEAM_LASER
             // kGEOCLIP
+            // kMODELCLIP
             namespace C_GameRules {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x8; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_nTotalPausedTicks = 0x30; // int32
@@ -4870,6 +4879,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_nChangeCount (uint8)
             // NetworkVarNames: m_Width (float32)
             // NetworkVarNames: m_bConstrainBetweenEndpoints (bool)
+            // playManagerSetMode
             // NetworkVarNames: m_gravityScale (float)
             // NetworkVarNames: m_linearLimit (float)
             // NetworkVarNames: m_linearDamping (float)
@@ -5005,6 +5015,7 @@ namespace source2_dumper {
             // SHAKE_START_NORUMBLE
             // NetworkVarNames: m_vecPathNodes (CHandle<CPathNode>)
             // NetworkVarNames: m_xInitialPathWorldToLocal (CTransform)
+            // o
             // MNetworkSerializer
             // NetworkChangeCallback: sequenceOpSequenceChanged
             // MNetworkPriority
@@ -5054,6 +5065,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             namespace CPathNode {
                 constexpr std::ptrdiff_t m_vInTangentLocal = 0x608; // Vector
                 constexpr std::ptrdiff_t m_vOutTangentLocal = 0x614; // Vector
@@ -5088,7 +5100,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5131,6 +5142,7 @@ namespace source2_dumper {
             // Metadata:
             // NetworkVarNames: m_vMins (Vector)
             // NetworkVarNames: m_vMaxs (Vector)
+            // l
             namespace C_SoundEventOBBEntity {
                 constexpr std::ptrdiff_t m_vMins = 0x6B8; // Vector
                 constexpr std::ptrdiff_t m_vMaxs = 0x6C4; // Vector
@@ -5147,11 +5159,11 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5269,6 +5281,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             namespace CNetworkedSequenceOperation {
                 constexpr std::ptrdiff_t m_hSequence = 0x8; // HSequence
                 constexpr std::ptrdiff_t m_flPrevCycle = 0xC; // float32
@@ -5319,7 +5332,10 @@ namespace source2_dumper {
             // NetworkVarNames: m_flShadowStrength (float32)
             // NetworkVarNames: m_nObjectCulling (uint8)
             // NetworkVarNames: m_bvDisabledHitGroups (uint32)
+            // e
+            // e
             // MGetKV3ClassDefaults
+            //  
             // MNetworkUserGroup
             // MNetworkAlias
             // MNetworkTypeAlias
@@ -5336,6 +5352,7 @@ namespace source2_dumper {
             // MNetworkPriority
             // MNetworkSerializer
             // NetworkChangeCallback: OnSimulationTimeChanged
+            // MNetworkUserGroup
             // MNetworkPriority
             // MNetworkUserGroup
             // NetworkChangeCallback: OnFlagsChanged
@@ -5351,6 +5368,7 @@ namespace source2_dumper {
             // MNetworkMinValue
             // MNetworkMaxValue
             // MNetworkEncodeFlags
+            // NetworkChangeCallback: OnEffectsChanged
             // MNetworkPriority
             // MNetworkUserGroup
             // MNetworkPriority
@@ -5360,7 +5378,6 @@ namespace source2_dumper {
             // MNetworkMaxValue
             // MNetworkEncodeFlags
             // MNetworkUserGroup
-            // MNetworkEncoder
             // NetworkChangeCallback: OnGravityUpdated
             // MNetworkUserGroup
             // NetworkChangeCallback: OnInterpolationAmountChanged
@@ -5458,9 +5475,9 @@ namespace source2_dumper {
             // NetworkVarNames: m_Entity_nLightProbeAtlasY (int)
             // NetworkVarNames: m_Entity_nLightProbeAtlasZ (int)
             // NetworkVarNames: m_Entity_bEnabled (bool)
-            // INGLE_FILE=1
             // C:\buildworker\csgo_rel_win64\build\src\public\tier0\quantizedfloatencoder.h
             // nBits != 32
+            //  
             // CUtlRBTree<struct CUtlOrderedMapBase<class CUtlStringToken,struct CEntityAttributeTable::Attribute_t,class CDefLess<class CUtlSt
             // C:\buildworker\csgo_rel_win64\build\src\public\tier0\utlrbtree.h
             // !link
@@ -5559,7 +5576,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_bGravityDisabled (bool)
             // NetworkVarNames: m_flNavIgnoreUntilTime (GameTime_t)
             // NetworkVarNames: m_nBloodType (BloodType)
-            // LE_VK_LAYER_VALVE_steam_overlay_1=1
             // NetworkVarNames: m_glowEntity (CHandle<C_BaseModelEntity>)
             // NetworkVarNames: m_usable (bool)
             // NetworkVarNames: m_szDisplayText (string_t)
@@ -5747,11 +5763,11 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5827,7 +5843,10 @@ namespace source2_dumper {
             // NetworkVarNames: m_flShadowStrength (float32)
             // NetworkVarNames: m_nObjectCulling (uint8)
             // NetworkVarNames: m_bvDisabledHitGroups (uint32)
+            // e
+            // e
             // MGetKV3ClassDefaults
+            //  
             // MNetworkUserGroup
             // MNetworkAlias
             // MNetworkTypeAlias
@@ -5961,7 +5980,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EventHandler {
@@ -6068,7 +6086,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_bFirstAttack (bool)
-            // #
             namespace C_Knife {
                 constexpr std::ptrdiff_t m_bFirstAttack = 0x1F40; // bool
             }
@@ -6114,6 +6131,7 @@ namespace source2_dumper {
             // SHAKE_START_NORUMBLE
             // NetworkVarNames: m_vecPathNodes (CHandle<CPathNode>)
             // NetworkVarNames: m_xInitialPathWorldToLocal (CTransform)
+            // o
             // MNetworkSerializer
             // NetworkChangeCallback: sequenceOpSequenceChanged
             // MNetworkPriority
@@ -6163,6 +6181,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             namespace CSkeletonInstance {
                 constexpr std::ptrdiff_t m_modelState = 0x160; // CModelState
                 constexpr std::ptrdiff_t m_bIsAnimationEnabled = 0x430; // bool
@@ -6269,6 +6288,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_bIsIncGrenade (bool)
+            // u
             namespace C_MolotovProjectile {
                 constexpr std::ptrdiff_t m_bIsIncGrenade = 0x1438; // bool
             }
@@ -6338,11 +6358,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertySuppressBaseClassField
             // MPropertySuppressBaseClassField
-            // steam_overlay_1=1
             // NetworkVarNames: m_zoomLevel (int)
             // NetworkVarNames: m_iBurstShotsRemaining (int)
             // NetworkVarNames: m_bNeedsBoltAction (bool)
             // NetworkVarNames: m_nRevolverCylinderIdx (int32)
+            //  
             namespace CCSWeaponBaseVData {
                 constexpr std::ptrdiff_t m_WeaponType = 0x440; // CSWeaponType
                 constexpr std::ptrdiff_t m_WeaponCategory = 0x444; // CSWeaponCategory
@@ -6434,8 +6454,11 @@ namespace source2_dumper {
             // NetworkVarNames: m_iReapplyProvisionParity (int)
             // NetworkVarNames: m_hOuter (EHANDLE)
             // NetworkVarNames: m_ProviderType (attributeprovidertypes_t)
+            //  
+            // S
             // CGCMsgAdjustEquipSlotsManualAcknowledged
             // CGCMsgAdjustEquipSlotsShuffleAcknowledged
+            // u
             // none
             // coupon
             // campaign
@@ -6476,7 +6499,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_hTonemapController (CHandle<CTonemapController2>)
             // NetworkVarNames: m_audio (audioparams_t)
             // NetworkVarNames: m_PostProcessingVolumes (CHandle<C_PostProcessingVolume>)
-            // ICECandidate
+            //  
             namespace CPlayer_CameraServices {
                 constexpr std::ptrdiff_t m_vecCsViewPunchAngle = 0x48; // QAngle
                 constexpr std::ptrdiff_t m_nCsViewPunchAngleTick = 0x54; // GameTick_t
@@ -6545,7 +6568,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EntOutputHandler {
@@ -6584,6 +6606,9 @@ namespace source2_dumper {
             // NetworkVarNames: m_nExplodeEffectTickBegin (int)
             // NetworkVarNames: m_vecExplodeEffectOrigin (Vector)
             // NetworkVarNames: m_bIsIncGrenade (bool)
+            // u
+            // A
+            // A
             namespace C_BaseCSGrenade {
                 constexpr std::ptrdiff_t m_bClientPredictDelete = 0x1F40; // bool
                 constexpr std::ptrdiff_t m_bRedraw = 0x1F41; // bool
@@ -6788,6 +6813,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_vMaxs (Vector)
             // NetworkVarNames: m_vMins (Vector)
             // NetworkVarNames: m_vMaxs (Vector)
+            // l
             namespace C_SoundEventAABBEntity {
                 constexpr std::ptrdiff_t m_vMins = 0x6B8; // Vector
                 constexpr std::ptrdiff_t m_vMaxs = 0x6C4; // Vector
@@ -7018,7 +7044,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bRedraw (bool)
             // NetworkChangeCallback: WeaponGameplayAnimStateNetworkChangeCallback
             // NetworkChangeCallback: OnWeaponBurstModeNetworkChange
-            //  
+            // e
             namespace C_WeaponBaseItem {
                 constexpr std::ptrdiff_t m_bSequenceInProgress = 0x1F40; // bool
                 constexpr std::ptrdiff_t m_bRedraw = 0x1F41; // bool
@@ -7170,6 +7196,7 @@ namespace source2_dumper {
             // weapon_revolver
             // weapon_mp5sd
             // weapon_m4a1
+            // M
             namespace CCSPlayerController_DamageServices {
                 constexpr std::ptrdiff_t m_nSendUpdate = 0x40; // int32
                 constexpr std::ptrdiff_t m_DamageList = 0x48; // C_UtlVectorEmbeddedNetworkVar<CDamageRecord>
@@ -7268,7 +7295,6 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // ICECandidate
             // NetworkVarNames: m_bEnabled (bool)
             // NetworkVarNames: m_MaxWeight (float)
             // NetworkVarNames: m_FadeDuration (float)
@@ -7298,8 +7324,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_EnvWindShared (CEnvWindShared)
-            // C:\buildworker\csgo_rel_win64\build\src\game\shared\ipredictioncopyable.h
-            // 0
+            // CPredictionCopyableNormalBase::PredCopy_SetHeapSize
             // CPredictionCopyableNormalBase::PredCopy_Tell
             // C:\buildworker\csgo_rel_win64\build\src\game\shared\ipredictioncopyable.h
             // 0
@@ -7354,7 +7379,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_nCollisionGroup (uint8)
             // NetworkVarNames: m_nCollisionFunctionMask (uint8)
             // NetworkChangeCallback: CollisionAttributeChanged
-            // NetworkChangeCallback: OnUpdateOBB
             // NetworkChangeCallback: OnUpdateOBB
             namespace sky3dparams_t {
                 constexpr std::ptrdiff_t scale = 0x8; // int16
@@ -7437,6 +7461,7 @@ namespace source2_dumper {
             // weapon_deagle
             // weapon_mp7
             // weapon_m4a1_silencer
+            // d
             namespace CCSPlayerController_ActionTrackingServices {
                 constexpr std::ptrdiff_t m_perRoundStats = 0x40; // C_UtlVectorEmbeddedNetworkVar<CSPerRoundStats_t>
                 constexpr std::ptrdiff_t m_matchStats = 0xA8; // CSMatchStats_t
@@ -7449,21 +7474,103 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_animationController (CBaseAnimGraphController)
-            // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
-            // NetworkChangeCallback: OnControllerChanged
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // NetworkChangeCallback: OnWearablesChanged
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
+            // NetworkVarNames: m_ID (CUtlStringToken)
+            // NetworkVarNames: m_Values (Vector4D)
+            // NetworkVarNames: m_flStartTime (GameTime_t)
+            // NetworkVarNames: m_flFadeInStart (float32)
+            // NetworkVarNames: m_flFadeInLength (float32)
+            // NetworkVarNames: m_flFadeOutModelStart (float32)
+            // NetworkVarNames: m_flFadeOutModelLength (float32)
+            // NetworkVarNames: m_flFadeOutStart (float32)
+            // NetworkVarNames: m_flFadeOutLength (float32)
+            // NetworkVarNames: m_nDissolveType (EntityDisolveType_t)
+            // NetworkVarNames: m_vDissolverOrigin (Vector)
+            // NetworkVarNames: m_nMagnitude (uint32)
+            // MNetworkUserGroup
+            // MNetworkAlias
             // MNetworkTypeAlias
+            // NetworkVarNames: m_Handle (ModelConfigHandle_t)
+            // NetworkVarNames: m_Name (string_t)
+            // NetworkVarNames: m_AssociatedEntities (CHandle<C_BaseModelEntity>)
+            // NetworkVarNames: m_AssociatedEntityNames (string_t)
+            // MNetworkUserGroup
+            // MNetworkUserGroup
+            // MNetworkUserGroup
+            // MNetworkUserGroup
+            // MPropertyDescription
+            // WATER_WAKE_IDLE
+            // WATER_WAKE_WALKING
+            // WATER_WAKE_RUNNING
+            // WATER_WAKE_WATER_OVERHEAD
+            // MNetworkExcludeByUserGroup
+            // NetworkVarNames: m_hMyWearables (CHandle<C_EconWearable>)
+            // MNetworkUserGroupProxy
+            // MNetworkExcludeByUserGroup
+            // MNetworkIncludeByUserGroup
+            // MNetworkIncludeByUserGroup
+            // MNetworkIncludeByUserGroup
+            // MNetworkOverride
+            // MNetworkOverride
+            // MNetworkOverride
+            // MNetworkOverride
+            // MNetworkExcludeByName
+            // MNetworkExcludeByName
+            // MNetworkExcludeByName
+            // MNetworkExcludeByName
+            // MNetworkExcludeByName
+            // MNetworkExcludeByName
+            // MNetworkExcludeByName
+            // MNetworkExcludeByName
+            // NetworkVarNames: m_pWeaponServices (CPlayer_WeaponServices*)
+            // NetworkVarNames: m_pItemServices (CPlayer_ItemServices*)
+            // NetworkVarNames: m_pAutoaimServices (CPlayer_AutoaimServices*)
+            // NetworkVarNames: m_pObserverServices (CPlayer_ObserverServices*)
+            // NetworkVarNames: m_pWaterServices (CPlayer_WaterServices*)
+            // NetworkVarNames: m_pUseServices (CPlayer_UseServices*)
+            // NetworkVarNames: m_pFlashlightServices (CPlayer_FlashlightServices*)
+            // NetworkVarNames: m_pCameraServices (CPlayer_CameraServices*)
+            // NetworkVarNames: m_pMovementServices (CPlayer_MovementServices*)
+            // NetworkVarNames: m_ServerViewAngleChanges (ViewAngleServerChange_t)
+            // NetworkVarNames: m_iHideHUD (uint32)
+            // NetworkVarNames: m_skybox3d (sky3dparams_t)
+            // NetworkVarNames: m_flDeathTime (GameTime_t)
+            // NetworkVarNames: m_hController (CHandle<CBasePlayerController>)
+            // NetworkVarNames: m_hDefaultController (CHandle<CBasePlayerController>)
+            // MNetworkUserGroup
+            // MNetworkAlias
+            // MNetworkTypeAlias
+            // NetworkChangeCallback: OnRenderModeChanged
+            // NetworkChangeCallback: OnColorChanged
+            // NetworkChangeCallback: OnRenderAttributesChanged
+            // MNetworkPriority
+            // MNetworkUserGroup
+            // NetworkChangeCallback: OnViewOffsetChanged
+            // AMMO_FORCE_DROP_IF_CARRIED
+            // AMMO_RESERVE_STAYS_WITH_WEAPON
+            // AMMO_FLAG_MAX
+            // NetworkVarNames: m_CRenderComponent (CRenderComponent::Storage_t)
+            // NetworkVarNames: m_CHitboxComponent (CHitboxComponent::Storage_t)
+            // NetworkVarNames: m_pDestructiblePartsSystemComponent (CDestructiblePartsComponent*)
+            // NetworkVarNames: m_nRenderMode (RenderMode_t)
+            // NetworkVarNames: m_nRenderFX (RenderFx_t)
+            // NetworkVarNames: m_clrRender (Color)
+            // NetworkVarNames: m_vecRenderAttributes (EntityRenderAttribute_t)
+            // NetworkVarNames: m_bRenderToCubemaps (bool)
+            // NetworkVarNames: m_bNoInterpolate (bool)
+            // NetworkVarNames: m_Collision (CCollisionProperty)
+            // NetworkVarNames: m_Glow (CGlowProperty)
+            // NetworkVarNames: m_flGlowBackfaceMult (float)
+            // NetworkVarNames: m_fadeMinDist (float32)
+            // NetworkVarNames: m_fadeMaxDist (float32)
+            // NetworkVarNames: m_flFadeScale (float32)
+            // NetworkVarNames: m_flShadowStrength (float32)
+            // NetworkVarNames: m_nObjectCulling (uint8)
+            // NetworkVarNames: m_bvDisabledHitGroups (uint32)
+            // e
+            // e
+            // MGetKV3ClassDefaults
             //  
-            // NetworkChangeCallback: OnDisabledHitgroupsChanged
-            // MSaveOpsForField
-            // MGetKV3ClassDefaults
-            // s
-            // NetworkVarNames: m_bIsUsable (bool)
-            // MGetKV3ClassDefaults
+            // MNetworkUserGroup
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x550; // CBaseAnimGraphController
             }
@@ -7597,14 +7704,13 @@ namespace source2_dumper {
             //  
             // NetworkChangeCallback: OnInterpolationFrameChanged
             // NetworkChangeCallback: OnNetVarTeamNumChanged
-            // MNetworkUserGroup
             //  
             //  
             //  
             // NetworkChangeCallback: OnMoveTypeChanged
-            // NetworkChangeCallback: OnEffectsChanged
             //  
             //  
+            // MNetworkEncoder
             // NetworkChangeCallback: OnNavIgnoreChanged
             namespace C_BaseDoor {
                 constexpr std::ptrdiff_t m_bIsUsable = 0xE88; // bool
@@ -7620,7 +7726,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_iEnemyTaserKills (int)
             // CMissionTemplate::BMakeQuestDefSchema
             // CMissionTemplate::BMakeQuestDefSchema
-            // LE_VK_LAYER_VALVE_steam_overlay_1=1
+            // c
             namespace CSMatchStats_t {
                 constexpr std::ptrdiff_t m_iEnemy5Ks = 0x68; // int32
                 constexpr std::ptrdiff_t m_iEnemy4Ks = 0x6C; // int32
@@ -7753,6 +7859,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             namespace CModelState {
                 constexpr std::ptrdiff_t m_hModel = 0xA0; // CStrongHandle<InfoForResourceTypeCModel>
                 constexpr std::ptrdiff_t m_ModelName = 0xA8; // CUtlSymbolLarge
@@ -7801,6 +7908,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_iBurstShotsRemaining (int)
             // NetworkVarNames: m_bNeedsBoltAction (bool)
             // NetworkVarNames: m_nRevolverCylinderIdx (int32)
+            //  
             namespace C_CSWeaponBaseGun {
                 constexpr std::ptrdiff_t m_zoomLevel = 0x1F40; // int32
                 constexpr std::ptrdiff_t m_iBurstShotsRemaining = 0x1F44; // int32
@@ -8155,6 +8263,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_skeletonInstance (CSkeletonInstance)
+            // d
             namespace CBodyComponentSkeletonInstance {
                 constexpr std::ptrdiff_t m_skeletonInstance = 0x80; // CSkeletonInstance
             }
@@ -8181,7 +8290,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_iEnemyTaserKills (int)
             // CMissionTemplate::BMakeQuestDefSchema
             // CMissionTemplate::BMakeQuestDefSchema
-            // LE_VK_LAYER_VALVE_steam_overlay_1=1
             namespace C_CSGO_TeamPreviewCharacterPosition {
                 constexpr std::ptrdiff_t m_nVariant = 0x608; // int32
                 constexpr std::ptrdiff_t m_nRandom = 0x60C; // int32
@@ -8215,6 +8323,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_nExplodeEffectTickBegin (int)
             // NetworkVarNames: m_vecExplodeEffectOrigin (Vector)
             // NetworkVarNames: m_bIsIncGrenade (bool)
+            // u
             namespace C_SmokeGrenadeProjectile {
                 constexpr std::ptrdiff_t m_nSmokeEffectTickBegin = 0x1450; // int32
                 constexpr std::ptrdiff_t m_bDidSmokeEffect = 0x1454; // bool
@@ -8311,6 +8420,9 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 0
+            //
+            // Metadata:
+            // h
             namespace C_PortraitWorldCallbackHandler {
             }
             // Parent: C_BreakableProp
@@ -8583,7 +8695,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_bDisabled (bool)
             // NetworkChangeCallback: StateChanged
             // NetworkChangeCallback: StateChanged
-            // INGLE_FILE=1
             // CQuantizedFloatEncoder::AssignRangeMultiplier
             namespace C_BaseTrigger {
                 constexpr std::ptrdiff_t m_OnStartTouch = 0xE88; // CEntityIOOutput
@@ -8916,7 +9027,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // NetworkVarNames: m_flexWeight (float32)
-            // NetworkVarNames: m_animationController (CBaseAnimGraphController)
+            // a
             // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
             // NetworkChangeCallback: OnControllerChanged
             // MPropertyDescription
@@ -9021,7 +9132,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flCapsuleLength (float)
             // NetworkVarNames: m_flMinRoughness (float)
             // NetworkVarNames: m_sceneNode (CGameSceneNode)
-            // he
+            // r
             namespace CLightComponent {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x38; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_Color = 0x75; // Color
@@ -9124,6 +9235,7 @@ namespace source2_dumper {
             // m_nParamIndex < 0
             // CAnimGraphControllerManager::CreateAndBindController
             // CAnimGraph2ParamRefBase<bool>::Bind
+            // teHW
             // CAnimGraph2ParamRefBase<float>::Bind
             // panorama::panel_fatal_cast
             namespace CCSPlayer_ActionTrackingServices {
@@ -9178,6 +9290,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFogMaxStart (float)
             // NetworkVarNames: m_flFogMaxEnd (float)
             // NetworkVarNames: m_bEnabled (bool)
+            // h
             namespace C_EnvCubemap {
                 constexpr std::ptrdiff_t m_Entity_hCubemapTexture = 0x688; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Entity_bCustomCubemapTexture = 0x690; // bool
@@ -9315,7 +9428,10 @@ namespace source2_dumper {
             // NetworkVarNames: m_flShadowStrength (float32)
             // NetworkVarNames: m_nObjectCulling (uint8)
             // NetworkVarNames: m_bvDisabledHitGroups (uint32)
+            // e
+            // e
             // MGetKV3ClassDefaults
+            //  
             // MNetworkUserGroup
             // MNetworkAlias
             // MNetworkTypeAlias
@@ -9476,7 +9592,6 @@ namespace source2_dumper {
             // MNetworkUserGroup
             // MNetworkUserGroup
             // MNetworkUserGroup
-            // rogram Files
             namespace C_FootstepControl {
                 constexpr std::ptrdiff_t m_source = 0xF58; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_destination = 0xF60; // CUtlSymbolLarge
@@ -9626,7 +9741,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_nCollisionFunctionMask (uint8)
             // NetworkChangeCallback: CollisionAttributeChanged
             // NetworkChangeCallback: OnUpdateOBB
-            // NetworkChangeCallback: OnUpdateOBB
             namespace VPhysicsCollisionAttribute_t {
                 constexpr std::ptrdiff_t m_nInteractsAs = 0x8; // uint64
                 constexpr std::ptrdiff_t m_nInteractsWith = 0x10; // uint64
@@ -9679,9 +9793,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MFgdHelper
@@ -9715,7 +9826,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Yield {
@@ -9750,10 +9860,8 @@ namespace source2_dumper {
             // MNetworkIncludeByName
             // MNetworkIncludeByName
             // NetworkVarNames: m_Item (CEconItemView)
-            // eofDescriptorProto
             // CGCClientWelcomeJob
             // CGCClientJobSteamDatagramTicket
-            //  
             namespace C_EconEntity {
                 constexpr std::ptrdiff_t m_flFlexDelayTime = 0x1360; // float32
                 constexpr std::ptrdiff_t m_flFlexDelayedWeight = 0x1368; // float32*
@@ -9891,7 +9999,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_iCashEarned (int)
             // NetworkVarNames: m_iUtilityDamage (int)
             // NetworkVarNames: m_iEnemiesFlashed (int)
-            // ICECandidate
             // NetworkVarNames: m_nVariant (int)
             // NetworkVarNames: m_nRandom (int)
             // NetworkVarNames: m_nOrdinal (int)
@@ -9925,7 +10032,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleRandom {
@@ -10192,6 +10298,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_nExplodeEffectTickBegin (int)
             // NetworkVarNames: m_vecExplodeEffectOrigin (Vector)
             // NetworkVarNames: m_bIsIncGrenade (bool)
+            // u
             namespace C_BaseCSGrenadeProjectile {
                 constexpr std::ptrdiff_t m_vInitialPosition = 0x13A0; // Vector
                 constexpr std::ptrdiff_t m_vInitialVelocity = 0x13AC; // Vector
@@ -10263,6 +10370,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bStartDisabled (bool)
             // NetworkVarNames: m_bIsEnabled (bool)
             // East
+            // r
             // North
             // Up
             namespace C_GradientFog {
@@ -10528,6 +10636,7 @@ namespace source2_dumper {
             // CUtlRBTree<struct CUtlOrderedMapBase<class C_BaseEntity *,class CPhysSaveRestoreBlockHandler::CEntityRestoreSet *,class CDefLess
             // C:\buildworker\csgo_rel_win64\build\src\public\tier0\utldict.h
             // false
+            // l
             // binary_bc
             namespace C_RagdollPropAttached {
                 constexpr std::ptrdiff_t m_boneIndexAttached = 0x11F8; // uint32
@@ -10584,6 +10693,7 @@ namespace source2_dumper {
             // SHAKE_START_NORUMBLE
             // NetworkVarNames: m_vecPathNodes (CHandle<CPathNode>)
             // NetworkVarNames: m_xInitialPathWorldToLocal (CTransform)
+            // o
             // MNetworkSerializer
             // NetworkChangeCallback: sequenceOpSequenceChanged
             // MNetworkPriority
@@ -10762,6 +10872,7 @@ namespace source2_dumper {
             // Metadata:
             // NetworkVarNames: m_bSpotted (bool)
             // NetworkVarNames: m_bSpottedByMask (uint32)
+            // d
             namespace EntitySpottedState_t {
                 constexpr std::ptrdiff_t m_bSpotted = 0x8; // bool
                 constexpr std::ptrdiff_t m_bSpottedByMask = 0xC; // uint32[2]
@@ -10846,6 +10957,7 @@ namespace source2_dumper {
             // MNetworkEncodeFlags
             // MNetworkPriority
             // MNetworkEncoder
+            // d01,0x146b/0x0d02,0x146b/0x0d06,0x146b/0x0d08,0x146b/0x0d09,0x146b/0x0d10,0x146b/0x0d10,0x146b/0x0d13,0x146b/0x1103,0x1532/0x040
             // MNetworkIncludeByUserGroup
             // MNetworkIncludeByName
             // MNetworkIncludeByName
@@ -10980,7 +11092,6 @@ namespace source2_dumper {
             // NetworkVarNames: m_nCollisionGroup (uint8)
             // NetworkVarNames: m_nCollisionFunctionMask (uint8)
             // NetworkChangeCallback: CollisionAttributeChanged
-            // NetworkChangeCallback: OnUpdateOBB
             // NetworkChangeCallback: OnUpdateOBB
             namespace C_Beam {
                 constexpr std::ptrdiff_t m_flFrameRate = 0xE88; // float32
@@ -11146,6 +11257,7 @@ namespace source2_dumper {
             // weapon_deagle
             // weapon_mp7
             // weapon_m4a1_silencer
+            // d
             namespace CCSPlayer_WeaponServices {
                 constexpr std::ptrdiff_t m_flNextAttack = 0xD0; // GameTime_t
                 constexpr std::ptrdiff_t m_bIsLookingAtWeapon = 0xD4; // bool
@@ -11249,7 +11361,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_vecC4ExplodeSpectatePos = 0x16C0; // Vector
                 constexpr std::ptrdiff_t m_vecC4ExplodeSpectateAng = 0x16CC; // QAngle
                 constexpr std::ptrdiff_t m_flC4ExplodeSpectateDuration = 0x16D8; // float32
-                constexpr std::ptrdiff_t spectating = 0xB03010C0; // MNetworkEnable
+                constexpr std::ptrdiff_t spectating = 0xF50140E0; // MNetworkEnable
             }
             // Parent: C_CSGO_TeamIntroCharacterPosition
             // Field count: 0
@@ -11280,6 +11392,7 @@ namespace source2_dumper {
             // SHAKE_START_NORUMBLE
             // NetworkVarNames: m_vecPathNodes (CHandle<CPathNode>)
             // NetworkVarNames: m_xInitialPathWorldToLocal (CTransform)
+            // o
             // MNetworkSerializer
             // NetworkChangeCallback: sequenceOpSequenceChanged
             // MNetworkPriority
@@ -11370,6 +11483,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_RagdollPose (PhysicsRagdollPose_t)
             // NetworkVarNames: m_bRagdollEnabled (bool)
             // NetworkVarNames: m_bRagdollClientSide (bool)
+            // h
             // MNetworkIncludeByUserGroup
             // NetworkVarNames: m_MinFalloff (float32)
             // NetworkVarNames: m_MaxFalloff (float32)
@@ -11382,6 +11496,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_bMaster (bool)
             // NetworkVarNames: m_bClientSide (bool)
             // NetworkVarNames: m_bExclusive (bool)
+            // e
             // eUnbind
             // eUnbindAndDelete
             // NetworkChangeCallback: AG2_OnAnimGraphDefinitionOrModeChanged
@@ -11567,6 +11682,7 @@ namespace source2_dumper {
             // WPN_ANIMSTATE_INVENTORY_UI_KEYCHAIN_APPLY
             // WPN_ANIMSTATE_END_VALID
             // WEAPON_LEGACY_STATE_CLEAR_FIRING
+            // <Y
             // NetworkVarNames: m_bFirstAttack (bool)
             namespace C_WeaponTaser {
                 constexpr std::ptrdiff_t m_fFireTime = 0x1F70; // GameTime_t
@@ -11779,6 +11895,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_hostageRescueY (int)
             // NetworkVarNames: m_hostageRescueZ (int)
             // NetworkVarNames: m_bEndMatchNextMapAllVoted (bool)
+            // d
             namespace C_CSPlayerResource {
                 constexpr std::ptrdiff_t m_bHostageAlive = 0x608; // bool[12]
                 constexpr std::ptrdiff_t m_isHostageFollowingSomeone = 0x614; // bool[12]
@@ -11903,6 +12020,7 @@ namespace source2_dumper {
             // Metadata:
             // NetworkVarNames: m_vecPathNodes (CHandle<CPathNode>)
             // NetworkVarNames: m_xInitialPathWorldToLocal (CTransform)
+            // o
             // MNetworkSerializer
             // NetworkChangeCallback: sequenceOpSequenceChanged
             // MNetworkPriority
@@ -11952,6 +12070,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flFinalValue (float)
             // NetworkVarNames: m_nCompressionType (TimelineCompression_t)
             // NetworkVarNames: m_bStopped (bool)
+            // d
             namespace CPathWithDynamicNodes {
                 constexpr std::ptrdiff_t m_vecPathNodes = 0x710; // C_NetworkUtlVectorBase<CHandle<CPathNode>>
                 constexpr std::ptrdiff_t m_xInitialPathWorldToLocal = 0x730; // CTransform
@@ -12028,6 +12147,7 @@ namespace source2_dumper {
             // NetworkVarNames: m_flDetonateTime (GameTime_t)
             // NetworkVarNames: m_flDamage (float32)
             // NetworkVarNames: m_hThrower (CHandle<CCSPlayerPawn>)
+            // h
             namespace C_BaseGrenade {
                 constexpr std::ptrdiff_t m_bHasWarnedAI = 0x1350; // bool
                 constexpr std::ptrdiff_t m_bIsSmokeGrenade = 0x1351; // bool
@@ -12148,6 +12268,8 @@ namespace source2_dumper {
             // NetworkVarNames: m_flDMBonusStartTime (GameTime_t)
             // NetworkVarNames: m_flDMBonusTimeLength (float)
             // NetworkVarNames: m_sDMBonusWeapon (CUtlString)
+            // m
+            // m
             namespace CCSGameModeRules_Deathmatch {
                 constexpr std::ptrdiff_t m_flDMBonusStartTime = 0x30; // GameTime_t
                 constexpr std::ptrdiff_t m_flDMBonusTimeLength = 0x34; // float32
@@ -12271,6 +12393,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // l
             // binary
             namespace CBasePlayerWeaponVData {
                 constexpr std::ptrdiff_t m_szWorldModel = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -12360,6 +12483,7 @@ namespace source2_dumper {
             // WORLDTEXT_ORIENTATION_FACEUSER
             // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
             // NetworkChangeCallback: OnDialogActivatorChanged
+            // bm]P0'
             namespace C_PointClientUIWorldPanel {
                 constexpr std::ptrdiff_t m_bForceRecreateNextUpdate = 0xEC0; // bool
                 constexpr std::ptrdiff_t m_bMoveViewToPlayerNextThink = 0xEC1; // bool
@@ -12604,7 +12728,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // a
             namespace inv_image_item_t {
                 constexpr std::ptrdiff_t position = 0x0; // Vector
                 constexpr std::ptrdiff_t angle = 0xC; // QAngle
