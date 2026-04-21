@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     worldrenderer_dll: {
@@ -14,7 +14,6 @@ export const Schemas = {
             OBJECT_TYPE_NO_SHADOWS: 0x20,
             OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND: 0x40,
             OBJECT_TYPE_DISABLED_IN_LOW_QUALITY: 0x80,
-            OBJECT_TYPE_NO_SUN_SHADOWS: 0x100,
             OBJECT_TYPE_RENDER_WITH_DYNAMIC: 0x200,
             OBJECT_TYPE_RENDER_TO_CUBEMAPS: 0x400,
             OBJECT_TYPE_MODEL_HAS_LODS: 0x800,
@@ -23,6 +22,8 @@ export const Schemas = {
             OBJECT_TYPE_STATIC_CUBE_MAP: 0x8000,
             OBJECT_TYPE_DISABLE_VIS_CULLING: 0x10000,
             OBJECT_TYPE_BAKED_GEOMETRY: 0x20000,
+            OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS: 0x40000,
+            OBJECT_TYPE_HAS_AGGREGATE_RTPROXY: 0x80000,
         },
         AggregateInstanceStream_t: {
             AGGREGATE_INSTANCE_STREAM_NONE: 0x0,
@@ -33,7 +34,7 @@ export const Schemas = {
         CEntityInstance: {
             m_iszPrivateVScripts: 0x8, // CUtlSymbolLarge
             m_pEntity: 0x10, // CEntityIdentity*
-            m_CScriptComponent: 0x30, // CScriptComponent*
+            m_CScriptComponent: 0x28, // CScriptComponent*
         },
         CEntityComponent: {
         },
@@ -41,7 +42,7 @@ export const Schemas = {
             m_scriptClassName: 0x30, // CUtlSymbolLarge
         },
         CEntityIdentity: {
-            m_nameStringableIndex: 0x14, // int32
+            m_nameStringTableIndex: 0x14, // int32
             m_name: 0x18, // CUtlSymbolLarge
             m_designerName: 0x20, // CUtlSymbolLarge
             m_flags: 0x30, // uint32

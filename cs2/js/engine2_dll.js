@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     engine2_dll: {
@@ -17,7 +17,7 @@ export const Schemas = {
         CEntityInstance: {
             m_iszPrivateVScripts: 0x8, // CUtlSymbolLarge
             m_pEntity: 0x10, // CEntityIdentity*
-            m_CScriptComponent: 0x30, // CScriptComponent*
+            m_CScriptComponent: 0x28, // CScriptComponent*
         },
         CEntityComponent: {
         },
@@ -25,7 +25,7 @@ export const Schemas = {
             m_scriptClassName: 0x30, // CUtlSymbolLarge
         },
         CEntityIdentity: {
-            m_nameStringableIndex: 0x14, // int32
+            m_nameStringTableIndex: 0x14, // int32
             m_name: 0x18, // CUtlSymbolLarge
             m_designerName: 0x20, // CUtlSymbolLarge
             m_flags: 0x30, // uint32
@@ -76,6 +76,17 @@ export const Schemas = {
             m_Value: 0x0, // float32
         },
         EventServerBeginSimulate_t: {
+        },
+        EntityIOQueuePrioritizedEvent_t: {
+            m_flFireTime: 0x4, // GameTime_t
+            m_targetType: 0x8, // EntityIOTargetType_t
+            m_pTarget: 0x10, // CUtlSymbolLarge
+            m_pTargetInput: 0x18, // CUtlSymbolLarge
+            m_hActivator: 0x20, // CEntityHandle
+            m_hCaller: 0x24, // CEntityHandle
+            m_nOutputID: 0x28, // int32
+            m_hEntTarget: 0x2C, // CEntityHandle
+            m_variantValue: 0x30, // CVariantBase<CVariantDefaultAllocator>
         },
         EventServerEndAsyncPostTickWork_t: {
         },
@@ -178,12 +189,12 @@ export const Schemas = {
             m_flRenderFrameTimeUnscaled: 0x50, // float64
             m_flTickRemainder: 0x58, // float64
         },
-        EntOutput_t: {
-        },
         EventSimulate_t: {
             m_LoopState: 0x0, // EngineLoopState_t
             m_bFirstTick: 0x28, // bool
             m_bLastTick: 0x29, // bool
+        },
+        CEntityKeyValues: {
         },
         EventClientAdvanceNonRenderedFrame_t: {
         },

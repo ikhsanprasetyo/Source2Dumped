@@ -1,8 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     soundsystem_dll: {
+        SndSeqInstrumentType_t: {
+            eSndSeqInstNull: 0x0,
+            eSndSeqInstSndEvt: 0x1,
+            eSndSeqInstMidiSampler: 0x2,
+        },
         EMode_t: {
             Peak: 0x0,
             RMS: 0x1,
@@ -79,6 +84,10 @@ export const Schemas = {
             SOS_STOPTYPE_TIME: 0x1,
             SOS_STOPTYPE_OPVAR: 0x2,
         },
+        SndSeqTrackPlaybackType_t: {
+            eSndSeqTrackPlaybackTypeStep: 0x0,
+            eSndSeqTrackPlaybackTypeFwd: 0x1,
+        },
         SosEditItemType_t: {
             SOS_EDIT_ITEM_TYPE_SOUNDEVENTS: 0x0,
             SOS_EDIT_ITEM_TYPE_SOUNDEVENT: 0x1,
@@ -86,6 +95,15 @@ export const Schemas = {
             SOS_EDIT_ITEM_TYPE_STACK: 0x3,
             SOS_EDIT_ITEM_TYPE_OPERATOR: 0x4,
             SOS_EDIT_ITEM_TYPE_FIELD: 0x5,
+        },
+        SndSeqQuantizeType_t: {
+            eSndSeqQuantizeInvalid: 0xFFFFFFFFFFFFFFFF,
+            eSndSeqQuantizeNone: 0x0,
+            eSndSeqQuantizeBeat: 0x1,
+            eSndSeqQuantizeBar: 0x2,
+            eSndSeqQuantizeSequence: 0x3,
+            eSndSeqQuantizeSeek: 0x4,
+            eSndSeqQuantizeReset: 0x5,
         },
         PlayBackMode_t: {
             Random: 0x0,
@@ -98,6 +116,11 @@ export const Schemas = {
             kIgnore: 0x0,
             kBranch: 0x1,
             kMatch: 0x2,
+        },
+        SndSeqSyncType_t: {
+            eSndSeqSyncTypeNone: 0x0,
+            eSndSeqSyncTypeWait: 0x1,
+            eSndSeqSyncTypeSeek: 0x2,
         },
         soundlevel_t: {
             SNDLVL_NONE: 0x0,
@@ -154,6 +177,11 @@ export const Schemas = {
             B: 0xB,
             Count: 0xC,
         },
+        SndSeqRegionType_t: {
+            eSndSeqRegionTypeNull: 0x0,
+            eSndSeqRegionTypeSndEvt: 0x1,
+            eSndSeqRegionTypeMidiSeq: 0x2,
+        },
         CVSoundFormat_t: {
             PCM16: 0x0,
             PCM8: 0x1,
@@ -169,6 +197,11 @@ export const Schemas = {
             FILTER_SLOPE_24dB: 0x5,
             FILTER_SLOPE_36dB: 0x6,
             FILTER_SLOPE_48dB: 0x7,
+        },
+        SndSeqPlayerType_t: {
+            eSndSeqPlayerNull: 0x0,
+            eSndSeqPlayerSndEvt: 0x1,
+            eSndSeqPlayerMidiSeq: 0x2,
         },
         SosActionLimitSortType_t: {
             SOS_LIMIT_SORTTYPE_HIGHEST: 0x0,
@@ -187,13 +220,22 @@ export const Schemas = {
             SOS_SETPARAM_SORTTYPE_HIGHEST: 0x0,
             SOS_SETPARAM_SORTTYPE_LOWEST: 0x1,
         },
+        SndSeqMidiStatusType_t: {
+            SndSeqMidiStatusNoteOff: 0x8,
+            SndSeqMidiStatusNoteOn: 0x9,
+            SndSeqMidiStatusKeyPressure: 0xA,
+            SndSeqMidiStatusCtrlChange: 0xB,
+            SndSeqMidiStatusProgramChange: 0xC,
+            SndSeqMidiStatusChannelPressure: 0xD,
+            SndSeqMidiStatusPitchBend: 0xE,
+        },
         CVMixInputBase: {
             m_name: 0x0, // CUtlString
         },
         CVoiceContainerBlender: {
             m_firstSound: 0xA8, // CSoundContainerReference
-            m_secondSound: 0xC0, // CSoundContainerReference
-            m_flBlendFactor: 0xD8, // float32
+            m_secondSound: 0xC8, // CSoundContainerReference
+            m_flBlendFactor: 0xE8, // float32
         },
         CVMixPitchShiftProcessorDesc: {
             m_desc: 0x20, // VMixPitchShiftDesc_t
@@ -217,6 +259,15 @@ export const Schemas = {
             m_harmonics: 0x0, // CUtlVector<CVoiceContainerStaticAdditiveSynth::CHarmonic>
             m_curve: 0x18, // CPiecewiseCurve
             m_bSyncInstances: 0x58, // bool
+        },
+        CSosGroupActionOcclusionSchema: {
+            m_flCalculationInterval: 0x8, // float32
+            m_flRadius: 0xC, // float32
+            m_flOcclusionScale: 0x10, // float32
+            m_flOcclusionMin: 0x14, // float32
+            m_flOcclusionMax: 0x18, // float32
+            m_flTestDepth: 0x1C, // float32
+            m_flCalculationInterval: 0x8, // float32
         },
         CVoiceContainerRandomSampler: {
             m_flAmplitude: 0xB8, // float32
@@ -265,9 +316,10 @@ export const Schemas = {
             m_nSortType: 0x20, // SosActionSetParamSortType_t
         },
         CSoundContainerReference: {
-            m_bUseReference: 0x0, // bool
-            m_sound: 0x8, // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-            m_pSound: 0x10, // CVoiceContainerBase*
+            m_namespace: 0x0, // CUtlString
+            m_bUseReference: 0x8, // bool
+            m_sound: 0x10, // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+            m_pSound: 0x18, // CVoiceContainerBase*
         },
         CVoiceContainerNull: {
         },
@@ -308,6 +360,9 @@ export const Schemas = {
             m_nInputValue0: 0x18, // int32
             m_nInputValue1: 0x1C, // int32
         },
+        SamplerVoice_t: {
+            nNoteNum: 0x0, // uint8
+        },
         CVMixControlInput: {
             m_flDefaultValue: 0x10, // float32
         },
@@ -346,8 +401,12 @@ export const Schemas = {
             m_flModDepth: 0x28, // float32
             m_bApplyAntialiasing: 0x2C, // bool
         },
+        CSndSeqInstSndEvtSchema: {
+        },
         CVMixNameInputMeter: {
             m_nValueIndex: 0x10, // int32
+        },
+        CSndSeqInstruments: {
         },
         CVMixDynamics3BandProcessorDesc: {
             m_desc: 0x20, // VMixDynamics3BandDesc_t
@@ -390,6 +449,28 @@ export const Schemas = {
             m_Behavior_String: 0x48, // SosGroupFieldBehavior_t
             m_opvarString: 0x50, // CUtlString
             m_vActions: 0x58, // CUtlVector<CSosGroupActionSchema*>
+        },
+        CSndSeqInstMidiSampler: {
+            m_bIsSoundEvent: 0x20, // bool
+            m_bStopPrevious: 0x21, // bool
+            m_nMinNote: 0x22, // uint8
+            m_nMaxNote: 0x23, // uint8
+            m_flMinVelocityAtten: 0x24, // float32
+            m_flMaxVelocityAtten: 0x28, // float32
+            m_flAttack: 0x2C, // float32
+            m_flRelease: 0x30, // float32
+            m_bBeatEnvelopes: 0x34, // bool
+            m_nNextVoiceSlot: 0xD4, // uint8
+            m_hSoundEventHash: 0xD8, // uint32
+            m_bIsSoundEvent: 0x20, // bool
+        },
+        CSndSeqInstBaseSchema: {
+            m_nType: 0x8, // SndSeqInstrumentType_t
+            m_nPlayerType: 0xC, // SndSeqPlayerType_t
+            m_bStopCurrentEvents: 0x12, // bool
+            m_flBPM: 0x14, // float32
+            m_flBPMFactor: 0x18, // float32
+            m_flBPMInvFactor: 0x1C, // float32
         },
         VMixDynamics3BandDesc_t: {
             m_fldbGainOutput: 0x0, // float32
@@ -490,13 +571,13 @@ export const Schemas = {
         },
         CVoiceContainerLoopXFade: {
             m_sound: 0xA8, // CSoundContainerReference
-            m_flLoopEnd: 0xC0, // float32
-            m_flLoopStart: 0xC4, // float32
-            m_flFadeOut: 0xC8, // float32
-            m_flFadeIn: 0xCC, // float32
-            m_bPlayHead: 0xD0, // bool
-            m_bPlayTail: 0xD1, // bool
-            m_bEqualPow: 0xD2, // bool
+            m_flLoopEnd: 0xC8, // float32
+            m_flLoopStart: 0xCC, // float32
+            m_flFadeOut: 0xD0, // float32
+            m_flFadeIn: 0xD4, // float32
+            m_bPlayHead: 0xD8, // bool
+            m_bPlayTail: 0xD9, // bool
+            m_bEqualPow: 0xDA, // bool
         },
         VMixPresetDSPDesc_t: {
             m_effectName: 0x0, // CUtlString
@@ -515,6 +596,7 @@ export const Schemas = {
         CSosGroupActionSoundeventCountSchema: {
             m_bExcludeStoppedSounds: 0x8, // bool
             m_strCountKeyName: 0x10, // CUtlString
+            m_bExcludeStoppedSounds: 0x8, // bool
         },
         CVoiceContainerEnvelopeAnalyzer: {
             m_mode: 0x50, // EMode_t
@@ -582,7 +664,7 @@ export const Schemas = {
         },
         CVoiceContainerSetElement: {
             m_sound: 0x0, // CSoundContainerReference
-            m_flVolumeDB: 0x18, // float32
+            m_flVolumeDB: 0x20, // float32
         },
         CVoiceContainerAsyncGenerator: {
         },
@@ -600,6 +682,13 @@ export const Schemas = {
         },
         CVMixEffectChainProcessorDesc: {
             m_desc: 0x20, // VMixEffectChainDesc_t
+        },
+        KeyGroup_t: {
+            nCenterNote: 0x0, // uint8
+            nMinNote: 0x1, // uint8
+            nMaxNote: 0x2, // uint8
+            nNumVelocityZones: 0x3, // uint8
+            pVelocityZones: 0x8, // VelocityZone_t*
         },
         CVMixFreeverbProcessorDesc: {
             m_desc: 0x20, // VMixFreeverbDesc_t
@@ -680,13 +769,13 @@ export const Schemas = {
         },
         CVoiceContainerParameterBlender: {
             m_firstSound: 0xA8, // CSoundContainerReference
-            m_secondSound: 0xC0, // CSoundContainerReference
-            m_bEnableOcclusionBlend: 0xD8, // bool
-            m_curve1: 0xE0, // CPiecewiseCurve
-            m_curve2: 0x120, // CPiecewiseCurve
-            m_bEnableDistanceBlend: 0x160, // bool
-            m_curve3: 0x168, // CPiecewiseCurve
-            m_curve4: 0x1A8, // CPiecewiseCurve
+            m_secondSound: 0xC8, // CSoundContainerReference
+            m_bEnableOcclusionBlend: 0xE8, // bool
+            m_curve1: 0xF0, // CPiecewiseCurve
+            m_curve2: 0x130, // CPiecewiseCurve
+            m_bEnableDistanceBlend: 0x170, // bool
+            m_curve3: 0x178, // CPiecewiseCurve
+            m_curve4: 0x1B8, // CPiecewiseCurve
         },
         CVMixAudioMeter: {
             m_name: 0x0, // CUtlString
@@ -701,6 +790,7 @@ export const Schemas = {
             m_nSortType: 0x10, // SosActionLimitSortType_t
             m_bStopImmediate: 0x14, // bool
             m_bCountStopped: 0x15, // bool
+            m_nMaxCount: 0x8, // int32
         },
         CVoiceContainerAmpedDecayingSineWave: {
             m_flGainAmount: 0xB0, // float32
@@ -751,6 +841,12 @@ export const Schemas = {
             m_nInstancesAtMinVolume: 0x4, // int32
             m_flMaxVolume: 0x8, // float32
             m_nInstancesAtMaxVolume: 0xC, // int32
+        },
+        VelocityZone_t: {
+            nMaxVel: 0x0, // uint8
+            nNextSelection: 0x1, // uint8
+            nNumSamples: 0x2, // uint8
+            pSamples: 0x4, // uint32[4]
         },
         CVoiceContainerSelector: {
             m_mode: 0xA8, // PlayBackMode_t
@@ -810,10 +906,10 @@ export const Schemas = {
         },
         CVoiceContainerLoopTrigger: {
             m_sound: 0xA8, // CSoundContainerReference
-            m_flRetriggerTimeMin: 0xC0, // float32
-            m_flRetriggerTimeMax: 0xC4, // float32
-            m_flFadeTime: 0xC8, // float32
-            m_bCrossFade: 0xCC, // bool
+            m_flRetriggerTimeMin: 0xC8, // float32
+            m_flRetriggerTimeMax: 0xCC, // float32
+            m_flFadeTime: 0xD0, // float32
+            m_bCrossFade: 0xD4, // bool
         },
         CVoiceContainerDecayingSineWave: {
             m_flFrequency: 0xA8, // float32
@@ -840,6 +936,8 @@ export const Schemas = {
         },
         CVMixAutoFilterProcessorDesc: {
             m_desc: 0x20, // VMixAutoFilterDesc_t
+        },
+        ISndSeqInstruments: {
         },
         VMixFlangerDesc_t: {
             m_bPhaseInvert: 0x0, // bool

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     pulse_system_dll: {
@@ -45,8 +45,8 @@ export const Schemas = {
         CPulse_ResumePoint: {
         },
         CTestDomainDerived_Cursor: {
-            m_nCursorValueA: 0xD0, // int32
-            m_nCursorValueB: 0xD4, // int32
+            m_nCursorValueA: 0xD8, // int32
+            m_nCursorValueB: 0xDC, // int32
         },
         CPulseCell_PickBestOutflowSelector: {
             m_nCheckType: 0x48, // PulseBestOutflowRules_t
@@ -135,10 +135,10 @@ export const Schemas = {
             nTestStep: 0x0, // int32
         },
         CPulseTurtleGraphicsCursor: {
-            m_Color: 0xD0, // Color
-            m_vPos: 0xD4, // Vector2D
-            m_flHeadingDeg: 0xDC, // float32
-            m_bPenUp: 0xE0, // bool
+            m_Color: 0xD8, // Color
+            m_vPos: 0xDC, // Vector2D
+            m_flHeadingDeg: 0xE4, // float32
+            m_bPenUp: 0xE8, // bool
         },
         CPulseCell_TestWaitWithCursorState__CursorState_t: {
             flWaitValue: 0x0, // float32
@@ -178,6 +178,8 @@ export const Schemas = {
             m_AsyncChild2: 0xD8, // SignatureOutflow_Continue
             m_YieldResume1: 0x120, // SignatureOutflow_Resume
             m_YieldResume2: 0x168, // SignatureOutflow_Resume
+        },
+        TestComponent_tAPI: {
         },
         CPulseCell_Value_Curve: {
             m_Curve: 0x48, // CPiecewiseCurve
@@ -293,7 +295,7 @@ export const Schemas = {
         },
         CPulseCell_BooleanSwitchState: {
             m_Condition: 0x48, // PulseObservableBoolExpression_t
-            m_SubGraph: 0xC0, // CPulse_OutflowConnection
+            m_Always: 0xC0, // CPulse_OutflowConnection
             m_WhenTrue: 0x108, // CPulse_OutflowConnection
             m_WhenFalse: 0x150, // CPulse_OutflowConnection
         },
@@ -359,10 +361,10 @@ export const Schemas = {
         },
         CPulseCell_Step_CallExternalMethod: {
             m_MethodName: 0x48, // PulseSymbol_t
-            m_GameBlackboard: 0x58, // PulseSymbol_t
-            m_ExpectedArgs: 0x68, // CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode: 0x78, // PulseMethodCallMode_t
-            m_OnFinished: 0x80, // CPulse_ResumePoint
+            m_nBlackboardIndex: 0x58, // PulseRuntimeBlackboardReferenceIndex_t
+            m_ExpectedArgs: 0x60, // CUtlLeanVector<CPulseRuntimeMethodArg>
+            m_nAsyncCallMode: 0x70, // PulseMethodCallMode_t
+            m_OnFinished: 0x78, // CPulse_ResumePoint
         },
         PulseObservableBoolExpression_t: {
             m_EvaluateConnection: 0x0, // CPulse_OutflowConnection
@@ -380,6 +382,9 @@ export const Schemas = {
         CPulseCell_Value_RandomFloat: {
         },
         CPulseExecCursor: {
+        },
+        TestComponent_t: {
+            m_ComponentData: 0x8, // CUtlString
         },
     },
 };

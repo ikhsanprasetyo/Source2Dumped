@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 package schemas
 
@@ -13,9 +13,9 @@ const (
     Engine2Dll_EntityIOTargetType_t_ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
     Engine2Dll_CEntityInstance_m_iszPrivateVScripts = 0x8 // CUtlSymbolLarge
     Engine2Dll_CEntityInstance_m_pEntity = 0x10 // CEntityIdentity*
-    Engine2Dll_CEntityInstance_m_CScriptComponent = 0x30 // CScriptComponent*
+    Engine2Dll_CEntityInstance_m_CScriptComponent = 0x28 // CScriptComponent*
     Engine2Dll_CScriptComponent_m_scriptClassName = 0x30 // CUtlSymbolLarge
-    Engine2Dll_CEntityIdentity_m_nameStringableIndex = 0x14 // int32
+    Engine2Dll_CEntityIdentity_m_nameStringTableIndex = 0x14 // int32
     Engine2Dll_CEntityIdentity_m_name = 0x18 // CUtlSymbolLarge
     Engine2Dll_CEntityIdentity_m_designerName = 0x20 // CUtlSymbolLarge
     Engine2Dll_CEntityIdentity_m_flags = 0x30 // uint32
@@ -46,6 +46,15 @@ const (
     Engine2Dll_CEntityComponentHelper_m_nPriority = 0x18 // int32
     Engine2Dll_CEntityComponentHelper_m_pNext = 0x20 // CEntityComponentHelper*
     Engine2Dll_GameTime_t_m_Value = 0x0 // float32
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_flFireTime = 0x4 // GameTime_t
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_targetType = 0x8 // EntityIOTargetType_t
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_pTarget = 0x10 // CUtlSymbolLarge
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_pTargetInput = 0x18 // CUtlSymbolLarge
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hActivator = 0x20 // CEntityHandle
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hCaller = 0x24 // CEntityHandle
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_nOutputID = 0x28 // int32
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hEntTarget = 0x2C // CEntityHandle
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_variantValue = 0x30 // CVariantBase<CVariantDefaultAllocator>
     Engine2Dll_CNetworkVarChainer_m_PathIndex = 0x20 // ChangeAccessorFieldPathIndex_t
     Engine2Dll_EventClientPostOutput_t_m_LoopState = 0x0 // EngineLoopState_t
     Engine2Dll_EventClientPostOutput_t_m_flRenderTime = 0x28 // float64

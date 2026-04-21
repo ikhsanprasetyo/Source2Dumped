@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -143,8 +143,6 @@ pub const source2_dumper = struct {
             // RENDER_BUFFER_IMMOVABLE_ALLOCATION
             // RENDER_SLOT_INVALID
             // RENDER_SLOT_PER_INSTANCE
-            // E!
-            // E!
             pub const SheetSequenceIntegerId_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };

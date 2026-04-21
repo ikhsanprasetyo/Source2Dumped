@@ -222,14 +222,6 @@
           {
             "name": "RENDER_SLOT_PER_INSTANCE",
             "type": "Unknown"
-          },
-          {
-            "name": "E!",
-            "type": "Unknown"
-          },
-          {
-            "name": "E!",
-            "type": "Unknown"
           }
         ],
         "parent": null

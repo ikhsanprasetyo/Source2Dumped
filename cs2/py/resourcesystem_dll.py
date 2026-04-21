@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:15:51.295207800 +07:00
+# 2026-04-21 10:30:00.180985200 +07:00
 
 class Schemas:
     # Module: resourcesystem.dll
@@ -17,8 +17,6 @@ class Schemas:
         class FuseVariableAccess_t:
             WRITABLE = 0x0
             READ_ONLY = 0x1
-        class InfoForResourceTypeCNmIKRig:
-            pass
         class InfoForResourceTypeCResponseRulesList:
             pass
         class InfoForResourceTypeCDotaItemDefinitionResource:
@@ -130,6 +128,8 @@ class Schemas:
         class InfoForResourceTypeCPanoramaDynamicImages:
             pass
         class InfoForResourceTypeIPulseGraphDef:
+            pass
+        class InfoForResourceTypeCVDataItemDefs:
             pass
         class FunctionInfo_t:
             m_name = 0x8 # CUtlString

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 package schemas
 
@@ -14,6 +14,19 @@ const (
     Vphysics2Dll_DynamicContinuousContactBehavior_t_DYNAMIC_CONTINUOUS_ALLOW_IF_REQUESTED_BY_OTHER_BODY = 0x0
     Vphysics2Dll_DynamicContinuousContactBehavior_t_DYNAMIC_CONTINUOUS_ALWAYS = 0x1
     Vphysics2Dll_DynamicContinuousContactBehavior_t_DYNAMIC_CONTINUOUS_NEVER = 0x2
+    Vphysics2Dll_PhysInterfaceId_t_PIID_UNKNOWN = 0x0
+    Vphysics2Dll_PhysInterfaceId_t_PIID_IPHYSICSBODY = 0x1
+    Vphysics2Dll_PhysInterfaceId_t_PIID_IPHYSAGGREGATE = 0x2
+    Vphysics2Dll_PhysInterfaceId_t_PIID_IPHYSICSJOINT = 0x3
+    Vphysics2Dll_PhysInterfaceId_t_PIID_IPHYSICSMOTIONCONTROLLER = 0x4
+    Vphysics2Dll_PhysInterfaceId_t_PIID_IPHYSICSPARTICLEROPE = 0x5
+    Vphysics2Dll_PhysInterfaceId_t_PIID_IPHYSICSRAGDOLLCONTROL = 0x6
+    Vphysics2Dll_PhysInterfaceId_t_PIID_NUM_TYPES = 0x7
+    Vphysics2Dll_PhysGenericShapeType_t_GENERIC_SHAPE_POINT = 0x0
+    Vphysics2Dll_PhysGenericShapeType_t_GENERIC_SHAPE_SPHERE = 0x1
+    Vphysics2Dll_PhysGenericShapeType_t_GENERIC_SHAPE_AABB = 0x2
+    Vphysics2Dll_PhysGenericShapeType_t_GENERIC_SHAPE_CAPSULE = 0x3
+    Vphysics2Dll_PhysGenericShapeType_t_GENERIC_SHAPE_HULL = 0x4
     Vphysics2Dll_RnSphereDesc_t_m_Sphere = 0x18 // SphereBase_t<float32>
     Vphysics2Dll_RnSoftbodyParticle_t_m_flMassInv = 0x0 // float32
     Vphysics2Dll_RnHullDesc_t_m_Hull = 0x18 // RnHull_t
@@ -141,6 +154,8 @@ const (
     Vphysics2Dll_CFeIndexedJiggleBone_m_nNode = 0x0 // uint32
     Vphysics2Dll_CFeIndexedJiggleBone_m_nJiggleParent = 0x4 // uint32
     Vphysics2Dll_CFeIndexedJiggleBone_m_jiggleBone = 0x8 // CFeJiggleBone
+    Vphysics2Dll_IPhysAggregateInstance_m_pSkeleton = 0x8 // void*
+    Vphysics2Dll_IPhysAggregateInstance_m_bIsAxisAligned = 0x10 // bool
     Vphysics2Dll_FeBandBendLimit_t_flDistMin = 0x0 // float32
     Vphysics2Dll_FeBandBendLimit_t_flDistMax = 0x4 // float32
     Vphysics2Dll_FeBandBendLimit_t_nNode = 0x8 // uint16[6]
@@ -360,6 +375,7 @@ const (
     Vphysics2Dll_FeWorldCollisionParams_t_flGroundFriction = 0x4 // float32
     Vphysics2Dll_FeWorldCollisionParams_t_nListBegin = 0x8 // uint16
     Vphysics2Dll_FeWorldCollisionParams_t_nListEnd = 0xA // uint16
+    Vphysics2Dll_CGenericShapeProxy_m_verts = 0x30 // CUtlLeanVectorFixedGrowable<Vector,8>
     Vphysics2Dll_RnNode_t_m_vMin = 0x0 // Vector
     Vphysics2Dll_RnNode_t_m_nChildren = 0xC // uint32
     Vphysics2Dll_RnNode_t_m_vMax = 0x10 // Vector
@@ -424,6 +440,16 @@ const (
     Vphysics2Dll_CastSphereSATParams_t_m_flMaxFraction = 0x1C // float32
     Vphysics2Dll_CastSphereSATParams_t_m_flScale = 0x20 // float32
     Vphysics2Dll_CastSphereSATParams_t_m_pHull = 0x28 // RnHull_t*
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_flMinSpringFrequency = 0x0 // float32
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_flMaxSpringFrequency = 0x4 // float32
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_flMaxStretch = 0x8 // float32
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_bSolidCollisionAtZeroWeight = 0xC // bool
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_bRequiresDynamicBodies = 0xD // bool
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_bIgnoreTeleport = 0xE // bool
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_vLinearVelocityAccumulator = 0x10 // Vector
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_vAngularVelocityAccumulator = 0x1C // RotationVector
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_vForceAccumulator = 0x28 // Vector
+    Vphysics2Dll_vphysics_save_ragdoll_control_t_m_nBodyCount = 0x34 // int32
     Vphysics2Dll_FeRigidColliderIndices_t_m_nTaperedCapsuleRigidIndex = 0x0 // uint16
     Vphysics2Dll_FeRigidColliderIndices_t_m_nSphereRigidIndex = 0x2 // uint16
     Vphysics2Dll_FeRigidColliderIndices_t_m_nBoxRigidIndex = 0x4 // uint16

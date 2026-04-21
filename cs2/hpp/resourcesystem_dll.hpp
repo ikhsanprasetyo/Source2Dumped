@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 #pragma once
 
@@ -57,40 +57,6 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MKV3TransferName
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MKV3TransferName
-            // MResourceTypeForInfoType
-            // MGetKV3ClassDefaults
-            // S
-            namespace InfoForResourceTypeCNmIKRig {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
@@ -117,7 +83,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCResponseRulesList {
             }
             // Parent: None
@@ -148,13 +114,14 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCDotaItemDefinitionResource {
             }
             // Parent: None
@@ -197,7 +164,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCMorphSetData {
             }
             // Parent: None
@@ -213,7 +180,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCVSoundStackScriptList {
             }
             // Parent: None
@@ -241,15 +208,13 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCVPhysXSurfacePropertiesList {
             }
             // Parent: None
@@ -260,7 +225,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeManifestTestResource_t {
             }
             // Parent: None
@@ -280,9 +245,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
-            // MResourceTypeForInfoType
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // vrman
             namespace FuseFunctionIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -306,7 +269,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCGcExportableExternalData {
             }
             // Parent: None
@@ -332,13 +295,14 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeIAnimGraphModelBinding {
             }
             // Parent: None
@@ -376,14 +340,13 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCJavaScriptResource {
             }
             // Parent: None
@@ -418,13 +381,14 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCRenderMesh {
             }
             // Parent: None
@@ -462,13 +426,14 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCVoxelVisibility {
             }
             // Parent: None
@@ -515,7 +480,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCPhysAggregateData {
             }
             // Parent: None
@@ -564,7 +529,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCNmClip {
             }
             // Parent: None
@@ -589,7 +554,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeWorld_t {
             }
             // Parent: None
@@ -598,7 +563,7 @@ namespace source2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeProceduralTestResource_t {
             }
             // Parent: None
@@ -644,7 +609,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCPostProcessingResource {
             }
             // Parent: None
@@ -709,7 +674,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeIParticleSnapshot {
             }
             // Parent: None
@@ -728,14 +693,13 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCPanoramaLayout {
             }
             // Parent: None
@@ -771,7 +735,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCTypeScriptResource {
             }
             // Parent: None
@@ -793,7 +757,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCChoreoSceneResource {
             }
             // Parent: None
@@ -813,7 +777,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCNmSkeleton {
             }
             // Parent: None
@@ -825,7 +789,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
@@ -844,7 +808,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCAnimationGroup {
             }
             // Parent: None
@@ -859,7 +823,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCVSoundEventScriptList {
             }
             // Parent: None
@@ -883,7 +847,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCVoiceContainerBase {
             }
             // Parent: None
@@ -939,7 +903,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCPanoramaStyle {
             }
             // Parent: None
@@ -966,7 +930,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCWorldNode {
             }
             // Parent: None
@@ -997,14 +961,13 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCSurfaceGraph {
             }
             // Parent: None
@@ -1025,7 +988,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCCSGOEconItem {
             }
             // Parent: None
@@ -1056,7 +1019,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCNmGraphDefinition {
             }
             // Parent: None
@@ -1104,14 +1067,13 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCSmartProp {
             }
             // Parent: None
@@ -1148,7 +1110,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCCompositeMaterialKit {
             }
             // Parent: None
@@ -1199,7 +1161,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCVMixListResource {
             }
             // Parent: None
@@ -1247,7 +1209,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCAnimData {
             }
             // Parent: None
@@ -1293,7 +1255,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeIMaterial2 {
             }
             // Parent: None
@@ -1332,7 +1294,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeIVectorGraphic {
             }
             // Parent: None
@@ -1355,13 +1317,14 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCPanoramaDynamicImages {
             }
             // Parent: None
@@ -1375,8 +1338,43 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeIPulseGraphDef {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
+            // MKV3TransferName
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // (
+            namespace InfoForResourceTypeCVDataItemDefs {
             }
             // Parent: None
             // Field count: 5
@@ -1399,13 +1397,14 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCVDataResource {
             }
             // Parent: None
@@ -1446,7 +1445,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCModel {
             }
             // Parent: None
@@ -1499,7 +1498,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCDOTANovelsList {
             }
             // Parent: None
@@ -1533,7 +1532,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCTextureBase {
             }
             // Parent: None
@@ -1541,7 +1540,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyCustomFGDType
-            // vrman
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VApplication001
@@ -1640,6 +1641,7 @@ namespace source2_dumper {
             // SoundService_001
             // BenchmarkService001
             // KeyValueCache001
+            // ClientServerSharedHandleSystem001
             // GameResourceServiceClientV001
             // GameResourceServiceServerV001
             // Source2EngineToClient001
@@ -1647,7 +1649,6 @@ namespace source2_dumper {
             // Source2EngineToServerStringTable001
             // Source2EngineToClientStringTable001
             // VPhysics2_Interface_001
-            // VPhysics2_Handle_Interface_001
             // ModelDocUtils001
             // AnimGraphEditorUtils001
             // EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -1713,7 +1714,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeIParticleSystemDefinition {
             }
             // Parent: None
@@ -1763,7 +1764,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCSequenceGroupData {
             }
             // Parent: None
@@ -1771,7 +1772,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace ManifestTestResource_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_child = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
@@ -1799,14 +1800,13 @@ namespace source2_dumper {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCEntityLump {
             }
             // Parent: None
@@ -1848,7 +1848,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // S
+            // (
             namespace InfoForResourceTypeCDOTAPatchNotesList {
             }
         }

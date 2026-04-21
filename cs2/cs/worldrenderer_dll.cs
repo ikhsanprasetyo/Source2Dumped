@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -13,7 +13,7 @@ namespace Source2Dumper.Schemas {
             RTPROXY_INSTANCE_UNIQUE_MESH = 0x1
         }
         // Alignment: 4
-        // Member count: 15
+        // Member count: 16
         public enum ObjectTypeFlags_t : uint {
             OBJECT_TYPE_NONE = 0x0,
             OBJECT_TYPE_MODEL = 0x8,
@@ -21,7 +21,6 @@ namespace Source2Dumper.Schemas {
             OBJECT_TYPE_NO_SHADOWS = 0x20,
             OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND = 0x40,
             OBJECT_TYPE_DISABLED_IN_LOW_QUALITY = 0x80,
-            OBJECT_TYPE_NO_SUN_SHADOWS = 0x100,
             OBJECT_TYPE_RENDER_WITH_DYNAMIC = 0x200,
             OBJECT_TYPE_RENDER_TO_CUBEMAPS = 0x400,
             OBJECT_TYPE_MODEL_HAS_LODS = 0x800,
@@ -29,7 +28,9 @@ namespace Source2Dumper.Schemas {
             OBJECT_TYPE_PRECOMPUTED_VISMEMBERS = 0x4000,
             OBJECT_TYPE_STATIC_CUBE_MAP = 0x8000,
             OBJECT_TYPE_DISABLE_VIS_CULLING = 0x10000,
-            OBJECT_TYPE_BAKED_GEOMETRY = 0x20000
+            OBJECT_TYPE_BAKED_GEOMETRY = 0x20000,
+            OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS = 0x40000,
+            OBJECT_TYPE_HAS_AGGREGATE_RTPROXY = 0x80000
         }
         // Alignment: 1
         // Member count: 4
@@ -41,18 +42,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 3
-        //
-        // Metadata:
-        // NetworkVarNames: m_pEntity (CEntityIdentity*)
-        // NetworkVarNames: m_CScriptComponent (CScriptComponent::Storage_t)
-        // CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert
-        // MNetworkSerializeAs
-        // MNetworkSerializeAs
-        // NetworkVarNames: m_nameStringableIndex (int32)
         public static class CEntityInstance {
             public const nint m_iszPrivateVScripts = 0x8; // CUtlSymbolLarge
             public const nint m_pEntity = 0x10; // CEntityIdentity*
-            public const nint m_CScriptComponent = 0x30; // CScriptComponent*
+            public const nint m_CScriptComponent = 0x28; // CScriptComponent*
         }
         // Parent: None
         // Field count: 0
@@ -65,11 +58,8 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 12
-        //
-        // Metadata:
-        // NetworkVarNames: m_nameStringableIndex (int32)
         public static class CEntityIdentity {
-            public const nint m_nameStringableIndex = 0x14; // int32
+            public const nint m_nameStringTableIndex = 0x14; // int32
             public const nint m_name = 0x18; // CUtlSymbolLarge
             public const nint m_designerName = 0x20; // CUtlSymbolLarge
             public const nint m_flags = 0x30; // uint32
@@ -162,7 +152,6 @@ namespace Source2Dumper.Schemas {
         // OBJECT_TYPE_NO_SHADOWS
         // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
         // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-        // OBJECT_TYPE_NO_SUN_SHADOWS
         // OBJECT_TYPE_RENDER_WITH_DYNAMIC
         // OBJECT_TYPE_RENDER_TO_CUBEMAPS
         // OBJECT_TYPE_MODEL_HAS_LODS
@@ -171,6 +160,8 @@ namespace Source2Dumper.Schemas {
         // OBJECT_TYPE_STATIC_CUBE_MAP
         // OBJECT_TYPE_DISABLE_VIS_CULLING
         // OBJECT_TYPE_BAKED_GEOMETRY
+        // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
+        // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -315,6 +306,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MResourceTypeForInfoType
         public static class PermEntityLumpData_t {
             public const nint m_name = 0x8; // CUtlString
             public const nint m_childLumps = 0x10; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
@@ -411,9 +403,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MResourceTypeForInfoType
-        // ;.JSE;.WSF;.WSH;.MSC
-        // RTPROXY_INSTANCE_UNIQUE_MESH
-        // MGetKV3ClassDefaults
         public static class InfoForResourceTypeVMapResourceData_t {
         }
         // Parent: None
@@ -489,7 +478,6 @@ namespace Source2Dumper.Schemas {
         // OBJECT_TYPE_NO_SHADOWS
         // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
         // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-        // OBJECT_TYPE_NO_SUN_SHADOWS
         // OBJECT_TYPE_RENDER_WITH_DYNAMIC
         // OBJECT_TYPE_RENDER_TO_CUBEMAPS
         // OBJECT_TYPE_MODEL_HAS_LODS
@@ -498,6 +486,8 @@ namespace Source2Dumper.Schemas {
         // OBJECT_TYPE_STATIC_CUBE_MAP
         // OBJECT_TYPE_DISABLE_VIS_CULLING
         // OBJECT_TYPE_BAKED_GEOMETRY
+        // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
+        // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:15:51.295207800 +07:00
+# 2026-04-21 10:30:00.180985200 +07:00
 
 class Schemas:
     # Module: pulse_system.dll
@@ -39,8 +39,8 @@ class Schemas:
         class CPulse_ResumePoint:
             pass
         class CTestDomainDerived_Cursor:
-            m_nCursorValueA = 0xD0 # int32
-            m_nCursorValueB = 0xD4 # int32
+            m_nCursorValueA = 0xD8 # int32
+            m_nCursorValueB = 0xDC # int32
         class CPulseCell_PickBestOutflowSelector:
             m_nCheckType = 0x48 # PulseBestOutflowRules_t
             m_OutflowList = 0x50 # PulseSelectorOutflowList_t
@@ -115,10 +115,10 @@ class Schemas:
         class CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t:
             nTestStep = 0x0 # int32
         class CPulseTurtleGraphicsCursor:
-            m_Color = 0xD0 # Color
-            m_vPos = 0xD4 # Vector2D
-            m_flHeadingDeg = 0xDC # float32
-            m_bPenUp = 0xE0 # bool
+            m_Color = 0xD8 # Color
+            m_vPos = 0xDC # Vector2D
+            m_flHeadingDeg = 0xE4 # float32
+            m_bPenUp = 0xE8 # bool
         class CPulseCell_TestWaitWithCursorState__CursorState_t:
             flWaitValue = 0x0 # float32
             bFailOnCancel = 0x4 # bool
@@ -151,6 +151,8 @@ class Schemas:
             m_AsyncChild2 = 0xD8 # SignatureOutflow_Continue
             m_YieldResume1 = 0x120 # SignatureOutflow_Resume
             m_YieldResume2 = 0x168 # SignatureOutflow_Resume
+        class TestComponent_tAPI:
+            pass
         class CPulseCell_Value_Curve:
             m_Curve = 0x48 # CPiecewiseCurve
         class CPulseCell_Inflow_EventHandler:
@@ -243,7 +245,7 @@ class Schemas:
             pass
         class CPulseCell_BooleanSwitchState:
             m_Condition = 0x48 # PulseObservableBoolExpression_t
-            m_SubGraph = 0xC0 # CPulse_OutflowConnection
+            m_Always = 0xC0 # CPulse_OutflowConnection
             m_WhenTrue = 0x108 # CPulse_OutflowConnection
             m_WhenFalse = 0x150 # CPulse_OutflowConnection
         class FakeEntityDerivedB_tAPI:
@@ -297,10 +299,10 @@ class Schemas:
             m_nLimitCount = 0x48 # int32
         class CPulseCell_Step_CallExternalMethod:
             m_MethodName = 0x48 # PulseSymbol_t
-            m_GameBlackboard = 0x58 # PulseSymbol_t
-            m_ExpectedArgs = 0x68 # CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode = 0x78 # PulseMethodCallMode_t
-            m_OnFinished = 0x80 # CPulse_ResumePoint
+            m_nBlackboardIndex = 0x58 # PulseRuntimeBlackboardReferenceIndex_t
+            m_ExpectedArgs = 0x60 # CUtlLeanVector<CPulseRuntimeMethodArg>
+            m_nAsyncCallMode = 0x70 # PulseMethodCallMode_t
+            m_OnFinished = 0x78 # CPulse_ResumePoint
         class PulseObservableBoolExpression_t:
             m_EvaluateConnection = 0x0 # CPulse_OutflowConnection
             m_DependentObservableVars = 0x48 # CUtlVector<PulseRuntimeVarIndex_t>
@@ -315,3 +317,5 @@ class Schemas:
             pass
         class CPulseExecCursor:
             pass
+        class TestComponent_t:
+            m_ComponentData = 0x8 # CUtlString

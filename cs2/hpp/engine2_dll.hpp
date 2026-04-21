@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: engine2.dll
-        // Class count: 55
+        // Class count: 56
         // Enum count: 2
         namespace engine2_dll {
             // Alignment: 4
@@ -29,18 +29,10 @@ namespace source2_dumper {
             };
             // Parent: None
             // Field count: 3
-            //
-            // Metadata:
-            // NetworkVarNames: m_pEntity (CEntityIdentity*)
-            // NetworkVarNames: m_CScriptComponent (CScriptComponent::Storage_t)
-            // CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert
-            // MNetworkSerializeAs
-            // MNetworkSerializeAs
-            // NetworkVarNames: m_nameStringableIndex (int32)
             namespace CEntityInstance {
                 constexpr std::ptrdiff_t m_iszPrivateVScripts = 0x8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_pEntity = 0x10; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_CScriptComponent = 0x30; // CScriptComponent*
+                constexpr std::ptrdiff_t m_CScriptComponent = 0x28; // CScriptComponent*
             }
             // Parent: None
             // Field count: 0
@@ -53,11 +45,8 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 12
-            //
-            // Metadata:
-            // NetworkVarNames: m_nameStringableIndex (int32)
             namespace CEntityIdentity {
-                constexpr std::ptrdiff_t m_nameStringableIndex = 0x14; // int32
+                constexpr std::ptrdiff_t m_nameStringTableIndex = 0x14; // int32
                 constexpr std::ptrdiff_t m_name = 0x18; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_designerName = 0x20; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_flags = 0x30; // uint32
@@ -122,12 +111,34 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // %O
+            // E!
+            // Q
+            // %O
             namespace GameTime_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // float32
             }
             // Parent: None
             // Field count: 0
             namespace EventServerBeginSimulate_t {
+            }
+            // Parent: None
+            // Field count: 9
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace EntityIOQueuePrioritizedEvent_t {
+                constexpr std::ptrdiff_t m_flFireTime = 0x4; // GameTime_t
+                constexpr std::ptrdiff_t m_targetType = 0x8; // EntityIOTargetType_t
+                constexpr std::ptrdiff_t m_pTarget = 0x10; // CUtlSymbolLarge
+                constexpr std::ptrdiff_t m_pTargetInput = 0x18; // CUtlSymbolLarge
+                constexpr std::ptrdiff_t m_hActivator = 0x20; // CEntityHandle
+                constexpr std::ptrdiff_t m_hCaller = 0x24; // CEntityHandle
+                constexpr std::ptrdiff_t m_nOutputID = 0x28; // int32
+                constexpr std::ptrdiff_t m_hEntTarget = 0x2C; // CEntityHandle
+                constexpr std::ptrdiff_t m_variantValue = 0x30; // CVariantBase<CVariantDefaultAllocator>
             }
             // Parent: None
             // Field count: 0
@@ -161,6 +172,11 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // *
+            // o%
+            // %O
             namespace GameTick_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -289,15 +305,15 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flTickRemainder = 0x58; // float64
             }
             // Parent: None
-            // Field count: 0
-            namespace EntOutput_t {
-            }
-            // Parent: None
             // Field count: 3
             namespace EventSimulate_t {
                 constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
                 constexpr std::ptrdiff_t m_bFirstTick = 0x28; // bool
                 constexpr std::ptrdiff_t m_bLastTick = 0x29; // bool
+            }
+            // Parent: None
+            // Field count: 0
+            namespace CEntityKeyValues {
             }
             // Parent: None
             // Field count: 0

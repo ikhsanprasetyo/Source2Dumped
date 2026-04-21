@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:15:51.295207800 +07:00
+# 2026-04-21 10:30:00.180985200 +07:00
 
 class Schemas:
     # Module: animationsystem.dll
@@ -15,6 +15,13 @@ class Schemas:
         class PulseMethodCallMode_t:
             SYNC_WAIT_FOR_COMPLETION = 0x0
             ASYNC_FIRE_AND_FORGET = 0x1
+        class ParticleSetMethod_t:
+            PARTICLE_SET_REPLACE_VALUE = 0x0
+            PARTICLE_SET_SCALE_INITIAL_VALUE = 0x1
+            PARTICLE_SET_ADD_TO_INITIAL_VALUE = 0x2
+            PARTICLE_SET_RAMP_CURRENT_VALUE = 0x3
+            PARTICLE_SET_SCALE_CURRENT_VALUE = 0x4
+            PARTICLE_SET_ADD_TO_CURRENT_VALUE = 0x5
         class SeqCmd_t:
             SeqCmd_Nop = 0x0
             SeqCmd_LinearDelta = 0x1
@@ -77,6 +84,11 @@ class Schemas:
             PF_BIAS_TYPE_GAIN = 0x1
             PF_BIAS_TYPE_EXPONENTIAL = 0x2
             PF_BIAS_TYPE_COUNT = 0x3
+        class CNmTargetWarpNode__TargetUpdateRule_t:
+            None_ = 0x0
+            Recalculate = 0x1
+            Offset = 0x2
+            RecalculateOrOffset = 0x3
         class SharedMovementGait_t:
             eInvalid = 0xFFFFFFFFFFFFFFFF
             eSlow = 0x0
@@ -114,23 +126,24 @@ class Schemas:
             PF_TYPE_CONCURRENT_DEF_COUNT = 0xA
             PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xB
             PF_TYPE_SNAPSHOT_COUNT = 0xC
-            PF_TYPE_RENDERER_CAMERA_DISTANCE = 0xD
-            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0xE
-            PF_TYPE_PARTICLE_NOISE = 0xF
-            PF_TYPE_PARTICLE_AGE = 0x10
-            PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x11
-            PF_TYPE_PARTICLE_FLOAT = 0x12
-            PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x13
-            PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x14
-            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x15
-            PF_TYPE_PARTICLE_SPEED = 0x16
-            PF_TYPE_PARTICLE_NUMBER = 0x17
-            PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x18
-            PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x19
-            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1A
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1B
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1C
-            PF_TYPE_COUNT = 0x1D
+            PF_TYPE_SNAPSHOT_CHANGED = 0xD
+            PF_TYPE_RENDERER_CAMERA_DISTANCE = 0xE
+            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0xF
+            PF_TYPE_PARTICLE_NOISE = 0x10
+            PF_TYPE_PARTICLE_AGE = 0x11
+            PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x12
+            PF_TYPE_PARTICLE_FLOAT = 0x13
+            PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x14
+            PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x15
+            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x16
+            PF_TYPE_PARTICLE_SPEED = 0x17
+            PF_TYPE_PARTICLE_NUMBER = 0x18
+            PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x19
+            PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1A
+            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1B
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1C
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1D
+            PF_TYPE_COUNT = 0x1E
         class CNmFloatAngleMathNode__Operation_t:
             ClampTo180 = 0x0
             ClampTo360 = 0x1
@@ -191,6 +204,26 @@ class Schemas:
             Hermite = 0x1
             HermiteFeaturePreserving = 0x2
             Bezier = 0x3
+        class ParticleColorBlendMode_t:
+            PARTICLEBLEND_DEFAULT = 0x0
+            PARTICLEBLEND_OVERLAY = 0x1
+            PARTICLEBLEND_DARKEN = 0x2
+            PARTICLEBLEND_LIGHTEN = 0x3
+            PARTICLEBLEND_MULTIPLY = 0x4
+        class ParticleColorBlendType_t:
+            PARTICLE_COLOR_BLEND_MULTIPLY = 0x0
+            PARTICLE_COLOR_BLEND_MULTIPLY2X = 0x1
+            PARTICLE_COLOR_BLEND_DIVIDE = 0x2
+            PARTICLE_COLOR_BLEND_ADD = 0x3
+            PARTICLE_COLOR_BLEND_SUBTRACT = 0x4
+            PARTICLE_COLOR_BLEND_MOD2X = 0x5
+            PARTICLE_COLOR_BLEND_SCREEN = 0x6
+            PARTICLE_COLOR_BLEND_MAX = 0x7
+            PARTICLE_COLOR_BLEND_MIN = 0x8
+            PARTICLE_COLOR_BLEND_REPLACE = 0x9
+            PARTICLE_COLOR_BLEND_AVERAGE = 0xA
+            PARTICLE_COLOR_BLEND_NEGATE = 0xB
+            PARTICLE_COLOR_BLEND_LUMINANCE = 0xC
         class NmTransitionRuleCondition_t:
             AnyAllowed = 0x0
             FullyAllowed = 0x1
@@ -204,6 +237,9 @@ class Schemas:
             MESH_BUFFER_USAGE_MESHLET_TRIS = 0x8
             MESH_BUFFER_USAGE_RT_PROXY = 0x10
             MESH_BUFFER_USAGE_VERTEX_ALBEDO = 0x20
+        class NmGraphDebugMode_t:
+            Off = 0x0
+            On = 0x1
         class TargetWarpTimingMethod:
             ReachDestinationOnRootMotionEnd = 0x0
             ReachDestinationOnWarpTagEnd = 0x1
@@ -340,6 +376,10 @@ class Schemas:
             PF_NOISE_TYPE_SIMPLEX = 0x1
             PF_NOISE_TYPE_WORLEY = 0x2
             PF_NOISE_TYPE_CURL = 0x3
+        class ParticleDirectionNoiseType_t:
+            PARTICLE_DIR_NOISE_PERLIN = 0x0
+            PARTICLE_DIR_NOISE_CURL = 0x1
+            PARTICLE_DIR_NOISE_WORLEY_BASIC = 0x2
         class AnimParamNetworkSetting:
             Auto = 0x0
             AlwaysNetwork = 0x1
@@ -389,6 +429,10 @@ class Schemas:
             SearchOnlyGraphEvents = 0x6
             SearchOnlyAnimEvents = 0x7
             SearchBothGraphAndAnimEvents = 0x8
+        class AnimationType_t:
+            ANIMATION_TYPE_FIXED_RATE = 0x0
+            ANIMATION_TYPE_FIT_LIFETIME = 0x1
+            ANIMATION_TYPE_MANUAL_FRAMES = 0x2
         class AnimValueSource:
             MoveHeading = 0x0
             MoveSpeed = 0x1
@@ -542,6 +586,10 @@ class Schemas:
             BLEND_PREALIGNED = 0x100000
             FLAG_RIGIDLENGTH = 0x200000
             FLAG_PROCEDURAL = 0x400000
+        class GPUParticleCollisionMode_t:
+            PARTICLE_GPU_COLLISION_MODE_RT = 0x0
+            PARTICLE_GPU_COLLISION_MODE_DEPTH = 0x1
+            PARTICLE_GPU_COLLISION_MODE_HYBRID = 0x2
         class MorphBundleType_t:
             MORPH_BUNDLE_TYPE_NONE = 0x0
             MORPH_BUNDLE_TYPE_POSITION_SPEED = 0x1
@@ -639,19 +687,20 @@ class Schemas:
             PVEC_TYPE_PARTICLE_VECTOR = 0x3
             PVEC_TYPE_PARTICLE_INITIAL_VECTOR = 0x4
             PVEC_TYPE_PARTICLE_VELOCITY = 0x5
-            PVEC_TYPE_CP_VALUE = 0x6
-            PVEC_TYPE_CP_RELATIVE_POSITION = 0x7
-            PVEC_TYPE_CP_RELATIVE_DIR = 0x8
-            PVEC_TYPE_CP_RELATIVE_RANDOM_DIR = 0x9
-            PVEC_TYPE_FLOAT_COMPONENTS = 0xA
-            PVEC_TYPE_FLOAT_INTERP_CLAMPED = 0xB
-            PVEC_TYPE_FLOAT_INTERP_OPEN = 0xC
-            PVEC_TYPE_FLOAT_INTERP_GRADIENT = 0xD
-            PVEC_TYPE_RANDOM_UNIFORM = 0xE
-            PVEC_TYPE_RANDOM_UNIFORM_OFFSET = 0xF
-            PVEC_TYPE_CP_DELTA = 0x10
-            PVEC_TYPE_CLOSEST_CAMERA_POSITION = 0x11
-            PVEC_TYPE_COUNT = 0x12
+            PVEC_TYPE_PARTICLE_GRAVITY = 0x6
+            PVEC_TYPE_CP_VALUE = 0x7
+            PVEC_TYPE_CP_RELATIVE_POSITION = 0x8
+            PVEC_TYPE_CP_RELATIVE_DIR = 0x9
+            PVEC_TYPE_CP_RELATIVE_RANDOM_DIR = 0xA
+            PVEC_TYPE_FLOAT_COMPONENTS = 0xB
+            PVEC_TYPE_FLOAT_INTERP_CLAMPED = 0xC
+            PVEC_TYPE_FLOAT_INTERP_OPEN = 0xD
+            PVEC_TYPE_FLOAT_INTERP_GRADIENT = 0xE
+            PVEC_TYPE_RANDOM_UNIFORM = 0xF
+            PVEC_TYPE_RANDOM_UNIFORM_OFFSET = 0x10
+            PVEC_TYPE_CP_DELTA = 0x11
+            PVEC_TYPE_CLOSEST_CAMERA_POSITION = 0x12
+            PVEC_TYPE_COUNT = 0x13
         class NmFootPhase_t:
             LeftFootDown = 0x0
             RightFootPassing = 0x1
@@ -917,6 +966,11 @@ class Schemas:
             PATTACH_CUSTOM_GAME_STATE_1 = 0xE
             PATTACH_HEALTHBAR = 0xF
             MAX_PATTACH_TYPES = 0x10
+        class CNmEventTargetEntity_t:
+            Self = 0x0
+            Weapon = 0x1
+            HeldItem = 0x2
+            Custom = 0x3
         class FieldNetworkOption:
             Auto = 0x0
             ForceEnable = 0x1
@@ -1038,7 +1092,9 @@ class Schemas:
             eInstantStop = 0x4
             eShuffle = 0x5
             ePlantedTurn = 0x6
-            eCount = 0x7
+            eUseStartAsPlantedTurn = 0x7
+            eLean = 0x8
+            eCount = 0x9
         class ModelConfigAttachmentType_t:
             MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF
             MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0
@@ -1219,7 +1275,7 @@ class Schemas:
             pass
         class CPulseCell_BooleanSwitchState:
             m_Condition = 0x48 # PulseObservableBoolExpression_t
-            m_SubGraph = 0xC0 # CPulse_OutflowConnection
+            m_Always = 0xC0 # CPulse_OutflowConnection
             m_WhenTrue = 0x108 # CPulse_OutflowConnection
             m_WhenFalse = 0x150 # CPulse_OutflowConnection
         class CPulseCell_Inflow_Yield:
@@ -1239,6 +1295,18 @@ class Schemas:
             m_NodeName = 0x20 # CGlobalSymbol
         class CPulseCell_Value_RandomInt:
             pass
+        class CAnimationLayer:
+            m_hSequence = 0x0 # CAnimNetVar<int32>
+            m_flPrevCycle = 0xC # float32
+            m_flCycle = 0x10 # CAnimNetVar<float32>
+            m_flWeight = 0x1C # CAnimNetVar<float32>
+            m_nOrder = 0x28 # CAnimNetVar<int32>
+            m_bLooping = 0x34 # bool
+            m_nFlags = 0x38 # int32
+            m_bSequenceFinished = 0x3C # bool
+            m_flKillRate = 0x40 # float32
+            m_flKillDelay = 0x44 # float32
+            m_nPriority = 0x48 # int32
         class CPulse_CallInfo:
             m_PortName = 0x0 # PulseSymbol_t
             m_nEditorNodeID = 0x10 # PulseDocNodeID_t
@@ -1255,10 +1323,10 @@ class Schemas:
             m_nLimitCount = 0x48 # int32
         class CPulseCell_Step_CallExternalMethod:
             m_MethodName = 0x48 # PulseSymbol_t
-            m_GameBlackboard = 0x58 # PulseSymbol_t
-            m_ExpectedArgs = 0x68 # CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode = 0x78 # PulseMethodCallMode_t
-            m_OnFinished = 0x80 # CPulse_ResumePoint
+            m_nBlackboardIndex = 0x58 # PulseRuntimeBlackboardReferenceIndex_t
+            m_ExpectedArgs = 0x60 # CUtlLeanVector<CPulseRuntimeMethodArg>
+            m_nAsyncCallMode = 0x70 # PulseMethodCallMode_t
+            m_OnFinished = 0x78 # CPulse_ResumePoint
         class PulseObservableBoolExpression_t:
             m_EvaluateConnection = 0x0 # CPulse_OutflowConnection
             m_DependentObservableVars = 0x48 # CUtlVector<PulseRuntimeVarIndex_t>
@@ -1319,18 +1387,44 @@ class Schemas:
             m_nControlPoint = 0x58 # int32
         class CInputStreamUpdateNode:
             pass
+        class CNmFootIKTask:
+            m_nLeftEffectorBoneIdx = 0x48 # int32
+            m_nRightEffectorBoneIdx = 0x4C # int32
+            m_leftTargetTransform = 0x50 # CTransform
+            m_rightTargetTransform = 0x70 # CTransform
+            m_nLeftTargetBoneIdx = 0x90 # int32
+            m_nRightTargetBoneIdx = 0x94 # int32
+            m_leftTarget = 0xA0 # CNmTarget
+            m_rightTarget = 0xD0 # CNmTarget
+            m_blendMode = 0x100 # NmIKBlendMode_t
+            m_flBlendWeight = 0x104 # float32
+            m_bIsTargetInWorldSpace = 0x108 # bool
+            m_bIsRunningFromDeserializedData = 0x109 # bool
         class CIntAnimParameter:
             m_defaultValue = 0x80 # int32
             m_minValue = 0x84 # int32
             m_maxValue = 0x88 # int32
         class CNmParameterizedBlendNode__CDefinition:
-            m_sourceNodeIndices = 0x10 # CUtlVectorFixedGrowable<int16,5>
-            m_nInputParameterValueNodeIdx = 0x38 # int16
-            m_bAllowLooping = 0x3A # bool
+            m_sourceNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_nInputParameterValueNodeIdx = 0x28 # int16
+            m_bAllowLooping = 0x2A # bool
         class CNmScaleTask:
             pass
+        class PerTickSettings_t:
+            m_startingLocalToWorld = 0x0 # CTransform
+            m_prevLocalToWorld = 0x20 # CTransform
+            m_finalLocalToWorld = 0x40 # CTransform
+            m_rootMotion = 0x60 # CRootMotion
+            m_updateID = 0x69C # int32
+            m_flLastTimeStep = 0x6A4 # float32
+            m_flPrevAnimTime = 0x6A8 # float32
+            m_flNextAnimTime = 0x6AC # float32
+            m_bAwaken = 0x6B4 # bool
+            m_bTeleported = 0x6B5 # bool
+            m_bIsClient = 0x6B6 # bool
+            m_bIsPredicted = 0x6B7 # bool
         class CNmFrameSnapEvent:
-            m_frameSnapMode = 0x20 # NmFrameSnapEventMode_t
+            m_frameSnapMode = 0x18 # NmFrameSnapEventMode_t
         class CAnimNodePath:
             m_path = 0x0 # AnimNodeID[11]
             m_nCount = 0x2C # int32
@@ -1365,6 +1459,11 @@ class Schemas:
             m_ruleCondition = 0x1E # NmTransitionRuleCondition_t
         class CTaskStatusAnimTag:
             pass
+        class CStateNodeInstanceData:
+            m_stateWeights = 0x0 # CRelativeArray<float32>
+            m_vTransitionVelocityDeltaWS = 0x8 # Vector
+            m_currentStateStartTime = 0x20 # CAnimNetVar<float32>
+            m_resetCount = 0x3C # CAnimNetVar<uint8>
         class CMotionGraphConfig:
             m_paramValues = 0x0 # float32[4]
             m_flDuration = 0x10 # float32
@@ -1391,8 +1490,8 @@ class Schemas:
             m_decodeOps = 0x28 # CUtlVector<CUtlString>
             m_internalOps = 0x40 # CUtlVector<CUtlString>
             m_decodedAnims = 0x58 # CUtlVector<CUtlString>
-        class MovementGaitId_t:
-            m_sId = 0x0 # CGlobalSymbol
+        class CChoreoInstanceData:
+            m_AnimOverlay = 0x0 # CAnimationLayer[12]
         class PulseRuntimeVarIndex_t:
             m_Value = 0x0 # int32
         class ConfigIndex:
@@ -1415,6 +1514,11 @@ class Schemas:
             m_duration = 0x7C # float32
             m_paramSpans = 0x80 # CParamSpanUpdater
             m_tags = 0x98 # CUtlVector<TagSpan_t>
+        class CStateMachineInstanceData:
+            m_flTimeInState = 0x0 # float32
+            m_currentTransitionIndex = 0x4 # CAnimNetVar<int32>
+            m_prevStateIndex = 0x10 # int32
+            m_scheduledTransitionIndex = 0x14 # int32
         class CNmPassthroughNode__CDefinition:
             m_nChildNodeIdx = 0x10 # int16
         class CNmClipReferenceNode__CDefinition:
@@ -1435,6 +1539,8 @@ class Schemas:
             m_opFixedSettings = 0x80 # AimCameraOpFixedSettings_t
         class PulseRuntimeDomainValueIndex_t:
             m_Value = 0x0 # int16
+        class LookData:
+            m_vLookTarget = 0x0 # CAnimNetVar<Vector>
         class CSeqSeqDescFlag:
             m_bLooping = 0x0 # bool
             m_bSnap = 0x1 # bool
@@ -1562,9 +1668,26 @@ class Schemas:
             m_nBodyInAggregate = 0x0 # int32
             m_nShapeInBody = 0x4 # int32
             m_sHitGroup = 0x8 # CGlobalSymbol
+        class CBlend2DInstanceData:
+            m_dampedValue = 0x8 # Vector2D
+            m_flCycle = 0x44 # float32
+            m_flPrevCycle = 0x48 # float32
         class LookAtBone_t:
             m_index = 0x0 # int32
             m_weight = 0x4 # float32
+        class CDirectPlaybackInstanceData:
+            m_vTargetPosition = 0x0 # Vector
+            m_flTargetFacing = 0xC # float32
+            m_flInterpEndTime = 0x10 # float32
+            m_weights = 0x14 # float32[4]
+            m_sequences = 0x24 # SequenceData[4]
+            m_currentSequenceIndex = 0x104 # uint32
+            m_currentSequenceData = 0x108 # CAnimNetVar<uint64>
+            m_flFadeInTime = 0x118 # float32
+            m_flFadeOutTime = 0x11C # float32
+            m_flForcedCycle = 0x120 # CAnimNetVar<float32>
+            m_bResetPending = 0x130 # bool
+            m_SequenceCycleZeroTime = 0x138 # CAnimNetVar<float32>
         class CNmTransitionNode__CDefinition:
             m_nTargetStateNodeIdx = 0x10 # int16
             m_nDurationOverrideNodeIdx = 0x12 # int16
@@ -1585,6 +1708,8 @@ class Schemas:
             m_nInputValueNodeIdx = 0x18 # int16
             m_easingOp = 0x1A # NmEasingOperation_t
             m_bUseStartValue = 0x1B # bool
+        class CAnimationGraphInstance:
+            m_bTagDispatchDirty = 0x329 # bool
         class CAnimEncodeDifference:
             m_boneArray = 0x0 # CUtlVector<CAnimBoneDifference>
             m_morphArray = 0x18 # CUtlVector<CAnimMorphDifference>
@@ -1600,6 +1725,9 @@ class Schemas:
             m_bIsBoneSpaceOffset = 0x12 # bool
             m_rotationOffset = 0x20 # Quaternion
             m_translationOffset = 0x30 # Vector
+        class MotionMatchingInstanceData:
+            m_currentSelection = 0x2C # MotionSelection
+            m_previousSelection = 0x84 # MotionSelection
         class CMotionGraphUpdateNode:
             m_pMotionGraph = 0x58 # CSmartPtr<CMotionGraph>
         class CNmFloatAngleMathNode__CDefinition:
@@ -1628,8 +1756,8 @@ class Schemas:
         class AnimNodeID:
             m_id = 0x0 # uint32
         class CNmClipSelectorNode__CDefinition:
-            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
-            m_conditionNodeIndices = 0x28 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,8>
+            m_conditionNodeIndices = 0x28 # CUtlLeanVectorFixedGrowable<int16,8>
         class CLookComponentUpdater:
             m_hLookHeading = 0x34 # CAnimParamHandle
             m_hLookHeadingNormalized = 0x36 # CAnimParamHandle
@@ -1664,6 +1792,25 @@ class Schemas:
             m_mode = 0x2A # NmFollowBoneMode_t
         class CBlockSelectionMetricEvaluator:
             pass
+        class MovementData:
+            m_goalWayPointPos = 0x0 # Vector
+            m_vMoveDir = 0xC # CAnimNetVar<Vector>
+            m_vAcceleration = 0x20 # CAnimNetVar<Vector>
+            m_flCurrentMoveSpeed = 0x34 # CAnimNetVar<float32>
+            m_flTargetMoveSpeed = 0x40 # CAnimNetVar<float32>
+            m_flGoalDistance = 0x4C # CAnimNetVar<float32>
+            m_flBoundaryRadius = 0x58 # CAnimNetVar<float32>
+            m_bGoalChanged = 0x64 # bool
+            m_bHasPath = 0x68 # CAnimNetVar<bool>
+            m_flFacingHeading = 0x74 # CAnimNetVar<float32>
+            m_vManualFacingDirection = 0x80 # Vector
+            m_vManualFacingTarget = 0x8C # VectorWS
+            m_nFacingMode = 0x98 # CAnimNetVar<uint8>
+            m_bForceFacing = 0xA4 # CAnimNetVar<bool>
+            m_nActiveMotorIndex = 0xB0 # CAnimNetVar<int32>
+            m_bOnGround = 0xBC # CAnimNetVar<bool>
+            m_vFacingPosition = 0xC8 # CAnimNetVar<Vector>
+            m_vPrevFacingPosition = 0xDC # Vector
         class CRemapValueComponentUpdater:
             m_items = 0x30 # CUtlVector<CRemapValueUpdateItem>
         class CModelConfigList:
@@ -1712,6 +1859,7 @@ class Schemas:
             nRetiredAtNodeID = 0x1C # PulseDocNodeID_t
             flLastReferenced = 0x20 # float32
             nLastValidEntryIdx = 0x24 # int32
+            bWasAnObservableComputation = 0x28 # bool
         class CNmVirtualParameterFloatNode__CDefinition:
             m_nChildNodeIdx = 0x10 # int16
         class CAttachment:
@@ -1823,20 +1971,21 @@ class Schemas:
         class CNmGraphDefinition:
             m_variationID = 0x0 # CGlobalSymbol
             m_skeleton = 0x8 # CStrongHandle<InfoForResourceTypeCNmSkeleton>
-            m_pUserData = 0x10 # CNmGraphVariationUserData*
-            m_persistentNodeIndices = 0x18 # CUtlVector<int16>
-            m_nRootNodeIdx = 0x30 # int16
-            m_controlParameterIDs = 0x38 # CUtlVector<CGlobalSymbol>
-            m_virtualParameterIDs = 0x50 # CUtlVector<CGlobalSymbol>
-            m_virtualParameterNodeIndices = 0x68 # CUtlVector<int16>
-            m_referencedGraphSlots = 0x80 # CUtlVector<CNmGraphDefinition::ReferencedGraphSlot_t>
-            m_externalGraphSlots = 0x98 # CUtlVector<CNmGraphDefinition::ExternalGraphSlot_t>
-            m_externalPoseSlots = 0xB0 # CUtlVector<CNmGraphDefinition::ExternalPoseSlot_t>
-            m_nodePaths = 0x138 # CUtlVector<CUtlString>
-            m_resources = 0x150 # CUtlVector<CStrongHandleVoid>
+            m_supportedSecondarySkeletons = 0x10 # CUtlVector<CStrongHandle<InfoForResourceTypeCNmSkeleton>>
+            m_pUserData = 0x28 # CNmGraphVariationUserData*
+            m_persistentNodeIndices = 0x30 # CUtlVector<int16>
+            m_nRootNodeIdx = 0x48 # int16
+            m_controlParameterIDs = 0x50 # CUtlVector<CGlobalSymbol>
+            m_virtualParameterIDs = 0x68 # CUtlVector<CGlobalSymbol>
+            m_virtualParameterNodeIndices = 0x80 # CUtlVector<int16>
+            m_referencedGraphSlots = 0x98 # CUtlVector<CNmGraphDefinition::ReferencedGraphSlot_t>
+            m_externalGraphSlots = 0xB0 # CUtlVector<CNmGraphDefinition::ExternalGraphSlot_t>
+            m_externalPoseSlots = 0xC8 # CUtlVector<CNmGraphDefinition::ExternalPoseSlot_t>
+            m_nodePaths = 0x150 # CUtlVector<CUtlString>
+            m_resources = 0x168 # CUtlVector<CStrongHandleVoid>
         class CNmSelectorNode__CDefinition:
-            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
-            m_conditionNodeIndices = 0x28 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,8>
+            m_conditionNodeIndices = 0x28 # CUtlLeanVectorFixedGrowable<int16,8>
         class CAnimDemoCaptureSettings:
             m_vecErrorRangeSplineRotation = 0x0 # Vector2D
             m_vecErrorRangeSplineTranslation = 0x8 # Vector2D
@@ -1896,6 +2045,14 @@ class Schemas:
             pass
         class CActionComponentUpdater:
             m_actions = 0x30 # CUtlVector<CSmartPtr<CAnimActionUpdater>>
+        class CDirectionalBlendInstanceData:
+            m_dampedValue = 0x0 # float32
+            m_flCycle = 0x14 # float32
+            m_flPrevCycle = 0x18 # float32
+            m_flPlaybackRate = 0x1C # CAnimNetVar<float32>
+            m_flCycleZeroTime = 0x28 # CAnimNetVar<float32>
+            m_resetCycleValue = 0x34 # CAnimNetVar<float32>
+            m_resetCount = 0x40 # CAnimNetVar<float32>
         class CDampedPathAnimMotorUpdater:
             m_flAnticipationTime = 0x2C # float32
             m_flMinSpeedScale = 0x30 # float32
@@ -1916,9 +2073,13 @@ class Schemas:
         class CModelConfigElement_SetMaterialGroupOnAttachedModels:
             m_MaterialGroupName = 0x48 # CUtlString
         class CNmEntityAttributeEventBase:
+            m_target = 0x18 # CNmEventTargetEntity_t
             m_attributeName = 0x20 # CUtlString
         class CNmVirtualParameterBoneMaskNode__CDefinition:
             m_nChildNodeIdx = 0x10 # int16
+        class SequenceData:
+            m_hSequence = 0x0 # HSequence
+            m_cycle = 0x4 # CNetworkedCycle
         class CPathHelperUpdateNode:
             m_flStoppingRadius = 0x70 # float32
             m_flStoppingSpeedScale = 0x74 # float32
@@ -2051,9 +2212,9 @@ class Schemas:
             m_defaultMaskNodeIdx = 0x10 # int16
             m_parameterValueNodeIdx = 0x12 # int16
             m_bSwitchDynamically = 0x14 # bool
-            m_maskNodeIndices = 0x18 # CUtlVectorFixedGrowable<int16,7>
-            m_parameterValues = 0x40 # CUtlVectorFixedGrowable<CGlobalSymbol,7>
-            m_flBlendTimeSeconds = 0x90 # float32
+            m_maskNodeIndices = 0x18 # CUtlLeanVectorFixedGrowable<int16,8>
+            m_parameterValues = 0x30 # CUtlLeanVectorFixedGrowable<CGlobalSymbol,7>
+            m_flBlendTimeSeconds = 0x70 # float32
         class CNmVirtualParameterVectorNode__CDefinition:
             m_nChildNodeIdx = 0x10 # int16
         class CFootCycleMetricEvaluator:
@@ -2075,8 +2236,8 @@ class Schemas:
             m_cRenderColor = 0x44 # Color
             m_nHitBoxIndex = 0x48 # uint16
         class CNmParameterizedSelectorNode__CDefinition:
-            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
-            m_optionWeights = 0x28 # CUtlLeanVectorFixedGrowable<uint8,5>
+            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,8>
+            m_optionWeights = 0x28 # CUtlLeanVectorFixedGrowable<uint8,8>
             m_parameterNodeIdx = 0x38 # int16
             m_bIgnoreInvalidOptions = 0x3A # bool
             m_bHasWeightsSet = 0x3B # bool
@@ -2092,7 +2253,6 @@ class Schemas:
             m_flStartTime = 0x8 # NmPercent_t
             m_flDuration = 0xC # NmPercent_t
             m_syncID = 0x10 # CGlobalSymbol
-            m_bClientOnly = 0x18 # bool
         class NmCompressionSettings_t__QuantizationRange_t:
             m_flRangeStart = 0x0 # float32
             m_flRangeLength = 0x4 # float32
@@ -2174,6 +2334,10 @@ class Schemas:
             m_vPos = 0x2C # Vector2D
             m_flDuration = 0x34 # float32
             m_bUseCustomDuration = 0x38 # bool
+        class DampedPathMotorInstanceData_t:
+            m_vVelocity = 0x0 # Vector
+            m_vAcceleration = 0xC # Vector
+            m_bStopping = 0x24 # bool
         class CNmIsExternalGraphSlotFilledNode__CDefinition:
             m_nExternalGraphNodeIdx = 0x10 # int16
         class CNewParticleEffect:
@@ -2220,6 +2384,7 @@ class Schemas:
             m_flSpeedMultiplier = 0x40 # float32
             m_nStartSyncEventOffset = 0x44 # int32
         class CNmMaterialAttributeEvent:
+            m_target = 0x18 # CNmEventTargetEntity_t
             m_attributeName = 0x20 # CUtlString
             m_attributeNameToken = 0x28 # CUtlStringToken
             m_x = 0x30 # CPiecewiseCurve
@@ -2227,7 +2392,7 @@ class Schemas:
             m_z = 0xB0 # CPiecewiseCurve
             m_w = 0xF0 # CPiecewiseCurve
         class CNmBlend1DNode__CDefinition:
-            m_parameterization = 0x40 # CNmParameterizedBlendNode::Parameterization_t
+            m_parameterization = 0x30 # CNmParameterizedBlendNode::Parameterization_t
         class CConcreteAnimParameter:
             m_previewButton = 0x70 # AnimParamButton_t
             m_eNetworkSetting = 0x74 # AnimParamNetworkSetting
@@ -2383,11 +2548,11 @@ class Schemas:
             m_nTransitionNodeIdx = 0x4 # int16
             m_bCanBeForced = 0x6 # bool
         class CNmFloatSelectorNode__CDefinition:
-            m_conditionNodeIndices = 0x10 # CUtlVectorFixedGrowable<int16,5>
-            m_values = 0x38 # CUtlVectorFixedGrowable<float32,5>
-            m_flDefaultValue = 0x68 # float32
-            m_flEaseTime = 0x6C # float32
-            m_easingOp = 0x70 # NmEasingOperation_t
+            m_conditionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_values = 0x28 # CUtlLeanVectorFixedGrowable<float32,5>
+            m_flDefaultValue = 0x48 # float32
+            m_flEaseTime = 0x4C # float32
+            m_easingOp = 0x50 # NmEasingOperation_t
         class CTargetSelectorUpdateNode:
             m_eAngleMode = 0x60 # TargetSelectorAngleMode_t
             m_children = 0x68 # CUtlVector<CAnimUpdateNodeRef>
@@ -2399,6 +2564,8 @@ class Schemas:
             m_bTargetFacePositionIsWorldSpace = 0x8D # bool
             m_bEnablePhaseMatching = 0x8E # bool
             m_flPhaseMatchingMaxRootMotionSkip = 0x90 # float32
+        class SlopeData:
+            m_vSlopeNormal = 0x0 # Vector
         class CHitBoxSetList:
             m_HitBoxSets = 0x0 # CUtlVector<CHitBoxSet>
         class CNmIsInactiveBranchConditionNode__CDefinition:
@@ -2423,8 +2590,8 @@ class Schemas:
             m_nTransitionDurationOverrideNodeIdx = 0x12 # int16
             m_flTransitionDurationSeconds = 0x14 # float32
         class CNmTargetWarpEvent:
-            m_rule = 0x20 # NmTargetWarpRule_t
-            m_algorithm = 0x21 # NmTargetWarpAlgorithm_t
+            m_rule = 0x18 # NmTargetWarpRule_t
+            m_algorithm = 0x19 # NmTargetWarpAlgorithm_t
         class CParamSpanUpdater:
             m_spans = 0x0 # CUtlVector<ParamSpan_t>
         class CAnimActionUpdater:
@@ -2456,11 +2623,16 @@ class Schemas:
             m_falseValue = 0x18 # CGlobalSymbol
             m_trueValue = 0x20 # CGlobalSymbol
         class CNmRootMotionEvent:
-            m_flBlendTimeSeconds = 0x20 # float32
+            m_flBlendTimeSeconds = 0x18 # float32
         class CPulse_PublicOutput:
             m_Name = 0x0 # PulseSymbol_t
             m_Description = 0x10 # CUtlString
             m_Args = 0x18 # CUtlLeanVector<CPulseRuntimeMethodArg>
+        class CChoiceInstanceData:
+            m_currentChoice = 0x10 # CAnimNetVar<int32>
+            m_previousChoice = 0x1C # int32
+            m_flClipStartTime = 0x20 # CAnimNetVar<float32>
+            m_choicePreviousCycle = 0x2C # float32
         class AnimationSnapshotBase_t:
             m_flRealTime = 0x0 # float32
             m_rootToWorld = 0x10 # matrix3x4a_t
@@ -2471,12 +2643,6 @@ class Schemas:
             m_SnapshotType = 0x90 # AnimationSnapshotType_t
             m_bHasDecodeDump = 0x94 # bool
             m_DecodeDump = 0x98 # AnimationDecodeDebugDumpElement_t
-        class CNmIKEffector:
-            m_nBodyIndex = 0x0 # int32
-            m_bEnabled = 0x4 # bool
-            m_vTargetPosition = 0x8 # Vector
-            m_qTargetOrientation = 0x20 # Quaternion
-            m_flWeight = 0x30 # float32
         class CEmitTagActionUpdater:
             m_nTagIndex = 0x18 # int32
             m_bIsZeroDuration = 0x1C # bool
@@ -2508,6 +2674,10 @@ class Schemas:
             m_defaultValue = 0x14 # float32
             m_IDs = 0x18 # CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
             m_values = 0x48 # CUtlLeanVectorFixedGrowable<float32,5>
+        class PlayerInputMotorInstanceData_t:
+            m_vInputVectorWS = 0x0 # Vector
+            m_vVelocityWS = 0xC # Vector
+            m_vAccelerationWS = 0x18 # Vector
         class CCompressorGroup:
             m_nTotalElementCount = 0x0 # int32
             m_szChannelClass = 0x8 # CUtlVector<char*>
@@ -2642,17 +2812,17 @@ class Schemas:
         class CNmControlParameterBoolNode__CDefinition:
             pass
         class CNmChainLookatTask:
-            m_nChainEndBoneIdx = 0x58 # int32
-            m_nNumBonesInChain = 0x5C # int32
-            m_chainForwardDir = 0x60 # Vector
-            m_flBlendWeight = 0x6C # float32
-            m_flHorizontalAngleLimitDegrees = 0x70 # float32
-            m_flVerticalAngleLimitDegrees = 0x74 # float32
-            m_lookatTarget = 0x78 # Vector
-            m_bIsTargetInWorldSpace = 0x84 # bool
-            m_bIsRunningFromDeserializedData = 0x85 # bool
-            m_flHorizontalAngleDegrees = 0x88 # float32
-            m_flVerticalAngleDegrees = 0x8C # float32
+            m_nChainEndBoneIdx = 0x48 # int32
+            m_nNumBonesInChain = 0x4C # int32
+            m_chainForwardDir = 0x50 # Vector
+            m_flBlendWeight = 0x5C # float32
+            m_flHorizontalAngleLimitDegrees = 0x60 # float32
+            m_flVerticalAngleLimitDegrees = 0x64 # float32
+            m_lookatTarget = 0x68 # Vector
+            m_bIsTargetInWorldSpace = 0x74 # bool
+            m_bIsRunningFromDeserializedData = 0x75 # bool
+            m_flHorizontalAngleDegrees = 0x78 # float32
+            m_flVerticalAngleDegrees = 0x7C # float32
         class FootLockPoseOpFixedSettings:
             m_footInfo = 0x0 # CUtlVector<FootFixedData_t>
             m_hipDampingSettings = 0x18 # CAnimInputDamping
@@ -2677,6 +2847,11 @@ class Schemas:
         class CWarpSectionAnimTag:
             m_bWarpPosition = 0x50 # bool
             m_bWarpOrientation = 0x51 # bool
+        class SelectorInstanceData_t:
+            m_weights = 0x0 # CRelativeArray<float32>
+            m_currentIndexStartTime = 0x8 # CAnimNetVar<float32>
+            m_currentIndex = 0x14 # int32
+            m_previousIndex = 0x18 # int32
         class CModelConfigElement_RandomColor:
             m_Gradient = 0x48 # CColorGradient
         class CFootMotion:
@@ -2710,8 +2885,9 @@ class Schemas:
         class CPairedSequenceComponentUpdater:
             pass
         class CNmParticleEvent:
-            m_relevance = 0x20 # CNmEventRelevance_t
-            m_type = 0x24 # CNmParticleEvent::Type_t
+            m_relevance = 0x18 # CNmEventRelevance_t
+            m_type = 0x1C # CNmParticleEvent::Type_t
+            m_target = 0x20 # CNmEventTargetEntity_t
             m_hParticleSystem = 0x28 # CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
             m_tags = 0x30 # CUtlString
             m_bStopImmediately = 0x38 # bool
@@ -2723,6 +2899,12 @@ class Schemas:
             m_attachmentType1 = 0x58 # ParticleAttachment_t
             m_config = 0x60 # CUtlString
             m_effectForConfig = 0x68 # CUtlString
+        class MotionSelection:
+            m_nConfigIndex = 0x24 # NetVarConfigIndex
+            m_flCycleZeroTime = 0x30 # CAnimNetVar<float32>
+            m_flPlaybackSpeed = 0x3C # CAnimNetVar<float32>
+            m_flStartTime = 0x48 # CAnimNetVar<float32>
+            m_nSample = 0x54 # int32
         class CMorphRectData:
             m_nXLeftDst = 0x0 # int16
             m_nYTopDst = 0x2 # int16
@@ -2750,6 +2932,11 @@ class Schemas:
         class CParticleVariableRef:
             m_variableName = 0x0 # CKV3MemberNameWithStorage
             m_variableType = 0x38 # CPulseValueFullType
+        class CMoverInstanceData:
+            m_flDampedValue = 0x0 # float32
+            m_vMovement = 0x4 # Vector
+            m_Rotation = 0x1C # CRotation
+            m_TargetOrientation = 0x20 # CRotation
         class HSequence:
             m_Value = 0x0 # int32
         class CDampedValueUpdateItem:
@@ -2816,6 +3003,12 @@ class Schemas:
             m_Value = 0x0 # int32
         class CNmSampleTask:
             pass
+        class CFollowPathInstanceData:
+            m_xLastPredictedTransformsDeltas = 0x0 # CRelativeArray<CMotionTransform>
+            m_dampedTurnValue = 0x8 # float32
+            m_flTurnAmount = 0xC # float32
+            m_flPredictionScale = 0x10 # CAnimNetVar<float32>
+            m_flLastPathTime = 0x1C # float32
         class CStaticPoseCacheBuilder:
             pass
         class ModelMeshBufferData_t:
@@ -2824,12 +3017,13 @@ class Schemas:
             m_nElementSizeInBytes = 0x8 # uint32
             m_bMeshoptCompressed = 0xC # bool
             m_bMeshoptIndexSequence = 0xD # bool
-            m_bCompressedZSTD = 0xE # bool
-            m_bCreateBufferSRV = 0xF # bool
-            m_bCreateBufferUAV = 0x10 # bool
-            m_bCreateRawBuffer = 0x11 # bool
-            m_bCreatePooledBuffer = 0x12 # bool
-            m_nBufferUsage = 0x13 # uint8
+            m_nMeshoptMeshletEncodeVersion = 0xE # int8
+            m_bCompressedZSTD = 0xF # bool
+            m_bCreateBufferSRV = 0x10 # bool
+            m_bCreateBufferUAV = 0x11 # bool
+            m_bCreateRawBuffer = 0x12 # bool
+            m_bCreatePooledBuffer = 0x13 # bool
+            m_nBufferUsage = 0x14 # uint8
             m_inputLayoutFields = 0x18 # CUtlVector<RenderInputLayoutField_t>
         class CSequenceGroupData:
             m_sName = 0x10 # CBufferString
@@ -2853,6 +3047,12 @@ class Schemas:
             m_bBlockWaningTags = 0xFC # bool
             m_bLockStateWhenWaning = 0xFD # bool
             m_bResetWhenActivated = 0xFE # bool
+        class CNmIDBasedSelectorNode__CDefinition:
+            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionIDs = 0x28 # CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+            m_nParameterNodeIdx = 0x58 # int16
+            m_nFallbackNodeIdx = 0x5A # int16
+            m_bIgnoreInvalidOptions = 0x5C # bool
         class CAimMatrixUpdateNode:
             m_opFixedSettings = 0x70 # AimMatrixOpFixedSettings_t
             m_target = 0x168 # AnimVectorSource
@@ -2873,6 +3073,9 @@ class Schemas:
         class CModelConfigElement_Command:
             m_Command = 0x48 # CUtlString
             m_Args = 0x50 # KeyValues3
+        class TargetSelectorInstanceData_t:
+            m_currentIndex = 0x0 # CAnimNetVar<int32>
+            m_vMSRootMotionAnlyzerTarget = 0x1C # CAnimNetVar<Vector>
         class CAnimEventDefinition:
             m_nFrame = 0x8 # int32
             m_nEndFrame = 0xC # int32
@@ -2937,6 +3140,8 @@ class Schemas:
             m_flErrorQuantizationRotationMax = 0x14 # float32
             m_flErrorQuantizationTranslationMax = 0x18 # float32
             m_flErrorQuantizationScaleMax = 0x1C # float32
+        class PairedSequenceData:
+            m_vecPairedSequences = 0x0 # PairedSequence_t[8]
         class CBoneConstraintPoseSpaceMorph__Input_t:
             m_inputValue = 0x0 # Vector
             m_outputWeightList = 0x10 # CUtlVector<float32>
@@ -2972,15 +3177,11 @@ class Schemas:
             m_localToWorldTransform = 0x60 # CTransform
             m_timeStamp = 0x80 # float32
         class CNmTransitionEvent:
-            m_rule = 0x20 # NmTransitionRule_t
-            m_ID = 0x28 # CGlobalSymbol
-        class CNmIKRig:
-            m_skeleton = 0x0 # CStrongHandle<InfoForResourceTypeCNmSkeleton>
-            m_vecBodies = 0x8 # CUtlVector<CNmIKBody>
-            m_vecJoints = 0x20 # CUtlVector<CNmIKJoint>
-        class CNmFloatCurveEvent:
+            m_rule = 0x18 # NmTransitionRule_t
             m_ID = 0x20 # CGlobalSymbol
-            m_curve = 0x28 # CPiecewiseCurve
+        class CNmFloatCurveEvent:
+            m_ID = 0x18 # CGlobalSymbol
+            m_curve = 0x20 # CPiecewiseCurve
         class CParticleTransformInput:
             m_nType = 0x10 # ParticleTransformType_t
             m_NamedValue = 0x18 # CParticleNamedValueRef
@@ -3039,26 +3240,28 @@ class Schemas:
             m_MaterialGroupName = 0x48 # CUtlString
         class IParticleEffect:
             pass
-        class CNmIKJoint:
-            m_nParentIndex = 0x0 # int32
-            m_nBodyIndex = 0x4 # int32
-            m_xLocalFrame = 0x10 # CTransform
-            m_flSwingLimit = 0x30 # float32
-            m_flMinTwistLimit = 0x34 # float32
-            m_flMaxTwistLimit = 0x38 # float32
-            m_flWeight = 0x3C # float32
         class CFutureFacingMetricEvaluator:
             m_flDistance = 0x50 # float32
             m_flTime = 0x54 # float32
+        class CNmIDBasedClipSelectorNode__CDefinition:
+            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionIDs = 0x28 # CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+            m_nParameterNodeIdx = 0x58 # int16
+            m_nFallbackNodeIdx = 0x5A # int16
+            m_bIgnoreInvalidOptions = 0x5C # bool
+        class CLeanMatrixInstanceData:
+            m_flValueY = 0x0 # float32
+            m_flValueX = 0x4 # float32
         class NmCompressionSettings_t:
             m_translationRangeX = 0x0 # NmCompressionSettings_t::QuantizationRange_t
             m_translationRangeY = 0x8 # NmCompressionSettings_t::QuantizationRange_t
             m_translationRangeZ = 0x10 # NmCompressionSettings_t::QuantizationRange_t
             m_scaleRange = 0x18 # NmCompressionSettings_t::QuantizationRange_t
-            m_constantRotation = 0x20 # Quaternion
-            m_bIsRotationStatic = 0x30 # bool
-            m_bIsTranslationStatic = 0x31 # bool
-            m_bIsScaleStatic = 0x32 # bool
+            m_nTrackReadOffset = 0x20 # int32
+            m_constantRotation = 0x30 # Quaternion
+            m_bIsRotationStatic = 0x40 # bool
+            m_bIsTranslationStatic = 0x41 # bool
+            m_bIsScaleStatic = 0x42 # bool
         class CPulse_Variable:
             m_Name = 0x0 # PulseSymbol_t
             m_Description = 0x10 # CUtlString
@@ -3104,8 +3307,8 @@ class Schemas:
             m_nVertexAlbedoOffset = 0x13A # uint16
             m_nVertexAlbedoStride = 0x13C # uint16
         class CNmLegacyEvent:
-            m_animEventClassName = 0x20 # CUtlString
-            m_KV = 0x28 # KeyValues3
+            m_animEventClassName = 0x18 # CUtlString
+            m_KV = 0x20 # KeyValues3
         class CStateNodeStateData:
             m_pChild = 0x0 # CAnimUpdateNodeRef
             m_bExclusiveRootMotion = 0x0 # bitfield:1
@@ -3124,6 +3327,11 @@ class Schemas:
             m_bIsDisableTag = 0x50 # bool
         class AnimTagID:
             m_id = 0x0 # uint32
+        class CWayPointHelperInstanceData:
+            m_vMovement = 0x0 # Vector
+            m_vRotation = 0xC # QAngle
+            m_vWaypointPosWS = 0x18 # Vector
+            m_bStopUpdatingWaypointPos = 0x24 # bool
         class CAnimFrameSegment:
             m_nUniqueFrameIndex = 0x0 # int32
             m_nLocalElementMasks = 0x4 # uint32
@@ -3141,11 +3349,6 @@ class Schemas:
             m_speedFunction = 0x8 # DampingSpeedFunction
             m_fSpeedScale = 0xC # float32
             m_fFallingSpeedScale = 0x10 # float32
-        class CNmIKBody:
-            m_flMass = 0x0 # float32
-            m_vLocalMassCenter = 0x4 # Vector
-            m_vRadius = 0x10 # Vector
-            m_flResistance = 0x1C # float32
         class CHitBoxSet:
             m_name = 0x0 # CUtlString
             m_nNameHash = 0x8 # uint32
@@ -3266,13 +3469,13 @@ class Schemas:
             m_bImplicitSeqIgnoreDelta = 0x6 # bool
             m_bAnimGraphAdditive = 0x7 # bool
         class CNmBlend2DNode__CDefinition:
-            m_sourceNodeIndices = 0x10 # CUtlVectorFixedGrowable<int16,5>
-            m_nInputParameterNodeIdx0 = 0x38 # int16
-            m_nInputParameterNodeIdx1 = 0x3A # int16
-            m_values = 0x40 # CUtlVectorFixedGrowable<Vector2D,10>
-            m_indices = 0xA8 # CUtlVectorFixedGrowable<uint8,30>
-            m_hullIndices = 0xE0 # CUtlVectorFixedGrowable<uint8,10>
-            m_bAllowLooping = 0x108 # bool
+            m_sourceNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_values = 0x28 # CUtlLeanVectorFixedGrowable<Vector2D,10>
+            m_indices = 0x80 # CUtlLeanVectorFixedGrowable<uint8,30>
+            m_hullIndices = 0xA8 # CUtlLeanVectorFixedGrowable<uint8,10>
+            m_nInputParameterNodeIdx0 = 0xC0 # int16
+            m_nInputParameterNodeIdx1 = 0xC2 # int16
+            m_bAllowLooping = 0xC4 # bool
         class CBlendCurve:
             m_flControlPoint1 = 0x0 # float32
             m_flControlPoint2 = 0x4 # float32
@@ -3464,7 +3667,9 @@ class Schemas:
             m_flBlendTimeSeconds = 0x24 # float32
             m_blendMode = 0x28 # NmIKBlendMode_t
             m_bIsTargetInWorldSpace = 0x29 # bool
-            m_flReferencePoseTwistWeight = 0x2C # float32
+            m_flChainRotationWeight = 0x2C # float32
+        class CNmGraphInstance:
+            pass
         class CFlexDesc:
             m_szFacs = 0x0 # CUtlString
         class CRenderMesh:
@@ -3486,6 +3691,10 @@ class Schemas:
             m_lodBoneCounts = 0xB8 # CUtlVector<int32>
         class PulseRuntimeConstantIndex_t:
             m_Value = 0x0 # int16
+        class CFootAdjustmentInstanceData:
+            m_flStartTime = 0xC # CAnimNetVar<float32>
+            m_flDuration = 0x18 # CAnimNetVar<float32>
+            m_flStartHeadingWS = 0x3C # float32
         class VPhysics2ShapeDef_t:
             m_spheres = 0x0 # CUtlVector<RnSphereDesc_t>
             m_capsules = 0x18 # CUtlVector<RnCapsuleDesc_t>
@@ -3549,8 +3758,8 @@ class Schemas:
             m_bResetOnFinish = 0x75 # bool
             m_allTags = 0x78 # CUtlVector<CDirectPlaybackTagData>
         class CNmIDEvent:
-            m_ID = 0x20 # CGlobalSymbol
-            m_secondaryID = 0x28 # CGlobalSymbol
+            m_ID = 0x18 # CGlobalSymbol
+            m_secondaryID = 0x20 # CGlobalSymbol
         class CFlexRule:
             m_nFlex = 0x0 # int32
             m_FlexOps = 0x8 # CUtlVector<CFlexOp>
@@ -3563,14 +3772,20 @@ class Schemas:
         class CBoneConstraintRbf:
             m_inputBones = 0x20 # CUtlVector<std::pair<CUtlString,uint32>>
             m_outputBones = 0x38 # CUtlVector<std::pair<CUtlString,uint32>>
+        class CNetworkedCycle:
+            m_flCycleUnclamped = 0x0 # float32
+            m_flPrevCycleUnclamped = 0x4 # float32
+            m_flCyclesPerSecond = 0x10 # CAnimNetVar<float32>
+            m_flCycleZeroTime = 0x1C # CAnimNetVar<float32>
+            m_resetCount = 0x28 # CAnimNetVar<uint8>
         class CNmSoundEvent:
-            m_relevance = 0x20 # CNmEventRelevance_t
-            m_name = 0x28 # CUtlString
-            m_position = 0x30 # CNmSoundEvent::Position_t
-            m_attachmentName = 0x38 # CUtlString
-            m_tags = 0x40 # CUtlString
-            m_bContinuePlayingSoundAtDurationEnd = 0x48 # bool
-            m_flDurationInterruptionThreshold = 0x4C # float32
+            m_relevance = 0x18 # CNmEventRelevance_t
+            m_name = 0x20 # CUtlString
+            m_position = 0x28 # CNmSoundEvent::Position_t
+            m_attachmentName = 0x30 # CUtlString
+            m_tags = 0x38 # CUtlString
+            m_bContinuePlayingSoundAtDurationEnd = 0x40 # bool
+            m_flDurationInterruptionThreshold = 0x44 # float32
         class CRenderGroom:
             m_hairs = 0x0 # CUtlVector<RenderHairStrandInfo_t>
             m_hairPositionOffsets = 0x18 # CUtlVector<uint32>
@@ -3585,10 +3800,10 @@ class Schemas:
             m_nAttachBoneIdx = 0x90 # int32
             m_nAttachMeshIdx = 0x94 # int32
             m_nAttachMeshDrawCallIdx = 0x98 # int32
-            m_bEnableSimulation = 0x9C # bool
+            m_bEnableSimulation = 0xAC # bool
         class CNmParameterizedClipSelectorNode__CDefinition:
-            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
-            m_optionWeights = 0x28 # CUtlLeanVectorFixedGrowable<uint8,5>
+            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,8>
+            m_optionWeights = 0x28 # CUtlLeanVectorFixedGrowable<uint8,8>
             m_parameterNodeIdx = 0x38 # int16
             m_bIgnoreInvalidOptions = 0x3A # bool
             m_bHasWeightsSet = 0x3B # bool
@@ -3599,6 +3814,12 @@ class Schemas:
             pass
         class CVPhysXSurfacePropertiesList:
             m_surfacePropertiesList = 0x0 # CUtlVector<CPhysSurfaceProperties*>
+        class CNmFloatSpringNode__CDefinition:
+            m_flStartValue = 0x10 # float32
+            m_flHertz = 0x14 # float32
+            m_flDampingRatio = 0x18 # float32
+            m_nInputValueNodeIdx = 0x1C # int16
+            m_bUseStartValue = 0x1E # bool
         class RenderHairStrandInfo_t:
             m_nGuideHairIndices_nSurfaceTriIndex = 0x0 # uint32[2]
             m_vGuideBary_vBaseBary = 0x8 # uint16[4]
@@ -3618,7 +3839,7 @@ class Schemas:
             m_nInputValueNodeIdx = 0x10 # int16
             m_bIsWorldSpaceTarget = 0x12 # bool
         class CNmTargetSelectorNode__CDefinition:
-            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,8>
             m_flOrientationScoreWeight = 0x28 # float32
             m_flPositionScoreWeight = 0x2C # float32
             m_parameterNodeIdx = 0x30 # int16
@@ -3652,6 +3873,10 @@ class Schemas:
             m_bMaintainUpDirection = 0xC1 # bool
             m_bTargetIsPosition = 0xC2 # bool
             m_bUseHysteresis = 0xC3 # bool
+        class CRootMotion:
+            m_deltaTransform = 0x0 # CMotionTransform
+            m_vVelocityMS = 0x10 # Vector
+            m_vUpOverride = 0x1C # Vector
         class CAnimGraphSettingsManager:
             m_settingsGroups = 0x18 # CUtlVector<CSmartPtr<CAnimGraphSettingsGroup>>
         class CAnimGraphModelBinding:
@@ -3660,16 +3885,16 @@ class Schemas:
         class CBoneConstraintPoseSpaceBone:
             m_inputList = 0x60 # CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
         class CNmTwoBoneIKTask:
-            m_nEffectorBoneIdx = 0x58 # int32
-            m_nEffectorTargetBoneIdx = 0x5C # int32
-            m_targetTransform = 0x60 # CTransform
-            m_effectorTarget = 0x80 # CNmTarget
-            m_blendMode = 0xB0 # NmIKBlendMode_t
-            m_flBlendWeight = 0xB4 # float32
-            m_bIsTargetInWorldSpace = 0xB8 # bool
-            m_bIsRunningFromDeserializedData = 0xB9 # bool
-            m_flReferencePoseTwistWeight = 0xBC # float32
-            m_debugEffectorBoneID = 0xC0 # CGlobalSymbol
+            m_nEffectorBoneIdx = 0x48 # int32
+            m_nEffectorTargetBoneIdx = 0x4C # int32
+            m_targetTransform = 0x50 # CTransform
+            m_effectorTarget = 0x70 # CNmTarget
+            m_blendMode = 0xA0 # NmIKBlendMode_t
+            m_flBlendWeight = 0xA4 # float32
+            m_bIsTargetInWorldSpace = 0xA8 # bool
+            m_bIsRunningFromDeserializedData = 0xA9 # bool
+            m_flChainRotationWeight = 0xAC # float32
+            m_debugEffectorBoneID = 0xB0 # CGlobalSymbol
         class MotionBlendItem:
             m_pChild = 0x0 # CSmartPtr<CMotionNode>
             m_flKeyValue = 0x8 # float32
@@ -3740,13 +3965,14 @@ class Schemas:
             m_nClipReferenceNodeIdx = 0x10 # int16
             m_nTargetValueNodeIdx = 0x12 # int16
             m_samplingMode = 0x14 # CNmRootMotionData::SamplingMode_t
-            m_bAllowTargetUpdate = 0x15 # bool
+            m_targetUpdateRule = 0x15 # CNmTargetWarpNode::TargetUpdateRule_t
             m_bAlignWithTargetAtLastWarpEvent = 0x16 # bool
             m_flSamplingPositionErrorThresholdSq = 0x18 # float32
             m_flMaxTangentLength = 0x1C # float32
             m_flLerpFallbackDistanceThreshold = 0x20 # float32
             m_flTargetUpdateDistanceThreshold = 0x24 # float32
             m_flTargetUpdateAngleThresholdRadians = 0x28 # float32
+            m_alignmentBoneID = 0x30 # CGlobalSymbol
         class CPhysSurfacePropertiesPhysics:
             m_friction = 0x0 # float32
             m_elasticity = 0x4 # float32
@@ -3832,20 +4058,6 @@ class Schemas:
             m_comparison = 0x14 # CNmFloatComparisonNode::Comparison_t
             m_flEpsilon = 0x18 # float32
             m_flComparisonValue = 0x1C # float32
-        class CNmChainSolverTask:
-            m_nEffectorBoneIdx = 0x58 # int32
-            m_nEffectorTargetBoneIdx = 0x5C # int32
-            m_targetTransform = 0x60 # CTransform
-            m_nNumBonesInChain = 0x80 # int32
-            m_effectorTarget = 0x90 # CNmTarget
-            m_blendMode = 0xC0 # NmIKBlendMode_t
-            m_flBlendWeight = 0xC4 # float32
-            m_bIsTargetInWorldSpace = 0xC8 # bool
-            m_bIsRunningFromDeserializedData = 0xC9 # bool
-            m_debugEffectorBoneID = 0xD0 # CGlobalSymbol
-            m_chainStartTransformMS = 0xE0 # CTransform
-            m_debugRequestedTargetTransformMS = 0x100 # CTransform
-            m_debugTotalChainLength = 0x120 # float32
         class CStateUpdateData:
             m_name = 0x0 # CUtlString
             m_hScript = 0x8 # AnimScriptHandle
@@ -3857,10 +4069,17 @@ class Schemas:
             m_bIsPassthrough = 0x0 # bitfield:1
             m_bIsPassthroughRootMotion = 0x0 # bitfield:1
             m_bPreEvaluatePassthroughTransitionPath = 0x0 # bitfield:1
+        class CTurnHelperInstanceData:
+            m_turnAmount = 0x0 # float32
+            m_turnStartTime = 0x4 # float32
+            m_duration = 0x8 # float32
         class CNmTargetValueNode__CDefinition:
             pass
         class COrientConstraint:
             pass
+        class CCycleClipInstanceData:
+            m_flCycle = 0x0 # CAnimNetVar<float32>
+            m_flPrevCycle = 0xC # CAnimNetVar<float32>
         class CMoverUpdateNode:
             m_damping = 0x78 # CAnimInputDamping
             m_facingTarget = 0x90 # AnimValueSource
@@ -3878,6 +4097,15 @@ class Schemas:
             m_nBaseNodeIdx = 0x10 # int16
             m_bOnlySampleBaseRootMotion = 0x12 # bool
             m_layerDefinition = 0x18 # CUtlLeanVectorFixedGrowable<CNmLayerBlendNode::LayerDefinition_t,3>
+        class CNmFootIKNode__CDefinition:
+            m_leftEffectorBoneID = 0x18 # CGlobalSymbol
+            m_rightEffectorBoneID = 0x20 # CGlobalSymbol
+            m_nLeftTargetNodeIdx = 0x28 # int16
+            m_nRightTargetNodeIdx = 0x2A # int16
+            m_nEnabledNodeIdx = 0x2C # int16
+            m_flBlendTimeSeconds = 0x30 # float32
+            m_blendMode = 0x34 # NmIKBlendMode_t
+            m_bIsTargetInWorldSpace = 0x35 # bool
         class CAnimMotorUpdaterBase:
             m_name = 0x10 # CUtlString
             m_bDefault = 0x18 # bool
@@ -3986,9 +4214,9 @@ class Schemas:
         class CNmEntityAttributeFloatEvent:
             m_FloatValue = 0x38 # CPiecewiseCurve
         class CNmIDSelectorNode__CDefinition:
-            m_conditionNodeIndices = 0x10 # CUtlVectorFixedGrowable<int16,5>
-            m_values = 0x38 # CUtlVectorFixedGrowable<CGlobalSymbol,5>
-            m_defaultValue = 0x78 # CGlobalSymbol
+            m_conditionNodeIndices = 0x10 # CUtlLeanVectorFixedGrowable<int16,5>
+            m_values = 0x28 # CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+            m_defaultValue = 0x58 # CGlobalSymbol
         class TwoBoneIKSettings_t:
             m_endEffectorType = 0x0 # IkEndEffectorType
             m_endEffectorAttachment = 0x10 # CAnimAttachment
@@ -4030,6 +4258,10 @@ class Schemas:
             m_nInputValueNodeIdx = 0x10 # int16
             m_comparison = 0x12 # CNmIDComparisonNode::Comparison_t
             m_comparisionIDs = 0x18 # CUtlLeanVectorFixedGrowable<CGlobalSymbol,4>
+        class PairedSequence_t:
+            m_sRole = 0x0 # CGlobalSymbol
+            m_sSequenceName = 0x8 # CGlobalSymbol
+            m_hSequence = 0x10 # CAnimNetVar<uint32>
         class CEditableMotionGraph:
             pass
         class CNmConstFloatNode__CDefinition:
@@ -4198,7 +4430,7 @@ class Schemas:
             m_phaseCondition = 0x12 # NmFootPhaseCondition_t
             m_eventConditionRules = 0x14 # CNmBitFlags
         class CNmFootEvent:
-            m_phase = 0x20 # NmFootPhase_t
+            m_phase = 0x18 # NmFootPhase_t
         class CPhysSurfacePropertiesAudio:
             m_reflectivity = 0x0 # float32
             m_hardnessFactor = 0x4 # float32
@@ -4265,6 +4497,8 @@ class Schemas:
             m_Value = 0x0 # uint16
         class CCPPScriptComponentUpdater:
             m_scriptsToRun = 0x30 # CUtlVector<CGlobalSymbol>
+        class NetVarConfigIndex:
+            m_index = 0x0 # CAnimNetVar<uint32>
         class CAnimData:
             m_name = 0x10 # CBufferString
             m_animArray = 0x20 # CUtlVector<CAnimDesc>
@@ -4282,6 +4516,14 @@ class Schemas:
             m_flTimingBlend = 0x84 # float32
             m_bResetChild1 = 0x88 # bool
             m_bResetChild2 = 0x89 # bool
+        class CBlendNodeInstanceData:
+            m_dampedValue = 0x0 # float32
+            m_flCycle = 0x4 # float32
+            m_flCycleZeroTime = 0x8 # float32
+            m_flPlaybackRate = 0xC # float32
+            m_flBlendValue = 0x10 # CAnimNetVar<float32>
+            m_flDuration = 0x1C # float32
+            m_resetCount = 0x20 # CAnimNetVar<uint8>
         class CNmParameterizedBlendNode__BlendRange_t:
             m_nInputIdx0 = 0x0 # int16
             m_nInputIdx1 = 0x2 # int16
@@ -4337,6 +4579,7 @@ class Schemas:
         class CNmControlParameterIDNode__CDefinition:
             pass
         class CNmBodyGroupEvent:
+            m_target = 0x18 # CNmEventTargetEntity_t
             m_groupName = 0x20 # CUtlString
             m_nGroupValue = 0x28 # int32
         class CWayPointHelperUpdateNode:

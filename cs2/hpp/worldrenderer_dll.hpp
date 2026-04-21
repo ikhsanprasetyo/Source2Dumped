@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 #pragma once
 
@@ -19,7 +19,7 @@ namespace source2_dumper {
                 RTPROXY_INSTANCE_UNIQUE_MESH = 0x1
             };
             // Alignment: 4
-            // Member count: 15
+            // Member count: 16
             enum class ObjectTypeFlags_t : uint32_t {
                 OBJECT_TYPE_NONE = 0x0,
                 OBJECT_TYPE_MODEL = 0x8,
@@ -27,7 +27,6 @@ namespace source2_dumper {
                 OBJECT_TYPE_NO_SHADOWS = 0x20,
                 OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND = 0x40,
                 OBJECT_TYPE_DISABLED_IN_LOW_QUALITY = 0x80,
-                OBJECT_TYPE_NO_SUN_SHADOWS = 0x100,
                 OBJECT_TYPE_RENDER_WITH_DYNAMIC = 0x200,
                 OBJECT_TYPE_RENDER_TO_CUBEMAPS = 0x400,
                 OBJECT_TYPE_MODEL_HAS_LODS = 0x800,
@@ -35,7 +34,9 @@ namespace source2_dumper {
                 OBJECT_TYPE_PRECOMPUTED_VISMEMBERS = 0x4000,
                 OBJECT_TYPE_STATIC_CUBE_MAP = 0x8000,
                 OBJECT_TYPE_DISABLE_VIS_CULLING = 0x10000,
-                OBJECT_TYPE_BAKED_GEOMETRY = 0x20000
+                OBJECT_TYPE_BAKED_GEOMETRY = 0x20000,
+                OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS = 0x40000,
+                OBJECT_TYPE_HAS_AGGREGATE_RTPROXY = 0x80000
             };
             // Alignment: 1
             // Member count: 4
@@ -47,18 +48,10 @@ namespace source2_dumper {
             };
             // Parent: None
             // Field count: 3
-            //
-            // Metadata:
-            // NetworkVarNames: m_pEntity (CEntityIdentity*)
-            // NetworkVarNames: m_CScriptComponent (CScriptComponent::Storage_t)
-            // CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert
-            // MNetworkSerializeAs
-            // MNetworkSerializeAs
-            // NetworkVarNames: m_nameStringableIndex (int32)
             namespace CEntityInstance {
                 constexpr std::ptrdiff_t m_iszPrivateVScripts = 0x8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_pEntity = 0x10; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_CScriptComponent = 0x30; // CScriptComponent*
+                constexpr std::ptrdiff_t m_CScriptComponent = 0x28; // CScriptComponent*
             }
             // Parent: None
             // Field count: 0
@@ -71,11 +64,8 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 12
-            //
-            // Metadata:
-            // NetworkVarNames: m_nameStringableIndex (int32)
             namespace CEntityIdentity {
-                constexpr std::ptrdiff_t m_nameStringableIndex = 0x14; // int32
+                constexpr std::ptrdiff_t m_nameStringTableIndex = 0x14; // int32
                 constexpr std::ptrdiff_t m_name = 0x18; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_designerName = 0x20; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_flags = 0x30; // uint32
@@ -168,7 +158,6 @@ namespace source2_dumper {
             // OBJECT_TYPE_NO_SHADOWS
             // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
             // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-            // OBJECT_TYPE_NO_SUN_SHADOWS
             // OBJECT_TYPE_RENDER_WITH_DYNAMIC
             // OBJECT_TYPE_RENDER_TO_CUBEMAPS
             // OBJECT_TYPE_MODEL_HAS_LODS
@@ -177,6 +166,8 @@ namespace source2_dumper {
             // OBJECT_TYPE_STATIC_CUBE_MAP
             // OBJECT_TYPE_DISABLE_VIS_CULLING
             // OBJECT_TYPE_BAKED_GEOMETRY
+            // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
+            // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -321,6 +312,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MResourceTypeForInfoType
             namespace PermEntityLumpData_t {
                 constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_childLumps = 0x10; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
@@ -417,9 +409,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            // ;.JSE;.WSF;.WSH;.MSC
-            // RTPROXY_INSTANCE_UNIQUE_MESH
-            // MGetKV3ClassDefaults
             namespace InfoForResourceTypeVMapResourceData_t {
             }
             // Parent: None
@@ -495,7 +484,6 @@ namespace source2_dumper {
             // OBJECT_TYPE_NO_SHADOWS
             // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
             // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-            // OBJECT_TYPE_NO_SUN_SHADOWS
             // OBJECT_TYPE_RENDER_WITH_DYNAMIC
             // OBJECT_TYPE_RENDER_TO_CUBEMAPS
             // OBJECT_TYPE_MODEL_HAS_LODS
@@ -504,6 +492,8 @@ namespace source2_dumper {
             // OBJECT_TYPE_STATIC_CUBE_MAP
             // OBJECT_TYPE_DISABLE_VIS_CULLING
             // OBJECT_TYPE_BAKED_GEOMETRY
+            // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
+            // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults

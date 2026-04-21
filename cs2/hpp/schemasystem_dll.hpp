@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 #pragma once
 
@@ -110,20 +110,18 @@ namespace source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
+            // <invalid>
+            // char
+            // uint8
+            // uint16
+            // uint32
+            // uint64
+            // float64
+            // invalid
             // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
+            // uint
+            // string
+            // array
             namespace InfoForResourceTypeCResourceManifestInternal {
             }
             // Parent: None
@@ -159,29 +157,18 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
             // bool
-            // uint
-            // string
-            // array
-            // VApplication001
-            // VEngineCvar007
-            // VStringTokenSystem001
-            // TestScriptMgr001
-            // VProcessUtils002
-            // VFileSystem017
-            // VAsyncFileSystem2_001
-            // ResourceSystem013
-            // ResourceManifestRegistry001
-            // ResourceHandleUtils001
-            // SchemaSystem_001
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             namespace CExampleSchemaVData_PolymorphicDerivedA {
                 constexpr std::ptrdiff_t m_nDerivedA = 0x10; // int32
             }
@@ -189,6 +176,8 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CExampleSchemaVData_PolymorphicBase {
                 constexpr std::ptrdiff_t m_nBase = 0x8; // int32
@@ -198,31 +187,18 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
             // bool
-            // uint
-            // string
-            // array
-            // VApplication001
-            // VEngineCvar007
-            // VStringTokenSystem001
-            // TestScriptMgr001
-            // VProcessUtils002
-            // VFileSystem017
-            // VAsyncFileSystem2_001
-            // ResourceSystem013
-            // ResourceManifestRegistry001
-            // ResourceHandleUtils001
-            // SchemaSystem_001
-            // ResourceCompilerSystem001
-            // VMaterialSystem2_001
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             namespace CExampleSchemaVData_PolymorphicDerivedB {
                 constexpr std::ptrdiff_t m_nDerivedB = 0x10; // int32
             }
@@ -233,18 +209,20 @@ namespace source2_dumper {
             // vrman
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
             // bool
-            // uint
-            // string
-            // array
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             namespace ResourceId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint64
             }

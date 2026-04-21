@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: schemasystem.dll
@@ -104,20 +104,18 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MResourceTypeForInfoType
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // void
-        // int8
-        // int16
-        // int32
-        // int64
-        // float32
+        // <invalid>
+        // char
+        // uint8
+        // uint16
+        // uint32
+        // uint64
+        // float64
+        // invalid
         // bool
-        // null
-        // int
-        // double
-        // binary_blob
-        // table
+        // uint
+        // string
+        // array
         public static class InfoForResourceTypeCResourceManifestInternal {
         }
         // Parent: None
@@ -153,29 +151,18 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // <invalid>
-        // char
-        // uint8
-        // uint16
-        // uint32
-        // uint64
-        // float64
-        // invalid
+        // void
+        // int8
+        // int16
+        // int32
+        // int64
+        // float32
         // bool
-        // uint
-        // string
-        // array
-        // VApplication001
-        // VEngineCvar007
-        // VStringTokenSystem001
-        // TestScriptMgr001
-        // VProcessUtils002
-        // VFileSystem017
-        // VAsyncFileSystem2_001
-        // ResourceSystem013
-        // ResourceManifestRegistry001
-        // ResourceHandleUtils001
-        // SchemaSystem_001
+        // null
+        // int
+        // double
+        // binary_blob
+        // table
         public static class CExampleSchemaVData_PolymorphicDerivedA {
             public const nint m_nDerivedA = 0x10; // int32
         }
@@ -183,6 +170,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CExampleSchemaVData_PolymorphicBase {
             public const nint m_nBase = 0x8; // int32
@@ -192,31 +181,18 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // <invalid>
-        // char
-        // uint8
-        // uint16
-        // uint32
-        // uint64
-        // float64
-        // invalid
+        // void
+        // int8
+        // int16
+        // int32
+        // int64
+        // float32
         // bool
-        // uint
-        // string
-        // array
-        // VApplication001
-        // VEngineCvar007
-        // VStringTokenSystem001
-        // TestScriptMgr001
-        // VProcessUtils002
-        // VFileSystem017
-        // VAsyncFileSystem2_001
-        // ResourceSystem013
-        // ResourceManifestRegistry001
-        // ResourceHandleUtils001
-        // SchemaSystem_001
-        // ResourceCompilerSystem001
-        // VMaterialSystem2_001
+        // null
+        // int
+        // double
+        // binary_blob
+        // table
         public static class CExampleSchemaVData_PolymorphicDerivedB {
             public const nint m_nDerivedB = 0x10; // int32
         }
@@ -227,18 +203,20 @@ namespace Source2Dumper.Schemas {
         // vrman
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // <invalid>
-        // char
-        // uint8
-        // uint16
-        // uint32
-        // uint64
-        // float64
-        // invalid
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // void
+        // int8
+        // int16
+        // int32
+        // int64
+        // float32
         // bool
-        // uint
-        // string
-        // array
+        // null
+        // int
+        // double
+        // binary_blob
+        // table
         public static class ResourceId_t {
             public const nint m_Value = 0x0; // uint64
         }

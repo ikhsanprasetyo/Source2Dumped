@@ -1,24 +1,24 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 pub const source2_dumper = struct {
     // Module: client.dll
     pub const buttons = struct {
-        pub const attack: usize = 0x2063760;
-        pub const attack2: usize = 0x20637F0;
-        pub const back: usize = 0x2063A30;
-        pub const duck: usize = 0x2063D00;
-        pub const forward: usize = 0x20639A0;
-        pub const jump: usize = 0x2063C70;
-        pub const left: usize = 0x2063AC0;
-        pub const lookatweapon: usize = 0x231B200;
-        pub const reload: usize = 0x20636D0;
-        pub const right: usize = 0x2063B50;
-        pub const showscores: usize = 0x231B0E0;
-        pub const sprint: usize = 0x2063640;
-        pub const turnleft: usize = 0x2063880;
-        pub const turnright: usize = 0x2063910;
-        pub const use: usize = 0x2063BE0;
-        pub const zoom: usize = 0x231B170;
+        pub const attack: usize = 0x20488A0;
+        pub const attack2: usize = 0x2048930;
+        pub const back: usize = 0x2048B70;
+        pub const duck: usize = 0x2048E40;
+        pub const forward: usize = 0x2048AE0;
+        pub const jump: usize = 0x2048DB0;
+        pub const left: usize = 0x2048C00;
+        pub const lookatweapon: usize = 0x2338600;
+        pub const reload: usize = 0x2048810;
+        pub const right: usize = 0x2048C90;
+        pub const showscores: usize = 0x23384E0;
+        pub const sprint: usize = 0x2048780;
+        pub const turnleft: usize = 0x20489C0;
+        pub const turnright: usize = 0x2048A50;
+        pub const use: usize = 0x2048D20;
+        pub const zoom: usize = 0x2338570;
     };
 };

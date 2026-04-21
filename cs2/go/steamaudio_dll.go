@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 package schemas
 
@@ -24,6 +24,7 @@ const (
     SteamaudioDll_SteamAudioReverbSettings_t_m_nNumBounces = 0x4 // int32
     SteamaudioDll_SteamAudioReverbSettings_t_m_flIRDuration = 0x8 // float32
     SteamaudioDll_SteamAudioReverbSettings_t_m_nAmbisonicsOrder = 0xC // int32
+    SteamaudioDll_SteamAudioReverbSettings_t_m_bExportScene = 0x10 // bool
     SteamaudioDll_CSteamAudioProbeData_m_pProbeBatch = 0x0 // IPLProbeBatch
     SteamaudioDll_SteamAudioReverbCompressionSettings_t_m_bEnableCompression = 0x0 // bool
     SteamaudioDll_SteamAudioReverbCompressionSettings_t_m_flQuality = 0x4 // float32
@@ -36,16 +37,17 @@ const (
     SteamaudioDll_CSteamAudioBakedOcclusionData_m_vecPathingDeviation = 0x30 // CUtlVector<float32>
     SteamaudioDll_CSteamAudioBakedOcclusionData_m_vecReflectionRatio = 0x48 // CUtlVector<float32>
     SteamaudioDll_CSteamAudioBakedReverbData_m_nBands = 0x0 // int32
-    SteamaudioDll_CSteamAudioBakedReverbData_m_probes = 0x8 // CSteamAudioProbeData
-    SteamaudioDll_CSteamAudioBakedReverbData_m_grid = 0x10 // CSteamAudioProbeGrid
-    SteamaudioDll_CSteamAudioBakedReverbData_m_reverbSettings = 0x68 // SteamAudioReverbSettings_t
-    SteamaudioDll_CSteamAudioBakedReverbData_m_reverbClusteringSettings = 0x78 // SteamAudioReverbClusteringSettings_t
-    SteamaudioDll_CSteamAudioBakedReverbData_m_reverbCompressionSettings = 0x84 // SteamAudioReverbCompressionSettings_t
-    SteamaudioDll_CSteamAudioBakedReverbData_m_clusteredProbes = 0x90 // CSteamAudioProbeData
-    SteamaudioDll_CSteamAudioBakedReverbData_m_vecClusterForProbe = 0x98 // CUtlVector<int16>
-    SteamaudioDll_CSteamAudioBakedReverbData_m_compressedData = 0xB0 // CSteamAudioCompressedReverb
-    SteamaudioDll_CSteamAudioBakedReverbData_m_compressedClusteredData = 0x110 // CSteamAudioCompressedReverb
-    SteamaudioDll_CSteamAudioBakedReverbData_m_movables = 0x170 // CSteamAudioMovableBakedData<CSteamAudioBakedReverbData>
+    SteamaudioDll_CSteamAudioBakedReverbData_m_scene = 0x8 // CSteamAudioSceneData
+    SteamaudioDll_CSteamAudioBakedReverbData_m_probes = 0x18 // CSteamAudioProbeData
+    SteamaudioDll_CSteamAudioBakedReverbData_m_grid = 0x20 // CSteamAudioProbeGrid
+    SteamaudioDll_CSteamAudioBakedReverbData_m_reverbSettings = 0x78 // SteamAudioReverbSettings_t
+    SteamaudioDll_CSteamAudioBakedReverbData_m_reverbClusteringSettings = 0x8C // SteamAudioReverbClusteringSettings_t
+    SteamaudioDll_CSteamAudioBakedReverbData_m_reverbCompressionSettings = 0x98 // SteamAudioReverbCompressionSettings_t
+    SteamaudioDll_CSteamAudioBakedReverbData_m_clusteredProbes = 0xA0 // CSteamAudioProbeData
+    SteamaudioDll_CSteamAudioBakedReverbData_m_vecClusterForProbe = 0xA8 // CUtlVector<int16>
+    SteamaudioDll_CSteamAudioBakedReverbData_m_compressedData = 0xC0 // CSteamAudioCompressedReverb
+    SteamaudioDll_CSteamAudioBakedReverbData_m_compressedClusteredData = 0x120 // CSteamAudioCompressedReverb
+    SteamaudioDll_CSteamAudioBakedReverbData_m_movables = 0x180 // CSteamAudioMovableBakedData<CSteamAudioBakedReverbData>
     SteamaudioDll_CSteamAudioProbeLineSegment_m_vStart = 0x0 // Vector
     SteamaudioDll_CSteamAudioProbeLineSegment_m_vEnd = 0xC // Vector
     SteamaudioDll_CSteamAudioProbeLineSegment_m_vecIntervals = 0x18 // CUtlVector<float32>
@@ -61,6 +63,8 @@ const (
     SteamaudioDll_CSteamAudioBakedDimensionsData_m_vecOutsideField = 0x50 // CUtlVector<CSteamAudioAmbisonicsField>
     SteamaudioDll_CSteamAudioBakedDimensionsData_m_vecInsideSmallSizeField = 0x68 // CUtlVector<CSteamAudioAmbisonicsField>
     SteamaudioDll_CSteamAudioBakedDimensionsData_m_movables = 0x80 // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+    SteamaudioDll_CSteamAudioSceneData_m_pScene = 0x0 // IPLScene
+    SteamaudioDll_CSteamAudioSceneData_m_pStaticMesh = 0x8 // IPLStaticMesh
     SteamaudioDll_CSteamAudioProbeGrid_m_aabb = 0x0 // AABB_t
     SteamaudioDll_CSteamAudioProbeGrid_m_flSpacing = 0x18 // float32
     SteamaudioDll_CSteamAudioProbeGrid_m_nx = 0x1C // int32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 package schemas
 
@@ -12,7 +12,6 @@ const (
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_NO_SHADOWS = 0x20
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND = 0x40
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_DISABLED_IN_LOW_QUALITY = 0x80
-    WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_NO_SUN_SHADOWS = 0x100
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_RENDER_WITH_DYNAMIC = 0x200
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_RENDER_TO_CUBEMAPS = 0x400
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_MODEL_HAS_LODS = 0x800
@@ -21,15 +20,17 @@ const (
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_STATIC_CUBE_MAP = 0x8000
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_DISABLE_VIS_CULLING = 0x10000
     WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_BAKED_GEOMETRY = 0x20000
+    WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS = 0x40000
+    WorldrendererDll_ObjectTypeFlags_t_OBJECT_TYPE_HAS_AGGREGATE_RTPROXY = 0x80000
     WorldrendererDll_AggregateInstanceStream_t_AGGREGATE_INSTANCE_STREAM_NONE = 0x0
     WorldrendererDll_AggregateInstanceStream_t_AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16 = 0x1
     WorldrendererDll_AggregateInstanceStream_t_AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8 = 0x2
     WorldrendererDll_AggregateInstanceStream_t_AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8 = 0x4
     WorldrendererDll_CEntityInstance_m_iszPrivateVScripts = 0x8 // CUtlSymbolLarge
     WorldrendererDll_CEntityInstance_m_pEntity = 0x10 // CEntityIdentity*
-    WorldrendererDll_CEntityInstance_m_CScriptComponent = 0x30 // CScriptComponent*
+    WorldrendererDll_CEntityInstance_m_CScriptComponent = 0x28 // CScriptComponent*
     WorldrendererDll_CScriptComponent_m_scriptClassName = 0x30 // CUtlSymbolLarge
-    WorldrendererDll_CEntityIdentity_m_nameStringableIndex = 0x14 // int32
+    WorldrendererDll_CEntityIdentity_m_nameStringTableIndex = 0x14 // int32
     WorldrendererDll_CEntityIdentity_m_name = 0x18 // CUtlSymbolLarge
     WorldrendererDll_CEntityIdentity_m_designerName = 0x20 // CUtlSymbolLarge
     WorldrendererDll_CEntityIdentity_m_flags = 0x30 // uint32

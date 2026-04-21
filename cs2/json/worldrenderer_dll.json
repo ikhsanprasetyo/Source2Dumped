@@ -269,7 +269,7 @@
           "m_fDataObjectTypes": 60,
           "m_flags": 48,
           "m_name": 24,
-          "m_nameStringableIndex": 20,
+          "m_nameStringTableIndex": 20,
           "m_pAttributes": 72,
           "m_pNext": 88,
           "m_pNextByClass": 104,
@@ -277,50 +277,16 @@
           "m_pPrevByClass": 96,
           "m_worldGroupId": 56
         },
-        "metadata": [
-          {
-            "name": "m_nameStringableIndex",
-            "type": "NetworkVarNames",
-            "type_name": "int32"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CEntityInstance": {
         "fields": {
-          "m_CScriptComponent": 48,
+          "m_CScriptComponent": 40,
           "m_iszPrivateVScripts": 8,
           "m_pEntity": 16
         },
-        "metadata": [
-          {
-            "name": "m_pEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CEntityIdentity*"
-          },
-          {
-            "name": "m_CScriptComponent",
-            "type": "NetworkVarNames",
-            "type_name": "CScriptComponent::Storage_t"
-          },
-          {
-            "name": "CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkSerializeAs",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkSerializeAs",
-            "type": "Unknown"
-          },
-          {
-            "name": "m_nameStringableIndex",
-            "type": "NetworkVarNames",
-            "type_name": "int32"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CScriptComponent": {
@@ -511,10 +477,6 @@
             "type": "Unknown"
           },
           {
-            "name": "OBJECT_TYPE_NO_SUN_SHADOWS",
-            "type": "Unknown"
-          },
-          {
             "name": "OBJECT_TYPE_RENDER_WITH_DYNAMIC",
             "type": "Unknown"
           },
@@ -544,6 +506,14 @@
           },
           {
             "name": "OBJECT_TYPE_BAKED_GEOMETRY",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_HAS_AGGREGATE_RTPROXY",
             "type": "Unknown"
           },
           {
@@ -619,18 +589,6 @@
           {
             "name": "MResourceTypeForInfoType",
             "type": "Unknown"
-          },
-          {
-            "name": ";.JSE;.WSF;.WSH;.MSC",
-            "type": "Unknown"
-          },
-          {
-            "name": "RTPROXY_INSTANCE_UNIQUE_MESH",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -668,10 +626,6 @@
             "type": "Unknown"
           },
           {
-            "name": "OBJECT_TYPE_NO_SUN_SHADOWS",
-            "type": "Unknown"
-          },
-          {
             "name": "OBJECT_TYPE_RENDER_WITH_DYNAMIC",
             "type": "Unknown"
           },
@@ -701,6 +655,14 @@
           },
           {
             "name": "OBJECT_TYPE_BAKED_GEOMETRY",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OBJECT_TYPE_HAS_AGGREGATE_RTPROXY",
             "type": "Unknown"
           },
           {
@@ -797,6 +759,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
             "type": "Unknown"
           }
         ],
@@ -1078,11 +1044,12 @@
           "OBJECT_TYPE_BLOCK_LIGHT": 16,
           "OBJECT_TYPE_DISABLED_IN_LOW_QUALITY": 128,
           "OBJECT_TYPE_DISABLE_VIS_CULLING": 65536,
+          "OBJECT_TYPE_HAS_AGGREGATE_RTPROXY": 524288,
           "OBJECT_TYPE_MODEL": 8,
           "OBJECT_TYPE_MODEL_HAS_LODS": 2048,
+          "OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS": 262144,
           "OBJECT_TYPE_NONE": 0,
           "OBJECT_TYPE_NO_SHADOWS": 32,
-          "OBJECT_TYPE_NO_SUN_SHADOWS": 256,
           "OBJECT_TYPE_OVERLAY": 8192,
           "OBJECT_TYPE_PRECOMPUTED_VISMEMBERS": 16384,
           "OBJECT_TYPE_RENDER_TO_CUBEMAPS": 1024,

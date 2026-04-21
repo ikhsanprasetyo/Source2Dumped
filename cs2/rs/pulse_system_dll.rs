@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: pulse_system.dll
-        // Class count: 97
+        // Class count: 99
         // Enum count: 5
         pub mod pulse_system_dll {
             // Alignment: 4
@@ -72,6 +72,24 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
             pub mod CPulseCell_Step_TestDomainDestroyFakeEntity {
             }
             // Parent: None
@@ -88,18 +106,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // invalid
+            // bool
+            // uint
+            // string
+            // array
+            // VApplication001
+            // VEngineCvar007
+            // VStringTokenSystem001
+            // TestScriptMgr001
+            // VProcessUtils002
+            // VFileSystem017
             pub mod CPulseCell_WaitForCursorsWithTag {
                 pub const m_bTagSelfWhenComplete: usize = 0x98; // bool
                 pub const m_nDesiredKillPriority: usize = 0x9C; // PulseCursorCancelPriority_t
@@ -127,6 +144,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub mod CPulseCell_Test_NoInflow {
             }
             // Parent: None
@@ -139,8 +173,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_Base {
                 pub const m_nEditorNodeID: usize = 0x8; // PulseDocNodeID_t
             }
@@ -151,8 +183,8 @@ pub mod source2_dumper {
             // Parent: None
             // Field count: 2
             pub mod CTestDomainDerived_Cursor {
-                pub const m_nCursorValueA: usize = 0xD0; // int32
-                pub const m_nCursorValueB: usize = 0xD4; // int32
+                pub const m_nCursorValueA: usize = 0xD8; // int32
+                pub const m_nCursorValueB: usize = 0xDC; // int32
             }
             // Parent: None
             // Field count: 2
@@ -166,8 +198,10 @@ pub mod source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -187,6 +221,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // MPulseExpressionAlias
             // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -194,7 +229,9 @@ pub mod source2_dumper {
             // MPulseLegacyName
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
-            // 0
+            // MPulseExpressionAlias
+            //  
+            //  
             pub mod CPulseTestFuncs_LibraryA {
             }
             // Parent: None
@@ -205,17 +242,21 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MPropertyDescription
+            // MPropertyDescription
             pub mod CPulseCell_WaitForObservable {
                 pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
                 pub const m_OnTrue: usize = 0xC0; // CPulse_ResumePoint
@@ -260,21 +301,19 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
+            // MPropertyDescription
             pub mod CPulseCell_FireCursors {
                 pub const m_Outflows: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -314,12 +353,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseRequirement {
             }
             // Parent: None
@@ -329,13 +362,13 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -343,11 +376,10 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
-            // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
             // null
             // int
             // double
@@ -359,6 +391,7 @@ pub mod source2_dumper {
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod OutflowWithRequirements_t {
                 pub const m_Connection: usize = 0x0; // CPulse_OutflowConnection
@@ -372,15 +405,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -394,21 +429,19 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
+            // MPropertyDescription
             pub mod CPulseCell_Value_Gradient {
                 pub const m_Gradient: usize = 0x48; // CColorGradient
             }
@@ -418,15 +451,17 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
             pub mod CPulseCursorFuncs {
             }
@@ -470,6 +505,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub mod CPulseCell_Test_MultiOutflow_WithParams {
                 pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
                 pub const m_Out2: usize = 0x90; // SignatureOutflow_Continue
@@ -486,22 +538,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_GraphHook {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
             }
@@ -514,25 +556,24 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPulseEditorHeaderText
             pub mod CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t {
                 pub const nTestStep: usize = 0x0; // int32
             }
             // Parent: None
             // Field count: 4
             pub mod CPulseTurtleGraphicsCursor {
-                pub const m_Color: usize = 0xD0; // Color
-                pub const m_vPos: usize = 0xD4; // Vector2D
-                pub const m_flHeadingDeg: usize = 0xDC; // float32
-                pub const m_bPenUp: usize = 0xE0; // bool
+                pub const m_Color: usize = 0xD8; // Color
+                pub const m_vPos: usize = 0xDC; // Vector2D
+                pub const m_flHeadingDeg: usize = 0xE4; // float32
+                pub const m_bPenUp: usize = 0xE8; // bool
             }
             // Parent: None
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod CPulseCell_TestWaitWithCursorState__CursorState_t {
                 pub const flWaitValue: usize = 0x0; // float32
@@ -547,21 +588,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_BaseEntrypoint {
@@ -612,6 +638,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub mod CPulseCell_Test_MultiInflow_NoDefault {
             }
             // Parent: None
@@ -620,12 +663,12 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
             // null
             // int
             // double
             // binary_blob
             // table
-            // CUtlRBTree<struct CUtlOrderedMapBase<enum KV3MetatextType_t,class CBufferString,class CDefLess<enum KV3MetatextType_t>,int>::Nod
             pub mod CPulseCell_WaitForCursorsWithTagBase {
                 pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
                 pub const m_WaitComplete: usize = 0x50; // CPulse_ResumePoint
@@ -650,27 +693,19 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
+            // MPropertyDescription
+            //  
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
             pub mod CPulseCell_IntervalTimer {
                 pub const m_Completed: usize = 0x48; // CPulse_ResumePoint
                 pub const m_OnInterval: usize = 0x90; // SignatureOutflow_Continue
@@ -680,18 +715,16 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // escriptorProto
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // escriptorProto
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorCanvasItemSpecKV3
+            // d
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub mod CPulseTestScriptLib {
             }
             // Parent: None
@@ -701,19 +734,17 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseLerp {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
@@ -736,7 +767,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub mod CPulseCell_Value_TestValue50 {
             }
             // Parent: None
@@ -750,15 +799,16 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseSignatureForOutflow
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPulseEditorHeaderText
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
             pub mod CPulseCell_Test_MultiOutflow_WithParams_Yielding {
                 pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
                 pub const m_AsyncChild1: usize = 0x90; // SignatureOutflow_Continue
@@ -767,26 +817,25 @@ pub mod source2_dumper {
                 pub const m_YieldResume2: usize = 0x168; // SignatureOutflow_Resume
             }
             // Parent: None
+            // Field count: 0
+            pub mod TestComponent_tAPI {
+            }
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyDescription
+            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // MPropertyFriendlyName
             pub mod CPulseCell_Value_Curve {
                 pub const m_Curve: usize = 0x48; // CPiecewiseCurve
             }
@@ -799,22 +848,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EventHandler {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
             }
@@ -823,13 +862,13 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseFlow {
             }
             // Parent: None
@@ -865,6 +904,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub mod CPulseCell_Step_TestDomainTracepoint {
             }
             // Parent: None
@@ -880,7 +936,6 @@ pub mod source2_dumper {
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseLerp__CursorState_t {
                 pub const m_StartTime: usize = 0x0; // GameTime_t
@@ -901,27 +956,20 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
             // MPropertyDescription
             pub mod CPulseArraylib {
             }
@@ -947,31 +995,25 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
             pub mod CPulseCell_Timeline {
                 pub const m_TimelineEvents: usize = 0x48; // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -985,22 +1027,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EntOutputHandler {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
                 pub const m_SourceOutput: usize = 0x90; // PulseSymbol_t
@@ -1055,6 +1087,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub mod CPulseCell_Outflow_TestExplicitYesNo {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
@@ -1067,7 +1116,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub mod CPulseCell_Outflow_TestRandomYesNo {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
@@ -1086,7 +1153,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_LimitCount__InstanceState_t {
                 pub const m_nCurrentCount: usize = 0x0; // int32
             }
@@ -1099,13 +1165,36 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub mod CPulseCell_Test_MultiInflow_WithDefault {
             }
             // Parent: None
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_DebugLog {
@@ -1118,19 +1207,17 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseYieldingInflow {
             }
@@ -1156,12 +1243,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub mod CPulseCell_Inflow_ObservableVariableListener {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -1180,6 +1265,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleOrdered {
@@ -1203,6 +1293,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // e
             pub mod CPulseCell_Val_TestDomainGetEntityName {
             }
             // Parent: None
@@ -1224,6 +1317,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Wait {
@@ -1279,6 +1377,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub mod CPulseCell_TestWaitWithCursorState {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
                 pub const m_WakeCancel: usize = 0x90; // CPulse_ResumePoint
@@ -1299,6 +1414,11 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleShuffled {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -1310,13 +1430,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Method {
@@ -1334,7 +1447,13 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseValue {
@@ -1347,20 +1466,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
@@ -1372,9 +1477,17 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             pub mod CPulseCell_BooleanSwitchState {
                 pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
-                pub const m_SubGraph: usize = 0xC0; // CPulse_OutflowConnection
+                pub const m_Always: usize = 0xC0; // CPulse_OutflowConnection
                 pub const m_WhenTrue: usize = 0x108; // CPulse_OutflowConnection
                 pub const m_WhenFalse: usize = 0x150; // CPulse_OutflowConnection
             }
@@ -1404,6 +1517,11 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Yield {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
             }
@@ -1424,7 +1542,13 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleRandom {
@@ -1437,7 +1561,13 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_PublicOutput {
@@ -1451,6 +1581,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // e
             pub mod CPulseCell_Val_TestDomainFindEntityByName {
             }
             // Parent: None
@@ -1480,6 +1613,11 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomInt {
             }
             // Parent: None
@@ -1489,13 +1627,14 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPulseEditorHeaderText
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // e
             pub mod CPulseCell_Step_TestDomainEntFire {
                 pub const m_Input: usize = 0x48; // CUtlString
                 pub const flWaitValue: usize = 0x0; // float32
@@ -1515,6 +1654,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // MPulseExpressionAlias
             // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1522,7 +1662,9 @@ pub mod source2_dumper {
             // MPulseLegacyName
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
-            // 0
+            // MPulseExpressionAlias
+            //  
+            //  
             pub mod CPulseCell_ExampleSelector {
                 pub const m_OutflowList: usize = 0x48; // PulseSelectorOutflowList_t
             }
@@ -1530,6 +1672,7 @@ pub mod source2_dumper {
             // Field count: 6
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulse_CallInfo {
                 pub const m_PortName: usize = 0x0; // PulseSymbol_t
@@ -1544,15 +1687,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1581,7 +1726,9 @@ pub mod source2_dumper {
             // MPulseLegacyName
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
-            // 0
+            // MPulseExpressionAlias
+            //  
+            //  
             pub mod CPulseCell_ExampleCriteria {
             }
             // Parent: None
@@ -1595,6 +1742,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_LimitCount {
                 pub const m_nLimitCount: usize = 0x48; // int32
             }
@@ -1603,12 +1752,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_CallExternalMethod {
                 pub const m_MethodName: usize = 0x48; // PulseSymbol_t
-                pub const m_GameBlackboard: usize = 0x58; // PulseSymbol_t
-                pub const m_ExpectedArgs: usize = 0x68; // CUtlLeanVector<CPulseRuntimeMethodArg>
-                pub const m_nAsyncCallMode: usize = 0x78; // PulseMethodCallMode_t
-                pub const m_OnFinished: usize = 0x80; // CPulse_ResumePoint
+                pub const m_nBlackboardIndex: usize = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
+                pub const m_ExpectedArgs: usize = 0x60; // CUtlLeanVector<CPulseRuntimeMethodArg>
+                pub const m_nAsyncCallMode: usize = 0x70; // PulseMethodCallMode_t
+                pub const m_OnFinished: usize = 0x78; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 3
@@ -1635,7 +1789,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub mod CPulseCell_Step_TestDomainCreateFakeEntity {
             }
             // Parent: None
@@ -1646,18 +1818,52 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // invalid
+            // bool
+            // uint
+            // string
+            // array
+            // VApplication001
+            // VEngineCvar007
+            // VStringTokenSystem001
+            // TestScriptMgr001
+            // VProcessUtils002
+            // VFileSystem017
+            // VAsyncFileSystem2_001
+            // ResourceSystem013
+            // ResourceManifestRegistry001
+            // ResourceHandleUtils001
+            // SchemaSystem_001
+            // ResourceCompilerSystem001
+            // VMaterialSystem2_001
+            // PostProcessingSystem_001
+            // InputSystemVersion001
+            // InputStackSystemVersion001
+            // RenderDeviceMgr001
+            // RenderUtils_001
+            // SoundSystem001
+            // SoundOpSystemEdit001
+            // SoundOpSystem001
+            // SteamAudio001
+            // VP4003
+            // Localize_001
+            // VMediaFoundation001
+            // VAvi001
+            // VWebm001
+            // VBik001
+            // MeshSystem001
+            // MeshUtils001
+            // RenderDevice003
+            // VRenderDeviceSetupV001
+            // RenderHardwareConfig002
+            // SceneSystem_002
+            // IPulseSystem_001
+            // SceneUtils_001
+            // WorldRendererMgr001
+            // AssetSystem001
+            // AssetSystemTest001
+            // ParticleSystemMgr003
+            // VScriptManager010
             pub mod CPulseCell_CursorQueue {
                 pub const m_nCursorsAllowedToRunParallel: usize = 0x98; // int32
             }
@@ -1671,11 +1877,21 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomFloat {
             }
             // Parent: None
             // Field count: 0
             pub mod CPulseExecCursor {
+            }
+            // Parent: None
+            // Field count: 1
+            pub mod TestComponent_t {
+                pub const m_ComponentData: usize = 0x8; // CUtlString
             }
         }
     }

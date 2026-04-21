@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -43,6 +43,7 @@ export const Schemas = {
         CFuncMover__FollowConstraint_t: {
             FOLLOW_CONSTRAINT_DISTANCE: 0x0,
             FOLLOW_CONSTRAINT_SPRING: 0x1,
+            FOLLOW_CONSTRAINT_RATIO: 0x2,
         },
         CFuncMover__FollowEntityDirection_t: {
             FOLLOW_ENTITY_BIDIRECTIONAL: 0x0,
@@ -161,6 +162,13 @@ export const Schemas = {
             SOUNDEVENT_START_WORLD: 0x1,
             SOUNDEVENT_START_ENTITY: 0x2,
         },
+        soundcommands_t: {
+            SOUNDCTRL_CHANGE_VOLUME: 0x0,
+            SOUNDCTRL_CHANGE_PITCH: 0x1,
+            SOUNDCTRL_STOP: 0x2,
+            SOUNDCTRL_DESTROY: 0x3,
+            SOUNDCTRL_FADEOUT: 0x4,
+        },
         AnimGraphDebugDrawType_t: {
             None: 0x0,
             WsPosition: 0x1,
@@ -173,6 +181,12 @@ export const Schemas = {
             TrainOrientation_AtPathTracks: 0x1,
             TrainOrientation_LinearBlend: 0x2,
             TrainOrientation_EaseInEaseOut: 0x3,
+        },
+        CInfoChoreoLocatorShapeType_t: {
+            POINT: 0x0,
+            LINE: 0x1,
+            COUNT: 0x2,
+            NONE: 0x3,
         },
         CSWeaponCategory: {
             WEAPONCATEGORY_OTHER: 0x0,
@@ -235,14 +249,18 @@ export const Schemas = {
             MediumCircle: 0x5,
             Sidekick: 0x6,
         },
+        GLOBALESTATE: {
+            GLOBAL_OFF: 0x0,
+            GLOBAL_ON: 0x1,
+            GLOBAL_DEAD: 0x2,
+        },
         AnimationAlgorithm_t: {
             eInvalid: 0xFFFFFFFFFFFFFFFF,
             eNone: 0x0,
             eSequence: 0x1,
             eAnimGraph2: 0x2,
             eAnimGraph2Secondary: 0x3,
-            eAnimGraph1: 0x4,
-            eCount: 0x5,
+            eCount: 0x4,
         },
         CSWeaponMode: {
             Primary_Mode: 0x0,
@@ -327,25 +345,6 @@ export const Schemas = {
             Bone: 0x0,
             BoneAndChildren: 0x1,
         },
-        BaseExplosionTypes_t: {
-            EXPLOSION_TYPE_DEFAULT: 0x0,
-            EXPLOSION_TYPE_GRENADE: 0x1,
-            EXPLOSION_TYPE_MOLOTOV: 0x2,
-            EXPLOSION_TYPE_FIREWORKS: 0x3,
-            EXPLOSION_TYPE_GASCAN: 0x4,
-            EXPLOSION_TYPE_GASCYLINDER: 0x5,
-            EXPLOSION_TYPE_EXPLOSIVEBARREL: 0x6,
-            EXPLOSION_TYPE_ELECTRICAL: 0x7,
-            EXPLOSION_TYPE_EMP: 0x8,
-            EXPLOSION_TYPE_SHRAPNEL: 0x9,
-            EXPLOSION_TYPE_SMOKEGRENADE: 0xA,
-            EXPLOSION_TYPE_FLASHBANG: 0xB,
-            EXPLOSION_TYPE_TRIPMINE: 0xC,
-            EXPLOSION_TYPE_ICE: 0xD,
-            EXPLOSION_TYPE_NONE: 0xE,
-            EXPLOSION_TYPE_CUSTOM: 0xF,
-            EXPLOSION_TYPE_COUNT: 0x10,
-        },
         GameAnimEventIndex_t: {
             AE_EMPTY: 0x0,
             AE_CL_PLAYSOUND: 0x1,
@@ -404,6 +403,12 @@ export const Schemas = {
             touch_player_or_npc: 0x3,
             touch_player_or_npc_or_physicsprop: 0x4,
         },
+        CCSPlayerAnimationState__MoveType_t: {
+            None: 0x0,
+            Ground: 0x1,
+            Air: 0x2,
+            Ladder: 0x3,
+        },
         TrainVelocityType_t: {
             TrainVelocity_Instantaneous: 0x0,
             TrainVelocity_LinearBlend: 0x1,
@@ -439,6 +444,14 @@ export const Schemas = {
             ZERO: 0x0,
             ONE: 0x1,
             TWO: 0x2,
+        },
+        FuncMoverMovementSummaryFlags_t: {
+            eNone: 0x0,
+            eMovementBegin: 0x1,
+            eStopBegin: 0x2,
+            eStopComplete: 0x4,
+            eReversing: 0x8,
+            eEventsDispatched: 0x10,
         },
         PropDoorRotatingSpawnPos_t: {
             DOOR_SPAWN_CLOSED: 0x0,
@@ -577,6 +590,11 @@ export const Schemas = {
             MOVELINEAR_AUTHORED_AT_OPEN_POSITION: 0x1,
             MOVELINEAR_AUTHORED_AT_CLOSED_POSITION: 0x2,
         },
+        InteractionPassive_t: {
+            INTERACT_PASSIVE_NONE: 0x0,
+            INTERACT_PASSIVE_LOOKAT: 0x1,
+            INTERACT_PASSIVE_SPEAK: 0x2,
+        },
         ValueRemapperMomentumType_t: {
             MomentumType_None: 0x0,
             MomentumType_Friction: 0x1,
@@ -611,6 +629,17 @@ export const Schemas = {
         ESceneRequestState_t: {
             INACTIVE: 0x0,
             ACTIVE: 0x1,
+            FINISHED: 0x2,
+            FAILED: 0x3,
+        },
+        CCSPlayerAnimationState__GroundMoveState_t: {
+            None: 0x0,
+            Idle: 0x1,
+            Start: 0x2,
+            Move: 0x3,
+            TurnOnSpot: 0x4,
+            TurnOnSpotLoop: 0x5,
+            PlantAndTurn: 0x6,
         },
         PreviewWeaponState: {
             DROPPED: 0x0,
@@ -817,6 +846,10 @@ export const Schemas = {
             END_SIM_HISTORY_TYPES: 0x9,
             COMBINED: 0xFFFFFFFFFFFFFFFF,
         },
+        ENPCBehaviorOverride_t: {
+            eKeepExisting: 0x0,
+            eTakeOver: 0x1,
+        },
         PreviewEOMCelebration: {
             INVALID: 0xFFFFFFFFFFFFFFFF,
             WALKUP: 0x0,
@@ -849,6 +882,30 @@ export const Schemas = {
             ENTITY_DISSOLVE_ELECTRICAL: 0x1,
             ENTITY_DISSOLVE_ELECTRICAL_LIGHT: 0x2,
             ENTITY_DISSOLVE_CORE: 0x3,
+        },
+        SaveRestoreTableFlags_t: {
+            FENTTABLE_NONE: 0x0,
+            FENTTABLE_PLAYER: 0x80000000,
+            FENTTABLE_REMOVED: 0x40000000,
+            FENTTABLE_MOVEABLE: 0x20000000,
+            FENTTABLE_GLOBAL: 0x10000000,
+            FENTTABLE_PLAYERCHILD: 0x8000000,
+            LEVELMASK_BIT_0: 0x1,
+            LEVELMASK_BIT_1: 0x2,
+            LEVELMASK_BIT_2: 0x4,
+            LEVELMASK_BIT_3: 0x8,
+            LEVELMASK_BIT_4: 0x10,
+            LEVELMASK_BIT_5: 0x20,
+            LEVELMASK_BIT_6: 0x40,
+            LEVELMASK_BIT_7: 0x80,
+            LEVELMASK_BIT_8: 0x100,
+            LEVELMASK_BIT_9: 0x200,
+            LEVELMASK_BIT_10: 0x400,
+            LEVELMASK_BIT_11: 0x800,
+            LEVELMASK_BIT_12: 0x1000,
+            LEVELMASK_BIT_13: 0x2000,
+            LEVELMASK_BIT_14: 0x4000,
+            LEVELMASK_BIT_15: 0x8000,
         },
         InputBitMask_t: {
             IN_NONE: 0x0,
@@ -1152,13 +1209,44 @@ export const Schemas = {
             CHAT_IGNORE_TEAM: 0x2,
         },
         PlayerConnectedState: {
-            PlayerNeverConnected: 0xFFFFFFFFFFFFFFFF,
-            PlayerConnected: 0x0,
-            PlayerConnecting: 0x1,
-            PlayerReconnecting: 0x2,
-            PlayerDisconnecting: 0x3,
-            PlayerDisconnected: 0x4,
-            PlayerReserved: 0x5,
+            NeverConnected: 0xFFFFFFFFFFFFFFFF,
+            Connected: 0x0,
+            Connecting: 0x1,
+            Reconnecting: 0x2,
+            Disconnecting: 0x3,
+            Disconnected: 0x4,
+            Reserved: 0x5,
+        },
+        PreviewCharacterBannerAnimation: {
+            INVALID: 0xFFFFFFFFFFFFFFFF,
+            IDLE_OFFSCREEN: 0x0,
+            BANNER_AWP_ACE_GUN: 0x1,
+            BANNER_AWP_ACE_A: 0x2,
+            BANNER_AWP_ACE_B: 0x3,
+            BANNER_AWP_ACE_C: 0x4,
+            BANNER_AWP_ACE_D: 0x5,
+            BANNER_AWP_ACE_E: 0x6,
+            BANNER_PISTOL3SHOT: 0x7,
+            BANNER_3SHOT_A: 0x8,
+            BANNER_3SHOT_B: 0x9,
+            BANNER_3SHOT_C: 0xA,
+            BANNER_PISTOL4SHOT: 0xB,
+            BANNER_4SHOT_A: 0xC,
+            BANNER_4SHOT_B: 0xD,
+            BANNER_4SHOT_C: 0xE,
+            BANNER_4SHOT_D: 0xF,
+            CELEBRATE_STRETCH_NOWEAP_IDLE0: 0x10,
+            BANNER_BOMB_PLANT: 0x11,
+            BANNER_BOMB_DEFUSAL_VER: 0x12,
+            BANNER_FIRE: 0x13,
+            BANNER_BOMB_BLAST_TOSS: 0x14,
+            BANNER_BOMB_BLAST01: 0x15,
+            BANNER_BOMB_BLAST02: 0x16,
+            BANNER_BOMB_BLAST03: 0x17,
+            BANNER_CELEBRATE_01: 0x18,
+            BANNER_CELEBRATE_02: 0x19,
+            BANNER_CELEBRATE_03: 0x1A,
+            BANNER_CELEBRATE_04: 0x1B,
         },
         navproperties_t: {
             NAV_IGNORE: 0x1,
@@ -1171,6 +1259,14 @@ export const Schemas = {
             EF_PARENT_ANIMATES: 0x200,
             EF_NODRAW_BUT_TRANSMIT: 0x400,
             EF_MAX_BITS: 0xA,
+        },
+        ChoreoExternalAnimgraphControlState_t: {
+            eNone: 0x0,
+            eBegin: 0x1,
+            eLooping: 0x2,
+            eExit: 0x3,
+            eAbort: 0x4,
+            eCount: 0x5,
         },
         SolidType_t: {
             SOLID_NONE: 0x0,
@@ -1237,6 +1333,13 @@ export const Schemas = {
             OutputType_RotationY: 0x2,
             OutputType_RotationZ: 0x3,
         },
+        INavObstacle__NavObstacleType_t: {
+            NAV_OBSTACLE_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
+            NAV_OBSTACLE_TYPE_NONE: 0x0,
+            NAV_OBSTACLE_TYPE_AVOID: 0x1,
+            NAV_OBSTACLE_TYPE_CONN: 0x2,
+            NAV_OBSTACLE_TYPE_BLOCK: 0x3,
+        },
         PointTemplateOwnerSpawnGroupType_t: {
             INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP: 0x0,
             INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP: 0x1,
@@ -1246,6 +1349,17 @@ export const Schemas = {
             k_EContributionScoreFlag_Default: 0x0,
             k_EContributionScoreFlag_Objective: 0x1,
             k_EContributionScoreFlag_Bullets: 0x2,
+        },
+        CCSPlayerAnimationState__Direction_t: {
+            None: 0x0,
+            N: 0x1,
+            NE: 0x2,
+            E: 0x3,
+            SE: 0x4,
+            S: 0x5,
+            SW: 0x6,
+            W: 0x7,
+            NW: 0x8,
         },
         eSplinePushType: {
             k_eSplinePushAlong: 0x0,
@@ -1282,7 +1396,6 @@ export const Schemas = {
             WPN_ANIMSTATE_INVENTORY_UI_TUMBLE: 0x5DC,
             WPN_ANIMSTATE_INVENTORY_UI_KEYCHAIN_APPLY: 0x5DD,
             WPN_ANIMSTATE_END_VALID: 0x7D0,
-            WEAPON_LEGACY_STATE_CLEAR_FIRING: 0x7D1,
         },
         EDestructiblePartRadiusDamageApplyType: {
             ScaleByExplosionRadius: 0x0,
@@ -1309,6 +1422,7 @@ export const Schemas = {
             SHAKE_FREQUENCY: 0x3,
             SHAKE_START_RUMBLEONLY: 0x4,
             SHAKE_START_NORUMBLE: 0x5,
+            SHAKE_DURATION: 0x6,
         },
         Flags_t: {
             FL_ONGROUND: 0x1,
@@ -1350,6 +1464,13 @@ export const Schemas = {
             BRUSHSOLID_TOGGLE: 0x0,
             BRUSHSOLID_NEVER: 0x1,
             BRUSHSOLID_ALWAYS: 0x2,
+        },
+        InteractionPriority_t: {
+            INTERACT_PRIORITY_NONE: 0x0,
+            INTERACT_PRIORITY_PASSIVE: 0x1,
+            INTERACT_PRIORITY_LOW: 0x2,
+            INTERACT_PRIORITY_MED: 0x3,
+            INTERACT_PRIORITY_HIGH: 0x4,
         },
         QuestProgress__Reason: {
             QUEST_NONINITIALIZED: 0x0,
@@ -1466,6 +1587,12 @@ export const Schemas = {
             CAN_PLAY_NOW: 0x1,
             CAN_PLAY_ENQUEUED: 0x2,
         },
+        CCSPlayerAnimationState__AirAction_t: {
+            None: 0x0,
+            Jump: 0x1,
+            StartFall: 0x2,
+            Land: 0x3,
+        },
         MedalRank_t: {
             MEDAL_RANK_NONE: 0x0,
             MEDAL_RANK_BRONZE: 0x1,
@@ -1513,22 +1640,22 @@ export const Schemas = {
         CWeaponNOVA: {
         },
         CPointWorldText: {
-            m_messageText: 0x730, // char[512]
-            m_FontName: 0x930, // char[64]
-            m_BackgroundMaterialName: 0x970, // char[64]
-            m_bEnabled: 0x9B0, // bool
-            m_bFullbright: 0x9B1, // bool
-            m_flWorldUnitsPerPx: 0x9B4, // float32
-            m_flFontSize: 0x9B8, // float32
-            m_flDepthOffset: 0x9BC, // float32
-            m_bDrawBackground: 0x9C0, // bool
-            m_flBackgroundBorderWidth: 0x9C4, // float32
-            m_flBackgroundBorderHeight: 0x9C8, // float32
-            m_flBackgroundWorldToUV: 0x9CC, // float32
-            m_Color: 0x9D0, // Color
-            m_nJustifyHorizontal: 0x9D4, // PointWorldTextJustifyHorizontal_t
-            m_nJustifyVertical: 0x9D8, // PointWorldTextJustifyVertical_t
-            m_nReorientMode: 0x9DC, // PointWorldTextReorientMode_t
+            m_messageText: 0x768, // char[512]
+            m_FontName: 0x968, // char[64]
+            m_BackgroundMaterialName: 0x9A8, // char[64]
+            m_bEnabled: 0x9E8, // bool
+            m_bFullbright: 0x9E9, // bool
+            m_flWorldUnitsPerPx: 0x9EC, // float32
+            m_flFontSize: 0x9F0, // float32
+            m_flDepthOffset: 0x9F4, // float32
+            m_bDrawBackground: 0x9F8, // bool
+            m_flBackgroundBorderWidth: 0x9FC, // float32
+            m_flBackgroundBorderHeight: 0xA00, // float32
+            m_flBackgroundWorldToUV: 0xA04, // float32
+            m_Color: 0xA08, // Color
+            m_nJustifyHorizontal: 0xA0C, // PointWorldTextJustifyHorizontal_t
+            m_nJustifyVertical: 0xA10, // PointWorldTextJustifyVertical_t
+            m_nReorientMode: 0xA14, // PointWorldTextReorientMode_t
         },
         CAmbientGeneric: {
             m_radius: 0x4A8, // float32
@@ -1655,7 +1782,7 @@ export const Schemas = {
             m_bSkipFadeIn: 0x6E8, // bool
         },
         CFogTrigger: {
-            m_fog: 0x890, // fogparams_t
+            m_fog: 0x8C8, // fogparams_t
         },
         CInfoTeleportDestination: {
         },
@@ -1668,6 +1795,7 @@ export const Schemas = {
         CHEGrenade: {
         },
         CPhysicsSpring: {
+            m_pSpringJoint: 0x4A8, // IPhysicsJoint*
             m_flFrequency: 0x4B0, // float32
             m_flDampingRatio: 0x4B4, // float32
             m_flRestLength: 0x4B8, // float32
@@ -1700,40 +1828,36 @@ export const Schemas = {
             m_ActionTimer: 0x88, // CountdownTimer
             m_bCrouching: 0xA0, // bool
         },
-        PredictedDamageTag_t: {
-            nTagTick: 0x30, // GameTick_t
-            flFlinchModSmall: 0x34, // float32
-            flFlinchModLarge: 0x38, // float32
-            flFriendlyFireDamageReductionRatio: 0x3C, // float32
-        },
         CFuncRetakeBarrier: {
         },
         CTriggerBuoyancy: {
-            m_BuoyancyHelper: 0x890, // CBuoyancyHelper
-            m_flFluidDensity: 0x9A8, // float32
+            m_BuoyancyHelper: 0x8C8, // CBuoyancyHelper
+            m_flFluidDensity: 0x9E0, // float32
         },
         CTonemapController2Alias_env_tonemap_controller2: {
         },
         CPathTrack: {
-            m_pnext: 0x4A8, // CPathTrack*
-            m_pprevious: 0x4B0, // CPathTrack*
-            m_paltpath: 0x4B8, // CPathTrack*
-            m_flRadius: 0x4C0, // float32
-            m_length: 0x4C4, // float32
-            m_altName: 0x4C8, // CUtlSymbolLarge
-            m_nIterVal: 0x4D0, // int32
-            m_eOrientationType: 0x4D4, // TrackOrientationType_t
-            m_OnPass: 0x4D8, // CEntityIOOutput
+            m_pnext: 0x4A8, // CHandle<CPathTrack>
+            m_pprevious: 0x4AC, // CHandle<CPathTrack>
+            m_paltpath: 0x4B0, // CHandle<CPathTrack>
+            m_flRadius: 0x4B4, // float32
+            m_length: 0x4B8, // float32
+            m_altName: 0x4C0, // CUtlSymbolLarge
+            m_nIterVal: 0x4C8, // int32
+            m_eOrientationType: 0x4CC, // TrackOrientationType_t
+            m_OnPass: 0x4D0, // CEntityIOOutput
+        },
+        CCSGO_EndOfMatchLineupEndpoint: {
         },
         CPulseCell_Base: {
             m_nEditorNodeID: 0x8, // PulseDocNodeID_t
         },
         CTriggerProximity: {
-            m_hMeasureTarget: 0x890, // CHandle<CBaseEntity>
-            m_iszMeasureTarget: 0x898, // CUtlSymbolLarge
-            m_fRadius: 0x8A0, // float32
-            m_nTouchers: 0x8A4, // int32
-            m_NearestEntityDistance: 0x8A8, // CEntityOutputTemplate<float32,float32>
+            m_hMeasureTarget: 0x8C8, // CHandle<CBaseEntity>
+            m_iszMeasureTarget: 0x8D0, // CUtlSymbolLarge
+            m_fRadius: 0x8D8, // float32
+            m_nTouchers: 0x8DC, // int32
+            m_NearestEntityDistance: 0x8E0, // CEntityOutputTemplate<float32>
         },
         CTankTrainAI: {
             m_hTrain: 0x4A8, // CHandle<CFuncTrackTrain>
@@ -1745,8 +1869,8 @@ export const Schemas = {
             m_targetEntityName: 0x4E0, // CUtlSymbolLarge
         },
         CGameText: {
-            m_iszMessage: 0x740, // CUtlSymbolLarge
-            m_textParms: 0x748, // hudtextparms_t
+            m_iszMessage: 0x778, // CUtlSymbolLarge
+            m_textParms: 0x780, // hudtextparms_t
         },
         CGameEnd: {
         },
@@ -1763,9 +1887,6 @@ export const Schemas = {
             m_unEquippedPlayerSprayIDs: 0xF48, // uint32[1]
             m_unCurrentLoadoutHash: 0xF50, // uint64
             m_vecServerAuthoritativeWeaponSlots: 0xF58, // CUtlVectorEmbeddedNetworkVar<ServerAuthoritativeWeaponSlot_t>
-            pItem: 0x0, // CEconItemView*
-            team: 0x8, // uint16
-            slot: 0xA, // uint16
         },
         CCSPlayerModernJump: {
             m_nLastActualJumpPressTick: 0x10, // GameTick_t
@@ -1780,40 +1901,32 @@ export const Schemas = {
         },
         CPulse_ResumePoint: {
         },
-        CBaseFlex: {
-            m_flexWeight: 0xA20, // CNetworkUtlVectorBase<float32>
-            m_vLookTargetPosition: 0xA38, // VectorWS
-            m_flAllowResponsesEndTime: 0xA98, // GameTime_t
-            m_flLastFlexAnimationTime: 0xA9C, // GameTime_t
-            m_nNextSceneEventId: 0xAA0, // SceneEventId_t
-            m_bUpdateLayerPriorities: 0xAA4, // bool
-        },
         CTriggerFan: {
-            m_vFanOriginOffset: 0x890, // Vector
-            m_vDirection: 0x89C, // Vector
-            m_bPushTowardsInfoTarget: 0x8A8, // bool
-            m_bPushAwayFromInfoTarget: 0x8A9, // bool
-            m_qNoiseDelta: 0x8B0, // Quaternion
-            m_hInfoFan: 0x8C0, // CHandle<CInfoFan>
-            m_flForce: 0x8C4, // float32
-            m_bFalloff: 0x8C8, // bool
-            m_RampTimer: 0x8D0, // CountdownTimer
-            m_vFanOriginWS: 0x8E8, // VectorWS
-            m_vFanOriginLS: 0x8F4, // Vector
-            m_vFanEndLS: 0x900, // Vector
-            m_vNoiseDirectionTarget: 0x90C, // Vector
-            m_iszInfoFan: 0x918, // CUtlSymbolLarge
-            m_flRopeForceScale: 0x920, // float32
-            m_flParticleForceScale: 0x924, // float32
-            m_flPlayerForce: 0x928, // float32
-            m_bPlayerWindblock: 0x92C, // bool
-            m_flNPCForce: 0x930, // float32
-            m_flRampTime: 0x934, // float32
-            m_fNoiseDegrees: 0x938, // float32
-            m_fNoiseSpeed: 0x93C, // float32
-            m_bPushPlayer: 0x940, // bool
-            m_bRampDown: 0x941, // bool
-            m_nManagerFanIdx: 0x944, // int32
+            m_vFanOriginOffset: 0x8C8, // Vector
+            m_vDirection: 0x8D4, // Vector
+            m_bPushTowardsInfoTarget: 0x8E0, // bool
+            m_bPushAwayFromInfoTarget: 0x8E1, // bool
+            m_qNoiseDelta: 0x8F0, // Quaternion
+            m_hInfoFan: 0x900, // CHandle<CInfoFan>
+            m_flForce: 0x904, // float32
+            m_bFalloff: 0x908, // bool
+            m_RampTimer: 0x910, // CountdownTimer
+            m_vFanOriginWS: 0x928, // VectorWS
+            m_vFanOriginLS: 0x934, // Vector
+            m_vFanEndLS: 0x940, // Vector
+            m_vNoiseDirectionTarget: 0x94C, // Vector
+            m_iszInfoFan: 0x958, // CUtlSymbolLarge
+            m_flRopeForceScale: 0x960, // float32
+            m_flParticleForceScale: 0x964, // float32
+            m_flPlayerForce: 0x968, // float32
+            m_bPlayerWindblock: 0x96C, // bool
+            m_flNPCForce: 0x970, // float32
+            m_flRampTime: 0x974, // float32
+            m_fNoiseDegrees: 0x978, // float32
+            m_fNoiseSpeed: 0x97C, // float32
+            m_bPushPlayer: 0x980, // bool
+            m_bRampDown: 0x981, // bool
+            m_nManagerFanIdx: 0x984, // int32
         },
         CPhysHingeAlias_phys_hinge_local: {
         },
@@ -1823,41 +1936,46 @@ export const Schemas = {
             m_nLastShuffleCase: 0x5AC, // int32
             m_uchShuffleCaseMap: 0x5B0, // uint8[32]
             m_OnCase: 0x5D0, // CEntityIOOutput[32]
-            m_OnDefault: 0x8D0, // CEntityOutputTemplate<CUtlString,char*>
+            m_OnDefault: 0x8D0, // CEntityOutputTemplate<CUtlString>
+        },
+        CPulseCell_Outflow_PlayVOLine: {
+            m_OnFinished: 0x48, // CPulse_ResumePoint
         },
         CInfoGameEventProxy: {
             m_iszEventName: 0x4A8, // CUtlSymbolLarge
             m_flRange: 0x4B0, // float32
         },
+        CTestPulseIOComponent_DerivedAPI: {
+        },
         CWeaponBizon: {
         },
         CGamePlayerZone: {
-            m_OnPlayerInZone: 0x738, // CEntityIOOutput
-            m_OnPlayerOutZone: 0x750, // CEntityIOOutput
-            m_PlayersInCount: 0x768, // CEntityOutputTemplate<int32,int32>
-            m_PlayersOutCount: 0x788, // CEntityOutputTemplate<int32,int32>
+            m_OnPlayerInZone: 0x770, // CEntityIOOutput
+            m_OnPlayerOutZone: 0x788, // CEntityIOOutput
+            m_PlayersInCount: 0x7A0, // CEntityOutputTemplate<int32>
+            m_PlayersOutCount: 0x7C0, // CEntityOutputTemplate<int32>
         },
         CBaseToggle: {
-            m_toggle_state: 0x730, // TOGGLE_STATE
-            m_flMoveDistance: 0x734, // float32
-            m_flWait: 0x738, // float32
-            m_flLip: 0x73C, // float32
-            m_bAlwaysFireBlockedOutputs: 0x740, // bool
-            m_vecPosition1: 0x744, // Vector
-            m_vecPosition2: 0x750, // Vector
-            m_vecMoveAng: 0x75C, // QAngle
-            m_vecAngle1: 0x768, // QAngle
-            m_vecAngle2: 0x774, // QAngle
-            m_flHeight: 0x780, // float32
-            m_hActivator: 0x784, // CHandle<CBaseEntity>
-            m_vecFinalDest: 0x788, // Vector
-            m_vecFinalAngle: 0x794, // QAngle
-            m_movementType: 0x7A0, // int32
-            m_sMaster: 0x7A8, // CUtlSymbolLarge
+            m_toggle_state: 0x768, // TOGGLE_STATE
+            m_flMoveDistance: 0x76C, // float32
+            m_flWait: 0x770, // float32
+            m_flLip: 0x774, // float32
+            m_bAlwaysFireBlockedOutputs: 0x778, // bool
+            m_vecPosition1: 0x77C, // Vector
+            m_vecPosition2: 0x788, // Vector
+            m_vecMoveAng: 0x794, // QAngle
+            m_vecAngle1: 0x7A0, // QAngle
+            m_vecAngle2: 0x7AC, // QAngle
+            m_flHeight: 0x7B8, // float32
+            m_hActivator: 0x7BC, // CHandle<CBaseEntity>
+            m_vecFinalDest: 0x7C0, // Vector
+            m_vecFinalAngle: 0x7CC, // QAngle
+            m_movementType: 0x7D8, // int32
+            m_sMaster: 0x7E0, // CUtlSymbolLarge
         },
         CPulseServerCursor: {
-            m_hActivator: 0xD8, // CHandle<CBaseEntity>
-            m_hCaller: 0xDC, // CHandle<CBaseEntity>
+            m_hActivator: 0xE8, // CHandle<CBaseEntity>
+            m_hCaller: 0xEC, // CHandle<CBaseEntity>
         },
         CPulseCell_PlaySequence: {
             m_SequenceName: 0x48, // CUtlString
@@ -1866,30 +1984,30 @@ export const Schemas = {
             m_OnCanceled: 0xB0, // CPulse_ResumePoint
         },
         CInferno: {
-            m_firePositions: 0x730, // Vector[64]
-            m_fireParentPositions: 0xA30, // Vector[64]
-            m_bFireIsBurning: 0xD30, // bool[64]
-            m_BurnNormal: 0xD70, // Vector[64]
-            m_fireCount: 0x1070, // int32
-            m_nInfernoType: 0x1074, // int32
-            m_nFireEffectTickBegin: 0x1078, // int32
-            m_nFireLifetime: 0x107C, // float32
-            m_bInPostEffectTime: 0x1080, // bool
-            m_bWasCreatedInSmoke: 0x1081, // bool
-            m_extent: 0x1288, // Extent
-            m_damageTimer: 0x12A0, // CountdownTimer
-            m_damageRampTimer: 0x12B8, // CountdownTimer
-            m_splashVelocity: 0x12D0, // Vector
-            m_InitialSplashVelocity: 0x12DC, // Vector
-            m_startPos: 0x12E8, // Vector
-            m_vecOriginalSpawnLocation: 0x12F4, // Vector
-            m_activeTimer: 0x1300, // IntervalTimer
-            m_fireSpawnOffset: 0x1310, // int32
-            m_nMaxFlames: 0x1314, // int32
-            m_nSpreadCount: 0x1318, // int32
-            m_BookkeepingTimer: 0x1320, // CountdownTimer
-            m_NextSpreadTimer: 0x1338, // CountdownTimer
-            m_nSourceItemDefIndex: 0x1350, // uint16
+            m_firePositions: 0x768, // Vector[64]
+            m_fireParentPositions: 0xA68, // Vector[64]
+            m_bFireIsBurning: 0xD68, // bool[64]
+            m_BurnNormal: 0xDA8, // Vector[64]
+            m_fireCount: 0x10A8, // int32
+            m_nInfernoType: 0x10AC, // int32
+            m_nFireEffectTickBegin: 0x10B0, // int32
+            m_nFireLifetime: 0x10B4, // float32
+            m_bInPostEffectTime: 0x10B8, // bool
+            m_bWasCreatedInSmoke: 0x10B9, // bool
+            m_extent: 0x12C0, // Extent
+            m_damageTimer: 0x12D8, // CountdownTimer
+            m_damageRampTimer: 0x12F0, // CountdownTimer
+            m_splashVelocity: 0x1308, // Vector
+            m_InitialSplashVelocity: 0x1314, // Vector
+            m_startPos: 0x1320, // Vector
+            m_vecOriginalSpawnLocation: 0x132C, // Vector
+            m_activeTimer: 0x1338, // IntervalTimer
+            m_fireSpawnOffset: 0x1348, // int32
+            m_nMaxFlames: 0x134C, // int32
+            m_nSpreadCount: 0x1350, // int32
+            m_BookkeepingTimer: 0x1358, // CountdownTimer
+            m_NextSpreadTimer: 0x1370, // CountdownTimer
+            m_nSourceItemDefIndex: 0x1388, // uint16
         },
         CTouchExpansionComponent: {
         },
@@ -1906,15 +2024,15 @@ export const Schemas = {
         CWeaponSCAR20: {
         },
         CFuncInteractionLayerClip: {
-            m_bDisabled: 0x730, // bool
-            m_iszInteractsAs: 0x738, // CUtlSymbolLarge
-            m_iszInteractsWith: 0x740, // CUtlSymbolLarge
+            m_bDisabled: 0x768, // bool
+            m_iszInteractsAs: 0x770, // CUtlSymbolLarge
+            m_iszInteractsWith: 0x778, // CUtlSymbolLarge
         },
         CCSObserver_UseServices: {
         },
         CTriggerDetectBulletFire: {
-            m_bPlayerFireOnly: 0x890, // bool
-            m_OnDetectedBulletFire: 0x898, // CEntityIOOutput
+            m_bPlayerFireOnly: 0x8C8, // bool
+            m_OnDetectedBulletFire: 0x8D0, // CEntityIOOutput
         },
         CCSPlayer_UseServices: {
             m_hLastKnownUseEntity: 0x48, // CHandle<CBaseEntity>
@@ -1944,32 +2062,30 @@ export const Schemas = {
             m_bGamePaused: 0xC8, // bool
         },
         CFish: {
-            m_pool: 0xA20, // CHandle<CFishPool>
-            m_id: 0xA24, // uint32
-            m_x: 0xA28, // float32
-            m_y: 0xA2C, // float32
-            m_z: 0xA30, // float32
-            m_angle: 0xA34, // float32
-            m_angleChange: 0xA38, // float32
-            m_forward: 0xA3C, // Vector
-            m_perp: 0xA48, // Vector
-            m_poolOrigin: 0xA54, // Vector
-            m_waterLevel: 0xA60, // float32
-            m_speed: 0xA64, // float32
-            m_desiredSpeed: 0xA68, // float32
-            m_calmSpeed: 0xA6C, // float32
-            m_panicSpeed: 0xA70, // float32
-            m_avoidRange: 0xA74, // float32
-            m_turnTimer: 0xA78, // CountdownTimer
-            m_turnClockwise: 0xA90, // bool
-            m_goTimer: 0xA98, // CountdownTimer
-            m_moveTimer: 0xAB0, // CountdownTimer
-            m_panicTimer: 0xAC8, // CountdownTimer
-            m_disperseTimer: 0xAE0, // CountdownTimer
-            m_proximityTimer: 0xAF8, // CountdownTimer
-            m_visible: 0xB10, // CUtlVector<CFish*>
-            m_vecX: 0x10, // CNetworkedQuantizedFloat
-            m_vecY: 0x18, // CNetworkedQuantizedFloat
+            m_pool: 0x940, // CHandle<CFishPool>
+            m_id: 0x944, // uint32
+            m_x: 0x948, // float32
+            m_y: 0x94C, // float32
+            m_z: 0x950, // float32
+            m_angle: 0x954, // float32
+            m_angleChange: 0x958, // float32
+            m_forward: 0x95C, // Vector
+            m_perp: 0x968, // Vector
+            m_poolOrigin: 0x974, // Vector
+            m_waterLevel: 0x980, // float32
+            m_speed: 0x984, // float32
+            m_desiredSpeed: 0x988, // float32
+            m_calmSpeed: 0x98C, // float32
+            m_panicSpeed: 0x990, // float32
+            m_avoidRange: 0x994, // float32
+            m_turnTimer: 0x998, // CountdownTimer
+            m_turnClockwise: 0x9B0, // bool
+            m_goTimer: 0x9B8, // CountdownTimer
+            m_moveTimer: 0x9D0, // CountdownTimer
+            m_panicTimer: 0x9E8, // CountdownTimer
+            m_disperseTimer: 0xA00, // CountdownTimer
+            m_proximityTimer: 0xA18, // CountdownTimer
+            m_visible: 0xA30, // CUtlVector<CFish*>
         },
         CCSBot: {
             m_eyePosition: 0x108, // VectorWS
@@ -2003,115 +2119,115 @@ export const Schemas = {
             m_hasVisitedEnemySpawn: 0x5DD, // bool
             m_stillTimer: 0x5E0, // IntervalTimer
             m_bEyeAnglesUnderPathFinderControl: 0x5F0, // bool
-            m_pathIndex: 0x5EF0, // int32
-            m_areaEnteredTimestamp: 0x5EF4, // GameTime_t
-            m_repathTimer: 0x5EF8, // CountdownTimer
-            m_avoidFriendTimer: 0x5F10, // CountdownTimer
-            m_isFriendInTheWay: 0x5F28, // bool
-            m_politeTimer: 0x5F30, // CountdownTimer
-            m_isWaitingBehindFriend: 0x5F48, // bool
-            m_pathLadderEnd: 0x5F74, // float32
-            m_mustRunTimer: 0x5FC0, // CountdownTimer
-            m_waitTimer: 0x5FD8, // CountdownTimer
-            m_updateTravelDistanceTimer: 0x5FF0, // CountdownTimer
-            m_playerTravelDistance: 0x6008, // float32[64]
-            m_travelDistancePhase: 0x6108, // uint8
-            m_hostageEscortCount: 0x62A0, // uint8
-            m_hostageEscortCountTimestamp: 0x62A4, // float32
-            m_desiredTeam: 0x62A8, // int32
-            m_hasJoined: 0x62AC, // bool
-            m_isWaitingForHostage: 0x62AD, // bool
-            m_inhibitWaitingForHostageTimer: 0x62B0, // CountdownTimer
-            m_waitForHostageTimer: 0x62C8, // CountdownTimer
-            m_noisePosition: 0x62E0, // Vector
-            m_noiseTravelDistance: 0x62EC, // float32
-            m_noiseTimestamp: 0x62F0, // float32
-            m_noiseSource: 0x62F8, // CCSPlayerPawn*
-            m_noiseBendTimer: 0x6310, // CountdownTimer
-            m_bentNoisePosition: 0x6328, // Vector
-            m_bendNoisePositionValid: 0x6334, // bool
-            m_lookAroundStateTimestamp: 0x6338, // float32
-            m_lookAheadAngle: 0x633C, // float32
-            m_lookUpAngle: 0x6340, // float32
-            m_forwardAngle: 0x6344, // float32
-            m_inhibitLookAroundTimestamp: 0x6348, // float32
-            m_lookAtSpot: 0x6350, // Vector
-            m_lookAtSpotDuration: 0x6360, // float32
-            m_lookAtSpotTimestamp: 0x6364, // float32
-            m_lookAtSpotAngleTolerance: 0x6368, // float32
-            m_lookAtSpotClearIfClose: 0x636C, // bool
-            m_lookAtSpotAttack: 0x636D, // bool
-            m_lookAtDesc: 0x6370, // char*
-            m_peripheralTimestamp: 0x6378, // float32
-            m_approachPointCount: 0x6500, // uint8
-            m_approachPointViewPosition: 0x6504, // Vector
-            m_viewSteadyTimer: 0x6510, // IntervalTimer
-            m_tossGrenadeTimer: 0x6528, // CountdownTimer
-            m_isAvoidingGrenade: 0x6548, // CountdownTimer
-            m_spotCheckTimestamp: 0x6568, // float32
-            m_checkedHidingSpotCount: 0x6970, // int32
-            m_lookPitch: 0x6974, // float32
-            m_lookPitchVel: 0x6978, // float32
-            m_lookYaw: 0x697C, // float32
-            m_lookYawVel: 0x6980, // float32
-            m_targetSpot: 0x6984, // Vector
-            m_targetSpotVelocity: 0x6990, // Vector
-            m_targetSpotPredicted: 0x699C, // Vector
-            m_aimError: 0x69A8, // QAngle
-            m_aimGoal: 0x69B4, // QAngle
-            m_targetSpotTime: 0x69C0, // GameTime_t
-            m_aimFocus: 0x69C4, // float32
-            m_aimFocusInterval: 0x69C8, // float32
-            m_aimFocusNextUpdate: 0x69CC, // GameTime_t
-            m_ignoreEnemiesTimer: 0x69D8, // CountdownTimer
-            m_enemy: 0x69F0, // CHandle<CCSPlayerPawn>
-            m_isEnemyVisible: 0x69F4, // bool
-            m_visibleEnemyParts: 0x69F5, // uint8
-            m_lastEnemyPosition: 0x69F8, // Vector
-            m_lastSawEnemyTimestamp: 0x6A04, // float32
-            m_firstSawEnemyTimestamp: 0x6A08, // float32
-            m_currentEnemyAcquireTimestamp: 0x6A0C, // float32
-            m_enemyDeathTimestamp: 0x6A10, // float32
-            m_friendDeathTimestamp: 0x6A14, // float32
-            m_isLastEnemyDead: 0x6A18, // bool
-            m_nearbyEnemyCount: 0x6A1C, // int32
-            m_bomber: 0x6C28, // CHandle<CCSPlayerPawn>
-            m_nearbyFriendCount: 0x6C2C, // int32
-            m_closestVisibleFriend: 0x6C30, // CHandle<CCSPlayerPawn>
-            m_closestVisibleHumanFriend: 0x6C34, // CHandle<CCSPlayerPawn>
-            m_attentionInterval: 0x6C38, // IntervalTimer
-            m_attacker: 0x6C48, // CHandle<CCSPlayerPawn>
-            m_attackedTimestamp: 0x6C4C, // float32
-            m_burnedByFlamesTimer: 0x6C50, // IntervalTimer
-            m_lastVictimID: 0x6C60, // int32
-            m_isAimingAtEnemy: 0x6C64, // bool
-            m_isRapidFiring: 0x6C65, // bool
-            m_equipTimer: 0x6C68, // IntervalTimer
-            m_zoomTimer: 0x6C78, // CountdownTimer
-            m_fireWeaponTimestamp: 0x6C90, // GameTime_t
-            m_lookForWeaponsOnGroundTimer: 0x6C98, // CountdownTimer
-            m_bIsSleeping: 0x6CB0, // bool
-            m_isEnemySniperVisible: 0x6CB1, // bool
-            m_sawEnemySniperTimer: 0x6CB8, // CountdownTimer
-            m_enemyQueueIndex: 0x6D70, // uint8
-            m_enemyQueueCount: 0x6D71, // uint8
-            m_enemyQueueAttendIndex: 0x6D72, // uint8
-            m_isStuck: 0x6D73, // bool
-            m_stuckTimestamp: 0x6D74, // GameTime_t
-            m_stuckSpot: 0x6D78, // Vector
-            m_wiggleTimer: 0x6D88, // CountdownTimer
-            m_stuckJumpTimer: 0x6DA0, // CountdownTimer
-            m_nextCleanupCheckTimestamp: 0x6DB8, // GameTime_t
-            m_avgVel: 0x6DBC, // float32[10]
-            m_avgVelIndex: 0x6DE4, // int32
-            m_avgVelCount: 0x6DE8, // int32
-            m_lastOrigin: 0x6DEC, // Vector
-            m_lastRadioRecievedTimestamp: 0x6DFC, // float32
-            m_lastRadioSentTimestamp: 0x6E00, // float32
-            m_radioSubject: 0x6E04, // CHandle<CCSPlayerPawn>
-            m_radioPosition: 0x6E08, // Vector
-            m_voiceEndTimestamp: 0x6E14, // float32
-            m_lastValidReactionQueueFrame: 0x6E20, // int32
+            m_pathIndex: 0x4EF0, // int32
+            m_areaEnteredTimestamp: 0x4EF4, // GameTime_t
+            m_repathTimer: 0x4EF8, // CountdownTimer
+            m_avoidFriendTimer: 0x4F10, // CountdownTimer
+            m_isFriendInTheWay: 0x4F28, // bool
+            m_politeTimer: 0x4F30, // CountdownTimer
+            m_isWaitingBehindFriend: 0x4F48, // bool
+            m_pathLadderEnd: 0x4F74, // float32
+            m_mustRunTimer: 0x4FC0, // CountdownTimer
+            m_waitTimer: 0x4FD8, // CountdownTimer
+            m_updateTravelDistanceTimer: 0x4FF0, // CountdownTimer
+            m_playerTravelDistance: 0x5008, // float32[64]
+            m_travelDistancePhase: 0x5108, // uint8
+            m_hostageEscortCount: 0x52A0, // uint8
+            m_hostageEscortCountTimestamp: 0x52A4, // float32
+            m_desiredTeam: 0x52A8, // int32
+            m_hasJoined: 0x52AC, // bool
+            m_isWaitingForHostage: 0x52AD, // bool
+            m_inhibitWaitingForHostageTimer: 0x52B0, // CountdownTimer
+            m_waitForHostageTimer: 0x52C8, // CountdownTimer
+            m_noisePosition: 0x52E0, // Vector
+            m_noiseTravelDistance: 0x52EC, // float32
+            m_noiseTimestamp: 0x52F0, // float32
+            m_noiseSource: 0x52F8, // CCSPlayerPawn*
+            m_noiseBendTimer: 0x5310, // CountdownTimer
+            m_bentNoisePosition: 0x5328, // Vector
+            m_bendNoisePositionValid: 0x5334, // bool
+            m_lookAroundStateTimestamp: 0x5338, // float32
+            m_lookAheadAngle: 0x533C, // float32
+            m_lookUpAngle: 0x5340, // float32
+            m_forwardAngle: 0x5344, // float32
+            m_inhibitLookAroundTimestamp: 0x5348, // float32
+            m_lookAtSpot: 0x5350, // Vector
+            m_lookAtSpotDuration: 0x5360, // float32
+            m_lookAtSpotTimestamp: 0x5364, // float32
+            m_lookAtSpotAngleTolerance: 0x5368, // float32
+            m_lookAtSpotClearIfClose: 0x536C, // bool
+            m_lookAtSpotAttack: 0x536D, // bool
+            m_lookAtDesc: 0x5370, // char*
+            m_peripheralTimestamp: 0x5378, // float32
+            m_approachPointCount: 0x5500, // uint8
+            m_approachPointViewPosition: 0x5504, // Vector
+            m_viewSteadyTimer: 0x5510, // IntervalTimer
+            m_tossGrenadeTimer: 0x5528, // CountdownTimer
+            m_isAvoidingGrenade: 0x5548, // CountdownTimer
+            m_spotCheckTimestamp: 0x5568, // float32
+            m_checkedHidingSpotCount: 0x5970, // int32
+            m_lookPitch: 0x5974, // float32
+            m_lookPitchVel: 0x5978, // float32
+            m_lookYaw: 0x597C, // float32
+            m_lookYawVel: 0x5980, // float32
+            m_targetSpot: 0x5984, // Vector
+            m_targetSpotVelocity: 0x5990, // Vector
+            m_targetSpotPredicted: 0x599C, // Vector
+            m_aimError: 0x59A8, // QAngle
+            m_aimGoal: 0x59B4, // QAngle
+            m_targetSpotTime: 0x59C0, // GameTime_t
+            m_aimFocus: 0x59C4, // float32
+            m_aimFocusInterval: 0x59C8, // float32
+            m_aimFocusNextUpdate: 0x59CC, // GameTime_t
+            m_ignoreEnemiesTimer: 0x59D8, // CountdownTimer
+            m_enemy: 0x59F0, // CHandle<CCSPlayerPawn>
+            m_isEnemyVisible: 0x59F4, // bool
+            m_visibleEnemyParts: 0x59F5, // uint8
+            m_lastEnemyPosition: 0x59F8, // Vector
+            m_lastSawEnemyTimestamp: 0x5A04, // float32
+            m_firstSawEnemyTimestamp: 0x5A08, // float32
+            m_currentEnemyAcquireTimestamp: 0x5A0C, // float32
+            m_enemyDeathTimestamp: 0x5A10, // float32
+            m_friendDeathTimestamp: 0x5A14, // float32
+            m_isLastEnemyDead: 0x5A18, // bool
+            m_nearbyEnemyCount: 0x5A1C, // int32
+            m_bomber: 0x5C28, // CHandle<CCSPlayerPawn>
+            m_nearbyFriendCount: 0x5C2C, // int32
+            m_closestVisibleFriend: 0x5C30, // CHandle<CCSPlayerPawn>
+            m_closestVisibleHumanFriend: 0x5C34, // CHandle<CCSPlayerPawn>
+            m_attentionInterval: 0x5C38, // IntervalTimer
+            m_attacker: 0x5C48, // CHandle<CCSPlayerPawn>
+            m_attackedTimestamp: 0x5C4C, // float32
+            m_burnedByFlamesTimer: 0x5C50, // IntervalTimer
+            m_lastVictimID: 0x5C60, // int32
+            m_isAimingAtEnemy: 0x5C64, // bool
+            m_isRapidFiring: 0x5C65, // bool
+            m_equipTimer: 0x5C68, // IntervalTimer
+            m_zoomTimer: 0x5C78, // CountdownTimer
+            m_fireWeaponTimestamp: 0x5C90, // GameTime_t
+            m_lookForWeaponsOnGroundTimer: 0x5C98, // CountdownTimer
+            m_bIsSleeping: 0x5CB0, // bool
+            m_isEnemySniperVisible: 0x5CB1, // bool
+            m_sawEnemySniperTimer: 0x5CB8, // CountdownTimer
+            m_enemyQueueIndex: 0x5D70, // uint8
+            m_enemyQueueCount: 0x5D71, // uint8
+            m_enemyQueueAttendIndex: 0x5D72, // uint8
+            m_isStuck: 0x5D73, // bool
+            m_stuckTimestamp: 0x5D74, // GameTime_t
+            m_stuckSpot: 0x5D78, // Vector
+            m_wiggleTimer: 0x5D88, // CountdownTimer
+            m_stuckJumpTimer: 0x5DA0, // CountdownTimer
+            m_nextCleanupCheckTimestamp: 0x5DB8, // GameTime_t
+            m_avgVel: 0x5DBC, // float32[10]
+            m_avgVelIndex: 0x5DE4, // int32
+            m_avgVelCount: 0x5DE8, // int32
+            m_lastOrigin: 0x5DEC, // Vector
+            m_lastRadioRecievedTimestamp: 0x5DFC, // float32
+            m_lastRadioSentTimestamp: 0x5E00, // float32
+            m_radioSubject: 0x5E04, // CHandle<CCSPlayerPawn>
+            m_radioPosition: 0x5E08, // Vector
+            m_voiceEndTimestamp: 0x5E14, // float32
+            m_lastValidReactionQueueFrame: 0x5E20, // int32
         },
         CHandleTest: {
             m_Handle: 0x4A8, // CHandle<CBaseEntity>
@@ -2120,20 +2236,20 @@ export const Schemas = {
         CLogicNPCCounter: {
             m_OnMinCountAll: 0x4A8, // CEntityIOOutput
             m_OnMaxCountAll: 0x4C0, // CEntityIOOutput
-            m_OnFactorAll: 0x4D8, // CEntityOutputTemplate<float32,float32>
-            m_OnMinPlayerDistAll: 0x4F8, // CEntityOutputTemplate<float32,float32>
+            m_OnFactorAll: 0x4D8, // CEntityOutputTemplate<float32>
+            m_OnMinPlayerDistAll: 0x4F8, // CEntityOutputTemplate<float32>
             m_OnMinCount_1: 0x518, // CEntityIOOutput
             m_OnMaxCount_1: 0x530, // CEntityIOOutput
-            m_OnFactor_1: 0x548, // CEntityOutputTemplate<float32,float32>
-            m_OnMinPlayerDist_1: 0x568, // CEntityOutputTemplate<float32,float32>
+            m_OnFactor_1: 0x548, // CEntityOutputTemplate<float32>
+            m_OnMinPlayerDist_1: 0x568, // CEntityOutputTemplate<float32>
             m_OnMinCount_2: 0x588, // CEntityIOOutput
             m_OnMaxCount_2: 0x5A0, // CEntityIOOutput
-            m_OnFactor_2: 0x5B8, // CEntityOutputTemplate<float32,float32>
-            m_OnMinPlayerDist_2: 0x5D8, // CEntityOutputTemplate<float32,float32>
+            m_OnFactor_2: 0x5B8, // CEntityOutputTemplate<float32>
+            m_OnMinPlayerDist_2: 0x5D8, // CEntityOutputTemplate<float32>
             m_OnMinCount_3: 0x5F8, // CEntityIOOutput
             m_OnMaxCount_3: 0x610, // CEntityIOOutput
-            m_OnFactor_3: 0x628, // CEntityOutputTemplate<float32,float32>
-            m_OnMinPlayerDist_3: 0x648, // CEntityOutputTemplate<float32,float32>
+            m_OnFactor_3: 0x628, // CEntityOutputTemplate<float32>
+            m_OnMinPlayerDist_3: 0x648, // CEntityOutputTemplate<float32>
             m_hSource: 0x668, // CEntityHandle
             m_iszSourceEntityName: 0x670, // CUtlSymbolLarge
             m_flDistanceMax: 0x678, // float32
@@ -2213,21 +2329,23 @@ export const Schemas = {
             m_nRTEnvCP: 0x114, // int32
             m_nRTEnvCPComponent: 0x118, // int32
             m_szModifier: 0x120, // CUtlString
+            m_nUseSnapshotFromSurfaceGraph: 0x128, // int32
+            m_snapshotFilter: 0x12C, // PrecipitationFilter_t
         },
         CFuncMoveLinear: {
-            m_authoredPosition: 0x7B0, // MoveLinearAuthoredPos_t
-            m_angMoveEntitySpace: 0x7B4, // QAngle
-            m_vecMoveDirParentSpace: 0x7C0, // Vector
-            m_soundStart: 0x7D0, // CUtlSymbolLarge
-            m_soundStop: 0x7D8, // CUtlSymbolLarge
-            m_currentSound: 0x7E0, // CUtlSymbolLarge
-            m_flBlockDamage: 0x7E8, // float32
-            m_flStartPosition: 0x7EC, // float32
-            m_OnFullyOpen: 0x7F8, // CEntityIOOutput
-            m_OnFullyClosed: 0x810, // CEntityIOOutput
-            m_bCreateMovableNavMesh: 0x828, // bool
-            m_bAllowMovableNavMeshDockingOnEntireEntity: 0x829, // bool
-            m_bCreateNavObstacle: 0x82A, // bool
+            m_authoredPosition: 0x7E8, // MoveLinearAuthoredPos_t
+            m_angMoveEntitySpace: 0x7EC, // QAngle
+            m_vecMoveDirParentSpace: 0x7F8, // Vector
+            m_soundStart: 0x808, // CUtlSymbolLarge
+            m_soundStop: 0x810, // CUtlSymbolLarge
+            m_currentSound: 0x818, // CUtlSymbolLarge
+            m_flBlockDamage: 0x820, // float32
+            m_flStartPosition: 0x824, // float32
+            m_OnFullyOpen: 0x830, // CEntityIOOutput
+            m_OnFullyClosed: 0x848, // CEntityIOOutput
+            m_bCreateMovableNavMesh: 0x860, // bool
+            m_bAllowMovableNavMeshDockingOnEntireEntity: 0x861, // bool
+            m_bCreateNavObstacle: 0x862, // bool
         },
         CPhysMotorAPI: {
         },
@@ -2236,23 +2354,23 @@ export const Schemas = {
             m_OnTrue: 0xC0, // CPulse_ResumePoint
         },
         CScriptItem: {
-            m_MoveTypeOverride: 0xAC0, // MoveType_t
+            m_MoveTypeOverride: 0x9E0, // MoveType_t
         },
         CDynamicPropAlias_prop_dynamic_override: {
         },
         CBaseTrigger: {
-            m_OnStartTouch: 0x7B0, // CEntityIOOutput
-            m_OnStartTouchAll: 0x7C8, // CEntityIOOutput
-            m_OnEndTouch: 0x7E0, // CEntityIOOutput
-            m_OnEndTouchAll: 0x7F8, // CEntityIOOutput
-            m_OnTouching: 0x810, // CEntityIOOutput
-            m_OnTouchingEachEntity: 0x828, // CEntityIOOutput
-            m_OnNotTouching: 0x840, // CEntityIOOutput
-            m_hTouchingEntities: 0x858, // CUtlVector<CHandle<CBaseEntity>>
-            m_iFilterName: 0x870, // CUtlSymbolLarge
-            m_hFilter: 0x878, // CHandle<CBaseFilter>
-            m_bDisabled: 0x87C, // bool
-            m_bUseAsyncQueries: 0x888, // bool
+            m_OnStartTouch: 0x7E8, // CEntityIOOutput
+            m_OnStartTouchAll: 0x800, // CEntityIOOutput
+            m_OnEndTouch: 0x818, // CEntityIOOutput
+            m_OnEndTouchAll: 0x830, // CEntityIOOutput
+            m_OnTouching: 0x848, // CEntityIOOutput
+            m_OnTouchingEachEntity: 0x860, // CEntityIOOutput
+            m_OnNotTouching: 0x878, // CEntityIOOutput
+            m_hTouchingEntities: 0x890, // CUtlVector<CHandle<CBaseEntity>>
+            m_iFilterName: 0x8A8, // CUtlSymbolLarge
+            m_hFilter: 0x8B0, // CHandle<CBaseFilter>
+            m_bDisabled: 0x8B4, // bool
+            m_bUseAsyncQueries: 0x8C0, // bool
         },
         CPointPush: {
             m_bEnabled: 0x4A8, // bool
@@ -2274,51 +2392,46 @@ export const Schemas = {
             m_iType: 0x4B8, // int32
             m_bUrgent: 0x4BC, // bool
             m_szPlaceName: 0x4BD, // char[18]
-            m_flPlayerPingTokens: 0x48, // GameTime_t[5]
         },
         CHitboxComponent: {
             m_flBoundsExpandRadius: 0x14, // float32
         },
         CRopeKeyframe: {
-            m_RopeFlags: 0x738, // uint16
-            m_iNextLinkName: 0x740, // CUtlSymbolLarge
-            m_Slack: 0x748, // int16
-            m_Width: 0x74C, // float32
-            m_TextureScale: 0x750, // float32
-            m_nSegments: 0x754, // uint8
-            m_bConstrainBetweenEndpoints: 0x755, // bool
-            m_strRopeMaterialModel: 0x758, // CUtlSymbolLarge
-            m_iRopeMaterialModelIndex: 0x760, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_Subdiv: 0x768, // uint8
-            m_nChangeCount: 0x769, // uint8
-            m_RopeLength: 0x76A, // int16
-            m_fLockedPoints: 0x76C, // uint8
-            m_bCreatedFromMapFile: 0x76D, // bool
-            m_flScrollSpeed: 0x770, // float32
-            m_bStartPointValid: 0x774, // bool
-            m_bEndPointValid: 0x775, // bool
-            m_hStartPoint: 0x778, // CHandle<CBaseEntity>
-            m_hEndPoint: 0x77C, // CHandle<CBaseEntity>
-            m_iStartAttachment: 0x780, // AttachmentHandle_t
-            m_iEndAttachment: 0x781, // AttachmentHandle_t
-            m_szPayloadTypeName: 0x0, // CUtlSymbolLarge
-            m_uHandle: 0x8, // SceneRequestHandle_t
-            m_state: 0xC, // ESceneRequestState_t
-            m_sSceneFile: 0x0, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCChoreoSceneResource>>
+            m_RopeFlags: 0x770, // uint16
+            m_iNextLinkName: 0x778, // CUtlSymbolLarge
+            m_Slack: 0x780, // int16
+            m_Width: 0x784, // float32
+            m_TextureScale: 0x788, // float32
+            m_nSegments: 0x78C, // uint8
+            m_bConstrainBetweenEndpoints: 0x78D, // bool
+            m_strRopeMaterialModel: 0x790, // CUtlSymbolLarge
+            m_iRopeMaterialModelIndex: 0x798, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_Subdiv: 0x7A0, // uint8
+            m_nChangeCount: 0x7A1, // uint8
+            m_RopeLength: 0x7A2, // int16
+            m_fLockedPoints: 0x7A4, // uint8
+            m_bCreatedFromMapFile: 0x7A5, // bool
+            m_flScrollSpeed: 0x7A8, // float32
+            m_bStartPointValid: 0x7AC, // bool
+            m_bEndPointValid: 0x7AD, // bool
+            m_hStartPoint: 0x7B0, // CHandle<CBaseEntity>
+            m_hEndPoint: 0x7B4, // CHandle<CBaseEntity>
+            m_iStartAttachment: 0x7B8, // AttachmentHandle_t
+            m_iEndAttachment: 0x7B9, // AttachmentHandle_t
         },
         CSmokeGrenade: {
         },
         CBaseCombatCharacter: {
-            m_bForceServerRagdoll: 0xAB0, // bool
-            m_hMyWearables: 0xAB8, // CNetworkUtlVectorBase<CHandle<CEconWearable>>
-            m_impactEnergyScale: 0xAD0, // float32
-            m_bApplyStressDamage: 0xAD4, // bool
-            m_bDeathEventsDispatched: 0xAD5, // bool
-            m_pVecRelationships: 0xB18, // CUtlVector<RelationshipOverride_t>*
-            m_strRelationships: 0xB20, // CUtlSymbolLarge
-            m_eHull: 0xB28, // Hull_t
-            m_nNavHullIdx: 0xB2C, // uint32
-            m_movementStats: 0xB30, // CMovementStatsProperty
+            m_bForceServerRagdoll: 0x940, // bool
+            m_hMyWearables: 0x948, // CNetworkUtlVectorBase<CHandle<CEconWearable>>
+            m_impactEnergyScale: 0x960, // float32
+            m_bApplyStressDamage: 0x964, // bool
+            m_bDeathEventsDispatched: 0x965, // bool
+            m_pVecRelationships: 0x9A8, // CUtlVector<RelationshipOverride_t>*
+            m_strRelationships: 0x9B0, // CUtlSymbolLarge
+            m_eHull: 0x9B8, // Hull_t
+            m_nNavHullIdx: 0x9BC, // uint32
+            m_movementStats: 0x9C0, // CMovementStatsProperty
         },
         ServerAuthoritativeWeaponSlot_t: {
             unClass: 0x30, // uint16
@@ -2328,11 +2441,13 @@ export const Schemas = {
         CPathQueryComponent: {
         },
         CLogicRelay: {
-            m_bDisabled: 0x4A8, // bool
-            m_bWaitForRefire: 0x4A9, // bool
-            m_bTriggerOnce: 0x4AA, // bool
-            m_bFastRetrigger: 0x4AB, // bool
-            m_bPassthoughCaller: 0x4AC, // bool
+            m_OnSpawn: 0x4A8, // CEntityIOOutput
+            m_OnTrigger: 0x4C0, // CEntityIOOutput
+            m_bDisabled: 0x4D8, // bool
+            m_bWaitForRefire: 0x4D9, // bool
+            m_bTriggerOnce: 0x4DA, // bool
+            m_bFastRetrigger: 0x4DB, // bool
+            m_bPassthoughCaller: 0x4DC, // bool
         },
         SequenceHistory_t: {
             m_hSequence: 0x0, // HSequence
@@ -2352,13 +2467,28 @@ export const Schemas = {
         },
         CTestPulseIO: {
             m_OnVariantVoid: 0x4A8, // CEntityIOOutput
-            m_OnVariantBool: 0x4C0, // CEntityOutputTemplate<bool,bool>
-            m_OnVariantInt: 0x4E0, // CEntityOutputTemplate<int32,int32>
-            m_OnVariantFloat: 0x500, // CEntityOutputTemplate<float32,float32>
-            m_OnVariantString: 0x520, // CEntityOutputTemplate<CUtlSymbolLarge,CUtlSymbolLarge>
-            m_OnVariantColor: 0x540, // CEntityOutputTemplate<Color,Color>
-            m_OnVariantVector: 0x560, // CEntityOutputTemplate<Vector,Vector>
+            m_OnVariantBool: 0x4C0, // CEntityOutputTemplate<bool>
+            m_OnVariantInt: 0x4E0, // CEntityOutputTemplate<int32>
+            m_OnVariantFloat: 0x500, // CEntityOutputTemplate<float32>
+            m_OnVariantString: 0x520, // CEntityOutputTemplate<CUtlSymbolLarge>
+            m_OnVariantColor: 0x540, // CEntityOutputTemplate<Color>
+            m_OnVariantVector: 0x560, // CEntityOutputTemplate<Vector>
             m_bAllowEmptyInputs: 0x588, // bool
+            m_TestComponent: 0x590, // CTestPulseIOComponent_Derived
+            m_OnInternalTestVoid: 0x5C0, // CEntityIOOutput
+            m_OnInternalTestBool: 0x5D8, // CEntityOutputTemplate<bool>
+            m_OnInternalTestInt: 0x5F8, // CEntityOutputTemplate<int32>
+            m_OnInternalTestFloat: 0x618, // CEntityOutputTemplate<float32>
+            m_OnInternalTestString: 0x638, // CEntityOutputTemplate<CUtlSymbolLarge>
+            m_OnInternalTestColor: 0x658, // CEntityOutputTemplate<Color>
+            m_OnInternalTestVector: 0x678, // CEntityOutputTemplate<Vector>
+            m_OnInternalTestEntityName: 0x6A0, // CEntityOutputTemplate<CEntityNameString>
+            m_OnInternalTestEntityHandle: 0x6C0, // CEntityOutputTemplate<CHandle<CBaseEntity>>
+            m_OnInternalTestSchemaEnum: 0x6E0, // CEntityOutputTemplate<TestInputOutputCombinationsEnum_t>
+            m_OnInternalTestFloatString: 0x700, // CEntityOutputTemplate<CTestPulseIO::FloatStringArgs_t>
+            m_OnInternalTestEntityNameString: 0x728, // CEntityOutputTemplate<CTestPulseIO::EntityNameStringArgs_t>
+            m_OnInternalTestEntityHandleInt: 0x750, // CEntityOutputTemplate<CTestPulseIO::EntityHandleIntArgs_t>
+            m_OnInternalTestStringStringString: 0x770, // CEntityOutputTemplate<CTestPulseIO::ThreeStringArgs_t>
         },
         CWeaponUMP45: {
         },
@@ -2390,13 +2520,13 @@ export const Schemas = {
             m_OutputConnections: 0x128, // CUtlVector<CPulse_OutputConnection*>
         },
         CKnife: {
-            m_bFirstAttack: 0x1130, // bool
+            m_bFirstAttack: 0x1030, // bool
         },
         CLogicPlayerProxy: {
             m_PlayerHasAmmo: 0x4A8, // CEntityIOOutput
             m_PlayerHasNoAmmo: 0x4C0, // CEntityIOOutput
             m_PlayerDied: 0x4D8, // CEntityIOOutput
-            m_RequestedPlayerHealth: 0x4F0, // CEntityOutputTemplate<int32,int32>
+            m_RequestedPlayerHealth: 0x4F0, // CEntityOutputTemplate<int32>
             m_hPlayer: 0x510, // CHandle<CBaseEntity>
         },
         CCSGO_TeamIntroCharacterPosition: {
@@ -2423,14 +2553,17 @@ export const Schemas = {
         CWaterBullet: {
         },
         CTriggerSoundscape: {
-            m_hSoundscape: 0x890, // CHandle<CEnvSoundscapeTriggerable>
-            m_SoundscapeName: 0x898, // CUtlSymbolLarge
-            m_spectators: 0x8A0, // CUtlVector<CHandle<CBasePlayerPawn>>
+            m_hSoundscape: 0x8C8, // CHandle<CEnvSoundscapeTriggerable>
+            m_SoundscapeName: 0x8D0, // CUtlSymbolLarge
+            m_spectators: 0x8D8, // CUtlVector<CHandle<CBasePlayerPawn>>
+        },
+        CPulseCell_Outflow_PlayVOLine__CursorState_t: {
+            m_sceneInstance: 0x0, // CHandle<CBaseEntity>
         },
         CPointTeleportAPI: {
         },
         CHostageExpresserShim: {
-            m_pExpresser: 0xB70, // CAI_Expresser*
+            m_pExpresser: 0xA00, // CAI_Expresser*
         },
         CPointChildModifier: {
             m_bOrphanInsteadOfDeletingChildrenOnRemove: 0x4A8, // bool
@@ -2442,9 +2575,9 @@ export const Schemas = {
         CWeaponHKP2000: {
         },
         CShatterGlassShardPhysics: {
-            m_bDebris: 0xCE0, // bool
-            m_hParentShard: 0xCE4, // uint32
-            m_ShardDesc: 0xCE8, // shard_model_desc_t
+            m_bDebris: 0xC10, // bool
+            m_hParentShard: 0xC14, // uint32
+            m_ShardDesc: 0xC18, // shard_model_desc_t
         },
         CPathParticleRope: {
             m_bStartActive: 0x4B0, // bool
@@ -2463,10 +2596,6 @@ export const Schemas = {
             m_PathNodes_Color: 0x540, // CNetworkUtlVectorBase<Vector>
             m_PathNodes_PinEnabled: 0x558, // CNetworkUtlVectorBase<bool>
             m_PathNodes_RadiusScale: 0x570, // CNetworkUtlVectorBase<float32>
-            m_PathToEntityTransform: 0x10, // CTransform
-            m_vecPathSamplePositions: 0x30, // CUtlVector<Vector>
-            m_vecPathSampleParameters: 0x48, // CUtlVector<float32>
-            m_vecPathSampleDistances: 0x60, // CUtlVector<float32>
         },
         CCredits: {
             m_OnCreditsDone: 0x4A8, // CEntityIOOutput
@@ -2493,53 +2622,56 @@ export const Schemas = {
             m_pButtonPressedCmdNumber: 0x88, // uint32[64]
             m_nLastCommandNumberProcessed: 0x188, // uint32
             m_nToggleButtonDownMask: 0x190, // uint64
-            m_flMaxspeed: 0x1A0, // float32
-            m_arrForceSubtickMoveWhen: 0x1A4, // float32[4]
-            m_flForwardMove: 0x1B4, // float32
-            m_flLeftMove: 0x1B8, // float32
-            m_flUpMove: 0x1BC, // float32
-            m_vecLastMovementImpulses: 0x1C0, // Vector
-            m_vecOldViewAngles: 0x228, // QAngle
+            m_flCmdForwardMove: 0x1A0, // float32
+            m_flCmdLeftMove: 0x1A4, // float32
+            m_flCmdUpMove: 0x1A8, // float32
+            m_flMaxspeed: 0x1AC, // float32
+            m_arrForceSubtickMoveWhen: 0x1B0, // float32[4]
+            m_flForwardMove: 0x1C0, // float32
+            m_flLeftMove: 0x1C4, // float32
+            m_flUpMove: 0x1C8, // float32
+            m_vecLastMovementImpulses: 0x1CC, // Vector
+            m_vecOldViewAngles: 0x240, // QAngle
         },
         CRagdollPropAlias_physics_prop_ragdoll: {
         },
         CBreakableProp: {
-            m_CPropDataComponent: 0xA58, // CPropDataComponent
-            m_OnStartDeath: 0xA98, // CEntityIOOutput
-            m_OnBreak: 0xAB0, // CEntityIOOutput
-            m_OnHealthChanged: 0xAC8, // CEntityOutputTemplate<float32,float32>
-            m_OnTakeDamage: 0xAE8, // CEntityIOOutput
-            m_impactEnergyScale: 0xB00, // float32
-            m_iMinHealthDmg: 0xB04, // int32
-            m_preferredCarryAngles: 0xB08, // QAngle
-            m_flPressureDelay: 0xB14, // float32
-            m_flDefBurstScale: 0xB18, // float32
-            m_vDefBurstOffset: 0xB1C, // Vector
-            m_hBreaker: 0xB28, // CHandle<CBaseEntity>
-            m_PerformanceMode: 0xB2C, // PerformanceMode_t
-            m_flPreventDamageBeforeTime: 0xB30, // GameTime_t
-            m_BreakableContentsType: 0xB34, // BreakableContentsType_t
-            m_strBreakableContentsPropGroupOverride: 0xB38, // CUtlString
-            m_strBreakableContentsParticleOverride: 0xB40, // CUtlString
-            m_bHasBreakPiecesOrCommands: 0xB48, // bool
-            m_explodeDamage: 0xB4C, // float32
-            m_explodeRadius: 0xB50, // float32
-            m_nExplosionType: 0xB54, // BaseExplosionTypes_t
-            m_explosionDelay: 0xB58, // float32
-            m_explosionBuildupSound: 0xB60, // CUtlSymbolLarge
-            m_explosionCustomEffect: 0xB68, // CUtlSymbolLarge
-            m_explosionCustomSound: 0xB70, // CUtlSymbolLarge
-            m_explosionModifier: 0xB78, // CUtlSymbolLarge
-            m_hPhysicsAttacker: 0xB80, // CHandle<CBasePlayerPawn>
-            m_flLastPhysicsInfluenceTime: 0xB84, // GameTime_t
-            m_flDefaultFadeScale: 0xB88, // float32
-            m_hLastAttacker: 0xB8C, // CHandle<CBaseEntity>
-            m_iszPuntSound: 0xB90, // CUtlSymbolLarge
-            m_bUsePuntSound: 0xB98, // bool
-            m_bOriginalBlockLOS: 0xB99, // bool
+            m_CPropDataComponent: 0x978, // CPropDataComponent
+            m_OnStartDeath: 0x9B8, // CEntityIOOutput
+            m_OnBreak: 0x9D0, // CEntityIOOutput
+            m_OnHealthChanged: 0x9E8, // CEntityOutputTemplate<float32>
+            m_OnTakeDamage: 0xA08, // CEntityIOOutput
+            m_impactEnergyScale: 0xA20, // float32
+            m_iMinHealthDmg: 0xA24, // int32
+            m_preferredCarryAngles: 0xA28, // QAngle
+            m_flPressureDelay: 0xA34, // float32
+            m_flDefBurstScale: 0xA38, // float32
+            m_vDefBurstOffset: 0xA3C, // Vector
+            m_hBreaker: 0xA48, // CHandle<CBaseEntity>
+            m_PerformanceMode: 0xA4C, // PerformanceMode_t
+            m_flPreventDamageBeforeTime: 0xA50, // GameTime_t
+            m_BreakableContentsType: 0xA54, // BreakableContentsType_t
+            m_strBreakableContentsPropGroupOverride: 0xA58, // CUtlString
+            m_strBreakableContentsParticleOverride: 0xA60, // CUtlString
+            m_bHasBreakPiecesOrCommands: 0xA68, // bool
+            m_explodeDamage: 0xA6C, // float32
+            m_explodeRadius: 0xA70, // float32
+            m_sExplosionType: 0xA78, // CGlobalSymbol
+            m_explosionDelay: 0xA80, // float32
+            m_explosionBuildupSound: 0xA88, // CUtlSymbolLarge
+            m_explosionCustomEffect: 0xA90, // CUtlSymbolLarge
+            m_explosionCustomSound: 0xA98, // CUtlSymbolLarge
+            m_explosionModifier: 0xAA0, // CUtlSymbolLarge
+            m_hPhysicsAttacker: 0xAA8, // CHandle<CBasePlayerPawn>
+            m_flLastPhysicsInfluenceTime: 0xAAC, // GameTime_t
+            m_flDefaultFadeScale: 0xAB0, // float32
+            m_hLastAttacker: 0xAB4, // CHandle<CBaseEntity>
+            m_iszPuntSound: 0xAB8, // CUtlSymbolLarge
+            m_bUsePuntSound: 0xAC0, // bool
+            m_bOriginalBlockLOS: 0xAC1, // bool
         },
         CLightEntity: {
-            m_CLightComponent: 0x730, // CLightComponent*
+            m_CLightComponent: 0x768, // CLightComponent*
         },
         CInfoDynamicShadowHintBox: {
             m_vBoxMins: 0x4C0, // Vector
@@ -2547,39 +2679,42 @@ export const Schemas = {
         },
         CBaseAnimGraphController: {
             m_nAnimationAlgorithm: 0x18, // AnimationAlgorithm_t
-            m_animGraphNetworkedVars: 0x20, // CAnimGraphNetworkedVariables
-            m_pAnimGraphInstance: 0x228, // CSmartPtr<IAnimationGraphInstance>
-            m_nNextExternalGraphHandle: 0x288, // ExternalAnimGraphHandle_t
-            m_vecSecondarySkeletonNames: 0x290, // CUtlVector<CGlobalSymbol>
-            m_vecSecondarySkeletons: 0x2A8, // CNetworkUtlVectorBase<CHandle<CBaseAnimGraph>>
-            m_nSecondarySkeletonMasterCount: 0x2C0, // int32
-            m_flSoundSyncTime: 0x2C4, // float32
-            m_nActiveIKChainMask: 0x2C8, // uint32
-            m_hSequence: 0x2CC, // HSequence
-            m_flSeqStartTime: 0x2D0, // GameTime_t
-            m_flSeqFixedCycle: 0x2D4, // float32
-            m_nAnimLoopMode: 0x2D8, // AnimLoopMode_t
-            m_flPlaybackRate: 0x2DC, // CNetworkedQuantizedFloat
-            m_nNotifyState: 0x2E8, // SequenceFinishNotifyState_t
-            m_bNetworkedAnimationInputsChanged: 0x2E9, // bool
-            m_bNetworkedSequenceChanged: 0x2EA, // bool
-            m_bLastUpdateSkipped: 0x2EB, // bool
-            m_bSequenceFinished: 0x2EC, // bool
-            m_nPrevAnimUpdateTick: 0x2F0, // GameTick_t
-            m_hGraphDefinitionAG2: 0x590, // CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
-            m_serializedPoseRecipeAG2: 0x598, // CNetworkUtlVectorBase<uint8>
-            m_nSerializePoseRecipeSizeAG2: 0x5B0, // int32
-            m_nSerializePoseRecipeVersionAG2: 0x5B4, // int32
-            m_nServerGraphInstanceIteration: 0x5B8, // int32
-            m_nServerSerializationContextIteration: 0x5BC, // int32
-            m_primaryGraphId: 0x5C0, // ResourceId_t
-            m_vecExternalGraphIds: 0x5C8, // CNetworkUtlVectorBase<ResourceId_t>
-            m_vecExternalClipIds: 0x5E0, // CNetworkUtlVectorBase<ResourceId_t>
-            m_sAnimGraph2Identifier: 0x5F8, // CGlobalSymbol
-            m_vecExternalGraphs: 0x820, // CUtlVector<ExternalAnimGraph_t>
-            disposition: 0x0, // Disposition_t
+            m_nNextExternalGraphHandle: 0x1C, // ExternalAnimGraphHandle_t
+            m_vecSecondarySkeletonSlotIDs: 0x20, // CNetworkUtlVectorBase<CGlobalSymbol>
+            m_vecSecondarySkeletons: 0x38, // CNetworkUtlVectorBase<CHandle<CBaseAnimGraph>>
+            m_nSecondarySkeletonMasterCount: 0x50, // int32
+            m_flSoundSyncTime: 0x54, // float32
+            m_nActiveIKChainMask: 0x58, // uint32
+            m_hSequence: 0x5C, // HSequence
+            m_flSeqStartTime: 0x60, // GameTime_t
+            m_flSeqFixedCycle: 0x64, // float32
+            m_nAnimLoopMode: 0x68, // AnimLoopMode_t
+            m_flPlaybackRate: 0x6C, // CNetworkedQuantizedFloat
+            m_nNotifyState: 0x78, // SequenceFinishNotifyState_t
+            m_bNetworkedAnimationInputsChanged: 0x79, // bool
+            m_bNetworkedSequenceChanged: 0x7A, // bool
+            m_bLastUpdateSkipped: 0x7B, // bool
+            m_bSequenceFinished: 0x7C, // bool
+            m_nPrevAnimUpdateTick: 0x80, // GameTick_t
+            m_hGraphDefinitionAG2: 0x320, // CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
+            m_SerializePoseRecipeAG2Slots: 0x328, // CUtlVectorEmbeddedNetworkVar<AnimGraph2SerializedPoseRecipeSlot_t>
+            m_SerializePoseRecipeAG2Dynamic: 0x390, // CNetworkUtlVectorBase<uint8>
+            m_nSerializePoseRecipeAG2ActiveSlot: 0x3A8, // uint32
+            m_nSerializePoseRecipeVersionAG2: 0x3AC, // int32
+            m_nServerGraphInstanceIteration: 0x3C0, // int32
+            m_nServerSerializationContextIteration: 0x3C4, // int32
+            m_primaryGraphId: 0x3C8, // ResourceId_t
+            m_vecExternalGraphIds: 0x3D0, // CNetworkUtlVectorBase<ResourceId_t>
+            m_vecExternalClipIds: 0x3E8, // CNetworkUtlVectorBase<ResourceId_t>
+            m_sAnimGraph2Identifier: 0x400, // CGlobalSymbol
+            m_pGraphInstanceAG2: 0x408, // CNmGraphInstance*
+            m_vecExternalGraphs: 0x620, // CUtlVector<ExternalAnimGraph_t>
+        },
+        AnimGraph2SerializedPoseRecipeSlot_t: {
+            m_topology: 0x30, // CUtlBinaryBlock
         },
         CBuoyancyHelper: {
+            m_pController: 0x8, // IPhysicsMotionController*
             m_nFluidType: 0x18, // CUtlStringToken
             m_flFluidDensity: 0x1C, // float32
             m_flNeutrallyBuoyantGravity: 0x20, // float32
@@ -2592,14 +2727,14 @@ export const Schemas = {
             m_vecWheelDrag: 0x78, // CUtlVector<float32>
         },
         COrnamentProp: {
-            m_initialOwner: 0xC50, // CUtlSymbolLarge
+            m_initialOwner: 0xB80, // CUtlSymbolLarge
         },
         CCSPlayer_CameraServices: {
         },
         CModelPointEntity: {
         },
         CRectLight: {
-            m_bShowLight: 0xA20, // bool
+            m_bShowLight: 0xA50, // bool
         },
         CFilterMultiple: {
             m_nFilterType: 0x4E0, // filter_t
@@ -2625,15 +2760,15 @@ export const Schemas = {
             m_OnCanceled: 0xB0, // CPulse_ResumePoint
         },
         CFuncNavBlocker: {
-            m_bDisabled: 0x738, // bool
-            m_nBlockedTeamNumber: 0x73C, // int32
+            m_bDisabled: 0x770, // bool
+            m_nBlockedTeamNumber: 0x774, // int32
         },
         CMoverPathNode: {
-            m_OnStartFromOrInSegment: 0x500, // CEntityOutputTemplate<CUtlString,char*>
-            m_OnStoppedAtOrInSegment: 0x520, // CEntityOutputTemplate<CUtlString,char*>
-            m_OnPassThrough: 0x540, // CEntityOutputTemplate<CUtlString,char*>
-            m_OnPassThroughForward: 0x560, // CEntityOutputTemplate<CUtlString,char*>
-            m_OnPassThroughReverse: 0x580, // CEntityOutputTemplate<CUtlString,char*>
+            m_OnStartFromOrInSegment: 0x500, // CEntityOutputTemplate<CUtlString>
+            m_OnStoppedAtOrInSegment: 0x520, // CEntityOutputTemplate<CUtlString>
+            m_OnPassThrough: 0x540, // CEntityOutputTemplate<CUtlString>
+            m_OnPassThroughForward: 0x560, // CEntityOutputTemplate<CUtlString>
+            m_OnPassThroughReverse: 0x580, // CEntityOutputTemplate<CUtlString>
         },
         CEnvSoundscape: {
             m_OnPlay: 0x4A8, // CEntityIOOutput
@@ -2649,36 +2784,36 @@ export const Schemas = {
             m_soundEventHash: 0x530, // uint32
         },
         CFuncBrush: {
-            m_iSolidity: 0x730, // BrushSolidities_e
-            m_iDisabled: 0x734, // int32
-            m_bSolidBsp: 0x738, // bool
-            m_iszExcludedClass: 0x740, // CUtlSymbolLarge
-            m_bInvertExclusion: 0x748, // bool
-            m_bScriptedMovement: 0x749, // bool
+            m_iSolidity: 0x768, // BrushSolidities_e
+            m_iDisabled: 0x76C, // int32
+            m_bSolidBsp: 0x770, // bool
+            m_iszExcludedClass: 0x778, // CUtlSymbolLarge
+            m_bInvertExclusion: 0x780, // bool
+            m_bScriptedMovement: 0x781, // bool
         },
         CBodyComponentPoint: {
             m_sceneNode: 0x80, // CGameSceneNode
         },
         CPhysBox: {
-            m_damageType: 0x808, // int32
-            m_damageToEnableMotion: 0x80C, // int32
-            m_flForceToEnableMotion: 0x810, // float32
-            m_vHoverPosePosition: 0x814, // Vector
-            m_angHoverPoseAngles: 0x820, // QAngle
-            m_bNotSolidToWorld: 0x82C, // bool
-            m_bEnableUseOutput: 0x82D, // bool
-            m_nHoverPoseFlags: 0x82E, // HoverPoseFlags_t
-            m_flTouchOutputPerEntityDelay: 0x830, // float32
-            m_OnDamaged: 0x838, // CEntityIOOutput
-            m_OnAwakened: 0x850, // CEntityIOOutput
-            m_OnMotionEnabled: 0x868, // CEntityIOOutput
-            m_OnPlayerUse: 0x880, // CEntityIOOutput
-            m_OnStartTouch: 0x898, // CEntityIOOutput
-            m_hCarryingPlayer: 0x8B0, // CHandle<CBasePlayerPawn>
+            m_damageType: 0x840, // int32
+            m_damageToEnableMotion: 0x844, // int32
+            m_flForceToEnableMotion: 0x848, // float32
+            m_vHoverPosePosition: 0x84C, // Vector
+            m_angHoverPoseAngles: 0x858, // QAngle
+            m_bNotSolidToWorld: 0x864, // bool
+            m_bEnableUseOutput: 0x865, // bool
+            m_nHoverPoseFlags: 0x866, // HoverPoseFlags_t
+            m_flTouchOutputPerEntityDelay: 0x868, // float32
+            m_OnDamaged: 0x870, // CEntityIOOutput
+            m_OnAwakened: 0x888, // CEntityIOOutput
+            m_OnMotionEnabled: 0x8A0, // CEntityIOOutput
+            m_OnPlayerUse: 0x8B8, // CEntityIOOutput
+            m_OnStartTouch: 0x8D0, // CEntityIOOutput
+            m_hCarryingPlayer: 0x8E8, // CHandle<CBasePlayerPawn>
         },
         CSoundEventAABBEntity: {
-            m_vMins: 0x558, // Vector
-            m_vMaxs: 0x564, // Vector
+            m_vMins: 0x568, // Vector
+            m_vMaxs: 0x574, // Vector
         },
         CItemSoda: {
         },
@@ -2687,13 +2822,13 @@ export const Schemas = {
             m_EventOutflow: 0x8, // CPulse_OutflowConnection
         },
         COmniLight: {
-            m_flInnerAngle: 0xA20, // float32
-            m_flOuterAngle: 0xA24, // float32
-            m_bShowLight: 0xA28, // bool
+            m_flInnerAngle: 0xA50, // float32
+            m_flOuterAngle: 0xA54, // float32
+            m_bShowLight: 0xA58, // bool
         },
         CTriggerVolume: {
-            m_iFilterName: 0x730, // CUtlSymbolLarge
-            m_hFilter: 0x738, // CHandle<CBaseFilter>
+            m_iFilterName: 0x768, // CUtlSymbolLarge
+            m_hFilter: 0x770, // CHandle<CBaseFilter>
         },
         CBtNodeCondition: {
             m_bNegated: 0x58, // bool
@@ -2708,21 +2843,21 @@ export const Schemas = {
         CPulseCell_BaseRequirement: {
         },
         CEnvExplosion: {
-            m_iMagnitude: 0x730, // int32
-            m_flPlayerDamage: 0x734, // float32
-            m_iRadiusOverride: 0x738, // int32
-            m_flInnerRadius: 0x73C, // float32
-            m_flDamageForce: 0x740, // float32
-            m_hInflictor: 0x744, // CHandle<CBaseEntity>
-            m_iCustomDamageType: 0x748, // DamageTypes_t
-            m_bCreateDebris: 0x74C, // bool
-            m_iszCustomEffectName: 0x758, // CUtlSymbolLarge
-            m_iszCustomSoundName: 0x760, // CUtlSymbolLarge
-            m_bSuppressParticleImpulse: 0x768, // bool
-            m_iClassIgnore: 0x76C, // Class_T
-            m_iClassIgnore2: 0x770, // Class_T
-            m_iszEntityIgnoreName: 0x778, // CUtlSymbolLarge
-            m_hEntityIgnore: 0x780, // CHandle<CBaseEntity>
+            m_iMagnitude: 0x768, // int32
+            m_flPlayerDamage: 0x76C, // float32
+            m_iRadiusOverride: 0x770, // int32
+            m_flInnerRadius: 0x774, // float32
+            m_flDamageForce: 0x778, // float32
+            m_hInflictor: 0x77C, // CHandle<CBaseEntity>
+            m_iCustomDamageType: 0x780, // DamageTypes_t
+            m_bCreateDebris: 0x784, // bool
+            m_iszCustomEffectName: 0x790, // CUtlSymbolLarge
+            m_iszCustomSoundName: 0x798, // CUtlSymbolLarge
+            m_bSuppressParticleImpulse: 0x7A0, // bool
+            m_iClassIgnore: 0x7A4, // Class_T
+            m_iClassIgnore2: 0x7A8, // Class_T
+            m_iszEntityIgnoreName: 0x7B0, // CUtlSymbolLarge
+            m_hEntityIgnore: 0x7B8, // CHandle<CBaseEntity>
         },
         CPulseCell_BaseState: {
         },
@@ -2732,11 +2867,16 @@ export const Schemas = {
             m_RequirementNodeIDs: 0x50, // CUtlVector<PulseDocNodeID_t>
             m_nCursorStateBlockIndex: 0x68, // CUtlVector<int32>
         },
+        CTestPulseIO__ThreeStringArgs_t: {
+            strArg1: 0x0, // CUtlString
+            strArg2: 0x8, // CUtlString
+            strArg3: 0x10, // CUtlString
+        },
         CPulseCell_IsRequirementValid: {
         },
         CFootstepControl: {
-            m_source: 0x890, // CUtlSymbolLarge
-            m_destination: 0x898, // CUtlSymbolLarge
+            m_source: 0x8C8, // CUtlSymbolLarge
+            m_destination: 0x8D0, // CUtlSymbolLarge
         },
         CCSPlayer_ItemServices: {
             m_bHasDefuser: 0x48, // bool
@@ -2746,35 +2886,35 @@ export const Schemas = {
             m_Gradient: 0x48, // CColorGradient
         },
         CParticleSystem: {
-            m_szSnapshotFileName: 0x730, // char[512]
-            m_bActive: 0x930, // bool
-            m_bFrozen: 0x931, // bool
-            m_flFreezeTransitionDuration: 0x934, // float32
-            m_nStopType: 0x938, // int32
-            m_bAnimateDuringGameplayPause: 0x93C, // bool
-            m_iEffectIndex: 0x940, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_flStartTime: 0x948, // GameTime_t
-            m_flPreSimTime: 0x94C, // float32
-            m_vServerControlPoints: 0x950, // Vector[4]
-            m_iServerControlPointAssignments: 0x980, // uint8[4]
-            m_hControlPointEnts: 0x984, // CHandle<CBaseEntity>[64]
-            m_bNoSave: 0xA84, // bool
-            m_bNoFreeze: 0xA85, // bool
-            m_bNoRamp: 0xA86, // bool
-            m_bStartActive: 0xA87, // bool
-            m_iszEffectName: 0xA88, // CUtlSymbolLarge
-            m_iszControlPointNames: 0xA90, // CUtlSymbolLarge[64]
-            m_nDataCP: 0xC90, // int32
-            m_vecDataCPValue: 0xC94, // Vector
-            m_nTintCP: 0xCA0, // int32
-            m_clrTint: 0xCA4, // Color
+            m_szSnapshotFileName: 0x768, // char[512]
+            m_bActive: 0x968, // bool
+            m_bFrozen: 0x969, // bool
+            m_flFreezeTransitionDuration: 0x96C, // float32
+            m_nStopType: 0x970, // int32
+            m_bAnimateDuringGameplayPause: 0x974, // bool
+            m_iEffectIndex: 0x978, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_flStartTime: 0x980, // GameTime_t
+            m_flPreSimTime: 0x984, // float32
+            m_vServerControlPoints: 0x988, // Vector[4]
+            m_iServerControlPointAssignments: 0x9B8, // uint8[4]
+            m_hControlPointEnts: 0x9BC, // CHandle<CBaseEntity>[64]
+            m_bNoSave: 0xABC, // bool
+            m_bNoFreeze: 0xABD, // bool
+            m_bNoRamp: 0xABE, // bool
+            m_bStartActive: 0xABF, // bool
+            m_iszEffectName: 0xAC0, // CUtlSymbolLarge
+            m_iszControlPointNames: 0xAC8, // CUtlSymbolLarge[64]
+            m_nDataCP: 0xCC8, // int32
+            m_vecDataCPValue: 0xCCC, // Vector
+            m_nTintCP: 0xCD8, // int32
+            m_clrTint: 0xCDC, // Color
         },
         CTriggerBrush: {
-            m_OnStartTouch: 0x730, // CEntityIOOutput
-            m_OnEndTouch: 0x748, // CEntityIOOutput
-            m_OnUse: 0x760, // CEntityIOOutput
-            m_iInputFilter: 0x778, // int32
-            m_iDontMessageParent: 0x77C, // int32
+            m_OnStartTouch: 0x768, // CEntityIOOutput
+            m_OnEndTouch: 0x780, // CEntityIOOutput
+            m_OnUse: 0x798, // CEntityIOOutput
+            m_iInputFilter: 0x7B0, // int32
+            m_iDontMessageParent: 0x7B4, // int32
         },
         IntervalTimer: {
             m_timestamp: 0x8, // GameTime_t
@@ -2805,6 +2945,10 @@ export const Schemas = {
         },
         CPulseCursorFuncs: {
         },
+        CTestPulseIO__FloatStringArgs_t: {
+            flOutFloat: 0x0, // float32
+            strOutString: 0x8, // CUtlSymbolLarge
+        },
         CountdownTimer: {
             m_duration: 0x8, // float32
             m_timestamp: 0xC, // GameTime_t
@@ -2818,44 +2962,36 @@ export const Schemas = {
         CItemAssaultSuit: {
         },
         CBeam: {
-            m_flFrameRate: 0x730, // float32
-            m_flHDRColorScale: 0x734, // float32
-            m_flFireTime: 0x738, // GameTime_t
-            m_flDamage: 0x73C, // float32
-            m_nNumBeamEnts: 0x740, // uint8
-            m_hBaseMaterial: 0x748, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_nHaloIndex: 0x750, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_nBeamType: 0x758, // BeamType_t
-            m_nBeamFlags: 0x75C, // uint32
-            m_hAttachEntity: 0x760, // CHandle<CBaseEntity>[10]
-            m_nAttachIndex: 0x788, // AttachmentHandle_t[10]
-            m_fWidth: 0x794, // float32
-            m_fEndWidth: 0x798, // float32
-            m_fFadeLength: 0x79C, // float32
-            m_fHaloScale: 0x7A0, // float32
-            m_fAmplitude: 0x7A4, // float32
-            m_fStartFrame: 0x7A8, // float32
-            m_fSpeed: 0x7AC, // float32
-            m_flFrame: 0x7B0, // float32
-            m_nClipStyle: 0x7B4, // BeamClipStyle_t
-            m_bTurnedOff: 0x7B8, // bool
-            m_vecEndPos: 0x7BC, // VectorWS
-            m_hEndEntity: 0x7C8, // CHandle<CBaseEntity>
-            m_nDissolveType: 0x7CC, // int32
-            m_vecLadderDir: 0x730, // Vector
-            m_Dismounts: 0x740, // CUtlVector<CHandle<CInfoLadderDismount>>
-            m_vecLocalTop: 0x758, // Vector
-            m_vecPlayerMountPositionTop: 0x764, // VectorWS
-            m_vecPlayerMountPositionBottom: 0x770, // VectorWS
-            m_flAutoRideSpeed: 0x77C, // float32
-            m_bDisabled: 0x780, // bool
-            m_bFakeLadder: 0x781, // bool
+            m_flFrameRate: 0x768, // float32
+            m_flHDRColorScale: 0x76C, // float32
+            m_flFireTime: 0x770, // GameTime_t
+            m_flDamage: 0x774, // float32
+            m_nNumBeamEnts: 0x778, // uint8
+            m_hBaseMaterial: 0x780, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_nHaloIndex: 0x788, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_nBeamType: 0x790, // BeamType_t
+            m_nBeamFlags: 0x794, // uint32
+            m_hAttachEntity: 0x798, // CHandle<CBaseEntity>[10]
+            m_nAttachIndex: 0x7C0, // AttachmentHandle_t[10]
+            m_fWidth: 0x7CC, // float32
+            m_fEndWidth: 0x7D0, // float32
+            m_fFadeLength: 0x7D4, // float32
+            m_fHaloScale: 0x7D8, // float32
+            m_fAmplitude: 0x7DC, // float32
+            m_fStartFrame: 0x7E0, // float32
+            m_fSpeed: 0x7E4, // float32
+            m_flFrame: 0x7E8, // float32
+            m_nClipStyle: 0x7EC, // BeamClipStyle_t
+            m_bTurnedOff: 0x7F0, // bool
+            m_vecEndPos: 0x7F4, // VectorWS
+            m_hEndEntity: 0x800, // CHandle<CBaseEntity>
+            m_nDissolveType: 0x804, // int32
         },
         CLogicEventListener: {
             m_strEventName: 0x4B8, // CUtlString
             m_bIsEnabled: 0x4C0, // bool
             m_nTeam: 0x4C4, // int32
-            m_OnEventFired: 0x4C8, // CEntityOutputTemplate<CUtlString,char*>
+            m_OnEventFired: 0x4C8, // CEntityOutputTemplate<CUtlString>
         },
         CCSGO_TeamSelectTerroristPosition: {
         },
@@ -2866,34 +3002,31 @@ export const Schemas = {
         CWeaponElite: {
         },
         CBasePlayerPawn: {
-            m_pWeaponServices: 0xB70, // CPlayer_WeaponServices*
-            m_pItemServices: 0xB78, // CPlayer_ItemServices*
-            m_pAutoaimServices: 0xB80, // CPlayer_AutoaimServices*
-            m_pObserverServices: 0xB88, // CPlayer_ObserverServices*
-            m_pWaterServices: 0xB90, // CPlayer_WaterServices*
-            m_pUseServices: 0xB98, // CPlayer_UseServices*
-            m_pFlashlightServices: 0xBA0, // CPlayer_FlashlightServices*
-            m_pCameraServices: 0xBA8, // CPlayer_CameraServices*
-            m_pMovementServices: 0xBB0, // CPlayer_MovementServices*
-            m_ServerViewAngleChanges: 0xBC0, // CUtlVectorEmbeddedNetworkVar<ViewAngleServerChange_t>
-            v_angle: 0xC28, // QAngle
-            v_anglePrevious: 0xC34, // QAngle
-            m_iHideHUD: 0xC40, // uint32
-            m_skybox3d: 0xC48, // sky3dparams_t
-            m_fTimeLastHurt: 0xCD8, // GameTime_t
-            m_flDeathTime: 0xCDC, // GameTime_t
-            m_fNextSuicideTime: 0xCE0, // GameTime_t
-            m_fInitHUD: 0xCE4, // bool
-            m_pExpresser: 0xCE8, // CAI_Expresser*
-            m_hController: 0xCF0, // CHandle<CBasePlayerController>
-            m_hDefaultController: 0xCF4, // CHandle<CBasePlayerController>
-            m_fHltvReplayDelay: 0xCFC, // float32
-            m_fHltvReplayEnd: 0xD00, // float32
-            m_iHltvReplayEntity: 0xD04, // CEntityIndex
-            m_sndOpvarLatchData: 0xD08, // CUtlVector<sndopvarlatchdata_t>
-            m_iszName: 0x0, // CUtlSymbolLarge
-            m_iszValue: 0x8, // CUtlSymbolLarge
-            m_fExpirationTime: 0x10, // GameTime_t
+            m_pWeaponServices: 0xA00, // CPlayer_WeaponServices*
+            m_pItemServices: 0xA08, // CPlayer_ItemServices*
+            m_pAutoaimServices: 0xA10, // CPlayer_AutoaimServices*
+            m_pObserverServices: 0xA18, // CPlayer_ObserverServices*
+            m_pWaterServices: 0xA20, // CPlayer_WaterServices*
+            m_pUseServices: 0xA28, // CPlayer_UseServices*
+            m_pFlashlightServices: 0xA30, // CPlayer_FlashlightServices*
+            m_pCameraServices: 0xA38, // CPlayer_CameraServices*
+            m_pMovementServices: 0xA40, // CPlayer_MovementServices*
+            m_ServerViewAngleChanges: 0xA50, // CUtlVectorEmbeddedNetworkVar<ViewAngleServerChange_t>
+            v_angle: 0xAB8, // QAngle
+            v_anglePrevious: 0xAC4, // QAngle
+            m_iHideHUD: 0xAD0, // uint32
+            m_skybox3d: 0xAD8, // sky3dparams_t
+            m_fTimeLastHurt: 0xB68, // GameTime_t
+            m_flDeathTime: 0xB6C, // GameTime_t
+            m_fNextSuicideTime: 0xB70, // GameTime_t
+            m_fInitHUD: 0xB74, // bool
+            m_pExpresser: 0xB78, // CAI_Expresser*
+            m_hController: 0xB80, // CHandle<CBasePlayerController>
+            m_hDefaultController: 0xB84, // CHandle<CBasePlayerController>
+            m_fHltvReplayDelay: 0xB8C, // float32
+            m_fHltvReplayEnd: 0xB90, // float32
+            m_iHltvReplayEntity: 0xB94, // CEntityIndex
+            m_sndOpvarLatchData: 0xB98, // CUtlVector<sndopvarlatchdata_t>
         },
         WeaponPurchaseCount_t: {
             m_nItemDefIndex: 0x30, // uint16
@@ -2913,7 +3046,7 @@ export const Schemas = {
             m_flInMax: 0x4AC, // float32
             m_OutColor1: 0x4B0, // Color
             m_OutColor2: 0x4B4, // Color
-            m_OutValue: 0x4B8, // CEntityOutputTemplate<Color,Color>
+            m_OutValue: 0x4B8, // CEntityOutputTemplate<Color>
         },
         CShower: {
         },
@@ -2921,7 +3054,7 @@ export const Schemas = {
             m_HookName: 0x80, // PulseSymbol_t
         },
         CScriptNavBlocker: {
-            m_vExtent: 0x748, // Vector
+            m_vExtent: 0x780, // Vector
         },
         CEntityBlocker: {
         },
@@ -2930,11 +3063,10 @@ export const Schemas = {
         CPathSimpleAPI: {
         },
         CCSObserverPawn: {
-            m_name: 0x748, // CUtlSymbolLarge
         },
         CTriggerActiveWeaponDetect: {
-            m_OnTouchedActiveWeapon: 0x890, // CEntityIOOutput
-            m_iszWeaponClassName: 0x8A8, // CUtlSymbolLarge
+            m_OnTouchedActiveWeapon: 0x8C8, // CEntityIOOutput
+            m_iszWeaponClassName: 0x8E0, // CUtlSymbolLarge
         },
         CFuncLadderAlias_func_useableladder: {
         },
@@ -2958,42 +3090,44 @@ export const Schemas = {
             m_SurfacePropStringToken: 0x78, // CUtlStringToken
         },
         CPlayerSprayDecal: {
-            m_nUniqueID: 0x730, // int32
-            m_unAccountID: 0x734, // uint32
-            m_unTraceID: 0x738, // uint32
-            m_rtGcTime: 0x73C, // uint32
-            m_vecEndPos: 0x740, // Vector
-            m_vecStart: 0x74C, // Vector
-            m_vecLeft: 0x758, // Vector
-            m_vecNormal: 0x764, // Vector
-            m_nPlayer: 0x770, // int32
-            m_nEntity: 0x774, // int32
-            m_nHitbox: 0x778, // int32
-            m_flCreationTime: 0x77C, // float32
-            m_nTintID: 0x780, // int32
-            m_nVersion: 0x784, // uint8
-            m_ubSignature: 0x785, // uint8[128]
-            m_strEventName: 0x4B8, // CUtlString
-            m_bIsEnabled: 0x4C0, // bool
-            m_nTeam: 0x4C4, // int32
-            m_OnEventFired: 0x4C8, // CEntityOutputTemplate<CUtlString,char*>
+            m_nUniqueID: 0x768, // int32
+            m_unAccountID: 0x76C, // uint32
+            m_unTraceID: 0x770, // uint32
+            m_rtGcTime: 0x774, // uint32
+            m_vecEndPos: 0x778, // Vector
+            m_vecStart: 0x784, // Vector
+            m_vecLeft: 0x790, // Vector
+            m_vecNormal: 0x79C, // Vector
+            m_nPlayer: 0x7A8, // int32
+            m_nEntity: 0x7AC, // int32
+            m_nHitbox: 0x7B0, // int32
+            m_flCreationTime: 0x7B4, // float32
+            m_nTintID: 0x7B8, // int32
+            m_nVersion: 0x7BC, // uint8
+            m_ubSignature: 0x7BD, // uint8[128]
         },
         CFuncWater: {
-            m_BuoyancyHelper: 0x730, // CBuoyancyHelper
+            m_BuoyancyHelper: 0x768, // CBuoyancyHelper
         },
         CCSGameModeRules: {
             __m_pChainEntity: 0x8, // CNetworkVarChainer
         },
+        CPointPrefabAPI: {
+        },
+        CPulseCell_Outflow_PlayVCD__VCDRequirementInfo_t: {
+            m_nEventID: 0x0, // int32
+            m_Outflow: 0x8, // CPulse_OutflowConnection
+        },
         CEconEntity: {
-            m_AttributeManager: 0xAC0, // CAttributeContainer
-            m_OriginalOwnerXuidLow: 0xDB8, // uint32
-            m_OriginalOwnerXuidHigh: 0xDBC, // uint32
-            m_nFallbackPaintKit: 0xDC0, // int32
-            m_nFallbackSeed: 0xDC4, // int32
-            m_flFallbackWear: 0xDC8, // float32
-            m_nFallbackStatTrak: 0xDCC, // int32
-            m_hOldProvidee: 0xDD0, // CHandle<CBaseEntity>
-            m_iOldOwnerClass: 0xDD4, // int32
+            m_AttributeManager: 0x958, // CAttributeContainer
+            m_OriginalOwnerXuidLow: 0xC50, // uint32
+            m_OriginalOwnerXuidHigh: 0xC54, // uint32
+            m_nFallbackPaintKit: 0xC58, // int32
+            m_nFallbackSeed: 0xC5C, // int32
+            m_flFallbackWear: 0xC60, // float32
+            m_nFallbackStatTrak: 0xC64, // int32
+            m_hOldProvidee: 0xC68, // CHandle<CBaseEntity>
+            m_iOldOwnerClass: 0xC6C, // int32
         },
         CTankTargetChange: {
             m_newTarget: 0x4A8, // CVariantBase<CVariantDefaultAllocator>
@@ -3046,8 +3180,6 @@ export const Schemas = {
             m_Entity_nLightProbeAtlasY: 0x15CC, // int32
             m_Entity_nLightProbeAtlasZ: 0x15D0, // int32
             m_Entity_bEnabled: 0x15E9, // bool
-            m_flFractionOfWheelSubmerged: 0x0, // float32
-            m_flWheelDrag: 0x4, // float32
         },
         ViewAngleServerChange_t: {
             nType: 0x30, // FixAngleSet_t
@@ -3081,54 +3213,54 @@ export const Schemas = {
             m_Triggers: 0x138, // CUtlVector<CPulse_OutflowConnection>
         },
         CFuncTrackChange: {
-            m_trackTop: 0x7F8, // CPathTrack*
-            m_trackBottom: 0x800, // CPathTrack*
-            m_train: 0x808, // CFuncTrackTrain*
-            m_trackTopName: 0x810, // CUtlSymbolLarge
-            m_trackBottomName: 0x818, // CUtlSymbolLarge
-            m_trainName: 0x820, // CUtlSymbolLarge
-            m_code: 0x828, // TRAIN_CODE
-            m_targetState: 0x82C, // int32
-            m_use: 0x830, // int32
+            m_trackTop: 0x830, // CHandle<CPathTrack>
+            m_trackBottom: 0x834, // CHandle<CPathTrack>
+            m_train: 0x838, // CHandle<CFuncTrackTrain>
+            m_trackTopName: 0x840, // CUtlSymbolLarge
+            m_trackBottomName: 0x848, // CUtlSymbolLarge
+            m_trainName: 0x850, // CUtlSymbolLarge
+            m_code: 0x858, // TRAIN_CODE
+            m_targetState: 0x85C, // int32
+            m_use: 0x860, // int32
         },
         CFuncTrackTrain: {
-            m_ppath: 0x730, // CHandle<CPathTrack>
-            m_length: 0x734, // float32
-            m_vPosPrev: 0x738, // Vector
-            m_angPrev: 0x744, // QAngle
-            m_controlMins: 0x750, // Vector
-            m_controlMaxs: 0x75C, // Vector
-            m_lastBlockPos: 0x768, // Vector
-            m_lastBlockTick: 0x774, // int32
-            m_flVolume: 0x778, // float32
-            m_flBank: 0x77C, // float32
-            m_oldSpeed: 0x780, // float32
-            m_flBlockDamage: 0x784, // float32
-            m_height: 0x788, // float32
-            m_maxSpeed: 0x78C, // float32
-            m_dir: 0x790, // float32
-            m_iszSoundMove: 0x798, // CUtlSymbolLarge
-            m_iszSoundMovePing: 0x7A0, // CUtlSymbolLarge
-            m_iszSoundStart: 0x7A8, // CUtlSymbolLarge
-            m_iszSoundStop: 0x7B0, // CUtlSymbolLarge
-            m_strPathTarget: 0x7B8, // CUtlSymbolLarge
-            m_flMoveSoundMinDuration: 0x7C0, // float32
-            m_flMoveSoundMaxDuration: 0x7C4, // float32
-            m_flNextMoveSoundTime: 0x7C8, // GameTime_t
-            m_flMoveSoundMinPitch: 0x7CC, // float32
-            m_flMoveSoundMaxPitch: 0x7D0, // float32
-            m_eOrientationType: 0x7D4, // TrainOrientationType_t
-            m_eVelocityType: 0x7D8, // TrainVelocityType_t
-            m_OnStart: 0x7F0, // CEntityIOOutput
-            m_OnNext: 0x808, // CEntityIOOutput
-            m_OnArrivedAtDestinationNode: 0x820, // CEntityIOOutput
-            m_bManualSpeedChanges: 0x838, // bool
-            m_flDesiredSpeed: 0x83C, // float32
-            m_flSpeedChangeTime: 0x840, // GameTime_t
-            m_flAccelSpeed: 0x844, // float32
-            m_flDecelSpeed: 0x848, // float32
-            m_bAccelToSpeed: 0x84C, // bool
-            m_flNextMPSoundTime: 0x850, // GameTime_t
+            m_ppath: 0x768, // CHandle<CPathTrack>
+            m_length: 0x76C, // float32
+            m_vPosPrev: 0x770, // Vector
+            m_angPrev: 0x77C, // QAngle
+            m_controlMins: 0x788, // Vector
+            m_controlMaxs: 0x794, // Vector
+            m_lastBlockPos: 0x7A0, // Vector
+            m_lastBlockTick: 0x7AC, // int32
+            m_flVolume: 0x7B0, // float32
+            m_flBank: 0x7B4, // float32
+            m_oldSpeed: 0x7B8, // float32
+            m_flBlockDamage: 0x7BC, // float32
+            m_height: 0x7C0, // float32
+            m_maxSpeed: 0x7C4, // float32
+            m_dir: 0x7C8, // float32
+            m_iszSoundMove: 0x7D0, // CUtlSymbolLarge
+            m_iszSoundMovePing: 0x7D8, // CUtlSymbolLarge
+            m_iszSoundStart: 0x7E0, // CUtlSymbolLarge
+            m_iszSoundStop: 0x7E8, // CUtlSymbolLarge
+            m_strPathTarget: 0x7F0, // CUtlSymbolLarge
+            m_flMoveSoundMinDuration: 0x7F8, // float32
+            m_flMoveSoundMaxDuration: 0x7FC, // float32
+            m_flNextMoveSoundTime: 0x800, // GameTime_t
+            m_flMoveSoundMinPitch: 0x804, // float32
+            m_flMoveSoundMaxPitch: 0x808, // float32
+            m_eOrientationType: 0x80C, // TrainOrientationType_t
+            m_eVelocityType: 0x810, // TrainVelocityType_t
+            m_OnStart: 0x828, // CEntityIOOutput
+            m_OnNext: 0x840, // CEntityIOOutput
+            m_OnArrivedAtDestinationNode: 0x858, // CEntityIOOutput
+            m_bManualSpeedChanges: 0x870, // bool
+            m_flDesiredSpeed: 0x874, // float32
+            m_flSpeedChangeTime: 0x878, // GameTime_t
+            m_flAccelSpeed: 0x87C, // float32
+            m_flDecelSpeed: 0x880, // float32
+            m_bAccelToSpeed: 0x884, // bool
+            m_flNextMPSoundTime: 0x888, // GameTime_t
         },
         CEnvInstructorHint: {
             m_iszName: 0x4A8, // CUtlSymbolLarge
@@ -3160,13 +3292,13 @@ export const Schemas = {
             m_EnvWindShared: 0x4A8, // CEnvWindShared
         },
         CSoundEventPathCornerEntity: {
-            m_iszPathCorner: 0x558, // CUtlSymbolLarge
-            m_iCountMax: 0x560, // int32
-            m_flDistanceMax: 0x564, // float32
-            m_flDistMaxSqr: 0x568, // float32
-            m_flDotProductMax: 0x56C, // float32
-            m_bPlaying: 0x570, // bool
-            m_vecCornerPairsNetworked: 0x598, // CNetworkUtlVectorBase<SoundeventPathCornerPairNetworked_t>
+            m_iszPathCorner: 0x568, // CUtlSymbolLarge
+            m_iCountMax: 0x570, // int32
+            m_flDistanceMax: 0x574, // float32
+            m_flDistMaxSqr: 0x578, // float32
+            m_flDotProductMax: 0x57C, // float32
+            m_bPlaying: 0x580, // bool
+            m_vecCornerPairsNetworked: 0x5A8, // CNetworkUtlVectorBase<SoundeventPathCornerPairNetworked_t>
         },
         CCSPlayerBase_CameraServices: {
             m_iFOV: 0x178, // uint32
@@ -3182,143 +3314,134 @@ export const Schemas = {
             m_RegisterMap: 0x50, // PulseRegisterMap_t
         },
         CDynamicNavConnectionsVolume: {
-            m_iszConnectionTarget: 0x8A8, // CUtlSymbolLarge
-            m_vecConnections: 0x8B0, // CUtlVector<DynamicVolumeDef_t>
-            m_sTransitionType: 0x8C8, // CGlobalSymbol
-            m_bConnectionsEnabled: 0x8D0, // bool
-            m_flTargetAreaSearchRadius: 0x8D4, // float32
-            m_flUpdateDistance: 0x8D8, // float32
-            m_flMaxConnectionDistance: 0x8DC, // float32
+            m_iszConnectionTarget: 0x8E0, // CUtlSymbolLarge
+            m_vecConnections: 0x8E8, // CUtlVector<DynamicVolumeDef_t>
+            m_sTransitionType: 0x900, // CGlobalSymbol
+            m_bConnectionsEnabled: 0x908, // bool
+            m_flTargetAreaSearchRadius: 0x90C, // float32
+            m_flUpdateDistance: 0x910, // float32
+            m_flMaxConnectionDistance: 0x914, // float32
         },
         CConstraintAnchor: {
-            m_massScale: 0xA20, // float32
+            m_massScale: 0x940, // float32
         },
         CPulseCell_WaitForCursorsWithTagBase: {
             m_nCursorsAllowedToWait: 0x48, // int32
             m_WaitComplete: 0x50, // CPulse_ResumePoint
         },
         CCSPlayerPawn: {
-            m_pBulletServices: 0xE78, // CCSPlayer_BulletServices*
-            m_pHostageServices: 0xE80, // CCSPlayer_HostageServices*
-            m_pBuyServices: 0xE88, // CCSPlayer_BuyServices*
-            m_pActionTrackingServices: 0xE90, // CCSPlayer_ActionTrackingServices*
-            m_pRadioServices: 0xE98, // CCSPlayer_RadioServices*
-            m_pDamageReactServices: 0xEA0, // CCSPlayer_DamageReactServices*
-            m_nCharacterDefIndex: 0xEA8, // uint16
-            m_bHasFemaleVoice: 0xEAA, // bool
-            m_strVOPrefix: 0xEB0, // CUtlString
-            m_szLastPlaceName: 0xEB8, // char[18]
-            m_bInHostageResetZone: 0xFA8, // bool
-            m_bInBuyZone: 0xFA9, // bool
-            m_TouchingBuyZones: 0xFB0, // CUtlVector<CHandle<CBaseEntity>>
-            m_bWasInBuyZone: 0xFC8, // bool
-            m_bInHostageRescueZone: 0xFC9, // bool
-            m_bInBombZone: 0xFCA, // bool
-            m_bWasInHostageRescueZone: 0xFCB, // bool
-            m_iRetakesOffering: 0xFCC, // int32
-            m_iRetakesOfferingCard: 0xFD0, // int32
-            m_bRetakesHasDefuseKit: 0xFD4, // bool
-            m_bRetakesMVPLastRound: 0xFD5, // bool
-            m_iRetakesMVPBoostItem: 0xFD8, // int32
-            m_RetakesMVPBoostExtraUtility: 0xFDC, // loadout_slot_t
-            m_flHealthShotBoostExpirationTime: 0xFE0, // GameTime_t
-            m_flLandingTimeSeconds: 0xFE4, // float32
-            m_aimPunchAngle: 0xFE8, // QAngle
-            m_aimPunchAngleVel: 0xFF4, // QAngle
-            m_aimPunchTickBase: 0x1000, // GameTick_t
-            m_aimPunchTickFraction: 0x1004, // float32
-            m_aimPunchCache: 0x1008, // CUtlVector<QAngle>
-            m_bIsBuyMenuOpen: 0x1020, // bool
-            m_lastLandTime: 0x16C0, // GameTime_t
-            m_bOnGroundLastTick: 0x16C4, // bool
-            m_iPlayerLocked: 0x16C8, // int32
-            m_flTimeOfLastInjury: 0x16D0, // GameTime_t
-            m_flNextSprayDecalTime: 0x16D4, // GameTime_t
-            m_bNextSprayDecalTimeExpedited: 0x16D8, // bool
-            m_nRagdollDamageBone: 0x16DC, // int32
-            m_vRagdollDamageForce: 0x16E0, // Vector
-            m_vRagdollDamagePosition: 0x16EC, // Vector
-            m_szRagdollDamageWeaponName: 0x16F8, // char[64]
-            m_bRagdollDamageHeadshot: 0x1738, // bool
-            m_vRagdollServerOrigin: 0x173C, // Vector
-            m_EconGloves: 0x1748, // CEconItemView
-            m_nEconGlovesChanged: 0x19F0, // uint8
-            m_qDeathEyeAngles: 0x19F4, // QAngle
-            m_bSkipOneHeadConstraintUpdate: 0x1A00, // bool
-            m_bLeftHanded: 0x1A01, // bool
-            m_fSwitchedHandednessTime: 0x1A04, // GameTime_t
-            m_flViewmodelOffsetX: 0x1A08, // float32
-            m_flViewmodelOffsetY: 0x1A0C, // float32
-            m_flViewmodelOffsetZ: 0x1A10, // float32
-            m_flViewmodelFOV: 0x1A14, // float32
-            m_bIsWalking: 0x1A18, // bool
-            m_fLastGivenDefuserTime: 0x1A1C, // float32
-            m_fLastGivenBombTime: 0x1A20, // float32
-            m_flDealtDamageToEnemyMostRecentTimestamp: 0x1A24, // float32
-            m_iDisplayHistoryBits: 0x1A28, // uint32
-            m_flLastAttackedTeammate: 0x1A2C, // float32
-            m_allowAutoFollowTime: 0x1A30, // GameTime_t
-            m_bResetArmorNextSpawn: 0x1A34, // bool
-            m_nLastKillerIndex: 0x1A38, // CEntityIndex
-            m_entitySpottedState: 0x1A40, // EntitySpottedState_t
-            m_nSpotRules: 0x1A58, // int32
-            m_bIsScoped: 0x1A5C, // bool
-            m_bResumeZoom: 0x1A5D, // bool
-            m_bIsDefusing: 0x1A5E, // bool
-            m_bIsGrabbingHostage: 0x1A5F, // bool
-            m_iBlockingUseActionInProgress: 0x1A60, // CSPlayerBlockingUseAction_t
-            m_flEmitSoundTime: 0x1A64, // GameTime_t
-            m_bInNoDefuseArea: 0x1A68, // bool
-            m_iBombSiteIndex: 0x1A6C, // CEntityIndex
-            m_nWhichBombZone: 0x1A70, // int32
-            m_bInBombZoneTrigger: 0x1A74, // bool
-            m_bWasInBombZoneTrigger: 0x1A75, // bool
-            m_iShotsFired: 0x1A78, // int32
-            m_flFlinchStack: 0x1A7C, // float32
-            m_flVelocityModifier: 0x1A80, // float32
-            m_flHitHeading: 0x1A84, // float32
-            m_nHitBodyPart: 0x1A88, // int32
-            m_vecTotalBulletForce: 0x1A8C, // Vector
-            m_bWaitForNoAttack: 0x1A98, // bool
-            m_ignoreLadderJumpTime: 0x1A9C, // float32
-            m_bKilledByHeadshot: 0x1AA0, // bool
-            m_LastHitBox: 0x1AA4, // int32
-            m_pBot: 0x1AA8, // CCSBot*
-            m_bBotAllowActive: 0x1AB0, // bool
-            m_thirdPersonHeading: 0x1AB4, // QAngle
-            m_flSlopeDropOffset: 0x1AC0, // float32
-            m_flSlopeDropHeight: 0x1AC4, // float32
-            m_vHeadConstraintOffset: 0x1AC8, // Vector
-            m_nLastPickupPriority: 0x1AD4, // int32
-            m_flLastPickupPriorityTime: 0x1AD8, // float32
-            m_ArmorValue: 0x1ADC, // int32
-            m_unCurrentEquipmentValue: 0x1AE0, // uint16
-            m_unRoundStartEquipmentValue: 0x1AE2, // uint16
-            m_unFreezetimeEndEquipmentValue: 0x1AE4, // uint16
-            m_iLastWeaponFireUsercmd: 0x1AE8, // int32
-            m_bIsSpawning: 0x1AEC, // bool
-            m_iDeathFlags: 0x1AF8, // int32
-            m_bHasDeathInfo: 0x1AFC, // bool
-            m_flDeathInfoTime: 0x1B00, // float32
-            m_vecDeathInfoOrigin: 0x1B04, // Vector
-            m_vecPlayerPatchEconIndices: 0x1B10, // uint32[5]
-            m_GunGameImmunityColor: 0x1B24, // Color
-            m_grenadeParameterStashTime: 0x1B28, // GameTime_t
-            m_bGrenadeParametersStashed: 0x1B2C, // bool
-            m_angStashedShootAngles: 0x1B30, // QAngle
-            m_vecStashedGrenadeThrowPosition: 0x1B3C, // Vector
-            m_vecStashedVelocity: 0x1B48, // Vector
-            m_angShootAngleHistory: 0x1B54, // QAngle[2]
-            m_vecThrowPositionHistory: 0x1B6C, // Vector[2]
-            m_vecVelocityHistory: 0x1B84, // Vector[2]
-            m_PredictedDamageTags: 0x1BA0, // CUtlVectorEmbeddedNetworkVar<PredictedDamageTag_t>
-            m_nHighestAppliedDamageTagTick: 0x1C08, // int32
-            m_bCommittingSuicideOnTeamChange: 0x1C0C, // bool
-            m_wasNotKilledNaturally: 0x1C0D, // bool
-            m_fImmuneToGunGameDamageTime: 0x1C10, // GameTime_t
-            m_bGunGameImmunity: 0x1C14, // bool
-            m_fMolotovDamageTime: 0x1C18, // float32
-            m_angEyeAngles: 0x1C1C, // QAngle
+            m_pBulletServices: 0xD08, // CCSPlayer_BulletServices*
+            m_pHostageServices: 0xD10, // CCSPlayer_HostageServices*
+            m_pBuyServices: 0xD18, // CCSPlayer_BuyServices*
+            m_pActionTrackingServices: 0xD20, // CCSPlayer_ActionTrackingServices*
+            m_pRadioServices: 0xD28, // CCSPlayer_RadioServices*
+            m_pDamageReactServices: 0xD30, // CCSPlayer_DamageReactServices*
+            m_nCharacterDefIndex: 0xD38, // uint16
+            m_bHasFemaleVoice: 0xD3A, // bool
+            m_strVOPrefix: 0xD40, // CUtlString
+            m_szLastPlaceName: 0xD48, // char[18]
+            m_bInHostageResetZone: 0xE38, // bool
+            m_bInBuyZone: 0xE39, // bool
+            m_TouchingBuyZones: 0xE40, // CUtlVector<CHandle<CBaseEntity>>
+            m_bWasInBuyZone: 0xE58, // bool
+            m_bInHostageRescueZone: 0xE59, // bool
+            m_bInBombZone: 0xE5A, // bool
+            m_bWasInHostageRescueZone: 0xE5B, // bool
+            m_iRetakesOffering: 0xE5C, // int32
+            m_iRetakesOfferingCard: 0xE60, // int32
+            m_bRetakesHasDefuseKit: 0xE64, // bool
+            m_bRetakesMVPLastRound: 0xE65, // bool
+            m_iRetakesMVPBoostItem: 0xE68, // int32
+            m_RetakesMVPBoostExtraUtility: 0xE6C, // loadout_slot_t
+            m_flHealthShotBoostExpirationTime: 0xE70, // GameTime_t
+            m_flLandingTimeSeconds: 0xE74, // float32
+            m_aimPunchAngle: 0xE78, // QAngle
+            m_aimPunchAngleVel: 0xE84, // QAngle
+            m_aimPunchTickBase: 0xE90, // GameTick_t
+            m_aimPunchTickFraction: 0xE94, // float32
+            m_aimPunchCache: 0xE98, // CUtlVector<QAngle>
+            m_bIsBuyMenuOpen: 0xEB0, // bool
+            m_lastLandTime: 0xEE8, // GameTime_t
+            m_bOnGroundLastTick: 0xEEC, // bool
+            m_iPlayerLocked: 0xEF0, // int32
+            m_flTimeOfLastInjury: 0xEF8, // GameTime_t
+            m_flNextSprayDecalTime: 0xEFC, // GameTime_t
+            m_bNextSprayDecalTimeExpedited: 0xF00, // bool
+            m_nRagdollDamageBone: 0xF04, // int32
+            m_vRagdollDamageForce: 0xF08, // Vector
+            m_vRagdollDamagePosition: 0xF14, // Vector
+            m_szRagdollDamageWeaponName: 0xF20, // char[64]
+            m_bRagdollDamageHeadshot: 0xF60, // bool
+            m_vRagdollServerOrigin: 0xF64, // Vector
+            m_EconGloves: 0xF70, // CEconItemView
+            m_nEconGlovesChanged: 0x1218, // uint8
+            m_qDeathEyeAngles: 0x121C, // QAngle
+            m_bLeftHanded: 0x1228, // bool
+            m_fSwitchedHandednessTime: 0x122C, // GameTime_t
+            m_flViewmodelOffsetX: 0x1230, // float32
+            m_flViewmodelOffsetY: 0x1234, // float32
+            m_flViewmodelOffsetZ: 0x1238, // float32
+            m_flViewmodelFOV: 0x123C, // float32
+            m_bIsWalking: 0x1240, // bool
+            m_fLastGivenDefuserTime: 0x1244, // float32
+            m_fLastGivenBombTime: 0x1248, // float32
+            m_flDealtDamageToEnemyMostRecentTimestamp: 0x124C, // float32
+            m_iDisplayHistoryBits: 0x1250, // uint32
+            m_flLastAttackedTeammate: 0x1254, // float32
+            m_allowAutoFollowTime: 0x1258, // GameTime_t
+            m_bResetArmorNextSpawn: 0x125C, // bool
+            m_nLastKillerIndex: 0x1260, // CEntityIndex
+            m_entitySpottedState: 0x1268, // EntitySpottedState_t
+            m_nSpotRules: 0x1280, // int32
+            m_bIsScoped: 0x1284, // bool
+            m_bResumeZoom: 0x1285, // bool
+            m_bIsDefusing: 0x1286, // bool
+            m_bIsGrabbingHostage: 0x1287, // bool
+            m_iBlockingUseActionInProgress: 0x1288, // CSPlayerBlockingUseAction_t
+            m_flEmitSoundTime: 0x128C, // GameTime_t
+            m_bInNoDefuseArea: 0x1290, // bool
+            m_iBombSiteIndex: 0x1294, // CEntityIndex
+            m_nWhichBombZone: 0x1298, // int32
+            m_bInBombZoneTrigger: 0x129C, // bool
+            m_bWasInBombZoneTrigger: 0x129D, // bool
+            m_iShotsFired: 0x12A0, // int32
+            m_flFlinchStack: 0x12A4, // float32
+            m_flVelocityModifier: 0x12A8, // float32
+            m_vecTotalBulletForce: 0x12AC, // Vector
+            m_bWaitForNoAttack: 0x12B8, // bool
+            m_ignoreLadderJumpTime: 0x12BC, // float32
+            m_bKilledByHeadshot: 0x12C0, // bool
+            m_LastHitBox: 0x12C4, // int32
+            m_pBot: 0x12C8, // CCSBot*
+            m_bBotAllowActive: 0x12D0, // bool
+            m_nLastPickupPriority: 0x12D4, // int32
+            m_flLastPickupPriorityTime: 0x12D8, // float32
+            m_ArmorValue: 0x12DC, // int32
+            m_unCurrentEquipmentValue: 0x12E0, // uint16
+            m_unRoundStartEquipmentValue: 0x12E2, // uint16
+            m_unFreezetimeEndEquipmentValue: 0x12E4, // uint16
+            m_iLastWeaponFireUsercmd: 0x12E8, // int32
+            m_bIsSpawning: 0x12EC, // bool
+            m_iDeathFlags: 0x12F8, // int32
+            m_bHasDeathInfo: 0x12FC, // bool
+            m_flDeathInfoTime: 0x1300, // float32
+            m_vecDeathInfoOrigin: 0x1304, // Vector
+            m_vecPlayerPatchEconIndices: 0x1310, // uint32[5]
+            m_GunGameImmunityColor: 0x1324, // Color
+            m_grenadeParameterStashTime: 0x1328, // GameTime_t
+            m_bGrenadeParametersStashed: 0x132C, // bool
+            m_angStashedShootAngles: 0x1330, // QAngle
+            m_vecStashedGrenadeThrowPosition: 0x133C, // Vector
+            m_vecStashedVelocity: 0x1348, // Vector
+            m_angShootAngleHistory: 0x1354, // QAngle[2]
+            m_vecThrowPositionHistory: 0x136C, // Vector[2]
+            m_vecVelocityHistory: 0x1384, // Vector[2]
+            m_bCommittingSuicideOnTeamChange: 0x13A8, // bool
+            m_wasNotKilledNaturally: 0x13A9, // bool
+            m_fImmuneToGunGameDamageTime: 0x13AC, // GameTime_t
+            m_bGunGameImmunity: 0x13B0, // bool
+            m_fMolotovDamageTime: 0x13B4, // float32
+            m_angEyeAngles: 0x13B8, // QAngle
         },
         CEnvLightProbeVolume: {
             m_Entity_hLightProbeTexture_AmbientCube: 0x14A0, // CStrongHandle<InfoForResourceTypeCTextureBase>
@@ -3343,24 +3466,6 @@ export const Schemas = {
             m_Entity_nLightProbeAtlasY: 0x1520, // int32
             m_Entity_nLightProbeAtlasZ: 0x1524, // int32
             m_Entity_bEnabled: 0x1531, // bool
-            m_bActive: 0x4A8, // bool
-            m_vBoxMins: 0x4AC, // Vector
-            m_vBoxMaxs: 0x4B8, // Vector
-            m_bStartDisabled: 0x4C4, // bool
-            m_bIndirectUseLPVs: 0x4C5, // bool
-            m_flStrength: 0x4C8, // float32
-            m_nFalloffShape: 0x4CC, // int32
-            m_flFalloffExponent: 0x4D0, // float32
-            m_flHeightFogDepth: 0x4D4, // float32
-            m_fHeightFogEdgeWidth: 0x4D8, // float32
-            m_fIndirectLightStrength: 0x4DC, // float32
-            m_fSunLightStrength: 0x4E0, // float32
-            m_fNoiseStrength: 0x4E4, // float32
-            m_TintColor: 0x4E8, // Color
-            m_bOverrideTintColor: 0x4EC, // bool
-            m_bOverrideIndirectLightStrength: 0x4ED, // bool
-            m_bOverrideSunLightStrength: 0x4EE, // bool
-            m_bOverrideNoiseStrength: 0x4EF, // bool
         },
         SpawnPoint: {
             m_iPriority: 0x4A8, // int32
@@ -3375,17 +3480,17 @@ export const Schemas = {
             m_pParent: 0x38, // CGameSceneNode*
             m_pChild: 0x40, // CGameSceneNode*
             m_pNextSibling: 0x48, // CGameSceneNode*
-            m_hParent: 0x78, // CGameSceneNodeHandle
-            m_vecOrigin: 0x88, // CNetworkOriginCellCoordQuantizedVector
-            m_angRotation: 0xC0, // QAngle
-            m_flScale: 0xCC, // float32
-            m_vecAbsOrigin: 0xD0, // VectorWS
-            m_angAbsRotation: 0xDC, // QAngle
-            m_flAbsScale: 0xE8, // float32
-            m_nParentAttachmentOrBone: 0xEC, // int16
-            m_bDebugAbsOriginChanges: 0xEE, // bool
-            m_bDormant: 0xEF, // bool
-            m_bForceParentToBeNetworked: 0xF0, // bool
+            m_hParent: 0x70, // CGameSceneNodeHandle
+            m_vecOrigin: 0x80, // CNetworkOriginCellCoordQuantizedVector
+            m_angRotation: 0xB8, // QAngle
+            m_flScale: 0xC4, // float32
+            m_vecAbsOrigin: 0xC8, // VectorWS
+            m_angAbsRotation: 0xD4, // QAngle
+            m_flAbsScale: 0xE0, // float32
+            m_nParentAttachmentOrBone: 0xE4, // int16
+            m_bDebugAbsOriginChanges: 0xE6, // bool
+            m_bDormant: 0xE7, // bool
+            m_bForceParentToBeNetworked: 0xE8, // bool
             m_bDirtyHierarchy: 0x0, // bitfield:1
             m_bDirtyBoneMergeInfo: 0x0, // bitfield:1
             m_bNetworkedPositionChanged: 0x0, // bitfield:1
@@ -3395,14 +3500,13 @@ export const Schemas = {
             m_bBoneMergeFlex: 0x0, // bitfield:1
             m_nLatchAbsOrigin: 0x0, // bitfield:2
             m_bDirtyBoneMergeBoneToRoot: 0x0, // bitfield:1
-            m_nHierarchicalDepth: 0xF3, // uint8
-            m_nHierarchyType: 0xF4, // uint8
-            m_nDoNotSetAnimTimeInInvalidatePhysicsCount: 0xF5, // uint8
-            m_name: 0xF8, // CUtlStringToken
-            m_hierarchyAttachName: 0x10C, // CUtlStringToken
-            m_flZOffset: 0x110, // float32
-            m_flClientLocalScale: 0x114, // float32
-            m_vRenderOrigin: 0x118, // Vector
+            m_nHierarchicalDepth: 0xEB, // uint8
+            m_nHierarchyType: 0xEC, // uint8
+            m_nDoNotSetAnimTimeInInvalidatePhysicsCount: 0xED, // uint8
+            m_name: 0xF0, // CUtlStringToken
+            m_hierarchyAttachName: 0x104, // CUtlStringToken
+            m_flClientLocalScale: 0x108, // float32
+            m_vRenderOrigin: 0x10C, // Vector
         },
         CWeaponM249: {
         },
@@ -3418,6 +3522,9 @@ export const Schemas = {
             m_iObserverLastMode: 0x50, // ObserverMode_t
             m_bForcedObserverMode: 0x54, // bool
         },
+        CCashStack: {
+            m_nCashStackValue: 0x768, // int32
+        },
         CLogicScript: {
         },
         CAttributeManager__cached_attribute_float_t: {
@@ -3426,12 +3533,12 @@ export const Schemas = {
             flOut: 0x10, // float32
         },
         CPulseGraphInstance_ServerEntity: {
-            m_hOwner: 0x190, // CHandle<CBaseEntity>
-            m_bActivated: 0x194, // bool
-            m_sNameFixupStaticPrefix: 0x198, // CUtlSymbolLarge
-            m_sNameFixupParent: 0x1A0, // CUtlSymbolLarge
-            m_sNameFixupLocal: 0x1A8, // CUtlSymbolLarge
-            m_sProceduralWorldNameForRelays: 0x1B0, // CUtlSymbolLarge
+            m_hOwner: 0x1A8, // CHandle<CBaseEntity>
+            m_bActivated: 0x1AC, // bool
+            m_sNameFixupStaticPrefix: 0x1B0, // CUtlSymbolLarge
+            m_sNameFixupParent: 0x1B8, // CUtlSymbolLarge
+            m_sNameFixupLocal: 0x1C0, // CUtlSymbolLarge
+            m_sProceduralWorldNameForRelays: 0x1C8, // CUtlSymbolLarge
         },
         CSceneEntityAlias_logic_choreographed_scene: {
         },
@@ -3442,23 +3549,23 @@ export const Schemas = {
             m_bCanTakeDamage: 0x4B1, // bool
         },
         CPostProcessingVolume: {
-            m_hPostSettings: 0x8A0, // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
-            m_flFadeDuration: 0x8A8, // float32
-            m_flMinLogExposure: 0x8AC, // float32
-            m_flMaxLogExposure: 0x8B0, // float32
-            m_flMinExposure: 0x8B4, // float32
-            m_flMaxExposure: 0x8B8, // float32
-            m_flExposureCompensation: 0x8BC, // float32
-            m_flExposureFadeSpeedUp: 0x8C0, // float32
-            m_flExposureFadeSpeedDown: 0x8C4, // float32
-            m_flTonemapEVSmoothingRange: 0x8C8, // float32
-            m_bMaster: 0x8CC, // bool
-            m_bExposureControl: 0x8CD, // bool
+            m_hPostSettings: 0x8D8, // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
+            m_flFadeDuration: 0x8E0, // float32
+            m_flMinLogExposure: 0x8E4, // float32
+            m_flMaxLogExposure: 0x8E8, // float32
+            m_flMinExposure: 0x8EC, // float32
+            m_flMaxExposure: 0x8F0, // float32
+            m_flExposureCompensation: 0x8F4, // float32
+            m_flExposureFadeSpeedUp: 0x8F8, // float32
+            m_flExposureFadeSpeedDown: 0x8FC, // float32
+            m_flTonemapEVSmoothingRange: 0x900, // float32
+            m_bMaster: 0x904, // bool
+            m_bExposureControl: 0x905, // bool
         },
         CPointProximitySensor: {
             m_bDisabled: 0x4A8, // bool
             m_hTargetEntity: 0x4AC, // CHandle<CBaseEntity>
-            m_Distance: 0x4B0, // CEntityOutputTemplate<float32,float32>
+            m_Distance: 0x4B0, // CEntityOutputTemplate<float32>
         },
         CPulse_InvokeBinding: {
             m_RegisterMap: 0x0, // PulseRegisterMap_t
@@ -3468,26 +3575,27 @@ export const Schemas = {
             m_nSrcInstruction: 0x48, // int32
         },
         CTriggerLook: {
-            m_hLookTarget: 0x8A8, // CHandle<CBaseEntity>
-            m_flFieldOfView: 0x8AC, // float32
-            m_flLookTime: 0x8B0, // float32
-            m_flLookTimeTotal: 0x8B4, // float32
-            m_flLookTimeLast: 0x8B8, // GameTime_t
-            m_flTimeoutDuration: 0x8BC, // float32
-            m_bTimeoutFired: 0x8C0, // bool
-            m_bIsLooking: 0x8C1, // bool
-            m_b2DFOV: 0x8C2, // bool
-            m_bUseVelocity: 0x8C3, // bool
-            m_bTestOcclusion: 0x8C4, // bool
-            m_bTestAllVisibleOcclusion: 0x8C5, // bool
-            m_OnTimeout: 0x8C8, // CEntityIOOutput
-            m_OnStartLook: 0x8E0, // CEntityIOOutput
-            m_OnEndLook: 0x8F8, // CEntityIOOutput
+            m_hLookTarget: 0x8E0, // CHandle<CBaseEntity>
+            m_flFieldOfView: 0x8E4, // float32
+            m_flLookTime: 0x8E8, // float32
+            m_flLookTimeTotal: 0x8EC, // float32
+            m_flLookTimeLast: 0x8F0, // GameTime_t
+            m_flTimeoutDuration: 0x8F4, // float32
+            m_bTimeoutFired: 0x8F8, // bool
+            m_bIsLooking: 0x8F9, // bool
+            m_b2DFOV: 0x8FA, // bool
+            m_bUseVelocity: 0x8FB, // bool
+            m_bTestOcclusion: 0x8FC, // bool
+            m_bTestAllVisibleOcclusion: 0x8FD, // bool
+            m_OnTimeout: 0x900, // CEntityIOOutput
+            m_OnStartLook: 0x918, // CEntityIOOutput
+            m_OnEndLook: 0x930, // CEntityIOOutput
         },
         CPulseCell_Outflow_PlayVCD: {
             m_hChoreoScene: 0xF0, // CStrongHandle<InfoForResourceTypeCChoreoSceneResource>
             m_OnPaused: 0xF8, // CPulse_OutflowConnection
             m_OnResumed: 0x140, // CPulse_OutflowConnection
+            m_OutRequirements: 0x188, // CUtlVector<CPulseCell_Outflow_PlayVCD::VCDRequirementInfo_t>
         },
         CMultiplayRules: {
         },
@@ -3504,19 +3612,19 @@ export const Schemas = {
             m_globalstate: 0x5C8, // CUtlSymbolLarge
         },
         CBaseCSGrenade: {
-            m_bRedraw: 0x1130, // bool
-            m_bIsHeldByPlayer: 0x1131, // bool
-            m_bPinPulled: 0x1132, // bool
-            m_bJumpThrow: 0x1133, // bool
-            m_bThrowAnimating: 0x1134, // bool
-            m_fThrowTime: 0x1138, // GameTime_t
-            m_flThrowStrength: 0x113C, // float32
-            m_fDropTime: 0x1140, // GameTime_t
-            m_fPinPullTime: 0x1144, // GameTime_t
-            m_bJustPulledPin: 0x1148, // bool
-            m_nNextHoldTick: 0x114C, // GameTick_t
-            m_flNextHoldFrac: 0x1150, // float32
-            m_hSwitchToWeaponAfterThrow: 0x1154, // CHandle<CCSWeaponBase>
+            m_bRedraw: 0x1030, // bool
+            m_bIsHeldByPlayer: 0x1031, // bool
+            m_bPinPulled: 0x1032, // bool
+            m_bJumpThrow: 0x1033, // bool
+            m_bThrowAnimating: 0x1034, // bool
+            m_fThrowTime: 0x1038, // GameTime_t
+            m_flThrowStrength: 0x103C, // float32
+            m_fDropTime: 0x1040, // GameTime_t
+            m_fPinPullTime: 0x1044, // GameTime_t
+            m_bJustPulledPin: 0x1048, // bool
+            m_nNextHoldTick: 0x104C, // GameTick_t
+            m_flNextHoldFrac: 0x1050, // float32
+            m_hSwitchToWeaponAfterThrow: 0x1054, // CHandle<CCSWeaponBase>
         },
         CLogicAuto: {
             m_OnMapSpawn: 0x4A8, // CEntityIOOutput
@@ -3544,7 +3652,7 @@ export const Schemas = {
             m_hLight: 0x4B8, // CHandle<CBaseEntity>
         },
         CMarkupVolume: {
-            m_bDisabled: 0x730, // bool
+            m_bDisabled: 0x768, // bool
         },
         CPathNode: {
             m_vInTangentLocal: 0x4A8, // Vector
@@ -3557,7 +3665,7 @@ export const Schemas = {
         CCSGO_TeamSelectCounterTerroristPosition: {
         },
         CTriggerRemove: {
-            m_OnRemove: 0x890, // CEntityIOOutput
+            m_OnRemove: 0x8C8, // CEntityIOOutput
         },
         CLogicGameEventListener: {
             m_OnEventFired: 0x4B8, // CEntityIOOutput
@@ -3573,7 +3681,7 @@ export const Schemas = {
             m_OnInterval: 0x90, // SignatureOutflow_Continue
         },
         CMarkupVolumeTagged_Nav: {
-            m_nScopes: 0x770, // NavScopeFlags_t
+            m_nScopes: 0x7A8, // NavScopeFlags_t
         },
         CInfoPlayerTerrorist: {
         },
@@ -3603,7 +3711,7 @@ export const Schemas = {
             m_iGustDirChange: 0x28, // uint16
             m_iInitialWindDir: 0x2A, // uint16
             m_flInitialWindSpeed: 0x2C, // float32
-            m_location: 0x30, // Vector
+            m_location: 0x30, // VectorWS
             m_OnGustStart: 0x40, // CEntityIOOutput
             m_OnGustEnd: 0x58, // CEntityIOOutput
             m_hEntOwner: 0x70, // CHandle<CBaseEntity>
@@ -3615,6 +3723,7 @@ export const Schemas = {
             m_fixupNames: 0x4C0, // bool
             m_bLoadDynamic: 0x4C1, // bool
             m_associatedRelayEntity: 0x4C4, // CHandle<CPointPrefab>
+            m_ProceduralRelaySources: 0x4C8, // CUtlVector<CHandle<CBaseEntity>>
         },
         CPulseCell_BaseLerp: {
             m_WakeResume: 0x48, // CPulse_ResumePoint
@@ -3638,7 +3747,7 @@ export const Schemas = {
         CCommentaryViewPosition: {
         },
         CEnvGlobal: {
-            m_outCounter: 0x4A8, // CEntityOutputTemplate<int32,int32>
+            m_outCounter: 0x4A8, // CEntityOutputTemplate<int32>
             m_globalstate: 0x4C8, // CUtlSymbolLarge
             m_triggermode: 0x4D0, // int32
             m_initialstate: 0x4D4, // int32
@@ -3647,7 +3756,7 @@ export const Schemas = {
         CLogicNPCCounterOBB: {
         },
         CPlatTrigger: {
-            m_pPlatform: 0x730, // CHandle<CFuncPlat>
+            m_pPlatform: 0x768, // CHandle<CFuncPlat>
         },
         CSceneEntity: {
             m_iszSceneFile: 0x4B0, // CUtlSymbolLarge
@@ -3667,51 +3776,55 @@ export const Schemas = {
             m_hTarget6: 0x50C, // CHandle<CBaseEntity>
             m_hTarget7: 0x510, // CHandle<CBaseEntity>
             m_hTarget8: 0x514, // CHandle<CBaseEntity>
-            m_sTargetAttachment: 0x518, // CUtlSymbolLarge
-            m_bIsPlayingBack: 0x520, // bool
-            m_bPaused: 0x521, // bool
-            m_bMultiplayer: 0x522, // bool
-            m_bAutogenerated: 0x523, // bool
-            m_flForceClientTime: 0x524, // float32
-            m_flCurrentTime: 0x528, // float32
-            m_flFrameTime: 0x52C, // float32
-            m_bCancelAtNextInterrupt: 0x530, // bool
-            m_fPitch: 0x534, // float32
-            m_bAutomated: 0x538, // bool
-            m_nAutomatedAction: 0x53C, // int32
-            m_flAutomationDelay: 0x540, // float32
-            m_flAutomationTime: 0x544, // float32
-            m_nSpeechPriority: 0x548, // int32
-            m_bPausedViaInput: 0x54C, // bool
-            m_bPauseAtNextInterrupt: 0x54D, // bool
-            m_bWaitingForActor: 0x54E, // bool
-            m_bWaitingForInterrupt: 0x54F, // bool
-            m_bInterruptedActorsScenes: 0x550, // bool
-            m_bBreakOnNonIdle: 0x551, // bool
-            m_bSceneFinished: 0x552, // bool
-            m_hActorList: 0x558, // CNetworkUtlVectorBase<CHandle<CBaseFlex>>
-            m_hRemoveActorList: 0x570, // CUtlVector<CHandle<CBaseEntity>>
-            m_nSceneStringIndex: 0x5B8, // uint16
-            m_OnStart: 0x5C0, // CEntityIOOutput
-            m_OnCompletion: 0x5D8, // CEntityIOOutput
-            m_OnCanceled: 0x5F0, // CEntityIOOutput
-            m_OnPaused: 0x608, // CEntityIOOutput
-            m_OnResumed: 0x620, // CEntityIOOutput
-            m_hInterruptScene: 0x6C8, // CHandle<CSceneEntity>
-            m_nInterruptCount: 0x6CC, // int32
-            m_bSceneMissing: 0x6D0, // bool
-            m_bInterrupted: 0x6D1, // bool
-            m_bCompletedEarly: 0x6D2, // bool
-            m_bInterruptSceneFinished: 0x6D3, // bool
-            m_bRestoring: 0x6D4, // bool
-            m_hNotifySceneCompletion: 0x6D8, // CUtlVector<CHandle<CSceneEntity>>
-            m_hListManagers: 0x6F0, // CUtlVector<CHandle<CSceneListManager>>
-            m_iszSoundName: 0x708, // CUtlSymbolLarge
-            m_iszSequenceName: 0x710, // CUtlSymbolLarge
-            m_hActor: 0x718, // CHandle<CBaseFlex>
-            m_hActivator: 0x71C, // CHandle<CBaseEntity>
-            m_BusyActor: 0x720, // int32
-            m_iPlayerDeathBehavior: 0x724, // SceneOnPlayerDeath_t
+            m_hLocatorOrigin: 0x518, // CHandle<CBaseEntity>
+            m_sTargetAttachment: 0x520, // CUtlSymbolLarge
+            m_bIsPlayingBack: 0x528, // bool
+            m_bPaused: 0x529, // bool
+            m_bMultiplayer: 0x52A, // bool
+            m_bAutogenerated: 0x52B, // bool
+            m_bAllRequirementsComplete: 0x52C, // bool
+            m_flForceClientTime: 0x530, // float32
+            m_flCurrentTime: 0x534, // float32
+            m_flFrameTime: 0x538, // float32
+            m_bCancelAtNextInterrupt: 0x53C, // bool
+            m_fPitch: 0x540, // float32
+            m_bAutomated: 0x544, // bool
+            m_nAutomatedAction: 0x548, // int32
+            m_flAutomationDelay: 0x54C, // float32
+            m_flAutomationTime: 0x550, // float32
+            m_nSpeechPriority: 0x554, // int32
+            m_bPausedViaInput: 0x558, // bool
+            m_bPauseAtNextInterrupt: 0x559, // bool
+            m_bWaitingForActor: 0x55A, // bool
+            m_bWaitingForInterrupt: 0x55B, // bool
+            m_bInterruptedActorsScenes: 0x55C, // bool
+            m_bTakeOverNPCBehavior: 0x55D, // bool
+            m_bBreakOnNonIdle: 0x55E, // bool
+            m_bSceneFinished: 0x55F, // bool
+            m_hActorList: 0x560, // CNetworkUtlVectorBase<CHandle<CBaseModelEntity>>
+            m_hRemoveActorList: 0x578, // CUtlVector<CHandle<CBaseEntity>>
+            m_nSceneStringIndex: 0x5C0, // uint16
+            m_OnStart: 0x5C8, // CEntityIOOutput
+            m_OnCompletion: 0x5E0, // CEntityIOOutput
+            m_OnCanceled: 0x5F8, // CEntityIOOutput
+            m_OnPaused: 0x610, // CEntityIOOutput
+            m_OnResumed: 0x628, // CEntityIOOutput
+            m_OnPulseRequirement: 0x640, // CEntityIOOutput
+            m_hInterruptScene: 0x758, // CHandle<CSceneEntity>
+            m_nInterruptCount: 0x75C, // int32
+            m_bSceneMissing: 0x760, // bool
+            m_bInterrupted: 0x761, // bool
+            m_bCompletedEarly: 0x762, // bool
+            m_bInterruptSceneFinished: 0x763, // bool
+            m_bRestoring: 0x764, // bool
+            m_hNotifySceneCompletion: 0x768, // CUtlVector<CHandle<CSceneEntity>>
+            m_hListManagers: 0x780, // CUtlVector<CHandle<CSceneListManager>>
+            m_iszSoundName: 0x798, // CUtlSymbolLarge
+            m_iszSequenceName: 0x7A0, // CUtlSymbolLarge
+            m_hActor: 0x7A8, // CHandle<CBaseModelEntity>
+            m_hActivator: 0x7AC, // CHandle<CBaseEntity>
+            m_BusyActor: 0x7B0, // int32
+            m_iPlayerDeathBehavior: 0x7B4, // SceneOnPlayerDeath_t
         },
         CChoreoInfoTarget: {
         },
@@ -3721,11 +3834,11 @@ export const Schemas = {
             m_flExposureAdaptationSpeedUp: 0x4B0, // float32
             m_flExposureAdaptationSpeedDown: 0x4B4, // float32
             m_flTonemapEVSmoothingRange: 0x4B8, // float32
-            m_tonemapControllerName: 0x890, // CUtlSymbolLarge
-            m_hTonemapController: 0x898, // CEntityHandle
         },
         CMapSharedEnvironment: {
             m_targetMapName: 0x4A8, // CUtlSymbolLarge
+        },
+        CTakeDamageResultAPI: {
         },
         CNetworkedSequenceOperation: {
             m_hSequence: 0x8, // HSequence
@@ -3738,23 +3851,23 @@ export const Schemas = {
             m_flPrevCycleForAnimEventDetection: 0x24, // float32
         },
         CPhysMagnet: {
-            m_OnMagnetAttach: 0xA20, // CEntityIOOutput
-            m_OnMagnetDetach: 0xA38, // CEntityIOOutput
-            m_massScale: 0xA50, // float32
-            m_forceLimit: 0xA54, // float32
-            m_torqueLimit: 0xA58, // float32
-            m_MagnettedEntities: 0xA60, // CUtlVector<magnetted_objects_t>
-            m_bActive: 0xA78, // bool
-            m_bHasHitSomething: 0xA79, // bool
-            m_flTotalMass: 0xA7C, // float32
-            m_flRadius: 0xA80, // float32
-            m_flNextSuckTime: 0xA84, // GameTime_t
-            m_iMaxObjectsAttached: 0xA88, // int32
+            m_OnMagnetAttach: 0x940, // CEntityIOOutput
+            m_OnMagnetDetach: 0x958, // CEntityIOOutput
+            m_massScale: 0x970, // float32
+            m_forceLimit: 0x974, // float32
+            m_torqueLimit: 0x978, // float32
+            m_MagnettedEntities: 0x980, // CUtlVector<magnetted_objects_t>
+            m_bActive: 0x998, // bool
+            m_bHasHitSomething: 0x999, // bool
+            m_flTotalMass: 0x99C, // float32
+            m_flRadius: 0x9A0, // float32
+            m_flNextSuckTime: 0x9A4, // GameTime_t
+            m_iMaxObjectsAttached: 0x9A8, // int32
         },
         CEntityInstance: {
             m_iszPrivateVScripts: 0x8, // CUtlSymbolLarge
             m_pEntity: 0x10, // CEntityIdentity*
-            m_CScriptComponent: 0x30, // CScriptComponent*
+            m_CScriptComponent: 0x28, // CScriptComponent*
         },
         CGameGibManager: {
             m_bAllowNewGibs: 0x4C0, // bool
@@ -3775,6 +3888,8 @@ export const Schemas = {
             m_bUseAngles: 0x53C, // bool
             m_pNext: 0x540, // CSkyCamera*
         },
+        CCSGO_EndOfMatchLineupEnd: {
+        },
         CPlayer_AutoaimServices: {
         },
         CItemDefuserAlias_item_defuser: {
@@ -3792,8 +3907,8 @@ export const Schemas = {
         CWeaponMP5SD: {
         },
         CWeaponBaseItem: {
-            m_bSequenceInProgress: 0x1130, // bool
-            m_bRedraw: 0x1131, // bool
+            m_bSequenceInProgress: 0x1030, // bool
+            m_bRedraw: 0x1031, // bool
         },
         CCommentaryAuto: {
             m_OnCommentaryNewGame: 0x4A8, // CEntityIOOutput
@@ -3831,23 +3946,21 @@ export const Schemas = {
             m_nMeasureType: 0x4D4, // int32
         },
         CC4: {
-            m_vecLastValidPlayerHeldPosition: 0x1160, // Vector
-            m_vecLastValidDroppedPosition: 0x116C, // Vector
-            m_bDoValidDroppedPositionCheck: 0x1178, // bool
-            m_bStartedArming: 0x1179, // bool
-            m_fArmedTime: 0x117C, // GameTime_t
-            m_bBombPlacedAnimation: 0x1180, // bool
-            m_bIsPlantingViaUse: 0x1181, // bool
-            m_entitySpottedState: 0x1188, // EntitySpottedState_t
-            m_nSpotRules: 0x11A0, // int32
-            m_bPlayedArmingBeeps: 0x11A4, // bool[7]
-            m_bBombPlanted: 0x11AB, // bool
+            m_vecLastValidPlayerHeldPosition: 0x1060, // Vector
+            m_vecLastValidDroppedPosition: 0x106C, // Vector
+            m_bDoValidDroppedPositionCheck: 0x1078, // bool
+            m_bStartedArming: 0x1079, // bool
+            m_fArmedTime: 0x107C, // GameTime_t
+            m_bBombPlacedAnimation: 0x1080, // bool
+            m_bIsPlantingViaUse: 0x1081, // bool
+            m_entitySpottedState: 0x1088, // EntitySpottedState_t
+            m_nSpotRules: 0x10A0, // int32
+            m_bPlayedArmingBeeps: 0x10A4, // bool[7]
+            m_bBombPlanted: 0x10AB, // bool
         },
         CHostageCarriableProp: {
         },
         CDynamicPropAlias_cable_dynamic: {
-        },
-        CBaseFlexAlias_funCBaseFlex: {
         },
         CCSObserver_CameraServices: {
         },
@@ -3855,24 +3968,22 @@ export const Schemas = {
             m_flFadeStartDist: 0x4A8, // float32
             m_flFadeEndDist: 0x4AC, // float32
         },
-        CTakeDamageInfoAPI: {
-        },
         CCSPlayerPawnBase: {
-            m_CTouchExpansionComponent: 0xD30, // CTouchExpansionComponent
-            m_pPingServices: 0xD80, // CCSPlayer_PingServices*
-            m_blindUntilTime: 0xD88, // GameTime_t
-            m_blindStartTime: 0xD8C, // GameTime_t
-            m_iPlayerState: 0xD90, // CSPlayerState
-            m_bRespawning: 0xE40, // bool
-            m_bHasMovedSinceSpawn: 0xE41, // bool
-            m_iNumSpawns: 0xE44, // int32
-            m_flIdleTimeSinceLastAction: 0xE4C, // float32
-            m_fNextRadarUpdateTime: 0xE50, // float32
-            m_flFlashDuration: 0xE54, // float32
-            m_flFlashMaxAlpha: 0xE58, // float32
-            m_flProgressBarStartTime: 0xE5C, // float32
-            m_iProgressBarDuration: 0xE60, // int32
-            m_hOriginalController: 0xE64, // CHandle<CCSPlayerController>
+            m_CTouchExpansionComponent: 0xBC0, // CTouchExpansionComponent
+            m_pPingServices: 0xC10, // CCSPlayer_PingServices*
+            m_blindUntilTime: 0xC18, // GameTime_t
+            m_blindStartTime: 0xC1C, // GameTime_t
+            m_iPlayerState: 0xC20, // CSPlayerState
+            m_bRespawning: 0xCD0, // bool
+            m_bHasMovedSinceSpawn: 0xCD1, // bool
+            m_iNumSpawns: 0xCD4, // int32
+            m_flIdleTimeSinceLastAction: 0xCDC, // float32
+            m_fNextRadarUpdateTime: 0xCE0, // float32
+            m_flFlashDuration: 0xCE4, // float32
+            m_flFlashMaxAlpha: 0xCE8, // float32
+            m_flProgressBarStartTime: 0xCEC, // float32
+            m_iProgressBarDuration: 0xCF0, // int32
+            m_hOriginalController: 0xCF4, // CHandle<CCSPlayerController>
         },
         CEnvSoundscapeProxy: {
             m_MainSoundscapeName: 0x538, // CUtlSymbolLarge
@@ -3885,18 +3996,18 @@ export const Schemas = {
         CPulseCell_BaseFlow: {
         },
         CBombTarget: {
-            m_OnBombExplode: 0x890, // CEntityIOOutput
-            m_OnBombPlanted: 0x8A8, // CEntityIOOutput
-            m_OnBombDefused: 0x8C0, // CEntityIOOutput
-            m_bIsBombSiteB: 0x8D8, // bool
-            m_bIsHeistBombTarget: 0x8D9, // bool
-            m_bBombPlantedHere: 0x8DA, // bool
-            m_szMountTarget: 0x8E0, // CUtlSymbolLarge
-            m_hInstructorHint: 0x8E8, // CHandle<CBaseEntity>
-            m_nBombSiteDesignation: 0x8EC, // int32
+            m_OnBombExplode: 0x8C8, // CEntityIOOutput
+            m_OnBombPlanted: 0x8E0, // CEntityIOOutput
+            m_OnBombDefused: 0x8F8, // CEntityIOOutput
+            m_bIsBombSiteB: 0x910, // bool
+            m_bIsHeistBombTarget: 0x911, // bool
+            m_bBombPlantedHere: 0x912, // bool
+            m_szMountTarget: 0x918, // CUtlSymbolLarge
+            m_hInstructorHint: 0x920, // CHandle<CBaseEntity>
+            m_nBombSiteDesignation: 0x924, // int32
         },
         CRuleEntity: {
-            m_iszMaster: 0x730, // CUtlSymbolLarge
+            m_iszMaster: 0x768, // CUtlSymbolLarge
         },
         CPhysThruster: {
             m_localOrigin: 0x508, // Vector
@@ -3919,25 +4030,23 @@ export const Schemas = {
             m_iCustomDamageType: 0x4CC, // int32
         },
         CSkeletonInstance: {
-            m_modelState: 0x140, // CModelState
-            m_bIsAnimationEnabled: 0x390, // bool
-            m_bUseParentRenderBounds: 0x391, // bool
-            m_bDisableSolidCollisionsForHierarchy: 0x392, // bool
+            m_modelState: 0x130, // CModelState
+            m_bUseParentRenderBounds: 0x380, // bool
+            m_bDisableSolidCollisionsForHierarchy: 0x381, // bool
             m_bDirtyMotionType: 0x0, // bitfield:1
             m_bIsGeneratingLatchedParentSpaceState: 0x0, // bitfield:1
-            m_materialGroup: 0x394, // CUtlStringToken
-            m_nHitboxSet: 0x398, // uint8
-            m_bForceServerConstraintsEnabled: 0x3F4, // bool
-            m_hTouchingPlayers: 0x890, // CUtlVector<CHandle<CBaseEntity>>
+            m_materialGroup: 0x384, // CUtlStringToken
+            m_nHitboxSet: 0x388, // uint8
+            m_bForceServerConstraintsEnabled: 0x3E4, // bool
         },
         CEntityComponent: {
         },
         CBasePlatTrain: {
-            m_NoiseMoving: 0x7B0, // CUtlSymbolLarge
-            m_NoiseArrived: 0x7B8, // CUtlSymbolLarge
-            m_volume: 0x7C8, // float32
-            m_flTWidth: 0x7CC, // float32
-            m_flTLength: 0x7D0, // float32
+            m_NoiseMoving: 0x7E8, // CUtlSymbolLarge
+            m_NoiseArrived: 0x7F0, // CUtlSymbolLarge
+            m_volume: 0x800, // float32
+            m_flTWidth: 0x804, // float32
+            m_flTLength: 0x808, // float32
         },
         CPointTeleport: {
             m_vSaveOrigin: 0x4A8, // Vector
@@ -3946,9 +4055,9 @@ export const Schemas = {
             m_bTeleportUseCurrentAngle: 0x4C1, // bool
         },
         CTriggerGameEvent: {
-            m_strStartTouchEventName: 0x890, // CUtlString
-            m_strEndTouchEventName: 0x898, // CUtlString
-            m_strTriggerID: 0x8A0, // CUtlString
+            m_strStartTouchEventName: 0x8C8, // CUtlString
+            m_strEndTouchEventName: 0x8D0, // CUtlString
+            m_strTriggerID: 0x8D8, // CUtlString
         },
         CMessageEntity: {
             m_radius: 0x4A8, // int32
@@ -3969,9 +4078,9 @@ export const Schemas = {
             m_EndTime: 0x4, // GameTime_t
         },
         CMarkupVolumeTagged_NavGame: {
-            m_nScopes: 0x798, // NavScopeFlags_t
-            m_bFloodFillAttribute: 0x799, // bool
-            m_bSplitNavSpace: 0x79A, // bool
+            m_nScopes: 0x7D0, // NavScopeFlags_t
+            m_bFloodFillAttribute: 0x7D1, // bool
+            m_bSplitNavSpace: 0x7D2, // bool
         },
         CMultiLightProxy: {
             m_iszLightNameFilter: 0x4A8, // CUtlSymbolLarge
@@ -3990,8 +4099,8 @@ export const Schemas = {
         CPulseAnimFuncs: {
         },
         CEconWearable: {
-            m_nForceSkin: 0xDE0, // int32
-            m_bAlwaysAllow: 0xDE4, // bool
+            m_nForceSkin: 0xC70, // int32
+            m_bAlwaysAllow: 0xC74, // bool
         },
         CPulseCell_WaitForCursorsWithTagBase__CursorState_t: {
             m_TagName: 0x0, // PulseSymbol_t
@@ -4001,18 +4110,18 @@ export const Schemas = {
         CWeaponMAC10: {
         },
         CFuncLadder: {
-            m_vecLadderDir: 0x730, // Vector
-            m_Dismounts: 0x740, // CUtlVector<CHandle<CInfoLadderDismount>>
-            m_vecLocalTop: 0x758, // Vector
-            m_vecPlayerMountPositionTop: 0x764, // VectorWS
-            m_vecPlayerMountPositionBottom: 0x770, // VectorWS
-            m_flAutoRideSpeed: 0x77C, // float32
-            m_bDisabled: 0x780, // bool
-            m_bFakeLadder: 0x781, // bool
-            m_bHasSlack: 0x782, // bool
-            m_surfacePropName: 0x788, // CUtlSymbolLarge
-            m_OnPlayerGotOnLadder: 0x790, // CEntityIOOutput
-            m_OnPlayerGotOffLadder: 0x7A8, // CEntityIOOutput
+            m_vecLadderDir: 0x768, // Vector
+            m_Dismounts: 0x778, // CUtlVector<CHandle<CInfoLadderDismount>>
+            m_vecLocalTop: 0x790, // Vector
+            m_vecPlayerMountPositionTop: 0x79C, // VectorWS
+            m_vecPlayerMountPositionBottom: 0x7A8, // VectorWS
+            m_flAutoRideSpeed: 0x7B4, // float32
+            m_bDisabled: 0x7B8, // bool
+            m_bFakeLadder: 0x7B9, // bool
+            m_bHasSlack: 0x7BA, // bool
+            m_surfacePropName: 0x7C0, // CUtlSymbolLarge
+            m_OnPlayerGotOnLadder: 0x7C8, // CEntityIOOutput
+            m_OnPlayerGotOffLadder: 0x7E0, // CEntityIOOutput
         },
         CFogController: {
             m_fog: 0x4A8, // fogparams_t
@@ -4022,29 +4131,29 @@ export const Schemas = {
         CPointTemplateAPI: {
         },
         CItem: {
-            m_OnPlayerTouch: 0xA28, // CEntityIOOutput
-            m_OnPlayerPickup: 0xA40, // CEntityIOOutput
-            m_bActivateWhenAtRest: 0xA58, // bool
-            m_OnCacheInteraction: 0xA60, // CEntityIOOutput
-            m_OnGlovePulled: 0xA78, // CEntityIOOutput
-            m_vOriginalSpawnOrigin: 0xA90, // VectorWS
-            m_vOriginalSpawnAngles: 0xA9C, // QAngle
-            m_bPhysStartAsleep: 0xAA8, // bool
+            m_OnPlayerTouch: 0x948, // CEntityIOOutput
+            m_OnPlayerPickup: 0x960, // CEntityIOOutput
+            m_bActivateWhenAtRest: 0x978, // bool
+            m_OnCacheInteraction: 0x980, // CEntityIOOutput
+            m_OnGlovePulled: 0x998, // CEntityIOOutput
+            m_vOriginalSpawnOrigin: 0x9B0, // VectorWS
+            m_vOriginalSpawnAngles: 0x9BC, // QAngle
+            m_bPhysStartAsleep: 0x9C8, // bool
         },
         CTriggerPush: {
-            m_angPushEntitySpace: 0x890, // QAngle
-            m_vecPushDirEntitySpace: 0x89C, // Vector
-            m_bTriggerOnStartTouch: 0x8A8, // bool
-            m_bUsePathSimple: 0x8A9, // bool
-            m_iszPathSimpleName: 0x8B0, // CUtlSymbolLarge
-            m_PathSimple: 0x8B8, // CPathSimple*
-            m_splinePushType: 0x8C0, // uint32
+            m_angPushEntitySpace: 0x8C8, // QAngle
+            m_vecPushDirEntitySpace: 0x8D4, // Vector
+            m_bTriggerOnStartTouch: 0x8E0, // bool
+            m_bUsePathSimple: 0x8E1, // bool
+            m_iszPathSimpleName: 0x8E8, // CUtlSymbolLarge
+            m_PathSimple: 0x8F0, // CHandle<CPathSimple>
+            m_splinePushType: 0x8F4, // uint32
         },
         CBaseProp: {
-            m_bModelOverrodeBlockLOS: 0xA20, // bool
-            m_iShapeType: 0xA24, // int32
-            m_bConformToCollisionBounds: 0xA28, // bool
-            m_mPreferredCatchTransform: 0xA30, // CTransform
+            m_bModelOverrodeBlockLOS: 0x940, // bool
+            m_iShapeType: 0x944, // int32
+            m_bConformToCollisionBounds: 0x948, // bool
+            m_mPreferredCatchTransform: 0x950, // CTransform
         },
         CInfoOffscreenPanoramaTexture: {
             m_bDisabled: 0x4A8, // bool
@@ -4070,7 +4179,7 @@ export const Schemas = {
             m_lastOrientation: 0x4C4, // QAngle
             m_vecAxis: 0x4D0, // VectorWS
             m_bUseHelper: 0x4DC, // bool
-            m_AngularVelocity: 0x4E0, // CEntityOutputTemplate<float32,float32>
+            m_AngularVelocity: 0x4E0, // CEntityOutputTemplate<float32>
             m_OnLessThan: 0x500, // CEntityIOOutput
             m_OnLessThanOrEqualTo: 0x518, // CEntityIOOutput
             m_OnGreaterThan: 0x530, // CEntityIOOutput
@@ -4092,100 +4201,103 @@ export const Schemas = {
         CFlashbang: {
         },
         CBasePlayerWeapon: {
-            m_nNextPrimaryAttackTick: 0xDE0, // GameTick_t
-            m_flNextPrimaryAttackTickRatio: 0xDE4, // float32
-            m_nNextSecondaryAttackTick: 0xDE8, // GameTick_t
-            m_flNextSecondaryAttackTickRatio: 0xDEC, // float32
-            m_iClip1: 0xDF0, // int32
-            m_iClip2: 0xDF4, // int32
-            m_pReserveAmmo: 0xDF8, // int32[2]
-            m_OnPlayerUse: 0xE00, // CEntityIOOutput
+            m_nNextPrimaryAttackTick: 0xC70, // GameTick_t
+            m_flNextPrimaryAttackTickRatio: 0xC74, // float32
+            m_nNextSecondaryAttackTick: 0xC78, // GameTick_t
+            m_flNextSecondaryAttackTickRatio: 0xC7C, // float32
+            m_iClip1: 0xC80, // int32
+            m_iClip2: 0xC84, // int32
+            m_pReserveAmmo: 0xC88, // int32[2]
+            m_OnPlayerUse: 0xC90, // CEntityIOOutput
         },
         CCSWeaponBaseVData: {
-            m_WeaponType: 0x440, // CSWeaponType
-            m_WeaponCategory: 0x444, // CSWeaponCategory
-            m_szAnimSkeleton: 0x448, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCNmSkeleton>>
-            m_vecMuzzlePos0: 0x528, // Vector
-            m_vecMuzzlePos1: 0x534, // Vector
-            m_szTracerParticle: 0x540, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_GearSlot: 0x620, // gear_slot_t
-            m_GearSlotPosition: 0x624, // int32
-            m_DefaultLoadoutSlot: 0x628, // loadout_slot_t
-            m_nPrice: 0x62C, // int32
-            m_nKillAward: 0x630, // int32
-            m_nPrimaryReserveAmmoMax: 0x634, // int32
-            m_nSecondaryReserveAmmoMax: 0x638, // int32
-            m_bMeleeWeapon: 0x63C, // bool
-            m_bHasBurstMode: 0x63D, // bool
-            m_bIsRevolver: 0x63E, // bool
-            m_bCannotShootUnderwater: 0x63F, // bool
-            m_szName: 0x640, // CGlobalSymbol
-            m_eSilencerType: 0x648, // CSWeaponSilencerType
-            m_nCrosshairMinDistance: 0x64C, // int32
-            m_nCrosshairDeltaDistance: 0x650, // int32
-            m_bIsFullAuto: 0x654, // bool
-            m_nNumBullets: 0x658, // int32
-            m_bReloadsSingleShells: 0x65C, // bool
-            m_flCycleTime: 0x660, // CFiringModeFloat
-            m_flMaxSpeed: 0x668, // CFiringModeFloat
-            m_flSpread: 0x670, // CFiringModeFloat
-            m_flInaccuracyCrouch: 0x678, // CFiringModeFloat
-            m_flInaccuracyStand: 0x680, // CFiringModeFloat
-            m_flInaccuracyJump: 0x688, // CFiringModeFloat
-            m_flInaccuracyLand: 0x690, // CFiringModeFloat
-            m_flInaccuracyLadder: 0x698, // CFiringModeFloat
-            m_flInaccuracyFire: 0x6A0, // CFiringModeFloat
-            m_flInaccuracyMove: 0x6A8, // CFiringModeFloat
-            m_flRecoilAngle: 0x6B0, // CFiringModeFloat
-            m_flRecoilAngleVariance: 0x6B8, // CFiringModeFloat
-            m_flRecoilMagnitude: 0x6C0, // CFiringModeFloat
-            m_flRecoilMagnitudeVariance: 0x6C8, // CFiringModeFloat
-            m_nTracerFrequency: 0x6D0, // CFiringModeInt
-            m_flInaccuracyJumpInitial: 0x6D8, // float32
-            m_flInaccuracyJumpApex: 0x6DC, // float32
-            m_flInaccuracyReload: 0x6E0, // float32
-            m_flDeployDuration: 0x6E4, // float32
-            m_flDisallowAttackAfterReloadStartDuration: 0x6E8, // float32
-            m_nBurstShotCount: 0x6EC, // int32
-            m_bAllowBurstHolster: 0x6F0, // bool
-            m_nRecoilSeed: 0x6F4, // int32
-            m_nSpreadSeed: 0x6F8, // int32
-            m_flAttackMovespeedFactor: 0x6FC, // float32
-            m_flInaccuracyPitchShift: 0x700, // float32
-            m_flInaccuracyAltSoundThreshold: 0x704, // float32
-            m_szUseRadioSubtitle: 0x708, // CUtlString
-            m_bUnzoomsAfterShot: 0x710, // bool
-            m_bHideViewModelWhenZoomed: 0x711, // bool
-            m_nZoomLevels: 0x714, // int32
-            m_nZoomFOV1: 0x718, // int32
-            m_nZoomFOV2: 0x71C, // int32
-            m_flZoomTime0: 0x720, // float32
-            m_flZoomTime1: 0x724, // float32
-            m_flZoomTime2: 0x728, // float32
-            m_flIronSightPullUpSpeed: 0x72C, // float32
-            m_flIronSightPutDownSpeed: 0x730, // float32
-            m_flIronSightFOV: 0x734, // float32
-            m_flIronSightPivotForward: 0x738, // float32
-            m_flIronSightLooseness: 0x73C, // float32
-            m_nDamage: 0x740, // int32
-            m_flHeadshotMultiplier: 0x744, // float32
-            m_flArmorRatio: 0x748, // float32
-            m_flPenetration: 0x74C, // float32
-            m_flRange: 0x750, // float32
-            m_flRangeModifier: 0x754, // float32
-            m_flFlinchVelocityModifierLarge: 0x758, // float32
-            m_flFlinchVelocityModifierSmall: 0x75C, // float32
-            m_flRecoveryTimeCrouch: 0x760, // float32
-            m_flRecoveryTimeStand: 0x764, // float32
-            m_flRecoveryTimeCrouchFinal: 0x768, // float32
-            m_flRecoveryTimeStandFinal: 0x76C, // float32
-            m_nRecoveryTransitionStartBullet: 0x770, // int32
-            m_nRecoveryTransitionEndBullet: 0x774, // int32
-            m_flThrowVelocity: 0x778, // float32
-            m_vSmokeColor: 0x77C, // Vector
-            m_szAnimClass: 0x788, // CGlobalSymbol
+            m_WeaponType: 0x520, // CSWeaponType
+            m_WeaponCategory: 0x524, // CSWeaponCategory
+            m_szAnimSkeleton: 0x528, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCNmSkeleton>>
+            m_vecMuzzlePos0: 0x608, // Vector
+            m_vecMuzzlePos1: 0x614, // Vector
+            m_szTracerParticle: 0x620, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            m_GearSlot: 0x700, // gear_slot_t
+            m_GearSlotPosition: 0x704, // int32
+            m_DefaultLoadoutSlot: 0x708, // loadout_slot_t
+            m_nPrice: 0x70C, // int32
+            m_nKillAward: 0x710, // int32
+            m_nPrimaryReserveAmmoMax: 0x714, // int32
+            m_nSecondaryReserveAmmoMax: 0x718, // int32
+            m_bMeleeWeapon: 0x71C, // bool
+            m_bHasBurstMode: 0x71D, // bool
+            m_bIsRevolver: 0x71E, // bool
+            m_bCannotShootUnderwater: 0x71F, // bool
+            m_szName: 0x720, // CGlobalSymbol
+            m_eSilencerType: 0x728, // CSWeaponSilencerType
+            m_nCrosshairMinDistance: 0x72C, // int32
+            m_nCrosshairDeltaDistance: 0x730, // int32
+            m_bIsFullAuto: 0x734, // bool
+            m_nNumBullets: 0x738, // int32
+            m_bReloadsSingleShells: 0x73C, // bool
+            m_flCycleTime: 0x740, // CFiringModeFloat
+            m_flCycleTimeWhenInBurstMode: 0x748, // float32
+            m_flTimeBetweenBurstShots: 0x74C, // float32
+            m_flMaxSpeed: 0x750, // CFiringModeFloat
+            m_flSpread: 0x758, // CFiringModeFloat
+            m_flInaccuracyCrouch: 0x760, // CFiringModeFloat
+            m_flInaccuracyStand: 0x768, // CFiringModeFloat
+            m_flInaccuracyJump: 0x770, // CFiringModeFloat
+            m_flInaccuracyLand: 0x778, // CFiringModeFloat
+            m_flInaccuracyLadder: 0x780, // CFiringModeFloat
+            m_flInaccuracyFire: 0x788, // CFiringModeFloat
+            m_flInaccuracyMove: 0x790, // CFiringModeFloat
+            m_flRecoilAngle: 0x798, // CFiringModeFloat
+            m_flRecoilAngleVariance: 0x7A0, // CFiringModeFloat
+            m_flRecoilMagnitude: 0x7A8, // CFiringModeFloat
+            m_flRecoilMagnitudeVariance: 0x7B0, // CFiringModeFloat
+            m_nTracerFrequency: 0x7B8, // CFiringModeInt
+            m_flInaccuracyJumpInitial: 0x7C0, // float32
+            m_flInaccuracyJumpApex: 0x7C4, // float32
+            m_flInaccuracyReload: 0x7C8, // float32
+            m_flDeployDuration: 0x7CC, // float32
+            m_flDisallowAttackAfterReloadStartDuration: 0x7D0, // float32
+            m_nBurstShotCount: 0x7D4, // int32
+            m_bAllowBurstHolster: 0x7D8, // bool
+            m_nRecoilSeed: 0x7DC, // int32
+            m_nSpreadSeed: 0x7E0, // int32
+            m_flAttackMovespeedFactor: 0x7E4, // float32
+            m_flInaccuracyPitchShift: 0x7E8, // float32
+            m_flInaccuracyAltSoundThreshold: 0x7EC, // float32
+            m_szUseRadioSubtitle: 0x7F0, // CUtlString
+            m_bUnzoomsAfterShot: 0x7F8, // bool
+            m_bHideViewModelWhenZoomed: 0x7F9, // bool
+            m_nZoomLevels: 0x7FC, // int32
+            m_nZoomFOV1: 0x800, // int32
+            m_nZoomFOV2: 0x804, // int32
+            m_flZoomTime0: 0x808, // float32
+            m_flZoomTime1: 0x80C, // float32
+            m_flZoomTime2: 0x810, // float32
+            m_flIronSightPullUpSpeed: 0x814, // float32
+            m_flIronSightPutDownSpeed: 0x818, // float32
+            m_flIronSightFOV: 0x81C, // float32
+            m_flIronSightPivotForward: 0x820, // float32
+            m_flIronSightLooseness: 0x824, // float32
+            m_nDamage: 0x828, // int32
+            m_flHeadshotMultiplier: 0x82C, // float32
+            m_flArmorRatio: 0x830, // float32
+            m_flPenetration: 0x834, // float32
+            m_flRange: 0x838, // float32
+            m_flRangeModifier: 0x83C, // float32
+            m_flFlinchVelocityModifierLarge: 0x840, // float32
+            m_flFlinchVelocityModifierSmall: 0x844, // float32
+            m_flRecoveryTimeCrouch: 0x848, // float32
+            m_flRecoveryTimeStand: 0x84C, // float32
+            m_flRecoveryTimeCrouchFinal: 0x850, // float32
+            m_flRecoveryTimeStandFinal: 0x854, // float32
+            m_nRecoveryTransitionStartBullet: 0x858, // int32
+            m_nRecoveryTransitionEndBullet: 0x85C, // int32
+            m_flThrowVelocity: 0x860, // float32
+            m_vSmokeColor: 0x864, // Vector
+            m_szAnimClass: 0x870, // CGlobalSymbol
         },
         CPhysForce: {
+            m_pController: 0x4A8, // IPhysicsMotionController*
             m_nameAttach: 0x4B0, // CUtlSymbolLarge
             m_force: 0x4B8, // float32
             m_forceTime: 0x4BC, // float32
@@ -4230,10 +4342,13 @@ export const Schemas = {
             m_SourceOutput: 0x90, // PulseSymbol_t
             m_ExpectedParamType: 0xA0, // CPulseValueFullType
         },
-        CScenePayloadVData: {
-            m_sSceneFile: 0x0, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCChoreoSceneResource>>
-        },
         CPulseFuncs_GameParticleManager: {
+        },
+        CScenePayloadVData: {
+            m_eNPCBehavior: 0x0, // ENPCBehaviorOverride_t
+            m_sPulseFile: 0x8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIPulseGraphDef>>
+            m_sSceneFile: 0xE8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCChoreoSceneResource>>
+            m_ePriority: 0x1C8, // InteractionPriority_t
         },
         CFilterAttributeInt: {
             m_sAttributeName: 0x4E0, // CUtlSymbolLarge
@@ -4241,6 +4356,7 @@ export const Schemas = {
         CKeepUpright: {
             m_worldGoalAxis: 0x4B0, // Vector
             m_localTestAxis: 0x4BC, // Vector
+            m_pController: 0x4C8, // IPhysicsMotionController*
             m_nameAttach: 0x4D0, // CUtlSymbolLarge
             m_attachedObject: 0x4D8, // CHandle<CBaseEntity>
             m_angularLimit: 0x4DC, // float32
@@ -4259,6 +4375,7 @@ export const Schemas = {
             m_SpawnedEntityHandles: 0x4E8, // CUtlVector<CEntityHandle>
             m_ScriptSpawnCallback: 0x500, // HSCRIPT
             m_ScriptCallbackScope: 0x508, // HSCRIPT
+            m_OnEntitySpawned: 0x510, // CEntityOutputTemplate<CUtlVector<CEntityHandle>>
         },
         CEnvVolumetricFogController: {
             m_flScattering: 0x4A8, // float32
@@ -4297,24 +4414,6 @@ export const Schemas = {
             m_fWindSpeed: 0x540, // float32
             m_vWindDirection: 0x544, // Vector
             m_bFirstTime: 0x550, // bool
-            m_flEndDistance: 0x4A8, // float32
-            m_flStartDistance: 0x4AC, // float32
-            m_flFogFalloffExponent: 0x4B0, // float32
-            m_bHeightFogEnabled: 0x4B4, // bool
-            m_flFogHeightWidth: 0x4B8, // float32
-            m_flFogHeightEnd: 0x4BC, // float32
-            m_flFogHeightStart: 0x4C0, // float32
-            m_flFogHeightExponent: 0x4C4, // float32
-            m_flLODBias: 0x4C8, // float32
-            m_bActive: 0x4CC, // bool
-            m_bStartDisabled: 0x4CD, // bool
-            m_flFogMaxOpacity: 0x4D0, // float32
-            m_nCubemapSourceType: 0x4D4, // int32
-            m_hSkyMaterial: 0x4D8, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_iszSkyEntity: 0x4E0, // CUtlSymbolLarge
-            m_hFogCubemapTexture: 0x4E8, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_bHasHeightFogEnd: 0x4F0, // bool
-            m_bFirstTime: 0x4F1, // bool
         },
         CBot: {
             m_pController: 0x10, // CCSPlayerController*
@@ -4429,8 +4528,6 @@ export const Schemas = {
             m_nSuspiciousHitCount: 0x978, // uint32
             m_nNonSuspiciousHitStreak: 0x97C, // uint32
             m_bFireBulletsSeedSynchronized: 0xA21, // bool
-            m_bOldJumpPressed: 0x10, // bool
-            m_flJumpPressedTime: 0x14, // float32
         },
         CPhysLength: {
             m_offset: 0x508, // Vector[2]
@@ -4455,70 +4552,70 @@ export const Schemas = {
             m_nNextIndex: 0x0, // int32
         },
         CChicken: {
-            m_AttributeManager: 0xC70, // CAttributeContainer
-            m_updateTimer: 0xF68, // CountdownTimer
-            m_stuckAnchor: 0xF80, // Vector
-            m_stuckTimer: 0xF90, // CountdownTimer
-            m_collisionStuckTimer: 0xFA8, // CountdownTimer
-            m_isOnGround: 0xFC0, // bool
-            m_vFallVelocity: 0xFC4, // Vector
-            m_desiredActivity: 0xFD0, // ChickenActivity
-            m_currentActivity: 0xFD4, // ChickenActivity
-            m_activityTimer: 0xFD8, // CountdownTimer
-            m_turnRate: 0xFF0, // float32
-            m_fleeFrom: 0xFF4, // CHandle<CBaseEntity>
-            m_moveRateThrottleTimer: 0xFF8, // CountdownTimer
-            m_startleTimer: 0x1010, // CountdownTimer
-            m_vocalizeTimer: 0x1028, // CountdownTimer
-            m_flWhenZombified: 0x1040, // GameTime_t
-            m_jumpedThisFrame: 0x1044, // bool
-            m_leader: 0x1048, // CHandle<CCSPlayerPawn>
-            m_reuseTimer: 0x1060, // CountdownTimer
-            m_hasBeenUsed: 0x1078, // bool
-            m_jumpTimer: 0x1080, // CountdownTimer
-            m_flLastJumpTime: 0x1098, // float32
-            m_bInJump: 0x109C, // bool
-            m_repathTimer: 0x30A8, // CountdownTimer
-            m_vecPathGoal: 0x3140, // Vector
-            m_flActiveFollowStartTime: 0x314C, // GameTime_t
-            m_followMinuteTimer: 0x3150, // CountdownTimer
-            m_BlockDirectionTimer: 0x3170, // CountdownTimer
+            m_AttributeManager: 0xBA0, // CAttributeContainer
+            m_updateTimer: 0xE98, // CountdownTimer
+            m_stuckAnchor: 0xEB0, // Vector
+            m_stuckTimer: 0xEC0, // CountdownTimer
+            m_collisionStuckTimer: 0xED8, // CountdownTimer
+            m_isOnGround: 0xEF0, // bool
+            m_vFallVelocity: 0xEF4, // Vector
+            m_desiredActivity: 0xF00, // ChickenActivity
+            m_currentActivity: 0xF04, // ChickenActivity
+            m_activityTimer: 0xF08, // CountdownTimer
+            m_turnRate: 0xF20, // float32
+            m_fleeFrom: 0xF24, // CHandle<CBaseEntity>
+            m_moveRateThrottleTimer: 0xF28, // CountdownTimer
+            m_startleTimer: 0xF40, // CountdownTimer
+            m_vocalizeTimer: 0xF58, // CountdownTimer
+            m_flWhenZombified: 0xF70, // GameTime_t
+            m_jumpedThisFrame: 0xF74, // bool
+            m_leader: 0xF78, // CHandle<CCSPlayerPawn>
+            m_reuseTimer: 0xF90, // CountdownTimer
+            m_hasBeenUsed: 0xFA8, // bool
+            m_jumpTimer: 0xFB0, // CountdownTimer
+            m_flLastJumpTime: 0xFC8, // float32
+            m_bInJump: 0xFCC, // bool
+            m_repathTimer: 0x2FD8, // CountdownTimer
+            m_vecPathGoal: 0x3070, // Vector
+            m_flActiveFollowStartTime: 0x307C, // GameTime_t
+            m_followMinuteTimer: 0x3080, // CountdownTimer
+            m_BlockDirectionTimer: 0x30A0, // CountdownTimer
         },
         CPhysicsPropRespawnable: {
-            m_vOriginalSpawnOrigin: 0xCE0, // VectorWS
-            m_vOriginalSpawnAngles: 0xCEC, // QAngle
-            m_vOriginalMins: 0xCF8, // Vector
-            m_vOriginalMaxs: 0xD04, // Vector
-            m_flRespawnDuration: 0xD10, // float32
+            m_vOriginalSpawnOrigin: 0xC10, // VectorWS
+            m_vOriginalSpawnAngles: 0xC1C, // QAngle
+            m_vOriginalMins: 0xC28, // Vector
+            m_vOriginalMaxs: 0xC34, // Vector
+            m_flRespawnDuration: 0xC40, // float32
         },
         CEnvBeam: {
-            m_active: 0x7D0, // int32
-            m_spriteTexture: 0x7D8, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_iszStartEntity: 0x7E0, // CUtlSymbolLarge
-            m_iszEndEntity: 0x7E8, // CUtlSymbolLarge
-            m_life: 0x7F0, // float32
-            m_boltWidth: 0x7F4, // float32
-            m_noiseAmplitude: 0x7F8, // float32
-            m_speed: 0x7FC, // int32
-            m_restrike: 0x800, // float32
-            m_iszSpriteName: 0x808, // CUtlSymbolLarge
-            m_frameStart: 0x810, // int32
-            m_vEndPointWorld: 0x814, // VectorWS
-            m_vEndPointRelative: 0x820, // Vector
-            m_radius: 0x82C, // float32
-            m_TouchType: 0x830, // Touch_t
-            m_iFilterName: 0x838, // CUtlSymbolLarge
-            m_hFilter: 0x840, // CHandle<CBaseEntity>
-            m_iszDecal: 0x848, // CUtlSymbolLarge
-            m_OnTouchedByEntity: 0x850, // CEntityIOOutput
+            m_active: 0x808, // int32
+            m_spriteTexture: 0x810, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_iszStartEntity: 0x818, // CUtlSymbolLarge
+            m_iszEndEntity: 0x820, // CUtlSymbolLarge
+            m_life: 0x828, // float32
+            m_boltWidth: 0x82C, // float32
+            m_noiseAmplitude: 0x830, // float32
+            m_speed: 0x834, // int32
+            m_restrike: 0x838, // float32
+            m_iszSpriteName: 0x840, // CUtlSymbolLarge
+            m_frameStart: 0x848, // int32
+            m_vEndPointWorld: 0x84C, // VectorWS
+            m_vEndPointRelative: 0x858, // Vector
+            m_radius: 0x864, // float32
+            m_TouchType: 0x868, // Touch_t
+            m_iFilterName: 0x870, // CUtlSymbolLarge
+            m_hFilter: 0x878, // CHandle<CBaseEntity>
+            m_iszDecal: 0x880, // CUtlSymbolLarge
+            m_OnTouchedByEntity: 0x888, // CEntityIOOutput
         },
         CLightSpotEntity: {
         },
         CWeaponSawedoff: {
         },
         CTonemapTrigger: {
-            m_tonemapControllerName: 0x890, // CUtlSymbolLarge
-            m_hTonemapController: 0x898, // CEntityHandle
+            m_tonemapControllerName: 0x8C8, // CUtlSymbolLarge
+            m_hTonemapController: 0x8D0, // CEntityHandle
         },
         CEnvShake: {
             m_limitToEntity: 0x4A8, // CUtlSymbolLarge
@@ -4530,57 +4627,62 @@ export const Schemas = {
             m_nextShake: 0x4C4, // GameTime_t
             m_currentAmp: 0x4C8, // float32
             m_maxForce: 0x4CC, // Vector
+            m_pShakeController: 0x4D8, // IPhysicsMotionController*
             m_shakeCallback: 0x4E0, // CPhysicsShake
         },
         CCSPlayer_MovementServices: {
-            m_vecLadderNormal: 0x278, // Vector
-            m_nLadderSurfacePropIndex: 0x284, // int32
-            m_bDucked: 0x288, // bool
-            m_flDuckAmount: 0x28C, // float32
-            m_flDuckSpeed: 0x290, // float32
-            m_bDuckOverride: 0x294, // bool
-            m_bDesiresDuck: 0x295, // bool
-            m_bDucking: 0x296, // bool
-            m_flDuckOffset: 0x298, // float32
-            m_nDuckTimeMsecs: 0x29C, // uint32
-            m_nDuckJumpTimeMsecs: 0x2A0, // uint32
-            m_nJumpTimeMsecs: 0x2A4, // uint32
-            m_flLastDuckTime: 0x2A8, // float32
-            m_vecLastPositionAtFullCrouchSpeed: 0x2B8, // Vector2D
-            m_duckUntilOnGround: 0x2C0, // bool
-            m_bHasWalkMovedSinceLastJump: 0x2C1, // bool
-            m_bInStuckTest: 0x2C2, // bool
-            m_nTraceCount: 0x4D0, // int32
-            m_StuckLast: 0x4D4, // int32
-            m_bSpeedCropped: 0x4D8, // bool
-            m_nOldWaterLevel: 0x4DC, // int32
-            m_flWaterEntryTime: 0x4E0, // float32
-            m_vecForward: 0x4E4, // Vector
-            m_vecLeft: 0x4F0, // Vector
-            m_vecUp: 0x4FC, // Vector
-            m_nGameCodeHasMovedPlayerAfterCommand: 0x508, // int32
-            m_bMadeFootstepNoise: 0x50C, // bool
-            m_iFootsteps: 0x510, // int32
-            m_fStashGrenadeParameterWhen: 0x514, // GameTime_t
-            m_nButtonDownMaskPrev: 0x518, // uint64
-            m_flOffsetTickCompleteTime: 0x520, // float32
-            m_flOffsetTickStashedSpeed: 0x524, // float32
-            m_flStamina: 0x528, // float32
-            m_flHeightAtJumpStart: 0x52C, // float32
-            m_flMaxJumpHeightThisJump: 0x530, // float32
-            m_flMaxJumpHeightLastJump: 0x534, // float32
-            m_flStaminaAtJumpStart: 0x538, // float32
-            m_flVelMulAtJumpStart: 0x53C, // float32
-            m_flAccumulatedJumpError: 0x540, // float32
-            m_LegacyJump: 0x548, // CCSPlayerLegacyJump
-            m_ModernJump: 0x560, // CCSPlayerModernJump
-            m_nLastJumpTick: 0x598, // GameTick_t
-            m_flLastJumpFrac: 0x59C, // float32
-            m_flLastJumpVelocityZ: 0x5A0, // float32
-            m_bJumpApexPending: 0x5A4, // bool
-            m_flTicksSinceLastSurfingDetected: 0x5A8, // float32
-            m_bWasSurfing: 0x5AC, // bool
-            m_vecInputRotated: 0x63C, // Vector
+            m_AnimationState: 0x2E0, // CCSPlayerAnimationState
+            m_vecLadderNormal: 0x3D0, // Vector
+            m_nLadderSurfacePropIndex: 0x3DC, // int32
+            m_bDucked: 0x3E0, // bool
+            m_flDuckAmount: 0x3E4, // float32
+            m_flDuckSpeed: 0x3E8, // float32
+            m_bDuckOverride: 0x3EC, // bool
+            m_bDesiresDuck: 0x3ED, // bool
+            m_bDucking: 0x3EE, // bool
+            m_flDuckRootOffset: 0x3F0, // float32
+            m_flDuckViewOffset: 0x3F4, // float32
+            m_flLastDuckTime: 0x3F8, // float32
+            m_flBombPlantViewOffset: 0x3FC, // float32
+            m_vecLastPositionAtFullCrouchSpeed: 0x408, // Vector2D
+            m_duckUntilOnGround: 0x410, // bool
+            m_bHasWalkMovedSinceLastJump: 0x411, // bool
+            m_bInStuckTest: 0x412, // bool
+            m_nTraceCount: 0x620, // int32
+            m_StuckLast: 0x624, // int32
+            m_bSpeedCropped: 0x628, // bool
+            m_nOldWaterLevel: 0x62C, // int32
+            m_flWaterEntryTime: 0x630, // float32
+            m_vecForward: 0x634, // Vector
+            m_vecLeft: 0x640, // Vector
+            m_vecUp: 0x64C, // Vector
+            m_nGameCodeHasMovedPlayerAfterCommand: 0x658, // int32
+            m_bMadeFootstepNoise: 0x65C, // bool
+            m_iFootsteps: 0x660, // int32
+            m_fStashGrenadeParameterWhen: 0x664, // GameTime_t
+            m_nButtonDownMaskPrev: 0x668, // uint64
+            m_bUseFrictionStashedSpeed: 0x670, // bool
+            m_flUseFrictionStashedSpeedUntilFrac: 0x674, // float32
+            m_flFrictionStashedSpeed: 0x678, // float32
+            m_flStamina: 0x67C, // float32
+            m_flHeightAtJumpStart: 0x680, // float32
+            m_flMaxJumpHeightThisJump: 0x684, // float32
+            m_flMaxJumpHeightLastJump: 0x688, // float32
+            m_flStaminaAtJumpStart: 0x68C, // float32
+            m_flVelMulAtJumpStart: 0x690, // float32
+            m_flAccumulatedJumpError: 0x694, // float32
+            m_LegacyJump: 0x698, // CCSPlayerLegacyJump
+            m_ModernJump: 0x6B0, // CCSPlayerModernJump
+            m_nLastJumpTick: 0x6E8, // GameTick_t
+            m_flLastJumpFrac: 0x6EC, // float32
+            m_flLastJumpVelocityZ: 0x6F0, // float32
+            m_bJumpApexPending: 0x6F4, // bool
+            m_flTicksSinceLastSurfingDetected: 0x6F8, // float32
+            m_bWasSurfing: 0x6FC, // bool
+            m_vecWalkWishVel: 0x78C, // Vector2D
+            m_gtLastTimeOnStaticWorldGround: 0xFB8, // GameTime_t
+            m_gtLastTimeInAir: 0xFBC, // GameTime_t
+            m_bHasEverProcessedCommand: 0xFC0, // bool
         },
         SellbackPurchaseEntry_t: {
             m_unDefIdx: 0x30, // uint16
@@ -4588,6 +4690,10 @@ export const Schemas = {
             m_nPrevArmor: 0x38, // int32
             m_bPrevHelmet: 0x3C, // bool
             m_hItem: 0x40, // CEntityHandle
+        },
+        CTestPulseIO__EntityNameStringArgs_t: {
+            nameA: 0x0, // CEntityNameString
+            strValueB: 0x8, // CUtlSymbolLarge
         },
         CTriggerCallback: {
         },
@@ -4604,6 +4710,10 @@ export const Schemas = {
             m_strEntityOutput: 0xD8, // CGlobalSymbol
             m_strEntityOutputParam: 0xE0, // CUtlString
             m_bListenUntilCanceled: 0xE8, // bool
+            m_szSyncGroup: 0x48, // CUtlString
+            m_nExpectedNumSequencesInSyncGroup: 0x50, // int32
+            m_bEnsureOnNavmeshOnFinish: 0x54, // bool
+            m_bDontTeleportAtEnd: 0x55, // bool
         },
         CPushable: {
         },
@@ -4636,31 +4746,31 @@ export const Schemas = {
             m_scriptedSequence: 0x0, // CHandle<CBaseEntity>
         },
         CPropDoorRotating: {
-            m_vecAxis: 0xE50, // Vector
-            m_flDistance: 0xE5C, // float32
-            m_eSpawnPosition: 0xE60, // PropDoorRotatingSpawnPos_t
-            m_eOpenDirection: 0xE64, // PropDoorRotatingOpenDirection_e
-            m_eCurrentOpenDirection: 0xE68, // PropDoorRotatingOpenDirection_e
-            m_eDefaultCheckDirection: 0xE6C, // doorCheck_e
-            m_flAjarAngle: 0xE70, // float32
-            m_angRotationAjarDeprecated: 0xE74, // QAngle
-            m_angRotationClosed: 0xE80, // QAngle
-            m_angRotationOpenForward: 0xE8C, // QAngle
-            m_angRotationOpenBack: 0xE98, // QAngle
-            m_angGoal: 0xEA4, // QAngle
-            m_vecForwardBoundsMin: 0xEB0, // Vector
-            m_vecForwardBoundsMax: 0xEBC, // Vector
-            m_vecBackBoundsMin: 0xEC8, // Vector
-            m_vecBackBoundsMax: 0xED4, // Vector
-            m_bAjarDoorShouldntAlwaysOpen: 0xEE0, // bool
-            m_hEntityBlocker: 0xEE4, // CHandle<CEntityBlocker>
+            m_vecAxis: 0xD80, // Vector
+            m_flDistance: 0xD8C, // float32
+            m_eSpawnPosition: 0xD90, // PropDoorRotatingSpawnPos_t
+            m_eOpenDirection: 0xD94, // PropDoorRotatingOpenDirection_e
+            m_eCurrentOpenDirection: 0xD98, // PropDoorRotatingOpenDirection_e
+            m_eDefaultCheckDirection: 0xD9C, // doorCheck_e
+            m_flAjarAngle: 0xDA0, // float32
+            m_angRotationAjarDeprecated: 0xDA4, // QAngle
+            m_angRotationClosed: 0xDB0, // QAngle
+            m_angRotationOpenForward: 0xDBC, // QAngle
+            m_angRotationOpenBack: 0xDC8, // QAngle
+            m_angGoal: 0xDD4, // QAngle
+            m_vecForwardBoundsMin: 0xDE0, // Vector
+            m_vecForwardBoundsMax: 0xDEC, // Vector
+            m_vecBackBoundsMin: 0xDF8, // Vector
+            m_vecBackBoundsMax: 0xE04, // Vector
+            m_bAjarDoorShouldntAlwaysOpen: 0xE10, // bool
+            m_hEntityBlocker: 0xE14, // CHandle<CEntityBlocker>
         },
         CEnvParticleGlow: {
-            m_flAlphaScale: 0xCA8, // float32
-            m_flRadiusScale: 0xCAC, // float32
-            m_flSelfIllumScale: 0xCB0, // float32
-            m_ColorTint: 0xCB4, // Color
-            m_hTextureOverride: 0xCB8, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_flAlphaScale: 0xCE0, // float32
+            m_flRadiusScale: 0xCE4, // float32
+            m_flSelfIllumScale: 0xCE8, // float32
+            m_ColorTint: 0xCEC, // Color
+            m_hTextureOverride: 0xCF0, // CStrongHandle<InfoForResourceTypeCTextureBase>
         },
         CMathRemap: {
             m_flInMin: 0x4A8, // float32
@@ -4669,7 +4779,7 @@ export const Schemas = {
             m_flOut2: 0x4B4, // float32
             m_flOldInValue: 0x4B8, // float32
             m_bEnabled: 0x4BC, // bool
-            m_OutValue: 0x4C0, // CEntityOutputTemplate<float32,float32>
+            m_OutValue: 0x4C0, // CEntityOutputTemplate<float32>
             m_OnRoseAboveMin: 0x4E0, // CEntityIOOutput
             m_OnRoseAboveMax: 0x4F8, // CEntityIOOutput
             m_OnFellBelowMin: 0x510, // CEntityIOOutput
@@ -4703,7 +4813,7 @@ export const Schemas = {
             m_nMotionDisabledSpawnFlag: 0x3C, // int32
         },
         CScriptTriggerOnce: {
-            m_vExtent: 0x8A8, // Vector
+            m_vExtent: 0x8E0, // Vector
         },
         CLightOrthoEntity: {
         },
@@ -4713,13 +4823,13 @@ export const Schemas = {
             m_nCurrentCount: 0x0, // int32
         },
         CTriggerTeleport: {
-            m_iLandmark: 0x890, // CUtlSymbolLarge
-            m_bUseLandmarkAngles: 0x898, // bool
-            m_bMirrorPlayer: 0x899, // bool
-            m_bCheckDestIfClearForPlayer: 0x89A, // bool
+            m_iLandmark: 0x8C8, // CUtlSymbolLarge
+            m_bUseLandmarkAngles: 0x8D0, // bool
+            m_bMirrorPlayer: 0x8D1, // bool
+            m_bCheckDestIfClearForPlayer: 0x8D2, // bool
         },
         CFuncWall: {
-            m_nState: 0x730, // int32
+            m_nState: 0x768, // int32
         },
         CBtActionAim: {
             m_szSensorInputKey: 0x68, // CUtlString
@@ -4765,7 +4875,38 @@ export const Schemas = {
             m_bEnabled: 0x4B8, // bool
             m_fPrevVelocity: 0x4BC, // float32
             m_flAvgInterval: 0x4C0, // float32
-            m_Velocity: 0x4C8, // CEntityOutputTemplate<float32,float32>
+            m_Velocity: 0x4C8, // CEntityOutputTemplate<float32>
+        },
+        CCS2PawnGraphController: {
+            m_bIsDefusing: 0x588, // CAnimGraph2ParamOptionalRef<bool>
+            m_moveType: 0x5A0, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_moveDirectionID: 0x5B8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_flMoveSpeedX: 0x5D0, // CAnimGraph2ParamOptionalRef<float32>
+            m_flMoveSpeedY: 0x5E8, // CAnimGraph2ParamOptionalRef<float32>
+            m_flMoveSpeedHorizontal: 0x600, // CAnimGraph2ParamOptionalRef<float32>
+            m_flPreviousMoveSpeedHorizontal: 0x618, // CAnimGraph2ParamOptionalRef<float32>
+            m_flCrouchAmount: 0x630, // CAnimGraph2ParamOptionalRef<float32>
+            m_bIsWalking: 0x648, // CAnimGraph2ParamOptionalRef<bool>
+            m_bIsStutterStep: 0x660, // CAnimGraph2ParamOptionalRef<bool>
+            m_flWeaponDropAmount: 0x678, // CAnimGraph2ParamOptionalRef<float32>
+            m_groundAction: 0x690, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_groundActionDirectionID: 0x6A8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_flGroundTurnAngleOrVelocity: 0x6C0, // CAnimGraph2ParamOptionalRef<float32>
+            m_flLadderCycle: 0x6D8, // CAnimGraph2ParamOptionalRef<float32>
+            m_flLadderYaw: 0x6F0, // CAnimGraph2ParamOptionalRef<float32>
+            m_flLadderYawBackwards: 0x708, // CAnimGraph2ParamOptionalRef<float32>
+            m_airAction: 0x720, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_flAirHeightAboveGround: 0x738, // CAnimGraph2ParamOptionalRef<float32>
+            m_leftFootTarget: 0x750, // CAnimGraph2ParamOptionalRef<CNmTarget>
+            m_rightFootTarget: 0x768, // CAnimGraph2ParamOptionalRef<CNmTarget>
+            m_flFlashedAmount: 0x780, // CAnimGraph2ParamOptionalRef<float32>
+            m_flAimPitchAngle: 0x798, // CAnimGraph2ParamOptionalRef<float32>
+            m_flAimYawAngle: 0x7B0, // CAnimGraph2ParamOptionalRef<float32>
+            m_flinchHead: 0x7C8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_flinchHeadRestart: 0x7E0, // CAnimGraph2ParamOptionalRef<bool>
+            m_flinchBody: 0x7F8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_flinchBodyRestart: 0x810, // CAnimGraph2ParamOptionalRef<bool>
+            m_flinchIsOnFire: 0x828, // CAnimGraph2ParamOptionalRef<bool>
         },
         EngineCountdownTimer: {
             m_duration: 0x8, // float32
@@ -4774,49 +4915,49 @@ export const Schemas = {
         },
         CBaseModelEntityAPI: {
         },
-        CHostage: {
-            m_OnHostageBeginGrab: 0xB98, // CEntityIOOutput
-            m_OnFirstPickedUp: 0xBB0, // CEntityIOOutput
-            m_OnDroppedNotRescued: 0xBC8, // CEntityIOOutput
-            m_OnRescued: 0xBE0, // CEntityIOOutput
-            m_entitySpottedState: 0xBF8, // EntitySpottedState_t
-            m_nSpotRules: 0xC10, // int32
-            m_uiHostageSpawnExclusionGroupMask: 0xC14, // uint32
-            m_nHostageSpawnRandomFactor: 0xC18, // uint32
-            m_bRemove: 0xC1C, // bool
-            m_vel: 0xC20, // Vector
-            m_isRescued: 0xC2C, // bool
-            m_jumpedThisFrame: 0xC2D, // bool
-            m_nHostageState: 0xC30, // int32
-            m_leader: 0xC34, // CHandle<CBaseEntity>
-            m_lastLeader: 0xC38, // CHandle<CCSPlayerPawnBase>
-            m_reuseTimer: 0xC40, // CountdownTimer
-            m_hasBeenUsed: 0xC58, // bool
-            m_accel: 0xC5C, // Vector
-            m_isRunning: 0xC68, // bool
-            m_isCrouching: 0xC69, // bool
-            m_jumpTimer: 0xC70, // CountdownTimer
-            m_isWaitingForLeader: 0xC88, // bool
-            m_repathTimer: 0x2C98, // CountdownTimer
-            m_inhibitDoorTimer: 0x2CB0, // CountdownTimer
-            m_inhibitObstacleAvoidanceTimer: 0x2D40, // CountdownTimer
-            m_wiggleTimer: 0x2D60, // CountdownTimer
-            m_isAdjusted: 0x2D7C, // bool
-            m_bHandsHaveBeenCut: 0x2D7D, // bool
-            m_hHostageGrabber: 0x2D80, // CHandle<CCSPlayerPawn>
-            m_fLastGrabTime: 0x2D84, // GameTime_t
-            m_vecPositionWhenStartedDroppingToGround: 0x2D88, // Vector
-            m_vecGrabbedPos: 0x2D94, // Vector
-            m_flRescueStartTime: 0x2DA0, // GameTime_t
-            m_flGrabSuccessTime: 0x2DA4, // GameTime_t
-            m_flDropStartTime: 0x2DA8, // GameTime_t
-            m_nApproachRewardPayouts: 0x2DAC, // int32
-            m_nPickupEventCount: 0x2DB0, // int32
-            m_vecSpawnGroundPos: 0x2DB4, // Vector
-            m_vecHostageResetPosition: 0x2DEC, // VectorWS
-        },
         CScriptTriggerMultiple: {
-            m_vExtent: 0x8A8, // Vector
+            m_vExtent: 0x8E0, // Vector
+        },
+        CHostage: {
+            m_OnHostageBeginGrab: 0xA28, // CEntityIOOutput
+            m_OnFirstPickedUp: 0xA40, // CEntityIOOutput
+            m_OnDroppedNotRescued: 0xA58, // CEntityIOOutput
+            m_OnRescued: 0xA70, // CEntityIOOutput
+            m_entitySpottedState: 0xA88, // EntitySpottedState_t
+            m_nSpotRules: 0xAA0, // int32
+            m_uiHostageSpawnExclusionGroupMask: 0xAA4, // uint32
+            m_nHostageSpawnRandomFactor: 0xAA8, // uint32
+            m_bRemove: 0xAAC, // bool
+            m_vel: 0xAB0, // Vector
+            m_isRescued: 0xABC, // bool
+            m_jumpedThisFrame: 0xABD, // bool
+            m_nHostageState: 0xAC0, // int32
+            m_leader: 0xAC4, // CHandle<CBaseEntity>
+            m_lastLeader: 0xAC8, // CHandle<CCSPlayerPawnBase>
+            m_reuseTimer: 0xAD0, // CountdownTimer
+            m_hasBeenUsed: 0xAE8, // bool
+            m_accel: 0xAEC, // Vector
+            m_isRunning: 0xAF8, // bool
+            m_isCrouching: 0xAF9, // bool
+            m_jumpTimer: 0xB00, // CountdownTimer
+            m_isWaitingForLeader: 0xB18, // bool
+            m_repathTimer: 0x2B28, // CountdownTimer
+            m_inhibitDoorTimer: 0x2B40, // CountdownTimer
+            m_inhibitObstacleAvoidanceTimer: 0x2BD0, // CountdownTimer
+            m_wiggleTimer: 0x2BF0, // CountdownTimer
+            m_isAdjusted: 0x2C0C, // bool
+            m_bHandsHaveBeenCut: 0x2C0D, // bool
+            m_hHostageGrabber: 0x2C10, // CHandle<CCSPlayerPawn>
+            m_fLastGrabTime: 0x2C14, // GameTime_t
+            m_vecPositionWhenStartedDroppingToGround: 0x2C18, // Vector
+            m_vecGrabbedPos: 0x2C24, // Vector
+            m_flRescueStartTime: 0x2C30, // GameTime_t
+            m_flGrabSuccessTime: 0x2C34, // GameTime_t
+            m_flDropStartTime: 0x2C38, // GameTime_t
+            m_nApproachRewardPayouts: 0x2C3C, // int32
+            m_nPickupEventCount: 0x2C40, // int32
+            m_vecSpawnGroundPos: 0x2C44, // Vector
+            m_vecHostageResetPosition: 0x2C7C, // VectorWS
         },
         CEnvSpark: {
             m_flDelay: 0x4A8, // float32
@@ -4828,6 +4969,14 @@ export const Schemas = {
         CCSPlayerController_DamageServices: {
             m_nSendUpdate: 0x40, // int32
             m_DamageList: 0x48, // CUtlVectorEmbeddedNetworkVar<CDamageRecord>
+        },
+        CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume: {
+        },
+        CBaseModelEntity__OnDamageLevelChangedArgs_t: {
+            nHitGroup: 0x0, // HitGroup_t
+            nDamageLevel: 0x4, // int32
+            nDamageLevelsRemaining: 0x8, // int32
+            nPrevDamageLevel: 0xC, // int32
         },
         CFilterLOS: {
         },
@@ -4854,42 +5003,43 @@ export const Schemas = {
             __m_pChainEntity: 0x0, // CNetworkVarChainer
             m_vecDamageTakenByHitGroup: 0x48, // CUtlVector<uint16>
             m_hOwner: 0x60, // CHandle<CBaseModelEntity>
+            m_pAnimGraphDestructibleGraphController: 0x68, // CBaseAnimGraphDestructibleParts_GraphController*
         },
         CChangeLevel: {
-            m_sMapName: 0x890, // CUtlString
-            m_sLandmarkName: 0x898, // CUtlString
-            m_OnChangeLevel: 0x8A0, // CEntityIOOutput
-            m_bTouched: 0x8B8, // bool
-            m_bNoTouch: 0x8B9, // bool
-            m_bNewChapter: 0x8BA, // bool
-            m_bOnChangeLevelFired: 0x8BB, // bool
+            m_sMapName: 0x8C8, // CUtlString
+            m_sLandmarkName: 0x8D0, // CUtlString
+            m_OnChangeLevel: 0x8D8, // CEntityIOOutput
+            m_bTouched: 0x8F0, // bool
+            m_bNoTouch: 0x8F1, // bool
+            m_bNewChapter: 0x8F2, // bool
+            m_bOnChangeLevelFired: 0x8F3, // bool
         },
         CBaseButton: {
-            m_angMoveEntitySpace: 0x7B0, // QAngle
-            m_fStayPushed: 0x7BC, // bool
-            m_fRotating: 0x7BD, // bool
-            m_ls: 0x7C0, // locksound_t
-            m_sUseSound: 0x7E0, // CUtlSymbolLarge
-            m_sLockedSound: 0x7E8, // CUtlSymbolLarge
-            m_sUnlockedSound: 0x7F0, // CUtlSymbolLarge
-            m_sOverrideAnticipationName: 0x7F8, // CUtlSymbolLarge
-            m_bLocked: 0x800, // bool
-            m_bDisabled: 0x801, // bool
-            m_flUseLockedTime: 0x804, // GameTime_t
-            m_bSolidBsp: 0x808, // bool
-            m_OnDamaged: 0x810, // CEntityIOOutput
-            m_OnPressed: 0x828, // CEntityIOOutput
-            m_OnUseLocked: 0x840, // CEntityIOOutput
-            m_OnIn: 0x858, // CEntityIOOutput
-            m_OnOut: 0x870, // CEntityIOOutput
-            m_nState: 0x888, // int32
-            m_hConstraint: 0x88C, // CEntityHandle
-            m_hConstraintParent: 0x890, // CEntityHandle
-            m_bForceNpcExclude: 0x894, // bool
-            m_sGlowEntity: 0x898, // CUtlSymbolLarge
-            m_glowEntity: 0x8A0, // CHandle<CBaseModelEntity>
-            m_usable: 0x8A4, // bool
-            m_szDisplayText: 0x8A8, // CUtlSymbolLarge
+            m_angMoveEntitySpace: 0x7E8, // QAngle
+            m_fStayPushed: 0x7F4, // bool
+            m_fRotating: 0x7F5, // bool
+            m_ls: 0x7F8, // locksound_t
+            m_sUseSound: 0x818, // CUtlSymbolLarge
+            m_sLockedSound: 0x820, // CUtlSymbolLarge
+            m_sUnlockedSound: 0x828, // CUtlSymbolLarge
+            m_sOverrideAnticipationName: 0x830, // CUtlSymbolLarge
+            m_bLocked: 0x838, // bool
+            m_bDisabled: 0x839, // bool
+            m_flUseLockedTime: 0x83C, // GameTime_t
+            m_bSolidBsp: 0x840, // bool
+            m_OnDamaged: 0x848, // CEntityIOOutput
+            m_OnPressed: 0x860, // CEntityIOOutput
+            m_OnUseLocked: 0x878, // CEntityIOOutput
+            m_OnIn: 0x890, // CEntityIOOutput
+            m_OnOut: 0x8A8, // CEntityIOOutput
+            m_nState: 0x8C0, // int32
+            m_hConstraint: 0x8C4, // CEntityHandle
+            m_hConstraintParent: 0x8C8, // CEntityHandle
+            m_bForceNpcExclude: 0x8CC, // bool
+            m_sGlowEntity: 0x8D0, // CUtlSymbolLarge
+            m_glowEntity: 0x8D8, // CHandle<CBaseModelEntity>
+            m_usable: 0x8DC, // bool
+            m_szDisplayText: 0x8E0, // CUtlSymbolLarge
         },
         CPulseCell_SoundEventStart: {
             m_Type: 0x48, // SoundEventStartType_t
@@ -4899,32 +5049,30 @@ export const Schemas = {
         CItem_Healthshot: {
         },
         CBaseGrenade: {
-            m_OnPlayerPickup: 0xAB8, // CEntityIOOutput
-            m_OnExplode: 0xAD0, // CEntityIOOutput
-            m_bHasWarnedAI: 0xAE8, // bool
-            m_bIsSmokeGrenade: 0xAE9, // bool
-            m_bIsLive: 0xAEA, // bool
-            m_DmgRadius: 0xAEC, // float32
-            m_flDetonateTime: 0xAF0, // GameTime_t
-            m_flWarnAITime: 0xAF4, // float32
-            m_flDamage: 0xAF8, // float32
-            m_iszBounceSound: 0xB00, // CUtlSymbolLarge
-            m_ExplosionSound: 0xB08, // CUtlString
-            m_hThrower: 0xB14, // CHandle<CCSPlayerPawn>
-            m_flNextAttack: 0xB2C, // GameTime_t
-            m_hOriginalThrower: 0xB30, // CHandle<CCSPlayerPawn>
-            m_bSpotted: 0x8, // bool
-            m_bSpottedByMask: 0xC, // uint32[2]
+            m_OnPlayerPickup: 0x948, // CEntityIOOutput
+            m_OnExplode: 0x960, // CEntityIOOutput
+            m_bHasWarnedAI: 0x978, // bool
+            m_bIsSmokeGrenade: 0x979, // bool
+            m_bIsLive: 0x97A, // bool
+            m_DmgRadius: 0x97C, // float32
+            m_flDetonateTime: 0x980, // GameTime_t
+            m_flWarnAITime: 0x984, // float32
+            m_flDamage: 0x988, // float32
+            m_iszBounceSound: 0x990, // CUtlSymbolLarge
+            m_ExplosionSound: 0x998, // CUtlString
+            m_hThrower: 0x9A0, // CHandle<CCSPlayerPawn>
+            m_flNextAttack: 0x9B8, // GameTime_t
+            m_hOriginalThrower: 0x9BC, // CHandle<CCSPlayerPawn>
         },
         CColorCorrectionVolume: {
-            m_MaxWeight: 0x890, // float32
-            m_FadeDuration: 0x894, // float32
-            m_Weight: 0x898, // float32
-            m_lookupFilename: 0x89C, // char[512]
-            m_LastEnterWeight: 0xA9C, // float32
-            m_LastEnterTime: 0xAA0, // GameTime_t
-            m_LastExitWeight: 0xAA4, // float32
-            m_LastExitTime: 0xAA8, // GameTime_t
+            m_MaxWeight: 0x8C8, // float32
+            m_FadeDuration: 0x8CC, // float32
+            m_Weight: 0x8D0, // float32
+            m_lookupFilename: 0x8D4, // char[512]
+            m_LastEnterWeight: 0xAD4, // float32
+            m_LastEnterTime: 0xAD8, // GameTime_t
+            m_LastExitWeight: 0xADC, // float32
+            m_LastExitTime: 0xAE0, // GameTime_t
         },
         CCSPlayerController_ActionTrackingServices: {
             m_perRoundStats: 0x40, // CUtlVectorEmbeddedNetworkVar<CSPerRoundStats_t>
@@ -4934,7 +5082,7 @@ export const Schemas = {
             m_flTotalRoundDamageDealt: 0x190, // float32
         },
         CBodyComponentBaseAnimGraph: {
-            m_animationController: 0x4B0, // CBaseAnimGraphController
+            m_animationController: 0x4A0, // CBaseAnimGraphController
         },
         CPulseCell_BaseYieldingInflow: {
         },
@@ -4942,31 +5090,31 @@ export const Schemas = {
             m_Outflows: 0x0, // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
         },
         CFogVolume: {
-            m_fogName: 0x730, // CUtlSymbolLarge
-            m_postProcessName: 0x738, // CUtlSymbolLarge
-            m_colorCorrectionName: 0x740, // CUtlSymbolLarge
-            m_bDisabled: 0x750, // bool
-            m_bInFogVolumesList: 0x751, // bool
+            m_fogName: 0x768, // CUtlSymbolLarge
+            m_postProcessName: 0x770, // CUtlSymbolLarge
+            m_colorCorrectionName: 0x778, // CUtlSymbolLarge
+            m_bDisabled: 0x788, // bool
+            m_bInFogVolumesList: 0x789, // bool
         },
         CFuncRotating: {
-            m_OnStopped: 0x730, // CEntityIOOutput
-            m_OnStarted: 0x748, // CEntityIOOutput
-            m_OnReachedStart: 0x760, // CEntityIOOutput
-            m_localRotationVector: 0x778, // RotationVector
-            m_flFanFriction: 0x784, // float32
-            m_flAttenuation: 0x788, // float32
-            m_flVolume: 0x78C, // float32
-            m_flTargetSpeed: 0x790, // float32
-            m_flMaxSpeed: 0x794, // float32
-            m_flBlockDamage: 0x798, // float32
-            m_NoiseRunning: 0x7A0, // CUtlSymbolLarge
-            m_bReversed: 0x7A8, // bool
-            m_bAccelDecel: 0x7A9, // bool
-            m_prevLocalAngles: 0x7C0, // QAngle
-            m_angStart: 0x7CC, // QAngle
-            m_bStopAtStartPos: 0x7D8, // bool
-            m_vecClientOrigin: 0x7DC, // Vector
-            m_vecClientAngles: 0x7E8, // QAngle
+            m_OnStopped: 0x768, // CEntityIOOutput
+            m_OnStarted: 0x780, // CEntityIOOutput
+            m_OnReachedStart: 0x798, // CEntityIOOutput
+            m_localRotationVector: 0x7B0, // RotationVector
+            m_flFanFriction: 0x7BC, // float32
+            m_flAttenuation: 0x7C0, // float32
+            m_flVolume: 0x7C4, // float32
+            m_flTargetSpeed: 0x7C8, // float32
+            m_flMaxSpeed: 0x7CC, // float32
+            m_flBlockDamage: 0x7D0, // float32
+            m_NoiseRunning: 0x7D8, // CUtlSymbolLarge
+            m_bReversed: 0x7E0, // bool
+            m_bAccelDecel: 0x7E1, // bool
+            m_prevLocalAngles: 0x7F8, // QAngle
+            m_angStart: 0x804, // QAngle
+            m_bStopAtStartPos: 0x810, // bool
+            m_vecClientOrigin: 0x814, // Vector
+            m_vecClientAngles: 0x820, // QAngle
         },
         CTimerEntity: {
             m_OnTimer: 0x4A8, // CEntityIOOutput
@@ -5000,13 +5148,13 @@ export const Schemas = {
             m_flNearestAreaDistanceThreshold: 0xE4, // float32
         },
         CPlayer_MovementServices_Humanoid: {
-            m_flStepSoundTime: 0x240, // float32
-            m_flFallVelocity: 0x244, // float32
-            m_groundNormal: 0x248, // Vector
-            m_flSurfaceFriction: 0x254, // float32
-            m_surfaceProps: 0x258, // CUtlStringToken
-            m_nStepside: 0x268, // int32
-            m_vecSmoothedVelocity: 0x26C, // Vector
+            m_flStepSoundTime: 0x258, // float32
+            m_flFallVelocity: 0x25C, // float32
+            m_groundNormal: 0x260, // Vector
+            m_flSurfaceFriction: 0x26C, // float32
+            m_surfaceProps: 0x270, // CUtlStringToken
+            m_nStepside: 0x280, // int32
+            m_vecSmoothedVelocity: 0x284, // Vector
         },
         CBaseEntityAPI: {
         },
@@ -5049,15 +5197,15 @@ export const Schemas = {
             m_bSelfReference: 0x82, // bool
         },
         CFuncMonitor: {
-            m_targetCamera: 0x750, // CUtlString
-            m_nResolutionEnum: 0x758, // int32
-            m_bRenderShadows: 0x75C, // bool
-            m_bUseUniqueColorTarget: 0x75D, // bool
-            m_brushModelName: 0x760, // CUtlString
-            m_hTargetCamera: 0x768, // CHandle<CBaseEntity>
-            m_bEnabled: 0x76C, // bool
-            m_bDraw3DSkybox: 0x76D, // bool
-            m_bStartEnabled: 0x76E, // bool
+            m_targetCamera: 0x788, // CUtlString
+            m_nResolutionEnum: 0x790, // int32
+            m_bRenderShadows: 0x794, // bool
+            m_bUseUniqueColorTarget: 0x795, // bool
+            m_brushModelName: 0x798, // CUtlString
+            m_hTargetCamera: 0x7A0, // CHandle<CBaseEntity>
+            m_bEnabled: 0x7A4, // bool
+            m_bDraw3DSkybox: 0x7A5, // bool
+            m_bStartEnabled: 0x7A6, // bool
         },
         CInfoVisibilityBox: {
             m_nMode: 0x4AC, // int32
@@ -5065,26 +5213,26 @@ export const Schemas = {
             m_bEnabled: 0x4BC, // bool
         },
         CGunTarget: {
-            m_on: 0x7B0, // bool
-            m_hTargetEnt: 0x7B4, // CHandle<CBaseEntity>
-            m_OnDeath: 0x7B8, // CEntityIOOutput
+            m_on: 0x7E8, // bool
+            m_hTargetEnt: 0x7EC, // CHandle<CBaseEntity>
+            m_OnDeath: 0x7F0, // CEntityIOOutput
         },
         CSoundEventConeEntity: {
-            m_flEmitterAngle: 0x558, // float32
-            m_flSweetSpotAngle: 0x55C, // float32
-            m_flAttenMin: 0x560, // float32
-            m_flAttenMax: 0x564, // float32
-            m_iszParameterName: 0x568, // CUtlSymbolLarge
+            m_flEmitterAngle: 0x568, // float32
+            m_flSweetSpotAngle: 0x56C, // float32
+            m_flAttenMin: 0x570, // float32
+            m_flAttenMax: 0x574, // float32
+            m_iszParameterName: 0x578, // CUtlSymbolLarge
         },
         CSoundOpvarSetOBBEntity: {
         },
         CFilterMultipleAPI: {
         },
         CDecoyProjectile: {
-            m_nDecoyShotTick: 0xBC8, // int32
-            m_shotsRemaining: 0xBCC, // int32
-            m_fExpireTime: 0xBD0, // GameTime_t
-            m_decoyWeaponDefIndex: 0xBE0, // uint16
+            m_nDecoyShotTick: 0xA48, // int32
+            m_shotsRemaining: 0xA4C, // int32
+            m_fExpireTime: 0xA50, // GameTime_t
+            m_decoyWeaponDefIndex: 0xA60, // uint16
         },
         CPrecipitationBlocker: {
         },
@@ -5106,20 +5254,31 @@ export const Schemas = {
             m_hPathMover: 0x4CC, // CHandle<CPathMover>
             m_flSpawnFrequencySeconds: 0x4D0, // float32
             m_flSpawnFrequencyDistToNearestMover: 0x4D4, // float32
-            m_mapSpawnedMoverTemplates: 0x4D8, // CUtlHashtable<CHandle<CFuncMover>,CPathMoverEntitySpawn>
+            m_mapSpawnedMoverTemplates: 0x4D8, // CUtlHashtable<CHandle<CFuncMover>,PathMoverEntitySpawn>
             m_nMaxActive: 0x4F8, // int32
-            m_flLastSpawnTime: 0x4FC, // GameTime_t
-            m_bEnabled: 0x500, // bool
+            m_nSpawnNum: 0x4FC, // int32
+            m_flLastSpawnTime: 0x500, // GameTime_t
+            m_bEnabled: 0x504, // bool
+            m_bDestroyMoverOnArrivedAtEnd: 0x505, // bool
+            m_vecQueuedRemovals: 0x508, // CUtlVector<CHandle<CFuncMover>>
+            m_OnTemplateSpawned: 0x520, // CEntityIOOutput
+            m_OnTemplateGroupSpawned: 0x538, // CEntityIOOutput
         },
         CModelState: {
             m_hModel: 0xA0, // CStrongHandle<InfoForResourceTypeCModel>
             m_ModelName: 0xA8, // CUtlSymbolLarge
+            m_pVPhysicsAggregate: 0xE0, // IPhysAggregateInstance*
+            m_flRootBoneOffset_x: 0xE8, // float32
+            m_flRootBoneOffset_y: 0xEC, // float32
+            m_flRootBoneOffset_z: 0xF0, // float32
+            m_nRootBoneOffsetResetSerialNumber: 0xF4, // uint8
             m_bClientClothCreationSuppressed: 0xF5, // bool
-            m_MeshGroupMask: 0x1A0, // uint64
-            m_nBodyGroupChoices: 0x1F0, // CNetworkUtlVectorBase<int32>
-            m_nIdealMotionType: 0x23A, // int8
-            m_nForceLOD: 0x23B, // int8
-            m_nClothUpdateFlags: 0x23C, // int8
+            m_nAnimStateNoInterpSerialNumber: 0x1A0, // uint8
+            m_MeshGroupMask: 0x1A8, // uint64
+            m_nBodyGroupChoices: 0x1F8, // CNetworkUtlVectorBase<int32>
+            m_nIdealMotionType: 0x242, // int8
+            m_nForceLOD: 0x243, // int8
+            m_nClothUpdateFlags: 0x244, // int8
         },
         CPulseCell_LerpCameraSettings__CursorState_t: {
             m_hCamera: 0x8, // CHandle<CPointCamera>
@@ -5162,16 +5321,16 @@ export const Schemas = {
         CWeaponMP7: {
         },
         CCSWeaponBaseGun: {
-            m_zoomLevel: 0x1130, // int32
-            m_iBurstShotsRemaining: 0x1134, // int32
-            m_silencedModelIndex: 0x1140, // int32
-            m_inPrecache: 0x1144, // bool
-            m_bNeedsBoltAction: 0x1145, // bool
-            m_nRevolverCylinderIdx: 0x1148, // int32
-            m_bSkillReloadAvailable: 0x114C, // bool
-            m_bSkillReloadLiftedReloadKey: 0x114D, // bool
-            m_bSkillBoltInterruptAvailable: 0x114E, // bool
-            m_bSkillBoltLiftedFireKey: 0x114F, // bool
+            m_zoomLevel: 0x1030, // int32
+            m_iBurstShotsRemaining: 0x1034, // int32
+            m_silencedModelIndex: 0x1040, // int32
+            m_inPrecache: 0x1044, // bool
+            m_bNeedsBoltAction: 0x1045, // bool
+            m_nRevolverCylinderIdx: 0x1048, // int32
+            m_bSkillReloadAvailable: 0x104C, // bool
+            m_bSkillReloadLiftedReloadKey: 0x104D, // bool
+            m_bSkillBoltInterruptAvailable: 0x104E, // bool
+            m_bSkillBoltLiftedFireKey: 0x104F, // bool
         },
         CEnableMotionFixup: {
         },
@@ -5187,8 +5346,8 @@ export const Schemas = {
             m_bHitMin: 0x4B0, // bool
             m_bHitMax: 0x4B1, // bool
             m_bDisabled: 0x4B2, // bool
-            m_OutValue: 0x4B8, // CEntityOutputTemplate<float32,float32>
-            m_OnGetValue: 0x4D8, // CEntityOutputTemplate<float32,float32>
+            m_OutValue: 0x4B8, // CEntityOutputTemplate<float32>
+            m_OnGetValue: 0x4D8, // CEntityOutputTemplate<float32>
             m_OnHitMin: 0x4F8, // CEntityIOOutput
             m_OnHitMax: 0x510, // CEntityIOOutput
             m_OnChangedFromMin: 0x528, // CEntityIOOutput
@@ -5201,7 +5360,7 @@ export const Schemas = {
             m_Item: 0x50, // CEconItemView
         },
         CCSPlace: {
-            m_name: 0x748, // CUtlSymbolLarge
+            m_name: 0x780, // CUtlSymbolLarge
         },
         PulseSelectorOutflowList_t: {
             m_Outflows: 0x0, // CUtlVector<OutflowWithRequirements_t>
@@ -5212,15 +5371,15 @@ export const Schemas = {
         CLightEnvironmentEntity: {
         },
         CEnvDecal: {
-            m_hDecalMaterial: 0x730, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_flWidth: 0x738, // float32
-            m_flHeight: 0x73C, // float32
-            m_flDepth: 0x740, // float32
-            m_nRenderOrder: 0x744, // uint32
-            m_bProjectOnWorld: 0x748, // bool
-            m_bProjectOnCharacters: 0x749, // bool
-            m_bProjectOnWater: 0x74A, // bool
-            m_flDepthSortBias: 0x74C, // float32
+            m_hDecalMaterial: 0x768, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_flWidth: 0x770, // float32
+            m_flHeight: 0x774, // float32
+            m_flDepth: 0x778, // float32
+            m_nRenderOrder: 0x77C, // uint32
+            m_bProjectOnWorld: 0x780, // bool
+            m_bProjectOnCharacters: 0x781, // bool
+            m_bProjectOnWater: 0x782, // bool
+            m_flDepthSortBias: 0x784, // float32
         },
         CEnvVolumetricFogVolume: {
             m_bActive: 0x4A8, // bool
@@ -5241,18 +5400,6 @@ export const Schemas = {
             m_bOverrideIndirectLightStrength: 0x4ED, // bool
             m_bOverrideSunLightStrength: 0x4EE, // bool
             m_bOverrideNoiseStrength: 0x4EF, // bool
-            m_hGradientFogTexture: 0x4A8, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_flFogStartDistance: 0x4B0, // float32
-            m_flFogEndDistance: 0x4B4, // float32
-            m_bHeightFogEnabled: 0x4B8, // bool
-            m_flFogStartHeight: 0x4BC, // float32
-            m_flFogEndHeight: 0x4C0, // float32
-            m_flFarZ: 0x4C4, // float32
-            m_flFogMaxOpacity: 0x4C8, // float32
-            m_flFogFalloffExponent: 0x4CC, // float32
-            m_flFogVerticalExponent: 0x4D0, // float32
-            m_fogColor: 0x4D4, // Color
-            m_flFogStrength: 0x4D8, // float32
         },
         CServerOnlyEntity: {
         },
@@ -5263,38 +5410,38 @@ export const Schemas = {
             m_skeletonInstance: 0x80, // CSkeletonInstance
         },
         CItemGeneric: {
-            m_bHasTriggerRadius: 0xAD4, // bool
-            m_bHasPickupRadius: 0xAD5, // bool
-            m_flPickupRadiusSqr: 0xAD8, // float32
-            m_flTriggerRadiusSqr: 0xADC, // float32
-            m_flLastPickupCheck: 0xAE0, // GameTime_t
-            m_bPlayerCounterListenerAdded: 0xAE4, // bool
-            m_bPlayerInTriggerRadius: 0xAE5, // bool
-            m_hSpawnParticleEffect: 0xAE8, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_pAmbientSoundEffect: 0xAF0, // CUtlSymbolLarge
-            m_bAutoStartAmbientSound: 0xAF8, // bool
-            m_pSpawnScriptFunction: 0xB00, // CUtlSymbolLarge
-            m_hPickupParticleEffect: 0xB08, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_pPickupSoundEffect: 0xB10, // CUtlSymbolLarge
-            m_pPickupScriptFunction: 0xB18, // CUtlSymbolLarge
-            m_hTimeoutParticleEffect: 0xB20, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_pTimeoutSoundEffect: 0xB28, // CUtlSymbolLarge
-            m_pTimeoutScriptFunction: 0xB30, // CUtlSymbolLarge
-            m_pPickupFilterName: 0xB38, // CUtlSymbolLarge
-            m_hPickupFilter: 0xB40, // CHandle<CBaseFilter>
-            m_OnPickup: 0xB48, // CEntityIOOutput
-            m_OnTimeout: 0xB60, // CEntityIOOutput
-            m_OnTriggerStartTouch: 0xB78, // CEntityIOOutput
-            m_OnTriggerTouch: 0xB90, // CEntityIOOutput
-            m_OnTriggerEndTouch: 0xBA8, // CEntityIOOutput
-            m_pAllowPickupScriptFunction: 0xBC0, // CUtlSymbolLarge
-            m_flPickupRadius: 0xBC8, // float32
-            m_flTriggerRadius: 0xBCC, // float32
-            m_pTriggerSoundEffect: 0xBD0, // CUtlSymbolLarge
-            m_bGlowWhenInTrigger: 0xBD8, // bool
-            m_glowColor: 0xBD9, // Color
-            m_bUseable: 0xBDD, // bool
-            m_hTriggerHelper: 0xBE0, // CHandle<CItemGenericTriggerHelper>
+            m_bHasTriggerRadius: 0x9F4, // bool
+            m_bHasPickupRadius: 0x9F5, // bool
+            m_flPickupRadiusSqr: 0x9F8, // float32
+            m_flTriggerRadiusSqr: 0x9FC, // float32
+            m_flLastPickupCheck: 0xA00, // GameTime_t
+            m_bPlayerCounterListenerAdded: 0xA04, // bool
+            m_bPlayerInTriggerRadius: 0xA05, // bool
+            m_hSpawnParticleEffect: 0xA08, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_pAmbientSoundEffect: 0xA10, // CUtlSymbolLarge
+            m_bAutoStartAmbientSound: 0xA18, // bool
+            m_pSpawnScriptFunction: 0xA20, // CUtlSymbolLarge
+            m_hPickupParticleEffect: 0xA28, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_pPickupSoundEffect: 0xA30, // CUtlSymbolLarge
+            m_pPickupScriptFunction: 0xA38, // CUtlSymbolLarge
+            m_hTimeoutParticleEffect: 0xA40, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_pTimeoutSoundEffect: 0xA48, // CUtlSymbolLarge
+            m_pTimeoutScriptFunction: 0xA50, // CUtlSymbolLarge
+            m_pPickupFilterName: 0xA58, // CUtlSymbolLarge
+            m_hPickupFilter: 0xA60, // CHandle<CBaseFilter>
+            m_OnPickup: 0xA68, // CEntityIOOutput
+            m_OnTimeout: 0xA80, // CEntityIOOutput
+            m_OnTriggerStartTouch: 0xA98, // CEntityIOOutput
+            m_OnTriggerTouch: 0xAB0, // CEntityIOOutput
+            m_OnTriggerEndTouch: 0xAC8, // CEntityIOOutput
+            m_pAllowPickupScriptFunction: 0xAE0, // CUtlSymbolLarge
+            m_flPickupRadius: 0xAE8, // float32
+            m_flTriggerRadius: 0xAEC, // float32
+            m_pTriggerSoundEffect: 0xAF0, // CUtlSymbolLarge
+            m_bGlowWhenInTrigger: 0xAF8, // bool
+            m_glowColor: 0xAF9, // Color
+            m_bUseable: 0xAFD, // bool
+            m_hTriggerHelper: 0xB00, // CHandle<CItemGenericTriggerHelper>
         },
         CPointValueRemapper: {
             m_bDisabled: 0x4A8, // bool
@@ -5334,8 +5481,8 @@ export const Schemas = {
             m_iszSoundReachedValueZero: 0x568, // CUtlSymbolLarge
             m_iszSoundReachedValueOne: 0x570, // CUtlSymbolLarge
             m_iszSoundMovingLoop: 0x578, // CUtlSymbolLarge
-            m_Position: 0x598, // CEntityOutputTemplate<float32,float32>
-            m_PositionDelta: 0x5B8, // CEntityOutputTemplate<float32,float32>
+            m_Position: 0x598, // CEntityOutputTemplate<float32>
+            m_PositionDelta: 0x5B8, // CEntityOutputTemplate<float32>
             m_OnReachedValueZero: 0x5D8, // CEntityIOOutput
             m_OnReachedValueOne: 0x5F0, // CEntityIOOutput
             m_OnReachedValueCustom: 0x608, // CEntityIOOutput
@@ -5350,43 +5497,48 @@ export const Schemas = {
         CCSGO_TeamIntroCounterTerroristPosition: {
         },
         CRagdollProp: {
-            m_ragdoll: 0xA30, // ragdoll_t
-            m_bStartDisabled: 0xA80, // bool
-            m_ragEnabled: 0xA88, // CNetworkUtlVectorBase<bool>
-            m_ragPos: 0xAA0, // CNetworkUtlVectorBase<Vector>
-            m_ragAngles: 0xAB8, // CNetworkUtlVectorBase<QAngle>
-            m_lastUpdateTickCount: 0xAD0, // uint32
-            m_allAsleep: 0xAD4, // bool
-            m_bFirstCollisionAfterLaunch: 0xAD5, // bool
-            m_hDamageEntity: 0xAD8, // CHandle<CBaseEntity>
-            m_hKiller: 0xADC, // CHandle<CBaseEntity>
-            m_hPhysicsAttacker: 0xAE0, // CHandle<CBasePlayerPawn>
-            m_flLastPhysicsInfluenceTime: 0xAE4, // GameTime_t
-            m_flFadeOutStartTime: 0xAE8, // GameTime_t
-            m_flFadeTime: 0xAEC, // float32
-            m_vecLastOrigin: 0xAF0, // VectorWS
-            m_flAwakeTime: 0xAFC, // GameTime_t
-            m_flLastOriginChangeTime: 0xB00, // GameTime_t
-            m_strOriginClassName: 0xB08, // CUtlSymbolLarge
-            m_strSourceClassName: 0xB10, // CUtlSymbolLarge
-            m_bHasBeenPhysgunned: 0xB18, // bool
-            m_bAllowStretch: 0xB19, // bool
-            m_flBlendWeight: 0xB1C, // float32
-            m_flDefaultFadeScale: 0xB20, // float32
-            m_ragdollMins: 0xB28, // CUtlVector<Vector>
-            m_ragdollMaxs: 0xB40, // CUtlVector<Vector>
-            m_bShouldDeleteActivationRecord: 0xB58, // bool
+            m_ragdoll: 0x950, // ragdoll_t
+            m_bStartDisabled: 0x9A0, // bool
+            m_ragEnabled: 0x9A8, // CNetworkUtlVectorBase<bool>
+            m_ragPos: 0x9C0, // CNetworkUtlVectorBase<Vector>
+            m_ragAngles: 0x9D8, // CNetworkUtlVectorBase<QAngle>
+            m_lastUpdateTickCount: 0x9F0, // uint32
+            m_allAsleep: 0x9F4, // bool
+            m_bFirstCollisionAfterLaunch: 0x9F5, // bool
+            m_nNavObstacleType: 0x9F8, // INavObstacle::NavObstacleType_t
+            m_bUpdateNavWhenMoving: 0x9FC, // bool
+            m_bForceNavObstacleCut: 0x9FD, // bool
+            m_bAttachedToReferenceFrame: 0x9FE, // bool
+            m_hDamageEntity: 0xA00, // CHandle<CBaseEntity>
+            m_hKiller: 0xA04, // CHandle<CBaseEntity>
+            m_hPhysicsAttacker: 0xA08, // CHandle<CBasePlayerPawn>
+            m_flLastPhysicsInfluenceTime: 0xA0C, // GameTime_t
+            m_flFadeOutStartTime: 0xA10, // GameTime_t
+            m_flFadeTime: 0xA14, // float32
+            m_vecLastOrigin: 0xA18, // VectorWS
+            m_flAwakeTime: 0xA24, // GameTime_t
+            m_flLastOriginChangeTime: 0xA28, // GameTime_t
+            m_strOriginClassName: 0xA30, // CUtlSymbolLarge
+            m_strSourceClassName: 0xA38, // CUtlSymbolLarge
+            m_bHasBeenPhysgunned: 0xA40, // bool
+            m_bAllowStretch: 0xA41, // bool
+            m_flBlendWeight: 0xA44, // float32
+            m_flDefaultFadeScale: 0xA48, // float32
+            m_ragdollMins: 0xA50, // CUtlVector<Vector>
+            m_ragdollMaxs: 0xA68, // CUtlVector<Vector>
+            m_bShouldDeleteActivationRecord: 0xA80, // bool
+            m_vecNavObstacles: 0xA98, // CUtlVector<INavObstacle*>
         },
         CScriptComponent: {
             m_scriptClassName: 0x30, // CUtlSymbolLarge
         },
         CFuncTrain: {
-            m_hCurrentTarget: 0x7D8, // CHandle<CBaseEntity>
-            m_activated: 0x7DC, // bool
-            m_hEnemy: 0x7E0, // CHandle<CBaseEntity>
-            m_flBlockDamage: 0x7E4, // float32
-            m_flNextBlockTime: 0x7E8, // GameTime_t
-            m_iszLastTarget: 0x7F0, // CUtlSymbolLarge
+            m_hCurrentTarget: 0x810, // CHandle<CBaseEntity>
+            m_activated: 0x814, // bool
+            m_hEnemy: 0x818, // CHandle<CBaseEntity>
+            m_flBlockDamage: 0x81C, // float32
+            m_flNextBlockTime: 0x820, // GameTime_t
+            m_iszLastTarget: 0x828, // CUtlSymbolLarge
         },
         CAI_ChangeHintGroup: {
             m_iSearchType: 0x4A8, // int32
@@ -5421,7 +5573,13 @@ export const Schemas = {
             m_OnStopMoving: 0x660, // CEntityIOOutput
         },
         CBuyZone: {
-            m_LegacyTeamNum: 0x890, // int32
+            m_LegacyTeamNum: 0x8C8, // int32
+        },
+        CInfoChoreoAnchor: {
+            m_vecTargetEntries: 0x4A8, // CUtlVector<CInfoChoreoAnchorPosition>
+            m_vecTargetWarps: 0x4C0, // CUtlVector<CInfoChoreoAnchorPosition>
+        },
+        DestructiblePartDamageRequestAPI: {
         },
         CWeaponSSG08: {
         },
@@ -5442,6 +5600,8 @@ export const Schemas = {
         },
         CPointGiveAmmo: {
             m_pActivator: 0x4A8, // CHandle<CBaseEntity>
+        },
+        CCSGO_EndOfMatchLineupStart: {
         },
         FilterDamageType: {
             m_iDamageType: 0x4E0, // int32
@@ -5485,26 +5645,26 @@ export const Schemas = {
             m_flRadius: 0x4E0, // float32
         },
         CCS2WeaponGraphController: {
-            m_action: 0x90, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_bActionReset: 0xA8, // CAnimGraph2ParamOptionalRef<bool>
-            m_flWeaponActionSpeedScale: 0xC0, // CAnimGraph2ParamOptionalRef<float32>
-            m_weaponCategory: 0xD8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_weaponType: 0xF0, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_weaponExtraInfo: 0x108, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_flWeaponAmmo: 0x120, // CAnimGraph2ParamOptionalRef<float32>
-            m_flWeaponAmmoMax: 0x138, // CAnimGraph2ParamOptionalRef<float32>
-            m_flWeaponAmmoReserve: 0x150, // CAnimGraph2ParamOptionalRef<float32>
-            m_bWeaponIsSilenced: 0x168, // CAnimGraph2ParamOptionalRef<bool>
-            m_flWeaponIronsightAmount: 0x180, // CAnimGraph2ParamOptionalRef<float32>
-            m_bIsUsingLegacyModel: 0x198, // CAnimGraph2ParamOptionalRef<bool>
-            m_idleVariation: 0x1B0, // CAnimGraph2ParamOptionalRef<float32>
-            m_deployVariation: 0x1C8, // CAnimGraph2ParamOptionalRef<float32>
-            m_attackType: 0x1E0, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_attackThrowStrength: 0x1F8, // CAnimGraph2ParamOptionalRef<float32>
-            m_flAttackVariation: 0x210, // CAnimGraph2ParamOptionalRef<float32>
-            m_inspectVariation: 0x228, // CAnimGraph2ParamOptionalRef<float32>
-            m_inspectExtraInfo: 0x240, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_reloadStage: 0x258, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_action: 0x88, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_bActionReset: 0xA0, // CAnimGraph2ParamOptionalRef<bool>
+            m_flWeaponActionSpeedScale: 0xB8, // CAnimGraph2ParamOptionalRef<float32>
+            m_weaponCategory: 0xD0, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_weaponType: 0xE8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_weaponExtraInfo: 0x100, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_flWeaponAmmo: 0x118, // CAnimGraph2ParamOptionalRef<float32>
+            m_flWeaponAmmoMax: 0x130, // CAnimGraph2ParamOptionalRef<float32>
+            m_flWeaponAmmoReserve: 0x148, // CAnimGraph2ParamOptionalRef<float32>
+            m_bWeaponIsSilenced: 0x160, // CAnimGraph2ParamOptionalRef<bool>
+            m_flWeaponIronsightAmount: 0x178, // CAnimGraph2ParamOptionalRef<float32>
+            m_bIsUsingLegacyModel: 0x190, // CAnimGraph2ParamOptionalRef<bool>
+            m_idleVariation: 0x1A8, // CAnimGraph2ParamOptionalRef<float32>
+            m_deployVariation: 0x1C0, // CAnimGraph2ParamOptionalRef<float32>
+            m_attackType: 0x1D8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_attackThrowStrength: 0x1F0, // CAnimGraph2ParamOptionalRef<float32>
+            m_flAttackVariation: 0x208, // CAnimGraph2ParamOptionalRef<float32>
+            m_inspectVariation: 0x220, // CAnimGraph2ParamOptionalRef<float32>
+            m_inspectExtraInfo: 0x238, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_reloadStage: 0x250, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
         },
         CEffectData: {
             m_vOrigin: 0x8, // VectorWS
@@ -5527,19 +5687,18 @@ export const Schemas = {
             m_nAttachmentIndex: 0x64, // AttachmentHandle_t
             m_nAttachmentName: 0x68, // CUtlStringToken
             m_iEffectName: 0x6C, // uint16
-            m_nExplosionType: 0x6E, // uint8
         },
         CEntityDissolve: {
-            m_flFadeInStart: 0x730, // float32
-            m_flFadeInLength: 0x734, // float32
-            m_flFadeOutModelStart: 0x738, // float32
-            m_flFadeOutModelLength: 0x73C, // float32
-            m_flFadeOutStart: 0x740, // float32
-            m_flFadeOutLength: 0x744, // float32
-            m_flStartTime: 0x748, // GameTime_t
-            m_nDissolveType: 0x74C, // EntityDisolveType_t
-            m_vDissolverOrigin: 0x750, // Vector
-            m_nMagnitude: 0x75C, // uint32
+            m_flFadeInStart: 0x768, // float32
+            m_flFadeInLength: 0x76C, // float32
+            m_flFadeOutModelStart: 0x770, // float32
+            m_flFadeOutModelLength: 0x774, // float32
+            m_flFadeOutStart: 0x778, // float32
+            m_flFadeOutLength: 0x77C, // float32
+            m_flStartTime: 0x780, // GameTime_t
+            m_nDissolveType: 0x784, // EntityDisolveType_t
+            m_vDissolverOrigin: 0x788, // Vector
+            m_nMagnitude: 0x794, // uint32
         },
         CCSGameRules: {
             m_bFreezePeriod: 0xD8, // bool
@@ -5731,38 +5890,30 @@ export const Schemas = {
             m_iRoundStartRoundNumber: 0x1410, // int32
             m_nRoundStartCount: 0x1414, // uint8
             m_flLastPerfSampleTime: 0x5420, // float64
-            game_coopmission_manager: 0xF729CDC8, // MNetworkEnable
-            m_nMatchSeed: 0x138, // int32
-            m_bBlockersPresent: 0x13C, // bool
-            m_bRoundInProgress: 0x13D, // bool
-            m_iFirstSecondHalfRound: 0x140, // int32
-            m_iBombSite: 0x144, // int32
-            m_hBombPlanter: 0x148, // CHandle<CCSPlayerPawn>
         },
         CPulseCell_Outflow_CycleShuffled: {
             m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
         },
         CBaseCSGrenadeProjectile: {
-            m_vInitialPosition: 0xB40, // Vector
-            m_vInitialVelocity: 0xB4C, // Vector
-            m_nBounces: 0xB58, // int32
-            m_nExplodeEffectIndex: 0xB60, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_nExplodeEffectTickBegin: 0xB68, // int32
-            m_vecExplodeEffectOrigin: 0xB6C, // Vector
-            m_flSpawnTime: 0xB78, // GameTime_t
-            m_unOGSExtraFlags: 0xB7C, // uint8
-            m_bDetonationRecorded: 0xB7D, // bool
-            m_nItemIndex: 0xB7E, // uint16
-            m_vecOriginalSpawnLocation: 0xB80, // Vector
-            m_flLastBounceSoundTime: 0xB8C, // GameTime_t
-            m_vecGrenadeSpin: 0xB90, // RotationVector
-            m_vecLastHitSurfaceNormal: 0xB9C, // Vector
-            m_nTicksAtZeroVelocity: 0xBA8, // int32
-            m_bHasEverHitEnemy: 0xBAC, // bool
-            m_bIsIncGrenade: 0xBB0, // bool
-            m_bDetonated: 0xBC8, // bool
+            m_vInitialPosition: 0x9C0, // Vector
+            m_vInitialVelocity: 0x9CC, // Vector
+            m_nBounces: 0x9D8, // int32
+            m_nExplodeEffectIndex: 0x9E0, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_nExplodeEffectTickBegin: 0x9E8, // int32
+            m_vecExplodeEffectOrigin: 0x9EC, // Vector
+            m_flSpawnTime: 0x9F8, // GameTime_t
+            m_unOGSExtraFlags: 0x9FC, // uint8
+            m_bDetonationRecorded: 0x9FD, // bool
+            m_nItemIndex: 0x9FE, // uint16
+            m_vecOriginalSpawnLocation: 0xA00, // Vector
+            m_flLastBounceSoundTime: 0xA0C, // GameTime_t
+            m_vecGrenadeSpin: 0xA10, // RotationVector
+            m_vecLastHitSurfaceNormal: 0xA1C, // Vector
+            m_nTicksAtZeroVelocity: 0xA28, // int32
+            m_bHasEverHitEnemy: 0xA2C, // bool
         },
         CPhysConstraint: {
+            m_hJoint: 0x4A8, // IPhysicsJoint*
             m_nameAttach1: 0x4B0, // CUtlSymbolLarge
             m_nameAttach2: 0x4B8, // CUtlSymbolLarge
             m_hAttach1: 0x4C0, // CHandle<CBaseEntity>
@@ -5832,8 +5983,8 @@ export const Schemas = {
             m_bRenderToCubemaps: 0x120, // bool
             m_bAllowSSTGeneration: 0x121, // bool
             m_nDirectLight: 0x124, // int32
-            m_nIndirectLight: 0x128, // int32
-            m_bDynamicBounce: 0x12C, // bool
+            m_nBounceLight: 0x128, // int32
+            m_flBounceScale: 0x12C, // float32
             m_flFadeMinDist: 0x130, // float32
             m_flFadeMaxDist: 0x134, // float32
             m_flShadowFadeMinDist: 0x138, // float32
@@ -5861,64 +6012,65 @@ export const Schemas = {
             m_bPvsModifyEntity: 0x1B8, // bool
         },
         CCSWeaponBase: {
-            m_bRemoveable: 0xE20, // bool
-            m_bPlayerAmmoStockOnPickup: 0xE21, // bool
-            m_bRequireUseToTouch: 0xE22, // bool
-            m_iWeaponGameplayAnimState: 0xE24, // WeaponGameplayAnimState
-            m_flWeaponGameplayAnimStateTimestamp: 0xE28, // GameTime_t
-            m_flInspectCancelCompleteTime: 0xE2C, // GameTime_t
-            m_bInspectPending: 0xE30, // bool
-            m_bInspectShouldLoop: 0xE31, // bool
-            m_nLastEmptySoundCmdNum: 0xE5C, // int32
-            m_bFireOnEmpty: 0xE78, // bool
-            m_OnPlayerPickup: 0xE80, // CEntityIOOutput
-            m_weaponMode: 0xE98, // CSWeaponMode
-            m_flTurningInaccuracyDelta: 0xE9C, // float32
-            m_vecTurningInaccuracyEyeDirLast: 0xEA0, // Vector
-            m_flTurningInaccuracy: 0xEAC, // float32
-            m_fAccuracyPenalty: 0xEB0, // float32
-            m_flLastAccuracyUpdateTime: 0xEB4, // GameTime_t
-            m_fAccuracySmoothedForZoom: 0xEB8, // float32
-            m_iRecoilIndex: 0xEBC, // int32
-            m_flRecoilIndex: 0xEC0, // float32
-            m_bBurstMode: 0xEC4, // bool
-            m_nPostponeFireReadyTicks: 0xEC8, // GameTick_t
-            m_flPostponeFireReadyFrac: 0xECC, // float32
-            m_bInReload: 0xED0, // bool
-            m_flDroppedAtTime: 0xED4, // GameTime_t
-            m_bIsHauledBack: 0xED8, // bool
-            m_bSilencerOn: 0xED9, // bool
-            m_flTimeSilencerSwitchComplete: 0xEDC, // GameTime_t
-            m_flWeaponActionPlaybackRate: 0xEE0, // float32
-            m_iOriginalTeamNumber: 0xEE4, // int32
-            m_iMostRecentTeamNumber: 0xEE8, // int32
-            m_bDroppedNearBuyZone: 0xEEC, // bool
-            m_flNextAttackRenderTimeOffset: 0xEF0, // float32
-            m_bCanBePickedUp: 0xF08, // bool
-            m_bUseCanOverrideNextOwnerTouchTime: 0xF09, // bool
-            m_nextOwnerTouchTime: 0xF0C, // GameTime_t
-            m_nextPrevOwnerTouchTime: 0xF10, // GameTime_t
-            m_nextPrevOwnerUseTime: 0xF18, // GameTime_t
-            m_hPrevOwner: 0xF1C, // CHandle<CCSPlayerPawn>
-            m_nDropTick: 0xF20, // GameTick_t
-            m_bWasActiveWeaponWhenDropped: 0xF24, // bool
-            m_donated: 0xF44, // bool
-            m_fLastShotTime: 0xF48, // GameTime_t
-            m_bWasOwnedByCT: 0xF4C, // bool
-            m_bWasOwnedByTerrorist: 0xF4D, // bool
-            m_numRemoveUnownedWeaponThink: 0xF50, // int32
-            m_IronSightController: 0xF58, // CIronSightController
-            m_iIronSightMode: 0xF70, // int32
-            m_flLastLOSTraceFailureTime: 0xF74, // GameTime_t
-            m_flWatTickOffset: 0xF78, // float32
-            m_flLastShakeTime: 0xF88, // GameTime_t
+            m_bRemoveable: 0xCB8, // bool
+            m_bPlayerAmmoStockOnPickup: 0xCB9, // bool
+            m_bRequireUseToTouch: 0xCBA, // bool
+            m_iWeaponGameplayAnimState: 0xCBC, // WeaponGameplayAnimState
+            m_flWeaponGameplayAnimStateTimestamp: 0xCC0, // GameTime_t
+            m_flInspectCancelCompleteTime: 0xCC4, // GameTime_t
+            m_bInspectPending: 0xCC8, // bool
+            m_bInspectShouldLoop: 0xCC9, // bool
+            m_nLastEmptySoundCmdNum: 0xCF4, // int32
+            m_bFireOnEmpty: 0xD10, // bool
+            m_OnPlayerPickup: 0xD18, // CEntityIOOutput
+            m_weaponMode: 0xD30, // CSWeaponMode
+            m_flTurningInaccuracyDelta: 0xD34, // float32
+            m_vecTurningInaccuracyEyeDirLast: 0xD38, // Vector
+            m_flTurningInaccuracy: 0xD44, // float32
+            m_fAccuracyPenalty: 0xD48, // float32
+            m_flLastAccuracyUpdateTime: 0xD4C, // GameTime_t
+            m_fAccuracySmoothedForZoom: 0xD50, // float32
+            m_iRecoilIndex: 0xD54, // int32
+            m_flRecoilIndex: 0xD58, // float32
+            m_bBurstMode: 0xD5C, // bool
+            m_nPostponeFireReadyTicks: 0xD60, // GameTick_t
+            m_flPostponeFireReadyFrac: 0xD64, // float32
+            m_bInReload: 0xD68, // bool
+            m_nDeployTick: 0xD6C, // GameTick_t
+            m_flDroppedAtTime: 0xD70, // GameTime_t
+            m_bIsHauledBack: 0xD78, // bool
+            m_bSilencerOn: 0xD79, // bool
+            m_flTimeSilencerSwitchComplete: 0xD7C, // GameTime_t
+            m_flWeaponActionPlaybackRate: 0xD80, // float32
+            m_iOriginalTeamNumber: 0xD84, // int32
+            m_iMostRecentTeamNumber: 0xD88, // int32
+            m_bDroppedNearBuyZone: 0xD8C, // bool
+            m_flNextAttackRenderTimeOffset: 0xD90, // float32
+            m_bCanBePickedUp: 0xDA8, // bool
+            m_bUseCanOverrideNextOwnerTouchTime: 0xDA9, // bool
+            m_nextOwnerTouchTime: 0xDAC, // GameTime_t
+            m_nextPrevOwnerTouchTime: 0xDB0, // GameTime_t
+            m_nextPrevOwnerUseTime: 0xDB8, // GameTime_t
+            m_hPrevOwner: 0xDBC, // CHandle<CCSPlayerPawn>
+            m_nDropTick: 0xDC0, // GameTick_t
+            m_bWasActiveWeaponWhenDropped: 0xDC4, // bool
+            m_donated: 0xDE4, // bool
+            m_fLastShotTime: 0xDE8, // GameTime_t
+            m_bWasOwnedByCT: 0xDEC, // bool
+            m_bWasOwnedByTerrorist: 0xDED, // bool
+            m_numRemoveUnownedWeaponThink: 0xDF0, // int32
+            m_IronSightController: 0xE50, // CIronSightController
+            m_iIronSightMode: 0xE68, // int32
+            m_flLastLOSTraceFailureTime: 0xE6C, // GameTime_t
+            m_flWatTickOffset: 0xE70, // float32
+            m_flLastShakeTime: 0xE80, // GameTime_t
         },
         CPointClientUIDialog: {
-            m_hActivator: 0x890, // CHandle<CBaseEntity>
-            m_bStartEnabled: 0x894, // bool
+            m_hActivator: 0x8C8, // CHandle<CBaseEntity>
+            m_bStartEnabled: 0x8CC, // bool
         },
         CLogicLineToEntity: {
-            m_Line: 0x4A8, // CEntityOutputTemplate<Vector,Vector>
+            m_Line: 0x4A8, // CEntityOutputTemplate<Vector>
             m_SourceName: 0x4D0, // CUtlSymbolLarge
             m_StartEntity: 0x4D8, // CHandle<CBaseEntity>
             m_EndEntity: 0x4DC, // CHandle<CBaseEntity>
@@ -5931,6 +6083,8 @@ export const Schemas = {
             m_bIsRescuing: 0x224, // bool
             m_weaponPurchasesThisMatch: 0x228, // WeaponPurchaseTracker_t
             m_weaponPurchasesThisRound: 0x298, // WeaponPurchaseTracker_t
+        },
+        CTestPulseIOComponent_API: {
         },
         CPhysicalButton: {
         },
@@ -5997,36 +6151,44 @@ export const Schemas = {
         CBaseModelEntity: {
             m_CRenderComponent: 0x4A8, // CRenderComponent*
             m_CHitboxComponent: 0x4B0, // CHitboxComponent
-            m_nDestructiblePartInitialStateDestructed0: 0x4C8, // HitGroup_t
-            m_nDestructiblePartInitialStateDestructed1: 0x4CC, // HitGroup_t
-            m_nDestructiblePartInitialStateDestructed2: 0x4D0, // HitGroup_t
-            m_nDestructiblePartInitialStateDestructed3: 0x4D4, // HitGroup_t
-            m_nDestructiblePartInitialStateDestructed4: 0x4D8, // HitGroup_t
-            m_nDestructiblePartInitialStateDestructed0_PartIndex: 0x4DC, // int32
-            m_nDestructiblePartInitialStateDestructed1_PartIndex: 0x4E0, // int32
-            m_nDestructiblePartInitialStateDestructed2_PartIndex: 0x4E4, // int32
-            m_nDestructiblePartInitialStateDestructed3_PartIndex: 0x4E8, // int32
-            m_nDestructiblePartInitialStateDestructed4_PartIndex: 0x4EC, // int32
-            m_pDestructiblePartsSystemComponent: 0x4F0, // CDestructiblePartsComponent*
-            m_flDissolveStartTime: 0x4F8, // GameTime_t
-            m_OnIgnite: 0x500, // CEntityIOOutput
-            m_nRenderMode: 0x518, // RenderMode_t
-            m_nRenderFX: 0x519, // RenderFx_t
-            m_bAllowFadeInView: 0x51A, // bool
-            m_clrRender: 0x538, // Color
-            m_vecRenderAttributes: 0x540, // CUtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
-            m_bRenderToCubemaps: 0x5A8, // bool
-            m_bNoInterpolate: 0x5A9, // bool
-            m_Collision: 0x5B0, // CCollisionProperty
-            m_Glow: 0x660, // CGlowProperty
-            m_flGlowBackfaceMult: 0x6B8, // float32
-            m_fadeMinDist: 0x6BC, // float32
-            m_fadeMaxDist: 0x6C0, // float32
-            m_flFadeScale: 0x6C4, // float32
-            m_flShadowStrength: 0x6C8, // float32
-            m_nObjectCulling: 0x6CC, // uint8
-            m_vecViewOffset: 0x6F8, // CNetworkViewOffsetVector
-            m_bvDisabledHitGroups: 0x728, // uint32[1]
+            m_pChoreoComponent: 0x4C8, // CChoreoComponent*
+            m_nDestructiblePartInitialStateDestructed0: 0x4D0, // HitGroup_t
+            m_nDestructiblePartInitialStateDestructed1: 0x4D4, // HitGroup_t
+            m_nDestructiblePartInitialStateDestructed2: 0x4D8, // HitGroup_t
+            m_nDestructiblePartInitialStateDestructed3: 0x4DC, // HitGroup_t
+            m_nDestructiblePartInitialStateDestructed4: 0x4E0, // HitGroup_t
+            m_nDestructiblePartInitialStateDestructed0_PartIndex: 0x4E4, // int32
+            m_nDestructiblePartInitialStateDestructed1_PartIndex: 0x4E8, // int32
+            m_nDestructiblePartInitialStateDestructed2_PartIndex: 0x4EC, // int32
+            m_nDestructiblePartInitialStateDestructed3_PartIndex: 0x4F0, // int32
+            m_nDestructiblePartInitialStateDestructed4_PartIndex: 0x4F4, // int32
+            m_bDestructiblePartInitialStateDestructed0_GenerateBreakpieces: 0x4F8, // bool
+            m_bDestructiblePartInitialStateDestructed1_GenerateBreakpieces: 0x4F9, // bool
+            m_bDestructiblePartInitialStateDestructed2_GenerateBreakpieces: 0x4FA, // bool
+            m_bDestructiblePartInitialStateDestructed3_GenerateBreakpieces: 0x4FB, // bool
+            m_bDestructiblePartInitialStateDestructed4_GenerateBreakpieces: 0x4FC, // bool
+            m_pDestructiblePartsSystemComponent: 0x500, // CDestructiblePartsComponent*
+            m_OnDestructibleHitGroupDamageLevelChanged: 0x508, // CEntityOutputTemplate<CBaseModelEntity::OnDamageLevelChangedArgs_t>
+            m_flDissolveStartTime: 0x530, // GameTime_t
+            m_OnIgnite: 0x538, // CEntityIOOutput
+            m_nRenderMode: 0x550, // RenderMode_t
+            m_nRenderFX: 0x551, // RenderFx_t
+            m_bAllowFadeInView: 0x552, // bool
+            m_clrRender: 0x570, // Color
+            m_vecRenderAttributes: 0x578, // CUtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
+            m_bRenderToCubemaps: 0x5E0, // bool
+            m_bNoInterpolate: 0x5E1, // bool
+            m_Collision: 0x5E8, // CCollisionProperty
+            m_Glow: 0x698, // CGlowProperty
+            m_flGlowBackfaceMult: 0x6F0, // float32
+            m_fadeMinDist: 0x6F4, // float32
+            m_fadeMaxDist: 0x6F8, // float32
+            m_flFadeScale: 0x6FC, // float32
+            m_flShadowStrength: 0x700, // float32
+            m_nObjectCulling: 0x704, // uint8
+            m_bodyGroupChoices: 0x708, // CUtlOrderedMap<CGlobalSymbol,int32>
+            m_vecViewOffset: 0x730, // CNetworkViewOffsetVector
+            m_bvDisabledHitGroups: 0x760, // uint32[1]
         },
         fogplayerparams_t: {
             m_hCtrl: 0x8, // CHandle<CFogController>
@@ -6058,13 +6220,13 @@ export const Schemas = {
             m_bGlowing: 0x51, // bool
         },
         CInstancedSceneEntity: {
-            m_hOwner: 0x730, // CHandle<CBaseEntity>
-            m_bHadOwner: 0x734, // bool
-            m_flPostSpeakDelay: 0x738, // float32
-            m_flPreDelay: 0x73C, // float32
-            m_bIsBackground: 0x740, // bool
-            m_bRemoveOnCompletion: 0x741, // bool
-            m_hTarget: 0x744, // CHandle<CBaseEntity>
+            m_hOwner: 0x7C0, // CHandle<CBaseEntity>
+            m_bHadOwner: 0x7C4, // bool
+            m_flPostSpeakDelay: 0x7C8, // float32
+            m_flPreDelay: 0x7CC, // float32
+            m_bIsBackground: 0x7D0, // bool
+            m_bRemoveOnCompletion: 0x7D1, // bool
+            m_hTarget: 0x7D4, // CHandle<CBaseEntity>
         },
         CPulseCell_BaseValue: {
         },
@@ -6086,7 +6248,7 @@ export const Schemas = {
         },
         CPulseCell_BooleanSwitchState: {
             m_Condition: 0x48, // PulseObservableBoolExpression_t
-            m_SubGraph: 0xC0, // CPulse_OutflowConnection
+            m_Always: 0xC0, // CPulse_OutflowConnection
             m_WhenTrue: 0x108, // CPulse_OutflowConnection
             m_WhenFalse: 0x150, // CPulse_OutflowConnection
         },
@@ -6129,63 +6291,63 @@ export const Schemas = {
         CItemKevlar: {
         },
         CFuncShatterglass: {
-            m_matPanelTransform: 0x730, // matrix3x4_t
-            m_matPanelTransformWsTemp: 0x760, // matrix3x4_t
-            m_vecShatterGlassShards: 0x790, // CUtlVector<uint32>
-            m_PanelSize: 0x7A8, // Vector2D
-            m_flLastShatterSoundEmitTime: 0x7B0, // GameTime_t
-            m_flLastCleanupTime: 0x7B4, // GameTime_t
-            m_flInitAtTime: 0x7B8, // GameTime_t
-            m_flGlassThickness: 0x7BC, // float32
-            m_flSpawnInvulnerability: 0x7C0, // float32
-            m_bBreakSilent: 0x7C4, // bool
-            m_bBreakShardless: 0x7C5, // bool
-            m_bBroken: 0x7C6, // bool
-            m_bGlassNavIgnore: 0x7C7, // bool
-            m_bGlassInFrame: 0x7C8, // bool
-            m_bStartBroken: 0x7C9, // bool
-            m_iInitialDamageType: 0x7CA, // uint8
-            m_szDamagePositioningEntityName01: 0x7D0, // CUtlSymbolLarge
-            m_szDamagePositioningEntityName02: 0x7D8, // CUtlSymbolLarge
-            m_szDamagePositioningEntityName03: 0x7E0, // CUtlSymbolLarge
-            m_szDamagePositioningEntityName04: 0x7E8, // CUtlSymbolLarge
-            m_vInitialDamagePositions: 0x7F0, // CUtlVector<Vector>
-            m_vExtraDamagePositions: 0x808, // CUtlVector<Vector>
-            m_vInitialPanelVertices: 0x820, // CUtlVector<Vector4D>
-            m_OnBroken: 0x838, // CEntityIOOutput
-            m_iSurfaceType: 0x850, // uint8
-            m_hMaterialDamageBase: 0x858, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_matPanelTransform: 0x768, // matrix3x4_t
+            m_matPanelTransformWsTemp: 0x798, // matrix3x4_t
+            m_vecShatterGlassShards: 0x7C8, // CUtlVector<uint32>
+            m_PanelSize: 0x7E0, // Vector2D
+            m_flLastShatterSoundEmitTime: 0x7E8, // GameTime_t
+            m_flLastCleanupTime: 0x7EC, // GameTime_t
+            m_flInitAtTime: 0x7F0, // GameTime_t
+            m_flGlassThickness: 0x7F4, // float32
+            m_flSpawnInvulnerability: 0x7F8, // float32
+            m_bBreakSilent: 0x7FC, // bool
+            m_bBreakShardless: 0x7FD, // bool
+            m_bBroken: 0x7FE, // bool
+            m_bGlassNavIgnore: 0x7FF, // bool
+            m_bGlassInFrame: 0x800, // bool
+            m_bStartBroken: 0x801, // bool
+            m_iInitialDamageType: 0x802, // uint8
+            m_szDamagePositioningEntityName01: 0x808, // CUtlSymbolLarge
+            m_szDamagePositioningEntityName02: 0x810, // CUtlSymbolLarge
+            m_szDamagePositioningEntityName03: 0x818, // CUtlSymbolLarge
+            m_szDamagePositioningEntityName04: 0x820, // CUtlSymbolLarge
+            m_vInitialDamagePositions: 0x828, // CUtlVector<Vector>
+            m_vExtraDamagePositions: 0x840, // CUtlVector<Vector>
+            m_vInitialPanelVertices: 0x858, // CUtlVector<Vector4D>
+            m_OnBroken: 0x870, // CEntityIOOutput
+            m_iSurfaceType: 0x888, // uint8
+            m_hMaterialDamageBase: 0x890, // CStrongHandle<InfoForResourceTypeIMaterial2>
         },
         CNavWalkable: {
         },
         CPlantedC4: {
-            m_bBombTicking: 0xA28, // bool
-            m_flC4Blow: 0xA2C, // GameTime_t
-            m_nBombSite: 0xA30, // int32
-            m_nSourceSoundscapeHash: 0xA34, // int32
-            m_bAbortDetonationBecauseWorldIsFrozen: 0xA38, // bool
-            m_AttributeManager: 0xA40, // CAttributeContainer
-            m_OnBombDefused: 0xD38, // CEntityIOOutput
-            m_OnBombBeginDefuse: 0xD50, // CEntityIOOutput
-            m_OnBombDefuseAborted: 0xD68, // CEntityIOOutput
-            m_bCannotBeDefused: 0xD80, // bool
-            m_entitySpottedState: 0xD88, // EntitySpottedState_t
-            m_nSpotRules: 0xDA0, // int32
-            m_bHasExploded: 0xDA4, // bool
-            m_bBombDefused: 0xDA5, // bool
-            m_bTrainingPlacedByPlayer: 0xDA6, // bool
-            m_flTimerLength: 0xDA8, // float32
-            m_bBeingDefused: 0xDAC, // bool
-            m_fLastDefuseTime: 0xDB4, // GameTime_t
-            m_flDefuseLength: 0xDBC, // float32
-            m_flDefuseCountDown: 0xDC0, // GameTime_t
-            m_hBombDefuser: 0xDC4, // CHandle<CCSPlayerPawn>
-            m_iProgressBarTime: 0xDC8, // int32
-            m_bVoiceAlertFired: 0xDCC, // bool
-            m_bVoiceAlertPlayed: 0xDCD, // bool[4]
-            m_flNextBotBeepTime: 0xDD4, // GameTime_t
-            m_angCatchUpToPlayerEye: 0xDDC, // QAngle
-            m_flLastSpinDetectionTime: 0xDE8, // GameTime_t
+            m_bBombTicking: 0x948, // bool
+            m_flC4Blow: 0x94C, // GameTime_t
+            m_nBombSite: 0x950, // int32
+            m_nSourceSoundscapeHash: 0x954, // int32
+            m_bAbortDetonationBecauseWorldIsFrozen: 0x958, // bool
+            m_AttributeManager: 0x960, // CAttributeContainer
+            m_OnBombDefused: 0xC58, // CEntityIOOutput
+            m_OnBombBeginDefuse: 0xC70, // CEntityIOOutput
+            m_OnBombDefuseAborted: 0xC88, // CEntityIOOutput
+            m_bCannotBeDefused: 0xCA0, // bool
+            m_entitySpottedState: 0xCA8, // EntitySpottedState_t
+            m_nSpotRules: 0xCC0, // int32
+            m_bHasExploded: 0xCC4, // bool
+            m_bBombDefused: 0xCC5, // bool
+            m_bTrainingPlacedByPlayer: 0xCC6, // bool
+            m_flTimerLength: 0xCC8, // float32
+            m_bBeingDefused: 0xCCC, // bool
+            m_fLastDefuseTime: 0xCD4, // GameTime_t
+            m_flDefuseLength: 0xCDC, // float32
+            m_flDefuseCountDown: 0xCE0, // GameTime_t
+            m_hBombDefuser: 0xCE4, // CHandle<CCSPlayerPawn>
+            m_iProgressBarTime: 0xCE8, // int32
+            m_bVoiceAlertFired: 0xCEC, // bool
+            m_bVoiceAlertPlayed: 0xCED, // bool[4]
+            m_flNextBotBeepTime: 0xCF4, // GameTime_t
+            m_angCatchUpToPlayerEye: 0xCFC, // QAngle
+            m_flLastSpinDetectionTime: 0xD08, // GameTime_t
         },
         CEnvSoundscapeProxyAlias_snd_soundscape_proxy: {
         },
@@ -6216,29 +6378,35 @@ export const Schemas = {
             m_directionEntityName: 0x4B0, // CUtlSymbolLarge
         },
         CBaseEntity: {
-            m_CBodyComponent: 0x38, // CBodyComponent*
-            m_NetworkTransmitComponent: 0x40, // CNetworkTransmitComponent
-            m_aThinkFunctions: 0x250, // CUtlVector<thinkfunc_t>
-            m_iCurrentThinkContext: 0x268, // int32
-            m_nLastThinkTick: 0x26C, // GameTick_t
-            m_bDisabledContextThinks: 0x270, // bool
-            m_isSteadyState: 0x280, // CTypedBitVec<64>
-            m_lastNetworkChange: 0x288, // float32
-            m_ResponseContexts: 0x298, // CUtlVector<ResponseContext_t>
-            m_iszResponseContext: 0x2B0, // CUtlSymbolLarge
-            m_iHealth: 0x2D8, // int32
-            m_iMaxHealth: 0x2DC, // int32
-            m_lifeState: 0x2E0, // uint8
-            m_flDamageAccumulator: 0x2E4, // float32
-            m_bTakesDamage: 0x2E8, // bool
-            m_nTakeDamageFlags: 0x2F0, // TakeDamageFlags_t
-            m_nPlatformType: 0x2F8, // EntityPlatformTypes_t
-            m_MoveCollide: 0x2FA, // MoveCollide_t
-            m_MoveType: 0x2FB, // MoveType_t
-            m_nActualMoveType: 0x2FC, // MoveType_t
-            m_nWaterTouch: 0x2FD, // uint8
-            m_nSlimeTouch: 0x2FE, // uint8
-            m_bRestoreInHierarchy: 0x2FF, // bool
+            m_CBodyComponent: 0x30, // CBodyComponent*
+            m_NetworkTransmitComponent: 0x38, // CNetworkTransmitComponent
+            m_aThinkFunctions: 0x248, // CUtlVector<thinkfunc_t>
+            m_iCurrentThinkContext: 0x260, // int32
+            m_nLastThinkTick: 0x264, // GameTick_t
+            m_bDisabledContextThinks: 0x268, // bool
+            m_isSteadyState: 0x278, // CTypedBitVec<64>
+            m_lastNetworkChange: 0x280, // float32
+            m_think: 0x288, // BASEPTR
+            m_ResponseContexts: 0x290, // CUtlVector<ResponseContext_t>
+            m_iszResponseContext: 0x2A8, // CUtlSymbolLarge
+            m_pfnTouch: 0x2B0, // ENTITYFUNCPTR
+            m_pfnUse: 0x2B8, // USEPTR
+            m_pfnBlocked: 0x2C0, // ENTITYFUNCPTR
+            m_pfnMoveDone: 0x2C8, // BASEPTR
+            m_iHealth: 0x2D0, // int32
+            m_iMaxHealth: 0x2D4, // int32
+            m_lifeState: 0x2D8, // uint8
+            m_flDamageAccumulator: 0x2DC, // float32
+            m_bTakesDamage: 0x2E0, // bool
+            m_nTakeDamageFlags: 0x2E8, // TakeDamageFlags_t
+            m_nPlatformType: 0x2F0, // EntityPlatformTypes_t
+            m_MoveCollide: 0x2F2, // MoveCollide_t
+            m_MoveType: 0x2F3, // MoveType_t
+            m_nPreviouslySetMoveType: 0x2F4, // MoveType_t
+            m_nActualMoveType: 0x2F5, // MoveType_t
+            m_nWaterTouch: 0x2F6, // uint8
+            m_nSlimeTouch: 0x2F7, // uint8
+            m_bRestoreInHierarchy: 0x2F8, // bool
             m_target: 0x300, // CUtlSymbolLarge
             m_hDamageFilter: 0x308, // CHandle<CBaseFilter>
             m_iszDamageFilterName: 0x310, // CUtlSymbolLarge
@@ -6249,7 +6417,7 @@ export const Schemas = {
             m_flCreateTime: 0x330, // GameTime_t
             m_bClientSideRagdoll: 0x334, // bool
             m_ubInterpolationFrame: 0x335, // uint8
-            m_vPrevVPhysicsUpdatePos: 0x338, // Vector
+            m_vPrevVPhysicsUpdatePos: 0x338, // VectorWS
             m_iTeamNum: 0x344, // uint8
             m_iGlobalname: 0x348, // CUtlSymbolLarge
             m_iSentToClients: 0x350, // int32
@@ -6296,8 +6464,6 @@ export const Schemas = {
             m_flVPhysicsUpdateLocalTime: 0x498, // float32
             m_nBloodType: 0x49C, // BloodType
             m_pPulseGraphInstance: 0x4A0, // CPulseGraphInstance_ServerEntity*
-            Default: 0xF720FDE0, // MPropertyFriendlyName
-            Tripmine: 0xF71ED1D0, // MPropertyFriendlyName
         },
         CPlayer_UseServices: {
         },
@@ -6306,10 +6472,10 @@ export const Schemas = {
             m_name: 0xC, // CUtlStringToken
         },
         CMarkupVolumeWithRef: {
-            m_bUseRef: 0x778, // bool
-            m_vRefPosEntitySpace: 0x77C, // Vector
-            m_vRefPosWorldSpace: 0x788, // VectorWS
-            m_flRefDot: 0x794, // float32
+            m_bUseRef: 0x7B0, // bool
+            m_vRefPosEntitySpace: 0x7B4, // Vector
+            m_vRefPosWorldSpace: 0x7C0, // VectorWS
+            m_flRefDot: 0x7CC, // float32
         },
         CCSGO_TeamSelectCharacterPosition: {
         },
@@ -6317,8 +6483,8 @@ export const Schemas = {
             m_UnknownKeys: 0x48, // KeyValues3
         },
         CFuncPlatRot: {
-            m_end: 0x7E0, // QAngle
-            m_start: 0x7EC, // QAngle
+            m_end: 0x818, // QAngle
+            m_start: 0x824, // QAngle
         },
         CRagdollMagnet: {
             m_bDisabled: 0x4A8, // bool
@@ -6333,33 +6499,24 @@ export const Schemas = {
         CFireCrackerBlast: {
         },
         CSpotlightEnd: {
-            m_flLightScale: 0x730, // float32
-            m_Radius: 0x734, // float32
-            m_vSpotlightDir: 0x738, // Vector
-            m_vSpotlightOrg: 0x744, // VectorWS
+            m_flLightScale: 0x768, // float32
+            m_Radius: 0x76C, // float32
+            m_vSpotlightDir: 0x770, // Vector
+            m_vSpotlightOrg: 0x77C, // VectorWS
         },
         CEnvSky: {
-            m_hSkyMaterial: 0x730, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_hSkyMaterialLightingOnly: 0x738, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_bStartDisabled: 0x740, // bool
-            m_vTintColor: 0x741, // Color
-            m_vTintColorLightingOnly: 0x745, // Color
-            m_flBrightnessScale: 0x74C, // float32
-            m_nFogType: 0x750, // int32
-            m_flFogMinStart: 0x754, // float32
-            m_flFogMinEnd: 0x758, // float32
-            m_flFogMaxStart: 0x75C, // float32
-            m_flFogMaxEnd: 0x760, // float32
-            m_bEnabled: 0x764, // bool
-            m_flScattering: 0x4A8, // float32
-            m_TintColor: 0x4AC, // Color
-            m_flAnisotropy: 0x4B0, // float32
-            m_flFadeSpeed: 0x4B4, // float32
-            m_flDrawDistance: 0x4B8, // float32
-            m_flFadeInStart: 0x4BC, // float32
-            m_flFadeInEnd: 0x4C0, // float32
-            m_flIndirectStrength: 0x4C4, // float32
-            m_nVolumeDepth: 0x4C8, // int32
+            m_hSkyMaterial: 0x768, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_hSkyMaterialLightingOnly: 0x770, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_bStartDisabled: 0x778, // bool
+            m_vTintColor: 0x779, // Color
+            m_vTintColorLightingOnly: 0x77D, // Color
+            m_flBrightnessScale: 0x784, // float32
+            m_nFogType: 0x788, // int32
+            m_flFogMinStart: 0x78C, // float32
+            m_flFogMinEnd: 0x790, // float32
+            m_flFogMaxStart: 0x794, // float32
+            m_flFogMaxEnd: 0x798, // float32
+            m_bEnabled: 0x79C, // bool
         },
         CInfoSpawnGroupLandmark: {
         },
@@ -6374,8 +6531,8 @@ export const Schemas = {
             m_bFired: 0x4CC, // bool
             m_OnFacingLookat: 0x4D0, // CEntityIOOutput
             m_OnNotFacingLookat: 0x4E8, // CEntityIOOutput
-            m_TargetDir: 0x500, // CEntityOutputTemplate<Vector,Vector>
-            m_FacingPercentage: 0x528, // CEntityOutputTemplate<float32,float32>
+            m_TargetDir: 0x500, // CEntityOutputTemplate<Vector>
+            m_FacingPercentage: 0x528, // CEntityOutputTemplate<float32>
         },
         CEnvWindController: {
             m_EnvWindShared: 0x4A8, // CEnvWindShared
@@ -6406,51 +6563,52 @@ export const Schemas = {
             m_iEnemiesFlashed: 0x60, // int32
         },
         CGenericConstraint: {
-            m_nLinearMotionX: 0x510, // JointMotion_t
-            m_nLinearMotionY: 0x514, // JointMotion_t
-            m_nLinearMotionZ: 0x518, // JointMotion_t
-            m_flLinearFrequencyX: 0x51C, // float32
-            m_flLinearFrequencyY: 0x520, // float32
-            m_flLinearFrequencyZ: 0x524, // float32
-            m_flLinearDampingRatioX: 0x528, // float32
-            m_flLinearDampingRatioY: 0x52C, // float32
-            m_flLinearDampingRatioZ: 0x530, // float32
-            m_flMaxLinearImpulseX: 0x534, // float32
-            m_flMaxLinearImpulseY: 0x538, // float32
-            m_flMaxLinearImpulseZ: 0x53C, // float32
-            m_flBreakAfterTimeX: 0x540, // float32
-            m_flBreakAfterTimeY: 0x544, // float32
-            m_flBreakAfterTimeZ: 0x548, // float32
-            m_flBreakAfterTimeStartTimeX: 0x54C, // GameTime_t
-            m_flBreakAfterTimeStartTimeY: 0x550, // GameTime_t
-            m_flBreakAfterTimeStartTimeZ: 0x554, // GameTime_t
-            m_flBreakAfterTimeThresholdX: 0x558, // float32
-            m_flBreakAfterTimeThresholdY: 0x55C, // float32
-            m_flBreakAfterTimeThresholdZ: 0x560, // float32
-            m_flNotifyForceX: 0x564, // float32
-            m_flNotifyForceY: 0x568, // float32
-            m_flNotifyForceZ: 0x56C, // float32
-            m_flNotifyForceMinTimeX: 0x570, // float32
-            m_flNotifyForceMinTimeY: 0x574, // float32
-            m_flNotifyForceMinTimeZ: 0x578, // float32
-            m_flNotifyForceLastTimeX: 0x57C, // GameTime_t
-            m_flNotifyForceLastTimeY: 0x580, // GameTime_t
-            m_flNotifyForceLastTimeZ: 0x584, // GameTime_t
-            m_bAxisNotifiedX: 0x588, // bool
-            m_bAxisNotifiedY: 0x589, // bool
-            m_bAxisNotifiedZ: 0x58A, // bool
-            m_nAngularMotionX: 0x58C, // JointMotion_t
-            m_nAngularMotionY: 0x590, // JointMotion_t
-            m_nAngularMotionZ: 0x594, // JointMotion_t
-            m_flAngularFrequencyX: 0x598, // float32
-            m_flAngularFrequencyY: 0x59C, // float32
-            m_flAngularFrequencyZ: 0x5A0, // float32
-            m_flAngularDampingRatioX: 0x5A4, // float32
-            m_flAngularDampingRatioY: 0x5A8, // float32
-            m_flAngularDampingRatioZ: 0x5AC, // float32
-            m_flMaxAngularImpulseX: 0x5B0, // float32
-            m_flMaxAngularImpulseY: 0x5B4, // float32
-            m_flMaxAngularImpulseZ: 0x5B8, // float32
+            m_bPlaceAnchorsAtConstraintTransform: 0x510, // bool
+            m_nLinearMotionX: 0x514, // JointMotion_t
+            m_nLinearMotionY: 0x518, // JointMotion_t
+            m_nLinearMotionZ: 0x51C, // JointMotion_t
+            m_flLinearFrequencyX: 0x520, // float32
+            m_flLinearFrequencyY: 0x524, // float32
+            m_flLinearFrequencyZ: 0x528, // float32
+            m_flLinearDampingRatioX: 0x52C, // float32
+            m_flLinearDampingRatioY: 0x530, // float32
+            m_flLinearDampingRatioZ: 0x534, // float32
+            m_flMaxLinearImpulseX: 0x538, // float32
+            m_flMaxLinearImpulseY: 0x53C, // float32
+            m_flMaxLinearImpulseZ: 0x540, // float32
+            m_flBreakAfterTimeX: 0x544, // float32
+            m_flBreakAfterTimeY: 0x548, // float32
+            m_flBreakAfterTimeZ: 0x54C, // float32
+            m_flBreakAfterTimeStartTimeX: 0x550, // GameTime_t
+            m_flBreakAfterTimeStartTimeY: 0x554, // GameTime_t
+            m_flBreakAfterTimeStartTimeZ: 0x558, // GameTime_t
+            m_flBreakAfterTimeThresholdX: 0x55C, // float32
+            m_flBreakAfterTimeThresholdY: 0x560, // float32
+            m_flBreakAfterTimeThresholdZ: 0x564, // float32
+            m_flNotifyForceX: 0x568, // float32
+            m_flNotifyForceY: 0x56C, // float32
+            m_flNotifyForceZ: 0x570, // float32
+            m_flNotifyForceMinTimeX: 0x574, // float32
+            m_flNotifyForceMinTimeY: 0x578, // float32
+            m_flNotifyForceMinTimeZ: 0x57C, // float32
+            m_flNotifyForceLastTimeX: 0x580, // GameTime_t
+            m_flNotifyForceLastTimeY: 0x584, // GameTime_t
+            m_flNotifyForceLastTimeZ: 0x588, // GameTime_t
+            m_bAxisNotifiedX: 0x58C, // bool
+            m_bAxisNotifiedY: 0x58D, // bool
+            m_bAxisNotifiedZ: 0x58E, // bool
+            m_nAngularMotionX: 0x590, // JointMotion_t
+            m_nAngularMotionY: 0x594, // JointMotion_t
+            m_nAngularMotionZ: 0x598, // JointMotion_t
+            m_flAngularFrequencyX: 0x59C, // float32
+            m_flAngularFrequencyY: 0x5A0, // float32
+            m_flAngularFrequencyZ: 0x5A4, // float32
+            m_flAngularDampingRatioX: 0x5A8, // float32
+            m_flAngularDampingRatioY: 0x5AC, // float32
+            m_flAngularDampingRatioZ: 0x5B0, // float32
+            m_flMaxAngularImpulseX: 0x5B4, // float32
+            m_flMaxAngularImpulseY: 0x5B8, // float32
+            m_flMaxAngularImpulseZ: 0x5BC, // float32
             m_NotifyForceReachedX: 0x5C0, // CEntityIOOutput
             m_NotifyForceReachedY: 0x5D8, // CEntityIOOutput
             m_NotifyForceReachedZ: 0x5F0, // CEntityIOOutput
@@ -6462,11 +6620,11 @@ export const Schemas = {
             m_OutputIndex: 0x48, // PulseRuntimeOutputIndex_t
         },
         CEnvLaser: {
-            m_iszLaserTarget: 0x7D0, // CUtlSymbolLarge
-            m_pSprite: 0x7D8, // CSprite*
-            m_iszSpriteName: 0x7E0, // CUtlSymbolLarge
-            m_firePosition: 0x7E8, // Vector
-            m_flStartFrame: 0x7F4, // float32
+            m_iszLaserTarget: 0x808, // CUtlSymbolLarge
+            m_pSprite: 0x810, // CHandle<CSprite>
+            m_iszSpriteName: 0x818, // CUtlSymbolLarge
+            m_firePosition: 0x820, // Vector
+            m_flStartFrame: 0x82C, // float32
         },
         CSoundOpvarSetEntity: {
             m_iszStackName: 0x4C0, // CUtlSymbolLarge
@@ -6495,6 +6653,8 @@ export const Schemas = {
             m_flTorqueScale: 0x4D4, // float32
             m_flTargetSpeed: 0x4D8, // float32
             m_flSpeedWhenSpinUpOrSpinDownStarted: 0x4DC, // float32
+            m_pFixedWorldBody: 0x4E0, // IPhysicsBody*
+            m_pMotorJoint: 0x4E8, // IPhysicsJoint*
             m_motor: 0x4F0, // CMotorController
         },
         CLogicGameEvent: {
@@ -6512,11 +6672,13 @@ export const Schemas = {
             m_flPushScale: 0x4C4, // float32
             m_bConvertToDebrisWhenPossible: 0x4C8, // bool
             m_bAffectInvulnerableEnts: 0x4C9, // bool
+            m_bDisablePushClamp: 0x4CA, // bool
             m_OnPushedPlayer: 0x4D0, // CEntityIOOutput
         },
         CSplineConstraint: {
             m_vAnchorOffsetRestore: 0x558, // Vector
             m_hSplineEntity: 0x564, // CHandle<CBaseEntity>
+            m_pSplineBody: 0x568, // IPhysicsBody*
             m_bEnableLateralConstraint: 0x570, // bool
             m_bEnableVerticalConstraint: 0x571, // bool
             m_bEnableAngularConstraint: 0x572, // bool
@@ -6533,10 +6695,10 @@ export const Schemas = {
         CLogicCompare: {
             m_flInValue: 0x4A8, // float32
             m_flCompareValue: 0x4AC, // float32
-            m_OnLessThan: 0x4B0, // CEntityOutputTemplate<float32,float32>
-            m_OnEqualTo: 0x4D0, // CEntityOutputTemplate<float32,float32>
-            m_OnNotEqualTo: 0x4F0, // CEntityOutputTemplate<float32,float32>
-            m_OnGreaterThan: 0x510, // CEntityOutputTemplate<float32,float32>
+            m_OnLessThan: 0x4B0, // CEntityOutputTemplate<float32>
+            m_OnEqualTo: 0x4D0, // CEntityOutputTemplate<float32>
+            m_OnNotEqualTo: 0x4F0, // CEntityOutputTemplate<float32>
+            m_OnGreaterThan: 0x510, // CEntityOutputTemplate<float32>
         },
         CCSGameModeRules_Noop: {
         },
@@ -6547,41 +6709,36 @@ export const Schemas = {
             m_NodeName: 0x20, // CGlobalSymbol
         },
         CFuncTankTrain: {
-            m_OnDeath: 0x858, // CEntityIOOutput
+            m_OnDeath: 0x890, // CEntityIOOutput
         },
         CPointClientUIWorldPanel: {
-            m_bIgnoreInput: 0x890, // bool
-            m_bLit: 0x891, // bool
-            m_bFollowPlayerAcrossTeleport: 0x892, // bool
-            m_flWidth: 0x894, // float32
-            m_flHeight: 0x898, // float32
-            m_flDPI: 0x89C, // float32
-            m_flInteractDistance: 0x8A0, // float32
-            m_flDepthOffset: 0x8A4, // float32
-            m_unOwnerContext: 0x8A8, // uint32
-            m_unHorizontalAlign: 0x8AC, // uint32
-            m_unVerticalAlign: 0x8B0, // uint32
-            m_unOrientation: 0x8B4, // uint32
-            m_bAllowInteractionFromAllSceneWorlds: 0x8B8, // bool
-            m_vecCSSClasses: 0x8C0, // CNetworkUtlVectorBase<CUtlSymbolLarge>
-            m_bOpaque: 0x8D8, // bool
-            m_bNoDepth: 0x8D9, // bool
-            m_bVisibleWhenParentNoDraw: 0x8DA, // bool
-            m_bRenderBackface: 0x8DB, // bool
-            m_bUseOffScreenIndicator: 0x8DC, // bool
-            m_bExcludeFromSaveGames: 0x8DD, // bool
-            m_bGrabbable: 0x8DE, // bool
-            m_bOnlyRenderToTexture: 0x8DF, // bool
-            m_bDisableMipGen: 0x8E0, // bool
-            m_nExplicitImageLayout: 0x8E4, // int32
-            m_bDisabled: 0x4A8, // bool
-            m_nResolutionX: 0x4AC, // int32
-            m_nResolutionY: 0x4B0, // int32
-            m_szPanelType: 0x4B8, // CUtlSymbolLarge
-            m_szLayoutFileName: 0x4C0, // CUtlSymbolLarge
+            m_bIgnoreInput: 0x8C8, // bool
+            m_bLit: 0x8C9, // bool
+            m_bFollowPlayerAcrossTeleport: 0x8CA, // bool
+            m_flWidth: 0x8CC, // float32
+            m_flHeight: 0x8D0, // float32
+            m_flDPI: 0x8D4, // float32
+            m_flInteractDistance: 0x8D8, // float32
+            m_flDepthOffset: 0x8DC, // float32
+            m_unOwnerContext: 0x8E0, // uint32
+            m_unHorizontalAlign: 0x8E4, // uint32
+            m_unVerticalAlign: 0x8E8, // uint32
+            m_unOrientation: 0x8EC, // uint32
+            m_bAllowInteractionFromAllSceneWorlds: 0x8F0, // bool
+            m_vecCSSClasses: 0x8F8, // CNetworkUtlVectorBase<CUtlSymbolLarge>
+            m_bOpaque: 0x910, // bool
+            m_bNoDepth: 0x911, // bool
+            m_bVisibleWhenParentNoDraw: 0x912, // bool
+            m_bRenderBackface: 0x913, // bool
+            m_bUseOffScreenIndicator: 0x914, // bool
+            m_bExcludeFromSaveGames: 0x915, // bool
+            m_bGrabbable: 0x916, // bool
+            m_bOnlyRenderToTexture: 0x917, // bool
+            m_bDisableMipGen: 0x918, // bool
+            m_nExplicitImageLayout: 0x91C, // int32
         },
         CSoundEventSphereEntity: {
-            m_flRadius: 0x558, // float32
+            m_flRadius: 0x568, // float32
         },
         CCSPlayerController_InGameMoneyServices: {
             m_bReceivesMoneyNextRound: 0x40, // bool
@@ -6613,37 +6770,11 @@ export const Schemas = {
             m_nCurrentPhase: 0xDF8, // int32
             m_nPhaseStartTick: 0xDFC, // int32
             m_nPhaseDurationTicks: 0xE00, // int32
-            m_OnMapVetoed: 0xE08, // CEntityOutputTemplate<CUtlSymbolLarge,CUtlSymbolLarge>
-            m_OnMapPicked: 0xE28, // CEntityOutputTemplate<CUtlSymbolLarge,CUtlSymbolLarge>
-            m_OnSidesPicked: 0xE48, // CEntityOutputTemplate<int32,int32>
-            m_OnNewPhaseStarted: 0xE68, // CEntityOutputTemplate<int32,int32>
-            m_OnLevelTransition: 0xE88, // CEntityOutputTemplate<int32,int32>
-        },
-        CAnimGraphNetworkedVariables: {
-            m_PredNetBoolVariables: 0x8, // CNetworkUtlVectorBase<uint32>
-            m_PredNetByteVariables: 0x20, // CNetworkUtlVectorBase<uint8>
-            m_PredNetUInt16Variables: 0x38, // CNetworkUtlVectorBase<uint16>
-            m_PredNetIntVariables: 0x50, // CNetworkUtlVectorBase<int32>
-            m_PredNetUInt32Variables: 0x68, // CNetworkUtlVectorBase<uint32>
-            m_PredNetUInt64Variables: 0x80, // CNetworkUtlVectorBase<uint64>
-            m_PredNetFloatVariables: 0x98, // CNetworkUtlVectorBase<float32>
-            m_PredNetVectorVariables: 0xB0, // CNetworkUtlVectorBase<Vector>
-            m_PredNetQuaternionVariables: 0xC8, // CNetworkUtlVectorBase<Quaternion>
-            m_PredNetGlobalSymbolVariables: 0xE0, // CNetworkUtlVectorBase<CGlobalSymbol>
-            m_OwnerOnlyPredNetBoolVariables: 0xF8, // CNetworkUtlVectorBase<uint32>
-            m_OwnerOnlyPredNetByteVariables: 0x110, // CNetworkUtlVectorBase<uint8>
-            m_OwnerOnlyPredNetUInt16Variables: 0x128, // CNetworkUtlVectorBase<uint16>
-            m_OwnerOnlyPredNetIntVariables: 0x140, // CNetworkUtlVectorBase<int32>
-            m_OwnerOnlyPredNetUInt32Variables: 0x158, // CNetworkUtlVectorBase<uint32>
-            m_OwnerOnlyPredNetUInt64Variables: 0x170, // CNetworkUtlVectorBase<uint64>
-            m_OwnerOnlyPredNetFloatVariables: 0x188, // CNetworkUtlVectorBase<float32>
-            m_OwnerOnlyPredNetVectorVariables: 0x1A0, // CNetworkUtlVectorBase<Vector>
-            m_OwnerOnlyPredNetQuaternionVariables: 0x1B8, // CNetworkUtlVectorBase<Quaternion>
-            m_OwnerOnlyPredNetGlobalSymbolVariables: 0x1D0, // CNetworkUtlVectorBase<CGlobalSymbol>
-            m_nBoolVariablesCount: 0x1E8, // int32
-            m_nOwnerOnlyBoolVariablesCount: 0x1EC, // int32
-            m_nRandomSeedOffset: 0x1F0, // int32
-            m_flLastTeleportTime: 0x1F4, // float32
+            m_OnMapVetoed: 0xE08, // CEntityOutputTemplate<CUtlSymbolLarge>
+            m_OnMapPicked: 0xE28, // CEntityOutputTemplate<CUtlSymbolLarge>
+            m_OnSidesPicked: 0xE48, // CEntityOutputTemplate<int32>
+            m_OnNewPhaseStarted: 0xE68, // CEntityOutputTemplate<int32>
+            m_OnLevelTransition: 0xE88, // CEntityOutputTemplate<int32>
         },
         CFuncPropRespawnZone: {
         },
@@ -6672,6 +6803,13 @@ export const Schemas = {
         },
         CSoundEventEntityAlias_snd_event_point: {
         },
+        CChoreoComponent: {
+            __m_pChainEntity: 0x8, // CNetworkVarChainer
+            m_hOwner: 0x30, // CHandle<CBaseModelEntity>
+            m_nNextSceneEventId: 0x68, // SceneEventId_t
+            m_bUpdateLayerPriorities: 0x6C, // bool
+            m_flAllowResponsesEndTime: 0x70, // GameTime_t
+        },
         CPulseCell_Value_RandomInt: {
         },
         CPointGamestatsCounter: {
@@ -6679,74 +6817,72 @@ export const Schemas = {
             m_bDisabled: 0x4B0, // bool
         },
         CTextureBasedAnimatable: {
-            m_bLoop: 0x730, // bool
-            m_flFPS: 0x734, // float32
-            m_hPositionKeys: 0x738, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_hRotationKeys: 0x740, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_vAnimationBoundsMin: 0x748, // Vector
-            m_vAnimationBoundsMax: 0x754, // Vector
-            m_flStartTime: 0x760, // float32
-            m_flStartFrame: 0x764, // float32
+            m_bLoop: 0x768, // bool
+            m_flFPS: 0x76C, // float32
+            m_hPositionKeys: 0x770, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_hRotationKeys: 0x778, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_vAnimationBoundsMin: 0x780, // Vector
+            m_vAnimationBoundsMax: 0x78C, // Vector
+            m_flStartTime: 0x798, // float32
+            m_flStartFrame: 0x79C, // float32
         },
         CSprite: {
-            m_hSpriteMaterial: 0x730, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_hAttachedToEntity: 0x738, // CHandle<CBaseEntity>
-            m_nAttachment: 0x73C, // AttachmentHandle_t
-            m_flSpriteFramerate: 0x740, // float32
-            m_flFrame: 0x744, // float32
-            m_flDieTime: 0x748, // GameTime_t
-            m_nBrightness: 0x758, // uint32
-            m_flBrightnessDuration: 0x75C, // float32
-            m_flSpriteScale: 0x760, // float32
-            m_flScaleDuration: 0x764, // float32
-            m_bWorldSpaceScale: 0x768, // bool
-            m_flGlowProxySize: 0x76C, // float32
-            m_flHDRColorScale: 0x770, // float32
-            m_flLastTime: 0x774, // GameTime_t
-            m_flMaxFrame: 0x778, // float32
-            m_flStartScale: 0x77C, // float32
-            m_flDestScale: 0x780, // float32
-            m_flScaleTimeStart: 0x784, // GameTime_t
-            m_nStartBrightness: 0x788, // int32
-            m_nDestBrightness: 0x78C, // int32
-            m_flBrightnessTimeStart: 0x790, // GameTime_t
-            m_nSpriteWidth: 0x794, // int32
-            m_nSpriteHeight: 0x798, // int32
-            m_nHitGroup: 0x0, // HitGroup_t
-            m_nMaxDamageLevel: 0x4, // int32
+            m_hSpriteMaterial: 0x768, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_hAttachedToEntity: 0x770, // CHandle<CBaseEntity>
+            m_nAttachment: 0x774, // AttachmentHandle_t
+            m_flSpriteFramerate: 0x778, // float32
+            m_flFrame: 0x77C, // float32
+            m_flDieTime: 0x780, // GameTime_t
+            m_nBrightness: 0x790, // uint32
+            m_flBrightnessDuration: 0x794, // float32
+            m_flSpriteScale: 0x798, // float32
+            m_flScaleDuration: 0x79C, // float32
+            m_bWorldSpaceScale: 0x7A0, // bool
+            m_flGlowProxySize: 0x7A4, // float32
+            m_flHDRColorScale: 0x7A8, // float32
+            m_flLastTime: 0x7AC, // GameTime_t
+            m_flMaxFrame: 0x7B0, // float32
+            m_flStartScale: 0x7B4, // float32
+            m_flDestScale: 0x7B8, // float32
+            m_flScaleTimeStart: 0x7BC, // GameTime_t
+            m_nStartBrightness: 0x7C0, // int32
+            m_nDestBrightness: 0x7C4, // int32
+            m_flBrightnessTimeStart: 0x7C8, // GameTime_t
+            m_nSpriteWidth: 0x7CC, // int32
+            m_nSpriteHeight: 0x7D0, // int32
         },
         CBaseMoveBehavior: {
-            m_iPositionInterpolator: 0x500, // int32
-            m_iRotationInterpolator: 0x504, // int32
-            m_flAnimStartTime: 0x508, // float32
-            m_flAnimEndTime: 0x50C, // float32
-            m_flAverageSpeedAcrossFrame: 0x510, // float32
-            m_pCurrentKeyFrame: 0x518, // CPathKeyFrame*
-            m_pTargetKeyFrame: 0x520, // CPathKeyFrame*
-            m_pPreKeyFrame: 0x528, // CPathKeyFrame*
-            m_pPostKeyFrame: 0x530, // CPathKeyFrame*
-            m_flTimeIntoFrame: 0x538, // float32
-            m_iDirection: 0x53C, // int32
+            m_iPositionInterpolator: 0x4F0, // int32
+            m_iRotationInterpolator: 0x4F4, // int32
+            m_flAnimStartTime: 0x4F8, // float32
+            m_flAnimEndTime: 0x4FC, // float32
+            m_flAverageSpeedAcrossFrame: 0x500, // float32
+            m_pCurrentKeyFrame: 0x504, // CHandle<CPathKeyFrame>
+            m_pTargetKeyFrame: 0x508, // CHandle<CPathKeyFrame>
+            m_pPreKeyFrame: 0x50C, // CHandle<CPathKeyFrame>
+            m_pPostKeyFrame: 0x510, // CHandle<CPathKeyFrame>
+            m_flTimeIntoFrame: 0x514, // float32
+            m_iDirection: 0x518, // int32
         },
         CDynamicLight: {
-            m_ActualFlags: 0x730, // uint8
-            m_Flags: 0x731, // uint8
-            m_LightStyle: 0x732, // uint8
-            m_On: 0x733, // bool
-            m_Radius: 0x734, // float32
-            m_Exponent: 0x738, // int32
-            m_InnerAngle: 0x73C, // float32
-            m_OuterAngle: 0x740, // float32
-            m_SpotRadius: 0x744, // float32
+            m_ActualFlags: 0x768, // uint8
+            m_Flags: 0x769, // uint8
+            m_LightStyle: 0x76A, // uint8
+            m_On: 0x76B, // bool
+            m_Radius: 0x76C, // float32
+            m_Exponent: 0x770, // int32
+            m_InnerAngle: 0x774, // float32
+            m_OuterAngle: 0x778, // float32
+            m_SpotRadius: 0x77C, // float32
         },
         CWeaponTaser: {
-            m_fFireTime: 0x1150, // GameTime_t
-            m_nLastAttackTick: 0x1154, // int32
+            m_fFireTime: 0x1050, // GameTime_t
+            m_nLastAttackTick: 0x1054, // int32
         },
         CEnvCubemapBox: {
         },
         CRotDoor: {
-            m_bSolidBsp: 0x930, // bool
+            m_bSolidBsp: 0x968, // bool
         },
         CPathMover: {
             m_vecMovers: 0x5F0, // CUtlVector<CHandle<CFuncMover>>
@@ -6754,7 +6890,7 @@ export const Schemas = {
             m_iszMoverSpawnerName: 0x610, // CUtlSymbolLarge
         },
         CFuncVPhysicsClip: {
-            m_bDisabled: 0x730, // bool
+            m_bDisabled: 0x768, // bool
         },
         CPhysFixed: {
             m_flLinearFrequency: 0x508, // float32
@@ -6791,10 +6927,10 @@ export const Schemas = {
             m_fWindDirectionVariationMultiplier: 0x4D8, // float32
         },
         CFuncElectrifiedVolume: {
-            m_EffectName: 0x750, // CUtlSymbolLarge
-            m_EffectInterpenetrateName: 0x758, // CUtlSymbolLarge
-            m_EffectZapName: 0x760, // CUtlSymbolLarge
-            m_iszEffectSource: 0x768, // CUtlSymbolLarge
+            m_EffectName: 0x788, // CUtlSymbolLarge
+            m_EffectInterpenetrateName: 0x790, // CUtlSymbolLarge
+            m_EffectZapName: 0x798, // CUtlSymbolLarge
+            m_iszEffectSource: 0x7A0, // CUtlSymbolLarge
         },
         CCSMinimapBoundary: {
         },
@@ -6830,16 +6966,16 @@ export const Schemas = {
             m_bPadding: 0x67, // bool
         },
         CSoundEventOBBEntity: {
-            m_vMins: 0x558, // Vector
-            m_vMaxs: 0x564, // Vector
+            m_vMins: 0x568, // Vector
+            m_vMaxs: 0x574, // Vector
         },
         CFlashbangProjectile: {
-            m_flTimeToDetonate: 0xBB0, // float32
-            m_numOpponentsHit: 0xBB4, // uint8
-            m_numTeammatesHit: 0xBB5, // uint8
+            m_flTimeToDetonate: 0xA30, // float32
+            m_numOpponentsHit: 0xA34, // uint8
+            m_numTeammatesHit: 0xA35, // uint8
         },
         CTriggerMultiple: {
-            m_OnTrigger: 0x890, // CEntityIOOutput
+            m_OnTrigger: 0x8C8, // CEntityIOOutput
         },
         CPhysBallSocket: {
             m_flJointFriction: 0x508, // float32
@@ -6864,8 +7000,13 @@ export const Schemas = {
             m_iOpvarIndex: 0x548, // int32
             m_bUseAutoCompare: 0x54C, // bool
             m_bFastRefresh: 0x54D, // bool
-            m_OnEnter: 0x550, // CEntityIOOutput
-            m_OnExit: 0x568, // CEntityIOOutput
+        },
+        CExplosionTypeData: {
+            m_SoundName: 0x0, // CSoundEventName
+            m_ParticleEffect: 0x10, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            m_bIsIncindiary: 0xF0, // bool
+            m_bHasForces: 0xF1, // bool
+            m_DecalType: 0xF8, // CGlobalSymbol
         },
         CPathKeyFrame: {
             m_Origin: 0x4A8, // Vector
@@ -6873,56 +7014,53 @@ export const Schemas = {
             m_qAngle: 0x4C0, // Quaternion
             m_iNextKey: 0x4D0, // CUtlSymbolLarge
             m_flNextTime: 0x4D8, // float32
-            m_pNextKey: 0x4E0, // CPathKeyFrame*
-            m_pPrevKey: 0x4E8, // CPathKeyFrame*
-            m_flMoveSpeed: 0x4F0, // float32
+            m_pNextKey: 0x4DC, // CHandle<CPathKeyFrame>
+            m_pPrevKey: 0x4E0, // CHandle<CPathKeyFrame>
+            m_flMoveSpeed: 0x4E4, // float32
         },
         CWeaponCZ75a: {
-            m_bMagazineRemoved: 0x1150, // bool
+            m_bMagazineRemoved: 0x1050, // bool
         },
         CScriptTriggerPush: {
-            m_vExtent: 0x8C8, // Vector
+            m_vExtent: 0x8F8, // Vector
         },
         CRevertSaved: {
-            m_loadTime: 0x730, // float32
-            m_Duration: 0x734, // float32
-            m_HoldTime: 0x738, // float32
+            m_loadTime: 0x768, // float32
+            m_Duration: 0x76C, // float32
+            m_HoldTime: 0x770, // float32
         },
         CTriggerBombReset: {
         },
         CTriggerHurt: {
-            m_flOriginalDamage: 0x890, // float32
-            m_flDamage: 0x894, // float32
-            m_flDamageCap: 0x898, // float32
-            m_flLastDmgTime: 0x89C, // GameTime_t
-            m_flForgivenessDelay: 0x8A0, // float32
-            m_bitsDamageInflict: 0x8A4, // DamageTypes_t
-            m_damageModel: 0x8A8, // int32
-            m_bNoDmgForce: 0x8AC, // bool
-            m_vDamageForce: 0x8B0, // Vector
-            m_thinkAlways: 0x8BC, // bool
-            m_hurtThinkPeriod: 0x8C0, // float32
-            m_OnHurt: 0x8C8, // CEntityIOOutput
-            m_OnHurtPlayer: 0x8E0, // CEntityIOOutput
-            m_hurtEntities: 0x8F8, // CUtlVector<CHandle<CBaseEntity>>
+            m_flOriginalDamage: 0x8C8, // float32
+            m_flDamage: 0x8CC, // float32
+            m_flDamageCap: 0x8D0, // float32
+            m_flLastDmgTime: 0x8D4, // GameTime_t
+            m_flForgivenessDelay: 0x8D8, // float32
+            m_bitsDamageInflict: 0x8DC, // DamageTypes_t
+            m_damageModel: 0x8E0, // int32
+            m_bNoDmgForce: 0x8E4, // bool
+            m_vDamageForce: 0x8E8, // Vector
+            m_thinkAlways: 0x8F4, // bool
+            m_hurtThinkPeriod: 0x8F8, // float32
+            m_OnHurt: 0x900, // CEntityIOOutput
+            m_OnHurtPlayer: 0x918, // CEntityIOOutput
+            m_hurtEntities: 0x930, // CUtlVector<CHandle<CBaseEntity>>
         },
         CCSPlayer_WeaponServices: {
             m_flNextAttack: 0xC0, // GameTime_t
-            m_bIsLookingAtWeapon: 0xC4, // bool
-            m_bIsHoldingLookAtWeapon: 0xC5, // bool
-            m_hSavedWeapon: 0xC8, // CHandle<CBasePlayerWeapon>
-            m_nTimeToMelee: 0xCC, // int32
-            m_nTimeToSecondary: 0xD0, // int32
-            m_nTimeToPrimary: 0xD4, // int32
-            m_nTimeToSniperRifle: 0xD8, // int32
-            m_bIsBeingGivenItem: 0xDC, // bool
-            m_bIsPickingUpItemWithUse: 0xDD, // bool
-            m_bPickedUpWeapon: 0xDE, // bool
-            m_bDisableAutoDeploy: 0xDF, // bool
-            m_bIsPickingUpGroundWeapon: 0xE0, // bool
-            m_networkAnimTiming: 0x18B8, // CNetworkUtlVectorBase<uint8>
-            m_bBlockInspectUntilNextGraphUpdate: 0x18D0, // bool
-            m_action: 0x90, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_hSavedWeapon: 0xC4, // CHandle<CBasePlayerWeapon>
+            m_nTimeToMelee: 0xC8, // int32
+            m_nTimeToSecondary: 0xCC, // int32
+            m_nTimeToPrimary: 0xD0, // int32
+            m_nTimeToSniperRifle: 0xD4, // int32
+            m_bIsBeingGivenItem: 0xD8, // bool
+            m_bIsPickingUpItemWithUse: 0xD9, // bool
+            m_bPickedUpWeapon: 0xDA, // bool
+            m_bDisableAutoDeploy: 0xDB, // bool
+            m_bIsPickingUpGroundWeapon: 0xDC, // bool
+            m_networkAnimTiming: 0x1860, // CNetworkUtlVectorBase<uint8>
+            m_bBlockInspectUntilNextGraphUpdate: 0x1878, // bool
         },
         CRetakeGameRules: {
             m_nMatchSeed: 0x138, // int32
@@ -6939,31 +7077,31 @@ export const Schemas = {
         CTeamplayRules: {
         },
         CScriptTriggerHurt: {
-            m_vExtent: 0x910, // Vector
+            m_vExtent: 0x950, // Vector
         },
         CCSGO_WingmanIntroCharacterPosition: {
         },
         CWeaponMP9: {
         },
         CTriggerDetectExplosion: {
-            m_OnDetectedExplosion: 0x8B8, // CEntityIOOutput
+            m_OnDetectedExplosion: 0x8F0, // CEntityIOOutput
         },
         CFilterName: {
             m_iFilterName: 0x4E0, // CUtlSymbolLarge
         },
         CSmokeGrenadeProjectile: {
-            m_nSmokeEffectTickBegin: 0xBD8, // int32
-            m_bDidSmokeEffect: 0xBDC, // bool
-            m_nRandomSeed: 0xBE0, // int32
-            m_vSmokeColor: 0xBE4, // Vector
-            m_vSmokeDetonationPos: 0xBF0, // Vector
-            m_VoxelFrameData: 0xC00, // CNetworkUtlVectorBase<uint8>
-            m_nVoxelFrameDataSize: 0xC18, // int32
-            m_nVoxelUpdate: 0xC1C, // int32
-            m_flLastBounce: 0xC20, // GameTime_t
-            m_fllastSimulationTime: 0xC24, // GameTime_t
-            m_bExplodeFromInferno: 0x2EA8, // bool
-            m_bDidGroundScorch: 0x2EA9, // bool
+            m_nSmokeEffectTickBegin: 0xA58, // int32
+            m_bDidSmokeEffect: 0xA5C, // bool
+            m_nRandomSeed: 0xA60, // int32
+            m_vSmokeColor: 0xA64, // Vector
+            m_vSmokeDetonationPos: 0xA70, // Vector
+            m_VoxelFrameData: 0xA80, // CNetworkUtlVectorBase<uint8>
+            m_nVoxelFrameDataSize: 0xA98, // int32
+            m_nVoxelUpdate: 0xA9C, // int32
+            m_flLastBounce: 0xAA0, // GameTime_t
+            m_fllastSimulationTime: 0xAA4, // GameTime_t
+            m_bExplodeFromInferno: 0x2D28, // bool
+            m_bDidGroundScorch: 0x2D29, // bool
         },
         CBlood: {
             m_vecSprayAngles: 0x4A8, // QAngle
@@ -6988,7 +7126,7 @@ export const Schemas = {
             m_iLastUpdateSentAt: 0x818, // int32
         },
         CRulePointEntity: {
-            m_Score: 0x738, // int32
+            m_Score: 0x770, // int32
         },
         CPulse_CallInfo: {
             m_PortName: 0x0, // PulseSymbol_t
@@ -7001,21 +7139,19 @@ export const Schemas = {
         CFuncMoveLinearAlias_momentary_door: {
         },
         CBaseAnimGraph: {
-            m_graphControllerManager: 0x730, // CAnimGraphControllerManager
-            m_pMainGraphController: 0x7E0, // CAnimGraphControllerBase*
-            m_bInitiallyPopulateInterpHistory: 0x7E8, // bool
-            m_pChoreoServices: 0x7F0, // IChoreoServices*
-            m_bAnimGraphUpdateEnabled: 0x7F8, // bool
-            m_flMaxSlopeDistance: 0x7FC, // float32
-            m_vLastSlopeCheckPos: 0x800, // VectorWS
-            m_nAnimGraphUpdateId: 0x80C, // uint32
-            m_bAnimationUpdateScheduled: 0x810, // bool
-            m_vecForce: 0x814, // Vector
-            m_nForceBone: 0x820, // int32
-            m_RagdollPose: 0x838, // PhysicsRagdollPose_t
-            m_bRagdollEnabled: 0x860, // bool
-            m_bRagdollClientSide: 0x861, // bool
-            m_xParentedRagdollRootInEntitySpace: 0x870, // CTransform
+            m_graphControllerManager: 0x768, // CAnimGraphControllerManager
+            m_pMainGraphController: 0x818, // CAnimGraphControllerBase*
+            m_bInitiallyPopulateInterpHistory: 0x820, // bool
+            m_pChoreoServices: 0x828, // IChoreoServices*
+            m_bAnimGraphUpdateEnabled: 0x830, // bool
+            m_bAnimationUpdateScheduled: 0x831, // bool
+            m_vecForce: 0x834, // Vector
+            m_nForceBone: 0x840, // int32
+            m_pRagdollControl: 0x850, // IPhysicsRagdollControl*
+            m_RagdollPose: 0x858, // PhysicsRagdollPose_t
+            m_bRagdollEnabled: 0x880, // bool
+            m_bRagdollClientSide: 0x881, // bool
+            m_xParentedRagdollRootInEntitySpace: 0x890, // CTransform
         },
         CEnvCubemapFog: {
             m_flEndDistance: 0x4A8, // float32
@@ -7033,9 +7169,15 @@ export const Schemas = {
             m_nCubemapSourceType: 0x4D4, // int32
             m_hSkyMaterial: 0x4D8, // CStrongHandle<InfoForResourceTypeIMaterial2>
             m_iszSkyEntity: 0x4E0, // CUtlSymbolLarge
-            m_hFogCubemapTexture: 0x4E8, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_bHasHeightFogEnd: 0x4F0, // bool
-            m_bFirstTime: 0x4F1, // bool
+            m_nHeightFogType: 0x4E8, // int32
+            m_nFogHeightBlendMode: 0x4EC, // int32
+            m_nFogHeightCoordinateSpace: 0x4F0, // int32
+            m_nDistanceFogType: 0x4F4, // int32
+            m_DistanceFogCurveString: 0x4F8, // CUtlSymbolLarge
+            m_HeightFogCurveString: 0x500, // CUtlSymbolLarge
+            m_hFogCubemapTexture: 0x598, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_bHasHeightFogEnd: 0x5A0, // bool
+            m_bFirstTime: 0x5A1, // bool
         },
         CPulseCell_InlineNodeSkipSelector: {
             m_nFlowNodeID: 0x48, // PulseDocNodeID_t
@@ -7044,42 +7186,42 @@ export const Schemas = {
             m_FailOutflow: 0x68, // CPulse_OutflowConnection
         },
         CBaseDoor: {
-            m_angMoveEntitySpace: 0x7C0, // QAngle
-            m_vecMoveDirParentSpace: 0x7CC, // Vector
-            m_ls: 0x7D8, // locksound_t
-            m_bForceClosed: 0x7F8, // bool
-            m_bDoorGroup: 0x7F9, // bool
-            m_bLocked: 0x7FA, // bool
-            m_bIgnoreDebris: 0x7FB, // bool
-            m_bNoNPCs: 0x7FC, // bool
-            m_eSpawnPosition: 0x800, // FuncDoorSpawnPos_t
-            m_flBlockDamage: 0x804, // float32
-            m_NoiseMoving: 0x808, // CUtlSymbolLarge
-            m_NoiseArrived: 0x810, // CUtlSymbolLarge
-            m_NoiseMovingClosed: 0x818, // CUtlSymbolLarge
-            m_NoiseArrivedClosed: 0x820, // CUtlSymbolLarge
-            m_ChainTarget: 0x828, // CUtlSymbolLarge
-            m_OnBlockedClosing: 0x830, // CEntityIOOutput
-            m_OnBlockedOpening: 0x848, // CEntityIOOutput
-            m_OnUnblockedClosing: 0x860, // CEntityIOOutput
-            m_OnUnblockedOpening: 0x878, // CEntityIOOutput
-            m_OnFullyClosed: 0x890, // CEntityIOOutput
-            m_OnFullyOpen: 0x8A8, // CEntityIOOutput
-            m_OnClose: 0x8C0, // CEntityIOOutput
-            m_OnOpen: 0x8D8, // CEntityIOOutput
-            m_OnLockedUse: 0x8F0, // CEntityIOOutput
-            m_bLoopMoveSound: 0x908, // bool
-            m_bCreateNavObstacle: 0x928, // bool
-            m_isChaining: 0x929, // bool
-            m_bIsUsable: 0x92A, // bool
+            m_angMoveEntitySpace: 0x7F8, // QAngle
+            m_vecMoveDirParentSpace: 0x804, // Vector
+            m_ls: 0x810, // locksound_t
+            m_bForceClosed: 0x830, // bool
+            m_bDoorGroup: 0x831, // bool
+            m_bLocked: 0x832, // bool
+            m_bIgnoreDebris: 0x833, // bool
+            m_bNoNPCs: 0x834, // bool
+            m_eSpawnPosition: 0x838, // FuncDoorSpawnPos_t
+            m_flBlockDamage: 0x83C, // float32
+            m_NoiseMoving: 0x840, // CUtlSymbolLarge
+            m_NoiseArrived: 0x848, // CUtlSymbolLarge
+            m_NoiseMovingClosed: 0x850, // CUtlSymbolLarge
+            m_NoiseArrivedClosed: 0x858, // CUtlSymbolLarge
+            m_ChainTarget: 0x860, // CUtlSymbolLarge
+            m_OnBlockedClosing: 0x868, // CEntityIOOutput
+            m_OnBlockedOpening: 0x880, // CEntityIOOutput
+            m_OnUnblockedClosing: 0x898, // CEntityIOOutput
+            m_OnUnblockedOpening: 0x8B0, // CEntityIOOutput
+            m_OnFullyClosed: 0x8C8, // CEntityIOOutput
+            m_OnFullyOpen: 0x8E0, // CEntityIOOutput
+            m_OnClose: 0x8F8, // CEntityIOOutput
+            m_OnOpen: 0x910, // CEntityIOOutput
+            m_OnLockedUse: 0x928, // CEntityIOOutput
+            m_bLoopMoveSound: 0x940, // bool
+            m_bCreateNavObstacle: 0x960, // bool
+            m_isChaining: 0x961, // bool
+            m_bIsUsable: 0x962, // bool
         },
         CServerOnlyPointEntity: {
         },
         CGameMoney: {
-            m_OnMoneySpent: 0x740, // CEntityIOOutput
-            m_OnMoneySpentFail: 0x758, // CEntityIOOutput
-            m_nMoney: 0x770, // int32
-            m_strAwardText: 0x778, // CUtlString
+            m_OnMoneySpent: 0x778, // CEntityIOOutput
+            m_OnMoneySpentFail: 0x790, // CEntityIOOutput
+            m_nMoney: 0x7A8, // int32
+            m_strAwardText: 0x7B0, // CUtlString
         },
         CEnvHudHint: {
             m_iszMessage: 0x4A8, // CUtlSymbolLarge
@@ -7089,11 +7231,11 @@ export const Schemas = {
         CLogicalEntity: {
         },
         CItemDefuser: {
-            m_entitySpottedState: 0xAC0, // EntitySpottedState_t
-            m_nSpotRules: 0xAD8, // int32
+            m_entitySpottedState: 0x9E0, // EntitySpottedState_t
+            m_nSpotRules: 0x9F8, // int32
         },
         CItemGenericTriggerHelper: {
-            m_hParentItem: 0x730, // CHandle<CItemGeneric>
+            m_hParentItem: 0x768, // CHandle<CItemGeneric>
         },
         CPlayer_WeaponServices: {
             m_hMyWeapons: 0x48, // CNetworkUtlVectorBase<CHandle<CBasePlayerWeapon>>
@@ -7103,99 +7245,98 @@ export const Schemas = {
             m_bPreventWeaponPickup: 0xA8, // bool
         },
         CRagdollPropAttached: {
-            m_boneIndexAttached: 0xB70, // uint32
-            m_ragdollAttachedObjectIndex: 0xB74, // uint32
-            m_attachmentPointBoneSpace: 0xB78, // Vector
-            m_attachmentPointRagdollSpace: 0xB84, // Vector
-            m_bShouldDetach: 0xB90, // bool
-            m_bShouldDeleteAttachedActivationRecord: 0xBA0, // bool
+            m_boneIndexAttached: 0xAB0, // uint32
+            m_ragdollAttachedObjectIndex: 0xAB4, // uint32
+            m_attachmentPointBoneSpace: 0xAB8, // Vector
+            m_attachmentPointRagdollSpace: 0xAC4, // Vector
+            m_bShouldDetach: 0xAD0, // bool
+            m_bShouldDeleteAttachedActivationRecord: 0xAE0, // bool
         },
         CItemDogtags: {
-            m_OwningPlayer: 0xAC0, // CHandle<CCSPlayerPawn>
-            m_KillingPlayer: 0xAC4, // CHandle<CCSPlayerPawn>
+            m_OwningPlayer: 0x9E0, // CHandle<CCSPlayerPawn>
+            m_KillingPlayer: 0x9E4, // CHandle<CCSPlayerPawn>
         },
         CFuncPlat: {
-            m_sNoise: 0x7D8, // CUtlSymbolLarge
+            m_sNoise: 0x810, // CUtlSymbolLarge
         },
         CBarnLight: {
-            m_bEnabled: 0x730, // bool
-            m_nColorMode: 0x734, // int32
-            m_Color: 0x738, // Color
-            m_flColorTemperature: 0x73C, // float32
-            m_flBrightness: 0x740, // float32
-            m_flBrightnessScale: 0x744, // float32
-            m_nDirectLight: 0x748, // int32
-            m_nBakedShadowIndex: 0x74C, // int32
-            m_nLightPathUniqueId: 0x750, // int32
-            m_nLightMapUniqueId: 0x754, // int32
-            m_nLuminaireShape: 0x758, // int32
-            m_flLuminaireSize: 0x75C, // float32
-            m_flLuminaireAnisotropy: 0x760, // float32
-            m_LightStyleString: 0x768, // CUtlString
-            m_flLightStyleStartTime: 0x770, // GameTime_t
-            m_QueuedLightStyleStrings: 0x778, // CNetworkUtlVectorBase<CUtlString>
-            m_LightStyleEvents: 0x790, // CNetworkUtlVectorBase<CUtlString>
-            m_LightStyleTargets: 0x7A8, // CNetworkUtlVectorBase<CHandle<CBaseModelEntity>>
-            m_StyleEvent: 0x7C0, // CEntityIOOutput[4]
-            m_hLightCookie: 0x840, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_flShape: 0x848, // float32
-            m_flSoftX: 0x84C, // float32
-            m_flSoftY: 0x850, // float32
-            m_flSkirt: 0x854, // float32
-            m_flSkirtNear: 0x858, // float32
-            m_vSizeParams: 0x85C, // Vector
-            m_flRange: 0x868, // float32
-            m_vShear: 0x86C, // Vector
-            m_nBakeSpecularToCubemaps: 0x878, // int32
-            m_vBakeSpecularToCubemapsSize: 0x87C, // Vector
-            m_nCastShadows: 0x888, // int32
-            m_nShadowMapSize: 0x88C, // int32
-            m_nShadowPriority: 0x890, // int32
-            m_bContactShadow: 0x894, // bool
-            m_bForceShadowsEnabled: 0x895, // bool
-            m_nBounceLight: 0x898, // int32
-            m_flBounceScale: 0x89C, // float32
-            m_bDynamicBounce: 0x8A0, // bool
-            m_flMinRoughness: 0x8A4, // float32
-            m_vAlternateColor: 0x8A8, // Vector
-            m_fAlternateColorBrightness: 0x8B4, // float32
-            m_nFog: 0x8B8, // int32
-            m_flFogStrength: 0x8BC, // float32
-            m_nFogShadows: 0x8C0, // int32
-            m_flFogScale: 0x8C4, // float32
-            m_bFogMixedShadows: 0x8C8, // bool
-            m_flFadeSizeStart: 0x8CC, // float32
-            m_flFadeSizeEnd: 0x8D0, // float32
-            m_flShadowFadeSizeStart: 0x8D4, // float32
-            m_flShadowFadeSizeEnd: 0x8D8, // float32
-            m_bPrecomputedFieldsValid: 0x8DC, // bool
-            m_vPrecomputedBoundsMins: 0x8E0, // Vector
-            m_vPrecomputedBoundsMaxs: 0x8EC, // Vector
-            m_vPrecomputedOBBOrigin: 0x8F8, // Vector
-            m_vPrecomputedOBBAngles: 0x904, // QAngle
-            m_vPrecomputedOBBExtent: 0x910, // Vector
-            m_nPrecomputedSubFrusta: 0x91C, // int32
-            m_vPrecomputedOBBOrigin0: 0x920, // Vector
-            m_vPrecomputedOBBAngles0: 0x92C, // QAngle
-            m_vPrecomputedOBBExtent0: 0x938, // Vector
-            m_vPrecomputedOBBOrigin1: 0x944, // Vector
-            m_vPrecomputedOBBAngles1: 0x950, // QAngle
-            m_vPrecomputedOBBExtent1: 0x95C, // Vector
-            m_vPrecomputedOBBOrigin2: 0x968, // Vector
-            m_vPrecomputedOBBAngles2: 0x974, // QAngle
-            m_vPrecomputedOBBExtent2: 0x980, // Vector
-            m_vPrecomputedOBBOrigin3: 0x98C, // Vector
-            m_vPrecomputedOBBAngles3: 0x998, // QAngle
-            m_vPrecomputedOBBExtent3: 0x9A4, // Vector
-            m_vPrecomputedOBBOrigin4: 0x9B0, // Vector
-            m_vPrecomputedOBBAngles4: 0x9BC, // QAngle
-            m_vPrecomputedOBBExtent4: 0x9C8, // Vector
-            m_vPrecomputedOBBOrigin5: 0x9D4, // Vector
-            m_vPrecomputedOBBAngles5: 0x9E0, // QAngle
-            m_vPrecomputedOBBExtent5: 0x9EC, // Vector
-            m_bPvsModifyEntity: 0x9F8, // bool
-            m_VisClusters: 0xA00, // CNetworkUtlVectorBase<uint16>
-            m_bShowLight: 0xA20, // bool
+            m_bEnabled: 0x768, // bool
+            m_nColorMode: 0x76C, // int32
+            m_Color: 0x770, // Color
+            m_flColorTemperature: 0x774, // float32
+            m_flBrightness: 0x778, // float32
+            m_flBrightnessScale: 0x77C, // float32
+            m_nDirectLight: 0x780, // int32
+            m_nBakedShadowIndex: 0x784, // int32
+            m_nLightPathUniqueId: 0x788, // int32
+            m_nLightMapUniqueId: 0x78C, // int32
+            m_nLuminaireShape: 0x790, // int32
+            m_flLuminaireSize: 0x794, // float32
+            m_flLuminaireAnisotropy: 0x798, // float32
+            m_LightStyleString: 0x7A0, // CUtlString
+            m_flLightStyleStartTime: 0x7A8, // GameTime_t
+            m_QueuedLightStyleStrings: 0x7B0, // CNetworkUtlVectorBase<CUtlString>
+            m_LightStyleEvents: 0x7C8, // CNetworkUtlVectorBase<CUtlString>
+            m_LightStyleTargets: 0x7E0, // CNetworkUtlVectorBase<CHandle<CBaseModelEntity>>
+            m_StyleEvent: 0x7F8, // CEntityIOOutput[4]
+            m_hLightCookie: 0x878, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_flShape: 0x880, // float32
+            m_flSoftX: 0x884, // float32
+            m_flSoftY: 0x888, // float32
+            m_flSkirt: 0x88C, // float32
+            m_flSkirtNear: 0x890, // float32
+            m_vSizeParams: 0x894, // Vector
+            m_flRange: 0x8A0, // float32
+            m_vShear: 0x8A4, // Vector
+            m_nBakeSpecularToCubemaps: 0x8B0, // int32
+            m_vBakeSpecularToCubemapsSize: 0x8B4, // Vector
+            m_flBakeSpecularToCubemapsScale: 0x8C0, // float32
+            m_nCastShadows: 0x8C4, // int32
+            m_nShadowMapSize: 0x8C8, // int32
+            m_nShadowPriority: 0x8CC, // int32
+            m_bContactShadow: 0x8D0, // bool
+            m_bForceShadowsEnabled: 0x8D1, // bool
+            m_nBounceLight: 0x8D4, // int32
+            m_flBounceScale: 0x8D8, // float32
+            m_flMinRoughness: 0x8DC, // float32
+            m_vAlternateColor: 0x8E0, // Vector
+            m_fAlternateColorBrightness: 0x8EC, // float32
+            m_nFog: 0x8F0, // int32
+            m_flFogStrength: 0x8F4, // float32
+            m_nFogShadows: 0x8F8, // int32
+            m_flFogScale: 0x8FC, // float32
+            m_flFadeSizeStart: 0x900, // float32
+            m_flFadeSizeEnd: 0x904, // float32
+            m_flShadowFadeSizeStart: 0x908, // float32
+            m_flShadowFadeSizeEnd: 0x90C, // float32
+            m_bPrecomputedFieldsValid: 0x910, // bool
+            m_vPrecomputedBoundsMins: 0x914, // Vector
+            m_vPrecomputedBoundsMaxs: 0x920, // Vector
+            m_vPrecomputedOBBOrigin: 0x92C, // Vector
+            m_vPrecomputedOBBAngles: 0x938, // QAngle
+            m_vPrecomputedOBBExtent: 0x944, // Vector
+            m_nPrecomputedSubFrusta: 0x950, // int32
+            m_vPrecomputedOBBOrigin0: 0x954, // Vector
+            m_vPrecomputedOBBAngles0: 0x960, // QAngle
+            m_vPrecomputedOBBExtent0: 0x96C, // Vector
+            m_vPrecomputedOBBOrigin1: 0x978, // Vector
+            m_vPrecomputedOBBAngles1: 0x984, // QAngle
+            m_vPrecomputedOBBExtent1: 0x990, // Vector
+            m_vPrecomputedOBBOrigin2: 0x99C, // Vector
+            m_vPrecomputedOBBAngles2: 0x9A8, // QAngle
+            m_vPrecomputedOBBExtent2: 0x9B4, // Vector
+            m_vPrecomputedOBBOrigin3: 0x9C0, // Vector
+            m_vPrecomputedOBBAngles3: 0x9CC, // QAngle
+            m_vPrecomputedOBBExtent3: 0x9D8, // Vector
+            m_vPrecomputedOBBOrigin4: 0x9E4, // Vector
+            m_vPrecomputedOBBAngles4: 0x9F0, // QAngle
+            m_vPrecomputedOBBExtent4: 0x9FC, // Vector
+            m_vPrecomputedOBBOrigin5: 0xA08, // Vector
+            m_vPrecomputedOBBAngles5: 0xA14, // QAngle
+            m_vPrecomputedOBBExtent5: 0xA20, // Vector
+            m_bPvsModifyEntity: 0xA2C, // bool
+            m_bTransmitAlways: 0xA2D, // bool
+            m_VisClusters: 0xA30, // CNetworkUtlVectorBase<uint16>
         },
         CInstructorEventEntity: {
             m_iszName: 0x4A8, // CUtlSymbolLarge
@@ -7210,79 +7351,78 @@ export const Schemas = {
             m_OnPass: 0x4B0, // CEntityIOOutput
         },
         CTriggerSndSosOpvar: {
-            m_hTouchingPlayers: 0x890, // CUtlVector<CHandle<CBaseEntity>>
-            m_flPosition: 0x8A8, // Vector
-            m_flCenterSize: 0x8B4, // float32
-            m_flMinVal: 0x8B8, // float32
-            m_flMaxVal: 0x8BC, // float32
-            m_opvarName: 0x8C0, // CUtlSymbolLarge
-            m_stackName: 0x8C8, // CUtlSymbolLarge
-            m_operatorName: 0x8D0, // CUtlSymbolLarge
-            m_bVolIs2D: 0x8D8, // bool
-            m_opvarNameChar: 0x8D9, // char[256]
-            m_stackNameChar: 0x9D9, // char[256]
-            m_operatorNameChar: 0xAD9, // char[256]
-            m_VecNormPos: 0xBDC, // Vector
-            m_flNormCenterSize: 0xBE8, // float32
+            m_hTouchingPlayers: 0x8C8, // CUtlVector<CHandle<CBaseEntity>>
+            m_flPosition: 0x8E0, // Vector
+            m_flCenterSize: 0x8EC, // float32
+            m_flMinVal: 0x8F0, // float32
+            m_flMaxVal: 0x8F4, // float32
+            m_opvarName: 0x8F8, // CUtlSymbolLarge
+            m_stackName: 0x900, // CUtlSymbolLarge
+            m_operatorName: 0x908, // CUtlSymbolLarge
+            m_bVolIs2D: 0x910, // bool
+            m_opvarNameChar: 0x911, // char[256]
+            m_stackNameChar: 0xA11, // char[256]
+            m_operatorNameChar: 0xB11, // char[256]
+            m_VecNormPos: 0xC14, // Vector
+            m_flNormCenterSize: 0xC20, // float32
         },
         CPulseCell_LimitCount: {
             m_nLimitCount: 0x48, // int32
         },
         CPulseCell_Step_CallExternalMethod: {
             m_MethodName: 0x48, // PulseSymbol_t
-            m_GameBlackboard: 0x58, // PulseSymbol_t
-            m_ExpectedArgs: 0x68, // CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode: 0x78, // PulseMethodCallMode_t
-            m_OnFinished: 0x80, // CPulse_ResumePoint
+            m_nBlackboardIndex: 0x58, // PulseRuntimeBlackboardReferenceIndex_t
+            m_ExpectedArgs: 0x60, // CUtlLeanVector<CPulseRuntimeMethodArg>
+            m_nAsyncCallMode: 0x70, // PulseMethodCallMode_t
+            m_OnFinished: 0x78, // CPulse_ResumePoint
         },
         CPointCommentaryNode: {
-            m_iszPreCommands: 0xA20, // CUtlSymbolLarge
-            m_iszPostCommands: 0xA28, // CUtlSymbolLarge
-            m_iszCommentaryFile: 0xA30, // CUtlSymbolLarge
-            m_iszViewTarget: 0xA38, // CUtlSymbolLarge
-            m_hViewTarget: 0xA40, // CHandle<CBaseEntity>
-            m_hViewTargetAngles: 0xA44, // CHandle<CBaseEntity>
-            m_iszViewPosition: 0xA48, // CUtlSymbolLarge
-            m_hViewPosition: 0xA50, // CHandle<CBaseEntity>
-            m_hViewPositionMover: 0xA54, // CHandle<CBaseEntity>
-            m_bPreventMovement: 0xA58, // bool
-            m_bUnderCrosshair: 0xA59, // bool
-            m_bUnstoppable: 0xA5A, // bool
-            m_flFinishedTime: 0xA5C, // GameTime_t
-            m_vecFinishOrigin: 0xA60, // Vector
-            m_vecOriginalAngles: 0xA6C, // QAngle
-            m_vecFinishAngles: 0xA78, // QAngle
-            m_bPreventChangesWhileMoving: 0xA84, // bool
-            m_bDisabled: 0xA85, // bool
-            m_vecTeleportOrigin: 0xA88, // VectorWS
-            m_flAbortedPlaybackAt: 0xA94, // GameTime_t
-            m_pOnCommentaryStarted: 0xA98, // CEntityIOOutput
-            m_pOnCommentaryStopped: 0xAB0, // CEntityIOOutput
-            m_bActive: 0xAC8, // bool
-            m_flStartTime: 0xACC, // GameTime_t
-            m_flStartTimeInCommentary: 0xAD0, // float32
-            m_iszTitle: 0xAD8, // CUtlSymbolLarge
-            m_iszSpeakers: 0xAE0, // CUtlSymbolLarge
-            m_iNodeNumber: 0xAE8, // int32
-            m_iNodeNumberMax: 0xAEC, // int32
-            m_bListenedTo: 0xAF0, // bool
-            m_nNpcEvents: 0x3E84E8, // int32
+            m_iszPreCommands: 0x940, // CUtlSymbolLarge
+            m_iszPostCommands: 0x948, // CUtlSymbolLarge
+            m_iszCommentaryFile: 0x950, // CUtlSymbolLarge
+            m_iszViewTarget: 0x958, // CUtlSymbolLarge
+            m_hViewTarget: 0x960, // CHandle<CBaseEntity>
+            m_hViewTargetAngles: 0x964, // CHandle<CBaseEntity>
+            m_iszViewPosition: 0x968, // CUtlSymbolLarge
+            m_hViewPosition: 0x970, // CHandle<CBaseEntity>
+            m_hViewPositionMover: 0x974, // CHandle<CBaseEntity>
+            m_bPreventMovement: 0x978, // bool
+            m_bUnderCrosshair: 0x979, // bool
+            m_bUnstoppable: 0x97A, // bool
+            m_flFinishedTime: 0x97C, // GameTime_t
+            m_vecFinishOrigin: 0x980, // Vector
+            m_vecOriginalAngles: 0x98C, // QAngle
+            m_vecFinishAngles: 0x998, // QAngle
+            m_bPreventChangesWhileMoving: 0x9A4, // bool
+            m_bDisabled: 0x9A5, // bool
+            m_vecTeleportOrigin: 0x9A8, // VectorWS
+            m_flAbortedPlaybackAt: 0x9B4, // GameTime_t
+            m_pOnCommentaryStarted: 0x9B8, // CEntityIOOutput
+            m_pOnCommentaryStopped: 0x9D0, // CEntityIOOutput
+            m_bActive: 0x9E8, // bool
+            m_flStartTime: 0x9EC, // GameTime_t
+            m_flStartTimeInCommentary: 0x9F0, // float32
+            m_iszTitle: 0x9F8, // CUtlSymbolLarge
+            m_iszSpeakers: 0xA00, // CUtlSymbolLarge
+            m_iNodeNumber: 0xA08, // int32
+            m_iNodeNumberMax: 0xA0C, // int32
+            m_bListenedTo: 0xA10, // bool
         },
         CMomentaryRotButton: {
-            m_Position: 0x8B0, // CEntityOutputTemplate<float32,float32>
-            m_OnUnpressed: 0x8D0, // CEntityIOOutput
-            m_OnFullyOpen: 0x8E8, // CEntityIOOutput
-            m_OnFullyClosed: 0x900, // CEntityIOOutput
-            m_OnReachedPosition: 0x918, // CEntityIOOutput
-            m_lastUsed: 0x930, // int32
-            m_start: 0x934, // QAngle
-            m_end: 0x940, // QAngle
-            m_IdealYaw: 0x94C, // float32
-            m_sNoise: 0x950, // CUtlSymbolLarge
-            m_bUpdateTarget: 0x958, // bool
-            m_direction: 0x95C, // int32
-            m_returnSpeed: 0x960, // float32
-            m_flStartPosition: 0x964, // float32
+            m_Position: 0x8E8, // CEntityOutputTemplate<float32>
+            m_OnUnpressed: 0x908, // CEntityIOOutput
+            m_OnFullyOpen: 0x920, // CEntityIOOutput
+            m_OnFullyClosed: 0x938, // CEntityIOOutput
+            m_OnReachedPosition: 0x950, // CEntityIOOutput
+            m_lastUsed: 0x968, // int32
+            m_start: 0x96C, // QAngle
+            m_end: 0x978, // QAngle
+            m_IdealYaw: 0x984, // float32
+            m_sNoise: 0x988, // CUtlSymbolLarge
+            m_bUpdateTarget: 0x990, // bool
+            m_direction: 0x994, // int32
+            m_returnSpeed: 0x998, // float32
+            m_flStartPosition: 0x99C, // float32
         },
         CSceneListManager: {
             m_hListManagers: 0x4A8, // CUtlVector<CHandle<CSceneListManager>>
@@ -7298,137 +7438,145 @@ export const Schemas = {
         CEnvSoundscapeTriggerable: {
         },
         CFuncMover: {
-            m_iszPathName: 0x730, // CUtlSymbolLarge
-            m_hPathMover: 0x738, // CHandle<CPathMover>
-            m_hPrevPathMover: 0x73C, // CHandle<CPathMover>
-            m_iszPathNodeStart: 0x740, // CUtlSymbolLarge
-            m_iszPathNodeEnd: 0x748, // CUtlSymbolLarge
-            m_eMoveType: 0x750, // CFuncMover::Move_t
-            m_bIsReversing: 0x754, // bool
-            m_flStartSpeed: 0x758, // float32
-            m_flPathLocation: 0x75C, // float32
-            m_flT: 0x760, // float32
-            m_nCurrentNodeIndex: 0x764, // int32
-            m_nPreviousNodeIndex: 0x768, // int32
-            m_eSolidType: 0x76C, // SolidType_t
-            m_bIsMoving: 0x76D, // bool
-            m_flTimeToReachMaxSpeed: 0x770, // float32
-            m_flDistanceToReachMaxSpeed: 0x774, // float32
-            m_flTimeToReachZeroSpeed: 0x778, // float32
-            m_flComputedDistanceToReachMaxSpeed: 0x77C, // float32
-            m_flComputedDistanceToReachZeroSpeed: 0x780, // float32
-            m_flStartCurveScale: 0x784, // float32
-            m_flStopCurveScale: 0x788, // float32
-            m_flDistanceToReachZeroSpeed: 0x78C, // float32
-            m_flTimeMovementStart: 0x790, // GameTime_t
-            m_flTimeMovementStop: 0x794, // GameTime_t
-            m_hStopAtNode: 0x798, // CHandle<CMoverPathNode>
-            m_flPathLocationToBeginStop: 0x79C, // float32
-            m_flPathLocationStart: 0x7A0, // float32
-            m_flBeginStopT: 0x7A4, // float32
-            m_iszStartForwardSound: 0x7A8, // CUtlSymbolLarge
-            m_iszLoopForwardSound: 0x7B0, // CUtlSymbolLarge
-            m_iszStopForwardSound: 0x7B8, // CUtlSymbolLarge
-            m_iszStartReverseSound: 0x7C0, // CUtlSymbolLarge
-            m_iszLoopReverseSound: 0x7C8, // CUtlSymbolLarge
-            m_iszStopReverseSound: 0x7D0, // CUtlSymbolLarge
-            m_iszArriveAtDestinationSound: 0x7D8, // CUtlSymbolLarge
-            m_OnMovementEnd: 0x7F8, // CEntityIOOutput
-            m_bStartAtClosestPoint: 0x810, // bool
-            m_bStartAtEnd: 0x811, // bool
-            m_bStartFollowingClosestMover: 0x812, // bool
-            m_eOrientationUpdate: 0x814, // CFuncMover::OrientationUpdate_t
-            m_flTimeStartOrientationChange: 0x818, // GameTime_t
-            m_flTimeToBlendToNewOrientation: 0x81C, // float32
-            m_flDurationBlendToNewOrientationRan: 0x820, // float32
-            m_nOriginalOrientationIndex: 0x824, // int32
-            m_bCreateMovableNavMesh: 0x828, // bool
-            m_bAllowMovableNavMeshDockingOnEntireEntity: 0x829, // bool
-            m_OnNodePassed: 0x830, // CEntityOutputTemplate<CUtlString,char*>
-            m_iszOrientationMatchEntityName: 0x850, // CUtlSymbolLarge
-            m_hOrientationMatchEntity: 0x858, // CHandle<CBaseEntity>
-            m_flTimeToTraverseToNextNode: 0x85C, // float32
-            m_vLerpToNewPosStartInPathEntitySpace: 0x860, // Vector
-            m_vLerpToNewPosEndInPathEntitySpace: 0x86C, // Vector
-            m_flLerpToPositionT: 0x878, // float32
-            m_flLerpToPositionDeltaT: 0x87C, // float32
-            m_OnLerpToPositionComplete: 0x880, // CEntityIOOutput
-            m_bIsPaused: 0x898, // bool
-            m_eTransitionedToPathNodeAction: 0x89C, // CFuncMover::TransitionToPathNodeAction_t
-            m_nDelayedTeleportToNode: 0x8A0, // int32
-            m_bIsVerboseLogging: 0x8A4, // bool
-            m_hFollowEntity: 0x8A8, // CHandle<CBaseEntity>
-            m_flFollowDistance: 0x8AC, // float32
-            m_flFollowMinimumSpeed: 0x8B0, // float32
-            m_flCurFollowEntityT: 0x8B4, // float32
-            m_flCurFollowSpeed: 0x8B8, // float32
-            m_strOrientationFaceEntityName: 0x8C0, // CUtlSymbolLarge
-            m_hOrientationFaceEntity: 0x8C8, // CHandle<CBaseEntity>
-            m_OnStart: 0x8D0, // CEntityIOOutput
-            m_OnStartForward: 0x8E8, // CEntityIOOutput
-            m_OnStartReverse: 0x900, // CEntityIOOutput
-            m_OnStop: 0x918, // CEntityIOOutput
-            m_OnStopped: 0x930, // CEntityIOOutput
-            m_bNextNodeReturnsCurrent: 0x948, // bool
-            m_bStartedMoving: 0x949, // bool
-            m_eFollowEntityDirection: 0x968, // CFuncMover::FollowEntityDirection_t
-            m_hFollowMover: 0x96C, // CHandle<CFuncMover>
-            m_iszFollowMoverEntityName: 0x970, // CUtlSymbolLarge
-            m_flFollowMoverDistance: 0x978, // float32
-            m_flFollowMoverCalculatedDistance: 0x97C, // float32
-            m_flFollowMoverSpringStrength: 0x980, // float32
-            m_bFollowConstraintsInitialized: 0x984, // bool
-            m_eFollowConstraint: 0x988, // CFuncMover::FollowConstraint_t
-            m_flFollowMoverSpeed: 0x98C, // float32
-            m_flFollowMoverVelocity: 0x990, // float32
-            m_nTickMovementRan: 0x994, // GameTick_t
+            m_iszPathName: 0x768, // CUtlSymbolLarge
+            m_hPathMover: 0x770, // CHandle<CPathMover>
+            m_hPrevPathMover: 0x774, // CHandle<CPathMover>
+            m_iszPathNodeStart: 0x778, // CUtlSymbolLarge
+            m_iszPathNodeEnd: 0x780, // CUtlSymbolLarge
+            m_bIgnoreEndNode: 0x788, // bool
+            m_eMoveType: 0x78C, // CFuncMover::Move_t
+            m_bIsReversing: 0x790, // bool
+            m_flStartSpeed: 0x794, // float32
+            m_flPathLocation: 0x798, // float32
+            m_flT: 0x79C, // float32
+            m_nCurrentNodeIndex: 0x7A0, // int32
+            m_nPreviousNodeIndex: 0x7A4, // int32
+            m_eSolidType: 0x7A8, // SolidType_t
+            m_bIsMoving: 0x7A9, // bool
+            m_flTimeToReachMaxSpeed: 0x7AC, // float32
+            m_flDistanceToReachMaxSpeed: 0x7B0, // float32
+            m_flTimeToReachZeroSpeed: 0x7B4, // float32
+            m_flComputedDistanceToReachMaxSpeed: 0x7B8, // float32
+            m_flComputedDistanceToReachZeroSpeed: 0x7BC, // float32
+            m_flStartCurveScale: 0x7C0, // float32
+            m_flStopCurveScale: 0x7C4, // float32
+            m_flDistanceToReachZeroSpeed: 0x7C8, // float32
+            m_flTimeMovementStart: 0x7CC, // GameTime_t
+            m_flTimeMovementStop: 0x7D0, // GameTime_t
+            m_hStopAtNode: 0x7D4, // CHandle<CMoverPathNode>
+            m_flPathLocationToBeginStop: 0x7D8, // float32
+            m_flPathLocationStart: 0x7DC, // float32
+            m_flBeginStopT: 0x7E0, // float32
+            m_iszStartForwardSound: 0x7E8, // CUtlSymbolLarge
+            m_iszLoopForwardSound: 0x7F0, // CUtlSymbolLarge
+            m_iszStopForwardSound: 0x7F8, // CUtlSymbolLarge
+            m_iszStartReverseSound: 0x800, // CUtlSymbolLarge
+            m_iszLoopReverseSound: 0x808, // CUtlSymbolLarge
+            m_iszStopReverseSound: 0x810, // CUtlSymbolLarge
+            m_iszArriveAtDestinationSound: 0x818, // CUtlSymbolLarge
+            m_OnMovementEnd: 0x838, // CEntityIOOutput
+            m_bStartAtClosestPoint: 0x850, // bool
+            m_bStartAtEnd: 0x851, // bool
+            m_bStartFollowingClosestMover: 0x852, // bool
+            m_eOrientationUpdate: 0x854, // CFuncMover::OrientationUpdate_t
+            m_flTimeStartOrientationChange: 0x858, // GameTime_t
+            m_flTimeToBlendToNewOrientation: 0x85C, // float32
+            m_flDurationBlendToNewOrientationRan: 0x860, // float32
+            m_bCreateMovableNavMesh: 0x864, // bool
+            m_bAllowMovableNavMeshDockingOnEntireEntity: 0x865, // bool
+            m_OnNodePassed: 0x868, // CEntityOutputTemplate<CUtlString>
+            m_iszOrientationMatchEntityName: 0x888, // CUtlSymbolLarge
+            m_hOrientationMatchEntity: 0x890, // CHandle<CBaseEntity>
+            m_flTimeToTraverseToNextNode: 0x894, // float32
+            m_vLerpToNewPosStartInPathEntitySpace: 0x898, // Vector
+            m_vLerpToNewPosEndInPathEntitySpace: 0x8A4, // Vector
+            m_flLerpToPositionT: 0x8B0, // float32
+            m_flLerpToPositionDeltaT: 0x8B4, // float32
+            m_OnLerpToPositionComplete: 0x8B8, // CEntityIOOutput
+            m_bIsPaused: 0x8D0, // bool
+            m_eTransitionedToPathNodeAction: 0x8D4, // CFuncMover::TransitionToPathNodeAction_t
+            m_qTransitionSourceOrientation: 0x8E0, // Quaternion
+            m_nDelayedTeleportToNode: 0x8F0, // int32
+            m_bIsImGuiLogging: 0x8F4, // bool
+            m_hFollowEntity: 0x8F8, // CHandle<CBaseEntity>
+            m_flFollowDistance: 0x8FC, // float32
+            m_flFollowMinimumSpeed: 0x900, // float32
+            m_flCurFollowEntityT: 0x904, // float32
+            m_flCurFollowSpeed: 0x908, // float32
+            m_strOrientationFaceEntityName: 0x910, // CUtlSymbolLarge
+            m_hOrientationFaceEntity: 0x918, // CHandle<CBaseEntity>
+            m_OnStart: 0x920, // CEntityIOOutput
+            m_OnStartForward: 0x938, // CEntityIOOutput
+            m_OnStartReverse: 0x950, // CEntityIOOutput
+            m_OnStop: 0x968, // CEntityIOOutput
+            m_OnStopped: 0x980, // CEntityIOOutput
+            m_bNextNodeReturnsCurrent: 0x998, // bool
+            m_bStartedMoving: 0x999, // bool
+            m_eFollowEntityDirection: 0x9B8, // CFuncMover::FollowEntityDirection_t
+            m_hFollowMover: 0x9BC, // CHandle<CFuncMover>
+            m_iszFollowMoverEntityName: 0x9C0, // CUtlSymbolLarge
+            m_flFollowMoverDistance: 0x9C8, // float32
+            m_flFollowMoverRatio: 0x9CC, // float32
+            m_flFollowMoverCalculatedDistance: 0x9D0, // float32
+            m_flFollowMoverSpringStrength: 0x9D4, // float32
+            m_nFollowMoverConstraintPriority: 0x9D8, // int32
+            m_bFollowConstraintsInitialized: 0x9DC, // bool
+            m_eFollowConstraint: 0x9E0, // CFuncMover::FollowConstraint_t
+            m_flFollowMoverSpeed: 0x9E4, // float32
+            m_flFollowMoverVelocity: 0x9E8, // float32
+            m_nTickMovementRan: 0x9EC, // GameTick_t
+            m_movementSummary: 0x9F0, // FuncMoverMovementSummary_t
+            m_bStopFromBeginStopTarget: 0xA10, // bool
+            m_bQueueStop: 0xA11, // bool
+            m_bQueueStopMoving: 0xA12, // bool
         },
         CPhysicsProp: {
-            m_MotionEnabled: 0xBB0, // CEntityIOOutput
-            m_OnAwakened: 0xBC8, // CEntityIOOutput
-            m_OnAwake: 0xBE0, // CEntityIOOutput
-            m_OnAsleep: 0xBF8, // CEntityIOOutput
-            m_OnPlayerUse: 0xC10, // CEntityIOOutput
-            m_OnOutOfWorld: 0xC28, // CEntityIOOutput
-            m_OnPlayerPickup: 0xC40, // CEntityIOOutput
-            m_bForceNavIgnore: 0xC58, // bool
-            m_bNoNavmeshBlocker: 0xC59, // bool
-            m_bForceNpcExclude: 0xC5A, // bool
-            m_massScale: 0xC5C, // float32
-            m_buoyancyScale: 0xC60, // float32
-            m_damageType: 0xC64, // int32
-            m_damageToEnableMotion: 0xC68, // int32
-            m_flForceToEnableMotion: 0xC6C, // float32
-            m_bThrownByPlayer: 0xC70, // bool
-            m_bDroppedByPlayer: 0xC71, // bool
-            m_bTouchedByPlayer: 0xC72, // bool
-            m_bFirstCollisionAfterLaunch: 0xC73, // bool
-            m_bHasBeenAwakened: 0xC74, // bool
-            m_bIsOverrideProp: 0xC75, // bool
-            m_flLastBurn: 0xC78, // GameTime_t
-            m_nDynamicContinuousContactBehavior: 0xC7C, // DynamicContinuousContactBehavior_t
-            m_fNextCheckDisableMotionContactsTime: 0xC80, // GameTime_t
-            m_iInitialGlowState: 0xC84, // int32
-            m_nGlowRange: 0xC88, // int32
-            m_nGlowRangeMin: 0xC8C, // int32
-            m_glowColor: 0xC90, // Color
-            m_bShouldAutoConvertBackFromDebris: 0xC94, // bool
-            m_bMuteImpactEffects: 0xC95, // bool
-            m_bUpdateNavWhenMoving: 0xC9C, // bool
-            m_bForceNavObstacleCut: 0xC9D, // bool
-            m_bAllowObstacleConvexHullMerging: 0xC9E, // bool
-            m_bAcceptDamageFromHeldObjects: 0xC9F, // bool
-            m_bEnableUseOutput: 0xCA0, // bool
-            m_CrateType: 0xCA4, // CPhysicsProp::CrateType_t
-            m_strItemClass: 0xCA8, // CUtlSymbolLarge[4]
-            m_nItemCount: 0xCC8, // int32[4]
-            m_bRemovableForAmmoBalancing: 0xCD8, // bool
-            m_bAwake: 0xCD9, // bool
-            m_bAttachedToReferenceFrame: 0xCDA, // bool
+            m_MotionEnabled: 0xAE0, // CEntityIOOutput
+            m_OnAwakened: 0xAF8, // CEntityIOOutput
+            m_OnAwake: 0xB10, // CEntityIOOutput
+            m_OnAsleep: 0xB28, // CEntityIOOutput
+            m_OnPlayerUse: 0xB40, // CEntityIOOutput
+            m_OnOutOfWorld: 0xB58, // CEntityIOOutput
+            m_OnPlayerPickup: 0xB70, // CEntityIOOutput
+            m_bForceNavIgnore: 0xB88, // bool
+            m_bNoNavmeshBlocker: 0xB89, // bool
+            m_bForceNpcExclude: 0xB8A, // bool
+            m_massScale: 0xB8C, // float32
+            m_buoyancyScale: 0xB90, // float32
+            m_damageType: 0xB94, // int32
+            m_damageToEnableMotion: 0xB98, // int32
+            m_flForceToEnableMotion: 0xB9C, // float32
+            m_bThrownByPlayer: 0xBA0, // bool
+            m_bDroppedByPlayer: 0xBA1, // bool
+            m_bTouchedByPlayer: 0xBA2, // bool
+            m_bFirstCollisionAfterLaunch: 0xBA3, // bool
+            m_bHasBeenAwakened: 0xBA4, // bool
+            m_bIsOverrideProp: 0xBA5, // bool
+            m_flLastBurn: 0xBA8, // GameTime_t
+            m_nDynamicContinuousContactBehavior: 0xBAC, // DynamicContinuousContactBehavior_t
+            m_fNextCheckDisableMotionContactsTime: 0xBB0, // GameTime_t
+            m_iInitialGlowState: 0xBB4, // int32
+            m_nGlowRange: 0xBB8, // int32
+            m_nGlowRangeMin: 0xBBC, // int32
+            m_glowColor: 0xBC0, // Color
+            m_bShouldAutoConvertBackFromDebris: 0xBC4, // bool
+            m_bMuteImpactEffects: 0xBC5, // bool
+            m_nNavObstacleType: 0xBC8, // INavObstacle::NavObstacleType_t
+            m_bUpdateNavWhenMoving: 0xBCC, // bool
+            m_bForceNavObstacleCut: 0xBCD, // bool
+            m_bAllowObstacleConvexHullMerging: 0xBCE, // bool
+            m_bAcceptDamageFromHeldObjects: 0xBCF, // bool
+            m_bEnableUseOutput: 0xBD0, // bool
+            m_CrateType: 0xBD4, // CPhysicsProp::CrateType_t
+            m_strItemClass: 0xBD8, // CUtlSymbolLarge[4]
+            m_nItemCount: 0xBF8, // int32[4]
+            m_bRemovableForAmmoBalancing: 0xC08, // bool
+            m_bAwake: 0xC09, // bool
+            m_bAttachedToReferenceFrame: 0xC0A, // bool
         },
         CFuncNavObstruction: {
-            m_bDisabled: 0x748, // bool
-            m_bUseAsyncObstacleUpdate: 0x749, // bool
+            m_bDisabled: 0x780, // bool
+            m_bUseAsyncObstacleUpdate: 0x781, // bool
         },
         CPhysWheelConstraint: {
             m_flSuspensionFrequency: 0x508, // float32
@@ -7451,9 +7599,9 @@ export const Schemas = {
         CPointPulse: {
         },
         CMolotovProjectile: {
-            m_bIsIncGrenade: 0xBB0, // bool
-            m_bDetonated: 0xBC8, // bool
-            m_stillTimer: 0xBD0, // IntervalTimer
+            m_bIsIncGrenade: 0xA30, // bool
+            m_bDetonated: 0xA48, // bool
+            m_stillTimer: 0xA50, // IntervalTimer
         },
         CFilterClass: {
             m_iFilterClass: 0x4E0, // CUtlSymbolLarge
@@ -7482,52 +7630,48 @@ export const Schemas = {
             m_flCurWeight: 0x4D4, // float32
             m_netlookupFilename: 0x4D8, // char[512]
             m_lookupFilename: 0x6D8, // CUtlSymbolLarge
-            m_bDisabled: 0x4A8, // bool
-            m_radius: 0x4AC, // float32
-            m_force: 0x4B0, // float32
-            m_axis: 0x4B4, // VectorWS
         },
         CPropDoorRotatingBreakable: {
-            m_bBreakable: 0xEF0, // bool
-            m_isAbleToCloseAreaPortals: 0xEF1, // bool
-            m_currentDamageState: 0xEF4, // int32
-            m_damageStates: 0xEF8, // CUtlVector<CUtlSymbolLarge>
+            m_bBreakable: 0xE20, // bool
+            m_isAbleToCloseAreaPortals: 0xE21, // bool
+            m_currentDamageState: 0xE24, // int32
+            m_damageStates: 0xE28, // CUtlVector<CUtlSymbolLarge>
         },
         CLightDirectionalEntity: {
         },
         CBaseClientUIEntity: {
-            m_bEnabled: 0x730, // bool
-            m_DialogXMLName: 0x738, // CUtlSymbolLarge
-            m_PanelClassName: 0x740, // CUtlSymbolLarge
-            m_PanelID: 0x748, // CUtlSymbolLarge
-            m_CustomOutput0: 0x750, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput1: 0x770, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput2: 0x790, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput3: 0x7B0, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput4: 0x7D0, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput5: 0x7F0, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput6: 0x810, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput7: 0x830, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput8: 0x850, // CEntityOutputTemplate<CUtlString,char*>
-            m_CustomOutput9: 0x870, // CEntityOutputTemplate<CUtlString,char*>
+            m_bEnabled: 0x768, // bool
+            m_DialogXMLName: 0x770, // CUtlSymbolLarge
+            m_PanelClassName: 0x778, // CUtlSymbolLarge
+            m_PanelID: 0x780, // CUtlSymbolLarge
+            m_CustomOutput0: 0x788, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput1: 0x7A8, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput2: 0x7C8, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput3: 0x7E8, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput4: 0x808, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput5: 0x828, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput6: 0x848, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput7: 0x868, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput8: 0x888, // CEntityOutputTemplate<CUtlString>
+            m_CustomOutput9: 0x8A8, // CEntityOutputTemplate<CUtlString>
         },
         CBreakable: {
-            m_CPropDataComponent: 0x738, // CPropDataComponent
-            m_Material: 0x778, // Materials
-            m_hBreaker: 0x77C, // CHandle<CBaseEntity>
-            m_Explosion: 0x780, // Explosions
-            m_iszSpawnObject: 0x788, // CUtlSymbolLarge
-            m_flPressureDelay: 0x790, // float32
-            m_iMinHealthDmg: 0x794, // int32
-            m_iszPropData: 0x798, // CUtlSymbolLarge
-            m_impactEnergyScale: 0x7A0, // float32
-            m_nOverrideBlockLOS: 0x7A4, // EOverrideBlockLOS_t
-            m_OnStartDeath: 0x7A8, // CEntityIOOutput
-            m_OnBreak: 0x7C0, // CEntityIOOutput
-            m_OnHealthChanged: 0x7D8, // CEntityOutputTemplate<float32,float32>
-            m_PerformanceMode: 0x7F8, // PerformanceMode_t
-            m_hPhysicsAttacker: 0x7FC, // CHandle<CBasePlayerPawn>
-            m_flLastPhysicsInfluenceTime: 0x800, // GameTime_t
+            m_CPropDataComponent: 0x770, // CPropDataComponent
+            m_Material: 0x7B0, // Materials
+            m_hBreaker: 0x7B4, // CHandle<CBaseEntity>
+            m_Explosion: 0x7B8, // Explosions
+            m_iszSpawnObject: 0x7C0, // CUtlSymbolLarge
+            m_flPressureDelay: 0x7C8, // float32
+            m_iMinHealthDmg: 0x7CC, // int32
+            m_iszPropData: 0x7D0, // CUtlSymbolLarge
+            m_impactEnergyScale: 0x7D8, // float32
+            m_nOverrideBlockLOS: 0x7DC, // EOverrideBlockLOS_t
+            m_OnStartDeath: 0x7E0, // CEntityIOOutput
+            m_OnBreak: 0x7F8, // CEntityIOOutput
+            m_OnHealthChanged: 0x810, // CEntityOutputTemplate<float32>
+            m_PerformanceMode: 0x830, // PerformanceMode_t
+            m_hPhysicsAttacker: 0x834, // CHandle<CBasePlayerPawn>
+            m_flLastPhysicsInfluenceTime: 0x838, // GameTime_t
         },
         CInfoLandmark: {
         },
@@ -7542,6 +7686,7 @@ export const Schemas = {
         CPulseCell_Outflow_PlaySceneBase__CursorState_t: {
             m_sceneInstance: 0x0, // CHandle<CBaseEntity>
             m_mainActor: 0x4, // CHandle<CBaseEntity>
+            m_cursorIDToEventID: 0x8, // CUtlHashtable<PulseCursorID_t,int32>
         },
         PulseObservableBoolExpression_t: {
             m_EvaluateConnection: 0x0, // CPulse_OutflowConnection
@@ -7597,10 +7742,10 @@ export const Schemas = {
             m_ParamSequenceName: 0xF0, // CUtlString
         },
         CPointClientUIWorldTextPanel: {
-            m_messageText: 0x8E8, // char[512]
+            m_messageText: 0x920, // char[512]
         },
         CEntityIdentity: {
-            m_nameStringableIndex: 0x14, // int32
+            m_nameStringTableIndex: 0x14, // int32
             m_name: 0x18, // CUtlSymbolLarge
             m_designerName: 0x20, // CUtlSymbolLarge
             m_flags: 0x30, // uint32
@@ -7617,47 +7762,47 @@ export const Schemas = {
             m_bLimitCountPasses: 0x0, // bool
         },
         CFuncRotator: {
-            m_hRotatorTarget: 0x730, // CHandle<CBaseEntity>
-            m_bIsRotating: 0x734, // bool
-            m_bIsReversing: 0x735, // bool
-            m_flTimeToReachMaxSpeed: 0x738, // float32
-            m_flTimeToReachZeroSpeed: 0x73C, // float32
-            m_flDistanceAlongArcTraveled: 0x740, // float32
-            m_flTimeToWaitOscillate: 0x744, // float32
-            m_flTimeRotationStart: 0x748, // GameTime_t
-            m_qLSPrevChange: 0x750, // Quaternion
-            m_qWSPrev: 0x760, // Quaternion
-            m_qWSInit: 0x770, // Quaternion
-            m_qLSInit: 0x780, // Quaternion
-            m_qLSOrientation: 0x790, // Quaternion
-            m_OnRotationStarted: 0x7A0, // CEntityIOOutput
-            m_OnRotationCompleted: 0x7B8, // CEntityIOOutput
-            m_OnOscillate: 0x7D0, // CEntityIOOutput
-            m_OnOscillateStartArrive: 0x7E8, // CEntityIOOutput
-            m_OnOscillateStartDepart: 0x800, // CEntityIOOutput
-            m_OnOscillateEndArrive: 0x818, // CEntityIOOutput
-            m_OnOscillateEndDepart: 0x830, // CEntityIOOutput
-            m_bOscillateDepart: 0x848, // bool
-            m_nOscillateCount: 0x84C, // int32
-            m_eRotateType: 0x850, // CFuncRotator::Rotate_t
-            m_ePrevRotateType: 0x854, // CFuncRotator::Rotate_t
-            m_bHasTargetOverride: 0x858, // bool
-            m_qOrientationOverride: 0x860, // Quaternion
-            m_eSpaceOverride: 0x870, // RotatorTargetSpace_t
-            m_qAngularVelocity: 0x874, // QAngle
-            m_vLookAtForcedUp: 0x880, // Vector
-            m_strRotatorTarget: 0x890, // CUtlSymbolLarge
-            m_bRecordHistory: 0x898, // bool
-            m_vecRotatorHistory: 0x8A0, // CUtlVector<RotatorHistoryEntry_t>
-            m_bReturningToPreviousOrientation: 0x8B8, // bool
-            m_vecRotatorQueue: 0x8C0, // CUtlVector<RotatorQueueEntry_t>
-            m_vecRotatorQueueHistory: 0x8D8, // CUtlVector<RotatorHistoryEntry_t>
-            m_eSolidType: 0x8F0, // SolidType_t
-            m_hSpeedFromMover: 0x8F4, // CHandle<CFuncMover>
-            m_iszSpeedFromMover: 0x8F8, // CUtlSymbolLarge
-            m_flSpeedScale: 0x900, // float32
-            m_flMinYawRotation: 0x904, // float32
-            m_flMaxYawRotation: 0x908, // float32
+            m_hRotatorTarget: 0x768, // CHandle<CBaseEntity>
+            m_bIsRotating: 0x76C, // bool
+            m_bIsReversing: 0x76D, // bool
+            m_flTimeToReachMaxSpeed: 0x770, // float32
+            m_flTimeToReachZeroSpeed: 0x774, // float32
+            m_flDistanceAlongArcTraveled: 0x778, // float32
+            m_flTimeToWaitOscillate: 0x77C, // float32
+            m_flTimeRotationStart: 0x780, // GameTime_t
+            m_qLSPrevChange: 0x790, // Quaternion
+            m_qWSPrev: 0x7A0, // Quaternion
+            m_qWSInit: 0x7B0, // Quaternion
+            m_qLSInit: 0x7C0, // Quaternion
+            m_qLSOrientation: 0x7D0, // Quaternion
+            m_OnRotationStarted: 0x7E0, // CEntityIOOutput
+            m_OnRotationCompleted: 0x7F8, // CEntityIOOutput
+            m_OnOscillate: 0x810, // CEntityIOOutput
+            m_OnOscillateStartArrive: 0x828, // CEntityIOOutput
+            m_OnOscillateStartDepart: 0x840, // CEntityIOOutput
+            m_OnOscillateEndArrive: 0x858, // CEntityIOOutput
+            m_OnOscillateEndDepart: 0x870, // CEntityIOOutput
+            m_bOscillateDepart: 0x888, // bool
+            m_nOscillateCount: 0x88C, // int32
+            m_eRotateType: 0x890, // CFuncRotator::Rotate_t
+            m_ePrevRotateType: 0x894, // CFuncRotator::Rotate_t
+            m_bHasTargetOverride: 0x898, // bool
+            m_qOrientationOverride: 0x8A0, // Quaternion
+            m_eSpaceOverride: 0x8B0, // RotatorTargetSpace_t
+            m_qAngularVelocity: 0x8B4, // QAngle
+            m_vLookAtForcedUp: 0x8C0, // Vector
+            m_strRotatorTarget: 0x8D0, // CUtlSymbolLarge
+            m_bRecordHistory: 0x8D8, // bool
+            m_vecRotatorHistory: 0x8E0, // CUtlVector<RotatorHistoryEntry_t>
+            m_bReturningToPreviousOrientation: 0x8F8, // bool
+            m_vecRotatorQueue: 0x900, // CUtlVector<RotatorQueueEntry_t>
+            m_vecRotatorQueueHistory: 0x918, // CUtlVector<RotatorHistoryEntry_t>
+            m_eSolidType: 0x930, // SolidType_t
+            m_hSpeedFromMover: 0x934, // CHandle<CFuncMover>
+            m_iszSpeedFromMover: 0x938, // CUtlSymbolLarge
+            m_flSpeedScale: 0x940, // float32
+            m_flMinYawRotation: 0x944, // float32
+            m_flMaxYawRotation: 0x948, // float32
         },
         CSoundEventEntity: {
             m_bStartOnSpawn: 0x4A8, // bool
@@ -7668,12 +7813,12 @@ export const Schemas = {
             m_flSavedElapsedTime: 0x4B0, // float32
             m_iszSourceEntityName: 0x4B8, // CUtlSymbolLarge
             m_iszAttachmentName: 0x4C0, // CUtlSymbolLarge
-            m_onGUIDChanged: 0x4C8, // CEntityOutputTemplate<uint64,uint64>
-            m_onSoundFinished: 0x4E8, // CEntityIOOutput
-            m_flClientCullRadius: 0x500, // float32
-            m_iszSoundName: 0x530, // CUtlSymbolLarge
-            m_hSource: 0x54C, // CEntityHandle
-            m_nEntityIndexSelection: 0x550, // int32
+            m_onGUIDChanged: 0x4C8, // CEntityOutputTemplate<SndOpEventGuid_t>
+            m_onSoundFinished: 0x4F8, // CEntityIOOutput
+            m_flClientCullRadius: 0x510, // float32
+            m_iszSoundName: 0x540, // CUtlSymbolLarge
+            m_hSource: 0x55C, // CEntityHandle
+            m_nEntityIndexSelection: 0x560, // int32
         },
         CInfoPlayerCounterterrorist: {
         },
@@ -7685,30 +7830,35 @@ export const Schemas = {
         },
         CBasePlayerVData: {
             m_sModelName: 0x28, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_flHeadDamageMultiplier: 0x108, // CSkillFloat
-            m_flChestDamageMultiplier: 0x118, // CSkillFloat
-            m_flStomachDamageMultiplier: 0x128, // CSkillFloat
-            m_flArmDamageMultiplier: 0x138, // CSkillFloat
-            m_flLegDamageMultiplier: 0x148, // CSkillFloat
-            m_flHoldBreathTime: 0x158, // float32
-            m_flDrowningDamageInterval: 0x15C, // float32
-            m_nDrowningDamageInitial: 0x160, // int32
-            m_nDrowningDamageMax: 0x164, // int32
-            m_nWaterSpeed: 0x168, // int32
-            m_flUseRange: 0x16C, // float32
-            m_flUseAngleTolerance: 0x170, // float32
-            m_flCrouchTime: 0x174, // float32
+            m_sModelNameAg2Override: 0x108, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            m_flHeadDamageMultiplier: 0x1E8, // CSkillFloat
+            m_flChestDamageMultiplier: 0x1F8, // CSkillFloat
+            m_flStomachDamageMultiplier: 0x208, // CSkillFloat
+            m_flArmDamageMultiplier: 0x218, // CSkillFloat
+            m_flLegDamageMultiplier: 0x228, // CSkillFloat
+            m_flHoldBreathTime: 0x238, // float32
+            m_flDrowningDamageInterval: 0x23C, // float32
+            m_nDrowningDamageInitial: 0x240, // int32
+            m_nDrowningDamageMax: 0x244, // int32
+            m_nWaterSpeed: 0x248, // int32
+            m_flUseRange: 0x24C, // float32
+            m_flUseAngleTolerance: 0x250, // float32
+            m_flCrouchTime: 0x254, // float32
         },
         CTriggerImpact: {
-            m_flMagnitude: 0x8A8, // float32
-            m_flNoise: 0x8AC, // float32
-            m_flViewkick: 0x8B0, // float32
-            m_pOutputForce: 0x8B8, // CEntityOutputTemplate<Vector,Vector>
+            m_flMagnitude: 0x8E0, // float32
+            m_flNoise: 0x8E4, // float32
+            m_flViewkick: 0x8E8, // float32
+            m_pOutputForce: 0x8F0, // CEntityOutputTemplate<Vector>
         },
         CCSGameModeRules_Deathmatch: {
             m_flDMBonusStartTime: 0x30, // GameTime_t
             m_flDMBonusTimeLength: 0x34, // float32
             m_sDMBonusWeapon: 0x38, // CUtlString
+        },
+        CTestPulseIO__EntityHandleIntArgs_t: {
+            handleA: 0x0, // CEntityHandle
+            valueB: 0x4, // int32
         },
         CPulseCell_CursorQueue: {
             m_nCursorsAllowedToRunParallel: 0x98, // int32
@@ -7718,44 +7868,44 @@ export const Schemas = {
         CPulseExecCursor: {
         },
         CBasePropDoor: {
-            m_flAutoReturnDelay: 0xC60, // float32
-            m_hDoorList: 0xC68, // CUtlVector<CHandle<CBasePropDoor>>
-            m_nHardwareType: 0xC80, // int32
-            m_bNeedsHardware: 0xC84, // bool
-            m_eDoorState: 0xC88, // DoorState_t
-            m_bLocked: 0xC8C, // bool
-            m_bNoNPCs: 0xC8D, // bool
-            m_closedPosition: 0xC90, // Vector
-            m_closedAngles: 0xC9C, // QAngle
-            m_hBlocker: 0xCA8, // CHandle<CBaseEntity>
-            m_bFirstBlocked: 0xCAC, // bool
-            m_ls: 0xCB0, // locksound_t
-            m_bForceClosed: 0xCD0, // bool
-            m_vecLatchWorldPosition: 0xCD4, // VectorWS
-            m_hActivator: 0xCE0, // CHandle<CBaseEntity>
-            m_SoundMoving: 0xCF8, // CUtlSymbolLarge
-            m_SoundOpen: 0xD00, // CUtlSymbolLarge
-            m_SoundClose: 0xD08, // CUtlSymbolLarge
-            m_SoundLock: 0xD10, // CUtlSymbolLarge
-            m_SoundUnlock: 0xD18, // CUtlSymbolLarge
-            m_SoundLatch: 0xD20, // CUtlSymbolLarge
-            m_SoundPound: 0xD28, // CUtlSymbolLarge
-            m_SoundJiggle: 0xD30, // CUtlSymbolLarge
-            m_SoundLockedAnim: 0xD38, // CUtlSymbolLarge
-            m_numCloseAttempts: 0xD40, // int32
-            m_nPhysicsMaterial: 0xD44, // CUtlStringToken
-            m_SlaveName: 0xD48, // CUtlSymbolLarge
-            m_hMaster: 0xD50, // CHandle<CBasePropDoor>
-            m_OnBlockedClosing: 0xD58, // CEntityIOOutput
-            m_OnBlockedOpening: 0xD70, // CEntityIOOutput
-            m_OnUnblockedClosing: 0xD88, // CEntityIOOutput
-            m_OnUnblockedOpening: 0xDA0, // CEntityIOOutput
-            m_OnFullyClosed: 0xDB8, // CEntityIOOutput
-            m_OnFullyOpen: 0xDD0, // CEntityIOOutput
-            m_OnClose: 0xDE8, // CEntityIOOutput
-            m_OnOpen: 0xE00, // CEntityIOOutput
-            m_OnLockedUse: 0xE18, // CEntityIOOutput
-            m_OnAjarOpen: 0xE30, // CEntityIOOutput
+            m_flAutoReturnDelay: 0xB90, // float32
+            m_hDoorList: 0xB98, // CUtlVector<CHandle<CBasePropDoor>>
+            m_nHardwareType: 0xBB0, // int32
+            m_bNeedsHardware: 0xBB4, // bool
+            m_eDoorState: 0xBB8, // DoorState_t
+            m_bLocked: 0xBBC, // bool
+            m_bNoNPCs: 0xBBD, // bool
+            m_closedPosition: 0xBC0, // Vector
+            m_closedAngles: 0xBCC, // QAngle
+            m_hBlocker: 0xBD8, // CHandle<CBaseEntity>
+            m_bFirstBlocked: 0xBDC, // bool
+            m_ls: 0xBE0, // locksound_t
+            m_bForceClosed: 0xC00, // bool
+            m_vecLatchWorldPosition: 0xC04, // VectorWS
+            m_hActivator: 0xC10, // CHandle<CBaseEntity>
+            m_SoundMoving: 0xC28, // CUtlSymbolLarge
+            m_SoundOpen: 0xC30, // CUtlSymbolLarge
+            m_SoundClose: 0xC38, // CUtlSymbolLarge
+            m_SoundLock: 0xC40, // CUtlSymbolLarge
+            m_SoundUnlock: 0xC48, // CUtlSymbolLarge
+            m_SoundLatch: 0xC50, // CUtlSymbolLarge
+            m_SoundPound: 0xC58, // CUtlSymbolLarge
+            m_SoundJiggle: 0xC60, // CUtlSymbolLarge
+            m_SoundLockedAnim: 0xC68, // CUtlSymbolLarge
+            m_numCloseAttempts: 0xC70, // int32
+            m_nPhysicsMaterial: 0xC74, // CUtlStringToken
+            m_SlaveName: 0xC78, // CUtlSymbolLarge
+            m_hMaster: 0xC80, // CHandle<CBasePropDoor>
+            m_OnBlockedClosing: 0xC88, // CEntityIOOutput
+            m_OnBlockedOpening: 0xCA0, // CEntityIOOutput
+            m_OnUnblockedClosing: 0xCB8, // CEntityIOOutput
+            m_OnUnblockedOpening: 0xCD0, // CEntityIOOutput
+            m_OnFullyClosed: 0xCE8, // CEntityIOOutput
+            m_OnFullyOpen: 0xD00, // CEntityIOOutput
+            m_OnClose: 0xD18, // CEntityIOOutput
+            m_OnOpen: 0xD30, // CEntityIOOutput
+            m_OnLockedUse: 0xD48, // CEntityIOOutput
+            m_OnAjarOpen: 0xD60, // CEntityIOOutput
         },
         CLogicBranchList: {
             m_nLogicBranchNames: 0x4A8, // CUtlSymbolLarge[16]
@@ -7771,28 +7921,28 @@ export const Schemas = {
         CAK47: {
         },
         CDynamicProp: {
-            m_bCreateNavObstacle: 0xBA8, // bool
-            m_bNavObstacleUpdatesOverridden: 0xBA9, // bool
-            m_bUseHitboxesForRenderBox: 0xBAA, // bool
-            m_bUseAnimGraph: 0xBAB, // bool
-            m_pOutputAnimBegun: 0xBB0, // CEntityIOOutput
-            m_pOutputAnimOver: 0xBC8, // CEntityIOOutput
-            m_pOutputAnimLoopCycleOver: 0xBE0, // CEntityIOOutput
-            m_OnAnimReachedStart: 0xBF8, // CEntityIOOutput
-            m_OnAnimReachedEnd: 0xC10, // CEntityIOOutput
-            m_iszIdleAnim: 0xC28, // CUtlSymbolLarge
-            m_nIdleAnimLoopMode: 0xC30, // AnimLoopMode_t
-            m_bRandomizeCycle: 0xC34, // bool
-            m_bStartDisabled: 0xC35, // bool
-            m_bFiredStartEndOutput: 0xC36, // bool
-            m_bForceNpcExclude: 0xC37, // bool
-            m_bCreateNonSolid: 0xC38, // bool
-            m_bIsOverrideProp: 0xC39, // bool
-            m_iInitialGlowState: 0xC3C, // int32
-            m_nGlowRange: 0xC40, // int32
-            m_nGlowRangeMin: 0xC44, // int32
-            m_glowColor: 0xC48, // Color
-            m_nGlowTeam: 0xC4C, // int32
+            m_bCreateNavObstacle: 0xAD8, // bool
+            m_bNavObstacleUpdatesOverridden: 0xAD9, // bool
+            m_bUseHitboxesForRenderBox: 0xADA, // bool
+            m_bUseAnimGraph: 0xADB, // bool
+            m_pOutputAnimBegun: 0xAE0, // CEntityIOOutput
+            m_pOutputAnimOver: 0xAF8, // CEntityIOOutput
+            m_pOutputAnimLoopCycleOver: 0xB10, // CEntityIOOutput
+            m_OnAnimReachedStart: 0xB28, // CEntityIOOutput
+            m_OnAnimReachedEnd: 0xB40, // CEntityIOOutput
+            m_iszIdleAnim: 0xB58, // CUtlSymbolLarge
+            m_nIdleAnimLoopMode: 0xB60, // AnimLoopMode_t
+            m_bRandomizeCycle: 0xB64, // bool
+            m_bStartDisabled: 0xB65, // bool
+            m_bFiredStartEndOutput: 0xB66, // bool
+            m_bForceNpcExclude: 0xB67, // bool
+            m_bCreateNonSolid: 0xB68, // bool
+            m_bIsOverrideProp: 0xB69, // bool
+            m_iInitialGlowState: 0xB6C, // int32
+            m_nGlowRange: 0xB70, // int32
+            m_nGlowRangeMin: 0xB74, // int32
+            m_glowColor: 0xB78, // Color
+            m_nGlowTeam: 0xB7C, // int32
         },
         CHostageAlias_info_hostage_spawn: {
         },
@@ -7800,39 +7950,31 @@ export const Schemas = {
             m_iFilterTeam: 0x4E0, // int32
         },
         CFuncConveyor: {
-            m_szConveyorModels: 0x730, // CUtlSymbolLarge
-            m_flTransitionDurationSeconds: 0x738, // float32
-            m_angMoveEntitySpace: 0x73C, // QAngle
-            m_vecMoveDirEntitySpace: 0x748, // Vector
-            m_flTargetSpeed: 0x754, // float32
-            m_nTransitionStartTick: 0x758, // GameTick_t
-            m_nTransitionDurationTicks: 0x75C, // int32
-            m_flTransitionStartSpeed: 0x760, // float32
-            m_hConveyorModels: 0x768, // CNetworkUtlVectorBase<CHandle<CBaseEntity>>
-            m_bPlayedIntroVcd: 0x4A8, // bool
-            m_bNeedToPlayFiveSecondsRemaining: 0x4A9, // bool
-            m_dblPreMatchDraftSequenceTime: 0x4C8, // float64
-            m_bPreMatchDraftStateChanged: 0x4D0, // bool
-            m_nDraftType: 0x4D4, // int32
-            m_nTeamWinningCoinToss: 0x4D8, // int32
-            m_nTeamWithFirstChoice: 0x4DC, // int32[64]
-            m_nVoteMapIdsList: 0x5DC, // int32[7]
+            m_szConveyorModels: 0x768, // CUtlSymbolLarge
+            m_flTransitionDurationSeconds: 0x770, // float32
+            m_angMoveEntitySpace: 0x774, // QAngle
+            m_vecMoveDirEntitySpace: 0x780, // Vector
+            m_flTargetSpeed: 0x78C, // float32
+            m_nTransitionStartTick: 0x790, // GameTick_t
+            m_nTransitionDurationTicks: 0x794, // int32
+            m_flTransitionStartSpeed: 0x798, // float32
+            m_hConveyorModels: 0x7A0, // CNetworkUtlVectorBase<CHandle<CBaseEntity>>
         },
         CTriggerPhysics: {
-            m_gravityScale: 0x8A0, // float32
-            m_linearLimit: 0x8A4, // float32
-            m_linearDamping: 0x8A8, // float32
-            m_angularLimit: 0x8AC, // float32
-            m_angularDamping: 0x8B0, // float32
-            m_linearForce: 0x8B4, // float32
-            m_flFrequency: 0x8B8, // float32
-            m_flDampingRatio: 0x8BC, // float32
-            m_vecLinearForcePointAt: 0x8C0, // Vector
-            m_bCollapseToForcePoint: 0x8CC, // bool
-            m_vecLinearForcePointAtWorld: 0x8D0, // Vector
-            m_vecLinearForceDirection: 0x8DC, // Vector
-            m_bConvertToDebrisWhenPossible: 0x8E8, // bool
-            m_hTrain: 0x4A8, // CHandle<CFuncTrackTrain>
+            m_pController: 0x8D0, // IPhysicsMotionController*
+            m_gravityScale: 0x8D8, // float32
+            m_linearLimit: 0x8DC, // float32
+            m_linearDamping: 0x8E0, // float32
+            m_angularLimit: 0x8E4, // float32
+            m_angularDamping: 0x8E8, // float32
+            m_linearForce: 0x8EC, // float32
+            m_flFrequency: 0x8F0, // float32
+            m_flDampingRatio: 0x8F4, // float32
+            m_vecLinearForcePointAt: 0x8F8, // Vector
+            m_bCollapseToForcePoint: 0x904, // bool
+            m_vecLinearForcePointAtWorld: 0x908, // Vector
+            m_vecLinearForceDirection: 0x914, // Vector
+            m_bConvertToDebrisWhenPossible: 0x920, // bool
         },
         CInfoInstructorHintBombTargetB: {
         },
@@ -7843,43 +7985,56 @@ export const Schemas = {
             m_flBlendDeltaMultiplier: 0x4B4, // float32
             m_isStarted: 0x4B8, // bool
         },
-        CInfoInteraction: {
-            m_strSlotEntityName: 0x4A8, // CUtlSymbolLarge[8]
-            m_strInteractVData: 0x4E8, // CUtlSymbolLarge
-            m_flInteractRadius: 0x4F0, // float32
-        },
         CBasePlayerWeaponVData: {
             m_szWorldModel: 0x28, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_sToolsOnlyOwnerModelName: 0x108, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_bBuiltRightHanded: 0x1E8, // bool
-            m_bAllowFlipping: 0x1E9, // bool
-            m_sMuzzleAttachment: 0x1F0, // CAttachmentNameSymbolWithStorage
-            m_szMuzzleFlashParticle: 0x210, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_szMuzzleFlashParticleConfig: 0x2F0, // CUtlString
-            m_szBarrelSmokeParticle: 0x2F8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nMuzzleSmokeShotThreshold: 0x3D8, // uint8
-            m_flMuzzleSmokeTimeout: 0x3DC, // float32
-            m_flMuzzleSmokeDecrementRate: 0x3E0, // float32
-            m_bGenerateMuzzleLight: 0x3E4, // bool
-            m_bLinkedCooldowns: 0x3E5, // bool
-            m_iFlags: 0x3E6, // ItemFlagTypes_t
-            m_iWeight: 0x3E8, // int32
-            m_bAutoSwitchTo: 0x3EC, // bool
-            m_bAutoSwitchFrom: 0x3ED, // bool
-            m_nPrimaryAmmoType: 0x3EE, // AmmoIndex_t
-            m_nSecondaryAmmoType: 0x3EF, // AmmoIndex_t
-            m_iMaxClip1: 0x3F0, // int32
-            m_iMaxClip2: 0x3F4, // int32
-            m_iDefaultClip1: 0x3F8, // int32
-            m_iDefaultClip2: 0x3FC, // int32
-            m_bReserveAmmoAsClips: 0x400, // bool
-            m_bTreatAsSingleClip: 0x401, // bool
-            m_bKeepLoadedAmmo: 0x402, // bool
-            m_iRumbleEffect: 0x404, // RumbleEffect_t
-            m_flDropSpeed: 0x408, // float32
-            m_iSlot: 0x40C, // int32
-            m_iPosition: 0x410, // int32
-            m_aShootSounds: 0x418, // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
+            m_szWorldModelAg2Override: 0x108, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            m_sToolsOnlyOwnerModelName: 0x1E8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            m_bBuiltRightHanded: 0x2C8, // bool
+            m_bAllowFlipping: 0x2C9, // bool
+            m_sMuzzleAttachment: 0x2D0, // CAttachmentNameSymbolWithStorage
+            m_szMuzzleFlashParticle: 0x2F0, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            m_szMuzzleFlashParticleConfig: 0x3D0, // CUtlString
+            m_szBarrelSmokeParticle: 0x3D8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            m_nMuzzleSmokeShotThreshold: 0x4B8, // uint8
+            m_flMuzzleSmokeTimeout: 0x4BC, // float32
+            m_flMuzzleSmokeDecrementRate: 0x4C0, // float32
+            m_bGenerateMuzzleLight: 0x4C4, // bool
+            m_bLinkedCooldowns: 0x4C5, // bool
+            m_iFlags: 0x4C6, // ItemFlagTypes_t
+            m_iWeight: 0x4C8, // int32
+            m_bAutoSwitchTo: 0x4CC, // bool
+            m_bAutoSwitchFrom: 0x4CD, // bool
+            m_nPrimaryAmmoType: 0x4CE, // AmmoIndex_t
+            m_nSecondaryAmmoType: 0x4CF, // AmmoIndex_t
+            m_iMaxClip1: 0x4D0, // int32
+            m_iMaxClip2: 0x4D4, // int32
+            m_iDefaultClip1: 0x4D8, // int32
+            m_iDefaultClip2: 0x4DC, // int32
+            m_bReserveAmmoAsClips: 0x4E0, // bool
+            m_bTreatAsSingleClip: 0x4E1, // bool
+            m_bKeepLoadedAmmo: 0x4E2, // bool
+            m_iRumbleEffect: 0x4E4, // RumbleEffect_t
+            m_flDropSpeed: 0x4E8, // float32
+            m_iSlot: 0x4EC, // int32
+            m_iPosition: 0x4F0, // int32
+            m_aShootSounds: 0x4F8, // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
+        },
+        CInfoInteraction: {
+            m_hSceneRequest: 0x4A8, // SceneRequestHandle_t
+            m_hSceneOpportunity: 0x4AC, // SceneOpportunityHandle_t
+            m_bEnabled: 0x4B0, // bool
+            m_bStartDisabled: 0x4B1, // bool
+            m_strSceneVDataName: 0x4B8, // CUtlSymbolLarge
+            m_strPulseVDataName: 0x4C0, // CUtlSymbolLarge
+            m_flRadius: 0x4E8, // float32
+            m_flOwnerFOV: 0x4EC, // float32
+            m_strLocalInterestReqTags: 0x4F0, // CUtlSymbolLarge
+            m_strLocalInterestOptTags: 0x4F8, // CUtlSymbolLarge
+            m_strLookTarget: 0x500, // CUtlSymbolLarge
+            m_flDuration: 0x508, // float32
+            m_flCooldown: 0x50C, // float32
+            m_nRepeatCount: 0x510, // int32
+            m_bDisableOnExit: 0x514, // bool
         },
         CSoundOpvarSetPointEntity: {
             m_OnEnter: 0x550, // CEntityIOOutput
@@ -7914,13 +8069,13 @@ export const Schemas = {
         CDynamicPropAlias_dynamic_prop: {
         },
         CMarkupVolumeTagged: {
-            m_GroupNames: 0x738, // CUtlVector<CGlobalSymbol>
-            m_Tags: 0x750, // CUtlVector<CGlobalSymbol>
-            m_bIsGroup: 0x768, // bool
-            m_bGroupByPrefab: 0x769, // bool
-            m_bGroupByVolume: 0x76A, // bool
-            m_bGroupOtherGroups: 0x76B, // bool
-            m_bIsInGroup: 0x76C, // bool
+            m_GroupNames: 0x770, // CUtlVector<CGlobalSymbol>
+            m_Tags: 0x788, // CUtlVector<CGlobalSymbol>
+            m_bIsGroup: 0x7A0, // bool
+            m_bGroupByPrefab: 0x7A1, // bool
+            m_bGroupByVolume: 0x7A2, // bool
+            m_bGroupOtherGroups: 0x7A3, // bool
+            m_bIsInGroup: 0x7A4, // bool
         },
         CInfoParticleTarget: {
         },
@@ -7943,47 +8098,35 @@ export const Schemas = {
             m_Entity_bIndoorCubeMap: 0x577, // bool
             m_Entity_bCopyDiffuseFromDefaultCubemap: 0x578, // bool
             m_Entity_bEnabled: 0x588, // bool
-            m_hSkyMaterial: 0x730, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_hSkyMaterialLightingOnly: 0x738, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_bStartDisabled: 0x740, // bool
-            m_vTintColor: 0x741, // Color
-            m_vTintColorLightingOnly: 0x745, // Color
-            m_flBrightnessScale: 0x74C, // float32
-            m_nFogType: 0x750, // int32
-            m_flFogMinStart: 0x754, // float32
-            m_flFogMinEnd: 0x758, // float32
-            m_flFogMaxStart: 0x75C, // float32
-            m_flFogMaxEnd: 0x760, // float32
-            m_bEnabled: 0x764, // bool
         },
         CCSPlayer_DamageReactServices: {
         },
         CWeaponXM1014: {
         },
         CTriggerLerpObject: {
-            m_iszLerpTarget: 0x890, // CUtlSymbolLarge
-            m_hLerpTarget: 0x898, // CHandle<CBaseEntity>
-            m_iszLerpTargetAttachment: 0x8A0, // CUtlSymbolLarge
-            m_hLerpTargetAttachment: 0x8A8, // AttachmentHandle_t
-            m_flLerpDuration: 0x8AC, // float32
-            m_bAttachedEntityWasParented: 0x8B0, // bool
-            m_bLerpRestoreMoveType: 0x8B1, // bool
-            m_bSingleLerpObject: 0x8B2, // bool
-            m_vecLerpingObjects: 0x8B8, // CUtlVector<lerpdata_t>
-            m_iszLerpEffect: 0x8D0, // CUtlSymbolLarge
-            m_iszLerpSound: 0x8D8, // CUtlSymbolLarge
-            m_bAttachTouchingObject: 0x8E0, // bool
-            m_hEntityToWaitForDisconnect: 0x8E4, // CHandle<CBaseEntity>
-            m_OnLerpStarted: 0x8E8, // CEntityIOOutput
-            m_OnLerpFinished: 0x900, // CEntityIOOutput
-            m_OnDetached: 0x918, // CEntityIOOutput
+            m_iszLerpTarget: 0x8C8, // CUtlSymbolLarge
+            m_hLerpTarget: 0x8D0, // CHandle<CBaseEntity>
+            m_iszLerpTargetAttachment: 0x8D8, // CUtlSymbolLarge
+            m_hLerpTargetAttachment: 0x8E0, // AttachmentHandle_t
+            m_flLerpDuration: 0x8E4, // float32
+            m_bAttachedEntityWasParented: 0x8E8, // bool
+            m_bLerpRestoreMoveType: 0x8E9, // bool
+            m_bSingleLerpObject: 0x8EA, // bool
+            m_vecLerpingObjects: 0x8F0, // CUtlVector<lerpdata_t>
+            m_iszLerpEffect: 0x908, // CUtlSymbolLarge
+            m_iszLerpSound: 0x910, // CUtlSymbolLarge
+            m_bAttachTouchingObject: 0x918, // bool
+            m_hEntityToWaitForDisconnect: 0x91C, // CHandle<CBaseEntity>
+            m_OnLerpStarted: 0x920, // CEntityIOOutput
+            m_OnLerpFinished: 0x938, // CEntityIOOutput
+            m_OnDetached: 0x950, // CEntityIOOutput
         },
         CPhysicsPropOverride: {
         },
         CTriggerSave: {
-            m_bForceNewLevelUnit: 0x890, // bool
-            m_fDangerousTimer: 0x894, // float32
-            m_minHitPoints: 0x898, // int32
+            m_bForceNewLevelUnit: 0x8C8, // bool
+            m_fDangerousTimer: 0x8CC, // float32
+            m_minHitPoints: 0x8D0, // int32
         },
         CPointHurt: {
             m_nDamage: 0x4A8, // int32
@@ -8033,6 +8176,10 @@ export const Schemas = {
         },
         CAnimEventQueueListener: {
         },
+        PhysBlockHeader_t: {
+            nSaved: 0x0, // int32
+            pWorldObject: 0x8, // uint64
+        },
         RelationshipOverride_t: {
             entity: 0x8, // CHandle<CBaseEntity>
             classType: 0xC, // Class_T
@@ -8040,6 +8187,25 @@ export const Schemas = {
         AutoRoomDoorwayPairs_t: {
             vP1: 0x0, // Vector
             vP2: 0xC, // Vector
+        },
+        NavHull_t: {
+            m_nHullIdx: 0x0, // int32
+        },
+        CDebugSnapshotData_t: {
+            m_text: 0x0, // CUtlString
+            m_dataType: 0x8, // uint32
+            m_userFlags: 0xC, // uint32
+            m_userData: 0x10, // uint32
+            m_userVector: 0x14, // VectorWS
+            m_userTransform: 0x20, // CTransformWS
+            m_userShape: 0x40, // CGenericShapeProxy
+            m_drawColor: 0xD8, // Color
+            m_vecDebugOverlayData: 0xE0, // CUtlVector<CDebugDrawHistoryData*>
+            m_pStructuredData: 0xF8, // DebugSnapshotBaseStructuredData_t*
+            m_hEntity: 0x100, // CHandle<CBaseEntity>
+            m_sEntityName: 0x108, // CUtlString
+            m_nEntityIndex: 0x110, // CEntityIndex
+            m_children: 0x120, // CUtlLeanVector<CDebugSnapshotData_t>
         },
         CRemapFloat: {
             m_pValue: 0x0, // float32[4]
@@ -8089,6 +8255,7 @@ export const Schemas = {
             m_nFXIndex: 0x30, // ParticleIndex_t
         },
         WrappedPhysicsJoint_t: {
+            m_pJoint: 0x0, // IPhysicsJoint*
         },
         SimpleConstraintSoundProfile: {
             m_flKeyPointMinSoundThreshold: 0x8, // float32
@@ -8101,17 +8268,91 @@ export const Schemas = {
             m_flNext: 0x0, // GameTime_t
             m_nWorldGroupId: 0x4, // WorldGroupId_t
         },
+        AI_BaseNPCAnimGraph_DebugSnapshotData_t: {
+            e_action_desired: 0x8, // CGlobalSymbol
+            b_action_restart: 0x10, // bool
+            e_movement_type_desired: 0x18, // CGlobalSymbol
+            b_movement_type_restart: 0x20, // bool
+        },
         CPhysicsBodyGameMarkupData: {
             m_PhysicsBodyMarkupByBoneName: 0x0, // CUtlOrderedMap<CUtlString,CPhysicsBodyGameMarkup>
+        },
+        SoundCommand_t: {
+            m_time: 0x8, // float32
+            m_deltaTime: 0xC, // float32
+            m_command: 0x10, // soundcommands_t
+            m_value: 0x14, // float32
+        },
+        modifiedconvars_t: {
+            pszConvar: 0x0, // char[128]
+            pszCurrentValue: 0x80, // char[128]
+            pszOrgValue: 0x100, // char[128]
+        },
+        CTestPulseIOComponent_Derived: {
+        },
+        SAVE_HEADER: {
+            m_saveId: 0x0, // int32
+            m_version: 0x4, // int32
+            m_nConnectionCount: 0x8, // int32
+            m_nMapVersion: 0xC, // int32
+            m_sSpawnGroupName: 0x10, // CUtlString
+            m_vecWorldOffset: 0x20, // matrix3x4a_t
+            m_flSaveTime: 0x50, // float32
         },
         CSkillDamage: {
             m_flDamage: 0x0, // CSkillFloat
             m_flNPCDamageScalarVsNPC: 0x10, // float32
             m_flPhysicsForceDamage: 0x14, // float32
         },
+        DebugSnapshotBaseStructuredData_t: {
+        },
+        AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t: {
+            m_sInitialQueryName: 0x0, // CGlobalSymbol
+            m_sCurrentQueryName: 0x8, // CGlobalSymbol
+            m_nMode: 0x10, // CGlobalSymbol
+            m_nType: 0x18, // CGlobalSymbol
+            m_nState: 0x20, // CGlobalSymbol
+        },
+        AI_Motor_DebugSnapshotData_t: {
+            current_movement_gait_set: 0x8, // CGlobalSymbol
+            current_movement_gait: 0x10, // CGlobalSymbol
+            movement_setting_id: 0x18, // CGlobalSymbol
+        },
         CFloatExponentialMovingAverage: {
         },
+        physics_save_sphere_t: {
+            radius: 0x0, // float32
+        },
+        GAME_HEADER: {
+            m_sComment: 0x0, // CUtlString
+            m_nSpawnGroupCount: 0x8, // int32
+            m_sLandmark: 0x10, // CUtlString
+            m_sRequiredAddons: 0x18, // CUtlString
+        },
         CAnimEventListenerBase: {
+        },
+        AI_BaseNPC_DebugSnapshotData_t: {
+            npc_state: 0x8, // CGlobalSymbol
+            current_enemy: 0x10, // CHandle<CBaseEntity>
+            s_current_schedule: 0x18, // CUtlString
+            s_current_task: 0x20, // CGlobalSymbol
+            s_schedule_interrupt_reason: 0x28, // CUtlString
+            s_schedule_fail_reason: 0x30, // CUtlString
+            conditions: 0x38, // CUtlVector<CGlobalSymbol>
+            anim_events: 0x50, // CUtlVector<CGlobalSymbol>
+            e_action_body_section: 0x68, // CGlobalSymbol
+            e_movement_body_section: 0x70, // CGlobalSymbol
+        },
+        CDebugDrawHistoryData: {
+            m_hEntity: 0x0, // CHandle<CBaseEntity>
+            m_etype: 0x4, // ESceneViewDebugOverlaysListenerDataType_t
+            m_vectors: 0x8, // CUtlLeanVector<Vector4D>
+            m_colors: 0x18, // CUtlLeanVector<Color>
+            m_dimensions: 0x28, // CUtlLeanVector<float32>
+            m_times: 0x38, // CUtlLeanVector<float64>
+            m_uint64s: 0x48, // CUtlLeanVector<uint64>
+            m_bools: 0x58, // CUtlLeanVector<bool>
+            m_strings: 0x68, // CUtlLeanVector<CUtlString>
         },
         CNmEventConsumer: {
         },
@@ -8122,6 +8363,10 @@ export const Schemas = {
         },
         AmmoIndex_t: {
             m_Value: 0x0, // int8
+        },
+        SceneRequestTargetMapPair_t: {
+            m_actorName: 0x0, // CUtlSymbolLarge
+            m_targetName: 0x8, // CUtlSymbolLarge
         },
         CDestructiblePartsSystemData: {
             m_PartsDataByHitGroup: 0x0, // CUtlOrderedMap<HitGroup_t,CDestructiblePart>
@@ -8142,6 +8387,14 @@ export const Schemas = {
         CPlayerPawnComponent: {
             __m_pChainEntity: 0x8, // CNetworkVarChainer
         },
+        AI_Navigator_DebugSnapshotData_t: {
+            s_npc_nav_authority: 0x8, // CGlobalSymbol
+            s_goal_nav_search_id: 0x10, // CGlobalSymbol
+            s_goal_source_location: 0x18, // CUtlString
+            goal_actual_pos: 0x20, // VectorWS
+            goal_base_pos: 0x2C, // VectorWS
+            waypoints: 0x38, // CUtlVector<AI_Navigator_DebugSnapshotData_t::Waypoint_t>
+        },
         CDecalInstance: {
             m_sDecalGroup: 0x0, // CGlobalSymbol
             m_hMaterial: 0x8, // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -8150,26 +8403,25 @@ export const Schemas = {
             m_nBoneIndex: 0x18, // int32
             m_nTriangleIndex: 0x1C, // int32
             m_vPositionLS: 0x20, // Vector
-            m_vNormalLS: 0x2C, // Vector
-            m_vSAxisLS: 0x38, // Vector
-            m_nFlags: 0x44, // DecalFlags_t
-            m_Color: 0x48, // Color
-            m_flWidth: 0x4C, // float32
-            m_flHeight: 0x50, // float32
-            m_flDepth: 0x54, // float32
-            m_transform: 0x60, // CTransformWS
-            m_flAnimationScale: 0x80, // float32
-            m_flAnimationStartTime: 0x84, // float32
-            m_flPlaceTime: 0x88, // GameTime_t
-            m_flFadeStartTime: 0x8C, // float32
-            m_flFadeDuration: 0x90, // float32
-            m_flLightingOriginOffset: 0x94, // float32
-            m_flBoundingRadiusSqr: 0xA0, // float32
-            m_nSequenceIndex: 0xA4, // int16
-            m_bIsAdjacent: 0xA6, // bool
-            m_bDoDecalLightmapping: 0xA7, // bool
-            m_nDecalRtEncoding: 0xA8, // DecalRtEncoding_t
-            m_bProjectToBackfaces: 0xA9, // bool
+            m_vPositionOS: 0x2C, // Vector
+            m_vNormalLS: 0x38, // Vector
+            m_vSAxisLS: 0x44, // Vector
+            m_nFlags: 0x50, // DecalFlags_t
+            m_Color: 0x54, // Color
+            m_flWidth: 0x58, // float32
+            m_flHeight: 0x5C, // float32
+            m_flDepth: 0x60, // float32
+            m_transform: 0x70, // CTransformWS
+            m_flAnimationScale: 0x90, // float32
+            m_flAnimationStartTime: 0x94, // float32
+            m_flPlaceTime: 0x98, // GameTime_t
+            m_flFadeStartTime: 0x9C, // float32
+            m_flFadeDuration: 0xA0, // float32
+            m_flLightingOriginOffset: 0xA4, // float32
+            m_flBoundingRadiusSqr: 0xB0, // float32
+            m_nSequenceIndex: 0xB4, // int16
+            m_bIsAdjacent: 0xB6, // bool
+            m_bDoDecalLightmapping: 0xB7, // bool
         },
         CGameScriptedMoveData: {
             m_vAccumulatedRootMotion: 0x0, // Vector
@@ -8196,10 +8448,6 @@ export const Schemas = {
         },
         CNavVolumeMarkupVolume: {
         },
-        CPathMoverEntitySpawn: {
-            hMover: 0x0, // CHandle<CFuncMover>
-            vecOtherEntities: 0x8, // CUtlVector<CHandle<CBaseEntity>>
-        },
         CResponseCriteriaSet: {
             m_nNumPrefixedContexts: 0x30, // int32
             m_bOverrideOnAppend: 0x34, // bool
@@ -8215,7 +8463,7 @@ export const Schemas = {
             m_bConsiderSceneInvolvementAsSpeech: 0x79, // bool
             m_bSceneEntityDisabled: 0x7A, // bool
             m_nLastSpokenPriority: 0x7C, // int32
-            m_pOuter: 0x98, // CBaseFlex*
+            m_pOuter: 0x98, // CBaseModelEntity*
         },
         IChoreoServices: {
         },
@@ -8228,6 +8476,22 @@ export const Schemas = {
             odds: 0x10, // int16
             flags: 0x12, // int16
             m_pFollowup: 0x18, // ResponseFollowup*
+        },
+        SPAWNGROUP_HEADER: {
+            m_sGroupName: 0x0, // CUtlString
+            m_sEntityLumpName: 0x8, // CUtlString
+            m_vecWorldOffset: 0x10, // matrix3x4a_t
+            m_bClientSpawnGroup: 0x40, // bool
+            m_bSuppressAllEntities: 0x41, // bool
+        },
+        globalentity_t: {
+            name: 0x0, // CUtlSymbol
+            levelName: 0x2, // CUtlSymbol
+            state: 0x4, // GLOBALESTATE
+            counter: 0x8, // int32
+        },
+        SceneInterestTags_t: {
+            m_Tags: 0x0, // CUtlVector<CUtlString>
         },
         ConstraintSoundInfo: {
             m_vSampler: 0x8, // VelocitySampler
@@ -8251,7 +8515,22 @@ export const Schemas = {
             m_flFarCrispDistance: 0x8, // float32
             m_flFarBlurryDistance: 0xC, // float32
         },
+        DebugDrawBoneTransforms_t: {
+            vecBones: 0x10, // CUtlVectorFixedGrowable<CTransform,128>
+        },
         CVectorMovingAverage: {
+        },
+        AI_MotorGroundAnimgraph_DebugSnapshotData_t: {
+            state: 0x8, // CGlobalSymbol
+            b_has_path: 0x10, // bool
+            f_remaining_ground_path_length: 0x14, // float32
+            f_current_speed: 0x18, // float32
+            move_type: 0x20, // CGlobalSymbol
+            f_move_heading_actual: 0x28, // float32
+            f_move_heading_desired: 0x2C, // float32
+            f_current_lean: 0x30, // float32
+            f_target_lean: 0x34, // float32
+            vec_events: 0x38, // CUtlVector<AI_MotorGroundAnimgraph_DebugSnapshotData_t::Event_t>
         },
         CSoundEnvelope: {
             m_current: 0x0, // float32
@@ -8325,6 +8604,14 @@ export const Schemas = {
         CPhysicsShake: {
             m_force: 0x8, // Vector
         },
+        CInfoChoreoAnchorPosition: {
+            m_vOrigin: 0x0, // Vector
+            m_qAngles: 0xC, // QAngle
+            m_vExtentsMin: 0x18, // Vector
+            m_vExtentsMax: 0x24, // Vector
+            m_flRadius: 0x30, // float32
+            m_nShapeType: 0x34, // CInfoChoreoLocatorShapeType_t
+        },
         VelocitySampler: {
             m_prevSample: 0x0, // Vector
             m_fPrevSampleTime: 0xC, // GameTime_t
@@ -8332,16 +8619,19 @@ export const Schemas = {
         },
         CTakeDamageResult: {
             m_pOriginatingInfo: 0x0, // CTakeDamageInfo*
-            m_nHealthLost: 0x8, // int32
-            m_nHealthBefore: 0xC, // int32
-            m_nDamageDealt: 0x10, // int32
-            m_flPreModifiedDamage: 0x14, // float32
-            m_nTotalledHealthLost: 0x18, // int32
-            m_nTotalledDamageDealt: 0x1C, // int32
-            m_flTotalledPreModifiedDamage: 0x20, // float32
-            m_bWasDamageSuppressed: 0x24, // bool
-            m_bSuppressFlinch: 0x25, // bool
-            m_nOverrideFlinchHitGroup: 0x28, // HitGroup_t
+            m_DestructibleHitGroupRequests: 0x8, // CUtlLeanVector<DestructiblePartDamageRequest_t>
+            m_nHealthLost: 0x18, // int32
+            m_nHealthBefore: 0x1C, // int32
+            m_flDamageDealt: 0x20, // float32
+            m_flPreModifiedDamage: 0x24, // float32
+            m_nTotalledHealthLost: 0x28, // int32
+            m_flTotalledDamageDealt: 0x2C, // float32
+            m_flTotalledPreModifiedDamage: 0x30, // float32
+            m_flNewDamageAccumulatorValue: 0x34, // float32
+            m_nDamageFlags: 0x38, // TakeDamageFlags_t
+            m_bWasDamageSuppressed: 0x40, // bool
+            m_bSuppressFlinch: 0x41, // bool
+            m_nOverrideFlinchHitGroup: 0x44, // HitGroup_t
         },
         SceneEventId_t: {
             m_Value: 0x0, // uint32
@@ -8354,12 +8644,12 @@ export const Schemas = {
             m_nInactiveBehavior: 0x30, // ExternalAnimGraphInactiveBehavior_t
         },
         CCommentarySystem: {
-            m_bCommentaryConvarsChanging: 0x11, // bool
             m_bCommentaryEnabledMidGame: 0x12, // bool
             m_flNextTeleportTime: 0x14, // GameTime_t
             m_iTeleportStage: 0x18, // int32
             m_bCheatState: 0x1C, // bool
             m_bIsFirstSpawnGroupToLoad: 0x1D, // bool
+            m_ModifiedConvars: 0x20, // CUtlVector<modifiedconvars_t>
             m_hCurrentNode: 0x38, // CHandle<CPointCommentaryNode>
             m_hActiveCommentaryNode: 0x3C, // CHandle<CPointCommentaryNode>
             m_hLastCommentaryNode: 0x40, // CHandle<CPointCommentaryNode>
@@ -8399,6 +8689,12 @@ export const Schemas = {
             m_bUseLRURetirement: 0x11, // bool
             m_nHealthToGrant: 0x14, // int32
         },
+        CRelativeTransform: {
+            m_bTransformIsWorldSpace: 0x0, // bool
+            m_transform: 0x10, // CTransform
+            m_transformWS: 0x30, // CTransformWS
+            m_hEntity: 0x50, // CHandle<CBaseEntity>
+        },
         CRangeInt: {
             m_pValue: 0x0, // int32[2]
         },
@@ -8415,11 +8711,21 @@ export const Schemas = {
             m_emaMovementDirection: 0x14, // CVectorExponentialMovingAverage
         },
         CGameChoreoServices: {
-            m_hOwner: 0x8, // CHandle<CBaseAnimGraph>
+            m_hOwner: 0x8, // CHandle<CBaseModelEntity>
             m_hScriptedSequence: 0xC, // CHandle<CScriptedSequence>
             m_scriptState: 0x10, // IChoreoServices::ScriptState_t
             m_choreoState: 0x14, // IChoreoServices::ChoreoState_t
             m_flTimeStartedState: 0x18, // GameTime_t
+        },
+        PhysObjectHeader_t: {
+            type: 0x0, // PhysInterfaceId_t
+            hEntity: 0x4, // CHandle<CBaseEntity>
+            fieldName: 0x8, // CUtlSymbolLarge
+            nObjects: 0x10, // int32
+            modelName: 0x18, // CUtlSymbolLarge
+            bbox: 0x20, // AABB_t
+            sphere: 0x38, // physics_save_sphere_t
+            iCollide: 0x3C, // int32
         },
         CSimpleStopwatch: {
         },
@@ -8508,6 +8814,7 @@ export const Schemas = {
             m_pValue: 0x0, // int32[4]
         },
         thinkfunc_t: {
+            m_think: 0x0, // BASEPTR
             m_hFn: 0x8, // HSCRIPT
             m_nContext: 0x10, // CUtlStringToken
             m_nNextThinkTick: 0x14, // GameTick_t
@@ -8546,8 +8853,8 @@ export const Schemas = {
             m_bStarted: 0x65, // bool
         },
         SoundeventPathCornerPairNetworked_t: {
-            vP1: 0x0, // Vector
-            vP2: 0xC, // Vector
+            vP1: 0x0, // VectorWS
+            vP2: 0xC, // VectorWS
             flPathLengthSqr: 0x18, // float32
             flP1Pct: 0x1C, // float32
             flP2Pct: 0x20, // float32
@@ -8560,24 +8867,51 @@ export const Schemas = {
             m_iszSoundScriptName: 0x48, // CUtlSymbolLarge
             m_hEnt: 0x50, // CHandle<CBaseEntity>
             m_soundEntityIndex: 0x54, // CEntityIndex
-            m_soundOrigin: 0x58, // Vector
+            m_soundOrigin: 0x58, // VectorWS
             m_isPlaying: 0x64, // int32
             m_Filter: 0x68, // CCopyRecipientFilter
             m_flCloseCaptionDuration: 0xA0, // float32
             m_bUpdatedSoundOrigin: 0xA4, // bool
             m_iszClassName: 0xA8, // CUtlSymbolLarge
         },
+        CSceneOpportunity: {
+            m_hOwner: 0x0, // CHandle<CBaseEntity>
+            m_uHandle: 0x4, // SceneOpportunityHandle_t
+            m_strInteractVDataName: 0x8, // CUtlSymbolLarge
+            m_bEnabled: 0x10, // bool
+            m_bActive: 0x11, // bool
+            m_ePriority: 0x14, // InteractionPriority_t
+            m_flRadius: 0x18, // float32
+            m_LocalInterestReqTags: 0x20, // SceneInterestTags_t
+            m_LocalInterestOptTags: 0x38, // SceneInterestTags_t
+            m_flOwnerFOV: 0x50, // float32
+            m_ActorList: 0x58, // CUtlVector<SceneOpportunityActor_t>
+            m_hLookTarget: 0x70, // CHandle<CBaseEntity>
+            m_flDuration: 0x74, // float32
+            m_tStartTime: 0x78, // GameTime_t
+            m_flCooldown: 0x7C, // float32
+            m_tCooldownTime: 0x80, // GameTime_t
+            m_nRepeatCount: 0x84, // int32
+            m_bDisableOnExit: 0x88, // bool
+        },
         CCS2ChickenGraphController: {
-            m_action: 0x90, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_actionSubtype: 0xA8, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_bActionReset: 0xC0, // CAnimGraph2ParamAutoResetOptionalRef
-            m_idleVariation: 0xE0, // CAnimGraph2ParamOptionalRef<float32>
-            m_runVariation: 0xF8, // CAnimGraph2ParamOptionalRef<float32>
-            m_panicVariation: 0x110, // CAnimGraph2ParamOptionalRef<float32>
-            m_squatVariation: 0x128, // CAnimGraph2ParamOptionalRef<float32>
-            m_bInWater: 0x140, // CAnimGraph2ParamOptionalRef<bool>
-            m_bHasActionCompletedEvent: 0x158, // bool
-            m_bWaitingForCompletedEvent: 0x159, // bool
+            m_action: 0x88, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_actionSubtype: 0xA0, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+            m_bActionReset: 0xB8, // CAnimGraph2ParamAutoResetOptionalRef
+            m_idleVariation: 0xD8, // CAnimGraph2ParamOptionalRef<float32>
+            m_runVariation: 0xF0, // CAnimGraph2ParamOptionalRef<float32>
+            m_panicVariation: 0x108, // CAnimGraph2ParamOptionalRef<float32>
+            m_squatVariation: 0x120, // CAnimGraph2ParamOptionalRef<float32>
+            m_bInWater: 0x138, // CAnimGraph2ParamOptionalRef<bool>
+            m_bHasActionCompletedEvent: 0x150, // bool
+            m_bWaitingForCompletedEvent: 0x151, // bool
+        },
+        levellist_t: {
+            m_sMapName: 0x0, // CUtlString
+            m_sLandmarkName: 0x8, // CUtlString
+            m_hEntLandmark: 0x10, // CEntityHandle
+            m_vecLandmarkOrigin: 0x14, // Vector
+            m_vecLandmarkAngles: 0x20, // QAngle
         },
         locksound_t: {
             sLockedSound: 0x8, // CUtlSymbolLarge
@@ -8607,6 +8941,16 @@ export const Schemas = {
             m_slotPlayerExcludedDueToPrediction: 0x30, // CPlayerSlot
         },
         CFloatMovingAverage: {
+        },
+        FuncMoverMovementSummary_t: {
+            flStartT: 0x0, // float32
+            flEndT: 0x4, // float32
+            nStartNodeIndex: 0x8, // int32
+            nStopNodeIndex: 0xC, // int32
+            nMovementMode: 0x10, // int32
+            nFlags: 0x14, // FuncMoverMovementSummaryFlags_t
+            nTick: 0x18, // GameTick_t
+            hPathMover: 0x1C, // CHandle<CPathMover>
         },
         CSmoothFunc: {
             m_flSmoothAmplitude: 0x8, // float32
@@ -8666,25 +9010,42 @@ export const Schemas = {
         SummaryTakeDamageInfo_t: {
             nSummarisedCount: 0x0, // int32
             info: 0x8, // CTakeDamageInfo
-            result: 0x128, // CTakeDamageResult
-            hTarget: 0x158, // CHandle<CBaseEntity>
+            result: 0x120, // CTakeDamageResult
+            hTarget: 0x170, // CHandle<CBaseEntity>
+        },
+        INavObstacle: {
+            m_nId: 0x8, // uint64
         },
         CSceneRequest: {
-            m_szPayloadTypeName: 0x0, // CUtlSymbolLarge
+            m_szPayloadVDataName: 0x0, // CUtlSymbolLarge
             m_uHandle: 0x8, // SceneRequestHandle_t
             m_state: 0xC, // ESceneRequestState_t
+            m_nNPCBehaviorOverride: 0x10, // ENPCBehaviorOverride_t
+            m_vecActorMap: 0x18, // CUtlVector<SceneRequestTargetMapPair_t>
+            m_vecAnchorMap: 0x30, // CUtlVector<SceneRequestTargetMapPair_t>
+            m_vecGraphMap: 0x48, // CUtlVector<SceneRequestTargetMapPair_t>
+            m_hOwner: 0x60, // CHandle<CBaseEntity>
+            m_nameMapKV3: 0x68, // KeyValues3
         },
-        DestructiblePartDestructionRequest_t: {
-            m_nDestroyFlags: 0x0, // EDestructibleParts_DestroyParameterFlags
-            m_nDamageType: 0x4, // DamageTypes_t
-            m_flPartDamage: 0x8, // float32
-            m_flPartDamageRadius: 0xC, // float32
-            m_vWsPartDamageOrigin: 0x10, // VectorWS
-            m_vWsPartDamageForce: 0x1C, // Vector
+        entitytable_t: {
+            id: 0x0, // int32
+            edictindex: 0x4, // CEntityIndex
+            saveentityindex: 0x8, // CEntityIndex
+            bWasSaved: 0x14, // bool
+            flags: 0x18, // SaveRestoreTableFlags_t
+            classname: 0x20, // CUtlSymbolLarge
+            globalname: 0x28, // CUtlSymbolLarge
+            entityname: 0x30, // CUtlSymbolLarge
+            landmarkModelSpace: 0x38, // Vector
+            m_pPrecacheEntityKeys: 0x48, // CEntityKeyValues*
         },
-        DestructibleHitGroupToDestroy_t: {
-            m_nHitGroup: 0x0, // HitGroup_t
-            m_nMaxDamageLevel: 0x4, // int32
+        SceneOpportunityActor_t: {
+            m_hActor: 0x0, // CHandle<CBaseModelEntity>
+            m_bDynamicActor: 0x4, // bool
+            m_bAnchor: 0x5, // bool
+            m_strActorName: 0x8, // CUtlSymbolLarge
+            m_strEntityName: 0x10, // CUtlSymbolLarge
+            m_InterestTags: 0x18, // SceneInterestTags_t
         },
         CRR_Response: {
             m_Type: 0x0, // uint8
@@ -8705,11 +9066,13 @@ export const Schemas = {
             m_nHorizontalAngleNodeIdx: 0x1A, // int16
             m_nWeaponCategoryNodeIdx: 0x1C, // int16
             m_nWeaponTypeNodeIdx: 0x1E, // int16
-            m_nIsWeaponActionActiveNodeIdx: 0x20, // int16
+            m_nWeaponActionNodeIdx: 0x20, // int16
             m_nWeaponDropNodeIdx: 0x22, // int16
-            m_nEnabledNodeIdx: 0x24, // int16
-            m_flBlendTimeSeconds: 0x28, // float32
-            m_flReduceRangeTimeSeconds: 0x2C, // float32
+            m_nIsDefusingNodeIdx: 0x24, // int16
+            m_nCrouchWeightNodeIdx: 0x26, // int16
+            m_flHandIKBlendInTimeSeconds: 0x28, // float32
+            m_flActionBlendTimeSeconds: 0x2C, // float32
+            m_flPlantingBlendTimeSeconds: 0x30, // float32
         },
         CConstantForceController: {
             m_linear: 0xC, // Vector
@@ -8742,8 +9105,8 @@ export const Schemas = {
             m_nNumObjectsPenetrated: 0x7C, // int32
             m_flFriendlyFireDamageReductionRatio: 0x80, // float32
             m_bStoppedBullet: 0x84, // bool
-            m_nDestructibleHitGroupsToForceDestroy: 0x100, // CUtlVector<DestructibleHitGroupToDestroy_t>
-            m_bInTakeDamageFlow: 0x118, // bool
+            m_DestructibleHitGroupRequests: 0x100, // CUtlLeanVector<DestructiblePartDamageRequest_t>
+            m_bInTakeDamageFlow: 0x110, // bool
         },
         CRandSimTimer: {
             m_flMinInterval: 0x8, // float32
@@ -8768,7 +9131,14 @@ export const Schemas = {
             m_flVal: 0x20, // float32
             m_vPos: 0x24, // Vector
         },
+        PrecipitationFilter_t: {
+            m_flMaxRadius: 0x0, // float32
+        },
         IEconItemInterface: {
+        },
+        PathMoverEntitySpawn: {
+            hMover: 0x0, // CHandle<CFuncMover>
+            vecOtherEntities: 0x8, // CUtlVector<CHandle<CBaseEntity>>
         },
         CMultiplayer_Expresser: {
             m_bAllowMultipleScenes: 0xA0, // bool
@@ -8797,6 +9167,17 @@ export const Schemas = {
         },
         CNmEventConsumerLegacy: {
         },
+        DestructiblePartDamageRequest_t: {
+            m_nHitGroup: 0x0, // HitGroup_t
+            m_nDamageLevel: 0x4, // int32
+            m_nDesiredHealth: 0x8, // uint16
+            m_nDestroyFlags: 0xC, // EDestructibleParts_DestroyParameterFlags
+            m_nDamageType: 0x10, // DamageTypes_t
+            m_flBreakDamage: 0x14, // float32
+            m_flBreakDamageRadius: 0x18, // float32
+            m_vWsBreakDamageOrigin: 0x1C, // VectorWS
+            m_vWsBreakDamageForce: 0x28, // Vector
+        },
         CInButtonState: {
             m_pButtonStates: 0x8, // uint64[3]
         },
@@ -8819,10 +9200,20 @@ export const Schemas = {
             m_flowMapGenerationEnabled: 0x34, // bool
             m_flowMapNodeMaxRadius: 0x38, // float32
         },
+        AI_DefaultNPC_DebugSnapshotData_t: {
+            s_npc_current_ability: 0x8, // CGlobalSymbol
+            s_npc_tactic_current: 0x10, // CGlobalSymbol
+            s_npc_tactic_phase: 0x18, // CGlobalSymbol
+            tactic_interrupt_conditions: 0x20, // CUtlVector<CGlobalSymbol>
+            s_npc_current_movement: 0x38, // CUtlString
+            path_query_schedule: 0x40, // AI_DefaultNPC_DebugSnapshotData_t::PathQuery_t
+            path_query_tactic: 0x68, // AI_DefaultNPC_DebugSnapshotData_t::PathQuery_t
+            path_queries_speculative: 0x90, // CUtlVector<AI_DefaultNPC_DebugSnapshotData_t::PathQuery_t>
+        },
         CNmSnapWeaponNode__CDefinition: {
-            m_nEnabledNodeIdx: 0x18, // int16
-            m_nLockLeftHandNodeIdx: 0x1A, // int16
-            m_flBlendTimeSeconds: 0x1C, // float32
+            m_nFlashedAmountNodeIdx: 0x18, // int16
+            m_nWeaponCategoryNodeIdx: 0x1A, // int16
+            m_nWeaponTypeNodeIdx: 0x1C, // int16
         },
         SoundOpvarTraceResult_t: {
             vPos: 0x0, // Vector
@@ -8863,9 +9254,16 @@ export const Schemas = {
             m_nCurrentStage: 0x8, // int32
             m_nStageCount: 0xC, // int32
         },
+        AI_MotorGroundAnimgraph_DebugSnapshotData_t__Event_t: {
+            description: 0x0, // CUtlString
+            location: 0x8, // VectorWS
+        },
         CNavVolumeBreadthFirstSearch: {
-            m_vStartPos: 0xA8, // Vector
+            m_vStartPos: 0xA8, // VectorWS
             m_flSearchDist: 0xB4, // float32
+        },
+        SceneOpportunityHandle_t: {
+            m_Value: 0x0, // int32
         },
         dynpitchvol_t: {
         },
@@ -8883,7 +9281,42 @@ export const Schemas = {
             m_iNumTeamKills: 0x120, // int32
             m_flTeamDamage: 0x124, // float32
         },
+        AI_Navigator_DebugSnapshotData_t__Waypoint_t: {
+            position: 0x0, // VectorWS
+            nav_type: 0xC, // uint32
+            flags: 0x10, // uint32
+        },
+        CSceneCriteria: {
+            m_hOwner: 0x0, // CHandle<CBaseEntity>
+            m_ePriority: 0x4, // InteractionPriority_t
+            m_InterestReqTags: 0x8, // SceneInterestTags_t
+            m_InterestOptTags: 0x20, // SceneInterestTags_t
+        },
+        CTestPulseIOComponent: {
+            m_ComponentData: 0x8, // CUtlString
+            m_OnComponentTestFunc: 0x10, // CEntityOutputTemplate<CUtlSymbolLarge>
+        },
         IRagdoll: {
+        },
+        CCSPlayerAnimationState: {
+            m_currentMoveType: 0x18, // CCSPlayerAnimationState::MoveType_t
+            m_groundMoveState: 0x19, // CCSPlayerAnimationState::GroundMoveState_t
+            m_groundActionDirection: 0x1A, // CCSPlayerAnimationState::Direction_t
+            m_airAction: 0x1B, // CCSPlayerAnimationState::AirAction_t
+            m_bWasOnGroundLastUpdate: 0x1C, // bool
+            m_bWasStationaryLastUpdate: 0x1D, // bool
+            m_actionStartTick: 0x20, // GameTick_t
+            m_staticAimTimerStartTick: 0x24, // GameTick_t
+            m_stutterStepStartTick: 0x28, // GameTick_t
+            m_plantAndTurnStartTick: 0x2C, // GameTick_t
+            m_bIsStutterStep: 0x30, // bool
+            m_flTurnOnSpotAngle: 0x34, // float32
+            m_flPreviousAimYaw: 0x38, // float32
+            m_flPreviousHorizontalSpeed: 0x3C, // float32
+            m_flFootIKOffsetLeft: 0x40, // float32
+            m_flFootIKOffsetRight: 0x44, // float32
+            m_flWeaponDropPercentageDueToMovement: 0x48, // float32
+            m_flWeaponDropSmoothDampVelocity: 0x4C, // float32
         },
         hudtextparms_t: {
             color1: 0x0, // Color
@@ -8894,7 +9327,7 @@ export const Schemas = {
             y: 0x10, // float32
         },
         CAnimGraphControllerBase: {
-            m_hExternalGraph: 0x18, // ExternalAnimGraphHandle_t
+            m_hExternalGraph: 0x10, // ExternalAnimGraphHandle_t
         },
         CNetworkVelocityVector: {
             m_vecX: 0x10, // CNetworkedQuantizedFloat
@@ -8916,7 +9349,7 @@ export const Schemas = {
         CNavVolumeAll: {
         },
         CNavVolumeSphere: {
-            m_vCenter: 0x78, // Vector
+            m_vCenter: 0x78, // VectorWS
             m_flRadius: 0x84, // float32
         },
         Relationship_t: {

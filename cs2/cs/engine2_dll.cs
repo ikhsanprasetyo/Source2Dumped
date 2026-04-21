@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
-    // Class count: 55
+    // Class count: 56
     // Enum count: 2
     public static class Engine2Dll {
         // Alignment: 4
@@ -23,18 +23,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 3
-        //
-        // Metadata:
-        // NetworkVarNames: m_pEntity (CEntityIdentity*)
-        // NetworkVarNames: m_CScriptComponent (CScriptComponent::Storage_t)
-        // CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert
-        // MNetworkSerializeAs
-        // MNetworkSerializeAs
-        // NetworkVarNames: m_nameStringableIndex (int32)
         public static class CEntityInstance {
             public const nint m_iszPrivateVScripts = 0x8; // CUtlSymbolLarge
             public const nint m_pEntity = 0x10; // CEntityIdentity*
-            public const nint m_CScriptComponent = 0x30; // CScriptComponent*
+            public const nint m_CScriptComponent = 0x28; // CScriptComponent*
         }
         // Parent: None
         // Field count: 0
@@ -47,11 +39,8 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 12
-        //
-        // Metadata:
-        // NetworkVarNames: m_nameStringableIndex (int32)
         public static class CEntityIdentity {
-            public const nint m_nameStringableIndex = 0x14; // int32
+            public const nint m_nameStringTableIndex = 0x14; // int32
             public const nint m_name = 0x18; // CUtlSymbolLarge
             public const nint m_designerName = 0x20; // CUtlSymbolLarge
             public const nint m_flags = 0x30; // uint32
@@ -116,12 +105,34 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // %O
+        // E!
+        // Q
+        // %O
         public static class GameTime_t {
             public const nint m_Value = 0x0; // float32
         }
         // Parent: None
         // Field count: 0
         public static class EventServerBeginSimulate_t {
+        }
+        // Parent: None
+        // Field count: 9
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class EntityIOQueuePrioritizedEvent_t {
+            public const nint m_flFireTime = 0x4; // GameTime_t
+            public const nint m_targetType = 0x8; // EntityIOTargetType_t
+            public const nint m_pTarget = 0x10; // CUtlSymbolLarge
+            public const nint m_pTargetInput = 0x18; // CUtlSymbolLarge
+            public const nint m_hActivator = 0x20; // CEntityHandle
+            public const nint m_hCaller = 0x24; // CEntityHandle
+            public const nint m_nOutputID = 0x28; // int32
+            public const nint m_hEntTarget = 0x2C; // CEntityHandle
+            public const nint m_variantValue = 0x30; // CVariantBase<CVariantDefaultAllocator>
         }
         // Parent: None
         // Field count: 0
@@ -155,6 +166,11 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // *
+        // o%
+        // %O
         public static class GameTick_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -283,15 +299,15 @@ namespace Source2Dumper.Schemas {
             public const nint m_flTickRemainder = 0x58; // float64
         }
         // Parent: None
-        // Field count: 0
-        public static class EntOutput_t {
-        }
-        // Parent: None
         // Field count: 3
         public static class EventSimulate_t {
             public const nint m_LoopState = 0x0; // EngineLoopState_t
             public const nint m_bFirstTick = 0x28; // bool
             public const nint m_bLastTick = 0x29; // bool
+        }
+        // Parent: None
+        // Field count: 0
+        public static class CEntityKeyValues {
         }
         // Parent: None
         // Field count: 0

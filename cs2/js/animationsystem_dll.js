@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     animationsystem_dll: {
@@ -16,6 +16,14 @@ export const Schemas = {
         PulseMethodCallMode_t: {
             SYNC_WAIT_FOR_COMPLETION: 0x0,
             ASYNC_FIRE_AND_FORGET: 0x1,
+        },
+        ParticleSetMethod_t: {
+            PARTICLE_SET_REPLACE_VALUE: 0x0,
+            PARTICLE_SET_SCALE_INITIAL_VALUE: 0x1,
+            PARTICLE_SET_ADD_TO_INITIAL_VALUE: 0x2,
+            PARTICLE_SET_RAMP_CURRENT_VALUE: 0x3,
+            PARTICLE_SET_SCALE_CURRENT_VALUE: 0x4,
+            PARTICLE_SET_ADD_TO_CURRENT_VALUE: 0x5,
         },
         SeqCmd_t: {
             SeqCmd_Nop: 0x0,
@@ -89,6 +97,12 @@ export const Schemas = {
             PF_BIAS_TYPE_EXPONENTIAL: 0x2,
             PF_BIAS_TYPE_COUNT: 0x3,
         },
+        CNmTargetWarpNode__TargetUpdateRule_t: {
+            None: 0x0,
+            Recalculate: 0x1,
+            Offset: 0x2,
+            RecalculateOrOffset: 0x3,
+        },
         SharedMovementGait_t: {
             eInvalid: 0xFFFFFFFFFFFFFFFF,
             eSlow: 0x0,
@@ -130,23 +144,24 @@ export const Schemas = {
             PF_TYPE_CONCURRENT_DEF_COUNT: 0xA,
             PF_TYPE_CLOSEST_CAMERA_DISTANCE: 0xB,
             PF_TYPE_SNAPSHOT_COUNT: 0xC,
-            PF_TYPE_RENDERER_CAMERA_DISTANCE: 0xD,
-            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT: 0xE,
-            PF_TYPE_PARTICLE_NOISE: 0xF,
-            PF_TYPE_PARTICLE_AGE: 0x10,
-            PF_TYPE_PARTICLE_AGE_NORMALIZED: 0x11,
-            PF_TYPE_PARTICLE_FLOAT: 0x12,
-            PF_TYPE_PARTICLE_INITIAL_FLOAT: 0x13,
-            PF_TYPE_PARTICLE_VECTOR_COMPONENT: 0x14,
-            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT: 0x15,
-            PF_TYPE_PARTICLE_SPEED: 0x16,
-            PF_TYPE_PARTICLE_NUMBER: 0x17,
-            PF_TYPE_PARTICLE_NUMBER_NORMALIZED: 0x18,
-            PF_TYPE_PARTICLE_ROPE_SEGMENT: 0x19,
-            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED: 0x1A,
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE: 0x1B,
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT: 0x1C,
-            PF_TYPE_COUNT: 0x1D,
+            PF_TYPE_SNAPSHOT_CHANGED: 0xD,
+            PF_TYPE_RENDERER_CAMERA_DISTANCE: 0xE,
+            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT: 0xF,
+            PF_TYPE_PARTICLE_NOISE: 0x10,
+            PF_TYPE_PARTICLE_AGE: 0x11,
+            PF_TYPE_PARTICLE_AGE_NORMALIZED: 0x12,
+            PF_TYPE_PARTICLE_FLOAT: 0x13,
+            PF_TYPE_PARTICLE_INITIAL_FLOAT: 0x14,
+            PF_TYPE_PARTICLE_VECTOR_COMPONENT: 0x15,
+            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT: 0x16,
+            PF_TYPE_PARTICLE_SPEED: 0x17,
+            PF_TYPE_PARTICLE_NUMBER: 0x18,
+            PF_TYPE_PARTICLE_NUMBER_NORMALIZED: 0x19,
+            PF_TYPE_PARTICLE_ROPE_SEGMENT: 0x1A,
+            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED: 0x1B,
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE: 0x1C,
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT: 0x1D,
+            PF_TYPE_COUNT: 0x1E,
         },
         CNmFloatAngleMathNode__Operation_t: {
             ClampTo180: 0x0,
@@ -216,6 +231,28 @@ export const Schemas = {
             HermiteFeaturePreserving: 0x2,
             Bezier: 0x3,
         },
+        ParticleColorBlendMode_t: {
+            PARTICLEBLEND_DEFAULT: 0x0,
+            PARTICLEBLEND_OVERLAY: 0x1,
+            PARTICLEBLEND_DARKEN: 0x2,
+            PARTICLEBLEND_LIGHTEN: 0x3,
+            PARTICLEBLEND_MULTIPLY: 0x4,
+        },
+        ParticleColorBlendType_t: {
+            PARTICLE_COLOR_BLEND_MULTIPLY: 0x0,
+            PARTICLE_COLOR_BLEND_MULTIPLY2X: 0x1,
+            PARTICLE_COLOR_BLEND_DIVIDE: 0x2,
+            PARTICLE_COLOR_BLEND_ADD: 0x3,
+            PARTICLE_COLOR_BLEND_SUBTRACT: 0x4,
+            PARTICLE_COLOR_BLEND_MOD2X: 0x5,
+            PARTICLE_COLOR_BLEND_SCREEN: 0x6,
+            PARTICLE_COLOR_BLEND_MAX: 0x7,
+            PARTICLE_COLOR_BLEND_MIN: 0x8,
+            PARTICLE_COLOR_BLEND_REPLACE: 0x9,
+            PARTICLE_COLOR_BLEND_AVERAGE: 0xA,
+            PARTICLE_COLOR_BLEND_NEGATE: 0xB,
+            PARTICLE_COLOR_BLEND_LUMINANCE: 0xC,
+        },
         NmTransitionRuleCondition_t: {
             AnyAllowed: 0x0,
             FullyAllowed: 0x1,
@@ -230,6 +267,10 @@ export const Schemas = {
             MESH_BUFFER_USAGE_MESHLET_TRIS: 0x8,
             MESH_BUFFER_USAGE_RT_PROXY: 0x10,
             MESH_BUFFER_USAGE_VERTEX_ALBEDO: 0x20,
+        },
+        NmGraphDebugMode_t: {
+            Off: 0x0,
+            On: 0x1,
         },
         TargetWarpTimingMethod: {
             ReachDestinationOnRootMotionEnd: 0x0,
@@ -385,6 +426,11 @@ export const Schemas = {
             PF_NOISE_TYPE_WORLEY: 0x2,
             PF_NOISE_TYPE_CURL: 0x3,
         },
+        ParticleDirectionNoiseType_t: {
+            PARTICLE_DIR_NOISE_PERLIN: 0x0,
+            PARTICLE_DIR_NOISE_CURL: 0x1,
+            PARTICLE_DIR_NOISE_WORLEY_BASIC: 0x2,
+        },
         AnimParamNetworkSetting: {
             Auto: 0x0,
             AlwaysNetwork: 0x1,
@@ -443,6 +489,11 @@ export const Schemas = {
             SearchOnlyGraphEvents: 0x6,
             SearchOnlyAnimEvents: 0x7,
             SearchBothGraphAndAnimEvents: 0x8,
+        },
+        AnimationType_t: {
+            ANIMATION_TYPE_FIXED_RATE: 0x0,
+            ANIMATION_TYPE_FIT_LIFETIME: 0x1,
+            ANIMATION_TYPE_MANUAL_FRAMES: 0x2,
         },
         AnimValueSource: {
             MoveHeading: 0x0,
@@ -618,6 +669,11 @@ export const Schemas = {
             FLAG_RIGIDLENGTH: 0x200000,
             FLAG_PROCEDURAL: 0x400000,
         },
+        GPUParticleCollisionMode_t: {
+            PARTICLE_GPU_COLLISION_MODE_RT: 0x0,
+            PARTICLE_GPU_COLLISION_MODE_DEPTH: 0x1,
+            PARTICLE_GPU_COLLISION_MODE_HYBRID: 0x2,
+        },
         MorphBundleType_t: {
             MORPH_BUNDLE_TYPE_NONE: 0x0,
             MORPH_BUNDLE_TYPE_POSITION_SPEED: 0x1,
@@ -726,19 +782,20 @@ export const Schemas = {
             PVEC_TYPE_PARTICLE_VECTOR: 0x3,
             PVEC_TYPE_PARTICLE_INITIAL_VECTOR: 0x4,
             PVEC_TYPE_PARTICLE_VELOCITY: 0x5,
-            PVEC_TYPE_CP_VALUE: 0x6,
-            PVEC_TYPE_CP_RELATIVE_POSITION: 0x7,
-            PVEC_TYPE_CP_RELATIVE_DIR: 0x8,
-            PVEC_TYPE_CP_RELATIVE_RANDOM_DIR: 0x9,
-            PVEC_TYPE_FLOAT_COMPONENTS: 0xA,
-            PVEC_TYPE_FLOAT_INTERP_CLAMPED: 0xB,
-            PVEC_TYPE_FLOAT_INTERP_OPEN: 0xC,
-            PVEC_TYPE_FLOAT_INTERP_GRADIENT: 0xD,
-            PVEC_TYPE_RANDOM_UNIFORM: 0xE,
-            PVEC_TYPE_RANDOM_UNIFORM_OFFSET: 0xF,
-            PVEC_TYPE_CP_DELTA: 0x10,
-            PVEC_TYPE_CLOSEST_CAMERA_POSITION: 0x11,
-            PVEC_TYPE_COUNT: 0x12,
+            PVEC_TYPE_PARTICLE_GRAVITY: 0x6,
+            PVEC_TYPE_CP_VALUE: 0x7,
+            PVEC_TYPE_CP_RELATIVE_POSITION: 0x8,
+            PVEC_TYPE_CP_RELATIVE_DIR: 0x9,
+            PVEC_TYPE_CP_RELATIVE_RANDOM_DIR: 0xA,
+            PVEC_TYPE_FLOAT_COMPONENTS: 0xB,
+            PVEC_TYPE_FLOAT_INTERP_CLAMPED: 0xC,
+            PVEC_TYPE_FLOAT_INTERP_OPEN: 0xD,
+            PVEC_TYPE_FLOAT_INTERP_GRADIENT: 0xE,
+            PVEC_TYPE_RANDOM_UNIFORM: 0xF,
+            PVEC_TYPE_RANDOM_UNIFORM_OFFSET: 0x10,
+            PVEC_TYPE_CP_DELTA: 0x11,
+            PVEC_TYPE_CLOSEST_CAMERA_POSITION: 0x12,
+            PVEC_TYPE_COUNT: 0x13,
         },
         NmFootPhase_t: {
             LeftFootDown: 0x0,
@@ -1030,6 +1087,12 @@ export const Schemas = {
             PATTACH_HEALTHBAR: 0xF,
             MAX_PATTACH_TYPES: 0x10,
         },
+        CNmEventTargetEntity_t: {
+            Self: 0x0,
+            Weapon: 0x1,
+            HeldItem: 0x2,
+            Custom: 0x3,
+        },
         FieldNetworkOption: {
             Auto: 0x0,
             ForceEnable: 0x1,
@@ -1169,7 +1232,9 @@ export const Schemas = {
             eInstantStop: 0x4,
             eShuffle: 0x5,
             ePlantedTurn: 0x6,
-            eCount: 0x7,
+            eUseStartAsPlantedTurn: 0x7,
+            eLean: 0x8,
+            eCount: 0x9,
         },
         ModelConfigAttachmentType_t: {
             MODEL_CONFIG_ATTACHMENT_INVALID: 0xFFFFFFFFFFFFFFFF,
@@ -1392,7 +1457,7 @@ export const Schemas = {
         },
         CPulseCell_BooleanSwitchState: {
             m_Condition: 0x48, // PulseObservableBoolExpression_t
-            m_SubGraph: 0xC0, // CPulse_OutflowConnection
+            m_Always: 0xC0, // CPulse_OutflowConnection
             m_WhenTrue: 0x108, // CPulse_OutflowConnection
             m_WhenFalse: 0x150, // CPulse_OutflowConnection
         },
@@ -1418,6 +1483,19 @@ export const Schemas = {
         },
         CPulseCell_Value_RandomInt: {
         },
+        CAnimationLayer: {
+            m_hSequence: 0x0, // CAnimNetVar<int32>
+            m_flPrevCycle: 0xC, // float32
+            m_flCycle: 0x10, // CAnimNetVar<float32>
+            m_flWeight: 0x1C, // CAnimNetVar<float32>
+            m_nOrder: 0x28, // CAnimNetVar<int32>
+            m_bLooping: 0x34, // bool
+            m_nFlags: 0x38, // int32
+            m_bSequenceFinished: 0x3C, // bool
+            m_flKillRate: 0x40, // float32
+            m_flKillDelay: 0x44, // float32
+            m_nPriority: 0x48, // int32
+        },
         CPulse_CallInfo: {
             m_PortName: 0x0, // PulseSymbol_t
             m_nEditorNodeID: 0x10, // PulseDocNodeID_t
@@ -1437,10 +1515,10 @@ export const Schemas = {
         },
         CPulseCell_Step_CallExternalMethod: {
             m_MethodName: 0x48, // PulseSymbol_t
-            m_GameBlackboard: 0x58, // PulseSymbol_t
-            m_ExpectedArgs: 0x68, // CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode: 0x78, // PulseMethodCallMode_t
-            m_OnFinished: 0x80, // CPulse_ResumePoint
+            m_nBlackboardIndex: 0x58, // PulseRuntimeBlackboardReferenceIndex_t
+            m_ExpectedArgs: 0x60, // CUtlLeanVector<CPulseRuntimeMethodArg>
+            m_nAsyncCallMode: 0x70, // PulseMethodCallMode_t
+            m_OnFinished: 0x78, // CPulse_ResumePoint
         },
         PulseObservableBoolExpression_t: {
             m_EvaluateConnection: 0x0, // CPulse_OutflowConnection
@@ -1512,20 +1590,48 @@ export const Schemas = {
         },
         CInputStreamUpdateNode: {
         },
+        CNmFootIKTask: {
+            m_nLeftEffectorBoneIdx: 0x48, // int32
+            m_nRightEffectorBoneIdx: 0x4C, // int32
+            m_leftTargetTransform: 0x50, // CTransform
+            m_rightTargetTransform: 0x70, // CTransform
+            m_nLeftTargetBoneIdx: 0x90, // int32
+            m_nRightTargetBoneIdx: 0x94, // int32
+            m_leftTarget: 0xA0, // CNmTarget
+            m_rightTarget: 0xD0, // CNmTarget
+            m_blendMode: 0x100, // NmIKBlendMode_t
+            m_flBlendWeight: 0x104, // float32
+            m_bIsTargetInWorldSpace: 0x108, // bool
+            m_bIsRunningFromDeserializedData: 0x109, // bool
+        },
         CIntAnimParameter: {
             m_defaultValue: 0x80, // int32
             m_minValue: 0x84, // int32
             m_maxValue: 0x88, // int32
         },
         CNmParameterizedBlendNode__CDefinition: {
-            m_sourceNodeIndices: 0x10, // CUtlVectorFixedGrowable<int16,5>
-            m_nInputParameterValueNodeIdx: 0x38, // int16
-            m_bAllowLooping: 0x3A, // bool
+            m_sourceNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_nInputParameterValueNodeIdx: 0x28, // int16
+            m_bAllowLooping: 0x2A, // bool
         },
         CNmScaleTask: {
         },
+        PerTickSettings_t: {
+            m_startingLocalToWorld: 0x0, // CTransform
+            m_prevLocalToWorld: 0x20, // CTransform
+            m_finalLocalToWorld: 0x40, // CTransform
+            m_rootMotion: 0x60, // CRootMotion
+            m_updateID: 0x69C, // int32
+            m_flLastTimeStep: 0x6A4, // float32
+            m_flPrevAnimTime: 0x6A8, // float32
+            m_flNextAnimTime: 0x6AC, // float32
+            m_bAwaken: 0x6B4, // bool
+            m_bTeleported: 0x6B5, // bool
+            m_bIsClient: 0x6B6, // bool
+            m_bIsPredicted: 0x6B7, // bool
+        },
         CNmFrameSnapEvent: {
-            m_frameSnapMode: 0x20, // NmFrameSnapEventMode_t
+            m_frameSnapMode: 0x18, // NmFrameSnapEventMode_t
         },
         CAnimNodePath: {
             m_path: 0x0, // AnimNodeID[11]
@@ -1569,6 +1675,12 @@ export const Schemas = {
         },
         CTaskStatusAnimTag: {
         },
+        CStateNodeInstanceData: {
+            m_stateWeights: 0x0, // CRelativeArray<float32>
+            m_vTransitionVelocityDeltaWS: 0x8, // Vector
+            m_currentStateStartTime: 0x20, // CAnimNetVar<float32>
+            m_resetCount: 0x3C, // CAnimNetVar<uint8>
+        },
         CMotionGraphConfig: {
             m_paramValues: 0x0, // float32[4]
             m_flDuration: 0x10, // float32
@@ -1600,8 +1712,8 @@ export const Schemas = {
             m_internalOps: 0x40, // CUtlVector<CUtlString>
             m_decodedAnims: 0x58, // CUtlVector<CUtlString>
         },
-        MovementGaitId_t: {
-            m_sId: 0x0, // CGlobalSymbol
+        CChoreoInstanceData: {
+            m_AnimOverlay: 0x0, // CAnimationLayer[12]
         },
         PulseRuntimeVarIndex_t: {
             m_Value: 0x0, // int32
@@ -1629,6 +1741,12 @@ export const Schemas = {
             m_paramSpans: 0x80, // CParamSpanUpdater
             m_tags: 0x98, // CUtlVector<TagSpan_t>
         },
+        CStateMachineInstanceData: {
+            m_flTimeInState: 0x0, // float32
+            m_currentTransitionIndex: 0x4, // CAnimNetVar<int32>
+            m_prevStateIndex: 0x10, // int32
+            m_scheduledTransitionIndex: 0x14, // int32
+        },
         CNmPassthroughNode__CDefinition: {
             m_nChildNodeIdx: 0x10, // int16
         },
@@ -1653,6 +1771,9 @@ export const Schemas = {
         },
         PulseRuntimeDomainValueIndex_t: {
             m_Value: 0x0, // int16
+        },
+        LookData: {
+            m_vLookTarget: 0x0, // CAnimNetVar<Vector>
         },
         CSeqSeqDescFlag: {
             m_bLooping: 0x0, // bool
@@ -1803,9 +1924,28 @@ export const Schemas = {
             m_nShapeInBody: 0x4, // int32
             m_sHitGroup: 0x8, // CGlobalSymbol
         },
+        CBlend2DInstanceData: {
+            m_dampedValue: 0x8, // Vector2D
+            m_flCycle: 0x44, // float32
+            m_flPrevCycle: 0x48, // float32
+        },
         LookAtBone_t: {
             m_index: 0x0, // int32
             m_weight: 0x4, // float32
+        },
+        CDirectPlaybackInstanceData: {
+            m_vTargetPosition: 0x0, // Vector
+            m_flTargetFacing: 0xC, // float32
+            m_flInterpEndTime: 0x10, // float32
+            m_weights: 0x14, // float32[4]
+            m_sequences: 0x24, // SequenceData[4]
+            m_currentSequenceIndex: 0x104, // uint32
+            m_currentSequenceData: 0x108, // CAnimNetVar<uint64>
+            m_flFadeInTime: 0x118, // float32
+            m_flFadeOutTime: 0x11C, // float32
+            m_flForcedCycle: 0x120, // CAnimNetVar<float32>
+            m_bResetPending: 0x130, // bool
+            m_SequenceCycleZeroTime: 0x138, // CAnimNetVar<float32>
         },
         CNmTransitionNode__CDefinition: {
             m_nTargetStateNodeIdx: 0x10, // int16
@@ -1830,6 +1970,9 @@ export const Schemas = {
             m_easingOp: 0x1A, // NmEasingOperation_t
             m_bUseStartValue: 0x1B, // bool
         },
+        CAnimationGraphInstance: {
+            m_bTagDispatchDirty: 0x329, // bool
+        },
         CAnimEncodeDifference: {
             m_boneArray: 0x0, // CUtlVector<CAnimBoneDifference>
             m_morphArray: 0x18, // CUtlVector<CAnimMorphDifference>
@@ -1846,6 +1989,10 @@ export const Schemas = {
             m_bIsBoneSpaceOffset: 0x12, // bool
             m_rotationOffset: 0x20, // Quaternion
             m_translationOffset: 0x30, // Vector
+        },
+        MotionMatchingInstanceData: {
+            m_currentSelection: 0x2C, // MotionSelection
+            m_previousSelection: 0x84, // MotionSelection
         },
         CMotionGraphUpdateNode: {
             m_pMotionGraph: 0x58, // CSmartPtr<CMotionGraph>
@@ -1884,8 +2031,8 @@ export const Schemas = {
             m_id: 0x0, // uint32
         },
         CNmClipSelectorNode__CDefinition: {
-            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
-            m_conditionNodeIndices: 0x28, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,8>
+            m_conditionNodeIndices: 0x28, // CUtlLeanVectorFixedGrowable<int16,8>
         },
         CLookComponentUpdater: {
             m_hLookHeading: 0x34, // CAnimParamHandle
@@ -1926,6 +2073,26 @@ export const Schemas = {
             m_mode: 0x2A, // NmFollowBoneMode_t
         },
         CBlockSelectionMetricEvaluator: {
+        },
+        MovementData: {
+            m_goalWayPointPos: 0x0, // Vector
+            m_vMoveDir: 0xC, // CAnimNetVar<Vector>
+            m_vAcceleration: 0x20, // CAnimNetVar<Vector>
+            m_flCurrentMoveSpeed: 0x34, // CAnimNetVar<float32>
+            m_flTargetMoveSpeed: 0x40, // CAnimNetVar<float32>
+            m_flGoalDistance: 0x4C, // CAnimNetVar<float32>
+            m_flBoundaryRadius: 0x58, // CAnimNetVar<float32>
+            m_bGoalChanged: 0x64, // bool
+            m_bHasPath: 0x68, // CAnimNetVar<bool>
+            m_flFacingHeading: 0x74, // CAnimNetVar<float32>
+            m_vManualFacingDirection: 0x80, // Vector
+            m_vManualFacingTarget: 0x8C, // VectorWS
+            m_nFacingMode: 0x98, // CAnimNetVar<uint8>
+            m_bForceFacing: 0xA4, // CAnimNetVar<bool>
+            m_nActiveMotorIndex: 0xB0, // CAnimNetVar<int32>
+            m_bOnGround: 0xBC, // CAnimNetVar<bool>
+            m_vFacingPosition: 0xC8, // CAnimNetVar<Vector>
+            m_vPrevFacingPosition: 0xDC, // Vector
         },
         CRemapValueComponentUpdater: {
             m_items: 0x30, // CUtlVector<CRemapValueUpdateItem>
@@ -1984,6 +2151,7 @@ export const Schemas = {
             nRetiredAtNodeID: 0x1C, // PulseDocNodeID_t
             flLastReferenced: 0x20, // float32
             nLastValidEntryIdx: 0x24, // int32
+            bWasAnObservableComputation: 0x28, // bool
         },
         CNmVirtualParameterFloatNode__CDefinition: {
             m_nChildNodeIdx: 0x10, // int16
@@ -2109,21 +2277,22 @@ export const Schemas = {
         CNmGraphDefinition: {
             m_variationID: 0x0, // CGlobalSymbol
             m_skeleton: 0x8, // CStrongHandle<InfoForResourceTypeCNmSkeleton>
-            m_pUserData: 0x10, // CNmGraphVariationUserData*
-            m_persistentNodeIndices: 0x18, // CUtlVector<int16>
-            m_nRootNodeIdx: 0x30, // int16
-            m_controlParameterIDs: 0x38, // CUtlVector<CGlobalSymbol>
-            m_virtualParameterIDs: 0x50, // CUtlVector<CGlobalSymbol>
-            m_virtualParameterNodeIndices: 0x68, // CUtlVector<int16>
-            m_referencedGraphSlots: 0x80, // CUtlVector<CNmGraphDefinition::ReferencedGraphSlot_t>
-            m_externalGraphSlots: 0x98, // CUtlVector<CNmGraphDefinition::ExternalGraphSlot_t>
-            m_externalPoseSlots: 0xB0, // CUtlVector<CNmGraphDefinition::ExternalPoseSlot_t>
-            m_nodePaths: 0x138, // CUtlVector<CUtlString>
-            m_resources: 0x150, // CUtlVector<CStrongHandleVoid>
+            m_supportedSecondarySkeletons: 0x10, // CUtlVector<CStrongHandle<InfoForResourceTypeCNmSkeleton>>
+            m_pUserData: 0x28, // CNmGraphVariationUserData*
+            m_persistentNodeIndices: 0x30, // CUtlVector<int16>
+            m_nRootNodeIdx: 0x48, // int16
+            m_controlParameterIDs: 0x50, // CUtlVector<CGlobalSymbol>
+            m_virtualParameterIDs: 0x68, // CUtlVector<CGlobalSymbol>
+            m_virtualParameterNodeIndices: 0x80, // CUtlVector<int16>
+            m_referencedGraphSlots: 0x98, // CUtlVector<CNmGraphDefinition::ReferencedGraphSlot_t>
+            m_externalGraphSlots: 0xB0, // CUtlVector<CNmGraphDefinition::ExternalGraphSlot_t>
+            m_externalPoseSlots: 0xC8, // CUtlVector<CNmGraphDefinition::ExternalPoseSlot_t>
+            m_nodePaths: 0x150, // CUtlVector<CUtlString>
+            m_resources: 0x168, // CUtlVector<CStrongHandleVoid>
         },
         CNmSelectorNode__CDefinition: {
-            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
-            m_conditionNodeIndices: 0x28, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,8>
+            m_conditionNodeIndices: 0x28, // CUtlLeanVectorFixedGrowable<int16,8>
         },
         CAnimDemoCaptureSettings: {
             m_vecErrorRangeSplineRotation: 0x0, // Vector2D
@@ -2194,6 +2363,15 @@ export const Schemas = {
         CActionComponentUpdater: {
             m_actions: 0x30, // CUtlVector<CSmartPtr<CAnimActionUpdater>>
         },
+        CDirectionalBlendInstanceData: {
+            m_dampedValue: 0x0, // float32
+            m_flCycle: 0x14, // float32
+            m_flPrevCycle: 0x18, // float32
+            m_flPlaybackRate: 0x1C, // CAnimNetVar<float32>
+            m_flCycleZeroTime: 0x28, // CAnimNetVar<float32>
+            m_resetCycleValue: 0x34, // CAnimNetVar<float32>
+            m_resetCount: 0x40, // CAnimNetVar<float32>
+        },
         CDampedPathAnimMotorUpdater: {
             m_flAnticipationTime: 0x2C, // float32
             m_flMinSpeedScale: 0x30, // float32
@@ -2218,10 +2396,15 @@ export const Schemas = {
             m_MaterialGroupName: 0x48, // CUtlString
         },
         CNmEntityAttributeEventBase: {
+            m_target: 0x18, // CNmEventTargetEntity_t
             m_attributeName: 0x20, // CUtlString
         },
         CNmVirtualParameterBoneMaskNode__CDefinition: {
             m_nChildNodeIdx: 0x10, // int16
+        },
+        SequenceData: {
+            m_hSequence: 0x0, // HSequence
+            m_cycle: 0x4, // CNetworkedCycle
         },
         CPathHelperUpdateNode: {
             m_flStoppingRadius: 0x70, // float32
@@ -2373,9 +2556,9 @@ export const Schemas = {
             m_defaultMaskNodeIdx: 0x10, // int16
             m_parameterValueNodeIdx: 0x12, // int16
             m_bSwitchDynamically: 0x14, // bool
-            m_maskNodeIndices: 0x18, // CUtlVectorFixedGrowable<int16,7>
-            m_parameterValues: 0x40, // CUtlVectorFixedGrowable<CGlobalSymbol,7>
-            m_flBlendTimeSeconds: 0x90, // float32
+            m_maskNodeIndices: 0x18, // CUtlLeanVectorFixedGrowable<int16,8>
+            m_parameterValues: 0x30, // CUtlLeanVectorFixedGrowable<CGlobalSymbol,7>
+            m_flBlendTimeSeconds: 0x70, // float32
         },
         CNmVirtualParameterVectorNode__CDefinition: {
             m_nChildNodeIdx: 0x10, // int16
@@ -2402,8 +2585,8 @@ export const Schemas = {
             m_nHitBoxIndex: 0x48, // uint16
         },
         CNmParameterizedSelectorNode__CDefinition: {
-            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
-            m_optionWeights: 0x28, // CUtlLeanVectorFixedGrowable<uint8,5>
+            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,8>
+            m_optionWeights: 0x28, // CUtlLeanVectorFixedGrowable<uint8,8>
             m_parameterNodeIdx: 0x38, // int16
             m_bIgnoreInvalidOptions: 0x3A, // bool
             m_bHasWeightsSet: 0x3B, // bool
@@ -2421,7 +2604,6 @@ export const Schemas = {
             m_flStartTime: 0x8, // NmPercent_t
             m_flDuration: 0xC, // NmPercent_t
             m_syncID: 0x10, // CGlobalSymbol
-            m_bClientOnly: 0x18, // bool
         },
         NmCompressionSettings_t__QuantizationRange_t: {
             m_flRangeStart: 0x0, // float32
@@ -2521,6 +2703,11 @@ export const Schemas = {
             m_flDuration: 0x34, // float32
             m_bUseCustomDuration: 0x38, // bool
         },
+        DampedPathMotorInstanceData_t: {
+            m_vVelocity: 0x0, // Vector
+            m_vAcceleration: 0xC, // Vector
+            m_bStopping: 0x24, // bool
+        },
         CNmIsExternalGraphSlotFilledNode__CDefinition: {
             m_nExternalGraphNodeIdx: 0x10, // int16
         },
@@ -2570,6 +2757,7 @@ export const Schemas = {
             m_nStartSyncEventOffset: 0x44, // int32
         },
         CNmMaterialAttributeEvent: {
+            m_target: 0x18, // CNmEventTargetEntity_t
             m_attributeName: 0x20, // CUtlString
             m_attributeNameToken: 0x28, // CUtlStringToken
             m_x: 0x30, // CPiecewiseCurve
@@ -2578,7 +2766,7 @@ export const Schemas = {
             m_w: 0xF0, // CPiecewiseCurve
         },
         CNmBlend1DNode__CDefinition: {
-            m_parameterization: 0x40, // CNmParameterizedBlendNode::Parameterization_t
+            m_parameterization: 0x30, // CNmParameterizedBlendNode::Parameterization_t
         },
         CConcreteAnimParameter: {
             m_previewButton: 0x70, // AnimParamButton_t
@@ -2758,11 +2946,11 @@ export const Schemas = {
             m_bCanBeForced: 0x6, // bool
         },
         CNmFloatSelectorNode__CDefinition: {
-            m_conditionNodeIndices: 0x10, // CUtlVectorFixedGrowable<int16,5>
-            m_values: 0x38, // CUtlVectorFixedGrowable<float32,5>
-            m_flDefaultValue: 0x68, // float32
-            m_flEaseTime: 0x6C, // float32
-            m_easingOp: 0x70, // NmEasingOperation_t
+            m_conditionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_values: 0x28, // CUtlLeanVectorFixedGrowable<float32,5>
+            m_flDefaultValue: 0x48, // float32
+            m_flEaseTime: 0x4C, // float32
+            m_easingOp: 0x50, // NmEasingOperation_t
         },
         CTargetSelectorUpdateNode: {
             m_eAngleMode: 0x60, // TargetSelectorAngleMode_t
@@ -2775,6 +2963,9 @@ export const Schemas = {
             m_bTargetFacePositionIsWorldSpace: 0x8D, // bool
             m_bEnablePhaseMatching: 0x8E, // bool
             m_flPhaseMatchingMaxRootMotionSkip: 0x90, // float32
+        },
+        SlopeData: {
+            m_vSlopeNormal: 0x0, // Vector
         },
         CHitBoxSetList: {
             m_HitBoxSets: 0x0, // CUtlVector<CHitBoxSet>
@@ -2807,8 +2998,8 @@ export const Schemas = {
             m_flTransitionDurationSeconds: 0x14, // float32
         },
         CNmTargetWarpEvent: {
-            m_rule: 0x20, // NmTargetWarpRule_t
-            m_algorithm: 0x21, // NmTargetWarpAlgorithm_t
+            m_rule: 0x18, // NmTargetWarpRule_t
+            m_algorithm: 0x19, // NmTargetWarpAlgorithm_t
         },
         CParamSpanUpdater: {
             m_spans: 0x0, // CUtlVector<ParamSpan_t>
@@ -2846,12 +3037,18 @@ export const Schemas = {
             m_trueValue: 0x20, // CGlobalSymbol
         },
         CNmRootMotionEvent: {
-            m_flBlendTimeSeconds: 0x20, // float32
+            m_flBlendTimeSeconds: 0x18, // float32
         },
         CPulse_PublicOutput: {
             m_Name: 0x0, // PulseSymbol_t
             m_Description: 0x10, // CUtlString
             m_Args: 0x18, // CUtlLeanVector<CPulseRuntimeMethodArg>
+        },
+        CChoiceInstanceData: {
+            m_currentChoice: 0x10, // CAnimNetVar<int32>
+            m_previousChoice: 0x1C, // int32
+            m_flClipStartTime: 0x20, // CAnimNetVar<float32>
+            m_choicePreviousCycle: 0x2C, // float32
         },
         AnimationSnapshotBase_t: {
             m_flRealTime: 0x0, // float32
@@ -2863,13 +3060,6 @@ export const Schemas = {
             m_SnapshotType: 0x90, // AnimationSnapshotType_t
             m_bHasDecodeDump: 0x94, // bool
             m_DecodeDump: 0x98, // AnimationDecodeDebugDumpElement_t
-        },
-        CNmIKEffector: {
-            m_nBodyIndex: 0x0, // int32
-            m_bEnabled: 0x4, // bool
-            m_vTargetPosition: 0x8, // Vector
-            m_qTargetOrientation: 0x20, // Quaternion
-            m_flWeight: 0x30, // float32
         },
         CEmitTagActionUpdater: {
             m_nTagIndex: 0x18, // int32
@@ -2908,6 +3098,11 @@ export const Schemas = {
             m_defaultValue: 0x14, // float32
             m_IDs: 0x18, // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
             m_values: 0x48, // CUtlLeanVectorFixedGrowable<float32,5>
+        },
+        PlayerInputMotorInstanceData_t: {
+            m_vInputVectorWS: 0x0, // Vector
+            m_vVelocityWS: 0xC, // Vector
+            m_vAccelerationWS: 0x18, // Vector
         },
         CCompressorGroup: {
             m_nTotalElementCount: 0x0, // int32
@@ -3061,17 +3256,17 @@ export const Schemas = {
         CNmControlParameterBoolNode__CDefinition: {
         },
         CNmChainLookatTask: {
-            m_nChainEndBoneIdx: 0x58, // int32
-            m_nNumBonesInChain: 0x5C, // int32
-            m_chainForwardDir: 0x60, // Vector
-            m_flBlendWeight: 0x6C, // float32
-            m_flHorizontalAngleLimitDegrees: 0x70, // float32
-            m_flVerticalAngleLimitDegrees: 0x74, // float32
-            m_lookatTarget: 0x78, // Vector
-            m_bIsTargetInWorldSpace: 0x84, // bool
-            m_bIsRunningFromDeserializedData: 0x85, // bool
-            m_flHorizontalAngleDegrees: 0x88, // float32
-            m_flVerticalAngleDegrees: 0x8C, // float32
+            m_nChainEndBoneIdx: 0x48, // int32
+            m_nNumBonesInChain: 0x4C, // int32
+            m_chainForwardDir: 0x50, // Vector
+            m_flBlendWeight: 0x5C, // float32
+            m_flHorizontalAngleLimitDegrees: 0x60, // float32
+            m_flVerticalAngleLimitDegrees: 0x64, // float32
+            m_lookatTarget: 0x68, // Vector
+            m_bIsTargetInWorldSpace: 0x74, // bool
+            m_bIsRunningFromDeserializedData: 0x75, // bool
+            m_flHorizontalAngleDegrees: 0x78, // float32
+            m_flVerticalAngleDegrees: 0x7C, // float32
         },
         FootLockPoseOpFixedSettings: {
             m_footInfo: 0x0, // CUtlVector<FootFixedData_t>
@@ -3099,6 +3294,12 @@ export const Schemas = {
         CWarpSectionAnimTag: {
             m_bWarpPosition: 0x50, // bool
             m_bWarpOrientation: 0x51, // bool
+        },
+        SelectorInstanceData_t: {
+            m_weights: 0x0, // CRelativeArray<float32>
+            m_currentIndexStartTime: 0x8, // CAnimNetVar<float32>
+            m_currentIndex: 0x14, // int32
+            m_previousIndex: 0x18, // int32
         },
         CModelConfigElement_RandomColor: {
             m_Gradient: 0x48, // CColorGradient
@@ -3142,8 +3343,9 @@ export const Schemas = {
         CPairedSequenceComponentUpdater: {
         },
         CNmParticleEvent: {
-            m_relevance: 0x20, // CNmEventRelevance_t
-            m_type: 0x24, // CNmParticleEvent::Type_t
+            m_relevance: 0x18, // CNmEventRelevance_t
+            m_type: 0x1C, // CNmParticleEvent::Type_t
+            m_target: 0x20, // CNmEventTargetEntity_t
             m_hParticleSystem: 0x28, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
             m_tags: 0x30, // CUtlString
             m_bStopImmediately: 0x38, // bool
@@ -3155,6 +3357,13 @@ export const Schemas = {
             m_attachmentType1: 0x58, // ParticleAttachment_t
             m_config: 0x60, // CUtlString
             m_effectForConfig: 0x68, // CUtlString
+        },
+        MotionSelection: {
+            m_nConfigIndex: 0x24, // NetVarConfigIndex
+            m_flCycleZeroTime: 0x30, // CAnimNetVar<float32>
+            m_flPlaybackSpeed: 0x3C, // CAnimNetVar<float32>
+            m_flStartTime: 0x48, // CAnimNetVar<float32>
+            m_nSample: 0x54, // int32
         },
         CMorphRectData: {
             m_nXLeftDst: 0x0, // int16
@@ -3188,6 +3397,12 @@ export const Schemas = {
         CParticleVariableRef: {
             m_variableName: 0x0, // CKV3MemberNameWithStorage
             m_variableType: 0x38, // CPulseValueFullType
+        },
+        CMoverInstanceData: {
+            m_flDampedValue: 0x0, // float32
+            m_vMovement: 0x4, // Vector
+            m_Rotation: 0x1C, // CRotation
+            m_TargetOrientation: 0x20, // CRotation
         },
         HSequence: {
             m_Value: 0x0, // int32
@@ -3263,6 +3478,13 @@ export const Schemas = {
         },
         CNmSampleTask: {
         },
+        CFollowPathInstanceData: {
+            m_xLastPredictedTransformsDeltas: 0x0, // CRelativeArray<CMotionTransform>
+            m_dampedTurnValue: 0x8, // float32
+            m_flTurnAmount: 0xC, // float32
+            m_flPredictionScale: 0x10, // CAnimNetVar<float32>
+            m_flLastPathTime: 0x1C, // float32
+        },
         CStaticPoseCacheBuilder: {
         },
         ModelMeshBufferData_t: {
@@ -3271,12 +3493,13 @@ export const Schemas = {
             m_nElementSizeInBytes: 0x8, // uint32
             m_bMeshoptCompressed: 0xC, // bool
             m_bMeshoptIndexSequence: 0xD, // bool
-            m_bCompressedZSTD: 0xE, // bool
-            m_bCreateBufferSRV: 0xF, // bool
-            m_bCreateBufferUAV: 0x10, // bool
-            m_bCreateRawBuffer: 0x11, // bool
-            m_bCreatePooledBuffer: 0x12, // bool
-            m_nBufferUsage: 0x13, // uint8
+            m_nMeshoptMeshletEncodeVersion: 0xE, // int8
+            m_bCompressedZSTD: 0xF, // bool
+            m_bCreateBufferSRV: 0x10, // bool
+            m_bCreateBufferUAV: 0x11, // bool
+            m_bCreateRawBuffer: 0x12, // bool
+            m_bCreatePooledBuffer: 0x13, // bool
+            m_nBufferUsage: 0x14, // uint8
             m_inputLayoutFields: 0x18, // CUtlVector<RenderInputLayoutField_t>
         },
         CSequenceGroupData: {
@@ -3303,6 +3526,13 @@ export const Schemas = {
             m_bLockStateWhenWaning: 0xFD, // bool
             m_bResetWhenActivated: 0xFE, // bool
         },
+        CNmIDBasedSelectorNode__CDefinition: {
+            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionIDs: 0x28, // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+            m_nParameterNodeIdx: 0x58, // int16
+            m_nFallbackNodeIdx: 0x5A, // int16
+            m_bIgnoreInvalidOptions: 0x5C, // bool
+        },
         CAimMatrixUpdateNode: {
             m_opFixedSettings: 0x70, // AimMatrixOpFixedSettings_t
             m_target: 0x168, // AnimVectorSource
@@ -3325,6 +3555,10 @@ export const Schemas = {
         CModelConfigElement_Command: {
             m_Command: 0x48, // CUtlString
             m_Args: 0x50, // KeyValues3
+        },
+        TargetSelectorInstanceData_t: {
+            m_currentIndex: 0x0, // CAnimNetVar<int32>
+            m_vMSRootMotionAnlyzerTarget: 0x1C, // CAnimNetVar<Vector>
         },
         CAnimEventDefinition: {
             m_nFrame: 0x8, // int32
@@ -3400,6 +3634,9 @@ export const Schemas = {
             m_flErrorQuantizationTranslationMax: 0x18, // float32
             m_flErrorQuantizationScaleMax: 0x1C, // float32
         },
+        PairedSequenceData: {
+            m_vecPairedSequences: 0x0, // PairedSequence_t[8]
+        },
         CBoneConstraintPoseSpaceMorph__Input_t: {
             m_inputValue: 0x0, // Vector
             m_outputWeightList: 0x10, // CUtlVector<float32>
@@ -3441,17 +3678,12 @@ export const Schemas = {
             m_timeStamp: 0x80, // float32
         },
         CNmTransitionEvent: {
-            m_rule: 0x20, // NmTransitionRule_t
-            m_ID: 0x28, // CGlobalSymbol
-        },
-        CNmIKRig: {
-            m_skeleton: 0x0, // CStrongHandle<InfoForResourceTypeCNmSkeleton>
-            m_vecBodies: 0x8, // CUtlVector<CNmIKBody>
-            m_vecJoints: 0x20, // CUtlVector<CNmIKJoint>
+            m_rule: 0x18, // NmTransitionRule_t
+            m_ID: 0x20, // CGlobalSymbol
         },
         CNmFloatCurveEvent: {
-            m_ID: 0x20, // CGlobalSymbol
-            m_curve: 0x28, // CPiecewiseCurve
+            m_ID: 0x18, // CGlobalSymbol
+            m_curve: 0x20, // CPiecewiseCurve
         },
         CParticleTransformInput: {
             m_nType: 0x10, // ParticleTransformType_t
@@ -3521,28 +3753,31 @@ export const Schemas = {
         },
         IParticleEffect: {
         },
-        CNmIKJoint: {
-            m_nParentIndex: 0x0, // int32
-            m_nBodyIndex: 0x4, // int32
-            m_xLocalFrame: 0x10, // CTransform
-            m_flSwingLimit: 0x30, // float32
-            m_flMinTwistLimit: 0x34, // float32
-            m_flMaxTwistLimit: 0x38, // float32
-            m_flWeight: 0x3C, // float32
-        },
         CFutureFacingMetricEvaluator: {
             m_flDistance: 0x50, // float32
             m_flTime: 0x54, // float32
+        },
+        CNmIDBasedClipSelectorNode__CDefinition: {
+            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionIDs: 0x28, // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+            m_nParameterNodeIdx: 0x58, // int16
+            m_nFallbackNodeIdx: 0x5A, // int16
+            m_bIgnoreInvalidOptions: 0x5C, // bool
+        },
+        CLeanMatrixInstanceData: {
+            m_flValueY: 0x0, // float32
+            m_flValueX: 0x4, // float32
         },
         NmCompressionSettings_t: {
             m_translationRangeX: 0x0, // NmCompressionSettings_t::QuantizationRange_t
             m_translationRangeY: 0x8, // NmCompressionSettings_t::QuantizationRange_t
             m_translationRangeZ: 0x10, // NmCompressionSettings_t::QuantizationRange_t
             m_scaleRange: 0x18, // NmCompressionSettings_t::QuantizationRange_t
-            m_constantRotation: 0x20, // Quaternion
-            m_bIsRotationStatic: 0x30, // bool
-            m_bIsTranslationStatic: 0x31, // bool
-            m_bIsScaleStatic: 0x32, // bool
+            m_nTrackReadOffset: 0x20, // int32
+            m_constantRotation: 0x30, // Quaternion
+            m_bIsRotationStatic: 0x40, // bool
+            m_bIsTranslationStatic: 0x41, // bool
+            m_bIsScaleStatic: 0x42, // bool
         },
         CPulse_Variable: {
             m_Name: 0x0, // PulseSymbol_t
@@ -3600,8 +3835,8 @@ export const Schemas = {
             m_nVertexAlbedoStride: 0x13C, // uint16
         },
         CNmLegacyEvent: {
-            m_animEventClassName: 0x20, // CUtlString
-            m_KV: 0x28, // KeyValues3
+            m_animEventClassName: 0x18, // CUtlString
+            m_KV: 0x20, // KeyValues3
         },
         CStateNodeStateData: {
             m_pChild: 0x0, // CAnimUpdateNodeRef
@@ -3626,6 +3861,12 @@ export const Schemas = {
         AnimTagID: {
             m_id: 0x0, // uint32
         },
+        CWayPointHelperInstanceData: {
+            m_vMovement: 0x0, // Vector
+            m_vRotation: 0xC, // QAngle
+            m_vWaypointPosWS: 0x18, // Vector
+            m_bStopUpdatingWaypointPos: 0x24, // bool
+        },
         CAnimFrameSegment: {
             m_nUniqueFrameIndex: 0x0, // int32
             m_nLocalElementMasks: 0x4, // uint32
@@ -3645,12 +3886,6 @@ export const Schemas = {
             m_speedFunction: 0x8, // DampingSpeedFunction
             m_fSpeedScale: 0xC, // float32
             m_fFallingSpeedScale: 0x10, // float32
-        },
-        CNmIKBody: {
-            m_flMass: 0x0, // float32
-            m_vLocalMassCenter: 0x4, // Vector
-            m_vRadius: 0x10, // Vector
-            m_flResistance: 0x1C, // float32
         },
         CHitBoxSet: {
             m_name: 0x0, // CUtlString
@@ -3797,13 +4032,13 @@ export const Schemas = {
             m_bAnimGraphAdditive: 0x7, // bool
         },
         CNmBlend2DNode__CDefinition: {
-            m_sourceNodeIndices: 0x10, // CUtlVectorFixedGrowable<int16,5>
-            m_nInputParameterNodeIdx0: 0x38, // int16
-            m_nInputParameterNodeIdx1: 0x3A, // int16
-            m_values: 0x40, // CUtlVectorFixedGrowable<Vector2D,10>
-            m_indices: 0xA8, // CUtlVectorFixedGrowable<uint8,30>
-            m_hullIndices: 0xE0, // CUtlVectorFixedGrowable<uint8,10>
-            m_bAllowLooping: 0x108, // bool
+            m_sourceNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_values: 0x28, // CUtlLeanVectorFixedGrowable<Vector2D,10>
+            m_indices: 0x80, // CUtlLeanVectorFixedGrowable<uint8,30>
+            m_hullIndices: 0xA8, // CUtlLeanVectorFixedGrowable<uint8,10>
+            m_nInputParameterNodeIdx0: 0xC0, // int16
+            m_nInputParameterNodeIdx1: 0xC2, // int16
+            m_bAllowLooping: 0xC4, // bool
         },
         CBlendCurve: {
             m_flControlPoint1: 0x0, // float32
@@ -4024,7 +4259,9 @@ export const Schemas = {
             m_flBlendTimeSeconds: 0x24, // float32
             m_blendMode: 0x28, // NmIKBlendMode_t
             m_bIsTargetInWorldSpace: 0x29, // bool
-            m_flReferencePoseTwistWeight: 0x2C, // float32
+            m_flChainRotationWeight: 0x2C, // float32
+        },
+        CNmGraphInstance: {
         },
         CFlexDesc: {
             m_szFacs: 0x0, // CUtlString
@@ -4050,6 +4287,11 @@ export const Schemas = {
         },
         PulseRuntimeConstantIndex_t: {
             m_Value: 0x0, // int16
+        },
+        CFootAdjustmentInstanceData: {
+            m_flStartTime: 0xC, // CAnimNetVar<float32>
+            m_flDuration: 0x18, // CAnimNetVar<float32>
+            m_flStartHeadingWS: 0x3C, // float32
         },
         VPhysics2ShapeDef_t: {
             m_spheres: 0x0, // CUtlVector<RnSphereDesc_t>
@@ -4125,8 +4367,8 @@ export const Schemas = {
             m_allTags: 0x78, // CUtlVector<CDirectPlaybackTagData>
         },
         CNmIDEvent: {
-            m_ID: 0x20, // CGlobalSymbol
-            m_secondaryID: 0x28, // CGlobalSymbol
+            m_ID: 0x18, // CGlobalSymbol
+            m_secondaryID: 0x20, // CGlobalSymbol
         },
         CFlexRule: {
             m_nFlex: 0x0, // int32
@@ -4143,14 +4385,21 @@ export const Schemas = {
             m_inputBones: 0x20, // CUtlVector<std::pair<CUtlString,uint32>>
             m_outputBones: 0x38, // CUtlVector<std::pair<CUtlString,uint32>>
         },
+        CNetworkedCycle: {
+            m_flCycleUnclamped: 0x0, // float32
+            m_flPrevCycleUnclamped: 0x4, // float32
+            m_flCyclesPerSecond: 0x10, // CAnimNetVar<float32>
+            m_flCycleZeroTime: 0x1C, // CAnimNetVar<float32>
+            m_resetCount: 0x28, // CAnimNetVar<uint8>
+        },
         CNmSoundEvent: {
-            m_relevance: 0x20, // CNmEventRelevance_t
-            m_name: 0x28, // CUtlString
-            m_position: 0x30, // CNmSoundEvent::Position_t
-            m_attachmentName: 0x38, // CUtlString
-            m_tags: 0x40, // CUtlString
-            m_bContinuePlayingSoundAtDurationEnd: 0x48, // bool
-            m_flDurationInterruptionThreshold: 0x4C, // float32
+            m_relevance: 0x18, // CNmEventRelevance_t
+            m_name: 0x20, // CUtlString
+            m_position: 0x28, // CNmSoundEvent::Position_t
+            m_attachmentName: 0x30, // CUtlString
+            m_tags: 0x38, // CUtlString
+            m_bContinuePlayingSoundAtDurationEnd: 0x40, // bool
+            m_flDurationInterruptionThreshold: 0x44, // float32
         },
         CRenderGroom: {
             m_hairs: 0x0, // CUtlVector<RenderHairStrandInfo_t>
@@ -4166,11 +4415,11 @@ export const Schemas = {
             m_nAttachBoneIdx: 0x90, // int32
             m_nAttachMeshIdx: 0x94, // int32
             m_nAttachMeshDrawCallIdx: 0x98, // int32
-            m_bEnableSimulation: 0x9C, // bool
+            m_bEnableSimulation: 0xAC, // bool
         },
         CNmParameterizedClipSelectorNode__CDefinition: {
-            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
-            m_optionWeights: 0x28, // CUtlLeanVectorFixedGrowable<uint8,5>
+            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,8>
+            m_optionWeights: 0x28, // CUtlLeanVectorFixedGrowable<uint8,8>
             m_parameterNodeIdx: 0x38, // int16
             m_bIgnoreInvalidOptions: 0x3A, // bool
             m_bHasWeightsSet: 0x3B, // bool
@@ -4183,6 +4432,13 @@ export const Schemas = {
         },
         CVPhysXSurfacePropertiesList: {
             m_surfacePropertiesList: 0x0, // CUtlVector<CPhysSurfaceProperties*>
+        },
+        CNmFloatSpringNode__CDefinition: {
+            m_flStartValue: 0x10, // float32
+            m_flHertz: 0x14, // float32
+            m_flDampingRatio: 0x18, // float32
+            m_nInputValueNodeIdx: 0x1C, // int16
+            m_bUseStartValue: 0x1E, // bool
         },
         RenderHairStrandInfo_t: {
             m_nGuideHairIndices_nSurfaceTriIndex: 0x0, // uint32[2]
@@ -4206,7 +4462,7 @@ export const Schemas = {
             m_bIsWorldSpaceTarget: 0x12, // bool
         },
         CNmTargetSelectorNode__CDefinition: {
-            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_optionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,8>
             m_flOrientationScoreWeight: 0x28, // float32
             m_flPositionScoreWeight: 0x2C, // float32
             m_parameterNodeIdx: 0x30, // int16
@@ -4244,6 +4500,11 @@ export const Schemas = {
             m_bTargetIsPosition: 0xC2, // bool
             m_bUseHysteresis: 0xC3, // bool
         },
+        CRootMotion: {
+            m_deltaTransform: 0x0, // CMotionTransform
+            m_vVelocityMS: 0x10, // Vector
+            m_vUpOverride: 0x1C, // Vector
+        },
         CAnimGraphSettingsManager: {
             m_settingsGroups: 0x18, // CUtlVector<CSmartPtr<CAnimGraphSettingsGroup>>
         },
@@ -4255,16 +4516,16 @@ export const Schemas = {
             m_inputList: 0x60, // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
         },
         CNmTwoBoneIKTask: {
-            m_nEffectorBoneIdx: 0x58, // int32
-            m_nEffectorTargetBoneIdx: 0x5C, // int32
-            m_targetTransform: 0x60, // CTransform
-            m_effectorTarget: 0x80, // CNmTarget
-            m_blendMode: 0xB0, // NmIKBlendMode_t
-            m_flBlendWeight: 0xB4, // float32
-            m_bIsTargetInWorldSpace: 0xB8, // bool
-            m_bIsRunningFromDeserializedData: 0xB9, // bool
-            m_flReferencePoseTwistWeight: 0xBC, // float32
-            m_debugEffectorBoneID: 0xC0, // CGlobalSymbol
+            m_nEffectorBoneIdx: 0x48, // int32
+            m_nEffectorTargetBoneIdx: 0x4C, // int32
+            m_targetTransform: 0x50, // CTransform
+            m_effectorTarget: 0x70, // CNmTarget
+            m_blendMode: 0xA0, // NmIKBlendMode_t
+            m_flBlendWeight: 0xA4, // float32
+            m_bIsTargetInWorldSpace: 0xA8, // bool
+            m_bIsRunningFromDeserializedData: 0xA9, // bool
+            m_flChainRotationWeight: 0xAC, // float32
+            m_debugEffectorBoneID: 0xB0, // CGlobalSymbol
         },
         MotionBlendItem: {
             m_pChild: 0x0, // CSmartPtr<CMotionNode>
@@ -4349,13 +4610,14 @@ export const Schemas = {
             m_nClipReferenceNodeIdx: 0x10, // int16
             m_nTargetValueNodeIdx: 0x12, // int16
             m_samplingMode: 0x14, // CNmRootMotionData::SamplingMode_t
-            m_bAllowTargetUpdate: 0x15, // bool
+            m_targetUpdateRule: 0x15, // CNmTargetWarpNode::TargetUpdateRule_t
             m_bAlignWithTargetAtLastWarpEvent: 0x16, // bool
             m_flSamplingPositionErrorThresholdSq: 0x18, // float32
             m_flMaxTangentLength: 0x1C, // float32
             m_flLerpFallbackDistanceThreshold: 0x20, // float32
             m_flTargetUpdateDistanceThreshold: 0x24, // float32
             m_flTargetUpdateAngleThresholdRadians: 0x28, // float32
+            m_alignmentBoneID: 0x30, // CGlobalSymbol
         },
         CPhysSurfacePropertiesPhysics: {
             m_friction: 0x0, // float32
@@ -4450,21 +4712,6 @@ export const Schemas = {
             m_flEpsilon: 0x18, // float32
             m_flComparisonValue: 0x1C, // float32
         },
-        CNmChainSolverTask: {
-            m_nEffectorBoneIdx: 0x58, // int32
-            m_nEffectorTargetBoneIdx: 0x5C, // int32
-            m_targetTransform: 0x60, // CTransform
-            m_nNumBonesInChain: 0x80, // int32
-            m_effectorTarget: 0x90, // CNmTarget
-            m_blendMode: 0xC0, // NmIKBlendMode_t
-            m_flBlendWeight: 0xC4, // float32
-            m_bIsTargetInWorldSpace: 0xC8, // bool
-            m_bIsRunningFromDeserializedData: 0xC9, // bool
-            m_debugEffectorBoneID: 0xD0, // CGlobalSymbol
-            m_chainStartTransformMS: 0xE0, // CTransform
-            m_debugRequestedTargetTransformMS: 0x100, // CTransform
-            m_debugTotalChainLength: 0x120, // float32
-        },
         CStateUpdateData: {
             m_name: 0x0, // CUtlString
             m_hScript: 0x8, // AnimScriptHandle
@@ -4477,9 +4724,18 @@ export const Schemas = {
             m_bIsPassthroughRootMotion: 0x0, // bitfield:1
             m_bPreEvaluatePassthroughTransitionPath: 0x0, // bitfield:1
         },
+        CTurnHelperInstanceData: {
+            m_turnAmount: 0x0, // float32
+            m_turnStartTime: 0x4, // float32
+            m_duration: 0x8, // float32
+        },
         CNmTargetValueNode__CDefinition: {
         },
         COrientConstraint: {
+        },
+        CCycleClipInstanceData: {
+            m_flCycle: 0x0, // CAnimNetVar<float32>
+            m_flPrevCycle: 0xC, // CAnimNetVar<float32>
         },
         CMoverUpdateNode: {
             m_damping: 0x78, // CAnimInputDamping
@@ -4499,6 +4755,16 @@ export const Schemas = {
             m_nBaseNodeIdx: 0x10, // int16
             m_bOnlySampleBaseRootMotion: 0x12, // bool
             m_layerDefinition: 0x18, // CUtlLeanVectorFixedGrowable<CNmLayerBlendNode::LayerDefinition_t,3>
+        },
+        CNmFootIKNode__CDefinition: {
+            m_leftEffectorBoneID: 0x18, // CGlobalSymbol
+            m_rightEffectorBoneID: 0x20, // CGlobalSymbol
+            m_nLeftTargetNodeIdx: 0x28, // int16
+            m_nRightTargetNodeIdx: 0x2A, // int16
+            m_nEnabledNodeIdx: 0x2C, // int16
+            m_flBlendTimeSeconds: 0x30, // float32
+            m_blendMode: 0x34, // NmIKBlendMode_t
+            m_bIsTargetInWorldSpace: 0x35, // bool
         },
         CAnimMotorUpdaterBase: {
             m_name: 0x10, // CUtlString
@@ -4623,9 +4889,9 @@ export const Schemas = {
             m_FloatValue: 0x38, // CPiecewiseCurve
         },
         CNmIDSelectorNode__CDefinition: {
-            m_conditionNodeIndices: 0x10, // CUtlVectorFixedGrowable<int16,5>
-            m_values: 0x38, // CUtlVectorFixedGrowable<CGlobalSymbol,5>
-            m_defaultValue: 0x78, // CGlobalSymbol
+            m_conditionNodeIndices: 0x10, // CUtlLeanVectorFixedGrowable<int16,5>
+            m_values: 0x28, // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+            m_defaultValue: 0x58, // CGlobalSymbol
         },
         TwoBoneIKSettings_t: {
             m_endEffectorType: 0x0, // IkEndEffectorType
@@ -4672,6 +4938,11 @@ export const Schemas = {
             m_nInputValueNodeIdx: 0x10, // int16
             m_comparison: 0x12, // CNmIDComparisonNode::Comparison_t
             m_comparisionIDs: 0x18, // CUtlLeanVectorFixedGrowable<CGlobalSymbol,4>
+        },
+        PairedSequence_t: {
+            m_sRole: 0x0, // CGlobalSymbol
+            m_sSequenceName: 0x8, // CGlobalSymbol
+            m_hSequence: 0x10, // CAnimNetVar<uint32>
         },
         CEditableMotionGraph: {
         },
@@ -4875,7 +5146,7 @@ export const Schemas = {
             m_eventConditionRules: 0x14, // CNmBitFlags
         },
         CNmFootEvent: {
-            m_phase: 0x20, // NmFootPhase_t
+            m_phase: 0x18, // NmFootPhase_t
         },
         CPhysSurfacePropertiesAudio: {
             m_reflectivity: 0x0, // float32
@@ -4954,6 +5225,9 @@ export const Schemas = {
         CCPPScriptComponentUpdater: {
             m_scriptsToRun: 0x30, // CUtlVector<CGlobalSymbol>
         },
+        NetVarConfigIndex: {
+            m_index: 0x0, // CAnimNetVar<uint32>
+        },
         CAnimData: {
             m_name: 0x10, // CBufferString
             m_animArray: 0x20, // CUtlVector<CAnimDesc>
@@ -4973,6 +5247,15 @@ export const Schemas = {
             m_flTimingBlend: 0x84, // float32
             m_bResetChild1: 0x88, // bool
             m_bResetChild2: 0x89, // bool
+        },
+        CBlendNodeInstanceData: {
+            m_dampedValue: 0x0, // float32
+            m_flCycle: 0x4, // float32
+            m_flCycleZeroTime: 0x8, // float32
+            m_flPlaybackRate: 0xC, // float32
+            m_flBlendValue: 0x10, // CAnimNetVar<float32>
+            m_flDuration: 0x1C, // float32
+            m_resetCount: 0x20, // CAnimNetVar<uint8>
         },
         CNmParameterizedBlendNode__BlendRange_t: {
             m_nInputIdx0: 0x0, // int16
@@ -5039,6 +5322,7 @@ export const Schemas = {
         CNmControlParameterIDNode__CDefinition: {
         },
         CNmBodyGroupEvent: {
+            m_target: 0x18, // CNmEventTargetEntity_t
             m_groupName: 0x20, // CUtlString
             m_nGroupValue: 0x28, // int32
         },

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:15:51.295207800 +07:00
+# 2026-04-21 10:30:00.180985200 +07:00
 
 class Schemas:
     # Module: vphysics2.dll
@@ -17,6 +17,21 @@ class Schemas:
             DYNAMIC_CONTINUOUS_ALLOW_IF_REQUESTED_BY_OTHER_BODY = 0x0
             DYNAMIC_CONTINUOUS_ALWAYS = 0x1
             DYNAMIC_CONTINUOUS_NEVER = 0x2
+        class PhysInterfaceId_t:
+            PIID_UNKNOWN = 0x0
+            PIID_IPHYSICSBODY = 0x1
+            PIID_IPHYSAGGREGATE = 0x2
+            PIID_IPHYSICSJOINT = 0x3
+            PIID_IPHYSICSMOTIONCONTROLLER = 0x4
+            PIID_IPHYSICSPARTICLEROPE = 0x5
+            PIID_IPHYSICSRAGDOLLCONTROL = 0x6
+            PIID_NUM_TYPES = 0x7
+        class PhysGenericShapeType_t:
+            GENERIC_SHAPE_POINT = 0x0
+            GENERIC_SHAPE_SPHERE = 0x1
+            GENERIC_SHAPE_AABB = 0x2
+            GENERIC_SHAPE_CAPSULE = 0x3
+            GENERIC_SHAPE_HULL = 0x4
         class RnSphereDesc_t:
             m_Sphere = 0x18 # SphereBase_t<float32>
         class RnSoftbodyParticle_t:
@@ -155,6 +170,9 @@ class Schemas:
             m_nNode = 0x0 # uint32
             m_nJiggleParent = 0x4 # uint32
             m_jiggleBone = 0x8 # CFeJiggleBone
+        class IPhysAggregateInstance:
+            m_pSkeleton = 0x8 # void*
+            m_bIsAxisAligned = 0x10 # bool
         class FeBandBendLimit_t:
             flDistMin = 0x0 # float32
             flDistMax = 0x4 # float32
@@ -179,11 +197,15 @@ class Schemas:
             f4MinDist = 0x20 # fltx4
             f4Weight0 = 0x30 # fltx4
             f4RelaxationFactor = 0x40 # fltx4
+        class IPhysicsParticleRope:
+            pass
         class constraint_hingeparams_t:
             worldPosition = 0x0 # Vector
             worldAxisDirection = 0xC # Vector
             hingeAxis = 0x18 # constraint_axislimit_t
             constraint = 0x28 # constraint_breakableparams_t
+        class IPhysicsBodyList:
+            pass
         class FeBuildSphereRigid_t:
             m_nPriority = 0x20 # int32
             m_nVertexMapHash = 0x24 # uint32
@@ -287,6 +309,8 @@ class Schemas:
         class VertexPositionNormal_t:
             m_vPosition = 0x0 # Vector
             m_vNormal = 0xC # Vector
+        class IPhysicsRagdollControl:
+            pass
         class FeBuildSDFRigid_t:
             m_nPriority = 0x50 # int32
             m_nVertexMapHash = 0x54 # uint32
@@ -336,6 +360,8 @@ class Schemas:
             nNode = 0x0 # uint16[2]
             flMaxDist = 0x4 # float32
             flRelaxationFactor = 0x8 # float32
+        class IPhysicsJoint:
+            pass
         class FeEdgeDesc_t:
             nEdge = 0x0 # uint16[2]
             nSide = 0x4 # uint16[2][2]
@@ -408,6 +434,8 @@ class Schemas:
             flGroundFriction = 0x4 # float32
             nListBegin = 0x8 # uint16
             nListEnd = 0xA # uint16
+        class CGenericShapeProxy:
+            m_verts = 0x30 # CUtlLeanVectorFixedGrowable<Vector,8>
         class RnNode_t:
             m_vMin = 0x0 # Vector
             m_nChildren = 0xC # uint32
@@ -487,6 +515,17 @@ class Schemas:
             m_flMaxFraction = 0x1C # float32
             m_flScale = 0x20 # float32
             m_pHull = 0x28 # RnHull_t*
+        class vphysics_save_ragdoll_control_t:
+            m_flMinSpringFrequency = 0x0 # float32
+            m_flMaxSpringFrequency = 0x4 # float32
+            m_flMaxStretch = 0x8 # float32
+            m_bSolidCollisionAtZeroWeight = 0xC # bool
+            m_bRequiresDynamicBodies = 0xD # bool
+            m_bIgnoreTeleport = 0xE # bool
+            m_vLinearVelocityAccumulator = 0x10 # Vector
+            m_vAngularVelocityAccumulator = 0x1C # RotationVector
+            m_vForceAccumulator = 0x28 # Vector
+            m_nBodyCount = 0x34 # int32
         class FeRigidColliderIndices_t:
             m_nTaperedCapsuleRigidIndex = 0x0 # uint16
             m_nSphereRigidIndex = 0x2 # uint16
@@ -581,6 +620,8 @@ class Schemas:
             m_Value = 0x0 # uint32
         class RnVertex_t:
             m_nEdge = 0x0 # uint8
+        class IPhysicsMotionController:
+            pass
         class Dop26_t:
             m_flSupport = 0x0 # float32[26]
         class FeDynKinLink_t:
@@ -642,6 +683,8 @@ class Schemas:
             m_nPriority = 0x30 # int32
             m_nVertexMapHash = 0x34 # uint32
             m_nAntitunnelGroupBits = 0x38 # uint32
+        class IPhysicsBody:
+            pass
         class FeSoftParent_t:
             nParent = 0x0 # int32
             flAlpha = 0x4 # float32

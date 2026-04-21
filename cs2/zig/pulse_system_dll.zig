@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: pulse_system.dll
-        // Class count: 97
+        // Class count: 99
         // Enum count: 5
         pub const pulse_system_dll = struct {
             // Alignment: 4
@@ -65,6 +65,24 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
             pub const CPulseCell_Step_TestDomainDestroyFakeEntity = struct {
             };
             // Parent: None
@@ -81,18 +99,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // invalid
+            // bool
+            // uint
+            // string
+            // array
+            // VApplication001
+            // VEngineCvar007
+            // VStringTokenSystem001
+            // TestScriptMgr001
+            // VProcessUtils002
+            // VFileSystem017
             pub const CPulseCell_WaitForCursorsWithTag = struct {
                 pub const m_bTagSelfWhenComplete: usize = 0x98; // bool
                 pub const m_nDesiredKillPriority: usize = 0x9C; // PulseCursorCancelPriority_t
@@ -120,6 +137,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub const CPulseCell_Test_NoInflow = struct {
             };
             // Parent: None
@@ -132,8 +166,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_Base = struct {
                 pub const m_nEditorNodeID: usize = 0x8; // PulseDocNodeID_t
             };
@@ -144,8 +176,8 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 2
             pub const CTestDomainDerived_Cursor = struct {
-                pub const m_nCursorValueA: usize = 0xD0; // int32
-                pub const m_nCursorValueB: usize = 0xD4; // int32
+                pub const m_nCursorValueA: usize = 0xD8; // int32
+                pub const m_nCursorValueB: usize = 0xDC; // int32
             };
             // Parent: None
             // Field count: 2
@@ -159,8 +191,10 @@ pub const source2_dumper = struct {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -180,6 +214,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // MPulseExpressionAlias
             // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -187,7 +222,9 @@ pub const source2_dumper = struct {
             // MPulseLegacyName
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
-            // 0
+            // MPulseExpressionAlias
+            //  
+            //  
             pub const CPulseTestFuncs_LibraryA = struct {
             };
             // Parent: None
@@ -198,17 +235,21 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_WaitForObservable = struct {
                 pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
                 pub const m_OnTrue: usize = 0xC0; // CPulse_ResumePoint
@@ -253,21 +294,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
+            // MPropertyDescription
             pub const CPulseCell_FireCursors = struct {
                 pub const m_Outflows: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -307,12 +346,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_BaseRequirement = struct {
             };
             // Parent: None
@@ -322,13 +355,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -336,11 +369,10 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
-            // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
             // null
             // int
             // double
@@ -352,6 +384,7 @@ pub const source2_dumper = struct {
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const OutflowWithRequirements_t = struct {
                 pub const m_Connection: usize = 0x0; // CPulse_OutflowConnection
@@ -365,15 +398,17 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -387,21 +422,19 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
+            // MPropertyDescription
             pub const CPulseCell_Value_Gradient = struct {
                 pub const m_Gradient: usize = 0x48; // CColorGradient
             };
@@ -411,15 +444,17 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
             pub const CPulseCursorFuncs = struct {
             };
@@ -463,6 +498,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub const CPulseCell_Test_MultiOutflow_WithParams = struct {
                 pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
                 pub const m_Out2: usize = 0x90; // SignatureOutflow_Continue
@@ -479,22 +531,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_GraphHook = struct {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
             };
@@ -507,25 +549,24 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPulseEditorHeaderText
             pub const CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t = struct {
                 pub const nTestStep: usize = 0x0; // int32
             };
             // Parent: None
             // Field count: 4
             pub const CPulseTurtleGraphicsCursor = struct {
-                pub const m_Color: usize = 0xD0; // Color
-                pub const m_vPos: usize = 0xD4; // Vector2D
-                pub const m_flHeadingDeg: usize = 0xDC; // float32
-                pub const m_bPenUp: usize = 0xE0; // bool
+                pub const m_Color: usize = 0xD8; // Color
+                pub const m_vPos: usize = 0xDC; // Vector2D
+                pub const m_flHeadingDeg: usize = 0xE4; // float32
+                pub const m_bPenUp: usize = 0xE8; // bool
             };
             // Parent: None
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub const CPulseCell_TestWaitWithCursorState__CursorState_t = struct {
                 pub const flWaitValue: usize = 0x0; // float32
@@ -540,21 +581,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_BaseEntrypoint = struct {
@@ -605,6 +631,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub const CPulseCell_Test_MultiInflow_NoDefault = struct {
             };
             // Parent: None
@@ -613,12 +656,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
             // null
             // int
             // double
             // binary_blob
             // table
-            // CUtlRBTree<struct CUtlOrderedMapBase<enum KV3MetatextType_t,class CBufferString,class CDefLess<enum KV3MetatextType_t>,int>::Nod
             pub const CPulseCell_WaitForCursorsWithTagBase = struct {
                 pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
                 pub const m_WaitComplete: usize = 0x50; // CPulse_ResumePoint
@@ -643,27 +686,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // escriptorProto
+            // MPropertyDescription
+            //  
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
             pub const CPulseCell_IntervalTimer = struct {
                 pub const m_Completed: usize = 0x48; // CPulse_ResumePoint
                 pub const m_OnInterval: usize = 0x90; // SignatureOutflow_Continue
@@ -673,18 +708,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // escriptorProto
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // escriptorProto
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorCanvasItemSpecKV3
+            // d
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub const CPulseTestScriptLib = struct {
             };
             // Parent: None
@@ -694,19 +727,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
@@ -729,7 +760,25 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub const CPulseCell_Value_TestValue50 = struct {
             };
             // Parent: None
@@ -743,15 +792,16 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPulseSignatureForOutflow
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPulseEditorHeaderText
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
             pub const CPulseCell_Test_MultiOutflow_WithParams_Yielding = struct {
                 pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
                 pub const m_AsyncChild1: usize = 0x90; // SignatureOutflow_Continue
@@ -760,26 +810,25 @@ pub const source2_dumper = struct {
                 pub const m_YieldResume2: usize = 0x168; // SignatureOutflow_Resume
             };
             // Parent: None
+            // Field count: 0
+            pub const TestComponent_tAPI = struct {
+            };
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyDescription
+            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // MPropertyFriendlyName
             pub const CPulseCell_Value_Curve = struct {
                 pub const m_Curve: usize = 0x48; // CPiecewiseCurve
             };
@@ -792,22 +841,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_EventHandler = struct {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
             };
@@ -816,13 +855,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_BaseFlow = struct {
             };
             // Parent: None
@@ -858,6 +897,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub const CPulseCell_Step_TestDomainTracepoint = struct {
             };
             // Parent: None
@@ -873,7 +929,6 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseLerp__CursorState_t = struct {
                 pub const m_StartTime: usize = 0x0; // GameTime_t
@@ -894,27 +949,20 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
             // MPropertyDescription
             pub const CPulseArraylib = struct {
             };
@@ -940,31 +988,25 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
             pub const CPulseCell_Timeline = struct {
                 pub const m_TimelineEvents: usize = 0x48; // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -978,22 +1020,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_EntOutputHandler = struct {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
                 pub const m_SourceOutput: usize = 0x90; // PulseSymbol_t
@@ -1048,6 +1080,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub const CPulseCell_Outflow_TestExplicitYesNo = struct {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
@@ -1060,7 +1109,25 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub const CPulseCell_Outflow_TestRandomYesNo = struct {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
@@ -1079,7 +1146,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_LimitCount__InstanceState_t = struct {
                 pub const m_nCurrentCount: usize = 0x0; // int32
             };
@@ -1092,13 +1158,36 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub const CPulseCell_Test_MultiInflow_WithDefault = struct {
             };
             // Parent: None
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Step_DebugLog = struct {
@@ -1111,19 +1200,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseYieldingInflow = struct {
             };
@@ -1149,12 +1236,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -1173,6 +1258,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleOrdered = struct {
@@ -1196,6 +1286,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // e
             pub const CPulseCell_Val_TestDomainGetEntityName = struct {
             };
             // Parent: None
@@ -1217,6 +1310,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Wait = struct {
@@ -1272,6 +1370,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
             pub const CPulseCell_TestWaitWithCursorState = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
                 pub const m_WakeCancel: usize = 0x90; // CPulse_ResumePoint
@@ -1292,6 +1407,11 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleShuffled = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             };
@@ -1303,13 +1423,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Method = struct {
@@ -1327,7 +1440,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseValue = struct {
@@ -1340,20 +1459,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
@@ -1365,9 +1470,17 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_BooleanSwitchState = struct {
                 pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
-                pub const m_SubGraph: usize = 0xC0; // CPulse_OutflowConnection
+                pub const m_Always: usize = 0xC0; // CPulse_OutflowConnection
                 pub const m_WhenTrue: usize = 0x108; // CPulse_OutflowConnection
                 pub const m_WhenFalse: usize = 0x150; // CPulse_OutflowConnection
             };
@@ -1397,6 +1510,11 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Yield = struct {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -1417,7 +1535,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleRandom = struct {
@@ -1430,7 +1554,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Step_PublicOutput = struct {
@@ -1444,6 +1574,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // e
             pub const CPulseCell_Val_TestDomainFindEntityByName = struct {
             };
             // Parent: None
@@ -1473,6 +1606,11 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_Value_RandomInt = struct {
             };
             // Parent: None
@@ -1482,13 +1620,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPulseEditorHeaderText
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // e
             pub const CPulseCell_Step_TestDomainEntFire = struct {
                 pub const m_Input: usize = 0x48; // CUtlString
                 pub const flWaitValue: usize = 0x0; // float32
@@ -1508,6 +1647,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // MPulseExpressionAlias
             // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1515,7 +1655,9 @@ pub const source2_dumper = struct {
             // MPulseLegacyName
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
-            // 0
+            // MPulseExpressionAlias
+            //  
+            //  
             pub const CPulseCell_ExampleSelector = struct {
                 pub const m_OutflowList: usize = 0x48; // PulseSelectorOutflowList_t
             };
@@ -1523,6 +1665,7 @@ pub const source2_dumper = struct {
             // Field count: 6
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulse_CallInfo = struct {
                 pub const m_PortName: usize = 0x0; // PulseSymbol_t
@@ -1537,15 +1680,17 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1574,7 +1719,9 @@ pub const source2_dumper = struct {
             // MPulseLegacyName
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
-            // 0
+            // MPulseExpressionAlias
+            //  
+            //  
             pub const CPulseCell_ExampleCriteria = struct {
             };
             // Parent: None
@@ -1588,6 +1735,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_LimitCount = struct {
                 pub const m_nLimitCount: usize = 0x48; // int32
             };
@@ -1596,12 +1745,17 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_Step_CallExternalMethod = struct {
                 pub const m_MethodName: usize = 0x48; // PulseSymbol_t
-                pub const m_GameBlackboard: usize = 0x58; // PulseSymbol_t
-                pub const m_ExpectedArgs: usize = 0x68; // CUtlLeanVector<CPulseRuntimeMethodArg>
-                pub const m_nAsyncCallMode: usize = 0x78; // PulseMethodCallMode_t
-                pub const m_OnFinished: usize = 0x80; // CPulse_ResumePoint
+                pub const m_nBlackboardIndex: usize = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
+                pub const m_ExpectedArgs: usize = 0x60; // CUtlLeanVector<CPulseRuntimeMethodArg>
+                pub const m_nAsyncCallMode: usize = 0x70; // PulseMethodCallMode_t
+                pub const m_OnFinished: usize = 0x78; // CPulse_ResumePoint
             };
             // Parent: None
             // Field count: 3
@@ -1628,7 +1782,25 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseExpressionAlias
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseLegacyName
+            // MPropertyDescription
+            // MPropertyLeafSuggestionProviderFn
+            // MPulseExpressionAlias
+            //  
+            //  
             pub const CPulseCell_Step_TestDomainCreateFakeEntity = struct {
             };
             // Parent: None
@@ -1639,18 +1811,52 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // invalid
+            // bool
+            // uint
+            // string
+            // array
+            // VApplication001
+            // VEngineCvar007
+            // VStringTokenSystem001
+            // TestScriptMgr001
+            // VProcessUtils002
+            // VFileSystem017
+            // VAsyncFileSystem2_001
+            // ResourceSystem013
+            // ResourceManifestRegistry001
+            // ResourceHandleUtils001
+            // SchemaSystem_001
+            // ResourceCompilerSystem001
+            // VMaterialSystem2_001
+            // PostProcessingSystem_001
+            // InputSystemVersion001
+            // InputStackSystemVersion001
+            // RenderDeviceMgr001
+            // RenderUtils_001
+            // SoundSystem001
+            // SoundOpSystemEdit001
+            // SoundOpSystem001
+            // SteamAudio001
+            // VP4003
+            // Localize_001
+            // VMediaFoundation001
+            // VAvi001
+            // VWebm001
+            // VBik001
+            // MeshSystem001
+            // MeshUtils001
+            // RenderDevice003
+            // VRenderDeviceSetupV001
+            // RenderHardwareConfig002
+            // SceneSystem_002
+            // IPulseSystem_001
+            // SceneUtils_001
+            // WorldRendererMgr001
+            // AssetSystem001
+            // AssetSystemTest001
+            // ParticleSystemMgr003
+            // VScriptManager010
             pub const CPulseCell_CursorQueue = struct {
                 pub const m_nCursorsAllowedToRunParallel: usize = 0x98; // int32
             };
@@ -1664,11 +1870,21 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_Value_RandomFloat = struct {
             };
             // Parent: None
             // Field count: 0
             pub const CPulseExecCursor = struct {
+            };
+            // Parent: None
+            // Field count: 1
+            pub const TestComponent_t = struct {
+                pub const m_ComponentData: usize = 0x8; // CUtlString
             };
         };
     };

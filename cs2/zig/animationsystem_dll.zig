@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: animationsystem.dll
-        // Class count: 662
-        // Enum count: 139
+        // Class count: 695
+        // Enum count: 148
         pub const animationsystem_dll = struct {
             // Alignment: 4
             // Member count: 2
@@ -26,6 +26,16 @@ pub const source2_dumper = struct {
             pub const PulseMethodCallMode_t = enum(u32) {
                 SYNC_WAIT_FOR_COMPLETION = 0x0,
                 ASYNC_FIRE_AND_FORGET = 0x1
+            };
+            // Alignment: 4
+            // Member count: 6
+            pub const ParticleSetMethod_t = enum(u32) {
+                PARTICLE_SET_REPLACE_VALUE = 0x0,
+                PARTICLE_SET_SCALE_INITIAL_VALUE = 0x1,
+                PARTICLE_SET_ADD_TO_INITIAL_VALUE = 0x2,
+                PARTICLE_SET_RAMP_CURRENT_VALUE = 0x3,
+                PARTICLE_SET_SCALE_CURRENT_VALUE = 0x4,
+                PARTICLE_SET_ADD_TO_CURRENT_VALUE = 0x5
             };
             // Alignment: 4
             // Member count: 17
@@ -120,6 +130,14 @@ pub const source2_dumper = struct {
                 PF_BIAS_TYPE_COUNT = 0x3
             };
             // Alignment: 1
+            // Member count: 4
+            pub const CNmTargetWarpNode__TargetUpdateRule_t = enum(u8) {
+                None = 0x0,
+                Recalculate = 0x1,
+                Offset = 0x2,
+                RecalculateOrOffset = 0x3
+            };
+            // Alignment: 1
             // Member count: 6
             pub const SharedMovementGait_t = enum(u8) {
                 eInvalid = 0xFF,
@@ -154,7 +172,7 @@ pub const source2_dumper = struct {
                 IKTARGETCOORDINATESYSTEM_COUNT = 0x2
             };
             // Alignment: 4
-            // Member count: 31
+            // Member count: 32
             pub const ParticleFloatType_t = enum(u32) {
                 PF_TYPE_INVALID = 0xFFFFFFFF,
                 PF_TYPE_LITERAL = 0x0,
@@ -170,23 +188,24 @@ pub const source2_dumper = struct {
                 PF_TYPE_CONCURRENT_DEF_COUNT = 0xA,
                 PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xB,
                 PF_TYPE_SNAPSHOT_COUNT = 0xC,
-                PF_TYPE_RENDERER_CAMERA_DISTANCE = 0xD,
-                PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0xE,
-                PF_TYPE_PARTICLE_NOISE = 0xF,
-                PF_TYPE_PARTICLE_AGE = 0x10,
-                PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x11,
-                PF_TYPE_PARTICLE_FLOAT = 0x12,
-                PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x13,
-                PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x14,
-                PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x15,
-                PF_TYPE_PARTICLE_SPEED = 0x16,
-                PF_TYPE_PARTICLE_NUMBER = 0x17,
-                PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x18,
-                PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x19,
-                PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1A,
-                PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1B,
-                PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1C,
-                PF_TYPE_COUNT = 0x1D
+                PF_TYPE_SNAPSHOT_CHANGED = 0xD,
+                PF_TYPE_RENDERER_CAMERA_DISTANCE = 0xE,
+                PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0xF,
+                PF_TYPE_PARTICLE_NOISE = 0x10,
+                PF_TYPE_PARTICLE_AGE = 0x11,
+                PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x12,
+                PF_TYPE_PARTICLE_FLOAT = 0x13,
+                PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x14,
+                PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x15,
+                PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x16,
+                PF_TYPE_PARTICLE_SPEED = 0x17,
+                PF_TYPE_PARTICLE_NUMBER = 0x18,
+                PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x19,
+                PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1A,
+                PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1B,
+                PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1C,
+                PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1D,
+                PF_TYPE_COUNT = 0x1E
             };
             // Alignment: 1
             // Member count: 4
@@ -272,6 +291,32 @@ pub const source2_dumper = struct {
                 HermiteFeaturePreserving = 0x2,
                 Bezier = 0x3
             };
+            // Alignment: 4
+            // Member count: 5
+            pub const ParticleColorBlendMode_t = enum(u32) {
+                PARTICLEBLEND_DEFAULT = 0x0,
+                PARTICLEBLEND_OVERLAY = 0x1,
+                PARTICLEBLEND_DARKEN = 0x2,
+                PARTICLEBLEND_LIGHTEN = 0x3,
+                PARTICLEBLEND_MULTIPLY = 0x4
+            };
+            // Alignment: 4
+            // Member count: 13
+            pub const ParticleColorBlendType_t = enum(u32) {
+                PARTICLE_COLOR_BLEND_MULTIPLY = 0x0,
+                PARTICLE_COLOR_BLEND_MULTIPLY2X = 0x1,
+                PARTICLE_COLOR_BLEND_DIVIDE = 0x2,
+                PARTICLE_COLOR_BLEND_ADD = 0x3,
+                PARTICLE_COLOR_BLEND_SUBTRACT = 0x4,
+                PARTICLE_COLOR_BLEND_MOD2X = 0x5,
+                PARTICLE_COLOR_BLEND_SCREEN = 0x6,
+                PARTICLE_COLOR_BLEND_MAX = 0x7,
+                PARTICLE_COLOR_BLEND_MIN = 0x8,
+                PARTICLE_COLOR_BLEND_REPLACE = 0x9,
+                PARTICLE_COLOR_BLEND_AVERAGE = 0xA,
+                PARTICLE_COLOR_BLEND_NEGATE = 0xB,
+                PARTICLE_COLOR_BLEND_LUMINANCE = 0xC
+            };
             // Alignment: 1
             // Member count: 4
             pub const NmTransitionRuleCondition_t = enum(u8) {
@@ -290,6 +335,12 @@ pub const source2_dumper = struct {
                 MESH_BUFFER_USAGE_MESHLET_TRIS = 0x8,
                 MESH_BUFFER_USAGE_RT_PROXY = 0x10,
                 MESH_BUFFER_USAGE_VERTEX_ALBEDO = 0x20
+            };
+            // Alignment: 4
+            // Member count: 2
+            pub const NmGraphDebugMode_t = enum(u32) {
+                Off = 0x0,
+                On = 0x1
             };
             // Alignment: 4
             // Member count: 2
@@ -483,6 +534,13 @@ pub const source2_dumper = struct {
             };
             // Alignment: 4
             // Member count: 3
+            pub const ParticleDirectionNoiseType_t = enum(u32) {
+                PARTICLE_DIR_NOISE_PERLIN = 0x0,
+                PARTICLE_DIR_NOISE_CURL = 0x1,
+                PARTICLE_DIR_NOISE_WORLEY_BASIC = 0x2
+            };
+            // Alignment: 4
+            // Member count: 3
             pub const AnimParamNetworkSetting = enum(u32) {
                 Auto = 0x0,
                 AlwaysNetwork = 0x1,
@@ -559,6 +617,13 @@ pub const source2_dumper = struct {
                 SearchOnlyGraphEvents = 0x6,
                 SearchOnlyAnimEvents = 0x7,
                 SearchBothGraphAndAnimEvents = 0x8
+            };
+            // Alignment: 4
+            // Member count: 3
+            pub const AnimationType_t = enum(u32) {
+                ANIMATION_TYPE_FIXED_RATE = 0x0,
+                ANIMATION_TYPE_FIT_LIFETIME = 0x1,
+                ANIMATION_TYPE_MANUAL_FRAMES = 0x2
             };
             // Alignment: 4
             // Member count: 37
@@ -777,6 +842,13 @@ pub const source2_dumper = struct {
                 FLAG_PROCEDURAL = 0x400000
             };
             // Alignment: 4
+            // Member count: 3
+            pub const GPUParticleCollisionMode_t = enum(u32) {
+                PARTICLE_GPU_COLLISION_MODE_RT = 0x0,
+                PARTICLE_GPU_COLLISION_MODE_DEPTH = 0x1,
+                PARTICLE_GPU_COLLISION_MODE_HYBRID = 0x2
+            };
+            // Alignment: 4
             // Member count: 4
             pub const MorphBundleType_t = enum(u32) {
                 MORPH_BUNDLE_TYPE_NONE = 0x0,
@@ -899,7 +971,7 @@ pub const source2_dumper = struct {
                 PF_NOISE_MODIFIER_RINGS = 0x3
             };
             // Alignment: 4
-            // Member count: 20
+            // Member count: 21
             pub const ParticleVecType_t = enum(u32) {
                 PVEC_TYPE_INVALID = 0xFFFFFFFF,
                 PVEC_TYPE_LITERAL = 0x0,
@@ -908,19 +980,20 @@ pub const source2_dumper = struct {
                 PVEC_TYPE_PARTICLE_VECTOR = 0x3,
                 PVEC_TYPE_PARTICLE_INITIAL_VECTOR = 0x4,
                 PVEC_TYPE_PARTICLE_VELOCITY = 0x5,
-                PVEC_TYPE_CP_VALUE = 0x6,
-                PVEC_TYPE_CP_RELATIVE_POSITION = 0x7,
-                PVEC_TYPE_CP_RELATIVE_DIR = 0x8,
-                PVEC_TYPE_CP_RELATIVE_RANDOM_DIR = 0x9,
-                PVEC_TYPE_FLOAT_COMPONENTS = 0xA,
-                PVEC_TYPE_FLOAT_INTERP_CLAMPED = 0xB,
-                PVEC_TYPE_FLOAT_INTERP_OPEN = 0xC,
-                PVEC_TYPE_FLOAT_INTERP_GRADIENT = 0xD,
-                PVEC_TYPE_RANDOM_UNIFORM = 0xE,
-                PVEC_TYPE_RANDOM_UNIFORM_OFFSET = 0xF,
-                PVEC_TYPE_CP_DELTA = 0x10,
-                PVEC_TYPE_CLOSEST_CAMERA_POSITION = 0x11,
-                PVEC_TYPE_COUNT = 0x12
+                PVEC_TYPE_PARTICLE_GRAVITY = 0x6,
+                PVEC_TYPE_CP_VALUE = 0x7,
+                PVEC_TYPE_CP_RELATIVE_POSITION = 0x8,
+                PVEC_TYPE_CP_RELATIVE_DIR = 0x9,
+                PVEC_TYPE_CP_RELATIVE_RANDOM_DIR = 0xA,
+                PVEC_TYPE_FLOAT_COMPONENTS = 0xB,
+                PVEC_TYPE_FLOAT_INTERP_CLAMPED = 0xC,
+                PVEC_TYPE_FLOAT_INTERP_OPEN = 0xD,
+                PVEC_TYPE_FLOAT_INTERP_GRADIENT = 0xE,
+                PVEC_TYPE_RANDOM_UNIFORM = 0xF,
+                PVEC_TYPE_RANDOM_UNIFORM_OFFSET = 0x10,
+                PVEC_TYPE_CP_DELTA = 0x11,
+                PVEC_TYPE_CLOSEST_CAMERA_POSITION = 0x12,
+                PVEC_TYPE_COUNT = 0x13
             };
             // Alignment: 1
             // Member count: 5
@@ -1263,6 +1336,14 @@ pub const source2_dumper = struct {
                 MAX_PATTACH_TYPES = 0x10
             };
             // Alignment: 4
+            // Member count: 4
+            pub const CNmEventTargetEntity_t = enum(u32) {
+                Self = 0x0,
+                Weapon = 0x1,
+                HeldItem = 0x2,
+                Custom = 0x3
+            };
+            // Alignment: 4
             // Member count: 3
             pub const FieldNetworkOption = enum(u32) {
                 Auto = 0x0,
@@ -1430,7 +1511,7 @@ pub const source2_dumper = struct {
                 BlendSpace_Model_TranslationOnly = 0x3
             };
             // Alignment: 4
-            // Member count: 8
+            // Member count: 10
             pub const MovementCapability_t = enum(u32) {
                 eStrafe = 0x0,
                 eIdleTurn = 0x1,
@@ -1439,7 +1520,9 @@ pub const source2_dumper = struct {
                 eInstantStop = 0x4,
                 eShuffle = 0x5,
                 ePlantedTurn = 0x6,
-                eCount = 0x7
+                eUseStartAsPlantedTurn = 0x7,
+                eLean = 0x8,
+                eCount = 0x9
             };
             // Alignment: 4
             // Member count: 5
@@ -1499,18 +1582,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
             pub const CPulseCell_WaitForCursorsWithTag = struct {
                 pub const m_bTagSelfWhenComplete: usize = 0x98; // bool
                 pub const m_nDesiredKillPriority: usize = 0x9C; // PulseCursorCancelPriority_t
@@ -1519,8 +1590,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Base = struct {
@@ -1542,7 +1611,9 @@ pub const source2_dumper = struct {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyDescription
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
@@ -1557,12 +1628,7 @@ pub const source2_dumper = struct {
             // MPulsePolymorphicDependentArg
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
+            // MPulsePolymorphicDependentArg
             pub const CPulseCell_PickBestOutflowSelector = struct {
                 pub const m_nCheckType: usize = 0x48; // PulseBestOutflowRules_t
                 pub const m_OutflowList: usize = 0x50; // PulseSelectorOutflowList_t
@@ -1579,17 +1645,21 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_WaitForObservable = struct {
                 pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
                 pub const m_OnTrue: usize = 0xC0; // CPulse_ResumePoint
@@ -1632,17 +1702,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // d
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseSignatureForOutflow
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_FireCursors = struct {
                 pub const m_Outflows: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -1681,9 +1755,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const CPulseCell_BaseRequirement = struct {
             };
             // Parent: None
@@ -1693,13 +1765,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -1707,18 +1779,17 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
-            // MPulseEditorHeaderIcon
-            // BLE_VK_LAYER_VALVE_steam_overlay_1=1
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // CUtlOrderedMap<class PulseCursorID_t,struct PulseGraphExecutionHistoryCursorDesc_t *,class CDefLess<class PulseCursorID_t>,int>:
+            // MPropertyDescription
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const OutflowWithRequirements_t = struct {
                 pub const m_Connection: usize = 0x0; // CPulse_OutflowConnection
@@ -1732,29 +1803,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // SORT_BY_OUTFLOW_INDEX
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
             pub const CPulseCell_IsRequirementValid = struct {
             };
             // Parent: None
@@ -1765,17 +1817,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // d
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseSignatureForOutflow
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_Value_Gradient = struct {
                 pub const m_Gradient: usize = 0x48; // CColorGradient
             };
@@ -1785,15 +1841,17 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
             pub const CPulseCursorFuncs = struct {
             };
@@ -1817,10 +1875,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             pub const CPulseCell_Inflow_GraphHook = struct {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
             };
@@ -1838,26 +1897,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_BaseEntrypoint = struct {
                 pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
                 pub const m_RegisterMap: usize = 0x50; // PulseRegisterMap_t
@@ -1868,7 +1911,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // CUtlOrderedMap<class PulseCursorID_t,struct PulseGraphExecutionHistoryCursorDesc_t *,class CDefLess<class PulseCursorID_t>,int>:
+            // MPropertyDescription
             pub const CPulseCell_WaitForCursorsWithTagBase = struct {
                 pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
                 pub const m_WaitComplete: usize = 0x50; // CPulse_ResumePoint
@@ -1893,26 +1936,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            //  
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
             pub const CPulseCell_IntervalTimer = struct {
                 pub const m_Completed: usize = 0x48; // CPulse_ResumePoint
                 pub const m_OnInterval: usize = 0x90; // SignatureOutflow_Continue
@@ -1928,23 +1964,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1961,34 +1983,23 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -1999,21 +2010,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
             pub const CPulseCell_Value_Curve = struct {
                 pub const m_Curve: usize = 0x48; // CPiecewiseCurve
             };
@@ -2025,10 +2033,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             pub const CPulseCell_Inflow_EventHandler = struct {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
             };
@@ -2037,14 +2046,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // i
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
             pub const CPulseCell_BaseFlow = struct {
             };
             // Parent: None
@@ -2061,7 +2072,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_BaseLerp__CursorState_t = struct {
                 pub const m_StartTime: usize = 0x0; // GameTime_t
                 pub const m_EndTime: usize = 0x4; // GameTime_t
@@ -2076,41 +2086,20 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
             pub const CPulseArraylib = struct {
             };
             // Parent: None
@@ -2123,13 +2112,23 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
             pub const CPulseCell_Timeline = struct {
@@ -2144,10 +2143,11 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             pub const CPulseCell_Inflow_EntOutputHandler = struct {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
                 pub const m_SourceOutput: usize = 0x90; // PulseSymbol_t
@@ -2171,7 +2171,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_LimitCount__InstanceState_t = struct {
                 pub const m_nCurrentCount: usize = 0x0; // int32
             };
@@ -2183,13 +2182,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
             pub const CPulseCell_Step_DebugLog = struct {
             };
             // Parent: None
@@ -2204,34 +2202,23 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
+            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_BaseYieldingInflow = struct {
             };
             // Parent: None
@@ -2260,21 +2247,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // d
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -2297,7 +2274,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleOrdered = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -2332,6 +2311,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Wait = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -2352,7 +2336,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleShuffled = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -2366,10 +2352,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            //  
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             pub const CPulseCell_Inflow_Method = struct {
                 pub const m_MethodName: usize = 0x80; // PulseSymbol_t
                 pub const m_Description: usize = 0x90; // CUtlString
@@ -2384,20 +2371,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // i
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2411,20 +2390,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
@@ -2436,9 +2401,17 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
             pub const CPulseCell_BooleanSwitchState = struct {
                 pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
-                pub const m_SubGraph: usize = 0xC0; // CPulse_OutflowConnection
+                pub const m_Always: usize = 0xC0; // CPulse_OutflowConnection
                 pub const m_WhenTrue: usize = 0x108; // CPulse_OutflowConnection
                 pub const m_WhenFalse: usize = 0x150; // CPulse_OutflowConnection
             };
@@ -2448,8 +2421,27 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Yield = struct {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
@@ -2471,7 +2463,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // i
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleRandom = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -2482,20 +2480,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // i
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2531,10 +2521,31 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CPulseCell_Value_RandomInt = struct {
+            };
+            // Parent: None
+            // Field count: 11
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CAnimationLayer = struct {
+                pub const m_hSequence: usize = 0x0; // CAnimNetVar<int32>
+                pub const m_flPrevCycle: usize = 0xC; // float32
+                pub const m_flCycle: usize = 0x10; // CAnimNetVar<float32>
+                pub const m_flWeight: usize = 0x1C; // CAnimNetVar<float32>
+                pub const m_nOrder: usize = 0x28; // CAnimNetVar<int32>
+                pub const m_bLooping: usize = 0x34; // bool
+                pub const m_nFlags: usize = 0x38; // int32
+                pub const m_bSequenceFinished: usize = 0x3C; // bool
+                pub const m_flKillRate: usize = 0x40; // float32
+                pub const m_flKillDelay: usize = 0x44; // float32
+                pub const m_nPriority: usize = 0x48; // int32
             };
             // Parent: None
             // Field count: 6
@@ -2555,29 +2566,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // SORT_BY_OUTFLOW_INDEX
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
             pub const CPulseCell_InlineNodeSkipSelector = struct {
                 pub const m_nFlowNodeID: usize = 0x48; // PulseDocNodeID_t
                 pub const m_bAnd: usize = 0x4C; // bool
@@ -2591,26 +2583,21 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
             // MPropertyDescription
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
             pub const CPulseCell_LimitCount = struct {
                 pub const m_nLimitCount: usize = 0x48; // int32
             };
@@ -2621,19 +2608,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
             pub const CPulseCell_Step_CallExternalMethod = struct {
                 pub const m_MethodName: usize = 0x48; // PulseSymbol_t
-                pub const m_GameBlackboard: usize = 0x58; // PulseSymbol_t
-                pub const m_ExpectedArgs: usize = 0x68; // CUtlLeanVector<CPulseRuntimeMethodArg>
-                pub const m_nAsyncCallMode: usize = 0x78; // PulseMethodCallMode_t
-                pub const m_OnFinished: usize = 0x80; // CPulse_ResumePoint
+                pub const m_nBlackboardIndex: usize = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
+                pub const m_ExpectedArgs: usize = 0x60; // CUtlLeanVector<CPulseRuntimeMethodArg>
+                pub const m_nAsyncCallMode: usize = 0x70; // PulseMethodCallMode_t
+                pub const m_OnFinished: usize = 0x78; // CPulse_ResumePoint
             };
             // Parent: None
             // Field count: 3
@@ -2658,18 +2644,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
             pub const CPulseCell_CursorQueue = struct {
                 pub const m_nCursorsAllowedToRunParallel: usize = 0x98; // int32
             };
@@ -2685,11 +2659,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
             pub const CPulseCell_Value_RandomFloat = struct {
             };
             // Parent: None
@@ -2712,6 +2687,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CZeroPoseUpdateNode = struct {
             };
             // Parent: None
@@ -2719,9 +2697,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // (
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Y
             pub const CSlowDownOnSlopesUpdateNode = struct {
                 pub const m_flSlowDownStrength: usize = 0x70; // float32
             };
@@ -2730,12 +2708,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // L
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const COrientationWarpUpdateNode = struct {
                 pub const m_eMode: usize = 0x74; // OrientationWarpMode_t
                 pub const m_hTargetParam: usize = 0x78; // CAnimParamHandle
@@ -2796,6 +2778,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CFootCycle = struct {
             };
             // Parent: None
@@ -2805,16 +2792,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
             // PVEC_TYPE_INVALID
             // PVEC_TYPE_LITERAL_COLOR
             // PVEC_TYPE_NAMED_VALUE
             // PVEC_TYPE_PARTICLE_VECTOR
             // PVEC_TYPE_PARTICLE_INITIAL_VECTOR
             // PVEC_TYPE_PARTICLE_VELOCITY
+            // PVEC_TYPE_PARTICLE_GRAVITY
             // PVEC_TYPE_CP_VALUE
             // PVEC_TYPE_CP_RELATIVE_POSITION
             // PVEC_TYPE_CP_RELATIVE_DIR
@@ -2829,8 +2813,35 @@ pub const source2_dumper = struct {
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
             // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_SET_SCALE_INITIAL_VALUE
+            // PARTICLE_SET_ADD_TO_INITIAL_VALUE
+            // PARTICLE_SET_RAMP_CURRENT_VALUE
+            // PARTICLE_SET_SCALE_CURRENT_VALUE
+            // PARTICLE_SET_ADD_TO_CURRENT_VALUE
+            // MPropertyFriendlyName
+            // PARTICLEBLEND_OVERLAY
+            // PARTICLEBLEND_DARKEN
+            // PARTICLEBLEND_LIGHTEN
+            // PARTICLEBLEND_MULTIPLY
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_COLOR_BLEND_MULTIPLY2X
+            // PARTICLE_COLOR_BLEND_DIVIDE
+            // PARTICLE_COLOR_BLEND_ADD
+            // PARTICLE_COLOR_BLEND_SUBTRACT
+            // PARTICLE_COLOR_BLEND_MOD2X
+            // PARTICLE_COLOR_BLEND_SCREEN
             pub const CParticleModelInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleModelType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
@@ -2844,7 +2855,26 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CInputStreamUpdateNode = struct {
+            };
+            // Parent: None
+            // Field count: 12
+            pub const CNmFootIKTask = struct {
+                pub const m_nLeftEffectorBoneIdx: usize = 0x48; // int32
+                pub const m_nRightEffectorBoneIdx: usize = 0x4C; // int32
+                pub const m_leftTargetTransform: usize = 0x50; // CTransform
+                pub const m_rightTargetTransform: usize = 0x70; // CTransform
+                pub const m_nLeftTargetBoneIdx: usize = 0x90; // int32
+                pub const m_nRightTargetBoneIdx: usize = 0x94; // int32
+                pub const m_leftTarget: usize = 0xA0; // CNmTarget
+                pub const m_rightTarget: usize = 0xD0; // CNmTarget
+                pub const m_blendMode: usize = 0x100; // NmIKBlendMode_t
+                pub const m_flBlendWeight: usize = 0x104; // float32
+                pub const m_bIsTargetInWorldSpace: usize = 0x108; // bool
+                pub const m_bIsRunningFromDeserializedData: usize = 0x109; // bool
             };
             // Parent: None
             // Field count: 3
@@ -2879,26 +2909,33 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmParameterizedBlendNode__CDefinition = struct {
-                pub const m_sourceNodeIndices: usize = 0x10; // CUtlVectorFixedGrowable<int16,5>
-                pub const m_nInputParameterValueNodeIdx: usize = 0x38; // int16
-                pub const m_bAllowLooping: usize = 0x3A; // bool
+                pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
+                pub const m_bAllowLooping: usize = 0x2A; // bool
             };
             // Parent: None
             // Field count: 0
             pub const CNmScaleTask = struct {
+            };
+            // Parent: None
+            // Field count: 12
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const PerTickSettings_t = struct {
+                pub const m_startingLocalToWorld: usize = 0x0; // CTransform
+                pub const m_prevLocalToWorld: usize = 0x20; // CTransform
+                pub const m_finalLocalToWorld: usize = 0x40; // CTransform
+                pub const m_rootMotion: usize = 0x60; // CRootMotion
+                pub const m_updateID: usize = 0x69C; // int32
+                pub const m_flLastTimeStep: usize = 0x6A4; // float32
+                pub const m_flPrevAnimTime: usize = 0x6A8; // float32
+                pub const m_flNextAnimTime: usize = 0x6AC; // float32
+                pub const m_bAwaken: usize = 0x6B4; // bool
+                pub const m_bTeleported: usize = 0x6B5; // bool
+                pub const m_bIsClient: usize = 0x6B6; // bool
+                pub const m_bIsPredicted: usize = 0x6B7; // bool
             };
             // Parent: None
             // Field count: 1
@@ -2929,22 +2966,22 @@ pub const source2_dumper = struct {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // OnExit
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // IgnoreInactiveEvents
             // PreferHighestWeight
             // PreferHighestProgress
             // OperatorOr
-            // OperatorAnd
-            // SearchOnlyGraphEvents
-            // SearchOnlyAnimEvents
-            // SearchBothGraphAndAnimEvents
             pub const CNmFrameSnapEvent = struct {
-                pub const m_frameSnapMode: usize = 0x20; // NmFrameSnapEventMode_t
+                pub const m_frameSnapMode: usize = 0x18; // NmFrameSnapEventMode_t
             };
             // Parent: None
             // Field count: 2
@@ -3030,16 +3067,39 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // IgnoreInactiveEvents
+            // PreferHighestWeight
+            // PreferHighestProgress
+            // OperatorOr
+            // OperatorAnd
+            // SearchOnlyGraphEvents
+            // SearchOnlyAnimEvents
+            // SearchBothGraphAndAnimEvents
+            // GreaterThanEqualToEventIndex
+            // IndexOnly
+            // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // LessThanEqual
+            // NearEqual
+            // GreaterThan
+            // LessThan
+            // ClampTo360
+            // FlipHemisphere
+            // FlipHemisphereNegate
             pub const CNmTransitionEventConditionNode__CDefinition = struct {
                 pub const m_requireRuleID: usize = 0x10; // CGlobalSymbol
                 pub const m_eventConditionRules: usize = 0x18; // CNmBitFlags
@@ -3056,9 +3116,38 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub const CTaskStatusAnimTag = struct {
+            };
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // Y
+            // eMoveHeading
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // eMoveHeading
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // AddCorrectionDelta
+            // MPropertyFriendlyName
+            // ReachDestinationOnWarpTagEnd
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // IkEndEffector_Bone
+            // MPropertyFriendlyName
+            // IkTarget_Bone
+            // IkTarget_Parameter_ModelSpace
+            // IkTarget_Parameter_WorldSpace
+            pub const CStateNodeInstanceData = struct {
+                pub const m_stateWeights: usize = 0x0; // CRelativeArray<float32>
+                pub const m_vTransitionVelocityDeltaWS: usize = 0x8; // Vector
+                pub const m_currentStateStartTime: usize = 0x20; // CAnimNetVar<float32>
+                pub const m_resetCount: usize = 0x3C; // CAnimNetVar<uint8>
             };
             // Parent: None
             // Field count: 5
@@ -3127,8 +3216,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            pub const MovementGaitId_t = struct {
-                pub const m_sId: usize = 0x0; // CGlobalSymbol
+            // MGetKV3ClassDefaults
+            pub const CChoreoInstanceData = struct {
+                pub const m_AnimOverlay: usize = 0x0; // CAnimationLayer[12]
             };
             // Parent: None
             // Field count: 1
@@ -3137,11 +3227,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeVarIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -3181,6 +3275,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CSequenceUpdateNode = struct {
                 pub const m_hSequence: usize = 0x78; // HSequence
                 pub const m_duration: usize = 0x7C; // float32
@@ -3188,9 +3286,25 @@ pub const source2_dumper = struct {
                 pub const m_tags: usize = 0x98; // CUtlVector<TagSpan_t>
             };
             // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CStateMachineInstanceData = struct {
+                pub const m_flTimeInState: usize = 0x0; // float32
+                pub const m_currentTransitionIndex: usize = 0x4; // CAnimNetVar<int32>
+                pub const m_prevStateIndex: usize = 0x10; // int32
+                pub const m_scheduledTransitionIndex: usize = 0x14; // int32
+            };
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3219,34 +3333,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Warp Z
+            // Rotation Only
             pub const CNmClipReferenceNode__CDefinition = struct {
             };
             // Parent: None
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmGraphDefinition__ExternalGraphSlot_t = struct {
                 pub const m_nNodeIdx: usize = 0x0; // int16
@@ -3258,12 +3352,22 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // CURSOR_ADD_TAG
+            // CURSOR_REMOVE_TAG
+            // CURSOR_RETIRED
+            // REQUIREMENT_PASS
+            // REQUIREMENT_FAIL
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
             pub const PulseRuntimeEntrypointIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -3271,9 +3375,6 @@ pub const source2_dumper = struct {
             // Field count: 8
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3296,13 +3397,26 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeDomainValueIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int16
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const LookData = struct {
+                pub const m_vLookTarget: usize = 0x0; // CAnimNetVar<Vector>
             };
             // Parent: None
             // Field count: 11
@@ -3359,6 +3473,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulse_Chunk = struct {
                 pub const m_Instructions: usize = 0x0; // CUtlLeanVector<PGDInstruction_t>
                 pub const m_Registers: usize = 0x10; // CUtlLeanVector<CPulse_RegisterInfo>
@@ -3368,6 +3483,10 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3385,11 +3504,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeInvokeIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -3425,10 +3548,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            //  
             pub const CNmIDEventNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_eventConditionRules: usize = 0x14; // CNmBitFlags
@@ -3480,11 +3601,25 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // @q
-            // MGetKV3ClassDefaults
-            // MCustomFGDMetadata
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            //  
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const CPerParticleVecInput = struct {
             };
             // Parent: None
@@ -3526,6 +3661,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // a
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmVectorInfoNode__CDefinition = struct {
@@ -3548,17 +3688,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
+            // (
             pub const AnimationSnapshot_t = struct {
                 pub const m_nEntIndex: usize = 0x110; // int32
                 pub const m_modelName: usize = 0x118; // CUtlString
@@ -3660,6 +3794,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3668,7 +3804,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const CStanceOverrideUpdateNode = struct {
                 pub const m_footStanceInfo: usize = 0x70; // CUtlVector<StanceInfo_t>
                 pub const m_pStanceSourceNode: usize = 0x88; // CAnimUpdateNodeRef
@@ -3696,6 +3833,17 @@ pub const source2_dumper = struct {
                 pub const m_sHitGroup: usize = 0x8; // CGlobalSymbol
             };
             // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const CBlend2DInstanceData = struct {
+                pub const m_dampedValue: usize = 0x8; // Vector2D
+                pub const m_flCycle: usize = 0x44; // float32
+                pub const m_flPrevCycle: usize = 0x48; // float32
+            };
+            // Parent: None
             // Field count: 2
             //
             // Metadata:
@@ -3706,10 +3854,28 @@ pub const source2_dumper = struct {
                 pub const m_weight: usize = 0x4; // float32
             };
             // Parent: None
-            // Field count: 11
+            // Field count: 12
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            pub const CDirectPlaybackInstanceData = struct {
+                pub const m_vTargetPosition: usize = 0x0; // Vector
+                pub const m_flTargetFacing: usize = 0xC; // float32
+                pub const m_flInterpEndTime: usize = 0x10; // float32
+                pub const m_weights: usize = 0x14; // float32[4]
+                pub const m_sequences: usize = 0x24; // SequenceData[4]
+                pub const m_currentSequenceIndex: usize = 0x104; // uint32
+                pub const m_currentSequenceData: usize = 0x108; // CAnimNetVar<uint64>
+                pub const m_flFadeInTime: usize = 0x118; // float32
+                pub const m_flFadeOutTime: usize = 0x11C; // float32
+                pub const m_flForcedCycle: usize = 0x120; // CAnimNetVar<float32>
+                pub const m_bResetPending: usize = 0x130; // bool
+                pub const m_SequenceCycleZeroTime: usize = 0x138; // CAnimNetVar<float32>
+            };
+            // Parent: None
+            // Field count: 11
+            //
+            // Metadata:
             // MGetKV3ClassDefaults
             // Y
             // Z
@@ -3736,6 +3902,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // a
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmTransitionNode__CDefinition = struct {
                 pub const m_nTargetStateNodeIdx: usize = 0x10; // int16
                 pub const m_nDurationOverrideNodeIdx: usize = 0x12; // int16
@@ -3756,11 +3927,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeRegisterIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int16
             };
@@ -3769,9 +3944,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // l
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3784,6 +3961,16 @@ pub const source2_dumper = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x18; // int16
                 pub const m_easingOp: usize = 0x1A; // NmEasingOperation_t
                 pub const m_bUseStartValue: usize = 0x1B; // bool
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            pub const CAnimationGraphInstance = struct {
+                pub const m_bTagDispatchDirty: usize = 0x329; // bool
             };
             // Parent: None
             // Field count: 7
@@ -3816,6 +4003,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CRootUpdateNode = struct {
             };
             // Parent: None
@@ -3823,13 +4012,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // AngleVertical
-            // Distance
-            // DistanceHorizontalOnly
-            // DistanceVerticalOnly
-            // DeltaOrientationX
-            // DeltaOrientationY
-            // DeltaOrientationZ
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // Recalculate
+            // Offset
+            // RecalculateOrOffset
             // ClampDuration
             // Synchronized
             // MatchSourceTime
@@ -3839,7 +4028,6 @@ pub const source2_dumper = struct {
             // PreferClosestSyncEventID
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
             // Z
@@ -3862,6 +4050,10 @@ pub const source2_dumper = struct {
             // Pose
             // Special
             // Pose
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmTargetOffsetNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_bIsBoneSpaceOffset: usize = 0x12; // bool
@@ -3869,9 +4061,20 @@ pub const source2_dumper = struct {
                 pub const m_translationOffset: usize = 0x30; // Vector
             };
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const MotionMatchingInstanceData = struct {
+                pub const m_currentSelection: usize = 0x2C; // MotionSelection
+                pub const m_previousSelection: usize = 0x84; // MotionSelection
+            };
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CMotionGraphUpdateNode = struct {
@@ -3883,17 +4086,30 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // LessThanEqual
+            // NearEqual
+            // GreaterThan
+            // LessThan
+            // ClampTo360
+            // FlipHemisphere
+            // FlipHemisphereNegate
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
-            // Additive
-            // ModelSpace
-            // AllowMoveY
-            // AllowMoveZ
-            // AllowFacingPitch
-            // ListenForEvents
-            // GreaterThanEqual
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
             pub const CNmFloatAngleMathNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_operation: usize = 0x12; // CNmFloatAngleMathNode::Operation_t
@@ -3910,16 +4126,12 @@ pub const source2_dumper = struct {
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3980,16 +4192,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Warp Z
             pub const CNmReferencedGraphNode__CDefinition = struct {
                 pub const m_nReferencedGraphIdx: usize = 0x10; // int16
                 pub const m_nFallbackNodeIdx: usize = 0x12; // int16
@@ -4019,17 +4222,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
             pub const CNmClipSelectorNode__CDefinition = struct {
-                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
-                pub const m_conditionNodeIndices: usize = 0x28; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,8>
+                pub const m_conditionNodeIndices: usize = 0x28; // CUtlLeanVectorFixedGrowable<int16,8>
             };
             // Parent: None
             // Field count: 9
@@ -4038,6 +4236,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4070,6 +4269,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmIsExternalPoseSetNode__CDefinition = struct {
                 pub const m_nExternalPoseNodeIdx: usize = 0x10; // int16
             };
@@ -4086,10 +4290,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // D
             pub const CAnimGraphNetworkSettings = struct {
                 pub const m_bNetworkingEnabled: usize = 0x20; // bool
             };
@@ -4099,9 +4302,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // (
             pub const CSingleFrameUpdateNode = struct {
                 pub const m_actions: usize = 0x58; // CUtlVector<CSmartPtr<CAnimActionUpdater>>
                 pub const m_hPoseCacheHandle: usize = 0x70; // CPoseHandle
@@ -4112,6 +4313,8 @@ pub const source2_dumper = struct {
             // Field count: 7
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4130,10 +4333,6 @@ pub const source2_dumper = struct {
             // Field count: 4
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4163,9 +4362,42 @@ pub const source2_dumper = struct {
             pub const CBlockSelectionMetricEvaluator = struct {
             };
             // Parent: None
+            // Field count: 18
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const MovementData = struct {
+                pub const m_goalWayPointPos: usize = 0x0; // Vector
+                pub const m_vMoveDir: usize = 0xC; // CAnimNetVar<Vector>
+                pub const m_vAcceleration: usize = 0x20; // CAnimNetVar<Vector>
+                pub const m_flCurrentMoveSpeed: usize = 0x34; // CAnimNetVar<float32>
+                pub const m_flTargetMoveSpeed: usize = 0x40; // CAnimNetVar<float32>
+                pub const m_flGoalDistance: usize = 0x4C; // CAnimNetVar<float32>
+                pub const m_flBoundaryRadius: usize = 0x58; // CAnimNetVar<float32>
+                pub const m_bGoalChanged: usize = 0x64; // bool
+                pub const m_bHasPath: usize = 0x68; // CAnimNetVar<bool>
+                pub const m_flFacingHeading: usize = 0x74; // CAnimNetVar<float32>
+                pub const m_vManualFacingDirection: usize = 0x80; // Vector
+                pub const m_vManualFacingTarget: usize = 0x8C; // VectorWS
+                pub const m_nFacingMode: usize = 0x98; // CAnimNetVar<uint8>
+                pub const m_bForceFacing: usize = 0xA4; // CAnimNetVar<bool>
+                pub const m_nActiveMotorIndex: usize = 0xB0; // CAnimNetVar<int32>
+                pub const m_bOnGround: usize = 0xBC; // CAnimNetVar<bool>
+                pub const m_vFacingPosition: usize = 0xC8; // CAnimNetVar<Vector>
+                pub const m_vPrevFacingPosition: usize = 0xDC; // Vector
+            };
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4231,10 +4463,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            //  
             pub const CNmIDEventConditionNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_eventConditionRules: usize = 0x14; // CNmBitFlags
@@ -4256,6 +4486,7 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CMorphData = struct {
                 pub const m_name: usize = 0x0; // CUtlString
@@ -4306,7 +4537,7 @@ pub const source2_dumper = struct {
                 pub const m_eType: usize = 0x38; // int32
             };
             // Parent: None
-            // Field count: 5
+            // Field count: 6
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -4316,6 +4547,7 @@ pub const source2_dumper = struct {
                 pub const nRetiredAtNodeID: usize = 0x1C; // PulseDocNodeID_t
                 pub const flLastReferenced: usize = 0x20; // float32
                 pub const nLastValidEntryIdx: usize = 0x24; // int32
+                pub const bWasAnObservableComputation: usize = 0x28; // bool
             };
             // Parent: None
             // Field count: 1
@@ -4363,6 +4595,12 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4447,7 +4685,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -4479,10 +4716,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // VERTEX_ALBEDO_8888
             // VERTEX_ALBEDO_565
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4494,6 +4734,14 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4553,8 +4801,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmBoneMaskSwitchNode__CDefinition = struct {
                 pub const m_nSwitchValueNodeIdx: usize = 0x10; // int16
                 pub const m_nTrueValueNodeIdx: usize = 0x12; // int16
@@ -4577,7 +4823,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const AnimComponentID = struct {
@@ -4608,24 +4853,25 @@ pub const source2_dumper = struct {
                 pub const m_embeddedKeyvalues: usize = 0x148; // CUtlString
             };
             // Parent: None
-            // Field count: 13
+            // Field count: 14
             //
             // Metadata:
             // MGetKV3ClassDefaults
             pub const CNmGraphDefinition = struct {
                 pub const m_variationID: usize = 0x0; // CGlobalSymbol
                 pub const m_skeleton: usize = 0x8; // CStrongHandle<InfoForResourceTypeCNmSkeleton>
-                pub const m_pUserData: usize = 0x10; // CNmGraphVariationUserData*
-                pub const m_persistentNodeIndices: usize = 0x18; // CUtlVector<int16>
-                pub const m_nRootNodeIdx: usize = 0x30; // int16
-                pub const m_controlParameterIDs: usize = 0x38; // CUtlVector<CGlobalSymbol>
-                pub const m_virtualParameterIDs: usize = 0x50; // CUtlVector<CGlobalSymbol>
-                pub const m_virtualParameterNodeIndices: usize = 0x68; // CUtlVector<int16>
-                pub const m_referencedGraphSlots: usize = 0x80; // CUtlVector<CNmGraphDefinition::ReferencedGraphSlot_t>
-                pub const m_externalGraphSlots: usize = 0x98; // CUtlVector<CNmGraphDefinition::ExternalGraphSlot_t>
-                pub const m_externalPoseSlots: usize = 0xB0; // CUtlVector<CNmGraphDefinition::ExternalPoseSlot_t>
-                pub const m_nodePaths: usize = 0x138; // CUtlVector<CUtlString>
-                pub const m_resources: usize = 0x150; // CUtlVector<CStrongHandleVoid>
+                pub const m_supportedSecondarySkeletons: usize = 0x10; // CUtlVector<CStrongHandle<InfoForResourceTypeCNmSkeleton>>
+                pub const m_pUserData: usize = 0x28; // CNmGraphVariationUserData*
+                pub const m_persistentNodeIndices: usize = 0x30; // CUtlVector<int16>
+                pub const m_nRootNodeIdx: usize = 0x48; // int16
+                pub const m_controlParameterIDs: usize = 0x50; // CUtlVector<CGlobalSymbol>
+                pub const m_virtualParameterIDs: usize = 0x68; // CUtlVector<CGlobalSymbol>
+                pub const m_virtualParameterNodeIndices: usize = 0x80; // CUtlVector<int16>
+                pub const m_referencedGraphSlots: usize = 0x98; // CUtlVector<CNmGraphDefinition::ReferencedGraphSlot_t>
+                pub const m_externalGraphSlots: usize = 0xB0; // CUtlVector<CNmGraphDefinition::ExternalGraphSlot_t>
+                pub const m_externalPoseSlots: usize = 0xC8; // CUtlVector<CNmGraphDefinition::ExternalPoseSlot_t>
+                pub const m_nodePaths: usize = 0x150; // CUtlVector<CUtlString>
+                pub const m_resources: usize = 0x168; // CUtlVector<CStrongHandleVoid>
             };
             // Parent: None
             // Field count: 2
@@ -4636,10 +4882,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Warp Z
+            // Rotation Only
             pub const CNmSelectorNode__CDefinition = struct {
-                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
-                pub const m_conditionNodeIndices: usize = 0x28; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,8>
+                pub const m_conditionNodeIndices: usize = 0x28; // CUtlLeanVectorFixedGrowable<int16,8>
             };
             // Parent: None
             // Field count: 15
@@ -4714,6 +4961,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CStopAtGoalUpdateNode = struct {
                 pub const m_flOuterRadius: usize = 0x74; // float32
                 pub const m_flInnerRadius: usize = 0x78; // float32
@@ -4737,10 +4988,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            //  
             pub const CNmIDEventPercentageThroughNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_eventConditionRules: usize = 0x14; // CNmBitFlags
@@ -4767,6 +5016,13 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // IgnoreInactiveEvents
             // PreferHighestWeight
             // PreferHighestProgress
@@ -4780,6 +5036,8 @@ pub const source2_dumper = struct {
             // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // Sub
             // Mul
             // Div
@@ -4791,14 +5049,6 @@ pub const source2_dumper = struct {
             // IntegerPart
             // FractionalPart
             // InverseFractionalPart
-            // LessThanEqual
-            // NearEqual
-            // GreaterThan
-            // LessThan
-            // .
-            // ClampTo360
-            // FlipHemisphere
-            // FlipHemisphereNegate
             pub const CNmCachedBoolNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -4807,6 +5057,11 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CAnimCycle = struct {
@@ -4823,6 +5078,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
             pub const CActionComponentUpdater = struct {
                 pub const m_actions: usize = 0x30; // CUtlVector<CSmartPtr<CAnimActionUpdater>>
             };
@@ -4830,6 +5088,24 @@ pub const source2_dumper = struct {
             // Field count: 7
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const CDirectionalBlendInstanceData = struct {
+                pub const m_dampedValue: usize = 0x0; // float32
+                pub const m_flCycle: usize = 0x14; // float32
+                pub const m_flPrevCycle: usize = 0x18; // float32
+                pub const m_flPlaybackRate: usize = 0x1C; // CAnimNetVar<float32>
+                pub const m_flCycleZeroTime: usize = 0x28; // CAnimNetVar<float32>
+                pub const m_resetCycleValue: usize = 0x34; // CAnimNetVar<float32>
+                pub const m_resetCount: usize = 0x40; // CAnimNetVar<float32>
+            };
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4851,7 +5127,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // OnExit
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // IgnoreInactiveEvents
@@ -4867,6 +5144,8 @@ pub const source2_dumper = struct {
             // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // Sub
             // Mul
             // Div
@@ -4878,10 +5157,6 @@ pub const source2_dumper = struct {
             // IntegerPart
             // FractionalPart
             // InverseFractionalPart
-            // LessThanEqual
-            // NearEqual
-            // GreaterThan
-            // LessThan
             pub const CNmCachedFloatNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -4891,10 +5166,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // DoesntMatch
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            // Additive
+            // ModelSpace
+            // AllowMoveY
+            // AllowMoveZ
+            // AllowFacingPitch
+            // ListenForEvents
+            // GreaterThanEqual
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmFloatSwitchNode__CDefinition = struct {
@@ -4914,24 +5195,21 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // steam_overlay_1=1
-            // MODEL_CONFIG_ATTACHMENT_INVALID
-            // MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE
-            // MODEL_CONFIG_ATTACHMENT_BONEMERGE
-            // MODEL_CONFIG_ATTACHMENT_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VERTEX_ALBEDO_8888
             // VERTEX_ALBEDO_565
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CModelConfigElement_SetMaterialGroupOnAttachedModels = struct {
                 pub const m_MaterialGroupName: usize = 0x48; // CUtlString
             };
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -4948,15 +5226,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmEntityAttributeEventBase = struct {
+                pub const m_target: usize = 0x18; // CNmEventTargetEntity_t
                 pub const m_attributeName: usize = 0x20; // CUtlString
             };
             // Parent: None
@@ -4987,6 +5258,17 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            pub const SequenceData = struct {
+                pub const m_hSequence: usize = 0x0; // HSequence
+                pub const m_cycle: usize = 0x4; // CNetworkedCycle
+            };
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5002,6 +5284,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const MaterialGroup_t = struct {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_materials: usize = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>>
@@ -5010,7 +5293,6 @@ pub const source2_dumper = struct {
             // Field count: 4
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CMorphBundleData = struct {
                 pub const m_flULeftSrc: usize = 0x0; // float32
@@ -5025,7 +5307,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5053,10 +5336,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CFootAdjustmentUpdateNode = struct {
                 pub const m_clips: usize = 0x78; // CUtlVector<HSequence>
                 pub const m_hBasePoseCacheHandle: usize = 0x90; // CPoseHandle
@@ -5075,6 +5354,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Y
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CChoreoUpdateNode = struct {
@@ -5086,12 +5367,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 255
-            //  S
-            //  
-            // hS
             // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 479
+            // p
             pub const CAimConstraint = struct {
                 pub const m_qAimOffset: usize = 0x60; // Quaternion
                 pub const m_nUpType: usize = 0x70; // uint32
@@ -5113,10 +5394,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // D
             pub const CFootFallAnimTag = struct {
                 pub const m_foot: usize = 0x58; // FootFallTagFoot_t
             };
@@ -5173,7 +5453,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -5190,18 +5469,6 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5233,7 +5500,6 @@ pub const source2_dumper = struct {
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CVectorQuantizer = struct {
                 pub const m_centroidVectors: usize = 0x0; // CUtlVector<float32>
@@ -5276,6 +5542,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // a
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmVectorCreateNode__CDefinition = struct {
@@ -5291,7 +5562,22 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // MPropertyFriendlyName
+            //  
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const CParticleVecInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5328,8 +5614,6 @@ pub const source2_dumper = struct {
             // GreaterThan
             // GreaterThanEqual
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // AngleVertical
             // Distance
             // DistanceHorizontalOnly
@@ -5337,6 +5621,15 @@ pub const source2_dumper = struct {
             // DeltaOrientationX
             // DeltaOrientationY
             // DeltaOrientationZ
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // Recalculate
+            // Offset
+            // RecalculateOrOffset
             // ClampDuration
             // Synchronized
             // MatchSourceTime
@@ -5346,14 +5639,6 @@ pub const source2_dumper = struct {
             // PreferClosestSyncEventID
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Y
-            // Z
-            // Length
-            // AngleHorizontal
-            // AngleVertical
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmStateNode__CDefinition = struct {
                 pub const m_nChildNodeIdx: usize = 0x10; // int16
@@ -5377,13 +5662,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmBoneMaskSelectorNode__CDefinition = struct {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
                 pub const m_parameterValueNodeIdx: usize = 0x12; // int16
                 pub const m_bSwitchDynamically: usize = 0x14; // bool
-                pub const m_maskNodeIndices: usize = 0x18; // CUtlVectorFixedGrowable<int16,7>
-                pub const m_parameterValues: usize = 0x40; // CUtlVectorFixedGrowable<CGlobalSymbol,7>
-                pub const m_flBlendTimeSeconds: usize = 0x90; // float32
+                pub const m_maskNodeIndices: usize = 0x18; // CUtlLeanVectorFixedGrowable<int16,8>
+                pub const m_parameterValues: usize = 0x30; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,7>
+                pub const m_flBlendTimeSeconds: usize = 0x70; // float32
             };
             // Parent: None
             // Field count: 1
@@ -5424,6 +5710,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CFootCycleMetricEvaluator = struct {
                 pub const m_footIndices: usize = 0x50; // CUtlVector<int32>
             };
@@ -5431,6 +5718,10 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5490,17 +5781,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
             pub const CNmParameterizedSelectorNode__CDefinition = struct {
-                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
-                pub const m_optionWeights: usize = 0x28; // CUtlLeanVectorFixedGrowable<uint8,5>
+                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,8>
+                pub const m_optionWeights: usize = 0x28; // CUtlLeanVectorFixedGrowable<uint8,8>
                 pub const m_parameterNodeIdx: usize = 0x38; // int16
                 pub const m_bIgnoreInvalidOptions: usize = 0x3A; // bool
                 pub const m_bHasWeightsSet: usize = 0x3B; // bool
@@ -5521,69 +5807,16 @@ pub const source2_dumper = struct {
                 pub const m_boneScaleParent: usize = 0x90; // CUtlVector<float32>
             };
             // Parent: None
-            // Field count: 4
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Quad
-            // Cubic
-            // Quart
-            // Quint
-            // Sine
-            // Expo
-            // Circ
-            // Back
-            // InQuad
-            // OutQuad
-            // InOutQuad
-            // InCubic
-            // OutCubic
-            // InOutCubic
-            // InQuart
-            // OutQuart
-            // InOutQuart
-            // InQuint
-            // OutQuint
-            // InOutQuint
-            // InSine
-            // OutSine
-            // InOutSine
-            // InExpo
-            // OutExpo
-            // InOutExpo
-            // InCirc
-            // OutCirc
-            // InOutCirc
-            // None
-            // WorldSpace
-            // RotationOnly
-            // TranslationOnly
-            // RightFootPassing
-            // RightFootDown
-            // LeftFootPassing
-            // None
-            // LeftFootPassing
-            // LeftPhase
-            // RightFootDown
-            // RightFootPassing
-            // RightPhase
-            // None
             // MGetKV3ClassDefaults
-            // Round
             // MGetKV3ClassDefaults
-            // Create_CFG
-            // World
-            // EntityPos
-            // EntityEyePos
-            // EntityAttachment
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub const CNmEvent = struct {
                 pub const m_flStartTime: usize = 0x8; // NmPercent_t
                 pub const m_flDuration: usize = 0xC; // NmPercent_t
                 pub const m_syncID: usize = 0x10; // CGlobalSymbol
-                pub const m_bClientOnly: usize = 0x18; // bool
             };
             // Parent: None
             // Field count: 2
@@ -5613,7 +5846,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5688,11 +5920,15 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // FOOTLOCKSUBVISUALIZATION_IKSolve
+            // Tag
+            // Parameter
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // StepPhase_InAir
+            // MPropertyFriendlyName
+            // AddCorrectionDelta
             pub const CChoiceUpdateNode = struct {
                 pub const m_children: usize = 0x60; // CUtlVector<CAnimUpdateNodeRef>
                 pub const m_weights: usize = 0x78; // CUtlVector<float32>
@@ -5721,12 +5957,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // d
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -5742,16 +5974,14 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            //  
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // DoesntMatch
             // MGetKV3ClassDefaults
-            // Additive
-            // ModelSpace
-            // AllowMoveY
-            // AllowMoveZ
-            // AllowFacingPitch
-            // ListenForEvents
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmFloatMathNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdxA: usize = 0x10; // int16
                 pub const m_nInputValueNodeIdxB: usize = 0x12; // int16
@@ -5801,6 +6031,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CCycleControlUpdateNode = struct {
                 pub const m_valueSource: usize = 0x70; // AnimValueSource
                 pub const m_paramIndex: usize = 0x74; // CAnimParamHandle
@@ -5813,13 +6045,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // s
             pub const CNmTargetInfoNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_infoType: usize = 0x14; // CNmTargetInfoNode::Info_t
@@ -5832,6 +6057,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5849,74 +6079,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
-            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // PF_TYPE_INVALID
-            // PF_TYPE_NAMED_VALUE
-            // PF_TYPE_RANDOM_UNIFORM
-            // PF_TYPE_RANDOM_BIASED
-            // PF_TYPE_COLLECTION_AGE
-            // PF_TYPE_ENDCAP_AGE
-            // PF_TYPE_CONTROL_POINT_COMPONENT
-            // PF_TYPE_CONTROL_POINT_CHANGE_AGE
-            // PF_TYPE_CONTROL_POINT_SPEED
-            // PF_TYPE_PARTICLE_DETAIL_LEVEL
-            // PF_TYPE_CONCURRENT_DEF_COUNT
-            // PF_TYPE_CLOSEST_CAMERA_DISTANCE
-            // PF_TYPE_SNAPSHOT_COUNT
-            // PF_TYPE_RENDERER_CAMERA_DISTANCE
-            // PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT
-            // PF_TYPE_PARTICLE_NOISE
-            // PF_TYPE_PARTICLE_AGE
-            // PF_TYPE_PARTICLE_AGE_NORMALIZED
-            // PF_TYPE_PARTICLE_FLOAT
-            // PF_TYPE_PARTICLE_INITIAL_FLOAT
-            // PF_TYPE_PARTICLE_VECTOR_COMPONENT
-            // PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT
-            // PF_TYPE_PARTICLE_SPEED
-            // PF_TYPE_PARTICLE_NUMBER
-            // PF_TYPE_PARTICLE_NUMBER_NORMALIZED
-            // PF_TYPE_PARTICLE_ROPE_SEGMENT
-            // PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED
-            // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
-            // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
-            // PF_TYPE_COUNT
-            // PF_BIAS_TYPE_INVALID
-            // PF_BIAS_TYPE_GAIN
-            // PF_BIAS_TYPE_EXPONENTIAL
-            // PF_BIAS_TYPE_COUNT
-            // PF_NOISE_TYPE_SIMPLEX
-            // PF_NOISE_TYPE_WORLEY
-            // PF_NOISE_TYPE_CURL
-            // PF_NOISE_MODIFIER_LINES
-            // PF_NOISE_MODIFIER_CLUMPS
-            // PF_NOISE_MODIFIER_RINGS
-            // PF_NOISE_TURB_HIGHLIGHT
-            // PF_NOISE_TURB_FEEDBACK
-            // PF_NOISE_TURB_LOOPY
-            // PF_NOISE_TURB_CONTRAST
-            // PF_NOISE_TURB_ALTERNATE
-            // PF_RANDOM_MODE_INVALID
-            // PF_RANDOM_MODE_VARYING
-            // PF_RANDOM_MODE_COUNT
-            // PF_INPUT_MODE_INVALID
-            // PF_INPUT_MODE_LOOPED
-            // PF_INPUT_MODE_COUNT
-            // PF_MAP_TYPE_INVALID
-            // PF_MAP_TYPE_MULT
-            // PF_MAP_TYPE_REMAP
-            // PF_MAP_TYPE_REMAP_BIASED
-            // PF_MAP_TYPE_CURVE
-            // PF_MAP_TYPE_NOTCHED
-            // PF_MAP_TYPE_ROUND
-            // PF_MAP_TYPE_COUNT
-            // PF_ROUND_TYPE_INVALID
-            // PF_ROUND_TYPE_FLOOR
-            // PF_ROUND_TYPE_CEIL
-            // PF_ROUND_TYPE_COUNT
-            // pf
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 479
+            // p
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
             pub const CBaseConstraint = struct {
                 pub const m_name: usize = 0x20; // CUtlString
                 pub const m_vUpVector: usize = 0x28; // Vector
@@ -5927,6 +6096,14 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5958,6 +6135,16 @@ pub const source2_dumper = struct {
                 pub const m_bUseCustomDuration: usize = 0x38; // bool
             };
             // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const DampedPathMotorInstanceData_t = struct {
+                pub const m_vVelocity: usize = 0x0; // Vector
+                pub const m_vAcceleration: usize = 0xC; // Vector
+                pub const m_bStopping: usize = 0x24; // bool
+            };
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
@@ -5967,16 +6154,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Warp Z
+            // Rotation Only
             pub const CNmIsExternalGraphSlotFilledNode__CDefinition = struct {
                 pub const m_nExternalGraphNodeIdx: usize = 0x10; // int16
             };
@@ -6027,25 +6206,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmClipNode__CDefinition = struct {
                 pub const m_nPlayInReverseValueNodeIdx: usize = 0x10; // int16
                 pub const m_nResetTimeValueNodeIdx: usize = 0x12; // int16
@@ -6057,7 +6217,7 @@ pub const source2_dumper = struct {
                 pub const m_nStartSyncEventOffset: usize = 0x44; // int32
             };
             // Parent: None
-            // Field count: 6
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -6073,12 +6233,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmMaterialAttributeEvent = struct {
+                pub const m_target: usize = 0x18; // CNmEventTargetEntity_t
                 pub const m_attributeName: usize = 0x20; // CUtlString
                 pub const m_attributeNameToken: usize = 0x28; // CUtlStringToken
                 pub const m_x: usize = 0x30; // CPiecewiseCurve
@@ -6098,8 +6254,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmBlend1DNode__CDefinition = struct {
-                pub const m_parameterization: usize = 0x40; // CNmParameterizedBlendNode::Parameterization_t
+                pub const m_parameterization: usize = 0x30; // CNmParameterizedBlendNode::Parameterization_t
             };
             // Parent: None
             // Field count: 6
@@ -6132,10 +6289,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // (
             pub const CPairedSequenceUpdateNode = struct {
                 pub const m_sPairedSequenceRole: usize = 0x78; // CGlobalSymbol
             };
@@ -6145,7 +6299,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6172,6 +6327,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
             pub const CNmScaleNode__CDefinition = struct {
                 pub const m_nMaskNodeIdx: usize = 0x18; // int16
                 pub const m_nEnableNodeIdx: usize = 0x1A; // int16
@@ -6232,6 +6395,7 @@ pub const source2_dumper = struct {
             // Field count: 10
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6320,10 +6484,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CAnimComponentUpdater = struct {
@@ -6337,8 +6498,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6368,16 +6532,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Range_t::GetPercentageThrough
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
             pub const CNmVelocityBasedSpeedScaleNode__CDefinition = struct {
             };
             // Parent: None
@@ -6414,6 +6571,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // IgnoreInactiveEvents
             // PreferHighestWeight
             // PreferHighestProgress
@@ -6427,6 +6591,8 @@ pub const source2_dumper = struct {
             // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // Sub
             // Mul
             // Div
@@ -6438,14 +6604,6 @@ pub const source2_dumper = struct {
             // IntegerPart
             // FractionalPart
             // InverseFractionalPart
-            // LessThanEqual
-            // NearEqual
-            // GreaterThan
-            // LessThan
-            // .
-            // ClampTo360
-            // FlipHemisphere
-            // FlipHemisphereNegate
             pub const CNmCachedIDNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -6454,7 +6612,6 @@ pub const source2_dumper = struct {
             // Field count: 10
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6479,7 +6636,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
             // MGetKV3ClassDefaults
             pub const CSymbolAnimParameter = struct {
                 pub const m_defaultValue: usize = 0x80; // CGlobalSymbol
@@ -6489,16 +6646,39 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // IgnoreInactiveEvents
+            // PreferHighestWeight
+            // PreferHighestProgress
+            // OperatorOr
+            // OperatorAnd
+            // SearchOnlyGraphEvents
+            // SearchOnlyAnimEvents
+            // SearchBothGraphAndAnimEvents
+            // GreaterThanEqualToEventIndex
+            // IndexOnly
+            // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // LessThanEqual
+            // NearEqual
+            // GreaterThan
+            // LessThan
+            // ClampTo360
+            // FlipHemisphere
+            // FlipHemisphereNegate
             pub const CNmFloatCurveEventNode__CDefinition = struct {
                 pub const m_eventID: usize = 0x10; // CGlobalSymbol
                 pub const m_nDefaultNodeIdx: usize = 0x18; // int16
@@ -6525,23 +6705,36 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // LessThanEqual
+            // NearEqual
+            // GreaterThan
+            // LessThan
+            // ClampTo360
+            // FlipHemisphere
+            // FlipHemisphereNegate
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
-            // Additive
-            // ModelSpace
-            // AllowMoveY
-            // AllowMoveZ
-            // AllowFacingPitch
-            // ListenForEvents
-            // GreaterThanEqual
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
             pub const CNmFloatSelectorNode__CDefinition = struct {
-                pub const m_conditionNodeIndices: usize = 0x10; // CUtlVectorFixedGrowable<int16,5>
-                pub const m_values: usize = 0x38; // CUtlVectorFixedGrowable<float32,5>
-                pub const m_flDefaultValue: usize = 0x68; // float32
-                pub const m_flEaseTime: usize = 0x6C; // float32
-                pub const m_easingOp: usize = 0x70; // NmEasingOperation_t
+                pub const m_conditionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<float32,5>
+                pub const m_flDefaultValue: usize = 0x48; // float32
+                pub const m_flEaseTime: usize = 0x4C; // float32
+                pub const m_easingOp: usize = 0x50; // NmEasingOperation_t
             };
             // Parent: None
             // Field count: 10
@@ -6588,6 +6781,15 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            pub const SlopeData = struct {
+                pub const m_vSlopeNormal: usize = 0x0; // Vector
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CHitBoxSetList = struct {
                 pub const m_HitBoxSets: usize = 0x0; // CUtlVector<CHitBoxSet>
             };
@@ -6595,7 +6797,6 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6631,29 +6832,57 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // PVEC_TYPE_INVALID
-            // PVEC_TYPE_LITERAL_COLOR
-            // PVEC_TYPE_NAMED_VALUE
-            // PVEC_TYPE_PARTICLE_VECTOR
-            // PVEC_TYPE_PARTICLE_INITIAL_VECTOR
-            // PVEC_TYPE_PARTICLE_VELOCITY
-            // PVEC_TYPE_CP_VALUE
-            // PVEC_TYPE_CP_RELATIVE_POSITION
-            // PVEC_TYPE_CP_RELATIVE_DIR
-            // PVEC_TYPE_CP_RELATIVE_RANDOM_DIR
-            // PVEC_TYPE_FLOAT_COMPONENTS
-            // PVEC_TYPE_FLOAT_INTERP_CLAMPED
-            // PVEC_TYPE_FLOAT_INTERP_OPEN
-            // PVEC_TYPE_FLOAT_INTERP_GRADIENT
-            // PVEC_TYPE_RANDOM_UNIFORM
-            // PVEC_TYPE_RANDOM_UNIFORM_OFFSET
-            // PVEC_TYPE_CP_DELTA
-            // PVEC_TYPE_CLOSEST_CAMERA_POSITION
-            // PVEC_TYPE_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // steam_overlay_1=1
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_SET_SCALE_INITIAL_VALUE
+            // PARTICLE_SET_ADD_TO_INITIAL_VALUE
+            // PARTICLE_SET_RAMP_CURRENT_VALUE
+            // PARTICLE_SET_SCALE_CURRENT_VALUE
+            // PARTICLE_SET_ADD_TO_CURRENT_VALUE
+            // MPropertyFriendlyName
+            // PARTICLEBLEND_OVERLAY
+            // PARTICLEBLEND_DARKEN
+            // PARTICLEBLEND_LIGHTEN
+            // PARTICLEBLEND_MULTIPLY
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_COLOR_BLEND_MULTIPLY2X
+            // PARTICLE_COLOR_BLEND_DIVIDE
+            // PARTICLE_COLOR_BLEND_ADD
+            // PARTICLE_COLOR_BLEND_SUBTRACT
+            // PARTICLE_COLOR_BLEND_MOD2X
+            // PARTICLE_COLOR_BLEND_SCREEN
+            // PARTICLE_COLOR_BLEND_MAX
+            // PARTICLE_COLOR_BLEND_MIN
+            // PARTICLE_COLOR_BLEND_REPLACE
+            // PARTICLE_COLOR_BLEND_AVERAGE
+            // PARTICLE_COLOR_BLEND_NEGATE
+            // PARTICLE_COLOR_BLEND_LUMINANCE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // ANIMATION_TYPE_FIT_LIFETIME
+            // ANIMATION_TYPE_MANUAL_FRAMES
+            // PF_MAP_TYPE_INVALID
+            // PF_MAP_TYPE_MULT
+            // PF_MAP_TYPE_REMAP
+            // PF_MAP_TYPE_REMAP_BIASED
+            // PF_MAP_TYPE_CURVE
+            // PF_MAP_TYPE_NOTCHED
+            // PF_MAP_TYPE_ROUND
+            // PF_MAP_TYPE_COUNT
+            // PF_ROUND_TYPE_INVALID
+            // PF_ROUND_TYPE_FLOOR
+            // PF_ROUND_TYPE_CEIL
+            // PF_ROUND_TYPE_COUNT
+            // MPropertyFriendlyName
+            // PARTICLE_DIR_NOISE_CURL
+            // PARTICLE_DIR_NOISE_WORLEY_BASIC
             pub const CParticleCollectionVecInput = struct {
             };
             // Parent: None
@@ -6684,15 +6913,38 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // IgnoreInactiveEvents
+            // PreferHighestWeight
+            // PreferHighestProgress
+            // OperatorOr
+            // OperatorAnd
+            // SearchOnlyGraphEvents
+            // SearchOnlyAnimEvents
+            // SearchBothGraphAndAnimEvents
+            // GreaterThanEqualToEventIndex
+            // IndexOnly
+            // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // LessThanEqual
+            // NearEqual
+            // GreaterThan
+            // LessThan
+            // ClampTo360
+            // FlipHemisphere
             pub const CNmCurrentSyncEventIDNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
             };
@@ -6701,8 +6953,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // AngleVertical
             // Distance
             // DistanceHorizontalOnly
@@ -6710,6 +6960,15 @@ pub const source2_dumper = struct {
             // DeltaOrientationX
             // DeltaOrientationY
             // DeltaOrientationZ
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // Recalculate
+            // Offset
+            // RecalculateOrOffset
             // ClampDuration
             // Synchronized
             // MatchSourceTime
@@ -6719,7 +6978,6 @@ pub const source2_dumper = struct {
             // PreferClosestSyncEventID
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
             // Z
@@ -6734,14 +6992,6 @@ pub const source2_dumper = struct {
             // Generic
             // Any
             // Bool
-            // ID
-            // Float
-            // Vector
-            // Target
-            // BoneMask
-            // Pose
-            // Special
-            // Pose
             pub const CNmStateCompletedConditionNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_nTransitionDurationOverrideNodeIdx: usize = 0x12; // int16
@@ -6760,12 +7010,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmTargetWarpEvent = struct {
-                pub const m_rule: usize = 0x20; // NmTargetWarpRule_t
-                pub const m_algorithm: usize = 0x21; // NmTargetWarpAlgorithm_t
+                pub const m_rule: usize = 0x18; // NmTargetWarpRule_t
+                pub const m_algorithm: usize = 0x19; // NmTargetWarpAlgorithm_t
             };
             // Parent: None
             // Field count: 1
@@ -6779,7 +7026,6 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6862,19 +7108,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmRootMotionEvent = struct {
-                pub const m_flBlendTimeSeconds: usize = 0x20; // float32
+                pub const m_flBlendTimeSeconds: usize = 0x18; // float32
             };
             // Parent: None
             // Field count: 3
@@ -6886,6 +7121,17 @@ pub const source2_dumper = struct {
                 pub const m_Name: usize = 0x0; // PulseSymbol_t
                 pub const m_Description: usize = 0x10; // CUtlString
                 pub const m_Args: usize = 0x18; // CUtlLeanVector<CPulseRuntimeMethodArg>
+            };
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CChoiceInstanceData = struct {
+                pub const m_currentChoice: usize = 0x10; // CAnimNetVar<int32>
+                pub const m_previousChoice: usize = 0x1C; // int32
+                pub const m_flClipStartTime: usize = 0x20; // CAnimNetVar<float32>
+                pub const m_choicePreviousCycle: usize = 0x2C; // float32
             };
             // Parent: None
             // Field count: 9
@@ -6906,23 +7152,9 @@ pub const source2_dumper = struct {
                 pub const m_DecodeDump: usize = 0x98; // AnimationDecodeDebugDumpElement_t
             };
             // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CNmIKEffector = struct {
-                pub const m_nBodyIndex: usize = 0x0; // int32
-                pub const m_bEnabled: usize = 0x4; // bool
-                pub const m_vTargetPosition: usize = 0x8; // Vector
-                pub const m_qTargetOrientation: usize = 0x20; // Quaternion
-                pub const m_flWeight: usize = 0x30; // float32
-            };
-            // Parent: None
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // d
@@ -6956,7 +7188,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmTimeConditionNode__CDefinition = struct {
                 pub const m_sourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_nInputValueNodeIdx: usize = 0x12; // int16
@@ -6976,11 +7207,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            //  
             pub const CNmSyncEventIndexConditionNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_triggerMode: usize = 0x12; // CNmSyncEventIndexConditionNode::TriggerMode_t
@@ -7001,9 +7229,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             pub const CUnaryUpdateNode = struct {
                 pub const m_pChildNode: usize = 0x60; // CAnimUpdateNodeRef
             };
@@ -7012,6 +7241,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            //  
             // Additive
             // ModelSpace
             // AllowMoveY
@@ -7027,11 +7257,23 @@ pub const source2_dumper = struct {
             // GreaterThan
             // GreaterThanEqual
             // MGetKV3ClassDefaults
+            // AngleVertical
+            // Distance
             pub const CNmIDToFloatNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_defaultValue: usize = 0x14; // float32
                 pub const m_IDs: usize = 0x18; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
                 pub const m_values: usize = 0x48; // CUtlLeanVectorFixedGrowable<float32,5>
+            };
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const PlayerInputMotorInstanceData_t = struct {
+                pub const m_vInputVectorWS: usize = 0x0; // Vector
+                pub const m_vVelocityWS: usize = 0xC; // Vector
+                pub const m_vAccelerationWS: usize = 0x18; // Vector
             };
             // Parent: None
             // Field count: 17
@@ -7059,12 +7301,24 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Node
+            // SameCycleAsSource
+            // InverseSourceCycle
+            // FixedValue
+            // SameTimeAsSource
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Y
+            // eMoveHeading
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // eMoveHeading
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // AddCorrectionDelta
             // MPropertyFriendlyName
+            // ReachDestinationOnWarpTagEnd
+            // MGetKV3ClassDefaults
             pub const CSelectorUpdateNode = struct {
                 pub const m_children: usize = 0x60; // CUtlVector<CAnimUpdateNodeRef>
                 pub const m_tags: usize = 0x78; // CUtlVector<int8>
@@ -7095,6 +7349,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CStateMachineComponentUpdater = struct {
                 pub const m_stateMachine: usize = 0x30; // CAnimStateMachineUpdater
             };
@@ -7102,6 +7358,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CAnimUpdateNodeRef = struct {
@@ -7164,19 +7421,16 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // steam_overlay_1=1
-            // MODEL_CONFIG_ATTACHMENT_INVALID
-            // MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE
-            // MODEL_CONFIG_ATTACHMENT_BONEMERGE
-            // MODEL_CONFIG_ATTACHMENT_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VERTEX_ALBEDO_8888
             // VERTEX_ALBEDO_565
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CModelConfigElement_SetBodygroup = struct {
                 pub const m_GroupName: usize = 0x48; // CGlobalSymbol
                 pub const m_nChoice: usize = 0x50; // int32
@@ -7204,65 +7458,43 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // PF_TYPE_INVALID
-            // PF_TYPE_NAMED_VALUE
-            // PF_TYPE_RANDOM_UNIFORM
-            // PF_TYPE_RANDOM_BIASED
-            // PF_TYPE_COLLECTION_AGE
-            // PF_TYPE_ENDCAP_AGE
-            // PF_TYPE_CONTROL_POINT_COMPONENT
-            // PF_TYPE_CONTROL_POINT_CHANGE_AGE
-            // PF_TYPE_CONTROL_POINT_SPEED
-            // PF_TYPE_PARTICLE_DETAIL_LEVEL
-            // PF_TYPE_CONCURRENT_DEF_COUNT
-            // PF_TYPE_CLOSEST_CAMERA_DISTANCE
-            // PF_TYPE_SNAPSHOT_COUNT
-            // PF_TYPE_RENDERER_CAMERA_DISTANCE
-            // PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT
-            // PF_TYPE_PARTICLE_NOISE
-            // PF_TYPE_PARTICLE_AGE
-            // PF_TYPE_PARTICLE_AGE_NORMALIZED
-            // PF_TYPE_PARTICLE_FLOAT
-            // PF_TYPE_PARTICLE_INITIAL_FLOAT
-            // PF_TYPE_PARTICLE_VECTOR_COMPONENT
-            // PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT
-            // PF_TYPE_PARTICLE_SPEED
-            // PF_TYPE_PARTICLE_NUMBER
-            // PF_TYPE_PARTICLE_NUMBER_NORMALIZED
-            // PF_TYPE_PARTICLE_ROPE_SEGMENT
-            // PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED
-            // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
-            // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
-            // PF_TYPE_COUNT
-            // PF_BIAS_TYPE_INVALID
-            // PF_BIAS_TYPE_GAIN
-            // PF_BIAS_TYPE_EXPONENTIAL
-            // PF_BIAS_TYPE_COUNT
-            // PF_NOISE_TYPE_SIMPLEX
-            // PF_NOISE_TYPE_WORLEY
-            // PF_NOISE_TYPE_CURL
-            // PF_NOISE_MODIFIER_LINES
-            // PF_NOISE_MODIFIER_CLUMPS
-            // PF_NOISE_MODIFIER_RINGS
-            // PF_NOISE_TURB_HIGHLIGHT
-            // PF_NOISE_TURB_FEEDBACK
-            // PF_NOISE_TURB_LOOPY
-            // PF_NOISE_TURB_CONTRAST
-            // PF_NOISE_TURB_ALTERNATE
-            // PF_RANDOM_MODE_INVALID
-            // PF_RANDOM_MODE_VARYING
-            // PF_RANDOM_MODE_COUNT
-            // PF_INPUT_MODE_INVALID
-            // PF_INPUT_MODE_LOOPED
-            // PF_INPUT_MODE_COUNT
-            // PF_MAP_TYPE_INVALID
-            // PF_MAP_TYPE_MULT
-            // PF_MAP_TYPE_REMAP
-            // PF_MAP_TYPE_REMAP_BIASED
-            // PF_MAP_TYPE_CURVE
-            // PF_MAP_TYPE_NOTCHED
-            // PF_MAP_TYPE_ROUND
-            // PF_MAP_TYPE_COUNT
+            // PT_TYPE_NAMED_VALUE
+            // PT_TYPE_CONTROL_POINT
+            // PT_TYPE_CONTROL_POINT_RANGE
+            // PT_TYPE_COUNT
+            //  
+            // PM_TYPE_NAMED_VALUE_MODEL
+            // PM_TYPE_NAMED_VALUE_EHANDLE
+            // PM_TYPE_CONTROL_POINT
+            // PM_TYPE_COUNT
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // MCustomFGDMetadata
+            // PVEC_TYPE_INVALID
+            // PVEC_TYPE_LITERAL_COLOR
+            // PVEC_TYPE_NAMED_VALUE
+            // PVEC_TYPE_PARTICLE_VECTOR
+            // PVEC_TYPE_PARTICLE_INITIAL_VECTOR
+            // PVEC_TYPE_PARTICLE_VELOCITY
+            // PVEC_TYPE_PARTICLE_GRAVITY
+            // PVEC_TYPE_CP_VALUE
+            // PVEC_TYPE_CP_RELATIVE_POSITION
+            // PVEC_TYPE_CP_RELATIVE_DIR
+            // PVEC_TYPE_CP_RELATIVE_RANDOM_DIR
+            // PVEC_TYPE_FLOAT_COMPONENTS
+            // PVEC_TYPE_FLOAT_INTERP_CLAMPED
+            // PVEC_TYPE_FLOAT_INTERP_OPEN
+            // PVEC_TYPE_FLOAT_INTERP_GRADIENT
+            // PVEC_TYPE_RANDOM_UNIFORM
+            // PVEC_TYPE_RANDOM_UNIFORM_OFFSET
+            // PVEC_TYPE_CP_DELTA
+            // PVEC_TYPE_CLOSEST_CAMERA_POSITION
+            // PVEC_TYPE_COUNT
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // MPropertyFriendlyName
             pub const CParticleRemapFloatInput = struct {
             };
             // Parent: None
@@ -7292,6 +7524,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             pub const CNmSyncTrack__EventMarker_t = struct {
                 pub const m_startTime: usize = 0x0; // NmPercent_t
                 pub const m_ID: usize = 0x8; // CGlobalSymbol
@@ -7300,7 +7534,6 @@ pub const source2_dumper = struct {
             // Field count: 4
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7368,11 +7601,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmOrientationWarpEvent = struct {
             };
             // Parent: None
@@ -7417,7 +7645,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // L
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub const CJumpHelperUpdateNode = struct {
@@ -7451,22 +7679,30 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmControlParameterBoolNode__CDefinition = struct {
             };
             // Parent: None
             // Field count: 11
             pub const CNmChainLookatTask = struct {
-                pub const m_nChainEndBoneIdx: usize = 0x58; // int32
-                pub const m_nNumBonesInChain: usize = 0x5C; // int32
-                pub const m_chainForwardDir: usize = 0x60; // Vector
-                pub const m_flBlendWeight: usize = 0x6C; // float32
-                pub const m_flHorizontalAngleLimitDegrees: usize = 0x70; // float32
-                pub const m_flVerticalAngleLimitDegrees: usize = 0x74; // float32
-                pub const m_lookatTarget: usize = 0x78; // Vector
-                pub const m_bIsTargetInWorldSpace: usize = 0x84; // bool
-                pub const m_bIsRunningFromDeserializedData: usize = 0x85; // bool
-                pub const m_flHorizontalAngleDegrees: usize = 0x88; // float32
-                pub const m_flVerticalAngleDegrees: usize = 0x8C; // float32
+                pub const m_nChainEndBoneIdx: usize = 0x48; // int32
+                pub const m_nNumBonesInChain: usize = 0x4C; // int32
+                pub const m_chainForwardDir: usize = 0x50; // Vector
+                pub const m_flBlendWeight: usize = 0x5C; // float32
+                pub const m_flHorizontalAngleLimitDegrees: usize = 0x60; // float32
+                pub const m_flVerticalAngleLimitDegrees: usize = 0x64; // float32
+                pub const m_lookatTarget: usize = 0x68; // Vector
+                pub const m_bIsTargetInWorldSpace: usize = 0x74; // bool
+                pub const m_bIsRunningFromDeserializedData: usize = 0x75; // bool
+                pub const m_flHorizontalAngleDegrees: usize = 0x78; // float32
+                pub const m_flVerticalAngleDegrees: usize = 0x7C; // float32
             };
             // Parent: None
             // Field count: 18
@@ -7503,6 +7739,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CBoneVelocityMetricEvaluator = struct {
                 pub const m_nBoneIndex: usize = 0x50; // int32
             };
@@ -7512,13 +7749,33 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CWarpSectionAnimTag = struct {
                 pub const m_bWarpPosition: usize = 0x50; // bool
                 pub const m_bWarpOrientation: usize = 0x51; // bool
+            };
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            pub const SelectorInstanceData_t = struct {
+                pub const m_weights: usize = 0x0; // CRelativeArray<float32>
+                pub const m_currentIndexStartTime: usize = 0x8; // CAnimNetVar<float32>
+                pub const m_currentIndex: usize = 0x14; // int32
+                pub const m_previousIndex: usize = 0x18; // int32
             };
             // Parent: None
             // Field count: 1
@@ -7528,19 +7785,16 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // steam_overlay_1=1
-            // MODEL_CONFIG_ATTACHMENT_INVALID
-            // MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE
-            // MODEL_CONFIG_ATTACHMENT_BONEMERGE
-            // MODEL_CONFIG_ATTACHMENT_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VERTEX_ALBEDO_8888
             // VERTEX_ALBEDO_565
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CModelConfigElement_RandomColor = struct {
                 pub const m_Gradient: usize = 0x48; // CColorGradient
             };
@@ -7562,8 +7816,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CJiggleBoneUpdateNode = struct {
                 pub const m_opFixedData: usize = 0x70; // JiggleBoneSettingsList_t
             };
@@ -7571,7 +7823,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7619,6 +7870,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CLODComponentUpdater = struct {
                 pub const m_nServerLOD: usize = 0x30; // int32
             };
@@ -7630,13 +7886,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // s
             pub const CNmIsTargetSetNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
             };
@@ -7681,10 +7930,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPairedSequenceComponentUpdater = struct {
             };
             // Parent: None
-            // Field count: 13
+            // Field count: 14
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -7693,8 +7945,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmParticleEvent = struct {
-                pub const m_relevance: usize = 0x20; // CNmEventRelevance_t
-                pub const m_type: usize = 0x24; // CNmParticleEvent::Type_t
+                pub const m_relevance: usize = 0x18; // CNmEventRelevance_t
+                pub const m_type: usize = 0x1C; // CNmParticleEvent::Type_t
+                pub const m_target: usize = 0x20; // CNmEventTargetEntity_t
                 pub const m_hParticleSystem: usize = 0x28; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
                 pub const m_tags: usize = 0x30; // CUtlString
                 pub const m_bStopImmediately: usize = 0x38; // bool
@@ -7711,6 +7964,19 @@ pub const source2_dumper = struct {
             // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            pub const MotionSelection = struct {
+                pub const m_nConfigIndex: usize = 0x24; // NetVarConfigIndex
+                pub const m_flCycleZeroTime: usize = 0x30; // CAnimNetVar<float32>
+                pub const m_flPlaybackSpeed: usize = 0x3C; // CAnimNetVar<float32>
+                pub const m_flStartTime: usize = 0x48; // CAnimNetVar<float32>
+                pub const m_nSample: usize = 0x54; // int32
+            };
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CMorphRectData = struct {
                 pub const m_nXLeftDst: usize = 0x0; // int16
@@ -7745,10 +8011,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
-            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 479
+            // p
             pub const CParentConstraint = struct {
             };
             // Parent: None
@@ -7757,7 +8024,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // OnExit
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // IgnoreInactiveEvents
@@ -7773,6 +8041,8 @@ pub const source2_dumper = struct {
             // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // Sub
             // Mul
             // Div
@@ -7784,10 +8054,6 @@ pub const source2_dumper = struct {
             // IntegerPart
             // FractionalPart
             // InverseFractionalPart
-            // LessThanEqual
-            // NearEqual
-            // GreaterThan
-            // LessThan
             pub const CNmCachedVectorNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -7814,6 +8080,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CFootPositionMetricEvaluator = struct {
                 pub const m_footIndices: usize = 0x50; // CUtlVector<int32>
                 pub const m_bIgnoreSlope: usize = 0x68; // bool
@@ -7829,6 +8096,17 @@ pub const source2_dumper = struct {
                 pub const m_variableType: usize = 0x38; // CPulseValueFullType
             };
             // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CMoverInstanceData = struct {
+                pub const m_flDampedValue: usize = 0x0; // float32
+                pub const m_vMovement: usize = 0x4; // Vector
+                pub const m_Rotation: usize = 0x1C; // CRotation
+                pub const m_TargetOrientation: usize = 0x20; // CRotation
+            };
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
@@ -7840,17 +8118,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
+            // (
             pub const HSequence = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -7870,6 +8142,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CAnimLocalHierarchy = struct {
                 pub const m_sBone: usize = 0x0; // CBufferString
                 pub const m_sNewParent: usize = 0x10; // CBufferString
@@ -7884,8 +8163,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7926,7 +8209,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
             // MGetKV3ClassDefaults
             pub const CQuaternionAnimParameter = struct {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
@@ -7976,16 +8259,12 @@ pub const source2_dumper = struct {
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -7998,10 +8277,21 @@ pub const source2_dumper = struct {
             pub const CNmSampleTask = struct {
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 5
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            pub const CFollowPathInstanceData = struct {
+                pub const m_xLastPredictedTransformsDeltas: usize = 0x0; // CRelativeArray<CMotionTransform>
+                pub const m_dampedTurnValue: usize = 0x8; // float32
+                pub const m_flTurnAmount: usize = 0xC; // float32
+                pub const m_flPredictionScale: usize = 0x10; // CAnimNetVar<float32>
+                pub const m_flLastPathTime: usize = 0x1C; // float32
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8014,7 +8304,7 @@ pub const source2_dumper = struct {
             pub const CStaticPoseCacheBuilder = struct {
             };
             // Parent: None
-            // Field count: 12
+            // Field count: 13
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -8024,12 +8314,13 @@ pub const source2_dumper = struct {
                 pub const m_nElementSizeInBytes: usize = 0x8; // uint32
                 pub const m_bMeshoptCompressed: usize = 0xC; // bool
                 pub const m_bMeshoptIndexSequence: usize = 0xD; // bool
-                pub const m_bCompressedZSTD: usize = 0xE; // bool
-                pub const m_bCreateBufferSRV: usize = 0xF; // bool
-                pub const m_bCreateBufferUAV: usize = 0x10; // bool
-                pub const m_bCreateRawBuffer: usize = 0x11; // bool
-                pub const m_bCreatePooledBuffer: usize = 0x12; // bool
-                pub const m_nBufferUsage: usize = 0x13; // uint8
+                pub const m_nMeshoptMeshletEncodeVersion: usize = 0xE; // int8
+                pub const m_bCompressedZSTD: usize = 0xF; // bool
+                pub const m_bCreateBufferSRV: usize = 0x10; // bool
+                pub const m_bCreateBufferUAV: usize = 0x11; // bool
+                pub const m_bCreateRawBuffer: usize = 0x12; // bool
+                pub const m_bCreatePooledBuffer: usize = 0x13; // bool
+                pub const m_nBufferUsage: usize = 0x14; // uint8
                 pub const m_inputLayoutFields: usize = 0x18; // CUtlVector<RenderInputLayoutField_t>
             };
             // Parent: None
@@ -8067,26 +8358,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // eMoveHeading
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // eMoveHeading
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // AddCorrectionDelta
-            // MPropertyFriendlyName
-            // ReachDestinationOnWarpTagEnd
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // IkEndEffector_Bone
-            // MPropertyFriendlyName
-            // IkTarget_Bone
-            // IkTarget_Parameter_ModelSpace
-            // IkTarget_Parameter_WorldSpace
-            // eInvalid
-            // eMovement
-            // eCount
-            // eActive
-            // eMomentarilyInactive
             pub const CStateMachineUpdateNode = struct {
                 pub const m_stateMachine: usize = 0x70; // CAnimStateMachineUpdater
                 pub const m_stateData: usize = 0xC8; // CUtlVector<CStateNodeStateData>
@@ -8094,6 +8374,22 @@ pub const source2_dumper = struct {
                 pub const m_bBlockWaningTags: usize = 0xFC; // bool
                 pub const m_bLockStateWhenWaning: usize = 0xFD; // bool
                 pub const m_bResetWhenActivated: usize = 0xFE; // bool
+            };
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Warp Z
+            // Rotation Only
+            pub const CNmIDBasedSelectorNode__CDefinition = struct {
+                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_optionIDs: usize = 0x28; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+                pub const m_nParameterNodeIdx: usize = 0x58; // int16
+                pub const m_nFallbackNodeIdx: usize = 0x5A; // int16
+                pub const m_bIgnoreInvalidOptions: usize = 0x5C; // bool
             };
             // Parent: None
             // Field count: 6
@@ -8135,13 +8431,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // steam_overlay_1=1
-            // MODEL_CONFIG_ATTACHMENT_INVALID
-            // MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE
-            // MODEL_CONFIG_ATTACHMENT_BONEMERGE
-            // MODEL_CONFIG_ATTACHMENT_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8150,9 +8439,41 @@ pub const source2_dumper = struct {
             // VERTEX_ALBEDO_565
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CModelConfigElement_Command = struct {
                 pub const m_Command: usize = 0x48; // CUtlString
                 pub const m_Args: usize = 0x50; // KeyValues3
+            };
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // eMoveHeading
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // AddCorrectionDelta
+            // MPropertyFriendlyName
+            // ReachDestinationOnWarpTagEnd
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // IkEndEffector_Bone
+            // MPropertyFriendlyName
+            // IkTarget_Bone
+            // IkTarget_Parameter_ModelSpace
+            // IkTarget_Parameter_WorldSpace
+            // eInvalid
+            // eMovement
+            // eCount
+            // eActive
+            // eMomentarilyInactive
+            // MGetKV3ClassDefaults
+            // POSETYPE_DYNAMIC
+            pub const TargetSelectorInstanceData_t = struct {
+                pub const m_currentIndex: usize = 0x0; // CAnimNetVar<int32>
+                pub const m_vMSRootMotionAnlyzerTarget: usize = 0x1C; // CAnimNetVar<Vector>
             };
             // Parent: None
             // Field count: 7
@@ -8204,7 +8525,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const AnimScriptHandle = struct {
                 pub const m_id: usize = 0x0; // uint32
             };
@@ -8221,6 +8541,8 @@ pub const source2_dumper = struct {
             // Field count: 8
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8295,6 +8617,14 @@ pub const source2_dumper = struct {
                 pub const m_flErrorQuantizationScaleMax: usize = 0x1C; // float32
             };
             // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const PairedSequenceData = struct {
+                pub const m_vecPairedSequences: usize = 0x0; // PairedSequence_t[8]
+            };
+            // Parent: None
             // Field count: 2
             pub const CBoneConstraintPoseSpaceMorph__Input_t = struct {
                 pub const m_inputValue: usize = 0x0; // Vector
@@ -8338,6 +8668,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CSpeedScaleUpdateNode = struct {
                 pub const m_paramIndex: usize = 0x70; // CAnimParamHandle
             };
@@ -8346,8 +8677,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             pub const CSequenceTagSpans = struct {
                 pub const m_sSequenceName: usize = 0x0; // CGlobalSymbol
                 pub const m_tags: usize = 0x8; // CUtlVector<TagSpan_t>
@@ -8358,19 +8687,14 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // steam_overlay_1=1
-            // MODEL_CONFIG_ATTACHMENT_INVALID
-            // MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE
-            // MODEL_CONFIG_ATTACHMENT_BONEMERGE
-            // MODEL_CONFIG_ATTACHMENT_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VERTEX_ALBEDO_8888
             // VERTEX_ALBEDO_565
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CModelConfigElement_SetBodygroupOnAttachedModels = struct {
@@ -8388,6 +8712,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CCurrentVelocityMetricEvaluator = struct {
             };
             // Parent: None
@@ -8398,6 +8723,7 @@ pub const source2_dumper = struct {
             // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CAnimReplayFrame = struct {
                 pub const m_inputDataBlocks: usize = 0x10; // CUtlVector<CUtlBinaryBlock>
@@ -8420,39 +8746,16 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmTransitionEvent = struct {
-                pub const m_rule: usize = 0x20; // NmTransitionRule_t
-                pub const m_ID: usize = 0x28; // CGlobalSymbol
-            };
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const CNmIKRig = struct {
-                pub const m_skeleton: usize = 0x0; // CStrongHandle<InfoForResourceTypeCNmSkeleton>
-                pub const m_vecBodies: usize = 0x8; // CUtlVector<CNmIKBody>
-                pub const m_vecJoints: usize = 0x20; // CUtlVector<CNmIKJoint>
+                pub const m_rule: usize = 0x18; // NmTransitionRule_t
+                pub const m_ID: usize = 0x20; // CGlobalSymbol
             };
             // Parent: None
             // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8461,8 +8764,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmFloatCurveEvent = struct {
-                pub const m_ID: usize = 0x20; // CGlobalSymbol
-                pub const m_curve: usize = 0x28; // CPiecewiseCurve
+                pub const m_ID: usize = 0x18; // CGlobalSymbol
+                pub const m_curve: usize = 0x20; // CPiecewiseCurve
             };
             // Parent: None
             // Field count: 8
@@ -8471,15 +8774,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // Hp
-            // `p
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // @q
+            //  
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // MPropertyFriendlyName
+            //  
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const CParticleTransformInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleTransformType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
@@ -8494,6 +8801,9 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8537,11 +8847,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            //  
             pub const CNmFootstepEventPercentageThroughNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_phaseCondition: usize = 0x12; // NmFootPhaseCondition_t
@@ -8577,6 +8884,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // Sub
             // Mul
             // Div
@@ -8592,16 +8901,12 @@ pub const source2_dumper = struct {
             // NearEqual
             // GreaterThan
             // LessThan
-            // .
             // ClampTo360
             // FlipHemisphere
             // FlipHemisphereNegate
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // DoesntMatch
             pub const CNmGraphEventConditionNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_eventConditionRules: usize = 0x14; // CNmBitFlags
@@ -8617,6 +8922,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CFollowAttachmentUpdateNode = struct {
                 pub const m_opFixedData: usize = 0x70; // FollowAttachmentSettings_t
             };
@@ -8624,6 +8931,10 @@ pub const source2_dumper = struct {
             // Field count: 8
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8649,7 +8960,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // p
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8666,21 +8978,6 @@ pub const source2_dumper = struct {
             pub const IParticleEffect = struct {
             };
             // Parent: None
-            // Field count: 7
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CNmIKJoint = struct {
-                pub const m_nParentIndex: usize = 0x0; // int32
-                pub const m_nBodyIndex: usize = 0x4; // int32
-                pub const m_xLocalFrame: usize = 0x10; // CTransform
-                pub const m_flSwingLimit: usize = 0x30; // float32
-                pub const m_flMinTwistLimit: usize = 0x34; // float32
-                pub const m_flMaxTwistLimit: usize = 0x38; // float32
-                pub const m_flWeight: usize = 0x3C; // float32
-            };
-            // Parent: None
             // Field count: 2
             //
             // Metadata:
@@ -8690,25 +8987,62 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // d
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CFutureFacingMetricEvaluator = struct {
                 pub const m_flDistance: usize = 0x50; // float32
                 pub const m_flTime: usize = 0x54; // float32
             };
             // Parent: None
-            // Field count: 8
+            // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
+            pub const CNmIDBasedClipSelectorNode__CDefinition = struct {
+                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_optionIDs: usize = 0x28; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+                pub const m_nParameterNodeIdx: usize = 0x58; // int16
+                pub const m_nFallbackNodeIdx: usize = 0x5A; // int16
+                pub const m_bIgnoreInvalidOptions: usize = 0x5C; // bool
+            };
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const CLeanMatrixInstanceData = struct {
+                pub const m_flValueY: usize = 0x0; // float32
+                pub const m_flValueX: usize = 0x4; // float32
+            };
+            // Parent: None
+            // Field count: 9
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // e8f/0x3114,0x0738/0xa856,0x0010/0x0082,0x0e8f/0x0003,0x20d6/0x4026,0x20d6/0x4033,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f3
             // MGetKV3ClassDefaults
             pub const NmCompressionSettings_t = struct {
                 pub const m_translationRangeX: usize = 0x0; // NmCompressionSettings_t::QuantizationRange_t
                 pub const m_translationRangeY: usize = 0x8; // NmCompressionSettings_t::QuantizationRange_t
                 pub const m_translationRangeZ: usize = 0x10; // NmCompressionSettings_t::QuantizationRange_t
                 pub const m_scaleRange: usize = 0x18; // NmCompressionSettings_t::QuantizationRange_t
-                pub const m_constantRotation: usize = 0x20; // Quaternion
-                pub const m_bIsRotationStatic: usize = 0x30; // bool
-                pub const m_bIsTranslationStatic: usize = 0x31; // bool
-                pub const m_bIsScaleStatic: usize = 0x32; // bool
+                pub const m_nTrackReadOffset: usize = 0x20; // int32
+                pub const m_constantRotation: usize = 0x30; // Quaternion
+                pub const m_bIsRotationStatic: usize = 0x40; // bool
+                pub const m_bIsTranslationStatic: usize = 0x41; // bool
+                pub const m_bIsScaleStatic: usize = 0x42; // bool
             };
             // Parent: None
             // Field count: 8
@@ -8735,6 +9069,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CAddUpdateNode = struct {
                 pub const m_footMotionTiming: usize = 0x94; // BinaryNodeChildOption
                 pub const m_bApplyToFootMotion: usize = 0x98; // bool
@@ -8756,6 +9095,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CDemoSettingsComponentUpdater = struct {
                 pub const m_settings: usize = 0x30; // CAnimDemoCaptureSettings
             };
@@ -8763,6 +9108,12 @@ pub const source2_dumper = struct {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CAnimDecoder = struct {
@@ -8775,7 +9126,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // OnExit
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // IgnoreInactiveEvents
@@ -8791,6 +9143,8 @@ pub const source2_dumper = struct {
             // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // Sub
             // Mul
             // Div
@@ -8802,10 +9156,6 @@ pub const source2_dumper = struct {
             // IntegerPart
             // FractionalPart
             // InverseFractionalPart
-            // LessThanEqual
-            // NearEqual
-            // GreaterThan
-            // LessThan
             pub const CNmCachedTargetNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -8816,24 +9166,54 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // 8k
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // PT_TYPE_NAMED_VALUE
+            // PT_TYPE_CONTROL_POINT
+            // PT_TYPE_CONTROL_POINT_RANGE
+            // PT_TYPE_COUNT
+            //  
+            // PM_TYPE_NAMED_VALUE_MODEL
+            // PM_TYPE_NAMED_VALUE_EHANDLE
+            // PM_TYPE_CONTROL_POINT
+            // PM_TYPE_COUNT
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // Hp
-            // `p
+            // PVEC_TYPE_INVALID
+            // PVEC_TYPE_LITERAL_COLOR
+            // PVEC_TYPE_NAMED_VALUE
+            // PVEC_TYPE_PARTICLE_VECTOR
+            // PVEC_TYPE_PARTICLE_INITIAL_VECTOR
+            // PVEC_TYPE_PARTICLE_VELOCITY
+            // PVEC_TYPE_PARTICLE_GRAVITY
+            // PVEC_TYPE_CP_VALUE
+            // PVEC_TYPE_CP_RELATIVE_POSITION
+            // PVEC_TYPE_CP_RELATIVE_DIR
+            // PVEC_TYPE_CP_RELATIVE_RANDOM_DIR
+            // PVEC_TYPE_FLOAT_COMPONENTS
+            // PVEC_TYPE_FLOAT_INTERP_CLAMPED
+            // PVEC_TYPE_FLOAT_INTERP_OPEN
+            // PVEC_TYPE_FLOAT_INTERP_GRADIENT
+            // PVEC_TYPE_RANDOM_UNIFORM
+            // PVEC_TYPE_RANDOM_UNIFORM_OFFSET
+            // PVEC_TYPE_CP_DELTA
+            // PVEC_TYPE_CLOSEST_CAMERA_POSITION
+            // PVEC_TYPE_COUNT
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // @q
             // MGetKV3ClassDefaults
-            // MCustomFGDMetadata
-            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
             pub const CPerParticleFloatInput = struct {
             };
             // Parent: None
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8864,7 +9244,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmBitFlags = struct {
                 pub const m_flags: usize = 0x0; // uint32
@@ -8910,15 +9289,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmLegacyEvent = struct {
-                pub const m_animEventClassName: usize = 0x20; // CUtlString
-                pub const m_KV: usize = 0x28; // KeyValues3
+                pub const m_animEventClassName: usize = 0x18; // CUtlString
+                pub const m_KV: usize = 0x20; // KeyValues3
             };
             // Parent: None
             // Field count: 3
@@ -8984,7 +9357,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const AnimTagID = struct {
                 pub const m_id: usize = 0x0; // uint32
             };
@@ -8993,6 +9365,22 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            pub const CWayPointHelperInstanceData = struct {
+                pub const m_vMovement: usize = 0x0; // Vector
+                pub const m_vRotation: usize = 0xC; // QAngle
+                pub const m_vWaypointPosWS: usize = 0x18; // Vector
+                pub const m_bStopUpdatingWaypointPos: usize = 0x24; // bool
+            };
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CAnimFrameSegment = struct {
@@ -9005,6 +9393,8 @@ pub const source2_dumper = struct {
             // Field count: 7
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9037,17 +9427,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            pub const CNmIKBody = struct {
-                pub const m_flMass: usize = 0x0; // float32
-                pub const m_vLocalMassCenter: usize = 0x4; // Vector
-                pub const m_vRadius: usize = 0x10; // Vector
-                pub const m_flResistance: usize = 0x1C; // float32
-            };
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
             pub const CHitBoxSet = struct {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_nNameHash: usize = 0x8; // uint32
@@ -9060,6 +9439,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Y
             pub const ChainToSolveData_t = struct {
                 pub const m_nChainIndex: usize = 0x0; // int32
                 pub const m_SolverSettings: usize = 0x4; // IKSolverSettings_t
@@ -9072,6 +9452,10 @@ pub const source2_dumper = struct {
             // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CConstraintSlave = struct {
                 pub const m_qBaseOrientation: usize = 0x0; // Quaternion
@@ -9087,11 +9471,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeOutputIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -9155,8 +9543,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
             pub const CFutureVelocityMetricEvaluator = struct {
                 pub const m_flDistance: usize = 0x50; // float32
                 pub const m_flStoppingDistance: usize = 0x54; // float32
@@ -9168,7 +9561,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // s
             pub const CNmSkeleton__SecondarySkeleton_t = struct {
                 pub const m_attachToBoneID: usize = 0x0; // CGlobalSymbol
                 pub const m_skeleton: usize = 0x8; // CStrongHandle<InfoForResourceTypeCNmSkeleton>
@@ -9177,7 +9569,6 @@ pub const source2_dumper = struct {
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9193,6 +9584,7 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -9235,6 +9627,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CPulse_DomainValue = struct {
                 pub const m_nType: usize = 0x0; // PulseDomainValueType_t
                 pub const m_Value: usize = 0x8; // CGlobalSymbolCaseSensitive
@@ -9268,6 +9661,16 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // MCustomFGDMetadata
+            //  
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
+            // MPropertyFriendlyName
+            //  
             pub const CParticleCollectionRendererFloatInput = struct {
             };
             // Parent: None
@@ -9297,14 +9700,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmEntityAttributeIntEvent = struct {
                 pub const m_nIntValue: usize = 0x38; // int32
             };
@@ -9312,7 +9707,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9378,6 +9772,26 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmAndNode__CDefinition = struct {
                 pub const m_conditionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,4>
             };
@@ -9393,13 +9807,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // p
             // MPropertyCustomFGDType
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
             pub const CMorphConstraint = struct {
                 pub const m_sTargetMorph: usize = 0x60; // CUtlString
                 pub const m_nSlaveChannel: usize = 0x68; // int32
@@ -9444,14 +9852,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmBlend2DNode__CDefinition = struct {
-                pub const m_sourceNodeIndices: usize = 0x10; // CUtlVectorFixedGrowable<int16,5>
-                pub const m_nInputParameterNodeIdx0: usize = 0x38; // int16
-                pub const m_nInputParameterNodeIdx1: usize = 0x3A; // int16
-                pub const m_values: usize = 0x40; // CUtlVectorFixedGrowable<Vector2D,10>
-                pub const m_indices: usize = 0xA8; // CUtlVectorFixedGrowable<uint8,30>
-                pub const m_hullIndices: usize = 0xE0; // CUtlVectorFixedGrowable<uint8,10>
-                pub const m_bAllowLooping: usize = 0x108; // bool
+                pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
+                pub const m_indices: usize = 0x80; // CUtlLeanVectorFixedGrowable<uint8,30>
+                pub const m_hullIndices: usize = 0xA8; // CUtlLeanVectorFixedGrowable<uint8,10>
+                pub const m_nInputParameterNodeIdx0: usize = 0xC0; // int16
+                pub const m_nInputParameterNodeIdx1: usize = 0xC2; // int16
+                pub const m_bAllowLooping: usize = 0xC4; // bool
             };
             // Parent: None
             // Field count: 2
@@ -9471,14 +9880,52 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Range_t::GetPercentageThrough
-            // Warp XY
-            // Warp XYZ
-            // Fixed Section
+            // On
+            // Additive
+            // IgnoreSource
+            // IgnoreTarget
+            // ServerOnly
+            // ClientAndServer
+            // Weapon
+            // HeldItem
+            // Custom
+            // Quad
+            // Cubic
+            // Quart
+            // Quint
+            // Sine
+            // Expo
+            // Circ
+            // Back
+            // InQuad
+            // OutQuad
+            // InOutQuad
+            // InCubic
+            // OutCubic
+            // InOutCubic
+            // InQuart
+            // OutQuart
+            // InOutQuart
+            // InQuint
+            // OutQuint
+            // InOutQuint
+            // InSine
+            // OutSine
+            // InOutSine
+            // InExpo
+            // OutExpo
+            // InOutExpo
+            // InCirc
+            // OutCirc
+            // InOutCirc
+            // None
+            // WorldSpace
+            // RotationOnly
+            // TranslationOnly
+            // RightFootPassing
+            // RightFootDown
+            // LeftFootPassing
+            // None
             pub const CNmGraphNode__CDefinition = struct {
                 pub const m_nNodeIdx: usize = 0x8; // int16
             };
@@ -9549,16 +9996,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Range_t::GetPercentageThrough
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
             pub const CNmDurationScaleNode__CDefinition = struct {
             };
             // Parent: None
@@ -9579,11 +10019,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeBlackboardReferenceIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int16
             };
@@ -9692,7 +10136,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CTurnHelperUpdateNode = struct {
                 pub const m_facingTarget: usize = 0x74; // AnimValueSource
                 pub const m_turnStartTimeOffset: usize = 0x78; // float32
@@ -9723,6 +10169,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             pub const NmSyncTrackTime_t = struct {
                 pub const m_nEventIdx: usize = 0x0; // int32
                 pub const m_percentageThrough: usize = 0x4; // NmPercent_t
@@ -9756,12 +10203,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // d
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -9780,18 +10223,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Range_t::GetPercentageThrough
+            // Warp Z
+            // Rotation Only
             pub const CNmSpeedScaleBaseNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x18; // int16
                 pub const m_flDefaultInputValue: usize = 0x1C; // float32
@@ -9815,6 +10248,8 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9879,6 +10314,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CMotionMatchingUpdateNode = struct {
                 pub const m_dataSet: usize = 0x58; // CMotionDataSet
                 pub const m_metrics: usize = 0x78; // CUtlVector<CSmartPtr<CMotionMetricEvaluator>>
@@ -9908,6 +10345,11 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9948,6 +10390,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CFlexController = struct {
                 pub const m_szName: usize = 0x0; // CUtlString
                 pub const m_szType: usize = 0x8; // CUtlString
@@ -9970,10 +10413,16 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // DoesntMatch
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            // Additive
+            // ModelSpace
+            // AllowMoveY
+            // AllowMoveZ
+            // AllowFacingPitch
+            // ListenForEvents
+            // GreaterThanEqual
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmFloatRangeComparisonNode__CDefinition = struct {
@@ -9988,14 +10437,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CMotionNodeSequence = struct {
                 pub const m_tags: usize = 0x28; // CUtlVector<TagSpan_t>
                 pub const m_hSequence: usize = 0x40; // HSequence
@@ -10006,16 +10447,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Range_t::GetPercentageThrough
             // Warp XY
             // Warp XYZ
             // Fixed Section
@@ -10026,7 +10457,11 @@ pub const source2_dumper = struct {
                 pub const m_flBlendTimeSeconds: usize = 0x24; // float32
                 pub const m_blendMode: usize = 0x28; // NmIKBlendMode_t
                 pub const m_bIsTargetInWorldSpace: usize = 0x29; // bool
-                pub const m_flReferencePoseTwistWeight: usize = 0x2C; // float32
+                pub const m_flChainRotationWeight: usize = 0x2C; // float32
+            };
+            // Parent: None
+            // Field count: 0
+            pub const CNmGraphInstance = struct {
             };
             // Parent: None
             // Field count: 1
@@ -10073,13 +10508,27 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeConstantIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int16
+            };
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CFootAdjustmentInstanceData = struct {
+                pub const m_flStartTime: usize = 0xC; // CAnimNetVar<float32>
+                pub const m_flDuration: usize = 0x18; // CAnimNetVar<float32>
+                pub const m_flStartHeadingWS: usize = 0x3C; // float32
             };
             // Parent: None
             // Field count: 5
@@ -10100,16 +10549,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            //  
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // DoesntMatch
             // MGetKV3ClassDefaults
-            // Additive
-            // ModelSpace
-            // AllowMoveY
-            // AllowMoveZ
-            // AllowFacingPitch
-            // ListenForEvents
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmFloatCurveNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_curve: usize = 0x18; // CPiecewiseCurve
@@ -10153,17 +10600,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // 479
             // p
-            // MPropertyCustomFGDType
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
             pub const CTwistConstraint = struct {
                 pub const m_bInverse: usize = 0x60; // bool
                 pub const m_qParentBindRotation: usize = 0x70; // Quaternion
@@ -10175,12 +10613,22 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // CURSOR_ADD_TAG
+            // CURSOR_REMOVE_TAG
+            // CURSOR_RETIRED
+            // REQUIREMENT_PASS
+            // REQUIREMENT_FAIL
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
             pub const PulseDocNodeID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -10202,40 +10650,16 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // PT_TYPE_NAMED_VALUE
-            // PT_TYPE_CONTROL_POINT
-            // PT_TYPE_CONTROL_POINT_RANGE
-            // PT_TYPE_COUNT
-            // PM_TYPE_NAMED_VALUE_MODEL
-            // PM_TYPE_NAMED_VALUE_EHANDLE
-            // PM_TYPE_CONTROL_POINT
-            // PM_TYPE_COUNT
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            //  
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // PVEC_TYPE_INVALID
-            // PVEC_TYPE_LITERAL_COLOR
-            // PVEC_TYPE_NAMED_VALUE
-            // PVEC_TYPE_PARTICLE_VECTOR
-            // PVEC_TYPE_PARTICLE_INITIAL_VECTOR
-            // PVEC_TYPE_PARTICLE_VELOCITY
-            // PVEC_TYPE_CP_VALUE
-            // PVEC_TYPE_CP_RELATIVE_POSITION
-            // PVEC_TYPE_CP_RELATIVE_DIR
-            // PVEC_TYPE_CP_RELATIVE_RANDOM_DIR
-            // PVEC_TYPE_FLOAT_COMPONENTS
-            // PVEC_TYPE_FLOAT_INTERP_CLAMPED
-            // PVEC_TYPE_FLOAT_INTERP_OPEN
-            // PVEC_TYPE_FLOAT_INTERP_GRADIENT
-            // PVEC_TYPE_RANDOM_UNIFORM
-            // PVEC_TYPE_RANDOM_UNIFORM_OFFSET
-            // PVEC_TYPE_CP_DELTA
-            // PVEC_TYPE_CLOSEST_CAMERA_POSITION
-            // PVEC_TYPE_COUNT
             pub const CParticleCollectionFloatInput = struct {
             };
             // Parent: None
@@ -10295,6 +10719,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CDistanceRemainingMetricEvaluator = struct {
                 pub const m_flMaxDistance: usize = 0x50; // float32
                 pub const m_flMinDistance: usize = 0x54; // float32
@@ -10308,6 +10733,9 @@ pub const source2_dumper = struct {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10334,12 +10762,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmIDEvent = struct {
-                pub const m_ID: usize = 0x20; // CGlobalSymbol
-                pub const m_secondaryID: usize = 0x28; // CGlobalSymbol
+                pub const m_ID: usize = 0x18; // CGlobalSymbol
+                pub const m_secondaryID: usize = 0x20; // CGlobalSymbol
             };
             // Parent: None
             // Field count: 2
@@ -10372,16 +10797,26 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 255
-            //  S
-            //  
-            // hS
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
+            // MPropertyCustomFGDType
+            // PF_TYPE_INVALID
+            // PF_TYPE_NAMED_VALUE
+            // PF_TYPE_RANDOM_UNIFORM
+            // PF_TYPE_RANDOM_BIASED
             pub const CBoneConstraintRbf = struct {
                 pub const m_inputBones: usize = 0x20; // CUtlVector<std::pair<CUtlString,uint32>>
                 pub const m_outputBones: usize = 0x38; // CUtlVector<std::pair<CUtlString,uint32>>
+            };
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CNetworkedCycle = struct {
+                pub const m_flCycleUnclamped: usize = 0x0; // float32
+                pub const m_flPrevCycleUnclamped: usize = 0x4; // float32
+                pub const m_flCyclesPerSecond: usize = 0x10; // CAnimNetVar<float32>
+                pub const m_flCycleZeroTime: usize = 0x1C; // CAnimNetVar<float32>
+                pub const m_resetCount: usize = 0x28; // CAnimNetVar<uint8>
             };
             // Parent: None
             // Field count: 7
@@ -10406,10 +10841,14 @@ pub const source2_dumper = struct {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // OnExit
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // IgnoreInactiveEvents
@@ -10426,13 +10865,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmSoundEvent = struct {
-                pub const m_relevance: usize = 0x20; // CNmEventRelevance_t
-                pub const m_name: usize = 0x28; // CUtlString
-                pub const m_position: usize = 0x30; // CNmSoundEvent::Position_t
-                pub const m_attachmentName: usize = 0x38; // CUtlString
-                pub const m_tags: usize = 0x40; // CUtlString
-                pub const m_bContinuePlayingSoundAtDurationEnd: usize = 0x48; // bool
-                pub const m_flDurationInterruptionThreshold: usize = 0x4C; // float32
+                pub const m_relevance: usize = 0x18; // CNmEventRelevance_t
+                pub const m_name: usize = 0x20; // CUtlString
+                pub const m_position: usize = 0x28; // CNmSoundEvent::Position_t
+                pub const m_attachmentName: usize = 0x30; // CUtlString
+                pub const m_tags: usize = 0x38; // CUtlString
+                pub const m_bContinuePlayingSoundAtDurationEnd: usize = 0x40; // bool
+                pub const m_flDurationInterruptionThreshold: usize = 0x44; // float32
             };
             // Parent: None
             // Field count: 14
@@ -10453,7 +10892,7 @@ pub const source2_dumper = struct {
                 pub const m_nAttachBoneIdx: usize = 0x90; // int32
                 pub const m_nAttachMeshIdx: usize = 0x94; // int32
                 pub const m_nAttachMeshDrawCallIdx: usize = 0x98; // int32
-                pub const m_bEnableSimulation: usize = 0x9C; // bool
+                pub const m_bEnableSimulation: usize = 0xAC; // bool
             };
             // Parent: None
             // Field count: 5
@@ -10463,10 +10902,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Warp Z
+            // Rotation Only
             pub const CNmParameterizedClipSelectorNode__CDefinition = struct {
-                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
-                pub const m_optionWeights: usize = 0x28; // CUtlLeanVectorFixedGrowable<uint8,5>
+                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,8>
+                pub const m_optionWeights: usize = 0x28; // CUtlLeanVectorFixedGrowable<uint8,8>
                 pub const m_parameterNodeIdx: usize = 0x38; // int16
                 pub const m_bIgnoreInvalidOptions: usize = 0x3A; // bool
                 pub const m_bHasWeightsSet: usize = 0x3B; // bool
@@ -10480,18 +10920,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // 479
             // p
-            // MPropertyCustomFGDType
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // PF_TYPE_INVALID
             pub const CTiltTwistConstraint = struct {
                 pub const m_nTargetAxis: usize = 0x60; // int32
                 pub const m_nSlaveAxis: usize = 0x64; // int32
@@ -10507,16 +10937,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Range_t::GetPercentageThrough
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
             pub const CNmSpeedScaleNode__CDefinition = struct {
             };
             // Parent: None
@@ -10524,11 +10947,33 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // PB
-            // pB
             // MKV3TransferName
             pub const CVPhysXSurfacePropertiesList = struct {
                 pub const m_surfacePropertiesList: usize = 0x0; // CUtlVector<CPhysSurfaceProperties*>
+            };
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // DoesntMatch
+            // MGetKV3ClassDefaults
+            //  
+            // Additive
+            // ModelSpace
+            // AllowMoveY
+            // AllowMoveZ
+            // AllowFacingPitch
+            // ListenForEvents
+            // GreaterThanEqual
+            pub const CNmFloatSpringNode__CDefinition = struct {
+                pub const m_flStartValue: usize = 0x10; // float32
+                pub const m_flHertz: usize = 0x14; // float32
+                pub const m_flDampingRatio: usize = 0x18; // float32
+                pub const m_nInputValueNodeIdx: usize = 0x1C; // int16
+                pub const m_bUseStartValue: usize = 0x1E; // bool
             };
             // Parent: None
             // Field count: 7
@@ -10549,9 +10994,12 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
             // MGetKV3ClassDefaults
             pub const CCycleControlClipUpdateNode = struct {
                 pub const m_tags: usize = 0x60; // CUtlVector<TagSpan_t>
@@ -10567,13 +11015,13 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // AngleVertical
-            // Distance
-            // DistanceHorizontalOnly
-            // DistanceVerticalOnly
-            // DeltaOrientationX
-            // DeltaOrientationY
-            // DeltaOrientationZ
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // Recalculate
+            // Offset
+            // RecalculateOrOffset
             // ClampDuration
             // Synchronized
             // MatchSourceTime
@@ -10583,7 +11031,6 @@ pub const source2_dumper = struct {
             // PreferClosestSyncEventID
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
             // Z
@@ -10606,6 +11053,9 @@ pub const source2_dumper = struct {
             // Pose
             // Special
             // Pose
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmTargetPointNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_bIsWorldSpaceTarget: usize = 0x12; // bool
@@ -10616,21 +11066,11 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Range_t::GetPercentageThrough
             // Warp XY
             // Warp XYZ
             // Fixed Section
             pub const CNmTargetSelectorNode__CDefinition = struct {
-                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_optionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,8>
                 pub const m_flOrientationScoreWeight: usize = 0x28; // float32
                 pub const m_flPositionScoreWeight: usize = 0x2C; // float32
                 pub const m_parameterNodeIdx: usize = 0x30; // int16
@@ -10661,9 +11101,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CWarpSectionAnimTagBase = struct {
             };
@@ -10690,9 +11129,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             pub const LookAtOpFixedSettings_t = struct {
                 pub const m_attachment: usize = 0x0; // CAnimAttachment
                 pub const m_damping: usize = 0x80; // CAnimInputDamping
@@ -10705,6 +11141,16 @@ pub const source2_dumper = struct {
                 pub const m_bMaintainUpDirection: usize = 0xC1; // bool
                 pub const m_bTargetIsPosition: usize = 0xC2; // bool
                 pub const m_bUseHysteresis: usize = 0xC3; // bool
+            };
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CRootMotion = struct {
+                pub const m_deltaTransform: usize = 0x0; // CMotionTransform
+                pub const m_vVelocityMS: usize = 0x10; // Vector
+                pub const m_vUpOverride: usize = 0x1C; // Vector
             };
             // Parent: None
             // Field count: 1
@@ -10735,29 +11181,26 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 255
-            //  S
-            //  
-            // hS
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
+            // MPropertyCustomFGDType
+            // PF_TYPE_INVALID
+            // PF_TYPE_NAMED_VALUE
+            // PF_TYPE_RANDOM_UNIFORM
             pub const CBoneConstraintPoseSpaceBone = struct {
                 pub const m_inputList: usize = 0x60; // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
             };
             // Parent: None
             // Field count: 10
             pub const CNmTwoBoneIKTask = struct {
-                pub const m_nEffectorBoneIdx: usize = 0x58; // int32
-                pub const m_nEffectorTargetBoneIdx: usize = 0x5C; // int32
-                pub const m_targetTransform: usize = 0x60; // CTransform
-                pub const m_effectorTarget: usize = 0x80; // CNmTarget
-                pub const m_blendMode: usize = 0xB0; // NmIKBlendMode_t
-                pub const m_flBlendWeight: usize = 0xB4; // float32
-                pub const m_bIsTargetInWorldSpace: usize = 0xB8; // bool
-                pub const m_bIsRunningFromDeserializedData: usize = 0xB9; // bool
-                pub const m_flReferencePoseTwistWeight: usize = 0xBC; // float32
-                pub const m_debugEffectorBoneID: usize = 0xC0; // CGlobalSymbol
+                pub const m_nEffectorBoneIdx: usize = 0x48; // int32
+                pub const m_nEffectorTargetBoneIdx: usize = 0x4C; // int32
+                pub const m_targetTransform: usize = 0x50; // CTransform
+                pub const m_effectorTarget: usize = 0x70; // CNmTarget
+                pub const m_blendMode: usize = 0xA0; // NmIKBlendMode_t
+                pub const m_flBlendWeight: usize = 0xA4; // float32
+                pub const m_bIsTargetInWorldSpace: usize = 0xA8; // bool
+                pub const m_bIsRunningFromDeserializedData: usize = 0xA9; // bool
+                pub const m_flChainRotationWeight: usize = 0xAC; // float32
+                pub const m_debugEffectorBoneID: usize = 0xB0; // CGlobalSymbol
             };
             // Parent: None
             // Field count: 2
@@ -10782,10 +11225,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
-            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 479
+            // p
             pub const CBoneConstraintPoseSpaceMorph = struct {
                 pub const m_sBoneName: usize = 0x20; // CUtlString
                 pub const m_sAttachmentName: usize = 0x28; // CUtlString
@@ -10824,8 +11268,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -10846,7 +11288,6 @@ pub const source2_dumper = struct {
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CRenderSkeleton = struct {
                 pub const m_bones: usize = 0x0; // CUtlVector<RenderSkeletonBone_t>
@@ -10880,9 +11321,11 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // l
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10900,11 +11343,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeCellIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -10912,6 +11359,11 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10963,6 +11415,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmRootMotionOverrideNode__CDefinition = struct {
                 pub const m_desiredMovingVelocityNodeIdx: usize = 0x18; // int16
                 pub const m_desiredFacingDirectionNodeIdx: usize = 0x1A; // int16
@@ -10973,26 +11426,25 @@ pub const source2_dumper = struct {
                 pub const m_overrideFlags: usize = 0x28; // CNmBitFlags
             };
             // Parent: None
-            // Field count: 10
+            // Field count: 11
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // C:\buildworker\csgo_rel_win64\build\src\public\mathlib\range.h
-            // IsSet()
-            // Warp Z
-            // Rotation Only
+            // MGetKV3ClassDefaults
+            // e8f/0x3114,0x0738/0xa856,0x0010/0x0082,0x0e8f/0x0003,0x20d6/0x4026,0x20d6/0x4033,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f3
             pub const CNmTargetWarpNode__CDefinition = struct {
                 pub const m_nClipReferenceNodeIdx: usize = 0x10; // int16
                 pub const m_nTargetValueNodeIdx: usize = 0x12; // int16
                 pub const m_samplingMode: usize = 0x14; // CNmRootMotionData::SamplingMode_t
-                pub const m_bAllowTargetUpdate: usize = 0x15; // bool
+                pub const m_targetUpdateRule: usize = 0x15; // CNmTargetWarpNode::TargetUpdateRule_t
                 pub const m_bAlignWithTargetAtLastWarpEvent: usize = 0x16; // bool
                 pub const m_flSamplingPositionErrorThresholdSq: usize = 0x18; // float32
                 pub const m_flMaxTangentLength: usize = 0x1C; // float32
                 pub const m_flLerpFallbackDistanceThreshold: usize = 0x20; // float32
                 pub const m_flTargetUpdateDistanceThreshold: usize = 0x24; // float32
                 pub const m_flTargetUpdateAngleThresholdRadians: usize = 0x28; // float32
+                pub const m_alignmentBoneID: usize = 0x30; // CGlobalSymbol
             };
             // Parent: None
             // Field count: 6
@@ -11058,13 +11510,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 255
-            //  S
-            //  
-            // hS
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
+            // MPropertyCustomFGDType
+            // PF_TYPE_INVALID
+            // PF_TYPE_NAMED_VALUE
+            // PF_TYPE_RANDOM_UNIFORM
+            // PF_TYPE_RANDOM_BIASED
             pub const CBoneConstraintDotToMorph = struct {
                 pub const m_sBoneName: usize = 0x20; // CUtlString
                 pub const m_sTargetBoneName: usize = 0x28; // CUtlString
@@ -11081,30 +11531,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
-            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // PF_TYPE_INVALID
-            // PF_TYPE_NAMED_VALUE
-            // PF_TYPE_RANDOM_UNIFORM
-            // PF_TYPE_RANDOM_BIASED
-            // PF_TYPE_COLLECTION_AGE
-            // PF_TYPE_ENDCAP_AGE
-            // PF_TYPE_CONTROL_POINT_COMPONENT
-            // PF_TYPE_CONTROL_POINT_CHANGE_AGE
-            // PF_TYPE_CONTROL_POINT_SPEED
-            // PF_TYPE_PARTICLE_DETAIL_LEVEL
-            // PF_TYPE_CONCURRENT_DEF_COUNT
-            // PF_TYPE_CLOSEST_CAMERA_DISTANCE
-            // PF_TYPE_SNAPSHOT_COUNT
-            // PF_TYPE_RENDERER_CAMERA_DISTANCE
-            // PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT
-            // PF_TYPE_PARTICLE_NOISE
-            // PF_TYPE_PARTICLE_AGE
-            // PF_TYPE_PARTICLE_AGE_NORMALIZED
-            // PF_TYPE_PARTICLE_FLOAT
-            // PF_TYPE_PARTICLE_INITIAL_FLOAT
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 479
+            // p
             pub const CPointConstraint = struct {
             };
             // Parent: None
@@ -11201,39 +11632,20 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            //  
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // DoesntMatch
             // MGetKV3ClassDefaults
-            // Additive
-            // ModelSpace
-            // AllowMoveY
-            // AllowMoveZ
-            // AllowFacingPitch
-            // ListenForEvents
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmFloatComparisonNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_nComparandValueNodeIdx: usize = 0x12; // int16
                 pub const m_comparison: usize = 0x14; // CNmFloatComparisonNode::Comparison_t
                 pub const m_flEpsilon: usize = 0x18; // float32
                 pub const m_flComparisonValue: usize = 0x1C; // float32
-            };
-            // Parent: None
-            // Field count: 13
-            pub const CNmChainSolverTask = struct {
-                pub const m_nEffectorBoneIdx: usize = 0x58; // int32
-                pub const m_nEffectorTargetBoneIdx: usize = 0x5C; // int32
-                pub const m_targetTransform: usize = 0x60; // CTransform
-                pub const m_nNumBonesInChain: usize = 0x80; // int32
-                pub const m_effectorTarget: usize = 0x90; // CNmTarget
-                pub const m_blendMode: usize = 0xC0; // NmIKBlendMode_t
-                pub const m_flBlendWeight: usize = 0xC4; // float32
-                pub const m_bIsTargetInWorldSpace: usize = 0xC8; // bool
-                pub const m_bIsRunningFromDeserializedData: usize = 0xC9; // bool
-                pub const m_debugEffectorBoneID: usize = 0xD0; // CGlobalSymbol
-                pub const m_chainStartTransformMS: usize = 0xE0; // CTransform
-                pub const m_debugRequestedTargetTransformMS: usize = 0x100; // CTransform
-                pub const m_debugTotalChainLength: usize = 0x120; // float32
             };
             // Parent: None
             // Field count: 10
@@ -11253,6 +11665,17 @@ pub const source2_dumper = struct {
                 pub const m_bPreEvaluatePassthroughTransitionPath: usize = 0x0; // bitfield:1
             };
             // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const CTurnHelperInstanceData = struct {
+                pub const m_turnAmount: usize = 0x0; // float32
+                pub const m_turnStartTime: usize = 0x4; // float32
+                pub const m_duration: usize = 0x8; // float32
+            };
+            // Parent: None
             // Field count: 0
             pub const CNmTargetValueNode__CDefinition = struct {
             };
@@ -11265,44 +11688,44 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
-            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // PF_TYPE_INVALID
-            // PF_TYPE_NAMED_VALUE
-            // PF_TYPE_RANDOM_UNIFORM
-            // PF_TYPE_RANDOM_BIASED
-            // PF_TYPE_COLLECTION_AGE
-            // PF_TYPE_ENDCAP_AGE
-            // PF_TYPE_CONTROL_POINT_COMPONENT
-            // PF_TYPE_CONTROL_POINT_CHANGE_AGE
-            // PF_TYPE_CONTROL_POINT_SPEED
-            // PF_TYPE_PARTICLE_DETAIL_LEVEL
-            // PF_TYPE_CONCURRENT_DEF_COUNT
-            // PF_TYPE_CLOSEST_CAMERA_DISTANCE
-            // PF_TYPE_SNAPSHOT_COUNT
-            // PF_TYPE_RENDERER_CAMERA_DISTANCE
-            // PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT
-            // PF_TYPE_PARTICLE_NOISE
-            // PF_TYPE_PARTICLE_AGE
-            // PF_TYPE_PARTICLE_AGE_NORMALIZED
-            // PF_TYPE_PARTICLE_FLOAT
-            // PF_TYPE_PARTICLE_INITIAL_FLOAT
-            // PF_TYPE_PARTICLE_VECTOR_COMPONENT
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 479
+            // p
             pub const COrientConstraint = struct {
+            };
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const CCycleClipInstanceData = struct {
+                pub const m_flCycle: usize = 0x0; // CAnimNetVar<float32>
+                pub const m_flPrevCycle: usize = 0xC; // CAnimNetVar<float32>
             };
             // Parent: None
             // Field count: 12
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const CMoverUpdateNode = struct {
                 pub const m_damping: usize = 0x78; // CAnimInputDamping
                 pub const m_facingTarget: usize = 0x90; // AnimValueSource
@@ -11327,16 +11750,38 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmLayerBlendNode__CDefinition = struct {
                 pub const m_nBaseNodeIdx: usize = 0x10; // int16
                 pub const m_bOnlySampleBaseRootMotion: usize = 0x12; // bool
                 pub const m_layerDefinition: usize = 0x18; // CUtlLeanVectorFixedGrowable<CNmLayerBlendNode::LayerDefinition_t,3>
             };
             // Parent: None
-            // Field count: 2
+            // Field count: 8
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const CNmFootIKNode__CDefinition = struct {
+                pub const m_leftEffectorBoneID: usize = 0x18; // CGlobalSymbol
+                pub const m_rightEffectorBoneID: usize = 0x20; // CGlobalSymbol
+                pub const m_nLeftTargetNodeIdx: usize = 0x28; // int16
+                pub const m_nRightTargetNodeIdx: usize = 0x2A; // int16
+                pub const m_nEnabledNodeIdx: usize = 0x2C; // int16
+                pub const m_flBlendTimeSeconds: usize = 0x30; // float32
+                pub const m_blendMode: usize = 0x34; // NmIKBlendMode_t
+                pub const m_bIsTargetInWorldSpace: usize = 0x35; // bool
+            };
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11361,6 +11806,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const JiggleBoneSettingsList_t = struct {
                 pub const m_boneSettings: usize = 0x0; // CUtlVector<JiggleBoneSettings_t>
             };
@@ -11368,6 +11815,10 @@ pub const source2_dumper = struct {
             // Field count: 4
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11391,16 +11842,12 @@ pub const source2_dumper = struct {
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11415,9 +11862,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // l
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11451,11 +11900,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
+            //  
             pub const CNmFootstepEventIDNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_eventConditionRules: usize = 0x14; // CNmBitFlags
@@ -11467,6 +11913,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CSolveIKChainUpdateNode = struct {
                 pub const m_targetHandles: usize = 0x70; // CUtlVector<CSolveIKTargetHandle_t>
                 pub const m_opFixedData: usize = 0x88; // SolveIKChainPoseOpFixedSettings_t
@@ -11475,7 +11926,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11540,6 +11990,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CBoneMaskUpdateNode = struct {
                 pub const m_nWeightListIndex: usize = 0x94; // int32
                 pub const m_flRootMotionBlend: usize = 0x98; // float32
@@ -11560,6 +12011,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // (
             pub const CLeafUpdateNode = struct {
             };
             // Parent: None
@@ -11580,15 +12033,12 @@ pub const source2_dumper = struct {
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // 8k
+            // MGetKV3ClassDefaults
+            // MPropertyCustomEditor
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // Hp
-            // `p
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // @q
+            //  
             pub const CParticleFloatInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -11645,6 +12095,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             pub const SolveIKChainPoseOpFixedSettings_t = struct {
                 pub const m_ChainsToSolveData: usize = 0x0; // CUtlVector<ChainToSolveData_t>
             };
@@ -11652,14 +12103,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11686,9 +12129,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmIDSelectorNode__CDefinition = struct {
-                pub const m_conditionNodeIndices: usize = 0x10; // CUtlVectorFixedGrowable<int16,5>
-                pub const m_values: usize = 0x38; // CUtlVectorFixedGrowable<CGlobalSymbol,5>
-                pub const m_defaultValue: usize = 0x78; // CGlobalSymbol
+                pub const m_conditionNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
+                pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,5>
+                pub const m_defaultValue: usize = 0x58; // CGlobalSymbol
             };
             // Parent: None
             // Field count: 15
@@ -11774,18 +12217,20 @@ pub const source2_dumper = struct {
                 pub const m_comparisionIDs: usize = 0x18; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,4>
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            pub const PairedSequence_t = struct {
+                pub const m_sRole: usize = 0x0; // CGlobalSymbol
+                pub const m_sSequenceName: usize = 0x8; // CGlobalSymbol
+                pub const m_hSequence: usize = 0x10; // CAnimNetVar<uint32>
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11817,6 +12262,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmConstFloatNode__CDefinition = struct {
                 pub const m_flValue: usize = 0x10; // float32
             };
@@ -11827,7 +12276,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CStringAnimTag = struct {
@@ -11885,10 +12333,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // C:\buildworker\csgo_rel_win64\build\src\public\mathlib\range.h
-            // IsSet()
-            // Warp Z
-            // Rotation Only
+            // Warp XY
+            // Warp XYZ
+            // Fixed Section
             pub const CNmStateMachineNode__CDefinition = struct {
                 pub const m_stateDefinitions: usize = 0x10; // CUtlLeanVectorFixedGrowable<CNmStateMachineNode::StateDefinition_t,5>
                 pub const m_nDefaultStateIndex: usize = 0x130; // int16
@@ -11899,11 +12346,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyElementNameFn
             pub const CBodyGroupAnimTag = struct {
                 pub const m_nPriority: usize = 0x58; // int32
                 pub const m_bodyGroupSettings: usize = 0x60; // CUtlVector<CBodyGroupSetting>
@@ -11925,12 +12367,21 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmZeroPoseNode__CDefinition = struct {
             };
             // Parent: None
             // Field count: 6
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12019,7 +12470,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CNmVirtualParameterIDNode__CDefinition = struct {
                 pub const m_nChildNodeIdx: usize = 0x10; // int16
             };
@@ -12047,11 +12497,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeCallInfoIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -12059,6 +12513,9 @@ pub const source2_dumper = struct {
             // Field count: 8
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12112,6 +12569,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // L
             pub const CFootStepTriggerUpdateNode = struct {
                 pub const m_triggers: usize = 0x70; // CUtlVector<FootStepTrigger>
                 pub const m_flTolerance: usize = 0x8C; // float32
@@ -12134,19 +12592,16 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // steam_overlay_1=1
-            // MODEL_CONFIG_ATTACHMENT_INVALID
-            // MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE
-            // MODEL_CONFIG_ATTACHMENT_BONEMERGE
-            // MODEL_CONFIG_ATTACHMENT_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VERTEX_ALBEDO_8888
             // VERTEX_ALBEDO_565
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CModelConfigElement_SetRenderColor = struct {
                 pub const m_Color: usize = 0x48; // Color
             };
@@ -12158,6 +12613,11 @@ pub const source2_dumper = struct {
             // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12206,16 +12666,38 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // IgnoreInactiveEvents
+            // PreferHighestWeight
+            // PreferHighestProgress
+            // OperatorOr
+            // OperatorAnd
+            // SearchOnlyGraphEvents
+            // SearchOnlyAnimEvents
+            // SearchBothGraphAndAnimEvents
+            // GreaterThanEqualToEventIndex
+            // IndexOnly
+            // PercentageOnly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // l
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // LessThanEqual
+            // NearEqual
+            // GreaterThan
+            // LessThan
+            // ClampTo360
+            // FlipHemisphere
             pub const CNmCurrentSyncEventNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_infoType: usize = 0x12; // CNmCurrentSyncEventNode::InfoType_t
@@ -12224,6 +12706,14 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12303,11 +12793,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeChunkIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -12331,6 +12825,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CFollowPathUpdateNode = struct {
@@ -12378,6 +12874,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CAnimScriptComponentUpdater = struct {
                 pub const m_hScript: usize = 0x30; // AnimScriptHandle
             };
@@ -12385,6 +12887,8 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12403,15 +12907,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // p
             // MPropertyCustomFGDType
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -12432,6 +12928,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // d
             pub const CPathAnimMotorUpdater = struct {
             };
@@ -12441,6 +12939,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // D
             pub const CMaterialAttributeAnimTag = struct {
                 pub const m_AttributeName: usize = 0x58; // CUtlString
                 pub const m_AttributeType: usize = 0x60; // MatterialAttributeTagType_t
@@ -12451,6 +12950,8 @@ pub const source2_dumper = struct {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Sub
             // Mul
@@ -12467,16 +12968,12 @@ pub const source2_dumper = struct {
             // NearEqual
             // GreaterThan
             // LessThan
-            // .
             // ClampTo360
             // FlipHemisphere
             // FlipHemisphereNegate
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // DoesntMatch
             pub const CNmFootEventConditionNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_phaseCondition: usize = 0x12; // NmFootPhaseCondition_t
@@ -12513,22 +13010,18 @@ pub const source2_dumper = struct {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // IgnoreInactiveEvents
-            // PreferHighestWeight
-            // PreferHighestProgress
-            // OperatorOr
-            // OperatorAnd
-            // SearchOnlyGraphEvents
-            // SearchOnlyAnimEvents
-            // SearchBothGraphAndAnimEvents
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmFootEvent = struct {
-                pub const m_phase: usize = 0x20; // NmFootPhase_t
+                pub const m_phase: usize = 0x18; // NmFootPhase_t
             };
             // Parent: None
             // Field count: 8
@@ -12679,6 +13172,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmVirtualParameterBoolNode__CDefinition = struct {
                 pub const m_nChildNodeIdx: usize = 0x10; // int16
             };
@@ -12687,6 +13188,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12702,11 +13204,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub const PulseRuntimeStateOffset_t = struct {
                 pub const m_Value: usize = 0x0; // uint16
             };
@@ -12718,11 +13224,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CCPPScriptComponentUpdater = struct {
                 pub const m_scriptsToRun: usize = 0x30; // CUtlVector<CGlobalSymbol>
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const NetVarConfigIndex = struct {
+                pub const m_index: usize = 0x0; // CAnimNetVar<uint32>
             };
             // Parent: None
             // Field count: 5
@@ -12756,15 +13268,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // BlendKey_Velocity
             // BlendKey_Distance
             // BlendKey_RemainingDistance
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // Blend2DMode_Directional
-            // eofDescriptorProto
             // MGetKV3ClassDefaults
             // WeightedRandomNoRepeat
             // Iterate
@@ -12773,8 +13282,7 @@ pub const source2_dumper = struct {
             // OnResetOrCycleEnd
             // MPropertyFriendlyName
             // PerChoiceBlendTimes
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // FOOTLOCKSUBVISUALIZATION_IKSolve
             // Tag
             // Parameter
@@ -12791,6 +13299,20 @@ pub const source2_dumper = struct {
                 pub const m_flTimingBlend: usize = 0x84; // float32
                 pub const m_bResetChild1: usize = 0x88; // bool
                 pub const m_bResetChild2: usize = 0x89; // bool
+            };
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CBlendNodeInstanceData = struct {
+                pub const m_dampedValue: usize = 0x0; // float32
+                pub const m_flCycle: usize = 0x4; // float32
+                pub const m_flCycleZeroTime: usize = 0x8; // float32
+                pub const m_flPlaybackRate: usize = 0xC; // float32
+                pub const m_flBlendValue: usize = 0x10; // CAnimNetVar<float32>
+                pub const m_flDuration: usize = 0x1C; // float32
+                pub const m_resetCount: usize = 0x20; // CAnimNetVar<uint8>
             };
             // Parent: None
             // Field count: 3
@@ -12825,7 +13347,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // MPropertyCustomEditor
-            // MPropertyCustomEditor
             // FLAG_STATIC
             // FLAG_KINEMATIC
             // FLAG_JOINT
@@ -12835,12 +13356,13 @@ pub const source2_dumper = struct {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // c
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY
             // FLAG_LEVEL_COLLISION
             // FLAG_IGNORE_SCALE_OBSOLETE_DO_NOT_USE
+            // MGetKV3ClassDefaults
+            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12906,33 +13428,15 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Y
-            // Z
-            // Length
-            // AngleHorizontal
-            // AngleVertical
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // FullyInState
-            // Exit
-            // Timed
-            // Generic
-            // Any
-            // Bool
-            // ID
-            // Float
-            // Vector
-            // Target
-            // BoneMask
-            // Pose
-            // Special
-            // Pose
+            // e8f/0x3114,0x0738/0xa856,0x0010/0x0082,0x0e8f/0x0003,0x20d6/0x4026,0x20d6/0x4033,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmVectorNegateNode__CDefinition = struct {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
             };
@@ -12941,6 +13445,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             pub const CNmSyncTrack__Event_t = struct {
                 pub const m_ID: usize = 0x0; // CGlobalSymbol
                 pub const m_startTime: usize = 0x8; // NmPercent_t
@@ -12952,29 +13458,59 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
-            // PVEC_TYPE_INVALID
-            // PVEC_TYPE_LITERAL_COLOR
-            // PVEC_TYPE_NAMED_VALUE
-            // PVEC_TYPE_PARTICLE_VECTOR
-            // PVEC_TYPE_PARTICLE_INITIAL_VECTOR
-            // PVEC_TYPE_PARTICLE_VELOCITY
-            // PVEC_TYPE_CP_VALUE
-            // PVEC_TYPE_CP_RELATIVE_POSITION
-            // PVEC_TYPE_CP_RELATIVE_DIR
-            // PVEC_TYPE_CP_RELATIVE_RANDOM_DIR
-            // PVEC_TYPE_FLOAT_COMPONENTS
-            // PVEC_TYPE_FLOAT_INTERP_CLAMPED
-            // PVEC_TYPE_FLOAT_INTERP_OPEN
-            // PVEC_TYPE_FLOAT_INTERP_GRADIENT
-            // PVEC_TYPE_RANDOM_UNIFORM
-            // PVEC_TYPE_RANDOM_UNIFORM_OFFSET
-            // PVEC_TYPE_CP_DELTA
-            // PVEC_TYPE_CLOSEST_CAMERA_POSITION
-            // PVEC_TYPE_COUNT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
-            // steam_overlay_1=1
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_SET_SCALE_INITIAL_VALUE
+            // PARTICLE_SET_ADD_TO_INITIAL_VALUE
+            // PARTICLE_SET_RAMP_CURRENT_VALUE
+            // PARTICLE_SET_SCALE_CURRENT_VALUE
+            // PARTICLE_SET_ADD_TO_CURRENT_VALUE
+            // MPropertyFriendlyName
+            // PARTICLEBLEND_OVERLAY
+            // PARTICLEBLEND_DARKEN
+            // PARTICLEBLEND_LIGHTEN
+            // PARTICLEBLEND_MULTIPLY
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_COLOR_BLEND_MULTIPLY2X
+            // PARTICLE_COLOR_BLEND_DIVIDE
+            // PARTICLE_COLOR_BLEND_ADD
+            // PARTICLE_COLOR_BLEND_SUBTRACT
+            // PARTICLE_COLOR_BLEND_MOD2X
+            // PARTICLE_COLOR_BLEND_SCREEN
+            // PARTICLE_COLOR_BLEND_MAX
+            // PARTICLE_COLOR_BLEND_MIN
+            // PARTICLE_COLOR_BLEND_REPLACE
+            // PARTICLE_COLOR_BLEND_AVERAGE
+            // PARTICLE_COLOR_BLEND_NEGATE
+            // PARTICLE_COLOR_BLEND_LUMINANCE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // ANIMATION_TYPE_FIT_LIFETIME
+            // ANIMATION_TYPE_MANUAL_FRAMES
+            // PF_MAP_TYPE_INVALID
+            // PF_MAP_TYPE_MULT
+            // PF_MAP_TYPE_REMAP
+            // PF_MAP_TYPE_REMAP_BIASED
+            // PF_MAP_TYPE_CURVE
+            // PF_MAP_TYPE_NOTCHED
+            // PF_MAP_TYPE_ROUND
+            // PF_MAP_TYPE_COUNT
+            // PF_ROUND_TYPE_INVALID
+            // PF_ROUND_TYPE_FLOOR
+            // PF_ROUND_TYPE_CEIL
+            // PF_ROUND_TYPE_COUNT
+            // MPropertyFriendlyName
+            // PARTICLE_DIR_NOISE_CURL
+            // PARTICLE_DIR_NOISE_WORLEY_BASIC
+            // PARTICLE_GPU_COLLISION_MODE_DEPTH
+            // PARTICLE_GPU_COLLISION_MODE_HYBRID
             pub const CParticleCollectionRendererVecInput = struct {
             };
             // Parent: None
@@ -13011,23 +13547,30 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CNmControlParameterIDNode__CDefinition = struct {
             };
             // Parent: None
-            // Field count: 2
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // D
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmBodyGroupEvent = struct {
+                pub const m_target: usize = 0x18; // CNmEventTargetEntity_t
                 pub const m_groupName: usize = 0x20; // CUtlString
                 pub const m_nGroupValue: usize = 0x28; // int32
             };
@@ -13037,7 +13580,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             pub const CWayPointHelperUpdateNode = struct {
                 pub const m_flStartCycle: usize = 0x74; // float32
                 pub const m_flEndCycle: usize = 0x78; // float32
@@ -13066,7 +13609,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13094,9 +13638,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             pub const CAnimTagManagerUpdater = struct {
                 pub const m_tags: usize = 0x38; // CUtlVector<CSmartPtr<CAnimTagBase>>
             };

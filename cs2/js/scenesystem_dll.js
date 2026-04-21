@@ -1,8 +1,17 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     scenesystem_dll: {
+        ESceneViewDebugOverlaysListenerDataType_t: {
+            k_ESceneViewDebugOverlaysListenerDataType_Unknown: 0x0,
+            k_ESceneViewDebugOverlaysListenerDataType_Sphere: 0x1,
+            k_ESceneViewDebugOverlaysListenerDataType_Capsule: 0x2,
+            k_ESceneViewDebugOverlaysListenerDataType_BoxAngles: 0x3,
+            k_ESceneViewDebugOverlaysListenerDataType_Line: 0x4,
+            k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles: 0x5,
+            k_ESceneViewDebugOverlaysListenerDataType_Text3D: 0x6,
+        },
         ESilhouetteType_t: {
             SILHOUETTE_NONE: 0x0,
             SILHOUETTE_LIGHT: 0x1,
@@ -14,6 +23,7 @@ export const Schemas = {
             kDisableShadows_All: 0x1,
             kDisableShadows_Baked: 0x2,
             kDisableShadows_Realtime: 0x3,
+            kDisableShadows_ReallyNone: 0x4,
         },
         DecalRtEncoding_t: {
             kDecalInvalid: 0xFF,

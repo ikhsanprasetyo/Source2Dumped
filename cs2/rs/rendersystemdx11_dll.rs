@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -153,8 +153,6 @@ pub mod source2_dumper {
             // RENDER_BUFFER_IMMOVABLE_ALLOCATION
             // RENDER_SLOT_INVALID
             // RENDER_SLOT_PER_INSTANCE
-            // E!
-            // E!
             pub mod SheetSequenceIntegerId_t {
                 pub const m_Value: usize = 0x0; // uint32
             }

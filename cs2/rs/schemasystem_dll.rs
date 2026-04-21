@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -109,20 +109,18 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
+            // <invalid>
+            // char
+            // uint8
+            // uint16
+            // uint32
+            // uint64
+            // float64
+            // invalid
             // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
+            // uint
+            // string
+            // array
             pub mod InfoForResourceTypeCResourceManifestInternal {
             }
             // Parent: None
@@ -158,29 +156,18 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
             // bool
-            // uint
-            // string
-            // array
-            // VApplication001
-            // VEngineCvar007
-            // VStringTokenSystem001
-            // TestScriptMgr001
-            // VProcessUtils002
-            // VFileSystem017
-            // VAsyncFileSystem2_001
-            // ResourceSystem013
-            // ResourceManifestRegistry001
-            // ResourceHandleUtils001
-            // SchemaSystem_001
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             pub mod CExampleSchemaVData_PolymorphicDerivedA {
                 pub const m_nDerivedA: usize = 0x10; // int32
             }
@@ -188,6 +175,8 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CExampleSchemaVData_PolymorphicBase {
                 pub const m_nBase: usize = 0x8; // int32
@@ -197,31 +186,18 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
             // bool
-            // uint
-            // string
-            // array
-            // VApplication001
-            // VEngineCvar007
-            // VStringTokenSystem001
-            // TestScriptMgr001
-            // VProcessUtils002
-            // VFileSystem017
-            // VAsyncFileSystem2_001
-            // ResourceSystem013
-            // ResourceManifestRegistry001
-            // ResourceHandleUtils001
-            // SchemaSystem_001
-            // ResourceCompilerSystem001
-            // VMaterialSystem2_001
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             pub mod CExampleSchemaVData_PolymorphicDerivedB {
                 pub const m_nDerivedB: usize = 0x10; // int32
             }
@@ -232,18 +208,20 @@ pub mod source2_dumper {
             // vrman
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
             // bool
-            // uint
-            // string
-            // array
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             pub mod ResourceId_t {
                 pub const m_Value: usize = 0x0; // uint64
             }

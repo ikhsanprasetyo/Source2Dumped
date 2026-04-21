@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 export const Schemas = {
     resourcesystem_dll: {
@@ -17,8 +17,6 @@ export const Schemas = {
         FuseVariableAccess_t: {
             WRITABLE: 0x0,
             READ_ONLY: 0x1,
-        },
-        InfoForResourceTypeCNmIKRig: {
         },
         InfoForResourceTypeCResponseRulesList: {
         },
@@ -139,6 +137,8 @@ export const Schemas = {
         InfoForResourceTypeCPanoramaDynamicImages: {
         },
         InfoForResourceTypeIPulseGraphDef: {
+        },
+        InfoForResourceTypeCVDataItemDefs: {
         },
         FunctionInfo_t: {
             m_name: 0x8, // CUtlString

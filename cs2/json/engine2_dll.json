@@ -41,7 +41,7 @@
           "m_fDataObjectTypes": 60,
           "m_flags": 48,
           "m_name": 24,
-          "m_nameStringableIndex": 20,
+          "m_nameStringTableIndex": 20,
           "m_pAttributes": 72,
           "m_pNext": 88,
           "m_pNextByClass": 104,
@@ -49,50 +49,21 @@
           "m_pPrevByClass": 96,
           "m_worldGroupId": 56
         },
-        "metadata": [
-          {
-            "name": "m_nameStringableIndex",
-            "type": "NetworkVarNames",
-            "type_name": "int32"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CEntityInstance": {
         "fields": {
-          "m_CScriptComponent": 48,
+          "m_CScriptComponent": 40,
           "m_iszPrivateVScripts": 8,
           "m_pEntity": 16
         },
-        "metadata": [
-          {
-            "name": "m_pEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CEntityIdentity*"
-          },
-          {
-            "name": "m_CScriptComponent",
-            "type": "NetworkVarNames",
-            "type_name": "CScriptComponent::Storage_t"
-          },
-          {
-            "name": "CUtlDict<class CNetworkSerializerClassInfo *,class CDefFastCaselessStringLess>::Insert",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkSerializeAs",
-            "type": "Unknown"
-          },
-          {
-            "name": "MNetworkSerializeAs",
-            "type": "Unknown"
-          },
-          {
-            "name": "m_nameStringableIndex",
-            "type": "NetworkVarNames",
-            "type_name": "int32"
-          }
-        ],
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityKeyValues": {
+        "fields": {},
+        "metadata": [],
         "parent": null
       },
       "CNetworkVarChainer": {
@@ -142,9 +113,24 @@
         "metadata": [],
         "parent": null
       },
-      "EntOutput_t": {
-        "fields": {},
-        "metadata": [],
+      "EntityIOQueuePrioritizedEvent_t": {
+        "fields": {
+          "m_flFireTime": 4,
+          "m_hActivator": 32,
+          "m_hCaller": 36,
+          "m_hEntTarget": 44,
+          "m_nOutputID": 40,
+          "m_pTarget": 16,
+          "m_pTargetInput": 24,
+          "m_targetType": 8,
+          "m_variantValue": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "EventAdvanceTick_t": {
@@ -433,14 +419,44 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "*",
+            "type": "Unknown"
+          },
+          {
+            "name": "o%",
+            "type": "Unknown"
+          },
+          {
+            "name": "%O",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "GameTime_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "%O",
+            "type": "Unknown"
+          },
+          {
+            "name": "E!",
+            "type": "Unknown"
+          },
+          {
+            "name": "Q",
+            "type": "Unknown"
+          },
+          {
+            "name": "%O",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       }
     },

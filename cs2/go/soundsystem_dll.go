@@ -1,9 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 package schemas
 
 const (
+    SoundsystemDll_SndSeqInstrumentType_t_eSndSeqInstNull = 0x0
+    SoundsystemDll_SndSeqInstrumentType_t_eSndSeqInstSndEvt = 0x1
+    SoundsystemDll_SndSeqInstrumentType_t_eSndSeqInstMidiSampler = 0x2
     SoundsystemDll_EMode_t_Peak = 0x0
     SoundsystemDll_EMode_t_RMS = 0x1
     SoundsystemDll_VMixGraphCommandID_t_CMD_INVALID = 0xFFFFFFFFFFFFFFFF
@@ -68,12 +71,21 @@ const (
     SoundsystemDll_SosActionStopType_t_SOS_STOPTYPE_NONE = 0x0
     SoundsystemDll_SosActionStopType_t_SOS_STOPTYPE_TIME = 0x1
     SoundsystemDll_SosActionStopType_t_SOS_STOPTYPE_OPVAR = 0x2
+    SoundsystemDll_SndSeqTrackPlaybackType_t_eSndSeqTrackPlaybackTypeStep = 0x0
+    SoundsystemDll_SndSeqTrackPlaybackType_t_eSndSeqTrackPlaybackTypeFwd = 0x1
     SoundsystemDll_SosEditItemType_t_SOS_EDIT_ITEM_TYPE_SOUNDEVENTS = 0x0
     SoundsystemDll_SosEditItemType_t_SOS_EDIT_ITEM_TYPE_SOUNDEVENT = 0x1
     SoundsystemDll_SosEditItemType_t_SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS = 0x2
     SoundsystemDll_SosEditItemType_t_SOS_EDIT_ITEM_TYPE_STACK = 0x3
     SoundsystemDll_SosEditItemType_t_SOS_EDIT_ITEM_TYPE_OPERATOR = 0x4
     SoundsystemDll_SosEditItemType_t_SOS_EDIT_ITEM_TYPE_FIELD = 0x5
+    SoundsystemDll_SndSeqQuantizeType_t_eSndSeqQuantizeInvalid = 0xFFFFFFFFFFFFFFFF
+    SoundsystemDll_SndSeqQuantizeType_t_eSndSeqQuantizeNone = 0x0
+    SoundsystemDll_SndSeqQuantizeType_t_eSndSeqQuantizeBeat = 0x1
+    SoundsystemDll_SndSeqQuantizeType_t_eSndSeqQuantizeBar = 0x2
+    SoundsystemDll_SndSeqQuantizeType_t_eSndSeqQuantizeSequence = 0x3
+    SoundsystemDll_SndSeqQuantizeType_t_eSndSeqQuantizeSeek = 0x4
+    SoundsystemDll_SndSeqQuantizeType_t_eSndSeqQuantizeReset = 0x5
     SoundsystemDll_PlayBackMode_t_Random = 0x0
     SoundsystemDll_PlayBackMode_t_RandomNoRepeats = 0x1
     SoundsystemDll_PlayBackMode_t_RandomAvoidLast = 0x2
@@ -82,6 +94,9 @@ const (
     SoundsystemDll_SosGroupFieldBehavior_t_kIgnore = 0x0
     SoundsystemDll_SosGroupFieldBehavior_t_kBranch = 0x1
     SoundsystemDll_SosGroupFieldBehavior_t_kMatch = 0x2
+    SoundsystemDll_SndSeqSyncType_t_eSndSeqSyncTypeNone = 0x0
+    SoundsystemDll_SndSeqSyncType_t_eSndSeqSyncTypeWait = 0x1
+    SoundsystemDll_SndSeqSyncType_t_eSndSeqSyncTypeSeek = 0x2
     SoundsystemDll_soundlevel_t_SNDLVL_NONE = 0x0
     SoundsystemDll_soundlevel_t_SNDLVL_20dB = 0x14
     SoundsystemDll_soundlevel_t_SNDLVL_25dB = 0x19
@@ -129,6 +144,9 @@ const (
     SoundsystemDll_EMidiNote_A_Sharp = 0xA
     SoundsystemDll_EMidiNote_B = 0xB
     SoundsystemDll_EMidiNote_Count = 0xC
+    SoundsystemDll_SndSeqRegionType_t_eSndSeqRegionTypeNull = 0x0
+    SoundsystemDll_SndSeqRegionType_t_eSndSeqRegionTypeSndEvt = 0x1
+    SoundsystemDll_SndSeqRegionType_t_eSndSeqRegionTypeMidiSeq = 0x2
     SoundsystemDll_CVSoundFormat_t_PCM16 = 0x0
     SoundsystemDll_CVSoundFormat_t_PCM8 = 0x1
     SoundsystemDll_CVSoundFormat_t_MP3 = 0x2
@@ -141,6 +159,9 @@ const (
     SoundsystemDll_VMixFilterSlope_t_FILTER_SLOPE_24dB = 0x5
     SoundsystemDll_VMixFilterSlope_t_FILTER_SLOPE_36dB = 0x6
     SoundsystemDll_VMixFilterSlope_t_FILTER_SLOPE_48dB = 0x7
+    SoundsystemDll_SndSeqPlayerType_t_eSndSeqPlayerNull = 0x0
+    SoundsystemDll_SndSeqPlayerType_t_eSndSeqPlayerSndEvt = 0x1
+    SoundsystemDll_SndSeqPlayerType_t_eSndSeqPlayerMidiSeq = 0x2
     SoundsystemDll_SosActionLimitSortType_t_SOS_LIMIT_SORTTYPE_HIGHEST = 0x0
     SoundsystemDll_SosActionLimitSortType_t_SOS_LIMIT_SORTTYPE_LOWEST = 0x1
     SoundsystemDll_VMixSubgraphSwitchInterpolationType_t_SUBGRAPH_INTERPOLATION_TEMPORAL_CROSSFADE = 0x0
@@ -150,10 +171,17 @@ const (
     SoundsystemDll_SosGroupType_t_SOS_GROUPTYPE_STATIC = 0x1
     SoundsystemDll_SosActionSetParamSortType_t_SOS_SETPARAM_SORTTYPE_HIGHEST = 0x0
     SoundsystemDll_SosActionSetParamSortType_t_SOS_SETPARAM_SORTTYPE_LOWEST = 0x1
+    SoundsystemDll_SndSeqMidiStatusType_t_SndSeqMidiStatusNoteOff = 0x8
+    SoundsystemDll_SndSeqMidiStatusType_t_SndSeqMidiStatusNoteOn = 0x9
+    SoundsystemDll_SndSeqMidiStatusType_t_SndSeqMidiStatusKeyPressure = 0xA
+    SoundsystemDll_SndSeqMidiStatusType_t_SndSeqMidiStatusCtrlChange = 0xB
+    SoundsystemDll_SndSeqMidiStatusType_t_SndSeqMidiStatusProgramChange = 0xC
+    SoundsystemDll_SndSeqMidiStatusType_t_SndSeqMidiStatusChannelPressure = 0xD
+    SoundsystemDll_SndSeqMidiStatusType_t_SndSeqMidiStatusPitchBend = 0xE
     SoundsystemDll_CVMixInputBase_m_name = 0x0 // CUtlString
     SoundsystemDll_CVoiceContainerBlender_m_firstSound = 0xA8 // CSoundContainerReference
-    SoundsystemDll_CVoiceContainerBlender_m_secondSound = 0xC0 // CSoundContainerReference
-    SoundsystemDll_CVoiceContainerBlender_m_flBlendFactor = 0xD8 // float32
+    SoundsystemDll_CVoiceContainerBlender_m_secondSound = 0xC8 // CSoundContainerReference
+    SoundsystemDll_CVoiceContainerBlender_m_flBlendFactor = 0xE8 // float32
     SoundsystemDll_CVMixPitchShiftProcessorDesc_m_desc = 0x20 // VMixPitchShiftDesc_t
     SoundsystemDll_VMixFreeverbDesc_t_m_flRoomSize = 0x0 // float32
     SoundsystemDll_VMixFreeverbDesc_t_m_flDamp = 0x4 // float32
@@ -169,6 +197,13 @@ const (
     SoundsystemDll_CVoiceContainerStaticAdditiveSynth__CTone_m_harmonics = 0x0 // CUtlVector<CVoiceContainerStaticAdditiveSynth::CHarmonic>
     SoundsystemDll_CVoiceContainerStaticAdditiveSynth__CTone_m_curve = 0x18 // CPiecewiseCurve
     SoundsystemDll_CVoiceContainerStaticAdditiveSynth__CTone_m_bSyncInstances = 0x58 // bool
+    SoundsystemDll_CSosGroupActionOcclusionSchema_m_flCalculationInterval = 0x8 // float32
+    SoundsystemDll_CSosGroupActionOcclusionSchema_m_flRadius = 0xC // float32
+    SoundsystemDll_CSosGroupActionOcclusionSchema_m_flOcclusionScale = 0x10 // float32
+    SoundsystemDll_CSosGroupActionOcclusionSchema_m_flOcclusionMin = 0x14 // float32
+    SoundsystemDll_CSosGroupActionOcclusionSchema_m_flOcclusionMax = 0x18 // float32
+    SoundsystemDll_CSosGroupActionOcclusionSchema_m_flTestDepth = 0x1C // float32
+    SoundsystemDll_CSosGroupActionOcclusionSchema_m_flCalculationInterval = 0x8 // float32
     SoundsystemDll_CVoiceContainerRandomSampler_m_flAmplitude = 0xB8 // float32
     SoundsystemDll_CVoiceContainerRandomSampler_m_flAmplitudeJitter = 0xBC // float32
     SoundsystemDll_CVoiceContainerRandomSampler_m_flTimeJitter = 0xC0 // float32
@@ -199,9 +234,10 @@ const (
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_flMaxValue = 0x10 // float32
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_opvarName = 0x18 // CUtlString
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_nSortType = 0x20 // SosActionSetParamSortType_t
-    SoundsystemDll_CSoundContainerReference_m_bUseReference = 0x0 // bool
-    SoundsystemDll_CSoundContainerReference_m_sound = 0x8 // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-    SoundsystemDll_CSoundContainerReference_m_pSound = 0x10 // CVoiceContainerBase*
+    SoundsystemDll_CSoundContainerReference_m_namespace = 0x0 // CUtlString
+    SoundsystemDll_CSoundContainerReference_m_bUseReference = 0x8 // bool
+    SoundsystemDll_CSoundContainerReference_m_sound = 0x10 // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+    SoundsystemDll_CSoundContainerReference_m_pSound = 0x18 // CVoiceContainerBase*
     SoundsystemDll_VMixSubgraphSwitchDesc_t_m_name = 0x0 // CUtlString
     SoundsystemDll_VMixSubgraphSwitchDesc_t_m_effectName = 0x8 // CUtlString
     SoundsystemDll_VMixSubgraphSwitchDesc_t_m_subgraphs = 0x10 // CUtlVector<CUtlString>
@@ -229,6 +265,7 @@ const (
     SoundsystemDll_CVMixCommand_m_nProcessor = 0x14 // int32
     SoundsystemDll_CVMixCommand_m_nInputValue0 = 0x18 // int32
     SoundsystemDll_CVMixCommand_m_nInputValue1 = 0x1C // int32
+    SoundsystemDll_SamplerVoice_t_nNoteNum = 0x0 // uint8
     SoundsystemDll_CVMixControlInput_m_flDefaultValue = 0x10 // float32
     SoundsystemDll_CVMixBoxverbProcessorDesc_m_desc = 0x20 // VMixBoxverbDesc_t
     SoundsystemDll_CVMixDynamicsCompressorProcessorDesc_m_desc = 0x20 // VMixDynamicsCompressorDesc_t
@@ -286,6 +323,24 @@ const (
     SoundsystemDll_CSosSoundEventGroupSchema_m_Behavior_String = 0x48 // SosGroupFieldBehavior_t
     SoundsystemDll_CSosSoundEventGroupSchema_m_opvarString = 0x50 // CUtlString
     SoundsystemDll_CSosSoundEventGroupSchema_m_vActions = 0x58 // CUtlVector<CSosGroupActionSchema*>
+    SoundsystemDll_CSndSeqInstMidiSampler_m_bIsSoundEvent = 0x20 // bool
+    SoundsystemDll_CSndSeqInstMidiSampler_m_bStopPrevious = 0x21 // bool
+    SoundsystemDll_CSndSeqInstMidiSampler_m_nMinNote = 0x22 // uint8
+    SoundsystemDll_CSndSeqInstMidiSampler_m_nMaxNote = 0x23 // uint8
+    SoundsystemDll_CSndSeqInstMidiSampler_m_flMinVelocityAtten = 0x24 // float32
+    SoundsystemDll_CSndSeqInstMidiSampler_m_flMaxVelocityAtten = 0x28 // float32
+    SoundsystemDll_CSndSeqInstMidiSampler_m_flAttack = 0x2C // float32
+    SoundsystemDll_CSndSeqInstMidiSampler_m_flRelease = 0x30 // float32
+    SoundsystemDll_CSndSeqInstMidiSampler_m_bBeatEnvelopes = 0x34 // bool
+    SoundsystemDll_CSndSeqInstMidiSampler_m_nNextVoiceSlot = 0xD4 // uint8
+    SoundsystemDll_CSndSeqInstMidiSampler_m_hSoundEventHash = 0xD8 // uint32
+    SoundsystemDll_CSndSeqInstMidiSampler_m_bIsSoundEvent = 0x20 // bool
+    SoundsystemDll_CSndSeqInstBaseSchema_m_nType = 0x8 // SndSeqInstrumentType_t
+    SoundsystemDll_CSndSeqInstBaseSchema_m_nPlayerType = 0xC // SndSeqPlayerType_t
+    SoundsystemDll_CSndSeqInstBaseSchema_m_bStopCurrentEvents = 0x12 // bool
+    SoundsystemDll_CSndSeqInstBaseSchema_m_flBPM = 0x14 // float32
+    SoundsystemDll_CSndSeqInstBaseSchema_m_flBPMFactor = 0x18 // float32
+    SoundsystemDll_CSndSeqInstBaseSchema_m_flBPMInvFactor = 0x1C // float32
     SoundsystemDll_VMixDynamics3BandDesc_t_m_fldbGainOutput = 0x0 // float32
     SoundsystemDll_VMixDynamics3BandDesc_t_m_flRMSTimeMS = 0x4 // float32
     SoundsystemDll_VMixDynamics3BandDesc_t_m_fldbKneeWidth = 0x8 // float32
@@ -350,13 +405,13 @@ const (
     SoundsystemDll_CVMixGraphDescData_m_nGraphOutputChannels = 0x8 // int32
     SoundsystemDll_CVMixGraphDescData_m_bIsMainGraph = 0xC // bool
     SoundsystemDll_CVoiceContainerLoopXFade_m_sound = 0xA8 // CSoundContainerReference
-    SoundsystemDll_CVoiceContainerLoopXFade_m_flLoopEnd = 0xC0 // float32
-    SoundsystemDll_CVoiceContainerLoopXFade_m_flLoopStart = 0xC4 // float32
-    SoundsystemDll_CVoiceContainerLoopXFade_m_flFadeOut = 0xC8 // float32
-    SoundsystemDll_CVoiceContainerLoopXFade_m_flFadeIn = 0xCC // float32
-    SoundsystemDll_CVoiceContainerLoopXFade_m_bPlayHead = 0xD0 // bool
-    SoundsystemDll_CVoiceContainerLoopXFade_m_bPlayTail = 0xD1 // bool
-    SoundsystemDll_CVoiceContainerLoopXFade_m_bEqualPow = 0xD2 // bool
+    SoundsystemDll_CVoiceContainerLoopXFade_m_flLoopEnd = 0xC8 // float32
+    SoundsystemDll_CVoiceContainerLoopXFade_m_flLoopStart = 0xCC // float32
+    SoundsystemDll_CVoiceContainerLoopXFade_m_flFadeOut = 0xD0 // float32
+    SoundsystemDll_CVoiceContainerLoopXFade_m_flFadeIn = 0xD4 // float32
+    SoundsystemDll_CVoiceContainerLoopXFade_m_bPlayHead = 0xD8 // bool
+    SoundsystemDll_CVoiceContainerLoopXFade_m_bPlayTail = 0xD9 // bool
+    SoundsystemDll_CVoiceContainerLoopXFade_m_bEqualPow = 0xDA // bool
     SoundsystemDll_VMixPresetDSPDesc_t_m_effectName = 0x0 // CUtlString
     SoundsystemDll_CAudioPhonemeTag_m_flStartTime = 0x0 // float32
     SoundsystemDll_CAudioPhonemeTag_m_flEndTime = 0x4 // float32
@@ -365,6 +420,7 @@ const (
     SoundsystemDll_CVMixNameInput_m_defaultValue = 0x10 // CUtlString
     SoundsystemDll_CSosGroupActionSoundeventCountSchema_m_bExcludeStoppedSounds = 0x8 // bool
     SoundsystemDll_CSosGroupActionSoundeventCountSchema_m_strCountKeyName = 0x10 // CUtlString
+    SoundsystemDll_CSosGroupActionSoundeventCountSchema_m_bExcludeStoppedSounds = 0x8 // bool
     SoundsystemDll_CVoiceContainerEnvelopeAnalyzer_m_mode = 0x50 // EMode_t
     SoundsystemDll_CVoiceContainerEnvelopeAnalyzer_m_fAnalysisWindowMs = 0x54 // float32
     SoundsystemDll_CVoiceContainerEnvelopeAnalyzer_m_flThreshold = 0x58 // float32
@@ -398,7 +454,7 @@ const (
     SoundsystemDll_VMixConvolutionDesc_t_m_flLowCutoffFreq = 0x18 // float32
     SoundsystemDll_VMixConvolutionDesc_t_m_flHighCutoffFreq = 0x1C // float32
     SoundsystemDll_CVoiceContainerSetElement_m_sound = 0x0 // CSoundContainerReference
-    SoundsystemDll_CVoiceContainerSetElement_m_flVolumeDB = 0x18 // float32
+    SoundsystemDll_CVoiceContainerSetElement_m_flVolumeDB = 0x20 // float32
     SoundsystemDll_SosEditItemInfo_t_itemType = 0x0 // SosEditItemType_t
     SoundsystemDll_SosEditItemInfo_t_itemName = 0x8 // CUtlString
     SoundsystemDll_SosEditItemInfo_t_itemTypeName = 0x10 // CUtlString
@@ -406,6 +462,11 @@ const (
     SoundsystemDll_SosEditItemInfo_t_itemPos = 0x28 // Vector2D
     SoundsystemDll_CVMixFlangerProcessorDesc_m_desc = 0x20 // VMixFlangerDesc_t
     SoundsystemDll_CVMixEffectChainProcessorDesc_m_desc = 0x20 // VMixEffectChainDesc_t
+    SoundsystemDll_KeyGroup_t_nCenterNote = 0x0 // uint8
+    SoundsystemDll_KeyGroup_t_nMinNote = 0x1 // uint8
+    SoundsystemDll_KeyGroup_t_nMaxNote = 0x2 // uint8
+    SoundsystemDll_KeyGroup_t_nNumVelocityZones = 0x3 // uint8
+    SoundsystemDll_KeyGroup_t_pVelocityZones = 0x8 // VelocityZone_t*
     SoundsystemDll_CVMixFreeverbProcessorDesc_m_desc = 0x20 // VMixFreeverbDesc_t
     SoundsystemDll_VMixPlateverbDesc_t_m_flPrefilter = 0x0 // float32
     SoundsystemDll_VMixPlateverbDesc_t_m_flInputDiffusion1 = 0x4 // float32
@@ -452,13 +513,13 @@ const (
     SoundsystemDll_CAudioSentence_m_EmphasisSamples = 0x20 // CUtlVector<CAudioEmphasisSample>
     SoundsystemDll_CAudioSentence_m_morphData = 0x38 // CAudioMorphData
     SoundsystemDll_CVoiceContainerParameterBlender_m_firstSound = 0xA8 // CSoundContainerReference
-    SoundsystemDll_CVoiceContainerParameterBlender_m_secondSound = 0xC0 // CSoundContainerReference
-    SoundsystemDll_CVoiceContainerParameterBlender_m_bEnableOcclusionBlend = 0xD8 // bool
-    SoundsystemDll_CVoiceContainerParameterBlender_m_curve1 = 0xE0 // CPiecewiseCurve
-    SoundsystemDll_CVoiceContainerParameterBlender_m_curve2 = 0x120 // CPiecewiseCurve
-    SoundsystemDll_CVoiceContainerParameterBlender_m_bEnableDistanceBlend = 0x160 // bool
-    SoundsystemDll_CVoiceContainerParameterBlender_m_curve3 = 0x168 // CPiecewiseCurve
-    SoundsystemDll_CVoiceContainerParameterBlender_m_curve4 = 0x1A8 // CPiecewiseCurve
+    SoundsystemDll_CVoiceContainerParameterBlender_m_secondSound = 0xC8 // CSoundContainerReference
+    SoundsystemDll_CVoiceContainerParameterBlender_m_bEnableOcclusionBlend = 0xE8 // bool
+    SoundsystemDll_CVoiceContainerParameterBlender_m_curve1 = 0xF0 // CPiecewiseCurve
+    SoundsystemDll_CVoiceContainerParameterBlender_m_curve2 = 0x130 // CPiecewiseCurve
+    SoundsystemDll_CVoiceContainerParameterBlender_m_bEnableDistanceBlend = 0x170 // bool
+    SoundsystemDll_CVoiceContainerParameterBlender_m_curve3 = 0x178 // CPiecewiseCurve
+    SoundsystemDll_CVoiceContainerParameterBlender_m_curve4 = 0x1B8 // CPiecewiseCurve
     SoundsystemDll_CVMixAudioMeter_m_name = 0x0 // CUtlString
     SoundsystemDll_CVMixAudioMeter_m_displayName = 0x8 // CUtlString
     SoundsystemDll_CVMixVocoderProcessorDesc_m_desc = 0x20 // VMixVocoderDesc_t
@@ -467,6 +528,7 @@ const (
     SoundsystemDll_CSosGroupActionLimitSchema_m_nSortType = 0x10 // SosActionLimitSortType_t
     SoundsystemDll_CSosGroupActionLimitSchema_m_bStopImmediate = 0x14 // bool
     SoundsystemDll_CSosGroupActionLimitSchema_m_bCountStopped = 0x15 // bool
+    SoundsystemDll_CSosGroupActionLimitSchema_m_nMaxCount = 0x8 // int32
     SoundsystemDll_CVoiceContainerAmpedDecayingSineWave_m_flGainAmount = 0xB0 // float32
     SoundsystemDll_CVoiceContainerEnvelope_m_sound = 0xA8 // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
     SoundsystemDll_CVoiceContainerEnvelope_m_analysisContainer = 0xB0 // CVoiceContainerAnalysisBase*
@@ -499,6 +561,10 @@ const (
     SoundsystemDll_CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance_m_nInstancesAtMinVolume = 0x4 // int32
     SoundsystemDll_CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance_m_flMaxVolume = 0x8 // float32
     SoundsystemDll_CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance_m_nInstancesAtMaxVolume = 0xC // int32
+    SoundsystemDll_VelocityZone_t_nMaxVel = 0x0 // uint8
+    SoundsystemDll_VelocityZone_t_nNextSelection = 0x1 // uint8
+    SoundsystemDll_VelocityZone_t_nNumSamples = 0x2 // uint8
+    SoundsystemDll_VelocityZone_t_pSamples = 0x4 // uint32[4]
     SoundsystemDll_CVoiceContainerSelector_m_mode = 0xA8 // PlayBackMode_t
     SoundsystemDll_CVoiceContainerSelector_m_soundsToPlay = 0xB0 // CSoundContainerReferenceArray
     SoundsystemDll_CVoiceContainerSelector_m_fProbabilityWeights = 0xE8 // CUtlVector<float32>
@@ -536,10 +602,10 @@ const (
     SoundsystemDll_VMixUtilityDesc_t_m_bBassMono = 0x10 // bool
     SoundsystemDll_VMixUtilityDesc_t_m_flBassFreq = 0x14 // float32
     SoundsystemDll_CVoiceContainerLoopTrigger_m_sound = 0xA8 // CSoundContainerReference
-    SoundsystemDll_CVoiceContainerLoopTrigger_m_flRetriggerTimeMin = 0xC0 // float32
-    SoundsystemDll_CVoiceContainerLoopTrigger_m_flRetriggerTimeMax = 0xC4 // float32
-    SoundsystemDll_CVoiceContainerLoopTrigger_m_flFadeTime = 0xC8 // float32
-    SoundsystemDll_CVoiceContainerLoopTrigger_m_bCrossFade = 0xCC // bool
+    SoundsystemDll_CVoiceContainerLoopTrigger_m_flRetriggerTimeMin = 0xC8 // float32
+    SoundsystemDll_CVoiceContainerLoopTrigger_m_flRetriggerTimeMax = 0xCC // float32
+    SoundsystemDll_CVoiceContainerLoopTrigger_m_flFadeTime = 0xD0 // float32
+    SoundsystemDll_CVoiceContainerLoopTrigger_m_bCrossFade = 0xD4 // bool
     SoundsystemDll_CVoiceContainerDecayingSineWave_m_flFrequency = 0xA8 // float32
     SoundsystemDll_CVoiceContainerDecayingSineWave_m_flDecayTime = 0xAC // float32
     SoundsystemDll_CVMixDelayProcessorDesc_m_desc = 0x20 // VMixDelayDesc_t

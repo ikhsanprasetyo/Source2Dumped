@@ -1,12 +1,23 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:15:51.295207800 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: scenesystem.dll
         // Class count: 9
-        // Enum count: 4
+        // Enum count: 5
         pub const scenesystem_dll = struct {
+            // Alignment: 4
+            // Member count: 7
+            pub const ESceneViewDebugOverlaysListenerDataType_t = enum(u32) {
+                k_ESceneViewDebugOverlaysListenerDataType_Unknown = 0x0,
+                k_ESceneViewDebugOverlaysListenerDataType_Sphere = 0x1,
+                k_ESceneViewDebugOverlaysListenerDataType_Capsule = 0x2,
+                k_ESceneViewDebugOverlaysListenerDataType_BoxAngles = 0x3,
+                k_ESceneViewDebugOverlaysListenerDataType_Line = 0x4,
+                k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles = 0x5,
+                k_ESceneViewDebugOverlaysListenerDataType_Text3D = 0x6
+            };
             // Alignment: 4
             // Member count: 4
             pub const ESilhouetteType_t = enum(u32) {
@@ -16,12 +27,13 @@ pub const source2_dumper = struct {
                 SILHOUETTE_LPV = 0x4
             };
             // Alignment: 1
-            // Member count: 4
+            // Member count: 5
             pub const DisableShadows_t = enum(u8) {
                 kDisableShadows_None = 0x0,
                 kDisableShadows_All = 0x1,
                 kDisableShadows_Baked = 0x2,
-                kDisableShadows_Realtime = 0x3
+                kDisableShadows_Realtime = 0x3,
+                kDisableShadows_ReallyNone = 0x4
             };
             // Alignment: 1
             // Member count: 6

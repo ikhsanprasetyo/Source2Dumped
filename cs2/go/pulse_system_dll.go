@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-03 12:44:57.093718900 +07:00
+// 2026-04-21 10:30:00.180985200 +07:00
 
 package schemas
 
@@ -23,8 +23,8 @@ const (
     PulseSystemDll_CPulseCell_WaitForCursorsWithTag_m_bTagSelfWhenComplete = 0x98 // bool
     PulseSystemDll_CPulseCell_WaitForCursorsWithTag_m_nDesiredKillPriority = 0x9C // PulseCursorCancelPriority_t
     PulseSystemDll_CPulseCell_Base_m_nEditorNodeID = 0x8 // PulseDocNodeID_t
-    PulseSystemDll_CTestDomainDerived_Cursor_m_nCursorValueA = 0xD0 // int32
-    PulseSystemDll_CTestDomainDerived_Cursor_m_nCursorValueB = 0xD4 // int32
+    PulseSystemDll_CTestDomainDerived_Cursor_m_nCursorValueA = 0xD8 // int32
+    PulseSystemDll_CTestDomainDerived_Cursor_m_nCursorValueB = 0xDC // int32
     PulseSystemDll_CPulseCell_PickBestOutflowSelector_m_nCheckType = 0x48 // PulseBestOutflowRules_t
     PulseSystemDll_CPulseCell_PickBestOutflowSelector_m_OutflowList = 0x50 // PulseSelectorOutflowList_t
     PulseSystemDll_CPulseCell_WaitForObservable_m_Condition = 0x48 // PulseObservableBoolExpression_t
@@ -69,10 +69,10 @@ const (
     PulseSystemDll_CPulseCell_Test_MultiOutflow_WithParams_m_Out2 = 0x90 // SignatureOutflow_Continue
     PulseSystemDll_CPulseCell_Inflow_GraphHook_m_HookName = 0x80 // PulseSymbol_t
     PulseSystemDll_CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t_nTestStep = 0x0 // int32
-    PulseSystemDll_CPulseTurtleGraphicsCursor_m_Color = 0xD0 // Color
-    PulseSystemDll_CPulseTurtleGraphicsCursor_m_vPos = 0xD4 // Vector2D
-    PulseSystemDll_CPulseTurtleGraphicsCursor_m_flHeadingDeg = 0xDC // float32
-    PulseSystemDll_CPulseTurtleGraphicsCursor_m_bPenUp = 0xE0 // bool
+    PulseSystemDll_CPulseTurtleGraphicsCursor_m_Color = 0xD8 // Color
+    PulseSystemDll_CPulseTurtleGraphicsCursor_m_vPos = 0xDC // Vector2D
+    PulseSystemDll_CPulseTurtleGraphicsCursor_m_flHeadingDeg = 0xE4 // float32
+    PulseSystemDll_CPulseTurtleGraphicsCursor_m_bPenUp = 0xE8 // bool
     PulseSystemDll_CPulseCell_TestWaitWithCursorState__CursorState_t_flWaitValue = 0x0 // float32
     PulseSystemDll_CPulseCell_TestWaitWithCursorState__CursorState_t_bFailOnCancel = 0x4 // bool
     PulseSystemDll_CPulseCell_Inflow_BaseEntrypoint_m_EntryChunk = 0x48 // PulseRuntimeChunkIndex_t
@@ -139,7 +139,7 @@ const (
     PulseSystemDll_CPulseCell_Inflow_Method_m_ReturnType = 0xA0 // CPulseValueFullType
     PulseSystemDll_CPulseCell_Inflow_Method_m_Args = 0xB8 // CUtlLeanVector<CPulseRuntimeMethodArg>
     PulseSystemDll_CPulseCell_BooleanSwitchState_m_Condition = 0x48 // PulseObservableBoolExpression_t
-    PulseSystemDll_CPulseCell_BooleanSwitchState_m_SubGraph = 0xC0 // CPulse_OutflowConnection
+    PulseSystemDll_CPulseCell_BooleanSwitchState_m_Always = 0xC0 // CPulse_OutflowConnection
     PulseSystemDll_CPulseCell_BooleanSwitchState_m_WhenTrue = 0x108 // CPulse_OutflowConnection
     PulseSystemDll_CPulseCell_BooleanSwitchState_m_WhenFalse = 0x150 // CPulse_OutflowConnection
     PulseSystemDll_CPulseCell_Inflow_Yield_m_UnyieldResume = 0x48 // CPulse_ResumePoint
@@ -169,13 +169,14 @@ const (
     PulseSystemDll_CPulseCell_ExampleCriteria__Criteria_t_m_bMyBool = 0x8 // bool
     PulseSystemDll_CPulseCell_LimitCount_m_nLimitCount = 0x48 // int32
     PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_MethodName = 0x48 // PulseSymbol_t
-    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_GameBlackboard = 0x58 // PulseSymbol_t
-    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_ExpectedArgs = 0x68 // CUtlLeanVector<CPulseRuntimeMethodArg>
-    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_nAsyncCallMode = 0x78 // PulseMethodCallMode_t
-    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_OnFinished = 0x80 // CPulse_ResumePoint
+    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_nBlackboardIndex = 0x58 // PulseRuntimeBlackboardReferenceIndex_t
+    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_ExpectedArgs = 0x60 // CUtlLeanVector<CPulseRuntimeMethodArg>
+    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_nAsyncCallMode = 0x70 // PulseMethodCallMode_t
+    PulseSystemDll_CPulseCell_Step_CallExternalMethod_m_OnFinished = 0x78 // CPulse_ResumePoint
     PulseSystemDll_PulseObservableBoolExpression_t_m_EvaluateConnection = 0x0 // CPulse_OutflowConnection
     PulseSystemDll_PulseObservableBoolExpression_t_m_DependentObservableVars = 0x48 // CUtlVector<PulseRuntimeVarIndex_t>
     PulseSystemDll_PulseObservableBoolExpression_t_m_DependentObservableBlackboardReferences = 0x60 // CUtlVector<PulseRuntimeBlackboardReferenceIndex_t>
     PulseSystemDll_CPulseCell_LimitCount__Criteria_t_m_bLimitCountPasses = 0x0 // bool
     PulseSystemDll_CPulseCell_CursorQueue_m_nCursorsAllowedToRunParallel = 0x98 // int32
+    PulseSystemDll_TestComponent_t_m_ComponentData = 0x8 // CUtlString
 )
