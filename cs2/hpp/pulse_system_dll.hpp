@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 #pragma once
 
@@ -87,7 +87,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
             namespace CPulseCell_Step_TestDomainDestroyFakeEntity {
             }
             // Parent: None
@@ -228,8 +227,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             namespace CPulseTestFuncs_LibraryA {
             }
             // Parent: None
@@ -304,7 +301,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -432,7 +428,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -692,7 +687,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -717,7 +711,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -782,8 +775,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             namespace CPulseCell_Value_TestValue50 {
             }
             // Parent: None
@@ -826,7 +817,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -860,7 +850,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1131,8 +1120,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             namespace CPulseCell_Outflow_TestRandomYesNo {
                 constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_No = 0x90; // CPulse_OutflowConnection
@@ -1180,8 +1167,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             namespace CPulseCell_Test_MultiInflow_WithDefault {
             }
             // Parent: None
@@ -1191,7 +1176,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1266,7 +1250,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1293,7 +1276,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyAttributeSuggestionName
-            // e
             namespace CPulseCell_Val_TestDomainGetEntityName {
             }
             // Parent: None
@@ -1318,7 +1300,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1413,7 +1394,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1516,7 +1496,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1581,7 +1560,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyAttributeSuggestionName
-            // e
             namespace CPulseCell_Val_TestDomainFindEntityByName {
             }
             // Parent: None
@@ -1612,7 +1590,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1632,7 +1609,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyAttributeSuggestionName
-            // e
             namespace CPulseCell_Step_TestDomainEntFire {
                 constexpr std::ptrdiff_t m_Input = 0x48; // CUtlString
                 constexpr std::ptrdiff_t flWaitValue = 0x0; // float32
@@ -1661,8 +1637,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             namespace CPulseCell_ExampleSelector {
                 constexpr std::ptrdiff_t m_OutflowList = 0x48; // PulseSelectorOutflowList_t
             }
@@ -1725,8 +1699,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             namespace CPulseCell_ExampleCriteria {
             }
             // Parent: None
@@ -1751,7 +1723,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1804,8 +1775,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             namespace CPulseCell_Step_TestDomainCreateFakeEntity {
             }
             // Parent: None
@@ -1876,7 +1845,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults

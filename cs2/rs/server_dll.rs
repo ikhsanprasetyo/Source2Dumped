@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
-        // Class count: 943
+        // Class count: 944
         // Enum count: 179
         pub mod server_dll {
             // Alignment: 4
@@ -2585,6 +2585,19 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // Default
+            // WideCircle
+            // MediumCircle
+            // Sidekick
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // COND_SEE_PLAYER
+            // COND_LOST_PLAYER
+            // COND_HEAR_PLAYER
+            // COND_PLAYER_PUSHING
+            // COND_NO_PRIMARY_AMMO
+            // SOLID
             pub mod CPulseCell_Outflow_PlayVOLine {
                 pub const m_OnFinished: usize = 0x48; // CPulse_ResumePoint
             }
@@ -2689,15 +2702,11 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPulseLegacyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOUNDEVENT_START_WORLD
-            // SOUNDEVENT_START_ENTITY
             pub mod CPulseCell_Outflow_PlaySceneBase {
                 pub const m_OnFinished: usize = 0x48; // CPulse_ResumePoint
                 pub const m_OnCanceled: usize = 0x90; // CPulse_ResumePoint
@@ -2709,6 +2718,11 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             pub mod CPulseCell_LerpCameraSettings {
                 pub const m_flSeconds: usize = 0x90; // float32
                 pub const m_Start: usize = 0x94; // PointCameraSettings_t
@@ -3081,6 +3095,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 2
+            // x2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -3564,13 +3580,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseModelEntity
             // Field count: 1
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             pub mod CLightEntity {
                 pub const m_CLightComponent: usize = 0x768; // CLightComponent*
             }
@@ -3683,7 +3692,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -3946,7 +3954,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -3966,11 +3973,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseModelEntity
             // Field count: 22
-            //
-            // Metadata:
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
             pub mod CParticleSystem {
                 pub const m_szSnapshotFileName: usize = 0x768; // char[512]
                 pub const m_bActive: usize = 0x968; // bool
@@ -4360,11 +4362,9 @@ pub mod source2_dumper {
             // Field count: 29
             //
             // Metadata:
-            //  
             // MGetKV3ClassDefaults
             // eNotifyWhenFinished
             // eNotifyTriggered
-            // MGetKV3ClassDefaults
             pub mod CEnvCombinedLightProbeVolume {
                 pub const m_Entity_Color: usize = 0x1520; // Color
                 pub const m_Entity_flBrightness: usize = 0x1524; // float32
@@ -4426,11 +4426,30 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPulseSignatureForOutflow
-            // MGetKV3ClassDefaults
+            // DOOR_CHECK_BACKWARD
+            // DOOR_CHECK_FULL
+            // DOOR_SPAWN_OPEN_FORWARD
+            // DOOR_SPAWN_OPEN_BACK
+            // DOOR_SPAWN_AJAR
+            // DOOR_ROTATING_OPEN_FORWARD
+            // DOOR_ROTATING_OPEN_BACKWARD
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // Default
+            // WideCircle
+            // MediumCircle
+            // Sidekick
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // COND_SEE_PLAYER
+            // COND_LOST_PLAYER
+            // COND_HEAR_PLAYER
+            // COND_PLAYER_PUSHING
+            // COND_NO_PRIMARY_AMMO
+            // SOLID
             pub mod CPulseCell_Outflow_ScriptedSequence {
                 pub const m_szSyncGroup: usize = 0x48; // CUtlString
                 pub const m_nExpectedNumSequencesInSyncGroup: usize = 0x50; // int32
@@ -4595,120 +4614,116 @@ pub mod source2_dumper {
                 pub const m_WaitComplete: usize = 0x50; // CPulse_ResumePoint
             }
             // Parent: CCSPlayerPawnBase
-            // Field count: 112
+            // Field count: 108
             pub mod CCSPlayerPawn {
                 pub const m_pBulletServices: usize = 0xD08; // CCSPlayer_BulletServices*
                 pub const m_pHostageServices: usize = 0xD10; // CCSPlayer_HostageServices*
                 pub const m_pBuyServices: usize = 0xD18; // CCSPlayer_BuyServices*
                 pub const m_pActionTrackingServices: usize = 0xD20; // CCSPlayer_ActionTrackingServices*
-                pub const m_pRadioServices: usize = 0xD28; // CCSPlayer_RadioServices*
-                pub const m_pDamageReactServices: usize = 0xD30; // CCSPlayer_DamageReactServices*
-                pub const m_nCharacterDefIndex: usize = 0xD38; // uint16
-                pub const m_bHasFemaleVoice: usize = 0xD3A; // bool
-                pub const m_strVOPrefix: usize = 0xD40; // CUtlString
-                pub const m_szLastPlaceName: usize = 0xD48; // char[18]
-                pub const m_bInHostageResetZone: usize = 0xE38; // bool
-                pub const m_bInBuyZone: usize = 0xE39; // bool
-                pub const m_TouchingBuyZones: usize = 0xE40; // CUtlVector<CHandle<CBaseEntity>>
-                pub const m_bWasInBuyZone: usize = 0xE58; // bool
-                pub const m_bInHostageRescueZone: usize = 0xE59; // bool
-                pub const m_bInBombZone: usize = 0xE5A; // bool
-                pub const m_bWasInHostageRescueZone: usize = 0xE5B; // bool
-                pub const m_iRetakesOffering: usize = 0xE5C; // int32
-                pub const m_iRetakesOfferingCard: usize = 0xE60; // int32
-                pub const m_bRetakesHasDefuseKit: usize = 0xE64; // bool
-                pub const m_bRetakesMVPLastRound: usize = 0xE65; // bool
-                pub const m_iRetakesMVPBoostItem: usize = 0xE68; // int32
-                pub const m_RetakesMVPBoostExtraUtility: usize = 0xE6C; // loadout_slot_t
-                pub const m_flHealthShotBoostExpirationTime: usize = 0xE70; // GameTime_t
-                pub const m_flLandingTimeSeconds: usize = 0xE74; // float32
-                pub const m_aimPunchAngle: usize = 0xE78; // QAngle
-                pub const m_aimPunchAngleVel: usize = 0xE84; // QAngle
-                pub const m_aimPunchTickBase: usize = 0xE90; // GameTick_t
-                pub const m_aimPunchTickFraction: usize = 0xE94; // float32
-                pub const m_aimPunchCache: usize = 0xE98; // CUtlVector<QAngle>
-                pub const m_bIsBuyMenuOpen: usize = 0xEB0; // bool
-                pub const m_lastLandTime: usize = 0xEE8; // GameTime_t
-                pub const m_bOnGroundLastTick: usize = 0xEEC; // bool
-                pub const m_iPlayerLocked: usize = 0xEF0; // int32
-                pub const m_flTimeOfLastInjury: usize = 0xEF8; // GameTime_t
-                pub const m_flNextSprayDecalTime: usize = 0xEFC; // GameTime_t
-                pub const m_bNextSprayDecalTimeExpedited: usize = 0xF00; // bool
-                pub const m_nRagdollDamageBone: usize = 0xF04; // int32
-                pub const m_vRagdollDamageForce: usize = 0xF08; // Vector
-                pub const m_vRagdollDamagePosition: usize = 0xF14; // Vector
-                pub const m_szRagdollDamageWeaponName: usize = 0xF20; // char[64]
-                pub const m_bRagdollDamageHeadshot: usize = 0xF60; // bool
-                pub const m_vRagdollServerOrigin: usize = 0xF64; // Vector
-                pub const m_EconGloves: usize = 0xF70; // CEconItemView
-                pub const m_nEconGlovesChanged: usize = 0x1218; // uint8
-                pub const m_qDeathEyeAngles: usize = 0x121C; // QAngle
-                pub const m_bLeftHanded: usize = 0x1228; // bool
-                pub const m_fSwitchedHandednessTime: usize = 0x122C; // GameTime_t
-                pub const m_flViewmodelOffsetX: usize = 0x1230; // float32
-                pub const m_flViewmodelOffsetY: usize = 0x1234; // float32
-                pub const m_flViewmodelOffsetZ: usize = 0x1238; // float32
-                pub const m_flViewmodelFOV: usize = 0x123C; // float32
-                pub const m_bIsWalking: usize = 0x1240; // bool
-                pub const m_fLastGivenDefuserTime: usize = 0x1244; // float32
-                pub const m_fLastGivenBombTime: usize = 0x1248; // float32
-                pub const m_flDealtDamageToEnemyMostRecentTimestamp: usize = 0x124C; // float32
-                pub const m_iDisplayHistoryBits: usize = 0x1250; // uint32
-                pub const m_flLastAttackedTeammate: usize = 0x1254; // float32
-                pub const m_allowAutoFollowTime: usize = 0x1258; // GameTime_t
-                pub const m_bResetArmorNextSpawn: usize = 0x125C; // bool
-                pub const m_nLastKillerIndex: usize = 0x1260; // CEntityIndex
-                pub const m_entitySpottedState: usize = 0x1268; // EntitySpottedState_t
-                pub const m_nSpotRules: usize = 0x1280; // int32
-                pub const m_bIsScoped: usize = 0x1284; // bool
-                pub const m_bResumeZoom: usize = 0x1285; // bool
-                pub const m_bIsDefusing: usize = 0x1286; // bool
-                pub const m_bIsGrabbingHostage: usize = 0x1287; // bool
-                pub const m_iBlockingUseActionInProgress: usize = 0x1288; // CSPlayerBlockingUseAction_t
-                pub const m_flEmitSoundTime: usize = 0x128C; // GameTime_t
-                pub const m_bInNoDefuseArea: usize = 0x1290; // bool
-                pub const m_iBombSiteIndex: usize = 0x1294; // CEntityIndex
-                pub const m_nWhichBombZone: usize = 0x1298; // int32
-                pub const m_bInBombZoneTrigger: usize = 0x129C; // bool
-                pub const m_bWasInBombZoneTrigger: usize = 0x129D; // bool
-                pub const m_iShotsFired: usize = 0x12A0; // int32
-                pub const m_flFlinchStack: usize = 0x12A4; // float32
-                pub const m_flVelocityModifier: usize = 0x12A8; // float32
-                pub const m_vecTotalBulletForce: usize = 0x12AC; // Vector
-                pub const m_bWaitForNoAttack: usize = 0x12B8; // bool
-                pub const m_ignoreLadderJumpTime: usize = 0x12BC; // float32
-                pub const m_bKilledByHeadshot: usize = 0x12C0; // bool
-                pub const m_LastHitBox: usize = 0x12C4; // int32
-                pub const m_pBot: usize = 0x12C8; // CCSBot*
-                pub const m_bBotAllowActive: usize = 0x12D0; // bool
-                pub const m_nLastPickupPriority: usize = 0x12D4; // int32
-                pub const m_flLastPickupPriorityTime: usize = 0x12D8; // float32
-                pub const m_ArmorValue: usize = 0x12DC; // int32
-                pub const m_unCurrentEquipmentValue: usize = 0x12E0; // uint16
-                pub const m_unRoundStartEquipmentValue: usize = 0x12E2; // uint16
-                pub const m_unFreezetimeEndEquipmentValue: usize = 0x12E4; // uint16
-                pub const m_iLastWeaponFireUsercmd: usize = 0x12E8; // int32
-                pub const m_bIsSpawning: usize = 0x12EC; // bool
-                pub const m_iDeathFlags: usize = 0x12F8; // int32
-                pub const m_bHasDeathInfo: usize = 0x12FC; // bool
-                pub const m_flDeathInfoTime: usize = 0x1300; // float32
-                pub const m_vecDeathInfoOrigin: usize = 0x1304; // Vector
-                pub const m_vecPlayerPatchEconIndices: usize = 0x1310; // uint32[5]
-                pub const m_GunGameImmunityColor: usize = 0x1324; // Color
-                pub const m_grenadeParameterStashTime: usize = 0x1328; // GameTime_t
-                pub const m_bGrenadeParametersStashed: usize = 0x132C; // bool
-                pub const m_angStashedShootAngles: usize = 0x1330; // QAngle
-                pub const m_vecStashedGrenadeThrowPosition: usize = 0x133C; // Vector
-                pub const m_vecStashedVelocity: usize = 0x1348; // Vector
-                pub const m_angShootAngleHistory: usize = 0x1354; // QAngle[2]
-                pub const m_vecThrowPositionHistory: usize = 0x136C; // Vector[2]
-                pub const m_vecVelocityHistory: usize = 0x1384; // Vector[2]
-                pub const m_bCommittingSuicideOnTeamChange: usize = 0x13A8; // bool
-                pub const m_wasNotKilledNaturally: usize = 0x13A9; // bool
-                pub const m_fImmuneToGunGameDamageTime: usize = 0x13AC; // GameTime_t
-                pub const m_bGunGameImmunity: usize = 0x13B0; // bool
-                pub const m_fMolotovDamageTime: usize = 0x13B4; // float32
-                pub const m_angEyeAngles: usize = 0x13B8; // QAngle
+                pub const m_pAimPunchServices: usize = 0xD28; // CCSPlayer_AimPunchServices*
+                pub const m_pRadioServices: usize = 0xD30; // CCSPlayer_RadioServices*
+                pub const m_pDamageReactServices: usize = 0xD38; // CCSPlayer_DamageReactServices*
+                pub const m_nCharacterDefIndex: usize = 0xD40; // uint16
+                pub const m_bHasFemaleVoice: usize = 0xD42; // bool
+                pub const m_strVOPrefix: usize = 0xD48; // CUtlString
+                pub const m_szLastPlaceName: usize = 0xD50; // char[18]
+                pub const m_bInHostageResetZone: usize = 0xE40; // bool
+                pub const m_bInBuyZone: usize = 0xE41; // bool
+                pub const m_TouchingBuyZones: usize = 0xE48; // CUtlVector<CHandle<CBaseEntity>>
+                pub const m_bWasInBuyZone: usize = 0xE60; // bool
+                pub const m_bInHostageRescueZone: usize = 0xE61; // bool
+                pub const m_bInBombZone: usize = 0xE62; // bool
+                pub const m_bWasInHostageRescueZone: usize = 0xE63; // bool
+                pub const m_iRetakesOffering: usize = 0xE64; // int32
+                pub const m_iRetakesOfferingCard: usize = 0xE68; // int32
+                pub const m_bRetakesHasDefuseKit: usize = 0xE6C; // bool
+                pub const m_bRetakesMVPLastRound: usize = 0xE6D; // bool
+                pub const m_iRetakesMVPBoostItem: usize = 0xE70; // int32
+                pub const m_RetakesMVPBoostExtraUtility: usize = 0xE74; // loadout_slot_t
+                pub const m_flHealthShotBoostExpirationTime: usize = 0xE78; // GameTime_t
+                pub const m_flLandingTimeSeconds: usize = 0xE7C; // float32
+                pub const m_bIsBuyMenuOpen: usize = 0xE80; // bool
+                pub const m_lastLandTime: usize = 0xEB8; // GameTime_t
+                pub const m_bOnGroundLastTick: usize = 0xEBC; // bool
+                pub const m_iPlayerLocked: usize = 0xEC0; // int32
+                pub const m_flTimeOfLastInjury: usize = 0xEC8; // GameTime_t
+                pub const m_flNextSprayDecalTime: usize = 0xECC; // GameTime_t
+                pub const m_bNextSprayDecalTimeExpedited: usize = 0xED0; // bool
+                pub const m_nRagdollDamageBone: usize = 0xED4; // int32
+                pub const m_vRagdollDamageForce: usize = 0xED8; // Vector
+                pub const m_vRagdollDamagePosition: usize = 0xEE4; // Vector
+                pub const m_szRagdollDamageWeaponName: usize = 0xEF0; // char[64]
+                pub const m_bRagdollDamageHeadshot: usize = 0xF30; // bool
+                pub const m_vRagdollServerOrigin: usize = 0xF34; // Vector
+                pub const m_EconGloves: usize = 0xF40; // CEconItemView
+                pub const m_nEconGlovesChanged: usize = 0x11E8; // uint8
+                pub const m_qDeathEyeAngles: usize = 0x11EC; // QAngle
+                pub const m_bLeftHanded: usize = 0x11F8; // bool
+                pub const m_fSwitchedHandednessTime: usize = 0x11FC; // GameTime_t
+                pub const m_flViewmodelOffsetX: usize = 0x1200; // float32
+                pub const m_flViewmodelOffsetY: usize = 0x1204; // float32
+                pub const m_flViewmodelOffsetZ: usize = 0x1208; // float32
+                pub const m_flViewmodelFOV: usize = 0x120C; // float32
+                pub const m_bIsWalking: usize = 0x1210; // bool
+                pub const m_fLastGivenDefuserTime: usize = 0x1214; // float32
+                pub const m_fLastGivenBombTime: usize = 0x1218; // float32
+                pub const m_flDealtDamageToEnemyMostRecentTimestamp: usize = 0x121C; // float32
+                pub const m_iDisplayHistoryBits: usize = 0x1220; // uint32
+                pub const m_flLastAttackedTeammate: usize = 0x1224; // float32
+                pub const m_allowAutoFollowTime: usize = 0x1228; // GameTime_t
+                pub const m_bResetArmorNextSpawn: usize = 0x122C; // bool
+                pub const m_nLastKillerIndex: usize = 0x1230; // CEntityIndex
+                pub const m_entitySpottedState: usize = 0x1238; // EntitySpottedState_t
+                pub const m_nSpotRules: usize = 0x1250; // int32
+                pub const m_bIsScoped: usize = 0x1254; // bool
+                pub const m_bResumeZoom: usize = 0x1255; // bool
+                pub const m_bIsDefusing: usize = 0x1256; // bool
+                pub const m_bIsGrabbingHostage: usize = 0x1257; // bool
+                pub const m_iBlockingUseActionInProgress: usize = 0x1258; // CSPlayerBlockingUseAction_t
+                pub const m_flEmitSoundTime: usize = 0x125C; // GameTime_t
+                pub const m_bInNoDefuseArea: usize = 0x1260; // bool
+                pub const m_iBombSiteIndex: usize = 0x1264; // CEntityIndex
+                pub const m_nWhichBombZone: usize = 0x1268; // int32
+                pub const m_bInBombZoneTrigger: usize = 0x126C; // bool
+                pub const m_bWasInBombZoneTrigger: usize = 0x126D; // bool
+                pub const m_iShotsFired: usize = 0x1270; // int32
+                pub const m_flFlinchStack: usize = 0x1274; // float32
+                pub const m_flVelocityModifier: usize = 0x1278; // float32
+                pub const m_vecTotalBulletForce: usize = 0x127C; // Vector
+                pub const m_bWaitForNoAttack: usize = 0x1288; // bool
+                pub const m_ignoreLadderJumpTime: usize = 0x128C; // float32
+                pub const m_bKilledByHeadshot: usize = 0x1290; // bool
+                pub const m_LastHitBox: usize = 0x1294; // int32
+                pub const m_pBot: usize = 0x1298; // CCSBot*
+                pub const m_bBotAllowActive: usize = 0x12A0; // bool
+                pub const m_nLastPickupPriority: usize = 0x12A4; // int32
+                pub const m_flLastPickupPriorityTime: usize = 0x12A8; // float32
+                pub const m_ArmorValue: usize = 0x12AC; // int32
+                pub const m_unCurrentEquipmentValue: usize = 0x12B0; // uint16
+                pub const m_unRoundStartEquipmentValue: usize = 0x12B2; // uint16
+                pub const m_unFreezetimeEndEquipmentValue: usize = 0x12B4; // uint16
+                pub const m_iLastWeaponFireUsercmd: usize = 0x12B8; // int32
+                pub const m_bIsSpawning: usize = 0x12BC; // bool
+                pub const m_iDeathFlags: usize = 0x12C8; // int32
+                pub const m_bHasDeathInfo: usize = 0x12CC; // bool
+                pub const m_flDeathInfoTime: usize = 0x12D0; // float32
+                pub const m_vecDeathInfoOrigin: usize = 0x12D4; // Vector
+                pub const m_vecPlayerPatchEconIndices: usize = 0x12E0; // uint32[5]
+                pub const m_GunGameImmunityColor: usize = 0x12F4; // Color
+                pub const m_grenadeParameterStashTime: usize = 0x12F8; // GameTime_t
+                pub const m_bGrenadeParametersStashed: usize = 0x12FC; // bool
+                pub const m_angStashedShootAngles: usize = 0x1300; // QAngle
+                pub const m_vecStashedGrenadeThrowPosition: usize = 0x130C; // Vector
+                pub const m_vecStashedVelocity: usize = 0x1318; // Vector
+                pub const m_angShootAngleHistory: usize = 0x1324; // QAngle[2]
+                pub const m_vecThrowPositionHistory: usize = 0x133C; // Vector[2]
+                pub const m_vecVelocityHistory: usize = 0x1354; // Vector[2]
+                pub const m_bCommittingSuicideOnTeamChange: usize = 0x1378; // bool
+                pub const m_wasNotKilledNaturally: usize = 0x1379; // bool
+                pub const m_fImmuneToGunGameDamageTime: usize = 0x137C; // GameTime_t
+                pub const m_bGunGameImmunity: usize = 0x1380; // bool
+                pub const m_fMolotovDamageTime: usize = 0x1384; // float32
+                pub const m_angEyeAngles: usize = 0x1388; // QAngle
             }
             // Parent: CBaseEntity
             // Field count: 22
@@ -4797,9 +4812,6 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // -V-T-I-1-
-            // MGetKV3ClassDefaults
             pub mod CPulseServerFuncs_Sounds {
             }
             // Parent: None
@@ -4812,15 +4824,11 @@ pub mod source2_dumper {
             // MCustomFGDMetadata
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyAttributeSuggestionName
-            // MCustomFGDMetadata
-            // MPropertyAttributeSuggestionName
-            // MCustomFGDMetadata
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // MPropertyAttributeRange
             // MPropertyDescription
             // MPropertyAttributeRange
             // MPropertyDescription
@@ -4942,16 +4950,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPulseLegacyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOUNDEVENT_START_WORLD
-            // SOUNDEVENT_START_ENTITY
-            // MPropertyDescription
             pub mod CPulseCell_Outflow_PlayVCD {
                 pub const m_hChoreoScene: usize = 0xF0; // CStrongHandle<InfoForResourceTypeCChoreoSceneResource>
                 pub const m_OnPaused: usize = 0xF8; // CPulse_OutflowConnection
@@ -5076,7 +5079,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5122,7 +5124,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -5297,9 +5298,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 5
-            //
-            // Metadata:
-            // h
             pub mod CTonemapController2 {
                 pub const m_flAutoExposureMin: usize = 0x4A8; // float32
                 pub const m_flAutoExposureMax: usize = 0x4AC; // float32
@@ -5430,7 +5428,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_ListenForEntityOutput__CursorState_t {
                 pub const m_entity: usize = 0x0; // CHandle<CBaseEntity>
             }
@@ -5457,13 +5454,11 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // 0
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5567,7 +5562,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5777,11 +5771,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             pub mod CFogController {
                 pub const m_fog: usize = 0x4A8; // fogparams_t
                 pub const m_bUseAngles: usize = 0x510; // bool
@@ -5872,15 +5861,41 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPulseSignatureForOutflow
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorSubHeaderText
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorSubHeaderText
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyAttributeEditor
+            // MPropertyAttributeSuggestionName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPropertyDescription
+            // MPulsePolymorphicDependentReturn
             pub mod CPulseCell_Step_FollowEntity {
                 pub const m_ParamBoneOrAttachName: usize = 0x48; // CUtlString
                 pub const m_ParamBoneOrAttachNameChild: usize = 0x50; // CUtlString
@@ -6021,13 +6036,6 @@ pub mod source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             pub mod CInfoTarget {
             }
             // Parent: CPlayerPawnComponent
@@ -6154,9 +6162,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 36
-            //
-            // Metadata:
-            // h
             pub mod CEnvVolumetricFogController {
                 pub const m_flScattering: usize = 0x4A8; // float32
                 pub const m_TintColor: usize = 0x4AC; // Color
@@ -6218,12 +6223,19 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeEditor
             // MPulseSignatureForOutflow
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyCustomFGDType
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPropertyDescription
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPulseEditorHeaderExpr
             pub mod CPulseCell_Step_SetAnimGraphParam {
                 pub const m_ParamName: usize = 0x48; // CUtlString
             }
@@ -6542,7 +6554,7 @@ pub mod source2_dumper {
                 pub const m_flSizeSqr: usize = 0x678; // float32
             }
             // Parent: None
-            // Field count: 9
+            // Field count: 5
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -6550,27 +6562,43 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorSubHeaderText
             // MPulseEditorHeaderIcon
-            // DOOR_CHECK_BACKWARD
-            // DOOR_CHECK_FULL
-            // DOOR_SPAWN_OPEN_FORWARD
-            // DOOR_SPAWN_OPEN_BACK
-            // DOOR_SPAWN_AJAR
-            // DOOR_ROTATING_OPEN_FORWARD
-            // DOOR_ROTATING_OPEN_BACKWARD
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // MPulseEditorSubHeaderText
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyAttributeEditor
+            // MPropertyAttributeSuggestionName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPropertyDescription
+            // MPulsePolymorphicDependentReturn
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_ListenForEntityOutput {
                 pub const m_OnFired: usize = 0x48; // SignatureOutflow_Resume
                 pub const m_OnCanceled: usize = 0x90; // CPulse_ResumePoint
                 pub const m_strEntityOutput: usize = 0xD8; // CGlobalSymbol
                 pub const m_strEntityOutputParam: usize = 0xE0; // CUtlString
                 pub const m_bListenUntilCanceled: usize = 0xE8; // bool
-                pub const m_szSyncGroup: usize = 0x48; // CUtlString
-                pub const m_nExpectedNumSequencesInSyncGroup: usize = 0x50; // int32
-                pub const m_bEnsureOnNavmeshOnFinish: usize = 0x54; // bool
-                pub const m_bDontTeleportAtEnd: usize = 0x55; // bool
             }
             // Parent: CBreakable
             // Field count: 0
@@ -6772,6 +6800,31 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyAttributeEditor
+            // MPropertyAttributeSuggestionName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPropertyDescription
+            // MPulsePolymorphicDependentReturn
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseServerFuncs {
             }
             // Parent: CPointEntity
@@ -6925,6 +6978,9 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             pub mod CPointOrient {
                 pub const m_iszSpawnTargetName: usize = 0x4A8; // CUtlSymbolLarge
                 pub const m_hTarget: usize = 0x4B0; // CHandle<CBaseEntity>
@@ -7003,8 +7059,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_SoundEventStart {
                 pub const m_Type: usize = 0x48; // SoundEventStartType_t
             }
@@ -7015,7 +7069,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7342,6 +7395,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             pub mod CPulseCell_LerpCameraSettings__CursorState_t {
                 pub const m_hCamera: usize = 0x8; // CHandle<CPointCamera>
                 pub const m_OverlaidStart: usize = 0xC; // PointCameraSettings_t
@@ -7364,7 +7422,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7495,8 +7552,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
-            // d
+            // MGetKV3ClassDefaults
             pub mod CEnvDecal {
                 pub const m_hDecalMaterial: usize = 0x768; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 pub const m_flWidth: usize = 0x770; // float32
@@ -7510,9 +7566,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 18
-            //
-            // Metadata:
-            // h
             pub mod CEnvVolumetricFogVolume {
                 pub const m_bActive: usize = 0x4A8; // bool
                 pub const m_vBoxMins: usize = 0x4AC; // Vector
@@ -7794,6 +7847,13 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 26
+            //
+            // Metadata:
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             pub mod CPointCamera {
                 pub const m_FOV: usize = 0x4A8; // float32
                 pub const m_Resolution: usize = 0x4AC; // float32
@@ -7850,7 +7910,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8136,7 +8195,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8396,6 +8454,33 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorSubHeaderText
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyAttributeEditor
+            // MPropertyAttributeSuggestionName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPropertySuppressExpr
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
+            // MPropertyDescription
+            // MPulsePolymorphicDependentReturn
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_ListenForAnimgraphTag {
                 pub const m_OnStart: usize = 0x48; // CPulse_ResumePoint
                 pub const m_OnEnd: usize = 0x90; // CPulse_ResumePoint
@@ -8567,7 +8652,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9108,7 +9192,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9287,6 +9370,16 @@ pub mod source2_dumper {
                 pub const m_iTotalCashSpent: usize = 0x50; // int32
                 pub const m_iCashSpentThisRound: usize = 0x54; // int32
             }
+            // Parent: CPlayerPawnComponent
+            // Field count: 6
+            pub mod CCSPlayer_AimPunchServices {
+                pub const m_predictableBaseTick: usize = 0x48; // GameTick_t
+                pub const m_predictableBaseTickInterpAmount: usize = 0x4C; // float32
+                pub const m_predictableBaseAngle: usize = 0x50; // QAngle
+                pub const m_predictableBaseAngleVel: usize = 0x5C; // QAngle
+                pub const m_unpredictableBaseTick: usize = 0xA0; // GameTick_t
+                pub const m_unpredictableBaseAngle: usize = 0xA4; // QAngle
+            }
             // Parent: CRuleEntity
             // Field count: 0
             pub mod CRuleBrushEntity {
@@ -9384,7 +9477,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9530,13 +9622,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 9
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             pub mod CEnvWindVolume {
                 pub const m_bActive: usize = 0x4A8; // bool
                 pub const m_vBoxMins: usize = 0x4AC; // Vector
@@ -10142,7 +10227,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10511,6 +10595,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 0
             pub mod CPulseCell_Outflow_PlaySceneBase__CursorState_t {
                 pub const m_sceneInstance: usize = 0x0; // CHandle<CBaseEntity>
                 pub const m_mainActor: usize = 0x4; // CHandle<CBaseEntity>
@@ -10584,14 +10669,15 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPulseSignatureForOutflow
-            // MGetKV3ClassDefaults
+            // MPropertyEditContextOverrideValue
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod CPulseCell_Outflow_PlaySequence {
                 pub const m_ParamSequenceName: usize = 0xF0; // CUtlString
             }
@@ -10767,7 +10853,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10842,7 +10927,8 @@ pub mod source2_dumper {
             // Field count: 22
             //
             // Metadata:
-            // (
+            // MOVELINEAR_AUTHORED_AT_OPEN_POSITION
+            // MOVELINEAR_AUTHORED_AT_CLOSED_POSITION
             pub mod CDynamicProp {
                 pub const m_bCreateNavObstacle: usize = 0xAD8; // bool
                 pub const m_bNavObstacleUpdatesOverridden: usize = 0xAD9; // bool
@@ -11035,6 +11121,11 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             pub mod CInfoParticleTarget {
             }
             // Parent: CBaseEntity
@@ -11337,7 +11428,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
@@ -11387,6 +11477,7 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11445,7 +11536,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // FUNC_DOOR_SPAWN_OPEN
-            // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // expDirected
@@ -11497,23 +11587,26 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // d
+            // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
             // MPropertyAttributeEditor
+            // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MDebugSnapshotDataSummaryFn
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertySuppressExpr
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MVDataOverlayType
-            // MVDataAssociatedFile
-            // MPropertyStartGroup
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyFriendlyName
             // MPropertyDescription
             pub mod AI_BaseNPC_DebugSnapshotData_t {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
@@ -11682,6 +11775,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MSaveOpsForField
             // MPropertyDescription
             // PrioritizeClosestPart
             // MPropertyDescription
@@ -11703,7 +11797,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // FUNC_DOOR_SPAWN_OPEN
-            // MGetKV3ClassDefaults
             pub mod AI_Navigator_DebugSnapshotData_t {
                 pub const s_npc_nav_authority: usize = 0x8; // CGlobalSymbol
                 pub const s_goal_nav_search_id: usize = 0x10; // CGlobalSymbol
@@ -11717,6 +11810,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Un
             pub mod CDecalInstance {
                 pub const m_sDecalGroup: usize = 0x0; // CGlobalSymbol
                 pub const m_hMaterial: usize = 0x8; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -11892,6 +11986,26 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyStartGroup
+            // MPropertyDescription
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyStartGroup
+            // MPropertyDescription
+            // MPropertySuppressExpr
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertySuppressExpr
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
             pub mod DebugDrawBoneTransforms_t {
                 pub const vecBones: usize = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             }
@@ -11905,8 +12019,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
-            // d
+            // MGetKV3ClassDefaults
             pub mod AI_MotorGroundAnimgraph_DebugSnapshotData_t {
                 pub const state: usize = 0x8; // CGlobalSymbol
                 pub const b_has_path: usize = 0x10; // bool
@@ -11966,11 +12079,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
             pub mod SceneRequestHandle_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -11989,7 +12097,6 @@ pub mod source2_dumper {
             // Field count: 12
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod PulseScriptedSequenceData_t {
                 pub const m_nActorID: usize = 0x0; // int32
@@ -12017,35 +12124,35 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // d
+            // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
             // MPropertyAttributeEditor
+            // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MDebugSnapshotDataSummaryFn
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // MPropertySuppressExpr
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MVDataOverlayType
-            // MVDataAssociatedFile
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             pub mod CBaseAnimGraphDestructibleParts_GraphController {
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MVDataNodeType
-            // MVDataOverlayType
-            // SOUNDCTRL_CHANGE_PITCH
-            // SOUNDCTRL_STOP
-            // SOUNDCTRL_DESTROY
-            // SOUNDCTRL_FADEOUT
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             pub mod ExternalAnimGraphHandle_t {
                 pub const m_Value: usize = 0x0; // uint32
@@ -12097,10 +12204,8 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // SOUNDCTRL_CHANGE_PITCH
-            // SOUNDCTRL_STOP
-            // SOUNDCTRL_DESTROY
-            // SOUNDCTRL_FADEOUT
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             pub mod SceneEventId_t {
                 pub const m_Value: usize = 0x0; // uint32
@@ -12481,7 +12586,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // D
             pub mod CCS2ChickenGraphController {
                 pub const m_action: usize = 0x88; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
                 pub const m_actionSubtype: usize = 0xA0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -12542,17 +12646,15 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // MPropertyCustomEditor
-            // MPropertyDescription
+            // MPropertyStartGroup
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
             // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // I
+            // MGetKV3ClassDefaults
+            // MPropertySuppressBaseClassField
+            // MPropertySuppressBaseClassField
             pub mod CFiringModeFloat {
                 pub const m_flValues: usize = 0x0; // float32[2]
             }
@@ -12633,6 +12735,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ClientJob_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty
             // ClientJob_EMsgGCCStrike15_v2_MatchEndRewardDropsNotification
             pub mod GameAmmoTypeInfo_t {
                 pub const m_nBuySize: usize = 0x38; // int32
@@ -12737,7 +12840,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ows\System32\Drivers\DriverData
             pub mod CNmAimCSNode__CDefinition {
                 pub const m_nVerticalAngleNodeIdx: usize = 0x18; // int16
                 pub const m_nHorizontalAngleNodeIdx: usize = 0x1A; // int16
@@ -12872,9 +12974,72 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // Y
+            // ANIM_LOOP_MODE_INVALID
+            // ANIM_LOOP_MODE_LOOPING
+            // ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS
+            // ANIM_LOOP_MODE_COUNT
+            // eLowerBody
+            // eUpperBody
+            // eFullBody
+            // eCenter
+            // eEyes
+            // eAttachment
             // MPropertyFriendlyName
             // MEntitySubclassScopeFile
+            // SUBCLASS_SCOPE_NONE
+            // SUBCLASS_SCOPE_PLAYER_WEAPONS
+            // SUBCLASS_SCOPE_COUNT
+            // SUBCLASS_VDATA_SUBCLASS_CHANGED
+            // SUBCLASS_VDATA_RELOADED
+            // NeverConnected
+            // Connecting
+            // Reconnecting
+            // Disconnecting
+            // Disconnected
+            // Reserved
+            // eCenterToCenter
+            // eAxisToAxis
+            // eEquipped
+            // eUserInitiatedSwitchToLast
+            // eUserInitiatedUIKeyPress
+            // eUserInitiatedSwitchHands
+            // eInvalid
+            // eSecondary
+            // eCount
+            // VOTE_FAILED_TRANSITIONING_PLAYERS
+            // VOTE_FAILED_RATE_EXCEEDED
+            // VOTE_FAILED_YES_MUST_EXCEED_NO
+            // VOTE_FAILED_QUORUM_FAILURE
+            // VOTE_FAILED_ISSUE_DISABLED
+            // VOTE_FAILED_MAP_NOT_FOUND
+            // VOTE_FAILED_MAP_NAME_REQUIRED
+            // VOTE_FAILED_FAILED_RECENTLY
+            // VOTE_FAILED_TEAM_CANT_CALL
+            // VOTE_FAILED_WAITINGFORPLAYERS
+            // VOTE_FAILED_PLAYERNOTFOUND
+            // VOTE_FAILED_CANNOT_KICK_ADMIN
+            // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
+            // VOTE_FAILED_SPECTATOR
+            // VOTE_FAILED_FAILED_RECENT_KICK
+            // VOTE_FAILED_FAILED_RECENT_CHANGEMAP
+            // VOTE_FAILED_FAILED_RECENT_SWAPTEAMS
+            // VOTE_FAILED_FAILED_RECENT_SCRAMBLETEAMS
+            // VOTE_FAILED_FAILED_RECENT_RESTART
+            // VOTE_FAILED_SWAP_IN_PROGRESS
+            // VOTE_FAILED_DISABLED
+            // VOTE_FAILED_NEXTLEVEL_SET
+            // VOTE_FAILED_TOO_EARLY_SURRENDER
+            // VOTE_FAILED_MATCH_PAUSED
+            // VOTE_FAILED_MATCH_NOT_PAUSED
+            // VOTE_FAILED_NOT_IN_WARMUP
+            // VOTE_FAILED_NOT_10_PLAYERS
+            // VOTE_FAILED_TIMEOUT_ACTIVE
+            // VOTE_FAILED_TIMEOUT_INACTIVE
+            // VOTE_FAILED_TIMEOUT_EXHAUSTED
+            // VOTE_FAILED_CANT_ROUND_END
+            // VOTE_FAILED_REMATCH
+            // VOTE_FAILED_CONTINUE
+            // VOTE_FAILED_MAX
             pub mod ParticleIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -12969,28 +13134,22 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MDebugSnapshotDataSummaryFn
-            // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MVDataOverlayType
-            // MVDataAssociatedFile
-            // MPropertyStartGroup
-            // MPropertyDescription
-            // MPropertyStartGroup
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MFgdHelper
+            // MPropertyDescription
+            // MPropertyStartGroup
+            // MPropertyDescription
+            // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // PrioritizeClosestPart
             // MPropertyDescription
-            // Absorb
-            // InvincibleAbsorb
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -13006,7 +13165,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // d
             pub mod CNmSnapWeaponNode__CDefinition {
                 pub const m_nFlashedAmountNodeIdx: usize = 0x18; // int16
                 pub const m_nWeaponCategoryNodeIdx: usize = 0x1A; // int16
@@ -13032,17 +13190,15 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyCustomEditor
-            // MPropertyDescription
+            // MPropertyStartGroup
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
             // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // I
+            // MGetKV3ClassDefaults
+            // MPropertySuppressBaseClassField
+            // MPropertySuppressBaseClassField
             pub mod CFiringModeInt {
                 pub const m_nValues: usize = 0x0; // int32[2]
             }
@@ -13099,8 +13255,28 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // TEXT
+            // ENTITY
+            // COUNT
+            // TACTICAL_SEARCH
+            // AI_SCHEDULE
+            // AI_TASK
+            // AI_EVENT
+            // AI_PATHFINDING
+            // END_SIM_HISTORY_TYPES
+            // COMBINED
+            // MATCH
+            // HIERARCHY
+            // COUNT
+            // ANY
+            // COUNT
+            // MPropertyDescription
             // MPropertyAttributeRange
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MSaveOpsForField
             pub mod ModelConfigHandle_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -13136,11 +13312,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
-            // a2,0x0e6f/0x1414,0x0e6f/0x0159,0x24c6/0xfaff,0x0f0d/0x006d,0x0f0d/0x00a4,0x0079/0x1832,0x0079/0x187f,0x0079/0x1883,0x03eb/0xff01
             pub mod SceneOpportunityHandle_t {
                 pub const m_Value: usize = 0x0; // int32
             }

@@ -60,10 +60,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "Y",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -137,14 +133,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -193,171 +181,67 @@
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqInstSndEvt",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqInstMidiSampler",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqRegionTypeSndEvt",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqRegionTypeMidiSeq",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusNoteOff",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusNoteOn",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusKeyPressure",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusCtrlChange",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusProgramChange",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusChannelPressure",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusPitchBend",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_20dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_25dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_30dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_35dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_40dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_45dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_50dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_55dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_IDLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_60dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_65dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_STATIC",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_70dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_NORM",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_75dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_80dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_TALKING",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_85dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_90dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_95dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_100dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_105dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_110dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_120dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_130dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_GUNFIRE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_140dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_150dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_180dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "0",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
@@ -403,171 +287,67 @@
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqInstSndEvt",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqInstMidiSampler",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqRegionTypeSndEvt",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqRegionTypeMidiSeq",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusNoteOff",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusNoteOn",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusKeyPressure",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusCtrlChange",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusProgramChange",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusChannelPressure",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusPitchBend",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_20dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_25dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_30dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_35dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_40dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_45dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_50dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_55dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_IDLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_60dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_65dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_STATIC",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_70dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_NORM",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_75dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_80dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_TALKING",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_85dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_90dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_95dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_100dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_105dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_110dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_120dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_130dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_GUNFIRE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_140dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_150dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_180dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "0",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
@@ -593,171 +373,67 @@
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqInstSndEvt",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqInstMidiSampler",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqRegionTypeSndEvt",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "eSndSeqRegionTypeMidiSeq",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusNoteOff",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusNoteOn",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusKeyPressure",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusCtrlChange",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusProgramChange",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusChannelPressure",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SndSeqMidiStatusPitchBend",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_20dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_25dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_30dB",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "SNDLVL_35dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_40dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_45dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_50dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_55dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_IDLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_60dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_65dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_STATIC",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_70dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_NORM",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_75dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_80dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_TALKING",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_85dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_90dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_95dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_100dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_105dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_110dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_120dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_130dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_GUNFIRE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_140dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_150dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_180dB",
-            "type": "Unknown"
-          },
-          {
-            "name": "0",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
@@ -806,7 +482,91 @@
             "type": "Unknown"
           },
           {
-            "name": "Y",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           }
         ],
@@ -861,22 +621,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -909,6 +653,26 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -926,6 +690,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -941,15 +709,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -961,15 +733,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -982,30 +754,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1059,10 +807,6 @@
           {
             "name": "SNDLVL_20dB",
             "type": "Unknown"
-          },
-          {
-            "name": "SNDLVL_25dB",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1090,6 +834,26 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -1134,15 +898,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1158,31 +914,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1218,66 +950,6 @@
             "type": "Unknown"
           },
           {
-            "name": "kBranch",
-            "type": "Unknown"
-          },
-          {
-            "name": "kMatch",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_GROUPTYPE_STATIC",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_TIME",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_OPVAR",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -1287,58 +959,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqInstSndEvt",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqInstMidiSampler",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqRegionTypeSndEvt",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqRegionTypeMidiSeq",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOff",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOn",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusKeyPressure",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusCtrlChange",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusProgramChange",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusChannelPressure",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusPitchBend",
             "type": "Unknown"
           }
         ],
@@ -1352,10 +972,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "kBranch",
             "type": "Unknown"
           },
@@ -1368,15 +984,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1388,15 +1008,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1409,30 +1029,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1620,6 +1216,38 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -1644,27 +1272,67 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "Y",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           }
         ],
@@ -1714,15 +1382,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1738,15 +1406,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1758,15 +1430,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1779,30 +1451,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1912,6 +1560,10 @@
           {
             "name": "SNDLVL_75dB",
             "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_80dB",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1939,14 +1591,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -1991,7 +1635,91 @@
             "type": "Unknown"
           },
           {
-            "name": "Y",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           }
         ],
@@ -2056,10 +1784,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2069,14 +1793,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2128,7 +1844,51 @@
             "type": "Unknown"
           },
           {
-            "name": "Y",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
             "type": "Unknown"
           }
         ],
@@ -2199,15 +1959,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2223,15 +1983,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -2243,15 +2007,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -2264,30 +2028,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2373,6 +2113,10 @@
           {
             "name": "SNDLVL_IDLE",
             "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_60dB",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2400,6 +2144,26 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2408,7 +2172,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2416,15 +2180,71 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           },
           {
-            "name": "Y",
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x2",
+            "type": "Unknown"
+          },
+          {
+            "name": "018,0x20d6/0x2019,0x20d6/0x201a,0x20d6/0x4001,0x20d6/0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551",
             "type": "Unknown"
           }
         ],
@@ -2448,7 +2268,19 @@
             "type": "Unknown"
           },
           {
+            "name": "kBranch",
+            "type": "Unknown"
+          },
+          {
+            "name": "kMatch",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_GROUPTYPE_STATIC",
             "type": "Unknown"
           },
           {
@@ -2464,11 +2296,199 @@
             "type": "Unknown"
           },
           {
+            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "Y",
+            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_TIME",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_OPVAR",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstMidiSampler",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeMidiSeq",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOn",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusKeyPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusCtrlChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusProgramChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusChannelPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusPitchBend",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_20dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_25dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_30dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_35dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_40dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_45dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_50dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_55dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_60dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_65dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_70dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_NORM",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_75dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_80dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_TALKING",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_85dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_90dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_95dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_100dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_105dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_110dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_120dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_130dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_GUNFIRE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_140dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_150dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_180dB",
             "type": "Unknown"
           }
         ],
@@ -2511,11 +2531,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertySuppressExpr",
+            "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyAttributeEditor",
+            "name": "MPropertySuppressExpr",
             "type": "Unknown"
           }
         ],
@@ -2784,6 +2804,10 @@
           },
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -5114,6 +5138,10 @@
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
             "type": "Unknown"
+          },
+          {
+            "name": "e",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5361,6 +5389,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -6818,6 +6850,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7363,6 +7399,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -9003,10 +9043,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "Y",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -9184,10 +9220,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "Y",
             "type": "Unknown"
           }
         ],
@@ -9503,10 +9535,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "e",
             "type": "Unknown"
           },
           {
@@ -10225,10 +10253,6 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -10530,10 +10554,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Y",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -10721,6 +10741,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "SOS_EDIT_ITEM_TYPE_SOUNDEVENT",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -10736,14 +10760,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_EDIT_ITEM_TYPE_SOUNDEVENT",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS",
             "type": "Unknown"
           }
         ],

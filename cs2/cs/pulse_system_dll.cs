@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -81,7 +81,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
         public static class CPulseCell_Step_TestDomainDestroyFakeEntity {
         }
         // Parent: None
@@ -222,8 +221,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
-        //  
         public static class CPulseTestFuncs_LibraryA {
         }
         // Parent: None
@@ -298,7 +295,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MPropertyDescription
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -426,7 +422,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MPropertyDescription
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -686,7 +681,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MPropertyDescription
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -711,7 +705,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -776,8 +769,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
-        //  
         public static class CPulseCell_Value_TestValue50 {
         }
         // Parent: None
@@ -820,7 +811,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -854,7 +844,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1125,8 +1114,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
-        //  
         public static class CPulseCell_Outflow_TestRandomYesNo {
             public const nint m_Yes = 0x48; // CPulse_OutflowConnection
             public const nint m_No = 0x90; // CPulse_OutflowConnection
@@ -1174,8 +1161,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
-        //  
         public static class CPulseCell_Test_MultiInflow_WithDefault {
         }
         // Parent: None
@@ -1185,7 +1170,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1260,7 +1244,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1287,7 +1270,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
-        // e
         public static class CPulseCell_Val_TestDomainGetEntityName {
         }
         // Parent: None
@@ -1312,7 +1294,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1407,7 +1388,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1510,7 +1490,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1575,7 +1554,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
-        // e
         public static class CPulseCell_Val_TestDomainFindEntityByName {
         }
         // Parent: None
@@ -1606,7 +1584,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1626,7 +1603,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
-        // e
         public static class CPulseCell_Step_TestDomainEntFire {
             public const nint m_Input = 0x48; // CUtlString
             public const nint flWaitValue = 0x0; // float32
@@ -1655,8 +1631,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
-        //  
         public static class CPulseCell_ExampleSelector {
             public const nint m_OutflowList = 0x48; // PulseSelectorOutflowList_t
         }
@@ -1719,8 +1693,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
-        //  
         public static class CPulseCell_ExampleCriteria {
         }
         // Parent: None
@@ -1745,7 +1717,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1798,8 +1769,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        //  
-        //  
         public static class CPulseCell_Step_TestDomainCreateFakeEntity {
         }
         // Parent: None
@@ -1870,7 +1839,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults

@@ -1,26 +1,26 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 package offsets
 
 const (
-    ClientDll_dwCSGOInput = 0x23386E0
-    ClientDll_dwEntityList = 0x24C9710
-    ClientDll_dwGameEntitySystem = 0x24C9710
+    ClientDll_dwCSGOInput = 0x233DD80
+    ClientDll_dwEntityList = 0x24CED50
+    ClientDll_dwGameEntitySystem = 0x24CED50
     ClientDll_dwGameEntitySystem_highestEntityIndex = 0x2090
-    ClientDll_dwGameRules = 0x19E9B80
-    ClientDll_dwGlobalVars = 0x20444E8
-    ClientDll_dwGlowManager = 0x23207A8
-    ClientDll_dwLocalPlayerController = 0x2302E80
-    ClientDll_dwLocalPlayerPawn = 0x204F630
-    ClientDll_dwPlantedC4 = 0x2331848
-    ClientDll_dwPrediction = 0x204F540
-    ClientDll_dwSensitivity = 0x2321208
+    ClientDll_dwGameRules = 0x19EEB18
+    ClientDll_dwGlobalVars = 0x20496A0
+    ClientDll_dwGlowManager = 0x2325D30
+    ClientDll_dwLocalPlayerController = 0x2308540
+    ClientDll_dwLocalPlayerPawn = 0x20547A0
+    ClientDll_dwPlantedC4 = 0x2336A48
+    ClientDll_dwPrediction = 0x20546B0
+    ClientDll_dwSensitivity = 0x2326848
     ClientDll_dwSensitivity_sensitivity = 0x58
-    ClientDll_dwViewAngles = 0x2338D68
-    ClientDll_dwViewMatrix = 0x23290D0
-    ClientDll_dwViewRender = 0x23292E8
-    ClientDll_dwWeaponC4 = 0x22A1928
+    ClientDll_dwViewAngles = 0x233E408
+    ClientDll_dwViewMatrix = 0x232EAC0
+    ClientDll_dwViewRender = 0x232DCB8
+    ClientDll_dwWeaponC4 = 0x22A6CE8
     Engine2Dll_dwBuildNumber = 0x60CC74
     Engine2Dll_dwNetworkGameClient = 0x90A0C0
     Engine2Dll_dwNetworkGameClient_clientTickCount = 0x378

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -82,7 +82,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCResponseRulesList {
             }
             // Parent: None
@@ -120,7 +119,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCDotaItemDefinitionResource {
             }
             // Parent: None
@@ -163,7 +161,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCMorphSetData {
             }
             // Parent: None
@@ -179,7 +176,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVSoundStackScriptList {
             }
             // Parent: None
@@ -213,7 +209,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVPhysXSurfacePropertiesList {
             }
             // Parent: None
@@ -224,7 +219,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeManifestTestResource_t {
             }
             // Parent: None
@@ -245,6 +239,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
             // vrman
+            // 0x0066,0x0f0d/0x0084,0x0f0d/0x0087,0x0f0d/0x008a,0x0f0d/0x009c,0x0f0d/0x00a0,0x0f0d/0x00ee,0x0f0d/0x011c,0x0f0d/0x0123,0x0f0d/0x
+            // 0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x24c6/0x561a,0x24c6/0x581a,0x24c6/0x591a,0x24c6/0x
             pub mod FuseFunctionIndex_t {
                 pub const m_Value: usize = 0x0; // uint16
             }
@@ -268,7 +264,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCGcExportableExternalData {
             }
             // Parent: None
@@ -301,7 +296,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeIAnimGraphModelBinding {
             }
             // Parent: None
@@ -345,7 +339,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCJavaScriptResource {
             }
             // Parent: None
@@ -387,7 +380,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCRenderMesh {
             }
             // Parent: None
@@ -432,7 +424,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVoxelVisibility {
             }
             // Parent: None
@@ -479,7 +470,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCPhysAggregateData {
             }
             // Parent: None
@@ -528,7 +518,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCNmClip {
             }
             // Parent: None
@@ -553,7 +542,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeWorld_t {
             }
             // Parent: None
@@ -562,7 +550,6 @@ pub mod source2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeProceduralTestResource_t {
             }
             // Parent: None
@@ -608,7 +595,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCPostProcessingResource {
             }
             // Parent: None
@@ -673,7 +659,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeIParticleSnapshot {
             }
             // Parent: None
@@ -698,7 +683,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCPanoramaLayout {
             }
             // Parent: None
@@ -734,7 +718,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCTypeScriptResource {
             }
             // Parent: None
@@ -756,7 +739,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCChoreoSceneResource {
             }
             // Parent: None
@@ -776,7 +758,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCNmSkeleton {
             }
             // Parent: None
@@ -788,7 +769,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
@@ -807,7 +787,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCAnimationGroup {
             }
             // Parent: None
@@ -822,7 +801,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVSoundEventScriptList {
             }
             // Parent: None
@@ -846,7 +824,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVoiceContainerBase {
             }
             // Parent: None
@@ -902,7 +879,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCPanoramaStyle {
             }
             // Parent: None
@@ -929,7 +905,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCWorldNode {
             }
             // Parent: None
@@ -966,7 +941,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCSurfaceGraph {
             }
             // Parent: None
@@ -987,7 +961,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCCSGOEconItem {
             }
             // Parent: None
@@ -1018,7 +991,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCNmGraphDefinition {
             }
             // Parent: None
@@ -1072,7 +1044,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCSmartProp {
             }
             // Parent: None
@@ -1109,7 +1080,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCCompositeMaterialKit {
             }
             // Parent: None
@@ -1160,7 +1130,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVMixListResource {
             }
             // Parent: None
@@ -1208,7 +1177,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCAnimData {
             }
             // Parent: None
@@ -1254,7 +1222,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeIMaterial2 {
             }
             // Parent: None
@@ -1293,7 +1260,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeIVectorGraphic {
             }
             // Parent: None
@@ -1323,7 +1289,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCPanoramaDynamicImages {
             }
             // Parent: None
@@ -1337,7 +1302,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeIPulseGraphDef {
             }
             // Parent: None
@@ -1372,7 +1336,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVDataItemDefs {
             }
             // Parent: None
@@ -1403,7 +1366,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCVDataResource {
             }
             // Parent: None
@@ -1444,7 +1406,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCModel {
             }
             // Parent: None
@@ -1497,7 +1458,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCDOTANovelsList {
             }
             // Parent: None
@@ -1531,7 +1491,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCTextureBase {
             }
             // Parent: None
@@ -1713,7 +1672,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeIParticleSystemDefinition {
             }
             // Parent: None
@@ -1763,7 +1721,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCSequenceGroupData {
             }
             // Parent: None
@@ -1771,7 +1728,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // (
             pub mod ManifestTestResource_t {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_child: usize = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
@@ -1805,7 +1761,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCEntityLump {
             }
             // Parent: None
@@ -1847,7 +1802,6 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // (
             pub mod InfoForResourceTypeCDOTAPatchNotesList {
             }
         }

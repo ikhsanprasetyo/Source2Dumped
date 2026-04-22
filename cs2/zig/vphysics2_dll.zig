@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1244,9 +1244,6 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // a
             pub const PhysicsParticleId_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };

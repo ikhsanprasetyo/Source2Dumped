@@ -1,25 +1,25 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 export const Offsets = {
     client_dll: {
-        dwCSGOInput: 0x23386E0,
-        dwEntityList: 0x24C9710,
-        dwGameEntitySystem: 0x24C9710,
+        dwCSGOInput: 0x233DD80,
+        dwEntityList: 0x24CED50,
+        dwGameEntitySystem: 0x24CED50,
         dwGameEntitySystem_highestEntityIndex: 0x2090,
-        dwGameRules: 0x19E9B80,
-        dwGlobalVars: 0x20444E8,
-        dwGlowManager: 0x23207A8,
-        dwLocalPlayerController: 0x2302E80,
-        dwLocalPlayerPawn: 0x204F630,
-        dwPlantedC4: 0x2331848,
-        dwPrediction: 0x204F540,
-        dwSensitivity: 0x2321208,
+        dwGameRules: 0x19EEB18,
+        dwGlobalVars: 0x20496A0,
+        dwGlowManager: 0x2325D30,
+        dwLocalPlayerController: 0x2308540,
+        dwLocalPlayerPawn: 0x20547A0,
+        dwPlantedC4: 0x2336A48,
+        dwPrediction: 0x20546B0,
+        dwSensitivity: 0x2326848,
         dwSensitivity_sensitivity: 0x58,
-        dwViewAngles: 0x2338D68,
-        dwViewMatrix: 0x23290D0,
-        dwViewRender: 0x23292E8,
-        dwWeaponC4: 0x22A1928,
+        dwViewAngles: 0x233E408,
+        dwViewMatrix: 0x232EAC0,
+        dwViewRender: 0x232DCB8,
+        dwWeaponC4: 0x22A6CE8,
     },
     engine2_dll: {
         dwBuildNumber: 0x60CC74,

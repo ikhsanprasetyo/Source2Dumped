@@ -105,6 +105,14 @@
           {
             "name": "vrman",
             "type": "Unknown"
+          },
+          {
+            "name": "0x0066,0x0f0d/0x0084,0x0f0d/0x0087,0x0f0d/0x008a,0x0f0d/0x009c,0x0f0d/0x00a0,0x0f0d/0x00ee,0x0f0d/0x011c,0x0f0d/0x0123,0x0f0d/0x",
+            "type": "Unknown"
+          },
+          {
+            "name": "0x4002,0x20d6/0x890b,0x24c6/0x541a,0x24c6/0x542a,0x24c6/0x543a,0x24c6/0x551a,0x24c6/0x561a,0x24c6/0x581a,0x24c6/0x591a,0x24c6/0x",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -755,10 +763,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -812,10 +816,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -878,10 +878,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -948,10 +944,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -1034,10 +1026,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -1229,10 +1217,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1379,10 +1363,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1513,10 +1493,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1623,10 +1599,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1696,10 +1668,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -1855,10 +1823,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2000,10 +1964,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -2154,10 +2114,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -2333,10 +2289,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2439,10 +2391,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2500,10 +2448,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -2603,10 +2547,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2652,10 +2592,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -2859,10 +2795,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3029,10 +2961,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3171,10 +3099,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3268,10 +3192,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -3471,10 +3391,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3652,10 +3568,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -3851,10 +3763,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3981,10 +3889,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4010,10 +3914,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -4128,10 +4028,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -4255,10 +4151,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4377,10 +4269,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4430,10 +4318,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -4617,10 +4501,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4711,10 +4591,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4752,10 +4628,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -4798,10 +4670,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -4876,10 +4744,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -5039,10 +4903,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5128,10 +4988,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -5242,10 +5098,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -5408,10 +5260,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -5598,10 +5446,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -5809,10 +5653,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5846,10 +5686,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -5985,10 +5821,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -6011,10 +5843,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -6028,10 +5856,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -6111,10 +5935,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "(",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -6127,10 +5947,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],

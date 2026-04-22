@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -777,7 +777,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -905,7 +904,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -1020,7 +1018,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MPropertyDescription
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1081,7 +1078,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -1111,7 +1107,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -1141,7 +1136,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1298,7 +1292,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -1345,7 +1338,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
-        // d
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -1469,7 +1461,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1560,7 +1551,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1578,7 +1568,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2074,6 +2063,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // R
         public static class CParticleFunctionPreEmission {
             public const nint m_bRunOnce = 0x1D8; // bool
         }
@@ -2238,7 +2228,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x02ff,0x045e/0x0b00,0x045e/0x0b05,0x045e/0x0b0a,0x045e/0x0b0c,0x045e/0x0b12,0x045e/0x0b13,0x045e/0x0b20,0x045e/0x0b21,0x045e/0x0
         public static class C_OP_RenderRopes {
             public const nint m_bEnableFadingAndClamping = 0x2DF0; // bool
             public const nint m_flMinSize = 0x2DF4; // float32
@@ -5120,9 +5109,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // L
-        // L
-        // L
         public static class C_OP_ContinuousEmitter {
             public const nint m_flEmissionDuration = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_flStartTime = 0x350; // CParticleCollectionFloatInput
@@ -7022,6 +7008,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // R
         public static class CParticleFunctionForce {
         }
         // Parent: None
@@ -8146,7 +8133,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // e6f/0x0181,0x0e6f/0x0184,0x0e6f/0x0185,0x0e6f/0x0186,0x0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d
+        // !
         public static class C_OP_RenderAsModels {
             public const nint m_ModelList = 0x228; // CUtlVector<ModelReference_t>
             public const nint m_flModelScale = 0x244; // float32
@@ -8325,9 +8312,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // L
-        // L
-        // L
         public static class C_OP_InstantaneousEmitter {
             public const nint m_nParticlesToEmit = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_flStartTime = 0x350; // CParticleCollectionFloatInput
@@ -8467,7 +8451,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // e6f/0x0181,0x0e6f/0x0184,0x0e6f/0x0185,0x0e6f/0x0186,0x0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d
+        // !
         public static class CBaseTrailRenderer {
             public const nint m_nOrientationType = 0x2DF0; // ParticleOrientationChoiceList_t
             public const nint m_nOrientationControlPoint = 0x2DF4; // int32
@@ -9964,6 +9948,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // R
         public static class CParticleFunctionOperator {
         }
         // Parent: None
@@ -13806,7 +13791,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x02ff,0x045e/0x0b00,0x045e/0x0b05,0x045e/0x0b0a,0x045e/0x0b0c,0x045e/0x0b12,0x045e/0x0b13,0x045e/0x0b20,0x045e/0x0b21,0x045e/0x0
         public static class C_OP_RenderPoints {
             public const nint m_hMaterial = 0x228; // CStrongHandle<InfoForResourceTypeIMaterial2>
         }
@@ -20576,9 +20560,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // L
-        // L
-        // L
         public static class C_OP_MaintainEmitter {
             public const nint m_nParticlesToMaintain = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_flStartTime = 0x350; // float32
@@ -22362,7 +22343,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x3820,0x2810/0x0009,0x2dc8/0x9012,0x2dc8/0x2862,0x2dc
         public static class C_OP_RemapCPtoCP {
             public const nint m_nInputControlPoint = 0x1E0; // int32
             public const nint m_nOutputControlPoint = 0x1E4; // int32
@@ -22673,7 +22653,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x02ff,0x045e/0x0b00,0x045e/0x0b05,0x045e/0x0b0a,0x045e/0x0b0c,0x045e/0x0b12,0x045e/0x0b13,0x045e/0x0b20,0x045e/0x0b21,0x045e/0x0
         public static class C_OP_RenderScreenShake {
             public const nint m_flDurationScale = 0x228; // float32
             public const nint m_flRadiusScale = 0x22C; // float32
@@ -22704,7 +22683,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x3820,0x2810/0x0009,0x2dc8/0x9012,0x2dc8/0x2862,0x2dc
         public static class C_OP_RemapBoundingVolumetoCP {
             public const nint m_nOutControlPointNumber = 0x1E0; // int32
             public const nint m_flInputMin = 0x1E4; // float32
@@ -22721,9 +22699,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x3820,0x2810/0x0009,0x2dc8/0x9012,0x2dc8/0x2862,0x2dc
-        // dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x3820,0x2810/0x0009,0x2dc8/0x9012,0x2dc8/0x2862,0x2dc
-        // Y
         public static class C_OP_HSVShiftToCP {
             public const nint m_nColorCP = 0x1E0; // int32
             public const nint m_nColorGemEnableCP = 0x1E4; // int32
@@ -23620,9 +23595,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // L
-        // L
-        // L
         public static class C_OP_NoiseEmitter {
             public const nint m_flEmissionDuration = 0x1E0; // float32
             public const nint m_flStartTime = 0x1E4; // float32
@@ -24645,9 +24617,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x3820,0x2810/0x0009,0x2dc8/0x9012,0x2dc8/0x2862,0x2dc
-        // dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x3820,0x2810/0x0009,0x2dc8/0x9012,0x2dc8/0x2862,0x2dc
-        // Y
         public static class C_OP_SetGravityToCP {
             public const nint m_nCPInput = 0x1E0; // int32
             public const nint m_nCPOutput = 0x1E4; // int32
@@ -25003,7 +24972,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // e6f/0x0181,0x0e6f/0x0184,0x0e6f/0x0185,0x0e6f/0x0186,0x0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d
+        // !
         public static class C_OP_RenderFlattenGrass {
             public const nint m_flFlattenStrength = 0x228; // float32
             public const nint m_nStrengthFieldOverride = 0x22C; // ParticleAttributeIndex_t
@@ -25063,7 +25032,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x02ff,0x045e/0x0b00,0x045e/0x0b05,0x045e/0x0b0a,0x045e/0x0b0c,0x045e/0x0b12,0x045e/0x0b13,0x045e/0x0b20,0x045e/0x0b21,0x045e/0x0
         public static class C_OP_RenderLightBeam {
             public const nint m_nMaxAllowed = 0x228; // uint16
             public const nint m_vColorBlend = 0x230; // CParticleCollectionVecInput
@@ -25115,7 +25083,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x3820,0x2810/0x0009,0x2dc8/0x9012,0x2dc8/0x2862,0x2dc
         public static class C_OP_EnableChildrenFromParentParticleCount {
             public const nint m_nChildGroupID = 0x1E0; // int32
             public const nint m_nFirstChild = 0x1E4; // int32
@@ -25861,7 +25828,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // e6f/0x0181,0x0e6f/0x0184,0x0e6f/0x0185,0x0e6f/0x0186,0x0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d
+        // !
         public static class C_OP_RenderClientPhysicsImpulse {
             public const nint m_flRadius = 0x228; // CPerParticleFloatInput
             public const nint m_flMagnitude = 0x398; // CPerParticleFloatInput
@@ -26772,7 +26739,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x02ff,0x045e/0x0b00,0x045e/0x0b05,0x045e/0x0b0a,0x045e/0x0b0c,0x045e/0x0b12,0x045e/0x0b13,0x045e/0x0b20,0x045e/0x0b21,0x045e/0x0
         public static class C_OP_ClientPhysics {
             public const nint m_strPhysicsType = 0x228; // CUtlString
             public const nint m_bStartAsleep = 0x230; // bool

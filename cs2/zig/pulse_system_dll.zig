@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -82,7 +82,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
             pub const CPulseCell_Step_TestDomainDestroyFakeEntity = struct {
             };
             // Parent: None
@@ -223,8 +222,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             pub const CPulseTestFuncs_LibraryA = struct {
             };
             // Parent: None
@@ -299,7 +296,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -427,7 +423,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -687,7 +682,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -712,7 +706,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -777,8 +770,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             pub const CPulseCell_Value_TestValue50 = struct {
             };
             // Parent: None
@@ -821,7 +812,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // d
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -855,7 +845,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1126,8 +1115,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             pub const CPulseCell_Outflow_TestRandomYesNo = struct {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
@@ -1175,8 +1162,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             pub const CPulseCell_Test_MultiInflow_WithDefault = struct {
             };
             // Parent: None
@@ -1186,7 +1171,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1261,7 +1245,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1288,7 +1271,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyAttributeSuggestionName
-            // e
             pub const CPulseCell_Val_TestDomainGetEntityName = struct {
             };
             // Parent: None
@@ -1313,7 +1295,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1408,7 +1389,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1511,7 +1491,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1576,7 +1555,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyAttributeSuggestionName
-            // e
             pub const CPulseCell_Val_TestDomainFindEntityByName = struct {
             };
             // Parent: None
@@ -1607,7 +1585,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1627,7 +1604,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyAttributeSuggestionName
-            // e
             pub const CPulseCell_Step_TestDomainEntFire = struct {
                 pub const m_Input: usize = 0x48; // CUtlString
                 pub const flWaitValue: usize = 0x0; // float32
@@ -1656,8 +1632,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             pub const CPulseCell_ExampleSelector = struct {
                 pub const m_OutflowList: usize = 0x48; // PulseSelectorOutflowList_t
             };
@@ -1720,8 +1694,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             pub const CPulseCell_ExampleCriteria = struct {
             };
             // Parent: None
@@ -1746,7 +1718,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1799,8 +1770,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            //  
-            //  
             pub const CPulseCell_Step_TestDomainCreateFakeEntity = struct {
             };
             // Parent: None
@@ -1871,7 +1840,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults

@@ -419,44 +419,14 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "*",
-            "type": "Unknown"
-          },
-          {
-            "name": "o%",
-            "type": "Unknown"
-          },
-          {
-            "name": "%O",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "GameTime_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "%O",
-            "type": "Unknown"
-          },
-          {
-            "name": "E!",
-            "type": "Unknown"
-          },
-          {
-            "name": "Q",
-            "type": "Unknown"
-          },
-          {
-            "name": "%O",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       }
     },

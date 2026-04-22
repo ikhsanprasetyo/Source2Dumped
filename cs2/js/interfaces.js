@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-21 10:30:00.180985200 +07:00
+// 2026-04-22 10:04:00.809257 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -7,14 +7,14 @@ export const Interfaces = {
         AnimationSystem_001: 0x80A0B0,
     },
     client_dll: {
-        ClientToolsInfo_001: 0x20480D0,
-        EmptyWorldService001_Client: 0x200BAA0,
-        GameClientExports001: 0x2044D70,
-        LegacyGameUI001: 0x2060480,
-        Source2Client002: 0x231E850,
-        Source2ClientConfig001: 0x2290B80,
-        Source2ClientPrediction001: 0x204F540,
-        Source2ClientUI001: 0x205EA70,
+        ClientToolsInfo_001: 0x204D250,
+        EmptyWorldService001_Client: 0x2010AB0,
+        GameClientExports001: 0x2049EF0,
+        LegacyGameUI001: 0x20655F0,
+        Source2Client002: 0x2323F10,
+        Source2ClientConfig001: 0x2295DB0,
+        Source2ClientPrediction001: 0x20546B0,
+        Source2ClientUI001: 0x2063BE0,
     },
     engine2_dll: {
         BenchmarkService001: 0x612950,
@@ -134,16 +134,16 @@ export const Interfaces = {
         SchemaSystem_001: 0x76800,
     },
     server_dll: {
-        EmptyWorldService001_Server: 0x1BEBCE0,
-        EntitySubclassUtilsV001: 0x1B97350,
-        NavGameTest001: 0x1C98110,
-        ServerToolsInfo_001: 0x1C45418,
-        Source2GameClients001: 0x1C43E70,
-        Source2GameDirector001: 0x1DDD4E0,
-        Source2GameEntities001: 0x1C44B20,
-        Source2Server001: 0x1C44970,
-        Source2ServerConfig001: 0x1EFA788,
-        customnavsystem001: 0x1B78658,
+        EmptyWorldService001_Server: 0x1BEECE0,
+        EntitySubclassUtilsV001: 0x1B9A340,
+        NavGameTest001: 0x1C9B2C0,
+        ServerToolsInfo_001: 0x1C482B8,
+        Source2GameClients001: 0x1C46D10,
+        Source2GameDirector001: 0x1DE07E0,
+        Source2GameEntities001: 0x1C479C0,
+        Source2Server001: 0x1C47810,
+        Source2ServerConfig001: 0x1EFE488,
+        customnavsystem001: 0x1B7B628,
     },
     soundsystem_dll: {
         SoundOpSystem001: 0x5129B0,

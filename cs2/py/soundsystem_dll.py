@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-21 10:30:00.180985200 +07:00
+# 2026-04-22 10:04:00.809257 +07:00
 
 class Schemas:
     # Module: soundsystem.dll
@@ -236,7 +236,6 @@ class Schemas:
             m_flOcclusionMin = 0x14 # float32
             m_flOcclusionMax = 0x18 # float32
             m_flTestDepth = 0x1C # float32
-            m_flCalculationInterval = 0x8 # float32
         class CVoiceContainerRandomSampler:
             m_flAmplitude = 0xB8 # float32
             m_flAmplitudeJitter = 0xBC # float32
@@ -406,7 +405,6 @@ class Schemas:
             m_bBeatEnvelopes = 0x34 # bool
             m_nNextVoiceSlot = 0xD4 # uint8
             m_hSoundEventHash = 0xD8 # uint32
-            m_bIsSoundEvent = 0x20 # bool
         class CSndSeqInstBaseSchema:
             m_nType = 0x8 # SndSeqInstrumentType_t
             m_nPlayerType = 0xC # SndSeqPlayerType_t
@@ -516,7 +514,6 @@ class Schemas:
         class CSosGroupActionSoundeventCountSchema:
             m_bExcludeStoppedSounds = 0x8 # bool
             m_strCountKeyName = 0x10 # CUtlString
-            m_bExcludeStoppedSounds = 0x8 # bool
         class CVoiceContainerEnvelopeAnalyzer:
             m_mode = 0x50 # EMode_t
             m_fAnalysisWindowMs = 0x54 # float32
@@ -674,7 +671,6 @@ class Schemas:
             m_nSortType = 0x10 # SosActionLimitSortType_t
             m_bStopImmediate = 0x14 # bool
             m_bCountStopped = 0x15 # bool
-            m_nMaxCount = 0x8 # int32
         class CVoiceContainerAmpedDecayingSineWave:
             m_flGainAmount = 0xB0 # float32
         class CVoiceContainerEnvelope:
@@ -748,6 +744,7 @@ class Schemas:
             m_iSelection = 0xE0 # int32
             m_flCrossfadeTime = 0xE4 # float32
         class CSosGroupActionTimeLimitSchema:
+            m_flMaxDuration = 0x8 # float32
             m_flMaxDuration = 0x8 # float32
         class VMixVocoderDesc_t:
             m_nBandCount = 0x0 # int32
