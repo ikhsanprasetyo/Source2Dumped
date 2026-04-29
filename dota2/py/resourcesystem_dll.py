@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:22:16.019179300 +07:00
+# 2026-04-29 12:46:53.186668100 +07:00
 
 class Schemas:
     # Module: resourcesystem.dll
@@ -20,7 +20,8 @@ class Schemas:
         class InfoForResourceTypeCResponseRulesList:
             pass
         class AABBWS_t:
-            pass
+            m_vMinBounds = 0x0 # VectorWS
+            m_vMaxBounds = 0xC # VectorWS
         class InfoForResourceTypeCDotaItemDefinitionResource:
             pass
         class InfoForResourceTypeCMorphSetData:
@@ -28,15 +29,18 @@ class Schemas:
         class InfoForResourceTypeCVSoundStackScriptList:
             pass
         class PackedAABB_t:
-            pass
+            m_nPackedMin = 0x0 # uint32
+            m_nPackedMax = 0x4 # uint32
         class InfoForResourceTypeCVPhysXSurfacePropertiesList:
             pass
         class InfoForResourceTypeManifestTestResource_t:
             pass
         class ConstantInfo_t:
-            pass
+            m_name = 0x0 # CUtlString
+            m_nameToken = 0x8 # CUtlStringToken
+            m_flValue = 0xC # float32
         class FuseFunctionIndex_t:
-            pass
+            m_Value = 0x0 # uint16
         class InfoForResourceTypeCGcExportableExternalData:
             pass
         class InfoForResourceTypeIAnimGraphModelBinding:
@@ -44,7 +48,12 @@ class Schemas:
         class InfoForResourceTypeCJavaScriptResource:
             pass
         class CFuseSymbolTable:
-            pass
+            m_constants = 0x0 # CUtlVector<ConstantInfo_t>
+            m_variables = 0x18 # CUtlVector<VariableInfo_t>
+            m_functions = 0x30 # CUtlVector<FunctionInfo_t>
+            m_constantMap = 0x48 # CUtlHashtable<CUtlStringToken,int32>
+            m_variableMap = 0x68 # CUtlHashtable<CUtlStringToken,int32>
+            m_functionMap = 0x88 # CUtlHashtable<CUtlStringToken,int32>
         class InfoForResourceTypeCRenderMesh:
             pass
         class InfoForResourceTypeCVoxelVisibility:
@@ -58,15 +67,24 @@ class Schemas:
         class InfoForResourceTypeProceduralTestResource_t:
             pass
         class AABB_t:
-            pass
+            m_vMinBounds = 0x0 # Vector
+            m_vMaxBounds = 0xC # Vector
         class InfoForResourceTypeCPostProcessingResource:
             pass
         class VariableInfo_t:
-            pass
+            m_name = 0x0 # CUtlString
+            m_nameToken = 0x8 # CUtlStringToken
+            m_nIndex = 0xC # FuseVariableIndex_t
+            m_nNumComponents = 0xE # uint8
+            m_eVarType = 0xF # FuseVariableType_t
+            m_eAccess = 0x10 # FuseVariableAccess_t
         class InfoForResourceTypeIParticleSnapshot:
             pass
         class FourQuaternions:
-            pass
+            x = 0x0 # fltx4
+            y = 0x10 # fltx4
+            z = 0x20 # fltx4
+            w = 0x30 # fltx4
         class InfoForResourceTypeCPanoramaLayout:
             pass
         class InfoForResourceTypeCTypeScriptResource:
@@ -96,7 +114,10 @@ class Schemas:
         class InfoForResourceTypeCSmartProp:
             pass
         class CFuseProgram:
-            pass
+            m_programBuffer = 0x0 # CUtlVector<uint8>
+            m_variablesRead = 0x18 # CUtlVector<FuseVariableIndex_t>
+            m_variablesWritten = 0x30 # CUtlVector<FuseVariableIndex_t>
+            m_nMaxTempVarsUsed = 0x48 # int32
         class InfoForResourceTypeCCompositeMaterialKit:
             pass
         class InfoForResourceTypeCVMixListResource:
@@ -114,7 +135,11 @@ class Schemas:
         class InfoForResourceTypeCVDataItemDefs:
             pass
         class FunctionInfo_t:
-            pass
+            m_name = 0x8 # CUtlString
+            m_nameToken = 0x10 # CUtlStringToken
+            m_nParamCount = 0x14 # int32
+            m_nIndex = 0x18 # FuseFunctionIndex_t
+            m_bIsPure = 0x1A # bool
         class InfoForResourceTypeCVDataResource:
             pass
         class InfoForResourceTypeCModel:
@@ -124,13 +149,14 @@ class Schemas:
         class InfoForResourceTypeCTextureBase:
             pass
         class FuseVariableIndex_t:
-            pass
+            m_Value = 0x0 # uint16
         class InfoForResourceTypeIParticleSystemDefinition:
             pass
         class InfoForResourceTypeCSequenceGroupData:
             pass
         class ManifestTestResource_t:
-            pass
+            m_name = 0x0 # CUtlString
+            m_child = 0x8 # CStrongHandle<InfoForResourceTypeManifestTestResource_t>
         class InfoForResourceTypeCEntityLump:
             pass
         class InfoForResourceTypeCDOTAPatchNotesList:

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:22:16.019179300 +07:00
+# 2026-04-29 12:46:53.186668100 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,15 +8,15 @@ class Interfaces:
         AnimationSystem_001 = 0x80BCB0
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x5C9FEC0
-        DOTA_CLIENT_GCCLIENT = 0x6521EF8
-        GameClientExports001 = 0x5C9BBE8
-        LegacyGameUI001 = 0x5D11120
-        PanoramaUIClient001 = 0x5D3BBD0
-        PlayButtonService001 = 0x5D1D050
-        Source2Client002 = 0x6382470
-        Source2ClientConfig001 = 0x632F0E0
-        Source2ClientPrediction001 = 0x5CA6430
+        ClientToolsInfo_001 = 0x5CA0040
+        DOTA_CLIENT_GCCLIENT = 0x6522198
+        GameClientExports001 = 0x5C9BD68
+        LegacyGameUI001 = 0x5D11260
+        PanoramaUIClient001 = 0x5D3BD20
+        PlayButtonService001 = 0x5D1D1A0
+        Source2Client002 = 0x63826A0
+        Source2ClientConfig001 = 0x632F2B0
+        Source2ClientPrediction001 = 0x5CA65B0
         Source2ClientUI001 = 0x5A71880
     # Module: engine2.dll
     class Engine2Dll:
@@ -77,7 +77,7 @@ class Interfaces:
         InputSystemVersion001 = 0x42B50
     # Module: localize.dll
     class LocalizeDll:
-        Localize_001 = 0x62180
+        Localize_001 = 0x59180
     # Module: materialsystem2.dll
     class Materialsystem2Dll:
         FontManager_001 = 0x15DD60
@@ -131,14 +131,14 @@ class Interfaces:
         SchemaSystem_001 = 0x77710
     # Module: server.dll
     class ServerDll:
-        EntitySubclassUtilsV001 = 0x4721F00
-        NavGameTest001 = 0x49F5450
-        ServerToolsInfo_001 = 0x494BC30
-        Source2GameClients001 = 0x49412E0
-        Source2GameDirector001 = 0x4FD4540
-        Source2GameEntities001 = 0x494B340
-        Source2Server001 = 0x494B190
-        Source2ServerConfig001 = 0x4F12468
+        EntitySubclassUtilsV001 = 0x472DF00
+        NavGameTest001 = 0x4A01600
+        ServerToolsInfo_001 = 0x4957D20
+        Source2GameClients001 = 0x494D3D0
+        Source2GameDirector001 = 0x4FE0690
+        Source2GameEntities001 = 0x4957430
+        Source2Server001 = 0x4957280
+        Source2ServerConfig001 = 0x4F1E6B8
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundOpSystem001 = 0x5139D0
@@ -150,27 +150,27 @@ class Interfaces:
         SteamAudio001 = 0x25E520
     # Module: steamclient64.dll
     class Steamclient64Dll:
-        IVALIDATE001 = 0x16998B8
-        SteamClient006 = 0x1696D50
-        SteamClient007 = 0x1696D58
-        SteamClient008 = 0x1696D60
-        SteamClient009 = 0x1696D68
-        SteamClient010 = 0x1696D70
-        SteamClient011 = 0x1696D78
-        SteamClient012 = 0x1696D80
-        SteamClient013 = 0x1696D88
-        SteamClient014 = 0x1696D90
-        SteamClient015 = 0x1696D98
-        SteamClient016 = 0x1696DA0
-        SteamClient017 = 0x1696DA8
-        SteamClient018 = 0x1696DB0
-        SteamClient019 = 0x1696DB8
-        SteamClient020 = 0x1696DC0
-        SteamClient021 = 0x1696DC8
-        SteamClient022 = 0x1696DD0
-        SteamClient023 = 0x1696DD8
-        p2pvoice002 = 0x14E5DEF
-        p2pvoicesingleton002 = 0x16720F0
+        IVALIDATE001 = 0x16BD098
+        SteamClient006 = 0x16BA500
+        SteamClient007 = 0x16BA508
+        SteamClient008 = 0x16BA510
+        SteamClient009 = 0x16BA518
+        SteamClient010 = 0x16BA520
+        SteamClient011 = 0x16BA528
+        SteamClient012 = 0x16BA530
+        SteamClient013 = 0x16BA538
+        SteamClient014 = 0x16BA540
+        SteamClient015 = 0x16BA548
+        SteamClient016 = 0x16BA550
+        SteamClient017 = 0x16BA558
+        SteamClient018 = 0x16BA560
+        SteamClient019 = 0x16BA568
+        SteamClient020 = 0x16BA570
+        SteamClient021 = 0x16BA578
+        SteamClient022 = 0x16BA580
+        SteamClient023 = 0x16BA588
+        p2pvoice002 = 0x14E627F
+        p2pvoicesingleton002 = 0x16950F0
     # Module: tier0.dll
     class Tier0Dll:
         TestScriptMgr001 = 0x39E6F0
@@ -180,9 +180,6 @@ class Interfaces:
     # Module: v8system.dll
     class V8systemDll:
         Source2V8System001 = 0x31730
-    # Module: vconcomm.dll
-    class VconcommDll:
-        VConComm001 = 0x395C0
     # Module: vphysics2.dll
     class Vphysics2Dll:
         VPhysics2_Interface_001 = 0x40FD60

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:22:16.019179300 +07:00
+// 2026-04-29 12:46:53.186668100 +07:00
 
 package schemas
 
@@ -89,4 +89,33 @@ const (
     SchemasystemDll_ThreeState_t_TRS_FALSE = 0x0
     SchemasystemDll_ThreeState_t_TRS_TRUE = 0x1
     SchemasystemDll_ThreeState_t_TRS_NONE = 0x2
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_Vector2D = 0x0 // Vector2D
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_Vector = 0x8 // Vector
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_VectorWS = 0x14 // VectorWS
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_VectorAligned = 0x20 // VectorAligned
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_Quaternion = 0x30 // Quaternion
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_QAngle = 0x40 // QAngle
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_RotationVector = 0x4C // RotationVector
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_RadianEuler = 0x58 // RadianEuler
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_DegreeEuler = 0x64 // DegreeEuler
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_QuaternionStorage = 0x70 // QuaternionStorage
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_matrix3x4_t = 0x80 // matrix3x4_t
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_matrix3x4a_t = 0xB0 // matrix3x4a_t
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_Color = 0xE0 // Color
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_Vector4D = 0xE4 // Vector4D
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_CTransform = 0x100 // CTransform
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_pKeyValues = 0x120 // KeyValues*
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_CUtlBinaryBlock = 0x128 // CUtlBinaryBlock
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_CUtlString = 0x138 // CUtlString
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_CUtlSymbol = 0x140 // CUtlSymbol
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_stringToken = 0x144 // CUtlStringToken
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_stringTokenWithStorage = 0x148 // CUtlStringTokenWithStorage
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_ResourceTypes = 0x160 // CResourceArray<CResourcePointer<CResourceString>>
+    SchemasystemDll_CSchemaSystemInternalRegistration_m_KV3 = 0x168 // KeyValues3
+    SchemasystemDll_CExampleSchemaVData_PolymorphicDerivedA_m_nDerivedA = 0x10 // int32
+    SchemasystemDll_CExampleSchemaVData_PolymorphicBase_m_nBase = 0x8 // int32
+    SchemasystemDll_CExampleSchemaVData_PolymorphicDerivedB_m_nDerivedB = 0x10 // int32
+    SchemasystemDll_ResourceId_t_m_Value = 0x0 // uint64
+    SchemasystemDll_CExampleSchemaVData_Monomorphic_m_nExample1 = 0x0 // int32
+    SchemasystemDll_CExampleSchemaVData_Monomorphic_m_nExample2 = 0x4 // int32
 )

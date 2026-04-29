@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:22:16.019179300 +07:00
+// 2026-04-29 12:46:53.186668100 +07:00
 
 #pragma once
 
@@ -107,31 +107,132 @@ namespace source2_dumper {
             };
             // Parent: None
             // Field count: 0
+            //
+            // Metadata:
+            // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // <invalid>
+            // char
+            // uint8
+            // uint16
+            // uint32
+            // uint64
+            // float64
+            // invalid
+            // bool
+            // uint
+            // string
+            // array
             namespace InfoForResourceTypeCResourceManifestInternal {
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 23
             namespace CSchemaSystemInternalRegistration {
+                constexpr std::ptrdiff_t m_Vector2D = 0x0; // Vector2D
+                constexpr std::ptrdiff_t m_Vector = 0x8; // Vector
+                constexpr std::ptrdiff_t m_VectorWS = 0x14; // VectorWS
+                constexpr std::ptrdiff_t m_VectorAligned = 0x20; // VectorAligned
+                constexpr std::ptrdiff_t m_Quaternion = 0x30; // Quaternion
+                constexpr std::ptrdiff_t m_QAngle = 0x40; // QAngle
+                constexpr std::ptrdiff_t m_RotationVector = 0x4C; // RotationVector
+                constexpr std::ptrdiff_t m_RadianEuler = 0x58; // RadianEuler
+                constexpr std::ptrdiff_t m_DegreeEuler = 0x64; // DegreeEuler
+                constexpr std::ptrdiff_t m_QuaternionStorage = 0x70; // QuaternionStorage
+                constexpr std::ptrdiff_t m_matrix3x4_t = 0x80; // matrix3x4_t
+                constexpr std::ptrdiff_t m_matrix3x4a_t = 0xB0; // matrix3x4a_t
+                constexpr std::ptrdiff_t m_Color = 0xE0; // Color
+                constexpr std::ptrdiff_t m_Vector4D = 0xE4; // Vector4D
+                constexpr std::ptrdiff_t m_CTransform = 0x100; // CTransform
+                constexpr std::ptrdiff_t m_pKeyValues = 0x120; // KeyValues*
+                constexpr std::ptrdiff_t m_CUtlBinaryBlock = 0x128; // CUtlBinaryBlock
+                constexpr std::ptrdiff_t m_CUtlString = 0x138; // CUtlString
+                constexpr std::ptrdiff_t m_CUtlSymbol = 0x140; // CUtlSymbol
+                constexpr std::ptrdiff_t m_stringToken = 0x144; // CUtlStringToken
+                constexpr std::ptrdiff_t m_stringTokenWithStorage = 0x148; // CUtlStringTokenWithStorage
+                constexpr std::ptrdiff_t m_ResourceTypes = 0x160; // CResourceArray<CResourcePointer<CResourceString>>
+                constexpr std::ptrdiff_t m_KV3 = 0x168; // KeyValues3
             }
-            // Parent: resourcefile
-            // Field count: 0
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
+            // bool
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             namespace CExampleSchemaVData_PolymorphicDerivedA {
+                constexpr std::ptrdiff_t m_nDerivedA = 0x10; // int32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             namespace CExampleSchemaVData_PolymorphicBase {
+                constexpr std::ptrdiff_t m_nBase = 0x8; // int32
             }
-            // Parent: resourcefile
-            // Field count: 0
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
+            // bool
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             namespace CExampleSchemaVData_PolymorphicDerivedB {
+                constexpr std::ptrdiff_t m_nDerivedB = 0x10; // int32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
+            //
+            // Metadata:
+            // vrman
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // void
+            // int8
+            // int16
+            // int32
+            // int64
+            // float32
+            // bool
+            // null
+            // int
+            // double
+            // binary_blob
+            // table
             namespace ResourceId_t {
+                constexpr std::ptrdiff_t m_Value = 0x0; // uint64
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CExampleSchemaVData_Monomorphic {
+                constexpr std::ptrdiff_t m_nExample1 = 0x0; // int32
+                constexpr std::ptrdiff_t m_nExample2 = 0x4; // int32
             }
         }
     }

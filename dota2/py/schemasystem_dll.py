@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:22:16.019179300 +07:00
+# 2026-04-29 12:46:53.186668100 +07:00
 
 class Schemas:
     # Module: schemasystem.dll
@@ -94,14 +94,37 @@ class Schemas:
         class InfoForResourceTypeCResourceManifestInternal:
             pass
         class CSchemaSystemInternalRegistration:
-            pass
+            m_Vector2D = 0x0 # Vector2D
+            m_Vector = 0x8 # Vector
+            m_VectorWS = 0x14 # VectorWS
+            m_VectorAligned = 0x20 # VectorAligned
+            m_Quaternion = 0x30 # Quaternion
+            m_QAngle = 0x40 # QAngle
+            m_RotationVector = 0x4C # RotationVector
+            m_RadianEuler = 0x58 # RadianEuler
+            m_DegreeEuler = 0x64 # DegreeEuler
+            m_QuaternionStorage = 0x70 # QuaternionStorage
+            m_matrix3x4_t = 0x80 # matrix3x4_t
+            m_matrix3x4a_t = 0xB0 # matrix3x4a_t
+            m_Color = 0xE0 # Color
+            m_Vector4D = 0xE4 # Vector4D
+            m_CTransform = 0x100 # CTransform
+            m_pKeyValues = 0x120 # KeyValues*
+            m_CUtlBinaryBlock = 0x128 # CUtlBinaryBlock
+            m_CUtlString = 0x138 # CUtlString
+            m_CUtlSymbol = 0x140 # CUtlSymbol
+            m_stringToken = 0x144 # CUtlStringToken
+            m_stringTokenWithStorage = 0x148 # CUtlStringTokenWithStorage
+            m_ResourceTypes = 0x160 # CResourceArray<CResourcePointer<CResourceString>>
+            m_KV3 = 0x168 # KeyValues3
         class CExampleSchemaVData_PolymorphicDerivedA:
-            pass
+            m_nDerivedA = 0x10 # int32
         class CExampleSchemaVData_PolymorphicBase:
-            pass
+            m_nBase = 0x8 # int32
         class CExampleSchemaVData_PolymorphicDerivedB:
-            pass
+            m_nDerivedB = 0x10 # int32
         class ResourceId_t:
-            pass
+            m_Value = 0x0 # uint64
         class CExampleSchemaVData_Monomorphic:
-            pass
+            m_nExample1 = 0x0 # int32
+            m_nExample2 = 0x4 # int32

@@ -2,38 +2,319 @@
   "schemasystem.dll": {
     "classes": {
       "CExampleSchemaVData_Monomorphic": {
-        "fields": {},
-        "metadata": [],
+        "fields": {
+          "m_nExample1": 0,
+          "m_nExample2": 4
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CExampleSchemaVData_PolymorphicBase": {
-        "fields": {},
-        "metadata": [],
+        "fields": {
+          "m_nBase": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CExampleSchemaVData_PolymorphicDerivedA": {
-        "fields": {},
-        "metadata": [],
-        "parent": "resourcefile"
+        "fields": {
+          "m_nDerivedA": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "void",
+            "type": "Unknown"
+          },
+          {
+            "name": "int8",
+            "type": "Unknown"
+          },
+          {
+            "name": "int16",
+            "type": "Unknown"
+          },
+          {
+            "name": "int32",
+            "type": "Unknown"
+          },
+          {
+            "name": "int64",
+            "type": "Unknown"
+          },
+          {
+            "name": "float32",
+            "type": "Unknown"
+          },
+          {
+            "name": "bool",
+            "type": "Unknown"
+          },
+          {
+            "name": "null",
+            "type": "Unknown"
+          },
+          {
+            "name": "int",
+            "type": "Unknown"
+          },
+          {
+            "name": "double",
+            "type": "Unknown"
+          },
+          {
+            "name": "binary_blob",
+            "type": "Unknown"
+          },
+          {
+            "name": "table",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CExampleSchemaVData_PolymorphicDerivedB": {
-        "fields": {},
-        "metadata": [],
-        "parent": "resourcefile"
+        "fields": {
+          "m_nDerivedB": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "void",
+            "type": "Unknown"
+          },
+          {
+            "name": "int8",
+            "type": "Unknown"
+          },
+          {
+            "name": "int16",
+            "type": "Unknown"
+          },
+          {
+            "name": "int32",
+            "type": "Unknown"
+          },
+          {
+            "name": "int64",
+            "type": "Unknown"
+          },
+          {
+            "name": "float32",
+            "type": "Unknown"
+          },
+          {
+            "name": "bool",
+            "type": "Unknown"
+          },
+          {
+            "name": "null",
+            "type": "Unknown"
+          },
+          {
+            "name": "int",
+            "type": "Unknown"
+          },
+          {
+            "name": "double",
+            "type": "Unknown"
+          },
+          {
+            "name": "binary_blob",
+            "type": "Unknown"
+          },
+          {
+            "name": "table",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CSchemaSystemInternalRegistration": {
-        "fields": {},
+        "fields": {
+          "m_CTransform": 256,
+          "m_CUtlBinaryBlock": 296,
+          "m_CUtlString": 312,
+          "m_CUtlSymbol": 320,
+          "m_Color": 224,
+          "m_DegreeEuler": 100,
+          "m_KV3": 360,
+          "m_QAngle": 64,
+          "m_Quaternion": 48,
+          "m_QuaternionStorage": 112,
+          "m_RadianEuler": 88,
+          "m_ResourceTypes": 352,
+          "m_RotationVector": 76,
+          "m_Vector": 8,
+          "m_Vector2D": 0,
+          "m_Vector4D": 228,
+          "m_VectorAligned": 32,
+          "m_VectorWS": 20,
+          "m_matrix3x4_t": 128,
+          "m_matrix3x4a_t": 176,
+          "m_pKeyValues": 288,
+          "m_stringToken": 324,
+          "m_stringTokenWithStorage": 328
+        },
         "metadata": [],
         "parent": null
       },
       "InfoForResourceTypeCResourceManifestInternal": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "<invalid>",
+            "type": "Unknown"
+          },
+          {
+            "name": "char",
+            "type": "Unknown"
+          },
+          {
+            "name": "uint8",
+            "type": "Unknown"
+          },
+          {
+            "name": "uint16",
+            "type": "Unknown"
+          },
+          {
+            "name": "uint32",
+            "type": "Unknown"
+          },
+          {
+            "name": "uint64",
+            "type": "Unknown"
+          },
+          {
+            "name": "float64",
+            "type": "Unknown"
+          },
+          {
+            "name": "invalid",
+            "type": "Unknown"
+          },
+          {
+            "name": "bool",
+            "type": "Unknown"
+          },
+          {
+            "name": "uint",
+            "type": "Unknown"
+          },
+          {
+            "name": "string",
+            "type": "Unknown"
+          },
+          {
+            "name": "array",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ResourceId_t": {
-        "fields": {},
-        "metadata": [],
+        "fields": {
+          "m_Value": 0
+        },
+        "metadata": [
+          {
+            "name": "vrman",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "void",
+            "type": "Unknown"
+          },
+          {
+            "name": "int8",
+            "type": "Unknown"
+          },
+          {
+            "name": "int16",
+            "type": "Unknown"
+          },
+          {
+            "name": "int32",
+            "type": "Unknown"
+          },
+          {
+            "name": "int64",
+            "type": "Unknown"
+          },
+          {
+            "name": "float32",
+            "type": "Unknown"
+          },
+          {
+            "name": "bool",
+            "type": "Unknown"
+          },
+          {
+            "name": "null",
+            "type": "Unknown"
+          },
+          {
+            "name": "int",
+            "type": "Unknown"
+          },
+          {
+            "name": "double",
+            "type": "Unknown"
+          },
+          {
+            "name": "binary_blob",
+            "type": "Unknown"
+          },
+          {
+            "name": "table",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       }
     },

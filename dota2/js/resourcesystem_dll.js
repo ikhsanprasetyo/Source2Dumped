@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:22:16.019179300 +07:00
+// 2026-04-29 12:46:53.186668100 +07:00
 
 export const Schemas = {
     resourcesystem_dll: {
@@ -21,6 +21,8 @@ export const Schemas = {
         InfoForResourceTypeCResponseRulesList: {
         },
         AABBWS_t: {
+            m_vMinBounds: 0x0, // VectorWS
+            m_vMaxBounds: 0xC, // VectorWS
         },
         InfoForResourceTypeCDotaItemDefinitionResource: {
         },
@@ -29,14 +31,20 @@ export const Schemas = {
         InfoForResourceTypeCVSoundStackScriptList: {
         },
         PackedAABB_t: {
+            m_nPackedMin: 0x0, // uint32
+            m_nPackedMax: 0x4, // uint32
         },
         InfoForResourceTypeCVPhysXSurfacePropertiesList: {
         },
         InfoForResourceTypeManifestTestResource_t: {
         },
         ConstantInfo_t: {
+            m_name: 0x0, // CUtlString
+            m_nameToken: 0x8, // CUtlStringToken
+            m_flValue: 0xC, // float32
         },
         FuseFunctionIndex_t: {
+            m_Value: 0x0, // uint16
         },
         InfoForResourceTypeCGcExportableExternalData: {
         },
@@ -45,6 +53,12 @@ export const Schemas = {
         InfoForResourceTypeCJavaScriptResource: {
         },
         CFuseSymbolTable: {
+            m_constants: 0x0, // CUtlVector<ConstantInfo_t>
+            m_variables: 0x18, // CUtlVector<VariableInfo_t>
+            m_functions: 0x30, // CUtlVector<FunctionInfo_t>
+            m_constantMap: 0x48, // CUtlHashtable<CUtlStringToken,int32>
+            m_variableMap: 0x68, // CUtlHashtable<CUtlStringToken,int32>
+            m_functionMap: 0x88, // CUtlHashtable<CUtlStringToken,int32>
         },
         InfoForResourceTypeCRenderMesh: {
         },
@@ -59,14 +73,26 @@ export const Schemas = {
         InfoForResourceTypeProceduralTestResource_t: {
         },
         AABB_t: {
+            m_vMinBounds: 0x0, // Vector
+            m_vMaxBounds: 0xC, // Vector
         },
         InfoForResourceTypeCPostProcessingResource: {
         },
         VariableInfo_t: {
+            m_name: 0x0, // CUtlString
+            m_nameToken: 0x8, // CUtlStringToken
+            m_nIndex: 0xC, // FuseVariableIndex_t
+            m_nNumComponents: 0xE, // uint8
+            m_eVarType: 0xF, // FuseVariableType_t
+            m_eAccess: 0x10, // FuseVariableAccess_t
         },
         InfoForResourceTypeIParticleSnapshot: {
         },
         FourQuaternions: {
+            x: 0x0, // fltx4
+            y: 0x10, // fltx4
+            z: 0x20, // fltx4
+            w: 0x30, // fltx4
         },
         InfoForResourceTypeCPanoramaLayout: {
         },
@@ -97,6 +123,10 @@ export const Schemas = {
         InfoForResourceTypeCSmartProp: {
         },
         CFuseProgram: {
+            m_programBuffer: 0x0, // CUtlVector<uint8>
+            m_variablesRead: 0x18, // CUtlVector<FuseVariableIndex_t>
+            m_variablesWritten: 0x30, // CUtlVector<FuseVariableIndex_t>
+            m_nMaxTempVarsUsed: 0x48, // int32
         },
         InfoForResourceTypeCCompositeMaterialKit: {
         },
@@ -115,6 +145,11 @@ export const Schemas = {
         InfoForResourceTypeCVDataItemDefs: {
         },
         FunctionInfo_t: {
+            m_name: 0x8, // CUtlString
+            m_nameToken: 0x10, // CUtlStringToken
+            m_nParamCount: 0x14, // int32
+            m_nIndex: 0x18, // FuseFunctionIndex_t
+            m_bIsPure: 0x1A, // bool
         },
         InfoForResourceTypeCVDataResource: {
         },
@@ -125,12 +160,15 @@ export const Schemas = {
         InfoForResourceTypeCTextureBase: {
         },
         FuseVariableIndex_t: {
+            m_Value: 0x0, // uint16
         },
         InfoForResourceTypeIParticleSystemDefinition: {
         },
         InfoForResourceTypeCSequenceGroupData: {
         },
         ManifestTestResource_t: {
+            m_name: 0x0, // CUtlString
+            m_child: 0x8, // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
         },
         InfoForResourceTypeCEntityLump: {
         },

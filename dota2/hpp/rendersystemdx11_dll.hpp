@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-02 19:22:16.019179300 +07:00
+// 2026-04-29 12:46:53.186668100 +07:00
 
 #pragma once
 
@@ -100,36 +100,121 @@ namespace source2_dumper {
                 RENDER_SLOT_PER_INSTANCE = 0x1
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 4
             namespace RsDepthStencilStateDesc_t {
+                constexpr std::ptrdiff_t m_bDepthTestEnable = 0x0; // bitfield:1
+                constexpr std::ptrdiff_t m_bDepthWriteEnable = 0x0; // bitfield:1
+                constexpr std::ptrdiff_t m_depthFunc = 0x1; // RsComparison_t
+                constexpr std::ptrdiff_t m_stencilState = 0x2; // RsStencilStateDesc_t
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
+            //
+            // Metadata:
+            // RENDER_MULTISAMPLE_INVALID
+            // RENDER_MULTISAMPLE_2X
+            // RENDER_MULTISAMPLE_4X
+            // RENDER_MULTISAMPLE_6X
+            // RENDER_MULTISAMPLE_8X
+            // RENDER_MULTISAMPLE_16X
+            // RENDER_MULTISAMPLE_TYPE_COUNT
+            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
+            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
+            // INPUT_LAYOUT_VARIATION_MAX
+            // RENDER_PRIM_LINES
+            // RENDER_PRIM_LINES_WITH_ADJACENCY
+            // RENDER_PRIM_LINE_STRIP
+            // RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY
+            // RENDER_PRIM_TRIANGLES
+            // RENDER_PRIM_TRIANGLES_WITH_ADJACENCY
+            // RENDER_PRIM_TRIANGLE_STRIP
+            // RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY
+            // RENDER_PRIM_INSTANCED_QUADS
+            // RENDER_PRIM_HETEROGENOUS
+            // RENDER_PRIM_COMPUTE_SHADER
+            // RENDER_PRIM_MESH_SHADER
+            // RENDER_PRIM_TYPE_COUNT
+            // RENDER_BUFFER_USAGE_VERTEX_BUFFER
+            // RENDER_BUFFER_USAGE_INDEX_BUFFER
+            // RENDER_BUFFER_USAGE_SHADER_RESOURCE
+            // RENDER_BUFFER_USAGE_UNORDERED_ACCESS
+            // RENDER_BUFFER_BYTEADDRESS_BUFFER
+            // RENDER_BUFFER_STRUCTURED_BUFFER
+            // RENDER_BUFFER_UAV_DRAW_INDIRECT_ARGS
+            // RENDER_BUFFER_ACCELERATION_STRUCTURE
+            // RENDER_BUFFER_SHADER_BINDING_TABLE
+            // RENDER_BUFFER_POOL_ALLOCATED
+            // RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING
+            // RENDER_BUFFER_IMMOVABLE_ALLOCATION
+            // RENDER_SLOT_INVALID
+            // RENDER_SLOT_PER_INSTANCE
             namespace SheetSequenceIntegerId_t {
+                constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 11
             namespace RsBlendStateDesc_t {
+                constexpr std::ptrdiff_t m_srcBlendBits = 0x0; // uint32
+                constexpr std::ptrdiff_t m_destBlendBits = 0x4; // uint32
+                constexpr std::ptrdiff_t m_srcBlendAlphaBits = 0x8; // uint32
+                constexpr std::ptrdiff_t m_destBlendAlphaBits = 0xC; // uint32
+                constexpr std::ptrdiff_t m_renderTargetWriteMaskBits = 0x10; // uint32
+                constexpr std::ptrdiff_t m_blendOpBits = 0x0; // bitfield:30
+                constexpr std::ptrdiff_t m_bAlphaToCoverageEnable = 0x0; // bitfield:1
+                constexpr std::ptrdiff_t m_bIndependentBlendEnable = 0x0; // bitfield:1
+                constexpr std::ptrdiff_t m_blendOpAlphaBits = 0x18; // uint32
+                constexpr std::ptrdiff_t m_blendEnableBits = 0x1C; // uint8
+                constexpr std::ptrdiff_t m_srgbWriteEnableBits = 0x1D; // uint8
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 4
             namespace VsInputSignatureElement_t {
+                constexpr std::ptrdiff_t m_pName = 0x0; // char[64]
+                constexpr std::ptrdiff_t m_pSemantic = 0x40; // char[64]
+                constexpr std::ptrdiff_t m_pD3DSemanticName = 0x80; // char[64]
+                constexpr std::ptrdiff_t m_nD3DSemanticIndex = 0xC0; // int32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 7
             namespace RsRasterizerStateDesc_t {
+                constexpr std::ptrdiff_t m_nFillMode = 0x0; // RsFillMode_t
+                constexpr std::ptrdiff_t m_nCullMode = 0x1; // RsCullMode_t
+                constexpr std::ptrdiff_t m_bDepthClipEnable = 0x2; // bool
+                constexpr std::ptrdiff_t m_bMultisampleEnable = 0x3; // bool
+                constexpr std::ptrdiff_t m_nDepthBias = 0x4; // int32
+                constexpr std::ptrdiff_t m_flDepthBiasClamp = 0x8; // float32
+                constexpr std::ptrdiff_t m_flSlopeScaledDepthBias = 0xC; // float32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 11
             namespace RsStencilStateDesc_t {
+                constexpr std::ptrdiff_t m_bStencilEnable = 0x0; // bitfield:1
+                constexpr std::ptrdiff_t m_frontStencilFailOp = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_frontStencilDepthFailOp = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_frontStencilPassOp = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_frontStencilFunc = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_backStencilFailOp = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_backStencilDepthFailOp = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_backStencilPassOp = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_backStencilFunc = 0x0; // bitfield:3
+                constexpr std::ptrdiff_t m_nStencilReadMask = 0x4; // uint8
+                constexpr std::ptrdiff_t m_nStencilWriteMask = 0x5; // uint8
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 2
             namespace VsInputSignature_t {
+                constexpr std::ptrdiff_t m_elems = 0x0; // CUtlVector<VsInputSignatureElement_t>
+                constexpr std::ptrdiff_t m_depth_elems = 0x18; // CUtlVector<VsInputSignatureElement_t>
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 6
             namespace RenderInputLayoutField_t {
+                constexpr std::ptrdiff_t m_pSemanticName = 0x0; // char[32]
+                constexpr std::ptrdiff_t m_nSemanticIndex = 0x20; // int8
+                constexpr std::ptrdiff_t m_nOffset = 0x28; // int16
+                constexpr std::ptrdiff_t m_nSlot = 0x2A; // int8
+                constexpr std::ptrdiff_t m_nSlotType = 0x2B; // RenderSlotType_t
+                constexpr std::ptrdiff_t m_szShaderSemantic = 0x2C; // char[32]
             }
         }
     }

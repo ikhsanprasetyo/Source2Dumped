@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-02 19:22:16.019179300 +07:00
+# 2026-04-29 12:46:53.186668100 +07:00
 
 class Schemas:
     # Module: scenesystem.dll
@@ -36,20 +36,38 @@ class Schemas:
             SCENEOBJECT_VIS_LOD = 0x4
             SCENEOBJECT_VIS_INSTANCING = 0x5
         class CSSDSMsg_ViewTarget:
-            pass
+            m_Name = 0x0 # CUtlString
+            m_TextureId = 0x8 # uint64
+            m_nWidth = 0x10 # int32
+            m_nHeight = 0x14 # int32
+            m_nRequestedWidth = 0x18 # int32
+            m_nRequestedHeight = 0x1C # int32
+            m_nNumMipLevels = 0x20 # int32
+            m_nDepth = 0x24 # int32
+            m_nMultisampleNumSamples = 0x28 # int32
+            m_nFormat = 0x2C # int32
         class SceneViewId_t:
-            pass
+            m_nViewId = 0x0 # uint64
+            m_nFrameCount = 0x8 # uint64
         class CSSDSEndFrameViewInfo:
-            pass
+            m_nViewId = 0x0 # uint64
+            m_ViewName = 0x8 # CUtlString
         class CSSDSMsg_PostLayer:
             pass
         class CSSDSMsg_LayerBase:
-            pass
+            m_viewId = 0x0 # SceneViewId_t
+            m_ViewName = 0x10 # CUtlString
+            m_nLayerId = 0x18 # uint64
+            m_LayerName = 0x20 # CUtlString
+            m_displayText = 0x28 # CUtlString
         class CSSDSMsg_PreLayer:
             pass
         class CSSDSMsg_ViewTargetList:
-            pass
+            m_viewId = 0x0 # SceneViewId_t
+            m_ViewName = 0x10 # CUtlString
+            m_Targets = 0x18 # CUtlVector<CSSDSMsg_ViewTarget>
         class CSSDSMsg_ViewRender:
-            pass
+            m_viewId = 0x0 # SceneViewId_t
+            m_ViewName = 0x10 # CUtlString
         class CSSDSMsg_EndFrame:
-            pass
+            m_Views = 0x0 # CUtlVector<CSSDSEndFrameViewInfo>

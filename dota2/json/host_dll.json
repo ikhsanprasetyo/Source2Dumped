@@ -2,7 +2,9 @@
   "host.dll": {
     "classes": {
       "CAnimScriptBase": {
-        "fields": {},
+        "fields": {
+          "m_bIsValid": 8
+        },
         "metadata": [],
         "parent": null
       }
