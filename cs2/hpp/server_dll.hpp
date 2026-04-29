@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-22 10:04:00.809257 +07:00
+// 2026-04-29 12:08:09.245303400 +07:00
 
 #pragma once
 
@@ -2578,11 +2578,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace CPulseCell_LerpCameraSettings {
                 constexpr std::ptrdiff_t m_flSeconds = 0x90; // float32
                 constexpr std::ptrdiff_t m_Start = 0x94; // PointCameraSettings_t
@@ -2955,8 +2950,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 2
-            // x2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
@@ -3440,6 +3433,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseModelEntity
             // Field count: 1
+            //
+            // Metadata:
+            // ePreserveUpAxis
             namespace CLightEntity {
                 constexpr std::ptrdiff_t m_CLightComponent = 0x768; // CLightComponent*
             }
@@ -5631,6 +5627,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ePreserveUpAxis
             namespace CFogController {
                 constexpr std::ptrdiff_t m_fog = 0x4A8; // fogparams_t
                 constexpr std::ptrdiff_t m_bUseAngles = 0x510; // bool
@@ -5896,6 +5893,9 @@ namespace source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 0
+            //
+            // Metadata:
+            // ePreserveUpAxis
             namespace CInfoTarget {
             }
             // Parent: CPlayerPawnComponent
@@ -6330,57 +6330,57 @@ namespace source2_dumper {
             // Field count: 52
             namespace CCSPlayer_MovementServices {
                 constexpr std::ptrdiff_t m_AnimationState = 0x2E0; // CCSPlayerAnimationState
-                constexpr std::ptrdiff_t m_vecLadderNormal = 0x3D0; // Vector
-                constexpr std::ptrdiff_t m_nLadderSurfacePropIndex = 0x3DC; // int32
-                constexpr std::ptrdiff_t m_bDucked = 0x3E0; // bool
-                constexpr std::ptrdiff_t m_flDuckAmount = 0x3E4; // float32
-                constexpr std::ptrdiff_t m_flDuckSpeed = 0x3E8; // float32
-                constexpr std::ptrdiff_t m_bDuckOverride = 0x3EC; // bool
-                constexpr std::ptrdiff_t m_bDesiresDuck = 0x3ED; // bool
-                constexpr std::ptrdiff_t m_bDucking = 0x3EE; // bool
-                constexpr std::ptrdiff_t m_flDuckRootOffset = 0x3F0; // float32
-                constexpr std::ptrdiff_t m_flDuckViewOffset = 0x3F4; // float32
-                constexpr std::ptrdiff_t m_flLastDuckTime = 0x3F8; // float32
-                constexpr std::ptrdiff_t m_flBombPlantViewOffset = 0x3FC; // float32
-                constexpr std::ptrdiff_t m_vecLastPositionAtFullCrouchSpeed = 0x408; // Vector2D
-                constexpr std::ptrdiff_t m_duckUntilOnGround = 0x410; // bool
-                constexpr std::ptrdiff_t m_bHasWalkMovedSinceLastJump = 0x411; // bool
-                constexpr std::ptrdiff_t m_bInStuckTest = 0x412; // bool
-                constexpr std::ptrdiff_t m_nTraceCount = 0x620; // int32
-                constexpr std::ptrdiff_t m_StuckLast = 0x624; // int32
-                constexpr std::ptrdiff_t m_bSpeedCropped = 0x628; // bool
-                constexpr std::ptrdiff_t m_nOldWaterLevel = 0x62C; // int32
-                constexpr std::ptrdiff_t m_flWaterEntryTime = 0x630; // float32
-                constexpr std::ptrdiff_t m_vecForward = 0x634; // Vector
-                constexpr std::ptrdiff_t m_vecLeft = 0x640; // Vector
-                constexpr std::ptrdiff_t m_vecUp = 0x64C; // Vector
-                constexpr std::ptrdiff_t m_nGameCodeHasMovedPlayerAfterCommand = 0x658; // int32
-                constexpr std::ptrdiff_t m_bMadeFootstepNoise = 0x65C; // bool
-                constexpr std::ptrdiff_t m_iFootsteps = 0x660; // int32
-                constexpr std::ptrdiff_t m_fStashGrenadeParameterWhen = 0x664; // GameTime_t
-                constexpr std::ptrdiff_t m_nButtonDownMaskPrev = 0x668; // uint64
-                constexpr std::ptrdiff_t m_bUseFrictionStashedSpeed = 0x670; // bool
-                constexpr std::ptrdiff_t m_flUseFrictionStashedSpeedUntilFrac = 0x674; // float32
-                constexpr std::ptrdiff_t m_flFrictionStashedSpeed = 0x678; // float32
-                constexpr std::ptrdiff_t m_flStamina = 0x67C; // float32
-                constexpr std::ptrdiff_t m_flHeightAtJumpStart = 0x680; // float32
-                constexpr std::ptrdiff_t m_flMaxJumpHeightThisJump = 0x684; // float32
-                constexpr std::ptrdiff_t m_flMaxJumpHeightLastJump = 0x688; // float32
-                constexpr std::ptrdiff_t m_flStaminaAtJumpStart = 0x68C; // float32
-                constexpr std::ptrdiff_t m_flVelMulAtJumpStart = 0x690; // float32
-                constexpr std::ptrdiff_t m_flAccumulatedJumpError = 0x694; // float32
-                constexpr std::ptrdiff_t m_LegacyJump = 0x698; // CCSPlayerLegacyJump
-                constexpr std::ptrdiff_t m_ModernJump = 0x6B0; // CCSPlayerModernJump
-                constexpr std::ptrdiff_t m_nLastJumpTick = 0x6E8; // GameTick_t
-                constexpr std::ptrdiff_t m_flLastJumpFrac = 0x6EC; // float32
-                constexpr std::ptrdiff_t m_flLastJumpVelocityZ = 0x6F0; // float32
-                constexpr std::ptrdiff_t m_bJumpApexPending = 0x6F4; // bool
-                constexpr std::ptrdiff_t m_flTicksSinceLastSurfingDetected = 0x6F8; // float32
-                constexpr std::ptrdiff_t m_bWasSurfing = 0x6FC; // bool
-                constexpr std::ptrdiff_t m_vecWalkWishVel = 0x78C; // Vector2D
-                constexpr std::ptrdiff_t m_gtLastTimeOnStaticWorldGround = 0xFB8; // GameTime_t
-                constexpr std::ptrdiff_t m_gtLastTimeInAir = 0xFBC; // GameTime_t
-                constexpr std::ptrdiff_t m_bHasEverProcessedCommand = 0xFC0; // bool
+                constexpr std::ptrdiff_t m_vecLadderNormal = 0x3C0; // Vector
+                constexpr std::ptrdiff_t m_nLadderSurfacePropIndex = 0x3CC; // int32
+                constexpr std::ptrdiff_t m_bDucked = 0x3D0; // bool
+                constexpr std::ptrdiff_t m_flDuckAmount = 0x3D4; // float32
+                constexpr std::ptrdiff_t m_flDuckSpeed = 0x3D8; // float32
+                constexpr std::ptrdiff_t m_bDuckOverride = 0x3DC; // bool
+                constexpr std::ptrdiff_t m_bDesiresDuck = 0x3DD; // bool
+                constexpr std::ptrdiff_t m_bDucking = 0x3DE; // bool
+                constexpr std::ptrdiff_t m_flDuckRootOffset = 0x3E0; // float32
+                constexpr std::ptrdiff_t m_flDuckViewOffset = 0x3E4; // float32
+                constexpr std::ptrdiff_t m_flLastDuckTime = 0x3E8; // float32
+                constexpr std::ptrdiff_t m_flBombPlantViewOffset = 0x3EC; // float32
+                constexpr std::ptrdiff_t m_vecLastPositionAtFullCrouchSpeed = 0x3F8; // Vector2D
+                constexpr std::ptrdiff_t m_duckUntilOnGround = 0x400; // bool
+                constexpr std::ptrdiff_t m_bHasWalkMovedSinceLastJump = 0x401; // bool
+                constexpr std::ptrdiff_t m_bInStuckTest = 0x402; // bool
+                constexpr std::ptrdiff_t m_nTraceCount = 0x610; // int32
+                constexpr std::ptrdiff_t m_StuckLast = 0x614; // int32
+                constexpr std::ptrdiff_t m_bSpeedCropped = 0x618; // bool
+                constexpr std::ptrdiff_t m_nOldWaterLevel = 0x61C; // int32
+                constexpr std::ptrdiff_t m_flWaterEntryTime = 0x620; // float32
+                constexpr std::ptrdiff_t m_vecForward = 0x624; // Vector
+                constexpr std::ptrdiff_t m_vecLeft = 0x630; // Vector
+                constexpr std::ptrdiff_t m_vecUp = 0x63C; // Vector
+                constexpr std::ptrdiff_t m_nGameCodeHasMovedPlayerAfterCommand = 0x648; // int32
+                constexpr std::ptrdiff_t m_bMadeFootstepNoise = 0x64C; // bool
+                constexpr std::ptrdiff_t m_iFootsteps = 0x650; // int32
+                constexpr std::ptrdiff_t m_fStashGrenadeParameterWhen = 0x654; // GameTime_t
+                constexpr std::ptrdiff_t m_nButtonDownMaskPrev = 0x658; // uint64
+                constexpr std::ptrdiff_t m_bUseFrictionStashedSpeed = 0x660; // bool
+                constexpr std::ptrdiff_t m_flUseFrictionStashedSpeedUntilFrac = 0x664; // float32
+                constexpr std::ptrdiff_t m_flFrictionStashedSpeed = 0x668; // float32
+                constexpr std::ptrdiff_t m_flStamina = 0x66C; // float32
+                constexpr std::ptrdiff_t m_flHeightAtJumpStart = 0x670; // float32
+                constexpr std::ptrdiff_t m_flMaxJumpHeightThisJump = 0x674; // float32
+                constexpr std::ptrdiff_t m_flMaxJumpHeightLastJump = 0x678; // float32
+                constexpr std::ptrdiff_t m_flStaminaAtJumpStart = 0x67C; // float32
+                constexpr std::ptrdiff_t m_flVelMulAtJumpStart = 0x680; // float32
+                constexpr std::ptrdiff_t m_flAccumulatedJumpError = 0x684; // float32
+                constexpr std::ptrdiff_t m_LegacyJump = 0x688; // CCSPlayerLegacyJump
+                constexpr std::ptrdiff_t m_ModernJump = 0x6A0; // CCSPlayerModernJump
+                constexpr std::ptrdiff_t m_nLastJumpTick = 0x6D8; // GameTick_t
+                constexpr std::ptrdiff_t m_flLastJumpFrac = 0x6DC; // float32
+                constexpr std::ptrdiff_t m_flLastJumpVelocityZ = 0x6E0; // float32
+                constexpr std::ptrdiff_t m_bJumpApexPending = 0x6E4; // bool
+                constexpr std::ptrdiff_t m_flTicksSinceLastSurfingDetected = 0x6E8; // float32
+                constexpr std::ptrdiff_t m_bWasSurfing = 0x6EC; // bool
+                constexpr std::ptrdiff_t m_vecWalkWishVel = 0x77C; // Vector2D
+                constexpr std::ptrdiff_t m_gtLastTimeOnStaticWorldGround = 0xFA8; // GameTime_t
+                constexpr std::ptrdiff_t m_gtLastTimeInAir = 0xFAC; // GameTime_t
+                constexpr std::ptrdiff_t m_bHasEverProcessedCommand = 0xFB0; // bool
             }
             // Parent: None
             // Field count: 5
@@ -6708,7 +6708,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_Velocity = 0x4C8; // CEntityOutputTemplate<float32>
             }
             // Parent: None
-            // Field count: 29
+            // Field count: 28
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -6722,26 +6722,25 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flPreviousMoveSpeedHorizontal = 0x618; // CAnimGraph2ParamOptionalRef<float32>
                 constexpr std::ptrdiff_t m_flCrouchAmount = 0x630; // CAnimGraph2ParamOptionalRef<float32>
                 constexpr std::ptrdiff_t m_bIsWalking = 0x648; // CAnimGraph2ParamOptionalRef<bool>
-                constexpr std::ptrdiff_t m_bIsStutterStep = 0x660; // CAnimGraph2ParamOptionalRef<bool>
-                constexpr std::ptrdiff_t m_flWeaponDropAmount = 0x678; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_groundAction = 0x690; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-                constexpr std::ptrdiff_t m_groundActionDirectionID = 0x6A8; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-                constexpr std::ptrdiff_t m_flGroundTurnAngleOrVelocity = 0x6C0; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_flLadderCycle = 0x6D8; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_flLadderYaw = 0x6F0; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_flLadderYawBackwards = 0x708; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_airAction = 0x720; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-                constexpr std::ptrdiff_t m_flAirHeightAboveGround = 0x738; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_leftFootTarget = 0x750; // CAnimGraph2ParamOptionalRef<CNmTarget>
-                constexpr std::ptrdiff_t m_rightFootTarget = 0x768; // CAnimGraph2ParamOptionalRef<CNmTarget>
-                constexpr std::ptrdiff_t m_flFlashedAmount = 0x780; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_flAimPitchAngle = 0x798; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_flAimYawAngle = 0x7B0; // CAnimGraph2ParamOptionalRef<float32>
-                constexpr std::ptrdiff_t m_flinchHead = 0x7C8; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-                constexpr std::ptrdiff_t m_flinchHeadRestart = 0x7E0; // CAnimGraph2ParamOptionalRef<bool>
-                constexpr std::ptrdiff_t m_flinchBody = 0x7F8; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-                constexpr std::ptrdiff_t m_flinchBodyRestart = 0x810; // CAnimGraph2ParamOptionalRef<bool>
-                constexpr std::ptrdiff_t m_flinchIsOnFire = 0x828; // CAnimGraph2ParamOptionalRef<bool>
+                constexpr std::ptrdiff_t m_flWeaponDropAmount = 0x660; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_groundAction = 0x678; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+                constexpr std::ptrdiff_t m_groundActionDirectionID = 0x690; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+                constexpr std::ptrdiff_t m_flGroundTurnAngleOrVelocity = 0x6A8; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_flLadderCycle = 0x6C0; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_flLadderYaw = 0x6D8; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_flLadderYawBackwards = 0x6F0; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_airAction = 0x708; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+                constexpr std::ptrdiff_t m_flAirHeightAboveGround = 0x720; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_leftFootTarget = 0x738; // CAnimGraph2ParamOptionalRef<CNmTarget>
+                constexpr std::ptrdiff_t m_rightFootTarget = 0x750; // CAnimGraph2ParamOptionalRef<CNmTarget>
+                constexpr std::ptrdiff_t m_flFlashedAmount = 0x768; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_flAimPitchAngle = 0x780; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_flAimYawAngle = 0x798; // CAnimGraph2ParamOptionalRef<float32>
+                constexpr std::ptrdiff_t m_flinchHead = 0x7B0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+                constexpr std::ptrdiff_t m_flinchHeadRestart = 0x7C8; // CAnimGraph2ParamOptionalRef<bool>
+                constexpr std::ptrdiff_t m_flinchBody = 0x7E0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
+                constexpr std::ptrdiff_t m_flinchBodyRestart = 0x7F8; // CAnimGraph2ParamOptionalRef<bool>
+                constexpr std::ptrdiff_t m_flinchIsOnFire = 0x810; // CAnimGraph2ParamOptionalRef<bool>
             }
             // Parent: None
             // Field count: 3
@@ -6841,6 +6840,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ePreserveUpAxis
             namespace CPointOrient {
                 constexpr std::ptrdiff_t m_iszSpawnTargetName = 0x4A8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_hTarget = 0x4B0; // CHandle<CBaseEntity>
@@ -7255,11 +7255,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace CPulseCell_LerpCameraSettings__CursorState_t {
                 constexpr std::ptrdiff_t m_hCamera = 0x8; // CHandle<CPointCamera>
                 constexpr std::ptrdiff_t m_OverlaidStart = 0xC; // PointCameraSettings_t
@@ -7707,13 +7702,6 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 26
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace CPointCamera {
                 constexpr std::ptrdiff_t m_FOV = 0x4A8; // float32
                 constexpr std::ptrdiff_t m_Resolution = 0x4AC; // float32
@@ -9482,6 +9470,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 9
+            //
+            // Metadata:
+            // ePreserveUpAxis
             namespace CEnvWindVolume {
                 constexpr std::ptrdiff_t m_bActive = 0x4A8; // bool
                 constexpr std::ptrdiff_t m_vBoxMins = 0x4AC; // Vector
@@ -10455,7 +10446,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 0
             namespace CPulseCell_Outflow_PlaySceneBase__CursorState_t {
                 constexpr std::ptrdiff_t m_sceneInstance = 0x0; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_mainActor = 0x4; // CHandle<CBaseEntity>
@@ -10472,7 +10462,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_DependentObservableBlackboardReferences = 0x60; // CUtlVector<PulseRuntimeBlackboardReferenceIndex_t>
             }
             // Parent: CPointEntity
-            // Field count: 14
+            // Field count: 15
             namespace CMapInfo {
                 constexpr std::ptrdiff_t m_iBuyingStatus = 0x4A8; // int32
                 constexpr std::ptrdiff_t m_flBombRadius = 0x4AC; // float32
@@ -10483,6 +10473,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_iHostageCount = 0x4BC; // int32
                 constexpr std::ptrdiff_t m_bFadePlayerVisibilityFarZ = 0x4C0; // bool
                 constexpr std::ptrdiff_t m_bRainTraceToSkyEnabled = 0x4C1; // bool
+                constexpr std::ptrdiff_t m_bGPUCullSkybox = 0x4C2; // bool
                 constexpr std::ptrdiff_t m_flEnvRainStrength = 0x4C4; // float32
                 constexpr std::ptrdiff_t m_flEnvPuddleRippleStrength = 0x4C8; // float32
                 constexpr std::ptrdiff_t m_flEnvPuddleRippleDirection = 0x4CC; // float32
@@ -10528,6 +10519,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // )
+            // )
             // MGetKV3ClassDefaults
             // MPropertyEditContextOverrideValue
             // MGetKV3ClassDefaults
@@ -10981,11 +10974,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace CInfoParticleTarget {
             }
             // Parent: CBaseEntity
@@ -11447,26 +11435,18 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MDebugSnapshotDataSummaryFn
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertySuppressExpr
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyFriendlyName
+            // MVDataOverlayType
+            // MVDataAssociatedFile
+            // MPropertyStartGroup
             // MPropertyDescription
             namespace AI_BaseNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t npc_state = 0x8; // CGlobalSymbol
@@ -11670,7 +11650,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Un
             namespace CDecalInstance {
                 constexpr std::ptrdiff_t m_sDecalGroup = 0x0; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_hMaterial = 0x8; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -11848,23 +11827,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MDebugSnapshotDataSummaryFn
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyDescription
             namespace DebugDrawBoneTransforms_t {
                 constexpr std::ptrdiff_t vecBones = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
@@ -11984,27 +11952,17 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MDebugSnapshotDataSummaryFn
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertySuppressExpr
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // MVDataOverlayType
+            // MVDataAssociatedFile
             namespace CBaseAnimGraphDestructibleParts_GraphController {
             }
             // Parent: None
@@ -12505,16 +12463,16 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyCustomEditor
-            // MPropertyCustomEditor
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyStartGroup
-            // MGetKV3ClassDefaults
-            // MPropertySuppressBaseClassField
-            // MPropertySuppressBaseClassField
+            // MPropertyStartGroup
+            // MPropertyStartGroup
+            // MPropertyStartGroup
+            // MPropertyStartGroup
+            // MPropertyStartGroup
+            // MPropertyStartGroup
             namespace CFiringModeFloat {
                 constexpr std::ptrdiff_t m_flValues = 0x0; // float32[2]
             }
@@ -12595,7 +12553,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ClientJob_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty
             // ClientJob_EMsgGCCStrike15_v2_MatchEndRewardDropsNotification
             namespace GameAmmoTypeInfo_t {
                 constexpr std::ptrdiff_t m_nBuySize = 0x38; // int32
@@ -13228,7 +13185,7 @@ namespace source2_dumper {
             namespace IRagdoll {
             }
             // Parent: None
-            // Field count: 18
+            // Field count: 16
             namespace CCSPlayerAnimationState {
                 constexpr std::ptrdiff_t m_currentMoveType = 0x18; // CCSPlayerAnimationState::MoveType_t
                 constexpr std::ptrdiff_t m_groundMoveState = 0x19; // CCSPlayerAnimationState::GroundMoveState_t
@@ -13238,16 +13195,14 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bWasStationaryLastUpdate = 0x1D; // bool
                 constexpr std::ptrdiff_t m_actionStartTick = 0x20; // GameTick_t
                 constexpr std::ptrdiff_t m_staticAimTimerStartTick = 0x24; // GameTick_t
-                constexpr std::ptrdiff_t m_stutterStepStartTick = 0x28; // GameTick_t
-                constexpr std::ptrdiff_t m_plantAndTurnStartTick = 0x2C; // GameTick_t
-                constexpr std::ptrdiff_t m_bIsStutterStep = 0x30; // bool
-                constexpr std::ptrdiff_t m_flTurnOnSpotAngle = 0x34; // float32
-                constexpr std::ptrdiff_t m_flPreviousAimYaw = 0x38; // float32
-                constexpr std::ptrdiff_t m_flPreviousHorizontalSpeed = 0x3C; // float32
-                constexpr std::ptrdiff_t m_flFootIKOffsetLeft = 0x40; // float32
-                constexpr std::ptrdiff_t m_flFootIKOffsetRight = 0x44; // float32
-                constexpr std::ptrdiff_t m_flWeaponDropPercentageDueToMovement = 0x48; // float32
-                constexpr std::ptrdiff_t m_flWeaponDropSmoothDampVelocity = 0x4C; // float32
+                constexpr std::ptrdiff_t m_plantAndTurnStartTick = 0x28; // GameTick_t
+                constexpr std::ptrdiff_t m_flTurnOnSpotAngle = 0x2C; // float32
+                constexpr std::ptrdiff_t m_flPreviousAimYaw = 0x30; // float32
+                constexpr std::ptrdiff_t m_flPreviousHorizontalSpeed = 0x34; // float32
+                constexpr std::ptrdiff_t m_flFootIKOffsetLeft = 0x38; // float32
+                constexpr std::ptrdiff_t m_flFootIKOffsetRight = 0x3C; // float32
+                constexpr std::ptrdiff_t m_flWeaponDropPercentageDueToMovement = 0x40; // float32
+                constexpr std::ptrdiff_t m_flWeaponDropSmoothDampVelocity = 0x44; // float32
             }
             // Parent: None
             // Field count: 6
@@ -13265,28 +13220,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // TEXT
-            // ENTITY
-            // COUNT
-            // TACTICAL_SEARCH
-            // AI_SCHEDULE
-            // AI_TASK
-            // AI_EVENT
-            // AI_PATHFINDING
-            // END_SIM_HISTORY_TYPES
-            // COMBINED
-            // MATCH
-            // HIERARCHY
-            // COUNT
-            // ANY
-            // COUNT
-            // MPropertyDescription
             // MPropertyAttributeRange
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MSaveOpsForField
             namespace CAnimGraphControllerBase {
                 constexpr std::ptrdiff_t m_hExternalGraph = 0x10; // ExternalAnimGraphHandle_t
             }

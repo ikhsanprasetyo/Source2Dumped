@@ -1342,7 +1342,7 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
+            "name": "0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x",
             "type": "Unknown"
           }
         ],
@@ -4139,10 +4139,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "R",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4945,10 +4941,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "R",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5084,10 +5076,6 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
-            "type": "Unknown"
-          },
-          {
-            "name": "R",
             "type": "Unknown"
           }
         ],
@@ -8274,6 +8262,10 @@
             "type": "Unknown"
           },
           {
+            "name": "Pn",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           }
@@ -8572,6 +8564,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pn",
             "type": "Unknown"
           },
           {
@@ -32330,6 +32326,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -38522,6 +38522,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -39193,6 +39197,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -41651,6 +41659,14 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x",
+            "type": "Unknown"
+          },
+          {
+            "name": "0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -42793,6 +42809,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -45472,6 +45492,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -58610,6 +58634,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -58861,6 +58889,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x",
             "type": "Unknown"
           }
         ],
@@ -69043,7 +69075,7 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
+            "name": "0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x",
             "type": "Unknown"
           }
         ],
@@ -69370,7 +69402,7 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
+            "name": "0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x",
             "type": "Unknown"
           }
         ],
@@ -69841,7 +69873,7 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
+            "name": "0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x",
             "type": "Unknown"
           }
         ],
@@ -70210,6 +70242,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
             "type": "Unknown"
           }
         ],
@@ -71633,6 +71669,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -72175,6 +72215,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -72210,6 +72254,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
             "type": "Unknown"
           }
         ],
@@ -84185,6 +84233,14 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x",
+            "type": "Unknown"
+          },
+          {
+            "name": "0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x",
             "type": "Unknown"
           }
         ],

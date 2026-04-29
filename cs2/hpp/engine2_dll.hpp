@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-22 10:04:00.809257 +07:00
+// 2026-04-29 12:08:09.245303400 +07:00
 
 #pragma once
 
@@ -111,6 +111,20 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // moteplay.proto
+            // GAMECONTROLLER_USE_BUTTON_LABELS=1
+            // :
+            // orSupport=65535
+            // MESA_DISK_CACHE_SINGLE_FILE=1
+            // daasrianaa
+            // =G:\Android\Sdk
+            // KIP_CLEANUP=1
+            // BSP
+            // teseekerPC\OneDrive
+            // BSP
+            // LANG_PATH=C:\Program Files\LLVM\bin
             namespace GameTime_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // float32
             }
@@ -166,6 +180,20 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MD64
+            // 4
+            // K_LAYER_VALVE_steam_overlay_1=1
+            // Files
+            // YDOCS=C:\Users\Public\Documents
+            // rive=C:\Users\ByteseekerPC\OneDrive
+            // KIP_CLEANUP=1
+            // BSP
+            // teseekerPC\OneDrive
+            // LANG_PATH=C:\Program Files\LLVM\bin
+            // 1
+            // 1
             namespace GameTick_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }

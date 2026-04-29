@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-22 10:04:00.809257 +07:00
+// 2026-04-29 12:08:09.245303400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2795,7 +2795,6 @@ namespace Source2Dumper.Schemas {
         // PVEC_TYPE_CP_DELTA
         // PVEC_TYPE_CLOSEST_CAMERA_POSITION
         // PVEC_TYPE_COUNT
-        // deInfo
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MGetKV3ClassDefaults
@@ -3596,7 +3595,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -5335,7 +5333,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         public static class CAimConstraint {
             public const nint m_qAimOffset = 0x60; // Quaternion
@@ -5539,7 +5536,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0
         public static class CParticleVecInput {
             public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
@@ -6041,7 +6037,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
@@ -6831,7 +6826,6 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
-        // e
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL
@@ -7440,7 +7434,6 @@ namespace Source2Dumper.Schemas {
         // PVEC_TYPE_CP_DELTA
         // PVEC_TYPE_CLOSEST_CAMERA_POSITION
         // PVEC_TYPE_COUNT
-        // deInfo
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MGetKV3ClassDefaults
@@ -7961,7 +7954,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         public static class CParentConstraint {
         }
@@ -9135,7 +9127,6 @@ namespace Source2Dumper.Schemas {
         // PVEC_TYPE_CP_DELTA
         // PVEC_TYPE_CLOSEST_CAMERA_POSITION
         // PVEC_TYPE_COUNT
-        // deInfo
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MGetKV3ClassDefaults
@@ -10528,7 +10519,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         public static class CTwistConstraint {
             public const nint m_bInverse = 0x60; // bool
@@ -10847,7 +10837,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         public static class CTiltTwistConstraint {
             public const nint m_nTargetAxis = 0x60; // int32
@@ -11152,7 +11141,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         public static class CBoneConstraintPoseSpaceMorph {
             public const nint m_sBoneName = 0x20; // CUtlString
@@ -11455,7 +11443,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         public static class CPointConstraint {
         }
@@ -11610,7 +11597,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 479
         // p
         public static class COrientConstraint {
         }
@@ -13263,6 +13249,7 @@ namespace Source2Dumper.Schemas {
         // FLAG0_SHIFT_CONSTRAIN
         // FLAG0_SHIFT_BREAKABLE_FORCE
         // FLAG0_SHIFT_BREAKABLE_TORQUE
+        // c
         // JOINT_FLAGS_BODY1_FIXED
         // JOINT_FLAGS_USE_BLOCK_SOLVER
         // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13405,7 +13392,6 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
-        // e
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL

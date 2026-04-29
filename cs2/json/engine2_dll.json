@@ -419,14 +419,112 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MD64",
+            "type": "Unknown"
+          },
+          {
+            "name": "4",
+            "type": "Unknown"
+          },
+          {
+            "name": "K_LAYER_VALVE_steam_overlay_1=1",
+            "type": "Unknown"
+          },
+          {
+            "name": "Files",
+            "type": "Unknown"
+          },
+          {
+            "name": "YDOCS=C:\\Users\\Public\\Documents",
+            "type": "Unknown"
+          },
+          {
+            "name": "rive=C:\\Users\\ByteseekerPC\\OneDrive",
+            "type": "Unknown"
+          },
+          {
+            "name": "KIP_CLEANUP=1",
+            "type": "Unknown"
+          },
+          {
+            "name": "BSP",
+            "type": "Unknown"
+          },
+          {
+            "name": "teseekerPC\\OneDrive",
+            "type": "Unknown"
+          },
+          {
+            "name": "LANG_PATH=C:\\Program Files\\LLVM\\bin",
+            "type": "Unknown"
+          },
+          {
+            "name": "1",
+            "type": "Unknown"
+          },
+          {
+            "name": "1",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "GameTime_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "moteplay.proto",
+            "type": "Unknown"
+          },
+          {
+            "name": "GAMECONTROLLER_USE_BUTTON_LABELS=1",
+            "type": "Unknown"
+          },
+          {
+            "name": ":",
+            "type": "Unknown"
+          },
+          {
+            "name": "orSupport=65535",
+            "type": "Unknown"
+          },
+          {
+            "name": "MESA_DISK_CACHE_SINGLE_FILE=1",
+            "type": "Unknown"
+          },
+          {
+            "name": "daasrianaa",
+            "type": "Unknown"
+          },
+          {
+            "name": "=G:\\Android\\Sdk",
+            "type": "Unknown"
+          },
+          {
+            "name": "KIP_CLEANUP=1",
+            "type": "Unknown"
+          },
+          {
+            "name": "BSP",
+            "type": "Unknown"
+          },
+          {
+            "name": "teseekerPC\\OneDrive",
+            "type": "Unknown"
+          },
+          {
+            "name": "BSP",
+            "type": "Unknown"
+          },
+          {
+            "name": "LANG_PATH=C:\\Program Files\\LLVM\\bin",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       }
     },

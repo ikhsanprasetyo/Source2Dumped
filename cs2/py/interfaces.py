@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-22 10:04:00.809257 +07:00
+# 2026-04-29 12:08:09.245303400 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,14 +8,14 @@ class Interfaces:
         AnimationSystem_001 = 0x80A0B0
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x204D250
-        EmptyWorldService001_Client = 0x2010AB0
-        GameClientExports001 = 0x2049EF0
-        LegacyGameUI001 = 0x20655F0
-        Source2Client002 = 0x2323F10
-        Source2ClientConfig001 = 0x2295DB0
-        Source2ClientPrediction001 = 0x20546B0
-        Source2ClientUI001 = 0x2063BE0
+        ClientToolsInfo_001 = 0x204D150
+        EmptyWorldService001_Client = 0x2010A90
+        GameClientExports001 = 0x2049DF0
+        LegacyGameUI001 = 0x2065580
+        Source2Client002 = 0x2323E10
+        Source2ClientConfig001 = 0x2295D30
+        Source2ClientPrediction001 = 0x20545B0
+        Source2ClientUI001 = 0x2063AE0
     # Module: engine2.dll
     class Engine2Dll:
         BenchmarkService001 = 0x612950
@@ -100,7 +100,7 @@ class Interfaces:
         SerializedEntitiesVersion001 = 0x286F40
     # Module: panorama.dll
     class PanoramaDll:
-        PanoramaUIEngine001 = 0x505D30
+        PanoramaUIEngine001 = 0x506D30
     # Module: panorama_text_pango.dll
     class PanoramaTextPangoDll:
         PanoramaTextServices001 = 0x2B8A40
@@ -127,56 +127,56 @@ class Interfaces:
         SceneFileCache002 = 0xF5A78
     # Module: scenesystem.dll
     class ScenesystemDll:
-        RenderingPipelines_001 = 0x663B80
-        SceneSystem_002 = 0x8DB470
-        SceneUtils_001 = 0x664A90
+        RenderingPipelines_001 = 0x663BA0
+        SceneSystem_002 = 0x8DB490
+        SceneUtils_001 = 0x664AB0
     # Module: schemasystem.dll
     class SchemasystemDll:
         SchemaSystem_001 = 0x76800
     # Module: server.dll
     class ServerDll:
-        EmptyWorldService001_Server = 0x1BEECE0
-        EntitySubclassUtilsV001 = 0x1B9A340
-        NavGameTest001 = 0x1C9B2C0
-        ServerToolsInfo_001 = 0x1C482B8
-        Source2GameClients001 = 0x1C46D10
-        Source2GameDirector001 = 0x1DE07E0
-        Source2GameEntities001 = 0x1C479C0
-        Source2Server001 = 0x1C47810
-        Source2ServerConfig001 = 0x1EFE488
-        customnavsystem001 = 0x1B7B628
+        EmptyWorldService001_Server = 0x1BEED40
+        EntitySubclassUtilsV001 = 0x1B9A3C0
+        NavGameTest001 = 0x1C9B1C0
+        ServerToolsInfo_001 = 0x1C481B8
+        Source2GameClients001 = 0x1C46C10
+        Source2GameDirector001 = 0x1DE06E0
+        Source2GameEntities001 = 0x1C478C0
+        Source2Server001 = 0x1C47710
+        Source2ServerConfig001 = 0x1EFE378
+        customnavsystem001 = 0x1B7B6A8
     # Module: soundsystem.dll
     class SoundsystemDll:
-        SoundOpSystem001 = 0x5129B0
-        SoundOpSystemEdit001 = 0x512870
+        SoundOpSystem001 = 0x5129C0
+        SoundOpSystemEdit001 = 0x512880
         SoundSystem001 = 0x512360
-        VMixEditTool001 = 0x594879F
+        VMixEditTool001 = 0x59487BF
     # Module: steamaudio.dll
     class SteamaudioDll:
         SteamAudio001 = 0x25E620
     # Module: steamclient64.dll
     class Steamclient64Dll:
-        IVALIDATE001 = 0x16998B8
-        SteamClient006 = 0x1696D50
-        SteamClient007 = 0x1696D58
-        SteamClient008 = 0x1696D60
-        SteamClient009 = 0x1696D68
-        SteamClient010 = 0x1696D70
-        SteamClient011 = 0x1696D78
-        SteamClient012 = 0x1696D80
-        SteamClient013 = 0x1696D88
-        SteamClient014 = 0x1696D90
-        SteamClient015 = 0x1696D98
-        SteamClient016 = 0x1696DA0
-        SteamClient017 = 0x1696DA8
-        SteamClient018 = 0x1696DB0
-        SteamClient019 = 0x1696DB8
-        SteamClient020 = 0x1696DC0
-        SteamClient021 = 0x1696DC8
-        SteamClient022 = 0x1696DD0
-        SteamClient023 = 0x1696DD8
-        p2pvoice002 = 0x14E5DEF
-        p2pvoicesingleton002 = 0x16720F0
+        IVALIDATE001 = 0x16BD098
+        SteamClient006 = 0x16BA500
+        SteamClient007 = 0x16BA508
+        SteamClient008 = 0x16BA510
+        SteamClient009 = 0x16BA518
+        SteamClient010 = 0x16BA520
+        SteamClient011 = 0x16BA528
+        SteamClient012 = 0x16BA530
+        SteamClient013 = 0x16BA538
+        SteamClient014 = 0x16BA540
+        SteamClient015 = 0x16BA548
+        SteamClient016 = 0x16BA550
+        SteamClient017 = 0x16BA558
+        SteamClient018 = 0x16BA560
+        SteamClient019 = 0x16BA568
+        SteamClient020 = 0x16BA570
+        SteamClient021 = 0x16BA578
+        SteamClient022 = 0x16BA580
+        SteamClient023 = 0x16BA588
+        p2pvoice002 = 0x14E627F
+        p2pvoicesingleton002 = 0x16950F0
     # Module: tier0.dll
     class Tier0Dll:
         TestScriptMgr001 = 0x39E6F0

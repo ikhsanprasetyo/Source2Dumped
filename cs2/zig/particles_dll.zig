@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-22 10:04:00.809257 +07:00
+// 2026-04-29 12:08:09.245303400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -704,6 +704,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pn
             // MPropertyDescription
             pub const CPulseCell_PickBestOutflowSelector = struct {
                 pub const m_nCheckType: usize = 0x48; // PulseBestOutflowRules_t
@@ -1663,6 +1664,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pn
             // MPropertyDescription
             pub const CPulseCell_LimitCount = struct {
                 pub const m_nLimitCount: usize = 0x48; // int32
@@ -2064,7 +2066,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // R
             pub const CParticleFunctionPreEmission = struct {
                 pub const m_bRunOnce: usize = 0x1D8; // bool
             };
@@ -2229,6 +2230,7 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // T
             pub const C_OP_RenderRopes = struct {
                 pub const m_bEnableFadingAndClamping: usize = 0x2DF0; // bool
                 pub const m_flMinSize: usize = 0x2DF4; // float32
@@ -7009,7 +7011,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // R
             pub const CParticleFunctionForce = struct {
             };
             // Parent: None
@@ -8134,7 +8135,7 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // !
+            // 0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x
             pub const C_OP_RenderAsModels = struct {
                 pub const m_ModelList: usize = 0x228; // CUtlVector<ModelReference_t>
                 pub const m_flModelScale: usize = 0x244; // float32
@@ -8452,7 +8453,7 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // !
+            // 0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x
             pub const CBaseTrailRenderer = struct {
                 pub const m_nOrientationType: usize = 0x2DF0; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2DF4; // int32
@@ -9949,7 +9950,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // R
             pub const CParticleFunctionOperator = struct {
             };
             // Parent: None
@@ -12671,6 +12671,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
             pub const C_OP_LocalAccelerationForce = struct {
                 pub const m_nCP: usize = 0x1E8; // int32
                 pub const m_nScaleCP: usize = 0x1EC; // int32
@@ -13792,6 +13793,7 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // T
             pub const C_OP_RenderPoints = struct {
                 pub const m_hMaterial: usize = 0x228; // CStrongHandle<InfoForResourceTypeIMaterial2>
             };
@@ -20091,6 +20093,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
             pub const C_OP_IntraParticleForce = struct {
                 pub const m_flAttractionMinDistance: usize = 0x1E8; // float32
                 pub const m_flAttractionMaxDistance: usize = 0x1EC; // float32
@@ -22344,6 +22347,7 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x
             pub const C_OP_RemapCPtoCP = struct {
                 pub const m_nInputControlPoint: usize = 0x1E0; // int32
                 pub const m_nOutputControlPoint: usize = 0x1E4; // int32
@@ -22654,6 +22658,7 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // T
             pub const C_OP_RenderScreenShake = struct {
                 pub const m_flDurationScale: usize = 0x228; // float32
                 pub const m_flRadiusScale: usize = 0x22C; // float32
@@ -22684,6 +22689,7 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x
             pub const C_OP_RemapBoundingVolumetoCP = struct {
                 pub const m_nOutControlPointNumber: usize = 0x1E0; // int32
                 pub const m_flInputMin: usize = 0x1E4; // float32
@@ -22700,6 +22706,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // 0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x
+            // 0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x
             pub const C_OP_HSVShiftToCP = struct {
                 pub const m_nColorCP: usize = 0x1E0; // int32
                 pub const m_nColorGemEnableCP: usize = 0x1E4; // int32
@@ -24618,6 +24626,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x
+            // 0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x
             pub const C_OP_SetGravityToCP = struct {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -24973,7 +24983,7 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // !
+            // 0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x
             pub const C_OP_RenderFlattenGrass = struct {
                 pub const m_flFlattenStrength: usize = 0x228; // float32
                 pub const m_nStrengthFieldOverride: usize = 0x22C; // ParticleAttributeIndex_t
@@ -25033,6 +25043,7 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // T
             pub const C_OP_RenderLightBeam = struct {
                 pub const m_nMaxAllowed: usize = 0x228; // uint16
                 pub const m_vColorBlend: usize = 0x230; // CParticleCollectionVecInput
@@ -25084,6 +25095,7 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 0xb315,0x044f/0xd007,0x046d/0xcad1,0x054c/0x0268,0x056e/0x200f,0x056e/0x2013,0x05b8/0x1004,0x05b8/0x1006,0x06a3/0xf622,0x0738/0x
             pub const C_OP_EnableChildrenFromParentParticleCount = struct {
                 pub const m_nChildGroupID: usize = 0x1E0; // int32
                 pub const m_nFirstChild: usize = 0x1E4; // int32
@@ -25829,7 +25841,7 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // !
+            // 0x6100,0x2dc8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x
             pub const C_OP_RenderClientPhysicsImpulse = struct {
                 pub const m_flRadius: usize = 0x228; // CPerParticleFloatInput
                 pub const m_flMagnitude: usize = 0x398; // CPerParticleFloatInput
@@ -26740,6 +26752,7 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // T
             pub const C_OP_ClientPhysics = struct {
                 pub const m_strPhysicsType: usize = 0x228; // CUtlString
                 pub const m_bStartAsleep: usize = 0x230; // bool
@@ -26976,6 +26989,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
             pub const C_OP_ExternalWindForce = struct {
                 pub const m_vecSamplePosition: usize = 0x1E8; // CPerParticleVecInput
                 pub const m_vecScale: usize = 0x8A0; // CPerParticleVecInput
