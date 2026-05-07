@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:08:09.245303400 +07:00
+// 2026-05-07 15:01:15.746784 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: rendersystemdx11.dll
@@ -142,6 +142,7 @@ namespace Source2Dumper.Schemas {
         // RENDER_BUFFER_IMMOVABLE_ALLOCATION
         // RENDER_SLOT_INVALID
         // RENDER_SLOT_PER_INSTANCE
+        // ================================================================<<=>?@AAFVHB?===================================================
         public static class SheetSequenceIntegerId_t {
             public const nint m_Value = 0x0; // uint32
         }

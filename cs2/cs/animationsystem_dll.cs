@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:08:09.245303400 +07:00
+// 2026-05-07 15:01:15.746784 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -5333,6 +5333,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CAimConstraint {
             public const nint m_qAimOffset = 0x60; // Quaternion
@@ -6037,6 +6039,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
@@ -6453,6 +6457,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // =================================================================<<=>?@AAFVHB?==================================================
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -7954,6 +7959,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CParentConstraint {
         }
@@ -8104,6 +8111,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // =================================================================<<=>?@AAFVHB?==================================================
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -9474,6 +9482,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ==========================================================<<=>?@AAFVHB?=========================================================
         // MPropertyFriendlyName
         public static class CFutureVelocityMetricEvaluator {
             public const nint m_flDistance = 0x50; // float32
@@ -9730,6 +9739,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ================================================================<<=>?@AAFVHB?===================================================
+        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         public static class CMorphConstraint {
             public const nint m_sTargetMorph = 0x60; // CUtlString
@@ -10519,6 +10530,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CTwistConstraint {
             public const nint m_bInverse = 0x60; // bool
@@ -10714,6 +10727,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ================================================================<<=>?@AAFVHB?===================================================
+        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
@@ -10837,6 +10852,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CTiltTwistConstraint {
             public const nint m_nTargetAxis = 0x60; // int32
@@ -11094,6 +11111,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ================================================================<<=>?@AAFVHB?===================================================
+        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
@@ -11141,6 +11160,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CBoneConstraintPoseSpaceMorph {
             public const nint m_sBoneName = 0x20; // CUtlString
@@ -11419,6 +11440,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ================================================================<<=>?@AAFVHB?===================================================
+        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
@@ -11443,6 +11466,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CPointConstraint {
         }
@@ -11597,6 +11622,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ===============================================================<<=>?@AAFVHB?====================================================
+        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class COrientConstraint {
         }
@@ -12802,6 +12829,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ================================================================<<=>?@AAFVHB?===================================================
+        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE

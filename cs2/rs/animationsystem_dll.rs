@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:08:09.245303400 +07:00
+// 2026-05-07 15:01:15.746784 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -5484,6 +5484,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub mod CAimConstraint {
                 pub const m_qAimOffset: usize = 0x60; // Quaternion
@@ -6188,6 +6190,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
@@ -6604,6 +6608,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // =================================================================<<=>?@AAFVHB?==================================================
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -8105,6 +8110,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub mod CParentConstraint {
             }
@@ -8255,6 +8262,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // =================================================================<<=>?@AAFVHB?==================================================
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9625,6 +9633,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ==========================================================<<=>?@AAFVHB?=========================================================
             // MPropertyFriendlyName
             pub mod CFutureVelocityMetricEvaluator {
                 pub const m_flDistance: usize = 0x50; // float32
@@ -9881,6 +9890,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             pub mod CMorphConstraint {
                 pub const m_sTargetMorph: usize = 0x60; // CUtlString
@@ -10670,6 +10681,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub mod CTwistConstraint {
                 pub const m_bInverse: usize = 0x60; // bool
@@ -10865,6 +10878,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
@@ -10988,6 +11003,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub mod CTiltTwistConstraint {
                 pub const m_nTargetAxis: usize = 0x60; // int32
@@ -11245,6 +11262,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
@@ -11292,6 +11311,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub mod CBoneConstraintPoseSpaceMorph {
                 pub const m_sBoneName: usize = 0x20; // CUtlString
@@ -11570,6 +11591,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
@@ -11594,6 +11617,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub mod CPointConstraint {
             }
@@ -11748,6 +11773,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub mod COrientConstraint {
             }
@@ -12953,6 +12980,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE

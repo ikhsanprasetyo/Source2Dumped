@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:08:09.245303400 +07:00
+// 2026-05-07 15:01:15.746784 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -5334,6 +5334,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub const CAimConstraint = struct {
                 pub const m_qAimOffset: usize = 0x60; // Quaternion
@@ -6038,6 +6040,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
@@ -6454,6 +6458,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // =================================================================<<=>?@AAFVHB?==================================================
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7955,6 +7960,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub const CParentConstraint = struct {
             };
@@ -8105,6 +8112,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // =================================================================<<=>?@AAFVHB?==================================================
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9475,6 +9483,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ==========================================================<<=>?@AAFVHB?=========================================================
             // MPropertyFriendlyName
             pub const CFutureVelocityMetricEvaluator = struct {
                 pub const m_flDistance: usize = 0x50; // float32
@@ -9731,6 +9740,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             pub const CMorphConstraint = struct {
                 pub const m_sTargetMorph: usize = 0x60; // CUtlString
@@ -10520,6 +10531,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub const CTwistConstraint = struct {
                 pub const m_bInverse: usize = 0x60; // bool
@@ -10715,6 +10728,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
@@ -10838,6 +10853,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub const CTiltTwistConstraint = struct {
                 pub const m_nTargetAxis: usize = 0x60; // int32
@@ -11095,6 +11112,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
@@ -11142,6 +11161,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub const CBoneConstraintPoseSpaceMorph = struct {
                 pub const m_sBoneName: usize = 0x20; // CUtlString
@@ -11420,6 +11441,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
@@ -11444,6 +11467,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub const CPointConstraint = struct {
             };
@@ -11598,6 +11623,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ===============================================================<<=>?@AAFVHB?====================================================
+            // ==============================================================<<=>?@AAFVHB?=====================================================
             // p
             pub const COrientConstraint = struct {
             };
@@ -12803,6 +12830,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ================================================================<<=>?@AAFVHB?===================================================
+            // ================================================================<<=>?@AAFVHB?===================================================
             // MPropertyCustomFGDType
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
