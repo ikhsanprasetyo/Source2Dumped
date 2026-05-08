@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 #pragma once
 
@@ -2562,7 +2562,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x
             namespace CPulseCell_Outflow_PlaySceneBase {
                 constexpr std::ptrdiff_t m_OnFinished = 0x48; // CPulse_ResumePoint
                 constexpr std::ptrdiff_t m_OnCanceled = 0x90; // CPulse_ResumePoint
@@ -2946,7 +2945,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // r
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
@@ -3938,7 +3936,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
             namespace PulseNodeDynamicOutflows_t__DynamicOutflow_t {
                 constexpr std::ptrdiff_t m_OutflowID = 0x0; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_Connection = 0x8; // CPulse_OutflowConnection
@@ -4965,6 +4962,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // ta\Local
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -6689,6 +6687,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ta\Local
             namespace CCS2PawnGraphController {
                 constexpr std::ptrdiff_t m_bIsDefusing = 0x588; // CAnimGraph2ParamOptionalRef<bool>
                 constexpr std::ptrdiff_t m_moveType = 0x5A0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -7386,6 +7385,7 @@ namespace source2_dumper {
             // FUNC_DOOR_SPAWN_OPEN
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
+            // l
             // expDirected
             // expUsePrecise
             // matWood
@@ -8876,6 +8876,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseModelEntity
             // Field count: 12
+            //
+            // Metadata:
+            // ta\Local
             namespace CEnvSky {
                 constexpr std::ptrdiff_t m_hSkyMaterial = 0x768; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 constexpr std::ptrdiff_t m_hSkyMaterialLightingOnly = 0x770; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -10438,7 +10441,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x
             namespace CPulseCell_Outflow_PlaySceneBase__CursorState_t {
                 constexpr std::ptrdiff_t m_sceneInstance = 0x0; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_mainActor = 0x4; // CHandle<CBaseEntity>
@@ -10512,8 +10514,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0
-            // ,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0
+            // )
+            // )
             // MGetKV3ClassDefaults
             // MPropertyEditContextOverrideValue
             // MGetKV3ClassDefaults
@@ -10633,7 +10635,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace CBasePlayerVData {
                 constexpr std::ptrdiff_t m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -11373,6 +11374,7 @@ namespace source2_dumper {
             // FUNC_DOOR_SPAWN_OPEN
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
+            // l
             // expDirected
             // expUsePrecise
             // matWood
@@ -11985,6 +11987,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ta\Local
+            // m
             namespace SceneEventId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -12815,7 +12819,6 @@ namespace source2_dumper {
             // VOTE_FAILED_REMATCH
             // VOTE_FAILED_CONTINUE
             // VOTE_FAILED_MAX
-            // o
             namespace ParticleIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -12941,7 +12944,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             namespace CNmSnapWeaponNode__CDefinition {
                 constexpr std::ptrdiff_t m_nFlashedAmountNodeIdx = 0x18; // int16
                 constexpr std::ptrdiff_t m_nWeaponCategoryNodeIdx = 0x1A; // int16
@@ -13015,7 +13017,6 @@ namespace source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MATCH
             // HIERARCHY
             // COUNT
@@ -13042,7 +13043,6 @@ namespace source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MATCH
             // HIERARCHY
             // COUNT

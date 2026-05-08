@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2702,7 +2702,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x
             pub mod CPulseCell_Outflow_PlaySceneBase {
                 pub const m_OnFinished: usize = 0x48; // CPulse_ResumePoint
                 pub const m_OnCanceled: usize = 0x90; // CPulse_ResumePoint
@@ -3086,7 +3085,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // r
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -4078,7 +4076,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
             pub mod PulseNodeDynamicOutflows_t__DynamicOutflow_t {
                 pub const m_OutflowID: usize = 0x0; // CGlobalSymbol
                 pub const m_Connection: usize = 0x8; // CPulse_OutflowConnection
@@ -5105,6 +5102,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // ta\Local
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -6829,6 +6827,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ta\Local
             pub mod CCS2PawnGraphController {
                 pub const m_bIsDefusing: usize = 0x588; // CAnimGraph2ParamOptionalRef<bool>
                 pub const m_moveType: usize = 0x5A0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -7526,6 +7525,7 @@ pub mod source2_dumper {
             // FUNC_DOOR_SPAWN_OPEN
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
+            // l
             // expDirected
             // expUsePrecise
             // matWood
@@ -9016,6 +9016,9 @@ pub mod source2_dumper {
             }
             // Parent: CBaseModelEntity
             // Field count: 12
+            //
+            // Metadata:
+            // ta\Local
             pub mod CEnvSky {
                 pub const m_hSkyMaterial: usize = 0x768; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 pub const m_hSkyMaterialLightingOnly: usize = 0x770; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -10578,7 +10581,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x
             pub mod CPulseCell_Outflow_PlaySceneBase__CursorState_t {
                 pub const m_sceneInstance: usize = 0x0; // CHandle<CBaseEntity>
                 pub const m_mainActor: usize = 0x4; // CHandle<CBaseEntity>
@@ -10652,8 +10654,8 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0
-            // ,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0
+            // )
+            // )
             // MGetKV3ClassDefaults
             // MPropertyEditContextOverrideValue
             // MGetKV3ClassDefaults
@@ -10773,7 +10775,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             pub mod CBasePlayerVData {
                 pub const m_sModelName: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -11513,6 +11514,7 @@ pub mod source2_dumper {
             // FUNC_DOOR_SPAWN_OPEN
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
+            // l
             // expDirected
             // expUsePrecise
             // matWood
@@ -12125,6 +12127,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ta\Local
+            // m
             pub mod SceneEventId_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -12955,7 +12959,6 @@ pub mod source2_dumper {
             // VOTE_FAILED_REMATCH
             // VOTE_FAILED_CONTINUE
             // VOTE_FAILED_MAX
-            // o
             pub mod ParticleIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -13081,7 +13084,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             pub mod CNmSnapWeaponNode__CDefinition {
                 pub const m_nFlashedAmountNodeIdx: usize = 0x18; // int16
                 pub const m_nWeaponCategoryNodeIdx: usize = 0x1A; // int16
@@ -13155,7 +13157,6 @@ pub mod source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MATCH
             // HIERARCHY
             // COUNT
@@ -13182,7 +13183,6 @@ pub mod source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MATCH
             // HIERARCHY
             // COUNT

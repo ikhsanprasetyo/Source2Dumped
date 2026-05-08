@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -524,7 +524,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeSuggestionName
             // MPropertyDescription
             // MPropertyDescription
-            // S
+            // M=
             // generic
             pub const C_PostProcessingVolume = struct {
                 pub const m_hPostSettings: usize = 0x1088; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -681,7 +681,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // r
             pub const CPrecipitationVData = struct {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -1579,7 +1578,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
             pub const PulseNodeDynamicOutflows_t__DynamicOutflow_t = struct {
                 pub const m_OutflowID: usize = 0x0; // CGlobalSymbol
                 pub const m_Connection: usize = 0x8; // CPulse_OutflowConnection
@@ -2296,6 +2294,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
+            // ta\Local
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3834,7 +3833,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             pub const C_DynamicProp = struct {
                 pub const m_bUseHitboxesForRenderBox: usize = 0x12D0; // bool
                 pub const m_bUseAnimGraph: usize = 0x12D1; // bool
@@ -4238,6 +4236,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // eNotifyWhenFinished
             // eNotifyTriggered
+            // ta\Local
+            // ta\Local
             pub const C_EnvCubemap = struct {
                 pub const m_Entity_hCubemapTexture: usize = 0x680; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Entity_bCustomCubemapTexture: usize = 0x688; // bool

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -703,7 +703,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Pnl
         // MPropertyDescription
         public static class CPulseCell_PickBestOutflowSelector {
             public const nint m_nCheckType = 0x48; // PulseBestOutflowRules_t
@@ -829,7 +828,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         public static class CPulseCell_BaseRequirement {
         }
         // Parent: None
@@ -881,9 +879,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // @VQ
-        // @XQ
-        // `YQ
         // MPropertyDescription
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentReturn
@@ -965,7 +960,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -986,7 +980,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Inflow_BaseEntrypoint {
@@ -1080,6 +1073,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -1109,6 +1103,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -1131,7 +1126,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1151,6 +1145,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -1241,7 +1236,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 0qS
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1284,7 +1278,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         public static class CPulseCell_Step_DebugLog {
         }
         // Parent: None
@@ -1297,6 +1290,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -1324,7 +1318,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         public static class PulseNodeDynamicOutflows_t {
             public const nint m_Outflows = 0x0; // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
         }
@@ -1344,6 +1337,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -1451,7 +1445,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1621,7 +1614,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         public static class CPulseCell_Value_RandomInt {
         }
         // Parent: None
@@ -1647,9 +1639,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // @VQ
-        // @XQ
-        // `YQ
         // MPropertyDescription
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentReturn
@@ -1678,7 +1667,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Pnl
         // MPropertyDescription
         public static class CPulseCell_LimitCount {
             public const nint m_nLimitCount = 0x48; // int32
@@ -1694,7 +1682,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         public static class CPulseCell_Step_CallExternalMethod {
             public const nint m_MethodName = 0x48; // PulseSymbol_t
             public const nint m_nBlackboardIndex = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
@@ -1744,7 +1731,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0qS
         public static class CPulseCell_Value_RandomFloat {
         }
         // Parent: None
@@ -1760,9 +1746,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyFriendlyName
-        // Pj(
-        //  K(
-        // 0U(
         public static class ParticleAttributeIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -1845,9 +1828,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
-        // `><
         public static class C_OP_Decay {
             public const nint m_bRopeDecay = 0x1D8; // bool
             public const nint m_bForcePreserveParticleOrder = 0x1D9; // bool
@@ -1897,7 +1877,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertyFriendlyName
-        // hcf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -1945,10 +1924,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // h-b
-        // ((b
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -2093,8 +2068,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // *
-        // $
         public static class CParticleFunctionPreEmission {
             public const nint m_bRunOnce = 0x1D8; // bool
         }
@@ -2196,26 +2169,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // hLb
-        // \Lb
-        // (Rb
-        // PMb
-        // xLb
-        // @Nb
-        // (Mb
         public static class C_OP_SpringToVectorConstraint {
             public const nint m_flRestLength = 0x1D8; // CPerParticleFloatInput
             public const nint m_flMinDistance = 0x348; // CPerParticleFloatInput
@@ -2272,6 +2232,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // T
         public static class C_OP_RenderRopes {
             public const nint m_bEnableFadingAndClamping = 0x2DF0; // bool
             public const nint m_flMinSize = 0x2DF4; // float32
@@ -2312,9 +2273,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // `11
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -2423,10 +2381,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // @lf
-        //  lf
-        // 8df
-        // (yf
         // UNUSED
         // F_NORMAL_MAP
         // F_TEXTURE_LAYERS
@@ -2472,8 +2426,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // 8yf
-        // p{f
         // MGetKV3ClassDefaults
         // MPropertyStartGroup
         // MPropertyFriendlyName
@@ -2591,9 +2543,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
-        // `><
         public static class C_OP_RemapCPVelocityToVector {
             public const nint m_nControlPoint = 0x1D8; // int32
             public const nint m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -2795,7 +2744,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -2874,9 +2822,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X`b
         // MPropertyFriendlyName
-        // `cb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -2932,13 +2878,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // P4b
-        // x+b
-        // l2b
-        // x.b
-        // X,b
-        // @(b
-        // X(b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -2965,7 +2904,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        //  /b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -3003,8 +2941,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3081,8 +3017,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
-        // P=0
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         public static class C_INIT_InitialVelocityNoise {
@@ -3185,9 +3119,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
-        // ((b
         // MGetKV3ClassDefaults
-        // Pbb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3269,8 +3201,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
-        // P=0
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -3364,9 +3294,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
-        // @z+
-        // hib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3379,16 +3306,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (gb
-        // @bb
-        // heb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `cb
-        // @fb
-        // xfb
-        // Pgb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3409,7 +3329,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x1007,0x0e6f/0x
         public static class C_OP_TwistAroundAxis {
             public const nint m_fForceAmount = 0x1E8; // float32
             public const nint m_TwistAxis = 0x1EC; // Vector
@@ -3473,8 +3392,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
         public static class C_OP_TeleportBeam {
             public const nint m_nCPPosition = 0x1D8; // int32
             public const nint m_nCPVelocity = 0x1DC; // int32
@@ -3494,9 +3411,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // xQb
-        // ((b
-        // PK@
         public static class C_OP_RemapExternalWindToCP {
             public const nint m_nCP = 0x1E0; // int32
             public const nint m_nCPOutput = 0x1E4; // int32
@@ -3882,10 +3796,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         //  
-        // ((b
-        // PU;
         public static class CSpinUpdateBase {
         }
         // Parent: None
@@ -4003,17 +3914,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
-        // p'3
-        // xLb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @(b
         // MPropertyFriendlyName
-        // `Q2
-        // @(b
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -4070,14 +3974,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Hnf
-        //  zf
-        // 0kf
-        // hkf
-        // xzf
         // MPropertyFriendlyName
-        // `uf
-        // `vf
         public static class C_OP_RenderTrails {
             public const nint m_bEnableFadingAndClamping = 0x30E8; // bool
             public const nint m_flStartFadeDot = 0x30EC; // float32
@@ -4186,8 +4083,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // pL:
-        // x+b
         public static class C_OP_DecayMaintainCount {
             public const nint m_nParticlesToMaintain = 0x1D8; // int32
             public const nint m_flDecayDelay = 0x1DC; // float32
@@ -4224,9 +4119,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X`b
         // MPropertyFriendlyName
-        // `cb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -4260,13 +4153,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 8gb
         // MPropertyFriendlyName
-        // 8jb
-        // heb
-        // 0m+
-        //  bb
-        // (fb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -4276,11 +4163,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h`b
-        // 8ib
-        // Pbb
-        // heb
-        // Pib
         public static class C_OP_ExternalGameImpulseForce {
             public const nint m_flForceScale = 0x1E8; // CPerParticleFloatInput
             public const nint m_bRopes = 0x358; // bool
@@ -4428,7 +4310,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -4640,7 +4521,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         public static class C_OP_RepeatedTriggerChildGroup {
             public const nint m_nChildGroupID = 0x1E0; // int32
             public const nint m_flClusterRefireTime = 0x1E8; // CParticleCollectionFloatInput
@@ -4762,19 +4642,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Pbb
-        // P=3
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
-        // HQb
-        // @b3
-        // 0Qb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // xQb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class C_INIT_RingWave {
@@ -4983,9 +4855,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
-        // @W8
         public static class C_OP_DistanceBetweenTransforms {
             public const nint m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_TransformStart = 0x1E0; // CParticleTransformInput
@@ -5059,8 +4928,6 @@ namespace Source2Dumper.Schemas {
         // MParticleReplacementOp
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // 0Qb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -5072,7 +4939,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // Pbb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -5080,7 +4946,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -5206,15 +5071,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
-        // ((b
-        // xQb
-        // ((b
-        // xQb
-        // xQb
-        // xQb
-        // `d@
         public static class C_OP_RemapDistanceToLineSegmentBase {
             public const nint m_nCP0 = 0x1D8; // int32
             public const nint m_nCP1 = 0x1DC; // int32
@@ -5254,19 +5110,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `Nb
-        // xLb
-        // @Nb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0Qb
-        // `Nb
-        // XQb
-        // xQb
-        // (Mb
-        // 0Ob
         public static class C_OP_ContinuousEmitter {
             public const nint m_flEmissionDuration = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_flStartTime = 0x350; // CParticleCollectionFloatInput
@@ -5409,6 +5256,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // ta\Local
         public static class C_INIT_SequenceLifeTime {
             public const nint m_flFramerate = 0x1E0; // float32
         }
@@ -5444,14 +5292,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Pbb
-        // P=3
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
-        // HQb
-        // @b3
         public static class C_INIT_MoveBetweenPoints {
             public const nint m_flSpeedMin = 0x1E0; // CPerParticleFloatInput
             public const nint m_flSpeedMax = 0x350; // CPerParticleFloatInput
@@ -5760,17 +5603,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -5863,7 +5701,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertyFriendlyName
-        // hcf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -6140,8 +5977,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
         public static class C_OP_GlobalLight {
             public const nint m_flScale = 0x1D8; // float32
             public const nint m_bClampLowerRange = 0x1DC; // bool
@@ -6180,8 +6015,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -6328,13 +6161,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // P4b
-        // x+b
-        // l2b
-        // x.b
-        // X,b
-        // @(b
-        // X(b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -6361,7 +6187,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        //  /b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -6395,7 +6220,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // @e2
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -6405,7 +6229,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // ((b
         public static class C_INIT_CreatePhyllotaxis {
             public const nint m_nControlPointNumber = 0x1E0; // int32
             public const nint m_nScaleCP = 0x1E4; // int32
@@ -6432,13 +6255,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 8gb
         // MPropertyFriendlyName
-        // 8jb
-        // heb
-        // 0m+
-        //  bb
-        // (fb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -6448,11 +6265,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h`b
-        // 8ib
-        // Pbb
-        // heb
-        // Pib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -6493,7 +6305,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -6558,7 +6369,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @`2
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -6578,9 +6388,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // `11
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         public static class C_INIT_RemapParticleCountToNamedModelSequenceScalar {
         }
@@ -6618,8 +6425,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h-b
-        // 8-b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -6634,7 +6439,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         public static class C_INIT_VelocityRadialRandom {
             public const nint m_bPerParticleCenter = 0x1E0; // bool
             public const nint m_nControlPointNumber = 0x1E4; // int32
@@ -6669,7 +6473,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -6697,8 +6500,6 @@ namespace Source2Dumper.Schemas {
         // MParticleReplacementOp
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // 0Qb
-        // ((b
         public static class C_INIT_RandomRadius {
             public const nint m_flRadiusMin = 0x1E0; // float32
             public const nint m_flRadiusMax = 0x1E4; // float32
@@ -6821,10 +6622,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // h-b
-        // ((b
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -6999,17 +6796,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -7043,7 +6835,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -7067,6 +6858,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // ta\Local
         public static class C_INIT_PositionWarp {
             public const nint m_vecWarpMin = 0x1E0; // CParticleCollectionVecInput
             public const nint m_vecWarpMax = 0x898; // CParticleCollectionVecInput
@@ -7165,17 +6957,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertySuppressExpr
-        // hxf
-        // Xyf
-        // `zf
-        // `if
-        // (vf
-        // pKG
         // MGetKV3ClassDefaults
-        // 8rf
-        // ,rf
-        // Xdf
-        // 8df
         public static class C_OP_CreateParticleSystemRenderer {
             public const nint m_hEffect = 0x228; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
             public const nint m_nEventType = 0x230; // EventTypeSelection_t
@@ -7233,8 +7015,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // *
-        // $
         public static class CParticleFunctionForce {
         }
         // Parent: None
@@ -7248,7 +7028,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -7436,8 +7215,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
-        // xQb
-        // p]3
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -7456,7 +7233,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -7703,7 +7479,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertySortPriority
-        // hcf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MGetKV3ClassDefaults
@@ -7771,10 +7546,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // @lf
-        //  lf
-        // 8df
-        // (yf
         // UNUSED
         // F_NORMAL_MAP
         // F_TEXTURE_LAYERS
@@ -7849,9 +7620,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // xQb
-        // ((b
-        // PK@
         public static class C_OP_QuantizeCPComponent {
             public const nint m_flInputValue = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_nCPOutput = 0x350; // int32
@@ -7910,7 +7678,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // xQb
         public static class C_OP_PlayEndCapWhenFinished {
             public const nint m_bFireOnEmissionEnd = 0x1E0; // bool
             public const nint m_bIncludeChildren = 0x1E1; // bool
@@ -7922,7 +7689,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -7937,7 +7703,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @`2
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -8075,19 +7840,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Pbb
-        // P=3
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
-        // HQb
-        // @b3
-        // 0Qb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // xQb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -8270,7 +8027,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ((b
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -8366,8 +8122,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
         public static class C_OP_RemapDistanceToLineSegmentToVector {
             public const nint m_nFieldOutput = 0x1F0; // ParticleAttributeIndex_t
             public const nint m_vMinOutputValue = 0x1F4; // Vector
@@ -8383,15 +8137,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // Puf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // plf
-        // hhf
-        // 8if
-        // Pxf
-        // g
         public static class C_OP_RenderAsModels {
             public const nint m_ModelList = 0x228; // CUtlVector<ModelReference_t>
             public const nint m_flModelScale = 0x244; // float32
@@ -8426,8 +8173,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -8515,8 +8260,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // pRb
-        // 0%9
         public static class C_OP_Spin {
         }
         // Parent: None
@@ -8528,7 +8271,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertyFriendlyName
-        // hcf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -8571,19 +8313,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `Nb
-        // xLb
-        // @Nb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0Qb
-        // `Nb
-        // XQb
-        // xQb
-        // (Mb
-        // 0Ob
         public static class C_OP_InstantaneousEmitter {
             public const nint m_nParticlesToEmit = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_flStartTime = 0x350; // CParticleCollectionFloatInput
@@ -8602,11 +8335,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // @)b
-        // H/b
-        // @(b
-        // (+b
-        // P0b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -8617,11 +8345,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X(b
-        // (,b
-        // p)b
-        // l2b
-        // ()b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -8632,9 +8355,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x-b
-        // h-b
-        // 8-b
         public static class C_OP_ConstrainLineLength {
             public const nint m_flMinDistance = 0x1D8; // float32
             public const nint m_flMaxDistance = 0x1DC; // float32
@@ -8651,17 +8371,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
-        // p'3
-        // xLb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @(b
         // MPropertyFriendlyName
-        // `Q2
-        // @(b
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -8741,15 +8454,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // Puf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // plf
-        // hhf
-        // 8if
-        // Pxf
-        // g
         public static class CBaseTrailRenderer {
             public const nint m_nOrientationType = 0x2DF0; // ParticleOrientationChoiceList_t
             public const nint m_nOrientationControlPoint = 0x2DF4; // int32
@@ -8853,10 +8559,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // h-b
-        // ((b
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -8947,7 +8649,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -9142,9 +8843,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
-        // `><
         public static class C_OP_PositionLock {
             public const nint m_TransformInput = 0x1D8; // CParticleTransformInput
             public const nint m_flStartTime_min = 0x240; // float32
@@ -9218,14 +8916,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // Puf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // plf
-        // hhf
-        // 8if
-        // Pxf
         public static class C_OP_RenderVRHapticEvent {
             public const nint m_nHand = 0x228; // ParticleVRHandChoiceList_t
             public const nint m_nOutputHandCP = 0x22C; // int32
@@ -9358,12 +9050,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0:9
-        // 0N;
-        // P29
-        // xQb
-        // xLb
-        // @Nb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -9488,9 +9174,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
-        // @z+
-        // hib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -9503,16 +9186,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (gb
-        // @bb
-        // heb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `cb
-        // @fb
-        // xfb
-        // Pgb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -9773,7 +9449,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         public static class C_OP_EndCapTimedFreeze {
             public const nint m_flFreezeTime = 0x1D8; // CParticleCollectionFloatInput
         }
@@ -9808,10 +9483,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertySortPriority
-        // (xf
-        // xsf
-        // xzf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -9925,7 +9596,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertyFriendlyName
-        // hcf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -10282,8 +9952,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // *
-        // $
         public static class CParticleFunctionOperator {
         }
         // Parent: None
@@ -10349,8 +10017,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
         public static class C_OP_DragRelativeToPlane {
             public const nint m_flDragAtPlane = 0x1D8; // CParticleCollectionFloatInput
             public const nint m_flFalloff = 0x348; // CParticleCollectionFloatInput
@@ -10469,9 +10135,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X`b
         // MPropertyFriendlyName
-        // `cb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -10636,8 +10300,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // xQb
-        // p]3
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -10656,7 +10318,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -10680,6 +10341,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // ta\Local
         public static class C_INIT_DistanceToNeighborCull {
             public const nint m_flDistance = 0x1E0; // CPerParticleFloatInput
             public const nint m_bIncludeRadii = 0x350; // bool
@@ -10751,8 +10413,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
         public static class C_OP_RemapCPtoScalar {
             public const nint m_nCPInput = 0x1D8; // int32
             public const nint m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -11328,7 +10988,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // pL:
         public static class C_OP_PercentageBetweenTransformsVector {
             public const nint m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_flInputMin = 0x1DC; // float32
@@ -11396,18 +11055,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // (wf
-        // (df
-        // Xdf
-        // Hcf
-        // H{f
-        // @sf
-        // (df
-        // pwf
-        // Hwf
-        //  xF
-        // prf
-        // 0cf
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -11535,11 +11182,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // HQb
-        // ((b
-        // xQb
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         public static class C_INIT_CreateWithinBox {
             public const nint m_vecMin = 0x1E0; // CPerParticleVecInput
@@ -11740,8 +11383,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // pRb
-        // 0%9
         public static class C_OP_VectorFieldSnapshot {
             public const nint m_nControlPointNumber = 0x1D8; // int32
             public const nint m_nAttributeToWrite = 0x1DC; // ParticleAttributeIndex_t
@@ -11895,8 +11536,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         public static class C_INIT_PositionPlaceOnGround {
@@ -11928,7 +11567,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // @e2
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -11938,7 +11576,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // ((b
         public static class C_INIT_RandomScalar {
             public const nint m_flMin = 0x1E0; // float32
             public const nint m_flMax = 0x1E4; // float32
@@ -11955,12 +11592,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // pyf
-        // pvf
-        // `vf
-        // `lf
-        // `BG
-        // X{f
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -12007,31 +11638,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // hLb
-        // \Lb
-        // (Rb
-        // PMb
-        // xLb
-        // @Nb
-        // (Mb
-        // HRb
-        // HQb
-        // xLb
-        // @Nb
-        // xSb
         public static class C_OP_WorldTraceConstraint {
             public const nint m_nCP = 0x1D8; // int32
             public const nint m_vecCpOffset = 0x1DC; // Vector
@@ -12071,10 +11684,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertySortPriority
-        // (xf
-        // xsf
-        // xzf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -12082,7 +11691,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertySortPriority
-        // (df
         // MPropertyFriendlyName
         public static class C_OP_RenderBlobs {
             public const nint m_cubeWidth = 0x228; // CParticleCollectionRendererFloatInput
@@ -12144,7 +11752,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // pL:
         public static class C_OP_OscillateScalar {
             public const nint m_RateMin = 0x1D8; // float32
             public const nint m_RateMax = 0x1DC; // float32
@@ -12249,7 +11856,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertyFriendlyName
-        // hcf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -12317,7 +11923,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -12414,7 +12019,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // ((b
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -12466,9 +12070,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x-b
-        // h-b
-        // 8-b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
@@ -12506,9 +12107,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `Nb
-        // xLb
-        // @Nb
         public static class C_OP_CollideWithParentParticles {
             public const nint m_flParentRadiusScale = 0x1D8; // CPerParticleFloatInput
             public const nint m_flRadiusScale = 0x348; // CPerParticleFloatInput
@@ -12536,7 +12134,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // @e2
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -12546,7 +12143,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // ((b
         public static class C_INIT_InitFromVectorFieldSnapshot {
             public const nint m_nControlPointNumber = 0x1E0; // int32
             public const nint m_nLocalSpaceCP = 0x1E4; // int32
@@ -12662,8 +12258,6 @@ namespace Source2Dumper.Schemas {
         // MParticleReplacementOp
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // 0Qb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -12675,7 +12269,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // Pbb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -12683,7 +12276,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
         public static class C_INIT_AddVectorToVector {
             public const nint m_vecScale = 0x1E0; // Vector
             public const nint m_nFieldOutput = 0x1EC; // ParticleAttributeIndex_t
@@ -12742,8 +12334,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
-        // xQb
         public static class C_INIT_RemapInitialVisibilityScalar {
             public const nint m_nFieldOutput = 0x1E4; // ParticleAttributeIndex_t
             public const nint m_flInputMin = 0x1E8; // float32
@@ -12882,18 +12472,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // (wf
-        // (df
-        // Xdf
-        // Hcf
-        // H{f
-        // @sf
-        // (df
-        // pwf
-        // Hwf
-        //  xF
-        // prf
-        // 0cf
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -12934,9 +12512,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
-        // @z+
-        // hib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -12949,16 +12524,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (gb
-        // @bb
-        // heb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `cb
-        // @fb
-        // xfb
-        // Pgb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -13106,8 +12674,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x1007,0x0e6f/0x
-        // n
+        // ta\Local
         public static class C_OP_LocalAccelerationForce {
             public const nint m_nCP = 0x1E8; // int32
             public const nint m_nScaleCP = 0x1EC; // int32
@@ -13472,10 +13039,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
-        // ((b
-        // xQb
         public static class C_OP_RemapDistanceToLineSegmentToScalar {
             public const nint m_nFieldOutput = 0x1F0; // ParticleAttributeIndex_t
             public const nint m_flMinOutputValue = 0x1F4; // float32
@@ -13506,7 +13069,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // pL:
         public static class C_OP_RemapVectortoCP {
             public const nint m_nOutControlPointNumber = 0x1D8; // int32
             public const nint m_nFieldInput = 0x1DC; // ParticleAttributeIndex_t
@@ -13743,7 +13305,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         public static class C_OP_SetControlPointToHand {
             public const nint m_nCP1 = 0x1E0; // int32
             public const nint m_nHand = 0x1E4; // int32
@@ -13756,31 +13317,13 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // hLb
-        // \Lb
-        // (Rb
-        // PMb
-        // xLb
-        // @Nb
-        // (Mb
-        // HRb
-        // HQb
-        // xLb
-        // @Nb
-        // xSb
         public static class C_OP_ConstrainDistanceToPath {
             public const nint m_fMinDistance = 0x1D8; // float32
             public const nint m_flMaxDistance0 = 0x1DC; // float32
@@ -13797,8 +13340,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // pRb
-        // 0%9
         //  
         public static class C_OP_DistanceCull {
             public const nint m_nControlPoint = 0x1D8; // int32
@@ -13877,13 +13418,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertySuppressExpr
-        // (df
-        // 0uf
-        // H{f
-        // ,rf
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // p!G
         public static class C_OP_GameDecalRenderer {
             public const nint m_sDecalGroupName = 0x228; // CGlobalSymbol
             public const nint m_nEventType = 0x230; // EventTypeSelection_t
@@ -13927,7 +13463,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         public static class C_OP_SetControlPointsToModelParticles {
             public const nint m_HitboxSetName = 0x1D8; // char[128]
             public const nint m_AttachmentName = 0x258; // char[128]
@@ -13993,8 +13528,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
         public static class C_OP_ColorInterpolateRandom {
             public const nint m_ColorFadeMin = 0x1D8; // Color
             public const nint m_ColorFadeMax = 0x1F4; // Color
@@ -14032,17 +13565,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -14109,7 +13637,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertyFriendlyName
-        // hcf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -14227,19 +13754,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Pbb
-        // P=3
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
-        // HQb
-        // @b3
-        // 0Qb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // xQb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -14277,6 +13796,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // T
         public static class C_OP_RenderPoints {
             public const nint m_hMaterial = 0x228; // CStrongHandle<InfoForResourceTypeIMaterial2>
         }
@@ -14289,7 +13809,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -14313,6 +13832,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // ta\Local
         public static class C_INIT_SetAttributeToScalarExpression {
             public const nint m_nExpression = 0x1E0; // ScalarExpressionType_t
             public const nint m_flInput1 = 0x1E8; // CPerParticleFloatInput
@@ -14346,7 +13866,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -14354,7 +13873,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ph1
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         public static class C_INIT_CreateOnGrid {
@@ -14515,7 +14033,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // Pbb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -14523,7 +14040,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -14557,17 +14073,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
-        // p'3
-        // xLb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @(b
         // MPropertyFriendlyName
-        // `Q2
-        // @(b
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -14782,10 +14291,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 8rf
-        // ,rf
-        // Xdf
-        // 8df
         // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -14822,7 +14327,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertySortPriority
-        // hcf
         // MPropertyFriendlyName
         public static class C_OP_RenderClothForce {
         }
@@ -14935,17 +14439,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -15000,17 +14499,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
-        // p'3
-        // xLb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @(b
         // MPropertyFriendlyName
-        // `Q2
-        // @(b
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -15222,7 +14714,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -15345,17 +14836,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -15522,18 +15008,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // (wf
-        // (df
-        // Xdf
-        // Hcf
-        // H{f
-        // @sf
-        // (df
-        // pwf
-        // Hwf
-        //  xF
-        // prf
-        // 0cf
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -15622,8 +15096,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
-        // xQb
-        // p]3
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -15642,7 +15114,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -16377,9 +15848,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ((b
         // MGetKV3ClassDefaults
-        // Pbb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -16387,8 +15856,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
-        // xQb
-        // X`b
         public static class C_INIT_RandomSecondSequence {
             public const nint m_nSequenceMin = 0x1E0; // int32
             public const nint m_nSequenceMax = 0x1E4; // int32
@@ -16495,9 +15962,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // xQb
-        // ((b
-        // PK@
         public static class C_OP_SetControlPointPositionToRandomActiveCP {
             public const nint m_nCP1 = 0x1E0; // int32
             public const nint m_nHeadLocationMin = 0x1E4; // int32
@@ -16607,7 +16071,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -16748,10 +16211,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -16793,8 +16252,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
-        // P=0
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -16888,9 +16345,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
-        // @W8
         public static class C_OP_DistanceBetweenVecs {
             public const nint m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_vecPoint1 = 0x1E0; // CPerParticleVecInput
@@ -16948,8 +16402,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // pRb
-        // 0%9
         public static class C_OP_DampenToCP {
             public const nint m_nControlPointNumber = 0x1D8; // int32
             public const nint m_flRange = 0x1DC; // float32
@@ -17206,8 +16658,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
         public static class C_OP_RemapNamedModelBodyPartOnceTimed {
         }
         // Parent: None
@@ -17375,8 +16825,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
         public static class C_OP_MovementMaintainOffset {
             public const nint m_vecOffset = 0x1D8; // Vector
             public const nint m_nCP = 0x1E4; // int32
@@ -17412,8 +16860,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h-b
-        // 8-b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -17428,7 +16874,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -17540,8 +16985,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h-b
-        // 8-b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -17588,14 +17031,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
         public static class C_INIT_CheckParticleForWater {
             public const nint m_flRadius = 0x1E0; // CPerParticleFloatInput
             public const nint m_nFieldOutput = 0x350; // ParticleAttributeIndex_t
@@ -17622,8 +17063,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -17686,9 +17125,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xzf
-        // 0{f
-        // Hhf
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -17698,7 +17134,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // P4F
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -17709,7 +17144,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xff
         // MPropertyFriendlyName
         // MPropertySortPriority
         // MPropertyFriendlyName
@@ -17814,8 +17248,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
         public static class C_OP_ConnectParentParticleToNearest {
             public const nint m_nFirstControlPoint = 0x1D8; // int32
             public const nint m_nSecondControlPoint = 0x1DC; // int32
@@ -18071,26 +17503,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // hLb
-        // \Lb
-        // (Rb
-        // PMb
-        // xLb
-        // @Nb
-        // (Mb
         public static class C_OP_CollideWithSelf {
             public const nint m_flRadiusScale = 0x1D8; // CPerParticleFloatInput
             public const nint m_flMinimumSpeed = 0x348; // CPerParticleFloatInput
@@ -18288,11 +17707,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
-        // ((b
-        // xQb
-        // ((b
         public static class C_OP_ColorAdjustHSL {
             public const nint m_flHueAdjust = 0x1D8; // CPerParticleFloatInput
             public const nint m_flSaturationAdjust = 0x348; // CPerParticleFloatInput
@@ -18347,7 +17761,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // pL:
         public static class C_OP_SequenceFromModel {
             public const nint m_nControlPointNumber = 0x1D8; // int32
             public const nint m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -18442,11 +17855,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
-        // ((b
-        // xQb
-        // ((b
         public static class C_OP_RemapDensityGradientToVectorAttribute {
             public const nint m_flRadiusScale = 0x1D8; // float32
             public const nint m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -18469,7 +17877,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @`2
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -18489,9 +17896,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // `11
-        // ((b
-        // ((b
         public static class C_INIT_InitVec {
             public const nint m_InputValue = 0x1E0; // CPerParticleVecInput
             public const nint m_nOutputField = 0x898; // ParticleAttributeIndex_t
@@ -18506,9 +17910,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 8-b
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -19105,10 +18506,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // h-b
-        // ((b
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -19207,7 +18604,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @`2
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -19227,9 +18623,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // `11
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         public static class C_INIT_PlaneCull {
             public const nint m_nControlPoint = 0x1E0; // int32
@@ -19310,17 +18703,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
-        // p'3
-        // xLb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @(b
         // MPropertyFriendlyName
-        // `Q2
-        // @(b
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -19400,9 +18786,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySortPriority
-        // 8ef
-        // xmf
-        // 0hf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyStartGroup
@@ -19412,7 +18795,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
-        //  sf
         public static class C_OP_RenderCables {
             public const nint m_flRadiusScale = 0x228; // CParticleCollectionFloatInput
             public const nint m_flAlphaScale = 0x398; // CParticleCollectionFloatInput
@@ -19450,7 +18832,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -19550,8 +18931,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // xQb
-        // ((b
         public static class C_OP_SetControlPointToWaterSurface {
             public const nint m_nSourceCP = 0x1E0; // int32
             public const nint m_nDestCP = 0x1E4; // int32
@@ -19588,8 +18967,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
-        // xQb
-        // p]3
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -19608,7 +18985,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -19643,7 +19019,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -19667,6 +19042,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // ta\Local
         public static class C_INIT_NormalAlignToCP {
             public const nint m_transformInput = 0x1E0; // CParticleTransformInput
             public const nint m_nControlPointAxis = 0x248; // ParticleControlPointAxis_t
@@ -19678,31 +19054,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // hLb
-        // \Lb
-        // (Rb
-        // PMb
-        // xLb
-        // @Nb
-        // (Mb
-        // HRb
-        // HQb
-        // xLb
-        // @Nb
-        // xSb
         public static class C_OP_ShapeMatchingConstraint {
             public const nint m_flShapeRestorationTime = 0x1D8; // float32
         }
@@ -19755,8 +19113,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
         public static class C_OP_SetChildControlPoints {
             public const nint m_nChildGroupID = 0x1D8; // int32
             public const nint m_nFirstControlPoint = 0x1DC; // int32
@@ -19895,7 +19251,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         public static class C_OP_RemapDirectionToCPToVector {
             public const nint m_nCP = 0x1D8; // int32
             public const nint m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -20057,7 +19412,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X`b
         public static class C_INIT_ScreenSpacePositionOfTarget {
             public const nint m_vecTargetPosition = 0x1E0; // CPerParticleVecInput
             public const nint m_bOututBehindness = 0x898; // bool
@@ -20172,9 +19526,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
-        // `><
         public static class C_OP_PinParticleToCP {
             public const nint m_nControlPointNumber = 0x1D8; // int32
             public const nint m_vecOffset = 0x1E0; // CParticleCollectionVecInput
@@ -20300,7 +19651,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -20329,9 +19679,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
-        // @z+
-        // hib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -20344,16 +19691,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (gb
-        // @bb
-        // heb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `cb
-        // @fb
-        // xfb
-        // Pgb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -20374,7 +19714,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x1007,0x0e6f/0x
         public static class C_OP_DensityForce {
             public const nint m_flRadiusScale = 0x1E8; // float32
             public const nint m_flForceScale = 0x1EC; // float32
@@ -20391,8 +19730,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
-        // P=0
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -20468,29 +19805,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // hLb
-        // \Lb
-        // (Rb
-        // PMb
-        // xLb
-        // @Nb
-        // (Mb
-        // HRb
-        // HQb
-        // xLb
         public static class C_OP_ConstrainDistanceToUserSpecifiedPath {
             public const nint m_fMinDistance = 0x1D8; // float32
             public const nint m_flMaxDistance = 0x1DC; // float32
@@ -20777,8 +20098,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x1007,0x0e6f/0x
-        // n
+        // ta\Local
         public static class C_OP_IntraParticleForce {
             public const nint m_flAttractionMinDistance = 0x1E8; // float32
             public const nint m_flAttractionMaxDistance = 0x1EC; // float32
@@ -20831,7 +20151,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         public static class C_INIT_InitFloat {
             public const nint m_InputValue = 0x1E0; // CPerParticleFloatInput
             public const nint m_nOutputField = 0x350; // ParticleAttributeIndex_t
@@ -20974,9 +20293,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
-        // @z+
-        // hib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -20989,16 +20305,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (gb
-        // @bb
-        // heb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `cb
-        // @fb
-        // xfb
-        // Pgb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -21019,7 +20328,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x1007,0x0e6f/0x
         public static class C_OP_PerParticleForce {
             public const nint m_flForceScale = 0x1E8; // CPerParticleFloatInput
             public const nint m_vForce = 0x358; // CPerParticleVecInput
@@ -21031,7 +20339,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -21055,6 +20362,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // ta\Local
         public static class C_INIT_RandomNamedModelMeshGroup {
         }
         // Parent: None
@@ -21092,14 +20400,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // Puf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // plf
-        // hhf
-        // 8if
-        // Pxf
         public static class C_OP_RenderProjected {
             public const nint m_bProjectCharacter = 0x228; // bool
             public const nint m_bProjectWorld = 0x229; // bool
@@ -21182,8 +20484,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
         public static class C_OP_MaxVelocity {
             public const nint m_flMaxVelocity = 0x1D8; // float32
             public const nint m_flMinVelocity = 0x1DC; // float32
@@ -21197,8 +20497,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -21249,8 +20547,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h-b
-        // 8-b
         public static class C_INIT_VelocityFromNormal {
             public const nint m_fSpeedMin = 0x1E0; // float32
             public const nint m_fSpeedMax = 0x1E4; // float32
@@ -21270,19 +20566,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `Nb
-        // xLb
-        // @Nb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0Qb
-        // `Nb
-        // XQb
-        // xQb
-        // (Mb
-        // 0Ob
         public static class C_OP_MaintainEmitter {
             public const nint m_nParticlesToMaintain = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_flStartTime = 0x350; // float32
@@ -21314,9 +20601,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // `11
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -21350,8 +20634,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h-b
-        // 8-b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -21366,7 +20648,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -21452,8 +20733,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
         public static class C_OP_FadeAndKill {
             public const nint m_flStartFadeInTime = 0x1D8; // float32
             public const nint m_flEndFadeInTime = 0x1DC; // float32
@@ -21723,7 +21002,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -21909,8 +21187,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
         public static class C_OP_RemapNamedModelBodyPartEndCap {
         }
         // Parent: None
@@ -22157,8 +21433,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // pRb
-        // 0%9
         public static class C_OP_LockToSavedSequentialPath {
             public const nint m_flFadeStart = 0x1DC; // float32
             public const nint m_flFadeEnd = 0x1E0; // float32
@@ -22176,9 +21450,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
-        // ((b
         // MGetKV3ClassDefaults
-        // Pbb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -22186,8 +21458,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
-        // xQb
-        // X`b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -22210,7 +21480,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // @e2
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -22308,8 +21577,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
         public static class C_OP_ClampVector {
             public const nint m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_vecOutputMin = 0x1E0; // CPerParticleVecInput
@@ -22324,10 +21591,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertySortPriority
-        // (xf
-        // xsf
-        // xzf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -22335,7 +21598,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertySortPriority
-        // (df
         // MPropertyFriendlyName
         public static class C_OP_RenderStatusEffectCitadel {
             public const nint m_pTextureColorWarp = 0x228; // CStrongHandle<InfoForResourceTypeCTextureBase>
@@ -22539,11 +21801,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // @hb
-        // x`b
-        // xfb
-        // 0cb
-        // Hcb
         public static class C_OP_WindForce {
             public const nint m_vForce = 0x1E8; // Vector
         }
@@ -22570,7 +21827,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -22656,18 +21912,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // (wf
-        // (df
-        // Xdf
-        // Hcf
-        // H{f
-        // @sf
-        // (df
-        // pwf
-        // Hwf
-        //  xF
-        // prf
-        // 0cf
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -23019,7 +22263,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         public static class C_OP_RemapAverageScalarValuetoCP {
             public const nint m_nExpression = 0x1E0; // SetStatisticExpressionType_t
             public const nint m_flDecimalPlaces = 0x1E8; // CParticleCollectionFloatInput
@@ -23065,8 +22308,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // pRb
-        // 0%9
         public static class C_OP_RemapDotProductToScalar {
             public const nint m_nInputCP1 = 0x1D8; // int32
             public const nint m_nInputCP2 = 0x1DC; // int32
@@ -23112,9 +22353,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
-        // xQb
-        // @)A
         public static class C_OP_RemapCPtoCP {
             public const nint m_nInputControlPoint = 0x1E0; // int32
             public const nint m_nOutputControlPoint = 0x1E4; // int32
@@ -23207,11 +22445,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h`b
-        // 8ib
-        // Pbb
-        // heb
-        // Pib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -23229,11 +22462,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // @hb
-        // x`b
-        // xfb
-        // 0cb
-        // Hcb
         public static class C_OP_CurlNoiseForce {
             public const nint m_nNoiseType = 0x1E8; // ParticleDirectionNoiseType_t
             public const nint m_vecNoiseFreq = 0x1F0; // CPerParticleVecInput
@@ -23265,17 +22493,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -23322,7 +22545,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -23441,6 +22663,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // T
         public static class C_OP_RenderScreenShake {
             public const nint m_flDurationScale = 0x228; // float32
             public const nint m_flRadiusScale = 0x22C; // float32
@@ -23471,9 +22694,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
-        // xQb
-        // @)A
         public static class C_OP_RemapBoundingVolumetoCP {
             public const nint m_nOutControlPointNumber = 0x1E0; // int32
             public const nint m_flInputMin = 0x1E4; // float32
@@ -23592,10 +22812,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // HQb
-        // @(b
-        // X`b
-        // `cb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -23672,9 +22888,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X`b
         // MPropertyFriendlyName
-        // `cb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -23717,9 +22931,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X`b
         // MPropertyFriendlyName
-        // `cb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
@@ -23934,11 +23146,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h`b
-        // 8ib
-        // Pbb
-        // heb
-        // Pib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -23956,11 +23163,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // @hb
-        // x`b
-        // xfb
-        // 0cb
-        // Hcb
         public static class C_OP_TimeVaryingForce {
             public const nint m_flStartLerpTime = 0x1E8; // float32
             public const nint m_StartingForce = 0x1EC; // Vector
@@ -24125,7 +23327,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -24133,7 +23334,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ph1
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         public static class C_INIT_CreateWithinSphereTransform {
@@ -24215,8 +23415,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
         public static class C_OP_RadiusDecay {
             public const nint m_flMinRadius = 0x1D8; // float32
         }
@@ -24267,12 +23465,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Pbb
-        // P=3
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         public static class C_INIT_RemapNamedModelBodyPartToScalar {
         }
         // Parent: None
@@ -24327,8 +23522,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Pbb
-        // P=3
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -24409,19 +23602,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // `Nb
-        // xLb
-        // @Nb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0Qb
-        // `Nb
-        // XQb
-        // xQb
-        // (Mb
-        // 0Ob
         public static class C_OP_NoiseEmitter {
             public const nint m_flEmissionDuration = 0x1E0; // float32
             public const nint m_flStartTime = 0x1E4; // float32
@@ -24582,7 +23766,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // *
         public static class CParticleFunctionInitializer {
             public const nint m_nAssociatedEmitterIndex = 0x1D8; // int32
         }
@@ -24651,7 +23834,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         public static class C_OP_SelectivelyEnableChildren {
             public const nint m_nChildGroupID = 0x1E0; // CParticleCollectionFloatInput
             public const nint m_nFirstChild = 0x350; // CParticleCollectionFloatInput
@@ -24690,27 +23872,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // hLb
-        // \Lb
-        // (Rb
-        // PMb
-        // xLb
-        // @Nb
-        // (Mb
-        // HRb
         public static class C_OP_PlanarConstraint {
             public const nint m_PointOnPlane = 0x1D8; // Vector
             public const nint m_PlaneNormal = 0x1E4; // Vector
@@ -24844,11 +24012,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
-        // ((b
-        // xQb
-        // ((b
         public static class C_OP_LockPoints {
             public const nint m_nMinCol = 0x1D8; // int32
             public const nint m_nMaxCol = 0x1DC; // int32
@@ -24870,8 +24033,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -24932,13 +24093,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 8gb
         // MPropertyFriendlyName
-        // 8jb
-        // heb
-        // 0m+
-        //  bb
-        // (fb
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -24948,10 +24103,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h`b
-        // 8ib
-        // Pbb
-        // heb
         public static class C_OP_CPVelocityForce {
             public const nint m_nControlPointNumber = 0x1E8; // int32
             public const nint m_flScale = 0x1F0; // CPerParticleFloatInput
@@ -25159,8 +24310,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // P
-        // @^9
-        // ((b
         public static class C_OP_MoveToHitbox {
             public const nint m_modelInput = 0x1D8; // CParticleModelInput
             public const nint m_transformInput = 0x238; // CParticleTransformInput
@@ -25442,7 +24591,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @`2
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -25462,9 +24610,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // `11
-        // ((b
-        // ((b
         // MPropertyFriendlyName
         public static class C_INIT_RandomColor {
             public const nint m_ColorMin = 0x1FC; // Color
@@ -25498,7 +24643,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -25548,7 +24692,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -25576,8 +24719,6 @@ namespace Source2Dumper.Schemas {
         // MParticleReplacementOp
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // 0Qb
-        // ((b
         public static class C_INIT_InheritFromParentParticles {
             public const nint m_flScale = 0x1E0; // float32
             public const nint m_nFieldOutput = 0x1E4; // ParticleAttributeIndex_t
@@ -25675,7 +24816,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -25841,15 +24981,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // Puf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // plf
-        // hhf
-        // 8if
-        // Pxf
-        // g
         public static class C_OP_RenderFlattenGrass {
             public const nint m_flFlattenStrength = 0x228; // float32
             public const nint m_nStrengthFieldOverride = 0x22C; // ParticleAttributeIndex_t
@@ -25909,6 +25042,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // T
         public static class C_OP_RenderLightBeam {
             public const nint m_nMaxAllowed = 0x228; // uint16
             public const nint m_vColorBlend = 0x230; // CParticleCollectionVecInput
@@ -25960,9 +25094,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
-        // xQb
-        // @)A
         public static class C_OP_EnableChildrenFromParentParticleCount {
             public const nint m_nChildGroupID = 0x1E0; // int32
             public const nint m_nFirstChild = 0x1E4; // int32
@@ -26003,8 +25134,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
-        // P=0
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -26148,11 +25277,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // @hb
-        // x`b
-        // xfb
-        // 0cb
-        // Hcb
         public static class C_OP_ForceBasedOnDistanceToPlane {
             public const nint m_flMinDist = 0x1E8; // float32
             public const nint m_vecForceAtMinDist = 0x1EC; // Vector
@@ -26282,7 +25406,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -26498,7 +25621,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // *
         public static class CParticleFunctionConstraint {
         }
         // Parent: None
@@ -26558,9 +25680,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
-        // `><
         public static class C_OP_RemapSpeed {
             public const nint m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_flInputMin = 0x1DC; // float32
@@ -26591,10 +25710,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // @lf
-        //  lf
-        // 8df
-        // (yf
         // UNUSED
         // F_NORMAL_MAP
         // F_TEXTURE_LAYERS
@@ -26640,8 +25755,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // 8yf
-        // p{f
         // MGetKV3ClassDefaults
         // MPropertyStartGroup
         // MPropertyFriendlyName
@@ -26724,15 +25837,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // Puf
-        // 8zf
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // plf
-        // hhf
-        // 8if
-        // Pxf
-        // g
         public static class C_OP_RenderClientPhysicsImpulse {
             public const nint m_flRadius = 0x228; // CPerParticleFloatInput
             public const nint m_flMagnitude = 0x398; // CPerParticleFloatInput
@@ -26890,7 +25996,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // *
         public static class CParticleFunctionEmitter {
             public const nint m_nEmitterIndex = 0x1D8; // int32
         }
@@ -26938,12 +26043,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // Pbb
-        // P=3
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // xQb
         public static class C_INIT_RemapNamedModelMeshGroupToScalar {
         }
         // Parent: None
@@ -26994,7 +26096,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // xQb
         public static class C_OP_SetControlPointOrientationToCPVelocity {
             public const nint m_nCPInput = 0x1E0; // int32
             public const nint m_nCPOutput = 0x1E4; // int32
@@ -27008,11 +26109,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // X(b
-        // (,b
-        // p)b
-        // l2b
-        // ()b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -27023,9 +26119,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x-b
-        // h-b
-        // 8-b
         public static class C_OP_RopeSpringConstraint {
             public const nint m_flRestLength = 0x1D8; // CParticleCollectionFloatInput
             public const nint m_flMinDistance = 0x348; // CParticleCollectionFloatInput
@@ -27048,7 +26141,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
@@ -27056,7 +26148,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // ph1
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -27410,10 +26501,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
-        // h-b
-        // ((b
-        // ((b
-        // xQb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -27528,11 +26615,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h`b
-        // 8ib
-        // Pbb
-        // heb
-        // Pib
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -27550,11 +26632,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // @hb
-        // x`b
-        // xfb
-        // 0cb
-        // Hcb
         public static class C_OP_ParentVortices {
             public const nint m_flForceScale = 0x1E8; // float32
             public const nint m_vecTwistAxis = 0x1EC; // Vector
@@ -27672,6 +26749,7 @@ namespace Source2Dumper.Schemas {
         // MPropertySortPriority
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // T
         public static class C_OP_ClientPhysics {
             public const nint m_strPhysicsType = 0x228; // CUtlString
             public const nint m_bStartAsleep = 0x230; // bool
@@ -27908,8 +26986,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x1007,0x0e6f/0x
-        // n
+        // ta\Local
         public static class C_OP_ExternalWindForce {
             public const nint m_vecSamplePosition = 0x1E8; // CPerParticleVecInput
             public const nint m_vecScale = 0x8A0; // CPerParticleVecInput
@@ -27928,7 +27005,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -28203,7 +27279,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        //  /b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -28224,15 +27299,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // @4b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // h/b
-        // X(b
-        // @(b
-        // ((b
-        // 0*b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertySuppressExpr
@@ -28291,9 +27360,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // ((b
-        // 8jb
-        // `><
         public static class C_OP_SetAttributeToScalarExpression {
             public const nint m_nExpression = 0x1D8; // ScalarExpressionType_t
             public const nint m_flInput1 = 0x1E0; // CPerParticleFloatInput
@@ -28318,11 +27384,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @9e
-        // 8:e
-        // ((b
-        // xQb
-        // ((b
         public static class C_OP_CycleScalar {
             public const nint m_nDestField = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_flStartValue = 0x1DC; // float32
@@ -28379,10 +27440,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // @lf
-        //  lf
-        // 8df
-        // (yf
         // UNUSED
         // F_NORMAL_MAP
         // F_TEXTURE_LAYERS
@@ -28428,8 +27485,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // 8yf
-        // p{f
         // MGetKV3ClassDefaults
         // MPropertyStartGroup
         // MPropertyFriendlyName
@@ -28515,7 +27570,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
-        // pL:
         public static class C_OP_RampScalarLinear {
             public const nint m_RateMin = 0x1D8; // float32
             public const nint m_RateMax = 0x1DC; // float32
@@ -28592,17 +27646,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
-        // p'3
-        // xLb
-        // ((b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @(b
         // MPropertyFriendlyName
-        // `Q2
-        // @(b
-        // (Rb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName
@@ -28695,7 +27742,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // Pbb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -28703,8 +27749,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MVectorIsSometimesCoordinate
-        // xQb
-        // X`b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeChoiceName

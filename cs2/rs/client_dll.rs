@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -538,7 +538,7 @@ pub mod source2_dumper {
             // MPropertyAttributeSuggestionName
             // MPropertyDescription
             // MPropertyDescription
-            // S
+            // M=
             // generic
             pub mod C_PostProcessingVolume {
                 pub const m_hPostSettings: usize = 0x1088; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -695,7 +695,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // r
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -1593,7 +1592,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
             pub mod PulseNodeDynamicOutflows_t__DynamicOutflow_t {
                 pub const m_OutflowID: usize = 0x0; // CGlobalSymbol
                 pub const m_Connection: usize = 0x8; // CPulse_OutflowConnection
@@ -2310,6 +2308,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // ta\Local
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3848,7 +3847,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             pub mod C_DynamicProp {
                 pub const m_bUseHitboxesForRenderBox: usize = 0x12D0; // bool
                 pub const m_bUseAnimGraph: usize = 0x12D1; // bool
@@ -4252,6 +4250,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // eNotifyWhenFinished
             // eNotifyTriggered
+            // ta\Local
+            // ta\Local
             pub mod C_EnvCubemap {
                 pub const m_Entity_hCubemapTexture: usize = 0x680; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Entity_bCustomCubemapTexture: usize = 0x688; // bool

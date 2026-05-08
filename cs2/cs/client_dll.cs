@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
@@ -523,7 +523,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
         // MPropertyDescription
-        // S
+        // M=
         // generic
         public static class C_PostProcessingVolume {
             public const nint m_hPostSettings = 0x1088; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -680,7 +680,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // r
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_flInnerDistance = 0x108; // float32
@@ -1578,7 +1577,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         public static class PulseNodeDynamicOutflows_t__DynamicOutflow_t {
             public const nint m_OutflowID = 0x0; // CGlobalSymbol
             public const nint m_Connection = 0x8; // CPulse_OutflowConnection
@@ -2295,6 +2293,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
+        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -3833,7 +3832,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
         public static class C_DynamicProp {
             public const nint m_bUseHitboxesForRenderBox = 0x12D0; // bool
             public const nint m_bUseAnimGraph = 0x12D1; // bool
@@ -4237,6 +4235,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // eNotifyWhenFinished
         // eNotifyTriggered
+        // ta\Local
+        // ta\Local
         public static class C_EnvCubemap {
             public const nint m_Entity_hCubemapTexture = 0x680; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_Entity_bCustomCubemapTexture = 0x688; // bool

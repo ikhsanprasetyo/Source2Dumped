@@ -350,6 +350,10 @@
             "type": "Unknown"
           },
           {
+            "name": "l",
+            "type": "Unknown"
+          },
+          {
             "name": "expDirected",
             "type": "Unknown"
           },
@@ -1455,10 +1459,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -1985,6 +1985,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ta\\Local",
             "type": "Unknown"
           }
         ],
@@ -3902,10 +3906,6 @@
             "type": "Unknown"
           },
           {
-            "name": "DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled",
-            "type": "Unknown"
-          },
-          {
             "name": "MATCH",
             "type": "Unknown"
           },
@@ -4212,6 +4212,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -4522,7 +4526,12 @@
           "m_vTintColor": 1913,
           "m_vTintColorLightingOnly": 1917
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ta\\Local",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseModelEntity"
       },
       "CEnvSoundscape": {
@@ -7381,10 +7390,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": " ",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -8692,10 +8697,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -10501,10 +10502,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -10518,10 +10515,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x",
             "type": "Unknown"
           }
         ],
@@ -10541,11 +10534,11 @@
             "type": "Unknown"
           },
           {
-            "name": ",0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0",
+            "name": ")",
             "type": "Unknown"
           },
           {
-            "name": ",0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0",
+            "name": ")",
             "type": "Unknown"
           },
           {
@@ -12276,6 +12269,10 @@
         "metadata": [
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "ta\\Local",
             "type": "Unknown"
           },
           {
@@ -15035,10 +15032,6 @@
             "type": "Unknown"
           },
           {
-            "name": "DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled",
-            "type": "Unknown"
-          },
-          {
             "name": "MATCH",
             "type": "Unknown"
           },
@@ -15448,10 +15441,6 @@
           {
             "name": "VOTE_FAILED_MAX",
             "type": "Unknown"
-          },
-          {
-            "name": "o",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -15565,10 +15554,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d",
             "type": "Unknown"
           }
         ],
@@ -15744,6 +15729,14 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ta\\Local",
+            "type": "Unknown"
+          },
+          {
+            "name": "m",
             "type": "Unknown"
           }
         ],

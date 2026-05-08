@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -2556,7 +2556,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x
         public static class CPulseCell_Outflow_PlaySceneBase {
             public const nint m_OnFinished = 0x48; // CPulse_ResumePoint
             public const nint m_OnCanceled = 0x90; // CPulse_ResumePoint
@@ -2940,7 +2939,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // r
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_flInnerDistance = 0x108; // float32
@@ -3932,7 +3930,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         public static class PulseNodeDynamicOutflows_t__DynamicOutflow_t {
             public const nint m_OutflowID = 0x0; // CGlobalSymbol
             public const nint m_Connection = 0x8; // CPulse_OutflowConnection
@@ -4959,6 +4956,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
+        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -6683,6 +6681,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ta\Local
         public static class CCS2PawnGraphController {
             public const nint m_bIsDefusing = 0x588; // CAnimGraph2ParamOptionalRef<bool>
             public const nint m_moveType = 0x5A0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -7380,6 +7379,7 @@ namespace Source2Dumper.Schemas {
         // FUNC_DOOR_SPAWN_OPEN
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
+        // l
         // expDirected
         // expUsePrecise
         // matWood
@@ -8870,6 +8870,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseModelEntity
         // Field count: 12
+        //
+        // Metadata:
+        // ta\Local
         public static class CEnvSky {
             public const nint m_hSkyMaterial = 0x768; // CStrongHandle<InfoForResourceTypeIMaterial2>
             public const nint m_hSkyMaterialLightingOnly = 0x770; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -10432,7 +10435,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x
         public static class CPulseCell_Outflow_PlaySceneBase__CursorState_t {
             public const nint m_sceneInstance = 0x0; // CHandle<CBaseEntity>
             public const nint m_mainActor = 0x4; // CHandle<CBaseEntity>
@@ -10506,8 +10508,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0
-        // ,0x20d6/0x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0f30/0x1012,0x1a34/0x0401,0x0f0d/0x0011,0x0f0d/0x0070,0x0f0d/0x0022,0
+        // )
+        // )
         // MGetKV3ClassDefaults
         // MPropertyEditContextOverrideValue
         // MGetKV3ClassDefaults
@@ -10627,7 +10629,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         public static class CBasePlayerVData {
             public const nint m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -11367,6 +11368,7 @@ namespace Source2Dumper.Schemas {
         // FUNC_DOOR_SPAWN_OPEN
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
+        // l
         // expDirected
         // expUsePrecise
         // matWood
@@ -11979,6 +11981,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ta\Local
+        // m
         public static class SceneEventId_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -12809,7 +12813,6 @@ namespace Source2Dumper.Schemas {
         // VOTE_FAILED_REMATCH
         // VOTE_FAILED_CONTINUE
         // VOTE_FAILED_MAX
-        // o
         public static class ParticleIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -12935,7 +12938,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  
         public static class CNmSnapWeaponNode__CDefinition {
             public const nint m_nFlashedAmountNodeIdx = 0x18; // int16
             public const nint m_nWeaponCategoryNodeIdx = 0x1A; // int16
@@ -13009,7 +13011,6 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
-        // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
         // MATCH
         // HIERARCHY
         // COUNT
@@ -13036,7 +13037,6 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
-        // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
         // MATCH
         // HIERARCHY
         // COUNT

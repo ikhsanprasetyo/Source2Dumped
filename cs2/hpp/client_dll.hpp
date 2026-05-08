@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 09:58:42.993290700 +07:00
+// 2026-05-08 23:32:44.837465 +07:00
 
 #pragma once
 
@@ -529,7 +529,7 @@ namespace source2_dumper {
             // MPropertyAttributeSuggestionName
             // MPropertyDescription
             // MPropertyDescription
-            // S
+            // M=
             // generic
             namespace C_PostProcessingVolume {
                 constexpr std::ptrdiff_t m_hPostSettings = 0x1088; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -686,7 +686,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // r
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
@@ -1584,7 +1583,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
             namespace PulseNodeDynamicOutflows_t__DynamicOutflow_t {
                 constexpr std::ptrdiff_t m_OutflowID = 0x0; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_Connection = 0x8; // CPulse_OutflowConnection
@@ -2301,6 +2299,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // ta\Local
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3839,7 +3838,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             namespace C_DynamicProp {
                 constexpr std::ptrdiff_t m_bUseHitboxesForRenderBox = 0x12D0; // bool
                 constexpr std::ptrdiff_t m_bUseAnimGraph = 0x12D1; // bool
@@ -4243,6 +4241,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // eNotifyWhenFinished
             // eNotifyTriggered
+            // ta\Local
+            // ta\Local
             namespace C_EnvCubemap {
                 constexpr std::ptrdiff_t m_Entity_hCubemapTexture = 0x680; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Entity_bCustomCubemapTexture = 0x688; // bool
