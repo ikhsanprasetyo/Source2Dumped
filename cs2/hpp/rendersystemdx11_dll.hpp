@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:01:15.746784 +07:00
+// 2026-05-08 09:58:42.993290700 +07:00
 
 #pragma once
 
@@ -148,7 +148,6 @@ namespace source2_dumper {
             // RENDER_BUFFER_IMMOVABLE_ALLOCATION
             // RENDER_SLOT_INVALID
             // RENDER_SLOT_PER_INSTANCE
-            // ================================================================<<=>?@AAFVHB?===================================================
             namespace SheetSequenceIntegerId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }

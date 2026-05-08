@@ -179,6 +179,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -217,6 +221,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -234,6 +242,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -299,6 +311,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -1002,6 +1018,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1324,6 +1344,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -1761,6 +1785,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -2320,6 +2348,10 @@
           },
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
+            "type": "Unknown"
+          },
+          {
+            "name": "0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20",
             "type": "Unknown"
           },
           {
@@ -4649,6 +4681,10 @@
           },
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
+            "type": "Unknown"
+          },
+          {
+            "name": "0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20",
             "type": "Unknown"
           }
         ],

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:01:15.746784 +07:00
+// 2026-05-08 09:58:42.993290700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2217,6 +2217,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         public static class PulseNodeDynamicOutflows_t {
             public const nint m_Outflows = 0x0; // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
         }
@@ -3207,6 +3208,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3377,6 +3379,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3484,6 +3487,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3595,6 +3599,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 89c,0x0079/0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x100
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3900,6 +3905,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5333,8 +5339,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CAimConstraint {
             public const nint m_qAimOffset = 0x60; // Quaternion
@@ -5538,6 +5542,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 89c,0x0079/0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x100
         public static class CParticleVecInput {
             public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
@@ -5965,6 +5970,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 1a,0x24c6/0x581a,0x24c6/0x591a,0x24c6/0x592a,0x24c6/0x791a,0x2dc8/0x2002,0x2dc8/0x3106,0x2dc8/0x310a,0x2e24/0x0652,0x2e24/0x1618
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -6039,9 +6045,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
+        // 0x189c,0x0079/0x1874,0x2f24/0x0050,0x2f24/0x002e,0x2f24/0x0091,0x1430/0x0719,0x0f0d/0x00ed,0x0f0d/0x00c0,0x0e6f/0x0152,0x046d/0x
+        //  
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         public static class CBaseConstraint {
@@ -6457,7 +6463,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // =================================================================<<=>?@AAFVHB?==================================================
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -6594,6 +6599,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0
         public static class CSymbolAnimParameter {
             public const nint m_defaultValue = 0x80; // CGlobalSymbol
         }
@@ -6831,10 +6837,12 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
+        // 0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL
         // PF_ROUND_TYPE_COUNT
+        //  
         // MPropertyFriendlyName
         // PARTICLE_DIR_NOISE_CURL
         // PARTICLE_DIR_NOISE_WORLEY_BASIC
@@ -7412,6 +7420,7 @@ namespace Source2Dumper.Schemas {
         // PT_TYPE_CONTROL_POINT
         // PT_TYPE_CONTROL_POINT_RANGE
         // PT_TYPE_COUNT
+        // led
         // PM_TYPE_NAMED_VALUE_MODEL
         // PM_TYPE_NAMED_VALUE_EHANDLE
         // PM_TYPE_CONTROL_POINT
@@ -7959,8 +7968,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CParentConstraint {
         }
@@ -8111,7 +8118,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // =================================================================<<=>?@AAFVHB?==================================================
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -8155,6 +8161,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0
         public static class CQuaternionAnimParameter {
             public const nint m_defaultValue = 0x80; // Quaternion
             public const nint m_bInterpolate = 0x90; // bool
@@ -8717,6 +8724,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // r
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -9108,6 +9116,7 @@ namespace Source2Dumper.Schemas {
         // PT_TYPE_CONTROL_POINT
         // PT_TYPE_CONTROL_POINT_RANGE
         // PT_TYPE_COUNT
+        // led
         // PM_TYPE_NAMED_VALUE_MODEL
         // PM_TYPE_NAMED_VALUE_EHANDLE
         // PM_TYPE_CONTROL_POINT
@@ -9403,6 +9412,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9482,7 +9492,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ==========================================================<<=>?@AAFVHB?=========================================================
         // MPropertyFriendlyName
         public static class CFutureVelocityMetricEvaluator {
             public const nint m_flDistance = 0x50; // float32
@@ -9598,6 +9607,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // r
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -9739,8 +9749,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ================================================================<<=>?@AAFVHB?===================================================
-        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         public static class CMorphConstraint {
             public const nint m_sTargetMorph = 0x60; // CUtlString
@@ -9881,6 +9889,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 1a,0x24c6/0x581a,0x24c6/0x591a,0x24c6/0x592a,0x24c6/0x791a,0x2dc8/0x2002,0x2dc8/0x3106,0x2dc8/0x310a,0x2e24/0x0652,0x2e24/0x1618
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -9951,6 +9960,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10438,6 +10448,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10506,6 +10517,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 1a,0x24c6/0x581a,0x24c6/0x591a,0x24c6/0x592a,0x24c6/0x791a,0x2dc8/0x2002,0x2dc8/0x3106,0x2dc8/0x310a,0x2e24/0x0652,0x2e24/0x1618
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -10530,8 +10542,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CTwistConstraint {
             public const nint m_bInverse = 0x60; // bool
@@ -10586,6 +10596,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // r
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -10727,8 +10738,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ================================================================<<=>?@AAFVHB?===================================================
-        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
@@ -10852,8 +10861,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CTiltTwistConstraint {
             public const nint m_nTargetAxis = 0x60; // int32
@@ -11111,8 +11118,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ================================================================<<=>?@AAFVHB?===================================================
-        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
@@ -11160,8 +11165,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CBoneConstraintPoseSpaceMorph {
             public const nint m_sBoneName = 0x20; // CUtlString
@@ -11272,6 +11275,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11405,6 +11409,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 1a,0x24c6/0x581a,0x24c6/0x591a,0x24c6/0x592a,0x24c6/0x791a,0x2dc8/0x2002,0x2dc8/0x3106,0x2dc8/0x310a,0x2e24/0x0652,0x2e24/0x1618
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -11440,8 +11445,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ================================================================<<=>?@AAFVHB?===================================================
-        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
@@ -11466,8 +11469,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class CPointConstraint {
         }
@@ -11622,8 +11623,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ===============================================================<<=>?@AAFVHB?====================================================
-        // ==============================================================<<=>?@AAFVHB?=====================================================
         // p
         public static class COrientConstraint {
         }
@@ -11965,6 +11964,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // r
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
             public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -12420,6 +12420,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -12682,6 +12683,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 1a,0x24c6/0x581a,0x24c6/0x591a,0x24c6/0x592a,0x24c6/0x791a,0x2dc8/0x2002,0x2dc8/0x3106,0x2dc8/0x310a,0x2e24/0x0652,0x2e24/0x1618
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -12715,6 +12717,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -12829,8 +12832,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ================================================================<<=>?@AAFVHB?===================================================
-        // ================================================================<<=>?@AAFVHB?===================================================
         // MPropertyCustomFGDType
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
@@ -13124,6 +13125,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33d
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -13278,7 +13280,6 @@ namespace Source2Dumper.Schemas {
         // FLAG0_SHIFT_CONSTRAIN
         // FLAG0_SHIFT_BREAKABLE_FORCE
         // FLAG0_SHIFT_BREAKABLE_TORQUE
-        // c
         // JOINT_FLAGS_BODY1_FIXED
         // JOINT_FLAGS_USE_BLOCK_SOLVER
         // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13421,10 +13422,12 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
+        // 0e6f/0x0187,0x0e6f/0x0188,0x0e6f/0x018c,0x0f0d/0x00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL
         // PF_ROUND_TYPE_COUNT
+        //  
         // MPropertyFriendlyName
         // PARTICLE_DIR_NOISE_CURL
         // PARTICLE_DIR_NOISE_WORLEY_BASIC

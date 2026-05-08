@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:01:15.746784 +07:00
+// 2026-05-08 09:58:42.993290700 +07:00
 
 #pragma once
 
@@ -115,7 +115,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ========>@BBCCDDDCDCBA@@?>>=====================================================================================================
             namespace CSSDSMsg_PostLayer {
             }
             // Parent: None
@@ -146,7 +145,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ========>@BBCCDDDCDCBA@@?>>=====================================================================================================
             namespace CSSDSMsg_PreLayer {
             }
             // Parent: None
