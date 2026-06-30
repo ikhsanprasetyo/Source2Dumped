@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -403,6 +403,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MResourceTypeForInfoType
+        // H
+        // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
         public static class InfoForResourceTypeVMapResourceData_t {
         }
         // Parent: None

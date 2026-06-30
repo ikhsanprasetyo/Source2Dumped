@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -110,6 +110,54 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // A.
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // E!
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
             pub mod GameTime_t {
                 pub const m_Value: usize = 0x0; // float32
             }
@@ -165,6 +213,61 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // 7$
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // "
+            // r
+            // E!
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
             pub mod GameTick_t {
                 pub const m_Value: usize = 0x0; // int32
             }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 export const Schemas = {
     soundsystem_dll: {
@@ -401,6 +401,7 @@ export const Schemas = {
             m_bApplyAntialiasing: 0x2C, // bool
         },
         CSndSeqInstSndEvtSchema: {
+            m_nType: 0x8, // SndSeqInstrumentType_t
         },
         CVMixNameInputMeter: {
             m_nValueIndex: 0x10, // int32

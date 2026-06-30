@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -409,14 +409,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -571,6 +569,8 @@ pub const source2_dumper = struct {
             // MVDataNodeType
             // MPropertyDescription
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub const CDSPPresetMixgroupModifierTable = struct {
                 pub const m_table: usize = 0x0; // CUtlVector<CDspPresetModifierList>
@@ -590,8 +590,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -648,11 +650,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -697,7 +698,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // i
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -748,14 +748,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -901,8 +899,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -990,13 +990,14 @@ pub const source2_dumper = struct {
                 pub const m_bApplyAntialiasing: usize = 0x2C; // bool
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub const CSndSeqInstSndEvtSchema = struct {
+                pub const m_nType: usize = 0x8; // SndSeqInstrumentType_t
             };
             // Parent: None
             // Field count: 1
@@ -1054,6 +1055,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             pub const VMixBoxverbDesc_t = struct {
                 pub const m_flSizeMax: usize = 0x0; // float32
                 pub const m_flSizeMin: usize = 0x4; // float32
@@ -1078,8 +1080,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -1279,13 +1283,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             pub const CDSPMixgroupModifier = struct {
                 pub const m_mixgroup: usize = 0x0; // CUtlString
                 pub const m_flModifier: usize = 0x8; // float32
@@ -1410,8 +1407,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const CDspPresetModifierList = struct {
                 pub const m_dspName: usize = 0x0; // CUtlString
                 pub const m_modifiers: usize = 0x8; // CUtlVector<CDSPMixgroupModifier>
@@ -1602,6 +1598,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1785,14 +1782,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2717,6 +2712,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3031,8 +3027,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3365,8 +3359,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3408,8 +3400,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -3436,6 +3430,7 @@ pub const source2_dumper = struct {
             // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
             // SNDLVL_20dB
+            // SNDLVL_25dB
             pub const CSosGroupActionMemberCountEnvelopeSchema = struct {
                 pub const m_nBaseCount: usize = 0x8; // int32
                 pub const m_nTargetCount: usize = 0xC; // int32
@@ -3580,8 +3575,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -3678,6 +3675,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription

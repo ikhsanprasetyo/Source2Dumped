@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -413,14 +413,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -575,6 +573,8 @@ namespace Source2Dumper.Schemas {
         // MVDataNodeType
         // MPropertyDescription
         // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         public static class CDSPPresetMixgroupModifierTable {
             public const nint m_table = 0x0; // CUtlVector<CDspPresetModifierList>
@@ -594,8 +594,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // kBranch
         // kMatch
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
@@ -652,11 +654,10 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -701,7 +702,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // i
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -752,14 +752,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -905,8 +903,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // kBranch
         // kMatch
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
@@ -994,13 +994,14 @@ namespace Source2Dumper.Schemas {
             public const nint m_bApplyAntialiasing = 0x2C; // bool
         }
         // Parent: None
-        // Field count: 0
+        // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         public static class CSndSeqInstSndEvtSchema {
+            public const nint m_nType = 0x8; // SndSeqInstrumentType_t
         }
         // Parent: None
         // Field count: 1
@@ -1058,6 +1059,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
         public static class VMixBoxverbDesc_t {
             public const nint m_flSizeMax = 0x0; // float32
             public const nint m_flSizeMin = 0x4; // float32
@@ -1082,8 +1084,10 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // kBranch
         // kMatch
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
@@ -1283,13 +1287,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
         public static class CDSPMixgroupModifier {
             public const nint m_mixgroup = 0x0; // CUtlString
             public const nint m_flModifier = 0x8; // float32
@@ -1414,8 +1411,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         public static class CDspPresetModifierList {
             public const nint m_dspName = 0x0; // CUtlString
             public const nint m_modifiers = 0x8; // CUtlVector<CDSPMixgroupModifier>
@@ -1606,6 +1602,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1789,14 +1786,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -2721,6 +2716,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3035,8 +3031,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3369,8 +3363,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -3412,8 +3404,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // kBranch
         // kMatch
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
@@ -3440,6 +3434,7 @@ namespace Source2Dumper.Schemas {
         // SndSeqMidiStatusPitchBend
         // MGetKV3ClassDefaults
         // SNDLVL_20dB
+        // SNDLVL_25dB
         public static class CSosGroupActionMemberCountEnvelopeSchema {
             public const nint m_nBaseCount = 0x8; // int32
             public const nint m_nTargetCount = 0xC; // int32
@@ -3584,8 +3579,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // kBranch
         // kMatch
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
@@ -3682,6 +3679,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription

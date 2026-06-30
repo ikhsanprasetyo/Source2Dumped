@@ -589,6 +589,14 @@
           {
             "name": "MResourceTypeForInfoType",
             "type": "Unknown"
+          },
+          {
+            "name": "H",
+            "type": "Unknown"
+          },
+          {
+            "name": "ll,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t",
+            "type": "Unknown"
           }
         ],
         "parent": null

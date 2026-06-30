@@ -26,6 +26,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -84,6 +88,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": ":",
             "type": "Unknown"
           },
           {
@@ -218,6 +226,10 @@
             "type": "Unknown"
           },
           {
+            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -231,6 +243,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -301,6 +317,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": ":",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -342,15 +362,15 @@
             "type": "Unknown"
           },
           {
+            "name": "e38637bfd0cafb565a69d4ebd261f_large.png\"}, {\"name\": \"Misa\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "l",
             "type": "Unknown"
           },
           {
@@ -428,10 +448,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -559,11 +575,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MEntitySubclassScopeFile",
+            "name": "R",
             "type": "Unknown"
           }
         ],
@@ -678,6 +690,74 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "TEXT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ENTITY",
+            "type": "Unknown"
+          },
+          {
+            "name": "COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "TACTICAL_SEARCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_SCHEDULE",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_TASK",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_EVENT",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_PATHFINDING",
+            "type": "Unknown"
+          },
+          {
+            "name": "END_SIM_HISTORY_TYPES",
+            "type": "Unknown"
+          },
+          {
+            "name": "COMBINED",
+            "type": "Unknown"
+          },
+          {
+            "name": "MATCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "HIERARCHY",
+            "type": "Unknown"
+          },
+          {
+            "name": "COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ANY",
+            "type": "Unknown"
+          },
+          {
+            "name": "COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyAttributeRange",
             "type": "Unknown"
           },
@@ -686,11 +766,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MSaveOpsForField",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -891,6 +971,10 @@
             "type": "Unknown"
           },
           {
+            "name": ":",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -982,6 +1066,14 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "CHAT_IGNORE_ALL",
+            "type": "Unknown"
+          },
+          {
+            "name": "CHAT_IGNORE_TEAM",
             "type": "Unknown"
           }
         ],
@@ -1454,10 +1546,6 @@
           "m_sModelNameAg2Override": 264
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -1986,10 +2074,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "ta\\Local",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2027,146 +2111,146 @@
       },
       "CCSBot": {
         "fields": {
-          "m_aimError": 22952,
-          "m_aimFocus": 22980,
-          "m_aimFocusInterval": 22984,
-          "m_aimFocusNextUpdate": 22988,
-          "m_aimGoal": 22964,
+          "m_aimError": 22984,
+          "m_aimFocus": 23012,
+          "m_aimFocusInterval": 23016,
+          "m_aimFocusNextUpdate": 23020,
+          "m_aimGoal": 22996,
           "m_alertTimer": 464,
           "m_allowAutoFollowTime": 436,
-          "m_approachPointCount": 21760,
-          "m_approachPointViewPosition": 21764,
-          "m_areaEnteredTimestamp": 20212,
-          "m_attackedTimestamp": 23628,
-          "m_attacker": 23624,
-          "m_attentionInterval": 23608,
-          "m_avgVel": 23996,
-          "m_avgVelCount": 24040,
-          "m_avgVelIndex": 24036,
-          "m_avoid": 1492,
-          "m_avoidFriendTimer": 20240,
-          "m_avoidTimestamp": 1496,
+          "m_approachPointCount": 21792,
+          "m_approachPointViewPosition": 21796,
+          "m_areaEnteredTimestamp": 20244,
+          "m_attackedTimestamp": 23660,
+          "m_attacker": 23656,
+          "m_attentionInterval": 23640,
+          "m_avgVel": 24028,
+          "m_avgVelCount": 24072,
+          "m_avgVelIndex": 24068,
+          "m_avoid": 1524,
+          "m_avoidFriendTimer": 20272,
+          "m_avoidTimestamp": 1528,
           "m_bAllowActive": 424,
-          "m_bEyeAnglesUnderPathFinderControl": 1520,
-          "m_bIsSleeping": 23728,
-          "m_bendNoisePositionValid": 21300,
-          "m_bentNoisePosition": 21288,
+          "m_bEyeAnglesUnderPathFinderControl": 1552,
+          "m_bIsSleeping": 23760,
+          "m_bendNoisePositionValid": 21332,
+          "m_bentNoisePosition": 21320,
           "m_blindFire": 396,
-          "m_bomber": 23592,
-          "m_burnedByFlamesTimer": 23632,
-          "m_checkedHidingSpotCount": 22896,
-          "m_closestVisibleFriend": 23600,
-          "m_closestVisibleHumanFriend": 23604,
+          "m_bomber": 23624,
+          "m_burnedByFlamesTimer": 23664,
+          "m_checkedHidingSpotCount": 22928,
+          "m_closestVisibleFriend": 23632,
+          "m_closestVisibleHumanFriend": 23636,
           "m_combatRange": 340,
-          "m_currentEnemyAcquireTimestamp": 23052,
-          "m_desiredTeam": 21160,
+          "m_currentEnemyAcquireTimestamp": 23084,
+          "m_desiredTeam": 21192,
           "m_diedLastRound": 380,
-          "m_enemy": 23024,
-          "m_enemyDeathTimestamp": 23056,
-          "m_enemyQueueAttendIndex": 23922,
-          "m_enemyQueueCount": 23921,
-          "m_enemyQueueIndex": 23920,
-          "m_equipTimer": 23656,
+          "m_enemy": 23056,
+          "m_enemyDeathTimestamp": 23088,
+          "m_enemyQueueAttendIndex": 23954,
+          "m_enemyQueueCount": 23953,
+          "m_enemyQueueIndex": 23952,
+          "m_equipTimer": 23688,
           "m_eyePosition": 264,
-          "m_fireWeaponTimestamp": 23696,
-          "m_firstSawEnemyTimestamp": 23048,
+          "m_fireWeaponTimestamp": 23728,
+          "m_firstSawEnemyTimestamp": 23080,
           "m_followTimestamp": 432,
-          "m_forwardAngle": 21316,
-          "m_friendDeathTimestamp": 23060,
-          "m_goalEntity": 1488,
-          "m_goalPosition": 1476,
-          "m_hasJoined": 21164,
-          "m_hasVisitedEnemySpawn": 1501,
-          "m_hostageEscortCount": 21152,
-          "m_hostageEscortCountTimestamp": 21156,
+          "m_forwardAngle": 21348,
+          "m_friendDeathTimestamp": 23092,
+          "m_goalEntity": 1520,
+          "m_goalPosition": 1508,
+          "m_hasJoined": 21196,
+          "m_hasVisitedEnemySpawn": 1533,
+          "m_hostageEscortCount": 21184,
+          "m_hostageEscortCountTimestamp": 21188,
           "m_hurryTimer": 440,
-          "m_ignoreEnemiesTimer": 23000,
-          "m_inhibitLookAroundTimestamp": 21320,
-          "m_inhibitWaitingForHostageTimer": 21168,
-          "m_isAimingAtEnemy": 23652,
-          "m_isAttacking": 1452,
-          "m_isAvoidingGrenade": 21832,
-          "m_isEnemySniperVisible": 23729,
-          "m_isEnemyVisible": 23028,
+          "m_ignoreEnemiesTimer": 23032,
+          "m_inhibitLookAroundTimestamp": 21352,
+          "m_inhibitWaitingForHostageTimer": 21200,
+          "m_isAimingAtEnemy": 23684,
+          "m_isAttacking": 1484,
+          "m_isAvoidingGrenade": 21864,
+          "m_isEnemySniperVisible": 23761,
+          "m_isEnemyVisible": 23060,
           "m_isFollowing": 425,
-          "m_isFriendInTheWay": 20264,
-          "m_isLastEnemyDead": 23064,
-          "m_isOpeningDoor": 1453,
-          "m_isRapidFiring": 23653,
+          "m_isFriendInTheWay": 20296,
+          "m_isLastEnemyDead": 23096,
+          "m_isOpeningDoor": 1485,
+          "m_isRapidFiring": 23685,
           "m_isRogue": 344,
-          "m_isStopping": 1500,
-          "m_isStuck": 23923,
-          "m_isWaitingBehindFriend": 20296,
-          "m_isWaitingForHostage": 21165,
-          "m_lastEnemyPosition": 23032,
-          "m_lastOrigin": 24044,
-          "m_lastRadioRecievedTimestamp": 24060,
-          "m_lastRadioSentTimestamp": 24064,
-          "m_lastSawEnemyTimestamp": 23044,
-          "m_lastValidReactionQueueFrame": 24096,
-          "m_lastVictimID": 23648,
+          "m_isStopping": 1532,
+          "m_isStuck": 23955,
+          "m_isWaitingBehindFriend": 20328,
+          "m_isWaitingForHostage": 21197,
+          "m_lastEnemyPosition": 23064,
+          "m_lastOrigin": 24076,
+          "m_lastRadioRecievedTimestamp": 24092,
+          "m_lastRadioSentTimestamp": 24096,
+          "m_lastSawEnemyTimestamp": 23076,
+          "m_lastValidReactionQueueFrame": 24128,
+          "m_lastVictimID": 23680,
           "m_leader": 428,
-          "m_lookAheadAngle": 21308,
-          "m_lookAroundStateTimestamp": 21304,
-          "m_lookAtDesc": 21360,
-          "m_lookAtSpot": 21328,
-          "m_lookAtSpotAngleTolerance": 21352,
-          "m_lookAtSpotAttack": 21357,
-          "m_lookAtSpotClearIfClose": 21356,
-          "m_lookAtSpotDuration": 21344,
-          "m_lookAtSpotTimestamp": 21348,
-          "m_lookForWeaponsOnGroundTimer": 23704,
-          "m_lookPitch": 22900,
-          "m_lookPitchVel": 22904,
-          "m_lookUpAngle": 21312,
-          "m_lookYaw": 22908,
-          "m_lookYawVel": 22912,
-          "m_mustRunTimer": 20416,
+          "m_lookAheadAngle": 21340,
+          "m_lookAroundStateTimestamp": 21336,
+          "m_lookAtDesc": 21392,
+          "m_lookAtSpot": 21360,
+          "m_lookAtSpotAngleTolerance": 21384,
+          "m_lookAtSpotAttack": 21389,
+          "m_lookAtSpotClearIfClose": 21388,
+          "m_lookAtSpotDuration": 21376,
+          "m_lookAtSpotTimestamp": 21380,
+          "m_lookForWeaponsOnGroundTimer": 23736,
+          "m_lookPitch": 22932,
+          "m_lookPitchVel": 22936,
+          "m_lookUpAngle": 21344,
+          "m_lookYaw": 22940,
+          "m_lookYawVel": 22944,
+          "m_mustRunTimer": 20448,
           "m_name": 276,
-          "m_nearbyEnemyCount": 23068,
-          "m_nearbyFriendCount": 23596,
-          "m_nextCleanupCheckTimestamp": 23992,
-          "m_noiseBendTimer": 21264,
-          "m_noisePosition": 21216,
-          "m_noiseSource": 21240,
-          "m_noiseTimestamp": 21232,
-          "m_noiseTravelDistance": 21228,
+          "m_nearbyEnemyCount": 23100,
+          "m_nearbyFriendCount": 23628,
+          "m_nextCleanupCheckTimestamp": 24024,
+          "m_noiseBendTimer": 21296,
+          "m_noisePosition": 21248,
+          "m_noiseSource": 21272,
+          "m_noiseTimestamp": 21264,
+          "m_noiseTravelDistance": 21260,
           "m_panicTimer": 512,
-          "m_pathIndex": 20208,
-          "m_pathLadderEnd": 20340,
-          "m_peripheralTimestamp": 21368,
-          "m_playerTravelDistance": 20488,
-          "m_politeTimer": 20272,
-          "m_radioPosition": 24072,
-          "m_radioSubject": 24068,
-          "m_repathTimer": 20216,
+          "m_pathIndex": 20240,
+          "m_pathLadderEnd": 20372,
+          "m_peripheralTimestamp": 21400,
+          "m_playerTravelDistance": 20520,
+          "m_politeTimer": 20304,
+          "m_radioPosition": 24104,
+          "m_radioSubject": 24100,
+          "m_repathTimer": 20248,
           "m_rogueTimer": 352,
           "m_safeTime": 384,
-          "m_sawEnemySniperTimer": 23736,
+          "m_sawEnemySniperTimer": 23768,
           "m_sneakTimer": 488,
-          "m_spotCheckTimestamp": 21864,
-          "m_stateTimestamp": 1448,
-          "m_stillTimer": 1504,
-          "m_stuckJumpTimer": 23968,
-          "m_stuckSpot": 23928,
-          "m_stuckTimestamp": 23924,
+          "m_spotCheckTimestamp": 21896,
+          "m_stateTimestamp": 1480,
+          "m_stillTimer": 1536,
+          "m_stuckJumpTimer": 24000,
+          "m_stuckSpot": 23960,
+          "m_stuckTimestamp": 23956,
           "m_surpriseTimer": 400,
-          "m_targetSpot": 22916,
-          "m_targetSpotPredicted": 22940,
-          "m_targetSpotTime": 22976,
-          "m_targetSpotVelocity": 22928,
-          "m_taskEntity": 1460,
-          "m_tossGrenadeTimer": 21800,
-          "m_travelDistancePhase": 20744,
-          "m_updateTravelDistanceTimer": 20464,
-          "m_viewSteadyTimer": 21776,
-          "m_visibleEnemyParts": 23029,
-          "m_voiceEndTimestamp": 24084,
-          "m_waitForHostageTimer": 21192,
-          "m_waitTimer": 20440,
+          "m_targetSpot": 22948,
+          "m_targetSpotPredicted": 22972,
+          "m_targetSpotTime": 23008,
+          "m_targetSpotVelocity": 22960,
+          "m_taskEntity": 1492,
+          "m_tossGrenadeTimer": 21832,
+          "m_travelDistancePhase": 20776,
+          "m_updateTravelDistanceTimer": 20496,
+          "m_viewSteadyTimer": 21808,
+          "m_visibleEnemyParts": 23061,
+          "m_voiceEndTimestamp": 24116,
+          "m_waitForHostageTimer": 21224,
+          "m_waitTimer": 20472,
           "m_wasSafe": 388,
-          "m_wiggleTimer": 23944,
-          "m_zoomTimer": 23672
+          "m_wiggleTimer": 23976,
+          "m_zoomTimer": 23704
         },
         "metadata": [],
         "parent": "CBot"
@@ -2738,13 +2822,12 @@
           "m_RetakesMVPBoostExtraUtility": 3700,
           "m_TouchingBuyZones": 3656,
           "m_allowAutoFollowTime": 4648,
-          "m_angEyeAngles": 5000,
-          "m_angShootAngleHistory": 4900,
+          "m_angEyeAngles": 4928,
           "m_angStashedShootAngles": 4864,
           "m_bBotAllowActive": 4768,
-          "m_bCommittingSuicideOnTeamChange": 4984,
+          "m_bCommittingSuicideOnTeamChange": 4912,
           "m_bGrenadeParametersStashed": 4860,
-          "m_bGunGameImmunity": 4992,
+          "m_bGunGameImmunity": 4920,
           "m_bHasDeathInfo": 4812,
           "m_bHasFemaleVoice": 3394,
           "m_bInBombZone": 3682,
@@ -2773,10 +2856,10 @@
           "m_bWasInBuyZone": 3680,
           "m_bWasInHostageRescueZone": 3683,
           "m_entitySpottedState": 4664,
-          "m_fImmuneToGunGameDamageTime": 4988,
+          "m_fImmuneToGunGameDamageTime": 4916,
           "m_fLastGivenBombTime": 4632,
           "m_fLastGivenDefuserTime": 4628,
-          "m_fMolotovDamageTime": 4996,
+          "m_fMolotovDamageTime": 4924,
           "m_fSwitchedHandednessTime": 4604,
           "m_flDealtDamageToEnemyMostRecentTimestamp": 4636,
           "m_flDeathInfoTime": 4816,
@@ -2835,10 +2918,8 @@
           "m_vecPlayerPatchEconIndices": 4832,
           "m_vecStashedGrenadeThrowPosition": 4876,
           "m_vecStashedVelocity": 4888,
-          "m_vecThrowPositionHistory": 4924,
           "m_vecTotalBulletForce": 4732,
-          "m_vecVelocityHistory": 4948,
-          "m_wasNotKilledNaturally": 4985
+          "m_wasNotKilledNaturally": 4913
         },
         "metadata": [],
         "parent": "CCSPlayerPawnBase"
@@ -3271,6 +3352,10 @@
           },
           {
             "name": "MPropertySuppressBaseClassField",
+            "type": "Unknown"
+          },
+          {
+            "name": "m",
             "type": "Unknown"
           }
         ],
@@ -3757,7 +3842,16 @@
           "m_pOutputAnimLoopCycleOver": 2832,
           "m_pOutputAnimOver": 2808
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MOVELINEAR_AUTHORED_AT_OPEN_POSITION",
+            "type": "Unknown"
+          },
+          {
+            "name": "MOVELINEAR_AUTHORED_AT_CLOSED_POSITION",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBreakableProp"
       },
       "CDynamicPropAlias_cable_dynamic": {
@@ -3862,10 +3956,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "TEXT",
             "type": "Unknown"
           },
@@ -3938,11 +4028,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -4117,6 +4207,10 @@
           {
             "name": "eNotifyTriggered",
             "type": "Unknown"
+          },
+          {
+            "name": "t",
+            "type": "Unknown"
           }
         ],
         "parent": "CBaseEntity"
@@ -4147,7 +4241,12 @@
           "m_Entity_vBoxProjectMins": 1336,
           "m_Entity_vEdgeFadeDists": 1380
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ll,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseEntity"
       },
       "CEnvCubemapBox": {
@@ -4203,107 +4302,11 @@
             "type": "Unknown"
           },
           {
-            "name": "FUNC_DOOR_SPAWN_OPEN",
-            "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "l",
-            "type": "Unknown"
-          },
-          {
-            "name": "expDirected",
-            "type": "Unknown"
-          },
-          {
-            "name": "expUsePrecise",
-            "type": "Unknown"
-          },
-          {
-            "name": "matWood",
-            "type": "Unknown"
-          },
-          {
-            "name": "matMetal",
-            "type": "Unknown"
-          },
-          {
-            "name": "matFlesh",
-            "type": "Unknown"
-          },
-          {
-            "name": "matCinderBlock",
-            "type": "Unknown"
-          },
-          {
-            "name": "matCeilingTile",
-            "type": "Unknown"
-          },
-          {
-            "name": "matComputer",
-            "type": "Unknown"
-          },
-          {
-            "name": "matUnbreakableGlass",
-            "type": "Unknown"
-          },
-          {
-            "name": "matRocks",
-            "type": "Unknown"
-          },
-          {
-            "name": "matWeb",
-            "type": "Unknown"
-          },
-          {
-            "name": "matNone",
-            "type": "Unknown"
-          },
-          {
-            "name": "matLastMaterial",
-            "type": "Unknown"
-          },
-          {
-            "name": "BLOCK_LOS_FORCE_FALSE",
-            "type": "Unknown"
-          },
-          {
-            "name": "BLOCK_LOS_FORCE_TRUE",
-            "type": "Unknown"
-          },
-          {
-            "name": "eMovementBegin",
-            "type": "Unknown"
-          },
-          {
-            "name": "eStopBegin",
-            "type": "Unknown"
-          },
-          {
-            "name": "eStopComplete",
-            "type": "Unknown"
-          },
-          {
-            "name": "eReversing",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEventsDispatched",
-            "type": "Unknown"
-          },
-          {
-            "name": "MOVE_OSCILLATE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MOVE_STOP_AT_END",
+            "name": ":",
             "type": "Unknown"
           }
         ],
@@ -4526,12 +4529,7 @@
           "m_vTintColor": 1913,
           "m_vTintColorLightingOnly": 1917
         },
-        "metadata": [
-          {
-            "name": "ta\\Local",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "CBaseModelEntity"
       },
       "CEnvSoundscape": {
@@ -4867,43 +4865,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
+            "name": "MPropertyCustomEditor",
             "type": "Unknown"
           }
         ],
@@ -4916,42 +4878,6 @@
         "metadata": [
           {
             "name": "MPropertyCustomEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressBaseClassField",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressBaseClassField",
             "type": "Unknown"
           }
         ],
@@ -5031,6 +4957,22 @@
           "m_iChangedVariables": 1300
         },
         "metadata": [
+          {
+            "name": "j",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -6127,7 +6069,32 @@
           "m_szTargetsName": 1288,
           "m_vecCSSClasses": 1264
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "WORLDTEXT_HORIZONTAL_ALIGN_CENTER",
+            "type": "Unknown"
+          },
+          {
+            "name": "WORLDTEXT_HORIZONTAL_ALIGN_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "WORLDTEXT_VERTICAL_ALIGN_CENTER",
+            "type": "Unknown"
+          },
+          {
+            "name": "WORLDTEXT_VERTICAL_ALIGN_BOTTOM",
+            "type": "Unknown"
+          },
+          {
+            "name": "WORLDTEXT_ORIENTATION_FACEUSER",
+            "type": "Unknown"
+          },
+          {
+            "name": "WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CPointEntity"
       },
       "CInfoParticleTarget": {
@@ -6135,6 +6102,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\",
             "type": "Unknown"
           },
           {
@@ -6189,7 +6160,20 @@
       },
       "CInfoTarget": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CPointEntity"
       },
       "CInfoTargetServerOnly": {
@@ -6463,7 +6447,20 @@
         "fields": {
           "m_CLightComponent": 1896
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseModelEntity"
       },
       "CLightEnvironmentEntity": {
@@ -7257,6 +7254,14 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "00,0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7390,6 +7395,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "00,0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7445,7 +7454,44 @@
           "m_vServerControlPoints": 2440,
           "m_vecDataCPValue": 3276
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ACTIVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "FINISHED",
+            "type": "Unknown"
+          },
+          {
+            "name": "FAILED",
+            "type": "Unknown"
+          },
+          {
+            "name": "INTERACT_PASSIVE_LOOKAT",
+            "type": "Unknown"
+          },
+          {
+            "name": "INTERACT_PASSIVE_SPEAK",
+            "type": "Unknown"
+          },
+          {
+            "name": "INTERACT_PRIORITY_PASSIVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "INTERACT_PRIORITY_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "INTERACT_PRIORITY_MED",
+            "type": "Unknown"
+          },
+          {
+            "name": "INTERACT_PRIORITY_HIGH",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseModelEntity"
       },
       "CPathCorner": {
@@ -7569,6 +7615,10 @@
         "metadata": [
           {
             "name": "CRATE_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": ",",
             "type": "Unknown"
           },
           {
@@ -8327,32 +8377,7 @@
           "m_unVerticalAlign": 2280,
           "m_vecCSSClasses": 2296
         },
-        "metadata": [
-          {
-            "name": "WORLDTEXT_HORIZONTAL_ALIGN_CENTER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_HORIZONTAL_ALIGN_RIGHT",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_VERTICAL_ALIGN_CENTER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_VERTICAL_ALIGN_BOTTOM",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_ORIENTATION_FACEUSER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "CBaseClientUIEntity"
       },
       "CPointClientUIWorldTextPanel": {
@@ -8453,12 +8478,7 @@
           "m_nConstraint": 1212,
           "m_nGoalDirection": 1208
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "CBaseEntity"
       },
       "CPointPrefab": {
@@ -8654,10 +8674,6 @@
             "type": "Unknown"
           },
           {
-            "name": "generic",
-            "type": "Unknown"
-          },
-          {
             "name": "INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP",
             "type": "Unknown"
           },
@@ -8695,6 +8711,86 @@
           "m_szParticlePrecipitationEffect": 40
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHATTERDAMAGE_MELEE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHATTERDAMAGE_THROWN",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHATTERDAMAGE_SCRIPT",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHATTERDAMAGE_EXPLOSIVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHATTERGLASS_BALLISTIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHATTERGLASS_PULSE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHATTERGLASS_EXPLOSIVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ONFRAME_TRUE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ONFRAME_FALSE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SHARD_DEBRIS",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_BEST_COLLISION_BOUNDS",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_HITBOXES",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_SPECIFIED_BOUNDS",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_GAME_CODE",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_ROTATION_EXPANDED_BOUNDS",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_ROTATION_EXPANDED_ORIENTED_BOUNDS",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_COLLISION_BOUNDS_NEVER_VPHYSICS",
+            "type": "Unknown"
+          },
+          {
+            "name": "USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS",
+            "type": "Unknown"
+          },
+          {
+            "name": "SURROUNDING_TYPE_BIT_COUNT",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -8847,6 +8943,10 @@
             "type": "Unknown"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8976,6 +9076,10 @@
             "type": "Unknown"
           },
           {
+            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
@@ -9017,6 +9121,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "ll,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t",
             "type": "Unknown"
           }
         ],
@@ -9103,6 +9211,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
             "type": "Unknown"
           },
           {
@@ -9265,6 +9377,10 @@
           {
             "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -9295,6 +9411,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": ":",
             "type": "Unknown"
           },
           {
@@ -9583,6 +9703,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
             "type": "Unknown"
           },
           {
@@ -9945,6 +10069,10 @@
             "type": "Unknown"
           },
           {
+            "name": "ull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -10063,6 +10191,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
             "type": "Unknown"
           },
           {
@@ -10198,6 +10330,10 @@
             "type": "Unknown"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10254,14 +10390,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           },
@@ -10323,18 +10451,6 @@
           },
           {
             "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -10390,14 +10506,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           },
@@ -10460,18 +10568,6 @@
           {
             "name": "MPropertySuppressExpr",
             "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -10502,6 +10598,62 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "DOOR_CHECK_BACKWARD",
+            "type": "Unknown"
+          },
+          {
+            "name": "DOOR_CHECK_FULL",
+            "type": "Unknown"
+          },
+          {
+            "name": "DOOR_SPAWN_OPEN_FORWARD",
+            "type": "Unknown"
+          },
+          {
+            "name": "DOOR_SPAWN_OPEN_BACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "DOOR_SPAWN_AJAR",
+            "type": "Unknown"
+          },
+          {
+            "name": "DOOR_ROTATING_OPEN_FORWARD",
+            "type": "Unknown"
+          },
+          {
+            "name": "DOOR_ROTATING_OPEN_BACKWARD",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -10527,18 +10679,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": ")",
-            "type": "Unknown"
-          },
-          {
-            "name": ")",
             "type": "Unknown"
           },
           {
@@ -10594,6 +10734,46 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyEditContextOverrideValue",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           }
         ],
@@ -10979,6 +11159,10 @@
             "type": "Unknown"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11009,6 +11193,10 @@
             "type": "Unknown"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11030,6 +11218,26 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeSuggestionName",
             "type": "Unknown"
           }
         ],
@@ -11087,14 +11295,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -11159,14 +11359,6 @@
           },
           {
             "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
             "type": "Unknown"
           }
         ],
@@ -11254,6 +11446,10 @@
             "type": "Unknown"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11282,11 +11478,23 @@
             "type": "Unknown"
           },
           {
+            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
             "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -11303,54 +11511,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -11414,6 +11574,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
             "type": "Unknown"
           },
           {
@@ -11553,6 +11717,10 @@
             "type": "Unknown"
           },
           {
+            "name": ":",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -11643,6 +11811,10 @@
             "type": "Unknown"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11705,6 +11877,10 @@
             "type": "Unknown"
           },
           {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11764,6 +11940,10 @@
           {
             "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -11784,6 +11964,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "ll,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t",
             "type": "Unknown"
           }
         ],
@@ -11897,6 +12081,10 @@
             "type": "Unknown"
           },
           {
+            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
@@ -11957,58 +12145,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "HIERARCHY_BONE_MERGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "HIERARCHY_ATTACHMENT",
-            "type": "Unknown"
-          },
-          {
-            "name": "HIERARCHY_ABSORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "HIERARCHY_BONE",
-            "type": "Unknown"
-          },
-          {
-            "name": "HIERARCHY_TYPE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ROTATOR_TARGET_LOCALSPACE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ROTATE_OSCILLATE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ROTATE_STOP_AT_END",
-            "type": "Unknown"
-          },
-          {
-            "name": "ROTATE_LOOK_AT_TARGET",
-            "type": "Unknown"
-          },
-          {
-            "name": "ROTATE_LOOK_AT_TARGET_ONLY_YAW",
-            "type": "Unknown"
-          },
-          {
-            "name": "ROTATE_RETURN_TO_INITIAL_ORIENTATION",
             "type": "Unknown"
           }
         ],
@@ -12172,7 +12308,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorCanvasItemSpecKV3",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -12180,71 +12316,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorCanvasItemSpecKV3",
+            "name": "MPropertyCustomFGDType",
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeSuggestionName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -12272,10 +12348,6 @@
             "type": "Unknown"
           },
           {
-            "name": "ta\\Local",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -12293,6 +12365,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": ":",
             "type": "Unknown"
           },
           {
@@ -12591,6 +12667,10 @@
         "metadata": [
           {
             "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          },
+          {
+            "name": "43706,\"votes_down\":6384,\"comment_type\":\"ForumTopic\",\"gidfeature\":\"1634166237646390927\",\"gidfeature2\":\"659359514129288535\",\"clan_",
             "type": "Unknown"
           }
         ],
@@ -13276,26 +13356,6 @@
           {
             "name": "MPropertyCustomEditor",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyCustomEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyCustomEditor",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -13323,6 +13383,10 @@
           },
           {
             "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          },
+          {
+            "name": "43706,\"votes_down\":6384,\"comment_type\":\"ForumTopic\",\"gidfeature\":\"1634166237646390927\",\"gidfeature2\":\"659359514129288535\",\"clan_",
             "type": "Unknown"
           }
         ],
@@ -13906,6 +13970,18 @@
       "CTestPulseIOComponent_Derived": {
         "fields": {},
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -14632,6 +14708,10 @@
             "type": "Unknown"
           },
           {
+            "name": ":",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -14821,38 +14901,6 @@
           {
             "name": "MVDataOverlayType",
             "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_CHANGE_PITCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_STOP",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_DESTROY",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_FADEOUT",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -14924,6 +14972,10 @@
             "type": "Unknown"
           },
           {
+            "name": "ClientJob_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty",
+            "type": "Unknown"
+          },
+          {
             "name": "ClientJob_EMsgGCCStrike15_v2_MatchEndRewardDropsNotification",
             "type": "Unknown"
           }
@@ -14992,70 +15044,6 @@
         },
         "metadata": [
           {
-            "name": "TEXT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY",
-            "type": "Unknown"
-          },
-          {
-            "name": "COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "TACTICAL_SEARCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "AI_SCHEDULE",
-            "type": "Unknown"
-          },
-          {
-            "name": "AI_TASK",
-            "type": "Unknown"
-          },
-          {
-            "name": "AI_EVENT",
-            "type": "Unknown"
-          },
-          {
-            "name": "AI_PATHFINDING",
-            "type": "Unknown"
-          },
-          {
-            "name": "END_SIM_HISTORY_TYPES",
-            "type": "Unknown"
-          },
-          {
-            "name": "COMBINED",
-            "type": "Unknown"
-          },
-          {
-            "name": "MATCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "HIERARCHY",
-            "type": "Unknown"
-          },
-          {
-            "name": "COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ANY",
-            "type": "Unknown"
-          },
-          {
-            "name": "COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyAttributeRange",
             "type": "Unknown"
           },
@@ -15068,7 +15056,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MSaveOpsForField",
             "type": "Unknown"
           }
         ],
@@ -15089,6 +15077,18 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
             "type": "Unknown"
           },
           {
@@ -15224,6 +15224,14 @@
           },
           {
             "name": "eAttachment",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MEntitySubclassScopeFile",
             "type": "Unknown"
           },
           {
@@ -15726,20 +15734,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "ta\\Local",
-            "type": "Unknown"
-          },
-          {
-            "name": "m",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SceneInterestTags_t": {
@@ -15765,7 +15760,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "generic",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "SceneRequestHandle_t": {

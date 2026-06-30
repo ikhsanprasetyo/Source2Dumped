@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 #pragma once
 
@@ -177,6 +177,8 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             namespace InfoForResourceTypeCVSoundStackScriptList {
             }
             // Parent: None
@@ -220,6 +222,10 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
+            // r
+            // r
             namespace InfoForResourceTypeManifestTestResource_t {
             }
             // Parent: None
@@ -263,6 +269,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             namespace InfoForResourceTypeCGcExportableExternalData {
             }
             // Parent: None
@@ -549,6 +556,10 @@ namespace source2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
+            // r
+            // r
             namespace InfoForResourceTypeProceduralTestResource_t {
             }
             // Parent: None
@@ -682,6 +693,8 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             namespace InfoForResourceTypeCPanoramaLayout {
             }
             // Parent: None
@@ -738,6 +751,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             namespace InfoForResourceTypeCChoreoSceneResource {
             }
             // Parent: None
@@ -757,6 +771,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             namespace InfoForResourceTypeCNmSkeleton {
             }
             // Parent: None
@@ -768,6 +783,10 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
+            // r
+            // r
             namespace InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
@@ -786,6 +805,8 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             namespace InfoForResourceTypeCAnimationGroup {
             }
             // Parent: None
@@ -800,6 +821,8 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             namespace InfoForResourceTypeCVSoundEventScriptList {
             }
             // Parent: None
@@ -960,6 +983,7 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             namespace InfoForResourceTypeCCSGOEconItem {
             }
             // Parent: None
@@ -1301,6 +1325,8 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             namespace InfoForResourceTypeIPulseGraphDef {
             }
             // Parent: None
@@ -1365,6 +1391,8 @@ namespace source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             namespace InfoForResourceTypeCVDataResource {
             }
             // Parent: None

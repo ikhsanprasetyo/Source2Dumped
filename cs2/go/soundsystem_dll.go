@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 package schemas
 
@@ -287,6 +287,7 @@ const (
     SoundsystemDll_VMixModDelayDesc_t_m_flModRate = 0x24 // float32
     SoundsystemDll_VMixModDelayDesc_t_m_flModDepth = 0x28 // float32
     SoundsystemDll_VMixModDelayDesc_t_m_bApplyAntialiasing = 0x2C // bool
+    SoundsystemDll_CSndSeqInstSndEvtSchema_m_nType = 0x8 // SndSeqInstrumentType_t
     SoundsystemDll_CVMixNameInputMeter_m_nValueIndex = 0x10 // int32
     SoundsystemDll_CVMixDynamics3BandProcessorDesc_m_desc = 0x20 // VMixDynamics3BandDesc_t
     SoundsystemDll_VMixBoxverbDesc_t_m_flSizeMax = 0x0 // float32

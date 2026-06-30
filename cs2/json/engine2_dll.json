@@ -419,14 +419,412 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "7$",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "\"",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "E!",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "GameTime_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "A.",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "E!",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       }
     },

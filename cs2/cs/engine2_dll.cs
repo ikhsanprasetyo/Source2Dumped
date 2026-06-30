@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
@@ -105,6 +105,54 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // A.
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // E!
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
         public static class GameTime_t {
             public const nint m_Value = 0x0; // float32
         }
@@ -160,6 +208,61 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // 7$
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // "
+        // r
+        // E!
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
+        // r
         public static class GameTick_t {
             public const nint m_Value = 0x0; // int32
         }

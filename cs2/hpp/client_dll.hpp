@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 #pragma once
 
@@ -377,6 +377,9 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 18
+            //
+            // Metadata:
+            // generic
             namespace C_EnvVolumetricFogVolume {
                 constexpr std::ptrdiff_t m_bActive = 0x600; // bool
                 constexpr std::ptrdiff_t m_vBoxMins = 0x604; // Vector
@@ -525,12 +528,7 @@ namespace source2_dumper {
             // Field count: 12
             //
             // Metadata:
-            // MPropertyDescription
-            // MPropertyAttributeSuggestionName
-            // MPropertyDescription
-            // MPropertyDescription
-            // M=
-            // generic
+            // PM_NO_GIBS
             namespace C_PostProcessingVolume {
                 constexpr std::ptrdiff_t m_hPostSettings = 0x1088; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 constexpr std::ptrdiff_t m_flFadeDuration = 0x1090; // float32
@@ -686,6 +684,15 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // USE_BEST_COLLISION_BOUNDS
+            // USE_HITBOXES
+            // USE_SPECIFIED_BOUNDS
+            // USE_GAME_CODE
+            // USE_ROTATION_EXPANDED_BOUNDS
+            // USE_ROTATION_EXPANDED_ORIENTED_BOUNDS
+            // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
+            // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
+            // SURROUNDING_TYPE_BIT_COUNT
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
@@ -745,8 +752,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // generic
             namespace CPulseCell_Step_EntFire {
                 constexpr std::ptrdiff_t m_Input = 0x48; // CUtlString
             }
@@ -764,7 +771,7 @@ namespace source2_dumper {
             // Parent: CPlayer_ObserverServices
             // Field count: 1
             namespace CCSObserver_ObserverServices {
-                constexpr std::ptrdiff_t m_obsInterpState = 0x64; // ObserverInterpState_t
+                constexpr std::ptrdiff_t m_obsInterpState = 0x68; // ObserverInterpState_t
             }
             // Parent: CEntityComponent
             // Field count: 1
@@ -878,6 +885,9 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 36
+            //
+            // Metadata:
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             namespace C_EnvVolumetricFogController {
                 constexpr std::ptrdiff_t m_flScattering = 0x600; // float32
                 constexpr std::ptrdiff_t m_TintColor = 0x604; // Color
@@ -945,6 +955,13 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 9
+            //
+            // Metadata:
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             namespace C_EnvWindVolume {
                 constexpr std::ptrdiff_t m_bActive = 0x600; // bool
                 constexpr std::ptrdiff_t m_vBoxMins = 0x604; // Vector
@@ -1176,6 +1193,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // :
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -1217,6 +1235,15 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // roadcast_right_image\": [\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             namespace C_FogController {
                 constexpr std::ptrdiff_t m_fog = 0x600; // fogparams_t
                 constexpr std::ptrdiff_t m_bUseAngles = 0x668; // bool
@@ -1325,6 +1352,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -1336,6 +1364,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -1404,6 +1433,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // :
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -1471,7 +1501,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_ullRegisteredAsItemID = 0x4C8; // uint64
             }
             // Parent: C_BasePlayerWeapon
-            // Field count: 53
+            // Field count: 54
             namespace C_CSWeaponBase {
                 constexpr std::ptrdiff_t m_iWeaponGameplayAnimState = 0x1758; // WeaponGameplayAnimState
                 constexpr std::ptrdiff_t m_flWeaponGameplayAnimStateTimestamp = 0x175C; // GameTime_t
@@ -1511,16 +1541,17 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bVisualsDataSet = 0x18B9; // bool
                 constexpr std::ptrdiff_t m_bUIWeapon = 0x18BA; // bool
                 constexpr std::ptrdiff_t m_nCustomEconReloadEventId = 0x18BC; // int32
-                constexpr std::ptrdiff_t m_nextPrevOwnerUseTime = 0x18C8; // GameTime_t
-                constexpr std::ptrdiff_t m_hPrevOwner = 0x18CC; // CHandle<C_CSPlayerPawn>
-                constexpr std::ptrdiff_t m_nDropTick = 0x18D0; // GameTick_t
-                constexpr std::ptrdiff_t m_bWasActiveWeaponWhenDropped = 0x18D4; // bool
-                constexpr std::ptrdiff_t m_donated = 0x18F4; // bool
-                constexpr std::ptrdiff_t m_fLastShotTime = 0x18F8; // GameTime_t
-                constexpr std::ptrdiff_t m_bWasOwnedByCT = 0x18FC; // bool
-                constexpr std::ptrdiff_t m_bWasOwnedByTerrorist = 0x18FD; // bool
-                constexpr std::ptrdiff_t m_flNextClientFireBulletTime = 0x1900; // float32
-                constexpr std::ptrdiff_t m_flNextClientFireBulletTime_Repredict = 0x1904; // float32
+                constexpr std::ptrdiff_t m_bCanBePickedUp = 0x18C8; // bool
+                constexpr std::ptrdiff_t m_nextPrevOwnerUseTime = 0x18CC; // GameTime_t
+                constexpr std::ptrdiff_t m_hPrevOwner = 0x18D0; // CHandle<C_CSPlayerPawn>
+                constexpr std::ptrdiff_t m_nDropTick = 0x18D4; // GameTick_t
+                constexpr std::ptrdiff_t m_bWasActiveWeaponWhenDropped = 0x18D8; // bool
+                constexpr std::ptrdiff_t m_donated = 0x18FC; // bool
+                constexpr std::ptrdiff_t m_fLastShotTime = 0x1900; // GameTime_t
+                constexpr std::ptrdiff_t m_bWasOwnedByCT = 0x1904; // bool
+                constexpr std::ptrdiff_t m_bWasOwnedByTerrorist = 0x1905; // bool
+                constexpr std::ptrdiff_t m_flNextClientFireBulletTime = 0x1908; // float32
+                constexpr std::ptrdiff_t m_flNextClientFireBulletTime_Repredict = 0x190C; // float32
                 constexpr std::ptrdiff_t m_IronSightController = 0x1960; // C_IronSightController
                 constexpr std::ptrdiff_t m_iIronSightMode = 0x1A10; // int32
                 constexpr std::ptrdiff_t m_flLastLOSTraceFailureTime = 0x1A88; // GameTime_t
@@ -1545,6 +1576,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -1560,6 +1592,9 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 5
+            //
+            // Metadata:
+            // generic
             namespace C_TonemapController2 {
                 constexpr std::ptrdiff_t m_flAutoExposureMin = 0x600; // float32
                 constexpr std::ptrdiff_t m_flAutoExposureMax = 0x604; // float32
@@ -1572,6 +1607,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
             namespace CountdownTimer {
                 constexpr std::ptrdiff_t m_duration = 0x8; // float32
                 constexpr std::ptrdiff_t m_timestamp = 0xC; // GameTime_t
@@ -1631,7 +1667,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Inflow_GraphHook {
                 constexpr std::ptrdiff_t m_HookName = 0x80; // PulseSymbol_t
             }
@@ -1797,7 +1832,7 @@ namespace source2_dumper {
             namespace C_WeaponSG556 {
             }
             // Parent: C_CSPlayerPawnBase
-            // Field count: 105
+            // Field count: 102
             namespace C_CSPlayerPawn {
                 constexpr std::ptrdiff_t m_pBulletServices = 0x1468; // CCSPlayer_BulletServices*
                 constexpr std::ptrdiff_t m_pHostageServices = 0x1470; // CCSPlayer_HostageServices*
@@ -1886,24 +1921,21 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_angStashedShootAngles = 0x1CD8; // QAngle
                 constexpr std::ptrdiff_t m_vecStashedGrenadeThrowPosition = 0x1CE4; // Vector
                 constexpr std::ptrdiff_t m_vecStashedVelocity = 0x1CF0; // Vector
-                constexpr std::ptrdiff_t m_angShootAngleHistory = 0x1CFC; // QAngle[2]
-                constexpr std::ptrdiff_t m_vecThrowPositionHistory = 0x1D14; // Vector[2]
-                constexpr std::ptrdiff_t m_vecVelocityHistory = 0x1D2C; // Vector[2]
-                constexpr std::ptrdiff_t m_bShouldAutobuyDMWeapons = 0x3280; // bool
-                constexpr std::ptrdiff_t m_fImmuneToGunGameDamageTime = 0x3284; // GameTime_t
-                constexpr std::ptrdiff_t m_bGunGameImmunity = 0x3288; // bool
-                constexpr std::ptrdiff_t m_fImmuneToGunGameDamageTimeLast = 0x328C; // GameTime_t
-                constexpr std::ptrdiff_t m_fMolotovDamageTime = 0x3290; // float32
-                constexpr std::ptrdiff_t m_nPlayerInfernoBodyFx = 0x32FC; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_angEyeAngles = 0x3370; // QAngle
-                constexpr std::ptrdiff_t m_arrOldEyeAnglesTimes = 0x3400; // GameTime_t[4]
-                constexpr std::ptrdiff_t m_arrOldEyeAngles = 0x3410; // QAngle[4]
-                constexpr std::ptrdiff_t m_angEyeAnglesVelocity = 0x3440; // QAngle
-                constexpr std::ptrdiff_t m_iIDEntIndex = 0x344C; // CEntityIndex
-                constexpr std::ptrdiff_t m_delayTargetIDTimer = 0x3450; // CountdownTimer
-                constexpr std::ptrdiff_t m_iTargetItemEntIdx = 0x3468; // CEntityIndex
-                constexpr std::ptrdiff_t m_iOldIDEntIndex = 0x346C; // CEntityIndex
-                constexpr std::ptrdiff_t m_holdTargetIDTimer = 0x3470; // CountdownTimer
+                constexpr std::ptrdiff_t m_bShouldAutobuyDMWeapons = 0x3230; // bool
+                constexpr std::ptrdiff_t m_fImmuneToGunGameDamageTime = 0x3234; // GameTime_t
+                constexpr std::ptrdiff_t m_bGunGameImmunity = 0x3238; // bool
+                constexpr std::ptrdiff_t m_fImmuneToGunGameDamageTimeLast = 0x323C; // GameTime_t
+                constexpr std::ptrdiff_t m_fMolotovDamageTime = 0x3240; // float32
+                constexpr std::ptrdiff_t m_nPlayerInfernoBodyFx = 0x32AC; // ParticleIndex_t
+                constexpr std::ptrdiff_t m_angEyeAngles = 0x3320; // QAngle
+                constexpr std::ptrdiff_t m_arrOldEyeAnglesTimes = 0x33B0; // GameTime_t[4]
+                constexpr std::ptrdiff_t m_arrOldEyeAngles = 0x33C0; // QAngle[4]
+                constexpr std::ptrdiff_t m_angEyeAnglesVelocity = 0x33F0; // QAngle
+                constexpr std::ptrdiff_t m_iIDEntIndex = 0x33FC; // CEntityIndex
+                constexpr std::ptrdiff_t m_delayTargetIDTimer = 0x3400; // CountdownTimer
+                constexpr std::ptrdiff_t m_iTargetItemEntIdx = 0x3418; // CEntityIndex
+                constexpr std::ptrdiff_t m_iOldIDEntIndex = 0x341C; // CEntityIndex
+                constexpr std::ptrdiff_t m_holdTargetIDTimer = 0x3420; // CountdownTimer
             }
             // Parent: C_CSGO_TeamIntroCharacterPosition
             // Field count: 0
@@ -1916,6 +1948,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             namespace CPulseCell_WaitForCursorsWithTagBase {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToWait = 0x48; // int32
                 constexpr std::ptrdiff_t m_WaitComplete = 0x50; // CPulse_ResumePoint
@@ -2066,6 +2099,10 @@ namespace source2_dumper {
             }
             // Parent: C_BaseModelEntity
             // Field count: 12
+            //
+            // Metadata:
+            // h
+            // generic
             namespace C_EnvSky {
                 constexpr std::ptrdiff_t m_hSkyMaterial = 0xFA8; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 constexpr std::ptrdiff_t m_hSkyMaterialLightingOnly = 0xFB0; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -2299,12 +2336,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // ta\Local
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // :
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -2428,6 +2465,11 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 29
+            //
+            // Metadata:
+            // BC_EMPTY
+            // BC_PROP_GROUP_OVERRIDE
+            // BC_PARTICLE_SYSTEM_OVERRIDE
             namespace C_EnvCombinedLightProbeVolume {
                 constexpr std::ptrdiff_t m_Entity_Color = 0x1678; // Color
                 constexpr std::ptrdiff_t m_Entity_flBrightness = 0x167C; // float32
@@ -2652,8 +2694,9 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bKnife = 0x1160; // bool
             }
             // Parent: CCSPlayerBase_CameraServices
-            // Field count: 0
+            // Field count: 1
             namespace CCSObserver_CameraServices {
+                constexpr std::ptrdiff_t m_hPrevPostProcessingVolume = 0x2A8; // CHandle<C_PostProcessingVolume>
             }
             // Parent: CEnvSoundscape
             // Field count: 1
@@ -2686,7 +2729,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
             }
@@ -2699,10 +2741,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_BaseFlow {
             }
             // Parent: C_BaseTrigger
@@ -2965,6 +3007,7 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // roadcast_right_image\": [\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             // ePreserveUpAxis
             // eCenter
             // eHead
@@ -3013,6 +3056,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -3031,7 +3075,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Inflow_EntOutputHandler {
                 constexpr std::ptrdiff_t m_SourceEntity = 0x80; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_SourceOutput = 0x90; // PulseSymbol_t
@@ -3327,6 +3370,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull
             namespace CCS2PawnGraphController {
                 constexpr std::ptrdiff_t m_bIsDefusing = 0x2A0; // CAnimGraph2ParamOptionalRef<bool>
                 constexpr std::ptrdiff_t m_moveType = 0x2B8; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -3487,10 +3531,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Step_DebugLog {
             }
             // Parent: CPlayerControllerComponent
@@ -3653,10 +3697,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Outflow_CycleOrdered {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -3838,6 +3882,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MGetKV3ClassDefaults
             namespace C_DynamicProp {
                 constexpr std::ptrdiff_t m_bUseHitboxesForRenderBox = 0x12D0; // bool
                 constexpr std::ptrdiff_t m_bUseAnimGraph = 0x12D1; // bool
@@ -4001,10 +4047,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
             }
@@ -4068,15 +4114,7 @@ namespace source2_dumper {
             // Field count: 24
             //
             // Metadata:
-            // ACTIVE
-            // FINISHED
-            // FAILED
-            // INTERACT_PASSIVE_LOOKAT
-            // INTERACT_PASSIVE_SPEAK
-            // INTERACT_PRIORITY_PASSIVE
-            // INTERACT_PRIORITY_LOW
-            // INTERACT_PRIORITY_MED
-            // INTERACT_PRIORITY_HIGH
+            // generic
             namespace C_ParticleSystem {
                 constexpr std::ptrdiff_t m_szSnapshotFileName = 0xFA8; // char[512]
                 constexpr std::ptrdiff_t m_bActive = 0x11A8; // bool
@@ -4119,10 +4157,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Outflow_CycleShuffled {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -4235,14 +4273,7 @@ namespace source2_dumper {
             // Field count: 18
             //
             // Metadata:
-            // BC_EMPTY
-            // BC_PROP_GROUP_OVERRIDE
-            // BC_PARTICLE_SYSTEM_OVERRIDE
             // MGetKV3ClassDefaults
-            // eNotifyWhenFinished
-            // eNotifyTriggered
-            // ta\Local
-            // ta\Local
             namespace C_EnvCubemap {
                 constexpr std::ptrdiff_t m_Entity_hCubemapTexture = 0x680; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Entity_bCustomCubemapTexture = 0x688; // bool
@@ -4492,10 +4523,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
             }
@@ -4871,10 +4902,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Value_RandomInt {
             }
             // Parent: C_CSWeaponBase
@@ -4899,8 +4930,8 @@ namespace source2_dumper {
             // Parent: C_CSPlayerPawn
             // Field count: 2
             namespace C_CSGO_PreviewPlayer {
-                constexpr std::ptrdiff_t m_animgraphCharacterModeString = 0x3490; // CGlobalSymbol
-                constexpr std::ptrdiff_t m_flInitialModelScale = 0x3498; // float32
+                constexpr std::ptrdiff_t m_animgraphCharacterModeString = 0x3440; // CGlobalSymbol
+                constexpr std::ptrdiff_t m_flInitialModelScale = 0x3448; // float32
             }
             // Parent: C_BarnLight
             // Field count: 1
@@ -4917,10 +4948,6 @@ namespace source2_dumper {
             // SHAKE_START_RUMBLEONLY
             // SHAKE_START_NORUMBLE
             // SHAKE_DURATION
-            // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
-            // TIMELINE_COMPRESSION_AVERAGE
-            // TIMELINE_COMPRESSION_AVERAGE_BLEND
-            // TIMELINE_COMPRESSION_TOTAL
             namespace CPathSimple {
                 constexpr std::ptrdiff_t m_CPathQueryComponent = 0x610; // CPathQueryComponent
                 constexpr std::ptrdiff_t m_pathString = 0x700; // CUtlString
@@ -5301,6 +5328,11 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 0
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MSaveOpsForField
             namespace CLogicalEntity {
             }
             // Parent: C_BaseModelEntity
@@ -5355,10 +5387,10 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Step_CallExternalMethod {
                 constexpr std::ptrdiff_t m_MethodName = 0x48; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_nBlackboardIndex = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
@@ -5586,6 +5618,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // CHAT_IGNORE_ALL
+            // CHAT_IGNORE_TEAM
             namespace CBasePlayerVData {
                 constexpr std::ptrdiff_t m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 constexpr std::ptrdiff_t m_sModelNameAg2Override = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -5642,10 +5676,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CPulseCell_Value_RandomFloat {
             }
             // Parent: None
@@ -5704,6 +5738,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // generic
             namespace CBasePlayerWeaponVData {
                 constexpr std::ptrdiff_t m_szWorldModel = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 constexpr std::ptrdiff_t m_szWorldModelAg2Override = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -5769,6 +5804,7 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // roadcast_right_image\": [\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             // ePreserveUpAxis
             // eCenter
             // eHead
@@ -5782,6 +5818,9 @@ namespace source2_dumper {
             }
             // Parent: C_BaseClientUIEntity
             // Field count: 29
+            //
+            // Metadata:
+            // e
             namespace C_PointClientUIWorldPanel {
                 constexpr std::ptrdiff_t m_bForceRecreateNextUpdate = 0xFE0; // bool
                 constexpr std::ptrdiff_t m_bMoveViewToPlayerNextThink = 0xFE1; // bool
@@ -5861,6 +5900,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyElementNameFn
             // MPropertyFriendlyName
+            // MPropertyElementNameFn
             namespace GeneratedTextureHandle_t {
                 constexpr std::ptrdiff_t m_strBitmapName = 0x0; // CUtlString
             }
@@ -5958,18 +5998,19 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // reload
-            // attack2
-            // turnright
-            // turndown
-            // back
-            // right
-            // movedown
-            // use
-            // duck
-            // zoom
-            // pitch
-            // rightleft
+            // ClientJob_EMsgGCCStrike15_v2_ClientPlayerDecalSign
+            // sprint
+            // attack
+            // turnleft
+            // turnup
+            // forward
+            // left
+            // moveup
+            // klook
+            // jump
+            // strafe
+            // yaw
+            // forwardback
             namespace CCS2UIPawnGraphController {
                 constexpr std::ptrdiff_t m_nAnimationSeed = 0x88; // CAnimGraph2ParamOptionalRef<float32>
                 constexpr std::ptrdiff_t m_characterMode = 0xA0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -5990,6 +6031,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace inv_image_light_barn_t {
                 constexpr std::ptrdiff_t color = 0x0; // Vector
                 constexpr std::ptrdiff_t angle = 0xC; // QAngle
@@ -6002,6 +6044,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MCustomFGDMetadata
             namespace inv_image_map_t {
                 constexpr std::ptrdiff_t map_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t map_rotation = 0x8; // float32
@@ -6030,6 +6073,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // binary_zstd
             namespace inv_image_item_t {
                 constexpr std::ptrdiff_t position = 0x0; // Vector
                 constexpr std::ptrdiff_t angle = 0xC; // QAngle
@@ -6092,8 +6136,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             namespace inv_image_clearcolor_t {
                 constexpr std::ptrdiff_t color = 0x0; // Vector
             }
@@ -6324,86 +6366,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyElementNameFn
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MGetKV3ClassDefaults
-            // MPropertyElementNameFn
-            // generic
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MGetKV3ClassDefaults
-            // MPropertyElementNameFn
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MATCH_FILTER_MATERIAL_SHADER
-            // MATCH_FILTER_MATERIAL_NAME_SUBSTR
-            // MATCH_FILTER_MATERIAL_ATTRIBUTE_EQUALS
-            // MATCH_FILTER_MATERIAL_PROPERTY_EXISTS
-            // MATCH_FILTER_MATERIAL_PROPERTY_EQUALS
-            // MPropertyFriendlyName
-            // COMPMATSYSVAR_EMPTY_RESOURCE_SPACER
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // LOOSE_VARIABLE_TYPE_INTEGER1
-            // LOOSE_VARIABLE_TYPE_INTEGER2
             namespace CompositeMaterial_t {
                 constexpr std::ptrdiff_t m_TargetKVs = 0x8; // KeyValues3
                 constexpr std::ptrdiff_t m_PreGenerationKVs = 0x18; // KeyValues3

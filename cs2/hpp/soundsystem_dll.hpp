@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 #pragma once
 
@@ -419,14 +419,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -581,6 +579,8 @@ namespace source2_dumper {
             // MVDataNodeType
             // MPropertyDescription
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             namespace CDSPPresetMixgroupModifierTable {
                 constexpr std::ptrdiff_t m_table = 0x0; // CUtlVector<CDspPresetModifierList>
@@ -600,8 +600,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -658,11 +660,10 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -707,7 +708,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // i
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -758,14 +758,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -911,8 +909,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -1000,13 +1000,14 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bApplyAntialiasing = 0x2C; // bool
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             namespace CSndSeqInstSndEvtSchema {
+                constexpr std::ptrdiff_t m_nType = 0x8; // SndSeqInstrumentType_t
             }
             // Parent: None
             // Field count: 1
@@ -1064,6 +1065,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             namespace VMixBoxverbDesc_t {
                 constexpr std::ptrdiff_t m_flSizeMax = 0x0; // float32
                 constexpr std::ptrdiff_t m_flSizeMin = 0x4; // float32
@@ -1088,8 +1090,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -1289,13 +1293,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             namespace CDSPMixgroupModifier {
                 constexpr std::ptrdiff_t m_mixgroup = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_flModifier = 0x8; // float32
@@ -1420,8 +1417,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             namespace CDspPresetModifierList {
                 constexpr std::ptrdiff_t m_dspName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_modifiers = 0x8; // CUtlVector<CDSPMixgroupModifier>
@@ -1612,6 +1608,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1795,14 +1792,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2727,6 +2722,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3041,8 +3037,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3375,8 +3369,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3418,8 +3410,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -3446,6 +3440,7 @@ namespace source2_dumper {
             // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
             // SNDLVL_20dB
+            // SNDLVL_25dB
             namespace CSosGroupActionMemberCountEnvelopeSchema {
                 constexpr std::ptrdiff_t m_nBaseCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_nTargetCount = 0xC; // int32
@@ -3590,8 +3585,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
@@ -3688,6 +3685,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -176,6 +176,8 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             pub mod InfoForResourceTypeCVSoundStackScriptList {
             }
             // Parent: None
@@ -219,6 +221,10 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
+            // r
+            // r
             pub mod InfoForResourceTypeManifestTestResource_t {
             }
             // Parent: None
@@ -262,6 +268,7 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             pub mod InfoForResourceTypeCGcExportableExternalData {
             }
             // Parent: None
@@ -548,6 +555,10 @@ pub mod source2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
+            // r
+            // r
             pub mod InfoForResourceTypeProceduralTestResource_t {
             }
             // Parent: None
@@ -681,6 +692,8 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             pub mod InfoForResourceTypeCPanoramaLayout {
             }
             // Parent: None
@@ -737,6 +750,7 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             pub mod InfoForResourceTypeCChoreoSceneResource {
             }
             // Parent: None
@@ -756,6 +770,7 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             pub mod InfoForResourceTypeCNmSkeleton {
             }
             // Parent: None
@@ -767,6 +782,10 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
+            // r
+            // r
             pub mod InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
@@ -785,6 +804,8 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             pub mod InfoForResourceTypeCAnimationGroup {
             }
             // Parent: None
@@ -799,6 +820,8 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             pub mod InfoForResourceTypeCVSoundEventScriptList {
             }
             // Parent: None
@@ -959,6 +982,7 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
             pub mod InfoForResourceTypeCCSGOEconItem {
             }
             // Parent: None
@@ -1300,6 +1324,8 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             pub mod InfoForResourceTypeIPulseGraphDef {
             }
             // Parent: None
@@ -1364,6 +1390,8 @@ pub mod source2_dumper {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // r
+            // r
             pub mod InfoForResourceTypeCVDataResource {
             }
             // Parent: None

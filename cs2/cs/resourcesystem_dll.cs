@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: resourcesystem.dll
@@ -171,6 +171,8 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
         public static class InfoForResourceTypeCVSoundStackScriptList {
         }
         // Parent: None
@@ -214,6 +216,10 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
+        // r
+        // r
         public static class InfoForResourceTypeManifestTestResource_t {
         }
         // Parent: None
@@ -257,6 +263,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
         public static class InfoForResourceTypeCGcExportableExternalData {
         }
         // Parent: None
@@ -543,6 +550,10 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
+        // r
+        // r
         public static class InfoForResourceTypeProceduralTestResource_t {
         }
         // Parent: None
@@ -676,6 +687,8 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
         public static class InfoForResourceTypeCPanoramaLayout {
         }
         // Parent: None
@@ -732,6 +745,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
         public static class InfoForResourceTypeCChoreoSceneResource {
         }
         // Parent: None
@@ -751,6 +765,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
         public static class InfoForResourceTypeCNmSkeleton {
         }
         // Parent: None
@@ -762,6 +777,10 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
+        // r
+        // r
         public static class InfoForResourceTypeCTestResourceData {
         }
         // Parent: None
@@ -780,6 +799,8 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
         public static class InfoForResourceTypeCAnimationGroup {
         }
         // Parent: None
@@ -794,6 +815,8 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
         public static class InfoForResourceTypeCVSoundEventScriptList {
         }
         // Parent: None
@@ -954,6 +977,7 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
         public static class InfoForResourceTypeCCSGOEconItem {
         }
         // Parent: None
@@ -1295,6 +1319,8 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
         public static class InfoForResourceTypeIPulseGraphDef {
         }
         // Parent: None
@@ -1359,6 +1385,8 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferName
         // MResourceTypeForInfoType
         // MGetKV3ClassDefaults
+        // r
+        // r
         public static class InfoForResourceTypeCVDataResource {
         }
         // Parent: None

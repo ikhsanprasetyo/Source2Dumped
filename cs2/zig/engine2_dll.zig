@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -106,6 +106,54 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // A.
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // E!
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
             pub const GameTime_t = struct {
                 pub const m_Value: usize = 0x0; // float32
             };
@@ -161,6 +209,61 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // 7$
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // "
+            // r
+            // E!
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
+            // r
             pub const GameTick_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };

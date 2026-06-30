@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 export const Schemas = {
     particles_dll: {
@@ -994,6 +994,7 @@ export const Schemas = {
             m_flNoiseScaleLoc: 0x1900, // CPerParticleFloatInput
             m_TransformInput: 0x1A70, // CParticleTransformInput
             m_bIgnoreDt: 0x1AD8, // bool
+            m_vecScale: 0x1E0, // Vector
         },
         ParticleChildrenInfo_t: {
             m_ChildRef: 0x0, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
@@ -1304,6 +1305,7 @@ export const Schemas = {
             m_bCPPairs: 0x1E9, // bool
             m_bSaveOffset: 0x1EA, // bool
             m_PathParams: 0x1F0, // CPathParameters
+            m_bKillUnused: 0x1E0, // bool
         },
         C_OP_EndCapTimedDecay: {
             m_flDecayTime: 0x1D8, // float32
@@ -1856,6 +1858,7 @@ export const Schemas = {
             m_flEndScale: 0x1E4, // float32
             m_bEaseInAndOut: 0x1E8, // bool
             m_flBias: 0x1EC, // float32
+            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
         },
         C_OP_ReinitializeScalarEndCap: {
             m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
@@ -2384,6 +2387,7 @@ export const Schemas = {
             m_nOutputField: 0x348, // ParticleAttributeIndex_t
             m_nSetMethod: 0x34C, // ParticleSetMethod_t
             m_Lerp: 0x350, // CPerParticleFloatInput
+            m_nCount: 0x1D8, // CParticleCollectionFloatInput
         },
         C_INIT_RemapTransformToVector: {
             m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
@@ -3635,6 +3639,7 @@ export const Schemas = {
             m_vecOffsetRate: 0x1618, // CPerParticleVecInput
             m_flWorleySeed: 0x1CD0, // CPerParticleFloatInput
             m_flWorleyJitter: 0x1E40, // CPerParticleFloatInput
+            m_nCP: 0x1E8, // int32
         },
         C_INIT_Orient2DRelToCP: {
             m_nCP: 0x1E0, // int32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -372,6 +372,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 18
+            //
+            // Metadata:
+            // generic
             pub const C_EnvVolumetricFogVolume = struct {
                 pub const m_bActive: usize = 0x600; // bool
                 pub const m_vBoxMins: usize = 0x604; // Vector
@@ -520,12 +523,7 @@ pub const source2_dumper = struct {
             // Field count: 12
             //
             // Metadata:
-            // MPropertyDescription
-            // MPropertyAttributeSuggestionName
-            // MPropertyDescription
-            // MPropertyDescription
-            // M=
-            // generic
+            // PM_NO_GIBS
             pub const C_PostProcessingVolume = struct {
                 pub const m_hPostSettings: usize = 0x1088; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 pub const m_flFadeDuration: usize = 0x1090; // float32
@@ -681,6 +679,15 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // USE_BEST_COLLISION_BOUNDS
+            // USE_HITBOXES
+            // USE_SPECIFIED_BOUNDS
+            // USE_GAME_CODE
+            // USE_ROTATION_EXPANDED_BOUNDS
+            // USE_ROTATION_EXPANDED_ORIENTED_BOUNDS
+            // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
+            // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
+            // SURROUNDING_TYPE_BIT_COUNT
             pub const CPrecipitationVData = struct {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -740,8 +747,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // generic
             pub const CPulseCell_Step_EntFire = struct {
                 pub const m_Input: usize = 0x48; // CUtlString
             };
@@ -759,7 +766,7 @@ pub const source2_dumper = struct {
             // Parent: CPlayer_ObserverServices
             // Field count: 1
             pub const CCSObserver_ObserverServices = struct {
-                pub const m_obsInterpState: usize = 0x64; // ObserverInterpState_t
+                pub const m_obsInterpState: usize = 0x68; // ObserverInterpState_t
             };
             // Parent: CEntityComponent
             // Field count: 1
@@ -873,6 +880,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 36
+            //
+            // Metadata:
+            // \n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tn
             pub const C_EnvVolumetricFogController = struct {
                 pub const m_flScattering: usize = 0x600; // float32
                 pub const m_TintColor: usize = 0x604; // Color
@@ -940,6 +950,13 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 9
+            //
+            // Metadata:
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             pub const C_EnvWindVolume = struct {
                 pub const m_bActive: usize = 0x600; // bool
                 pub const m_vBoxMins: usize = 0x604; // Vector
@@ -1171,6 +1188,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // :
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -1212,6 +1230,15 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // roadcast_right_image\": [\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
             pub const C_FogController = struct {
                 pub const m_fog: usize = 0x600; // fogparams_t
                 pub const m_bUseAngles: usize = 0x668; // bool
@@ -1320,6 +1347,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -1331,6 +1359,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -1399,6 +1428,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // :
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -1466,7 +1496,7 @@ pub const source2_dumper = struct {
                 pub const m_ullRegisteredAsItemID: usize = 0x4C8; // uint64
             };
             // Parent: C_BasePlayerWeapon
-            // Field count: 53
+            // Field count: 54
             pub const C_CSWeaponBase = struct {
                 pub const m_iWeaponGameplayAnimState: usize = 0x1758; // WeaponGameplayAnimState
                 pub const m_flWeaponGameplayAnimStateTimestamp: usize = 0x175C; // GameTime_t
@@ -1506,16 +1536,17 @@ pub const source2_dumper = struct {
                 pub const m_bVisualsDataSet: usize = 0x18B9; // bool
                 pub const m_bUIWeapon: usize = 0x18BA; // bool
                 pub const m_nCustomEconReloadEventId: usize = 0x18BC; // int32
-                pub const m_nextPrevOwnerUseTime: usize = 0x18C8; // GameTime_t
-                pub const m_hPrevOwner: usize = 0x18CC; // CHandle<C_CSPlayerPawn>
-                pub const m_nDropTick: usize = 0x18D0; // GameTick_t
-                pub const m_bWasActiveWeaponWhenDropped: usize = 0x18D4; // bool
-                pub const m_donated: usize = 0x18F4; // bool
-                pub const m_fLastShotTime: usize = 0x18F8; // GameTime_t
-                pub const m_bWasOwnedByCT: usize = 0x18FC; // bool
-                pub const m_bWasOwnedByTerrorist: usize = 0x18FD; // bool
-                pub const m_flNextClientFireBulletTime: usize = 0x1900; // float32
-                pub const m_flNextClientFireBulletTime_Repredict: usize = 0x1904; // float32
+                pub const m_bCanBePickedUp: usize = 0x18C8; // bool
+                pub const m_nextPrevOwnerUseTime: usize = 0x18CC; // GameTime_t
+                pub const m_hPrevOwner: usize = 0x18D0; // CHandle<C_CSPlayerPawn>
+                pub const m_nDropTick: usize = 0x18D4; // GameTick_t
+                pub const m_bWasActiveWeaponWhenDropped: usize = 0x18D8; // bool
+                pub const m_donated: usize = 0x18FC; // bool
+                pub const m_fLastShotTime: usize = 0x1900; // GameTime_t
+                pub const m_bWasOwnedByCT: usize = 0x1904; // bool
+                pub const m_bWasOwnedByTerrorist: usize = 0x1905; // bool
+                pub const m_flNextClientFireBulletTime: usize = 0x1908; // float32
+                pub const m_flNextClientFireBulletTime_Repredict: usize = 0x190C; // float32
                 pub const m_IronSightController: usize = 0x1960; // C_IronSightController
                 pub const m_iIronSightMode: usize = 0x1A10; // int32
                 pub const m_flLastLOSTraceFailureTime: usize = 0x1A88; // GameTime_t
@@ -1540,6 +1571,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -1555,6 +1587,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 5
+            //
+            // Metadata:
+            // generic
             pub const C_TonemapController2 = struct {
                 pub const m_flAutoExposureMin: usize = 0x600; // float32
                 pub const m_flAutoExposureMax: usize = 0x604; // float32
@@ -1567,6 +1602,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
             pub const CountdownTimer = struct {
                 pub const m_duration: usize = 0x8; // float32
                 pub const m_timestamp: usize = 0xC; // GameTime_t
@@ -1626,7 +1662,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Inflow_GraphHook = struct {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
             };
@@ -1792,7 +1827,7 @@ pub const source2_dumper = struct {
             pub const C_WeaponSG556 = struct {
             };
             // Parent: C_CSPlayerPawnBase
-            // Field count: 105
+            // Field count: 102
             pub const C_CSPlayerPawn = struct {
                 pub const m_pBulletServices: usize = 0x1468; // CCSPlayer_BulletServices*
                 pub const m_pHostageServices: usize = 0x1470; // CCSPlayer_HostageServices*
@@ -1881,24 +1916,21 @@ pub const source2_dumper = struct {
                 pub const m_angStashedShootAngles: usize = 0x1CD8; // QAngle
                 pub const m_vecStashedGrenadeThrowPosition: usize = 0x1CE4; // Vector
                 pub const m_vecStashedVelocity: usize = 0x1CF0; // Vector
-                pub const m_angShootAngleHistory: usize = 0x1CFC; // QAngle[2]
-                pub const m_vecThrowPositionHistory: usize = 0x1D14; // Vector[2]
-                pub const m_vecVelocityHistory: usize = 0x1D2C; // Vector[2]
-                pub const m_bShouldAutobuyDMWeapons: usize = 0x3280; // bool
-                pub const m_fImmuneToGunGameDamageTime: usize = 0x3284; // GameTime_t
-                pub const m_bGunGameImmunity: usize = 0x3288; // bool
-                pub const m_fImmuneToGunGameDamageTimeLast: usize = 0x328C; // GameTime_t
-                pub const m_fMolotovDamageTime: usize = 0x3290; // float32
-                pub const m_nPlayerInfernoBodyFx: usize = 0x32FC; // ParticleIndex_t
-                pub const m_angEyeAngles: usize = 0x3370; // QAngle
-                pub const m_arrOldEyeAnglesTimes: usize = 0x3400; // GameTime_t[4]
-                pub const m_arrOldEyeAngles: usize = 0x3410; // QAngle[4]
-                pub const m_angEyeAnglesVelocity: usize = 0x3440; // QAngle
-                pub const m_iIDEntIndex: usize = 0x344C; // CEntityIndex
-                pub const m_delayTargetIDTimer: usize = 0x3450; // CountdownTimer
-                pub const m_iTargetItemEntIdx: usize = 0x3468; // CEntityIndex
-                pub const m_iOldIDEntIndex: usize = 0x346C; // CEntityIndex
-                pub const m_holdTargetIDTimer: usize = 0x3470; // CountdownTimer
+                pub const m_bShouldAutobuyDMWeapons: usize = 0x3230; // bool
+                pub const m_fImmuneToGunGameDamageTime: usize = 0x3234; // GameTime_t
+                pub const m_bGunGameImmunity: usize = 0x3238; // bool
+                pub const m_fImmuneToGunGameDamageTimeLast: usize = 0x323C; // GameTime_t
+                pub const m_fMolotovDamageTime: usize = 0x3240; // float32
+                pub const m_nPlayerInfernoBodyFx: usize = 0x32AC; // ParticleIndex_t
+                pub const m_angEyeAngles: usize = 0x3320; // QAngle
+                pub const m_arrOldEyeAnglesTimes: usize = 0x33B0; // GameTime_t[4]
+                pub const m_arrOldEyeAngles: usize = 0x33C0; // QAngle[4]
+                pub const m_angEyeAnglesVelocity: usize = 0x33F0; // QAngle
+                pub const m_iIDEntIndex: usize = 0x33FC; // CEntityIndex
+                pub const m_delayTargetIDTimer: usize = 0x3400; // CountdownTimer
+                pub const m_iTargetItemEntIdx: usize = 0x3418; // CEntityIndex
+                pub const m_iOldIDEntIndex: usize = 0x341C; // CEntityIndex
+                pub const m_holdTargetIDTimer: usize = 0x3420; // CountdownTimer
             };
             // Parent: C_CSGO_TeamIntroCharacterPosition
             // Field count: 0
@@ -1911,6 +1943,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
+            // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             pub const CPulseCell_WaitForCursorsWithTagBase = struct {
                 pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
                 pub const m_WaitComplete: usize = 0x50; // CPulse_ResumePoint
@@ -2061,6 +2094,10 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseModelEntity
             // Field count: 12
+            //
+            // Metadata:
+            // h
+            // generic
             pub const C_EnvSky = struct {
                 pub const m_hSkyMaterial: usize = 0xFA8; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 pub const m_hSkyMaterialLightingOnly: usize = 0xFB0; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -2294,12 +2331,12 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // ta\Local
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
+            // :
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -2423,6 +2460,11 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 29
+            //
+            // Metadata:
+            // BC_EMPTY
+            // BC_PROP_GROUP_OVERRIDE
+            // BC_PARTICLE_SYSTEM_OVERRIDE
             pub const C_EnvCombinedLightProbeVolume = struct {
                 pub const m_Entity_Color: usize = 0x1678; // Color
                 pub const m_Entity_flBrightness: usize = 0x167C; // float32
@@ -2647,8 +2689,9 @@ pub const source2_dumper = struct {
                 pub const m_bKnife: usize = 0x1160; // bool
             };
             // Parent: CCSPlayerBase_CameraServices
-            // Field count: 0
+            // Field count: 1
             pub const CCSObserver_CameraServices = struct {
+                pub const m_hPrevPostProcessingVolume: usize = 0x2A8; // CHandle<C_PostProcessingVolume>
             };
             // Parent: CEnvSoundscape
             // Field count: 1
@@ -2681,7 +2724,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Inflow_EventHandler = struct {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
             };
@@ -2694,10 +2736,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_BaseFlow = struct {
             };
             // Parent: C_BaseTrigger
@@ -2960,6 +3002,7 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // roadcast_right_image\": [\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             // ePreserveUpAxis
             // eCenter
             // eHead
@@ -3008,6 +3051,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
             // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
@@ -3026,7 +3070,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Inflow_EntOutputHandler = struct {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
                 pub const m_SourceOutput: usize = 0x90; // PulseSymbol_t
@@ -3322,6 +3365,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull
             pub const CCS2PawnGraphController = struct {
                 pub const m_bIsDefusing: usize = 0x2A0; // CAnimGraph2ParamOptionalRef<bool>
                 pub const m_moveType: usize = 0x2B8; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -3482,10 +3526,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Step_DebugLog = struct {
             };
             // Parent: CPlayerControllerComponent
@@ -3648,10 +3692,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Outflow_CycleOrdered = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             };
@@ -3833,6 +3877,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MGetKV3ClassDefaults
             pub const C_DynamicProp = struct {
                 pub const m_bUseHitboxesForRenderBox: usize = 0x12D0; // bool
                 pub const m_bUseAnimGraph: usize = 0x12D1; // bool
@@ -3996,10 +4042,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Inflow_Wait = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -4063,15 +4109,7 @@ pub const source2_dumper = struct {
             // Field count: 24
             //
             // Metadata:
-            // ACTIVE
-            // FINISHED
-            // FAILED
-            // INTERACT_PASSIVE_LOOKAT
-            // INTERACT_PASSIVE_SPEAK
-            // INTERACT_PRIORITY_PASSIVE
-            // INTERACT_PRIORITY_LOW
-            // INTERACT_PRIORITY_MED
-            // INTERACT_PRIORITY_HIGH
+            // generic
             pub const C_ParticleSystem = struct {
                 pub const m_szSnapshotFileName: usize = 0xFA8; // char[512]
                 pub const m_bActive: usize = 0x11A8; // bool
@@ -4114,10 +4152,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Outflow_CycleShuffled = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             };
@@ -4230,14 +4268,7 @@ pub const source2_dumper = struct {
             // Field count: 18
             //
             // Metadata:
-            // BC_EMPTY
-            // BC_PROP_GROUP_OVERRIDE
-            // BC_PARTICLE_SYSTEM_OVERRIDE
             // MGetKV3ClassDefaults
-            // eNotifyWhenFinished
-            // eNotifyTriggered
-            // ta\Local
-            // ta\Local
             pub const C_EnvCubemap = struct {
                 pub const m_Entity_hCubemapTexture: usize = 0x680; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Entity_bCustomCubemapTexture: usize = 0x688; // bool
@@ -4487,10 +4518,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Inflow_Yield = struct {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -4866,10 +4897,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Value_RandomInt = struct {
             };
             // Parent: C_CSWeaponBase
@@ -4894,8 +4925,8 @@ pub const source2_dumper = struct {
             // Parent: C_CSPlayerPawn
             // Field count: 2
             pub const C_CSGO_PreviewPlayer = struct {
-                pub const m_animgraphCharacterModeString: usize = 0x3490; // CGlobalSymbol
-                pub const m_flInitialModelScale: usize = 0x3498; // float32
+                pub const m_animgraphCharacterModeString: usize = 0x3440; // CGlobalSymbol
+                pub const m_flInitialModelScale: usize = 0x3448; // float32
             };
             // Parent: C_BarnLight
             // Field count: 1
@@ -4912,10 +4943,6 @@ pub const source2_dumper = struct {
             // SHAKE_START_RUMBLEONLY
             // SHAKE_START_NORUMBLE
             // SHAKE_DURATION
-            // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
-            // TIMELINE_COMPRESSION_AVERAGE
-            // TIMELINE_COMPRESSION_AVERAGE_BLEND
-            // TIMELINE_COMPRESSION_TOTAL
             pub const CPathSimple = struct {
                 pub const m_CPathQueryComponent: usize = 0x610; // CPathQueryComponent
                 pub const m_pathString: usize = 0x700; // CUtlString
@@ -5296,6 +5323,11 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 0
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MSaveOpsForField
             pub const CLogicalEntity = struct {
             };
             // Parent: C_BaseModelEntity
@@ -5350,10 +5382,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Step_CallExternalMethod = struct {
                 pub const m_MethodName: usize = 0x48; // PulseSymbol_t
                 pub const m_nBlackboardIndex: usize = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
@@ -5581,6 +5613,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // CHAT_IGNORE_ALL
+            // CHAT_IGNORE_TEAM
             pub const CBasePlayerVData = struct {
                 pub const m_sModelName: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 pub const m_sModelNameAg2Override: usize = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -5637,10 +5671,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             pub const CPulseCell_Value_RandomFloat = struct {
             };
             // Parent: None
@@ -5699,6 +5733,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // generic
             pub const CBasePlayerWeaponVData = struct {
                 pub const m_szWorldModel: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 pub const m_szWorldModelAg2Override: usize = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -5764,6 +5799,7 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // roadcast_right_image\": [\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
             // ePreserveUpAxis
             // eCenter
             // eHead
@@ -5777,6 +5813,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseClientUIEntity
             // Field count: 29
+            //
+            // Metadata:
+            // e
             pub const C_PointClientUIWorldPanel = struct {
                 pub const m_bForceRecreateNextUpdate: usize = 0xFE0; // bool
                 pub const m_bMoveViewToPlayerNextThink: usize = 0xFE1; // bool
@@ -5856,6 +5895,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyElementNameFn
             // MPropertyFriendlyName
+            // MPropertyElementNameFn
             pub const GeneratedTextureHandle_t = struct {
                 pub const m_strBitmapName: usize = 0x0; // CUtlString
             };
@@ -5953,18 +5993,19 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // reload
-            // attack2
-            // turnright
-            // turndown
-            // back
-            // right
-            // movedown
-            // use
-            // duck
-            // zoom
-            // pitch
-            // rightleft
+            // ClientJob_EMsgGCCStrike15_v2_ClientPlayerDecalSign
+            // sprint
+            // attack
+            // turnleft
+            // turnup
+            // forward
+            // left
+            // moveup
+            // klook
+            // jump
+            // strafe
+            // yaw
+            // forwardback
             pub const CCS2UIPawnGraphController = struct {
                 pub const m_nAnimationSeed: usize = 0x88; // CAnimGraph2ParamOptionalRef<float32>
                 pub const m_characterMode: usize = 0xA0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -5985,6 +6026,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const inv_image_light_barn_t = struct {
                 pub const color: usize = 0x0; // Vector
                 pub const angle: usize = 0xC; // QAngle
@@ -5997,6 +6039,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MCustomFGDMetadata
             pub const inv_image_map_t = struct {
                 pub const map_name: usize = 0x0; // CUtlString
                 pub const map_rotation: usize = 0x8; // float32
@@ -6025,6 +6068,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // binary_zstd
             pub const inv_image_item_t = struct {
                 pub const position: usize = 0x0; // Vector
                 pub const angle: usize = 0xC; // QAngle
@@ -6087,8 +6131,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             pub const inv_image_clearcolor_t = struct {
                 pub const color: usize = 0x0; // Vector
             };
@@ -6319,86 +6361,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyElementNameFn
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MGetKV3ClassDefaults
-            // MPropertyElementNameFn
-            // generic
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MPropertyFriendlyName
-            // MPropertyAttrStateCallback
-            // MGetKV3ClassDefaults
-            // MPropertyElementNameFn
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MATCH_FILTER_MATERIAL_SHADER
-            // MATCH_FILTER_MATERIAL_NAME_SUBSTR
-            // MATCH_FILTER_MATERIAL_ATTRIBUTE_EQUALS
-            // MATCH_FILTER_MATERIAL_PROPERTY_EXISTS
-            // MATCH_FILTER_MATERIAL_PROPERTY_EQUALS
-            // MPropertyFriendlyName
-            // COMPMATSYSVAR_EMPTY_RESOURCE_SPACER
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // LOOSE_VARIABLE_TYPE_INTEGER1
-            // LOOSE_VARIABLE_TYPE_INTEGER2
             pub const CompositeMaterial_t = struct {
                 pub const m_TargetKVs: usize = 0x8; // KeyValues3
                 pub const m_PreGenerationKVs: usize = 0x18; // KeyValues3

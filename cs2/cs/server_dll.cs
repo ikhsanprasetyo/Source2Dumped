@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -2123,6 +2123,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // r
         public static class CPulseCell_WaitForCursorsWithTag {
             public const nint m_bTagSelfWhenComplete = 0x98; // bool
             public const nint m_nDesiredKillPriority = 0x9C; // PulseCursorCancelPriority_t
@@ -2556,6 +2557,20 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPulseEditorHeaderIcon
+        // MPropertyDescription
+        // MPulseLegacyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // DOOR_CHECK_BACKWARD
+        // DOOR_CHECK_FULL
+        // DOOR_SPAWN_OPEN_FORWARD
+        // DOOR_SPAWN_OPEN_BACK
+        // DOOR_SPAWN_AJAR
+        // DOOR_ROTATING_OPEN_FORWARD
+        // DOOR_ROTATING_OPEN_BACKWARD
         public static class CPulseCell_Outflow_PlaySceneBase {
             public const nint m_OnFinished = 0x48; // CPulse_ResumePoint
             public const nint m_OnCanceled = 0x90; // CPulse_ResumePoint
@@ -2566,6 +2581,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\
         // MGetKV3ClassDefaults
         public static class CPulseCell_LerpCameraSettings {
             public const nint m_flSeconds = 0x90; // float32
@@ -2694,127 +2710,127 @@ namespace Source2Dumper.Schemas {
             public const nint m_alertTimer = 0x1D0; // CountdownTimer
             public const nint m_sneakTimer = 0x1E8; // CountdownTimer
             public const nint m_panicTimer = 0x200; // CountdownTimer
-            public const nint m_stateTimestamp = 0x5A8; // float32
-            public const nint m_isAttacking = 0x5AC; // bool
-            public const nint m_isOpeningDoor = 0x5AD; // bool
-            public const nint m_taskEntity = 0x5B4; // CHandle<CBaseEntity>
-            public const nint m_goalPosition = 0x5C4; // VectorWS
-            public const nint m_goalEntity = 0x5D0; // CHandle<CBaseEntity>
-            public const nint m_avoid = 0x5D4; // CHandle<CBaseEntity>
-            public const nint m_avoidTimestamp = 0x5D8; // float32
-            public const nint m_isStopping = 0x5DC; // bool
-            public const nint m_hasVisitedEnemySpawn = 0x5DD; // bool
-            public const nint m_stillTimer = 0x5E0; // IntervalTimer
-            public const nint m_bEyeAnglesUnderPathFinderControl = 0x5F0; // bool
-            public const nint m_pathIndex = 0x4EF0; // int32
-            public const nint m_areaEnteredTimestamp = 0x4EF4; // GameTime_t
-            public const nint m_repathTimer = 0x4EF8; // CountdownTimer
-            public const nint m_avoidFriendTimer = 0x4F10; // CountdownTimer
-            public const nint m_isFriendInTheWay = 0x4F28; // bool
-            public const nint m_politeTimer = 0x4F30; // CountdownTimer
-            public const nint m_isWaitingBehindFriend = 0x4F48; // bool
-            public const nint m_pathLadderEnd = 0x4F74; // float32
-            public const nint m_mustRunTimer = 0x4FC0; // CountdownTimer
-            public const nint m_waitTimer = 0x4FD8; // CountdownTimer
-            public const nint m_updateTravelDistanceTimer = 0x4FF0; // CountdownTimer
-            public const nint m_playerTravelDistance = 0x5008; // float32[64]
-            public const nint m_travelDistancePhase = 0x5108; // uint8
-            public const nint m_hostageEscortCount = 0x52A0; // uint8
-            public const nint m_hostageEscortCountTimestamp = 0x52A4; // float32
-            public const nint m_desiredTeam = 0x52A8; // int32
-            public const nint m_hasJoined = 0x52AC; // bool
-            public const nint m_isWaitingForHostage = 0x52AD; // bool
-            public const nint m_inhibitWaitingForHostageTimer = 0x52B0; // CountdownTimer
-            public const nint m_waitForHostageTimer = 0x52C8; // CountdownTimer
-            public const nint m_noisePosition = 0x52E0; // Vector
-            public const nint m_noiseTravelDistance = 0x52EC; // float32
-            public const nint m_noiseTimestamp = 0x52F0; // float32
-            public const nint m_noiseSource = 0x52F8; // CCSPlayerPawn*
-            public const nint m_noiseBendTimer = 0x5310; // CountdownTimer
-            public const nint m_bentNoisePosition = 0x5328; // Vector
-            public const nint m_bendNoisePositionValid = 0x5334; // bool
-            public const nint m_lookAroundStateTimestamp = 0x5338; // float32
-            public const nint m_lookAheadAngle = 0x533C; // float32
-            public const nint m_lookUpAngle = 0x5340; // float32
-            public const nint m_forwardAngle = 0x5344; // float32
-            public const nint m_inhibitLookAroundTimestamp = 0x5348; // float32
-            public const nint m_lookAtSpot = 0x5350; // Vector
-            public const nint m_lookAtSpotDuration = 0x5360; // float32
-            public const nint m_lookAtSpotTimestamp = 0x5364; // float32
-            public const nint m_lookAtSpotAngleTolerance = 0x5368; // float32
-            public const nint m_lookAtSpotClearIfClose = 0x536C; // bool
-            public const nint m_lookAtSpotAttack = 0x536D; // bool
-            public const nint m_lookAtDesc = 0x5370; // char*
-            public const nint m_peripheralTimestamp = 0x5378; // float32
-            public const nint m_approachPointCount = 0x5500; // uint8
-            public const nint m_approachPointViewPosition = 0x5504; // Vector
-            public const nint m_viewSteadyTimer = 0x5510; // IntervalTimer
-            public const nint m_tossGrenadeTimer = 0x5528; // CountdownTimer
-            public const nint m_isAvoidingGrenade = 0x5548; // CountdownTimer
-            public const nint m_spotCheckTimestamp = 0x5568; // float32
-            public const nint m_checkedHidingSpotCount = 0x5970; // int32
-            public const nint m_lookPitch = 0x5974; // float32
-            public const nint m_lookPitchVel = 0x5978; // float32
-            public const nint m_lookYaw = 0x597C; // float32
-            public const nint m_lookYawVel = 0x5980; // float32
-            public const nint m_targetSpot = 0x5984; // Vector
-            public const nint m_targetSpotVelocity = 0x5990; // Vector
-            public const nint m_targetSpotPredicted = 0x599C; // Vector
-            public const nint m_aimError = 0x59A8; // QAngle
-            public const nint m_aimGoal = 0x59B4; // QAngle
-            public const nint m_targetSpotTime = 0x59C0; // GameTime_t
-            public const nint m_aimFocus = 0x59C4; // float32
-            public const nint m_aimFocusInterval = 0x59C8; // float32
-            public const nint m_aimFocusNextUpdate = 0x59CC; // GameTime_t
-            public const nint m_ignoreEnemiesTimer = 0x59D8; // CountdownTimer
-            public const nint m_enemy = 0x59F0; // CHandle<CCSPlayerPawn>
-            public const nint m_isEnemyVisible = 0x59F4; // bool
-            public const nint m_visibleEnemyParts = 0x59F5; // uint8
-            public const nint m_lastEnemyPosition = 0x59F8; // Vector
-            public const nint m_lastSawEnemyTimestamp = 0x5A04; // float32
-            public const nint m_firstSawEnemyTimestamp = 0x5A08; // float32
-            public const nint m_currentEnemyAcquireTimestamp = 0x5A0C; // float32
-            public const nint m_enemyDeathTimestamp = 0x5A10; // float32
-            public const nint m_friendDeathTimestamp = 0x5A14; // float32
-            public const nint m_isLastEnemyDead = 0x5A18; // bool
-            public const nint m_nearbyEnemyCount = 0x5A1C; // int32
-            public const nint m_bomber = 0x5C28; // CHandle<CCSPlayerPawn>
-            public const nint m_nearbyFriendCount = 0x5C2C; // int32
-            public const nint m_closestVisibleFriend = 0x5C30; // CHandle<CCSPlayerPawn>
-            public const nint m_closestVisibleHumanFriend = 0x5C34; // CHandle<CCSPlayerPawn>
-            public const nint m_attentionInterval = 0x5C38; // IntervalTimer
-            public const nint m_attacker = 0x5C48; // CHandle<CCSPlayerPawn>
-            public const nint m_attackedTimestamp = 0x5C4C; // float32
-            public const nint m_burnedByFlamesTimer = 0x5C50; // IntervalTimer
-            public const nint m_lastVictimID = 0x5C60; // int32
-            public const nint m_isAimingAtEnemy = 0x5C64; // bool
-            public const nint m_isRapidFiring = 0x5C65; // bool
-            public const nint m_equipTimer = 0x5C68; // IntervalTimer
-            public const nint m_zoomTimer = 0x5C78; // CountdownTimer
-            public const nint m_fireWeaponTimestamp = 0x5C90; // GameTime_t
-            public const nint m_lookForWeaponsOnGroundTimer = 0x5C98; // CountdownTimer
-            public const nint m_bIsSleeping = 0x5CB0; // bool
-            public const nint m_isEnemySniperVisible = 0x5CB1; // bool
-            public const nint m_sawEnemySniperTimer = 0x5CB8; // CountdownTimer
-            public const nint m_enemyQueueIndex = 0x5D70; // uint8
-            public const nint m_enemyQueueCount = 0x5D71; // uint8
-            public const nint m_enemyQueueAttendIndex = 0x5D72; // uint8
-            public const nint m_isStuck = 0x5D73; // bool
-            public const nint m_stuckTimestamp = 0x5D74; // GameTime_t
-            public const nint m_stuckSpot = 0x5D78; // Vector
-            public const nint m_wiggleTimer = 0x5D88; // CountdownTimer
-            public const nint m_stuckJumpTimer = 0x5DA0; // CountdownTimer
-            public const nint m_nextCleanupCheckTimestamp = 0x5DB8; // GameTime_t
-            public const nint m_avgVel = 0x5DBC; // float32[10]
-            public const nint m_avgVelIndex = 0x5DE4; // int32
-            public const nint m_avgVelCount = 0x5DE8; // int32
-            public const nint m_lastOrigin = 0x5DEC; // Vector
-            public const nint m_lastRadioRecievedTimestamp = 0x5DFC; // float32
-            public const nint m_lastRadioSentTimestamp = 0x5E00; // float32
-            public const nint m_radioSubject = 0x5E04; // CHandle<CCSPlayerPawn>
-            public const nint m_radioPosition = 0x5E08; // Vector
-            public const nint m_voiceEndTimestamp = 0x5E14; // float32
-            public const nint m_lastValidReactionQueueFrame = 0x5E20; // int32
+            public const nint m_stateTimestamp = 0x5C8; // float32
+            public const nint m_isAttacking = 0x5CC; // bool
+            public const nint m_isOpeningDoor = 0x5CD; // bool
+            public const nint m_taskEntity = 0x5D4; // CHandle<CBaseEntity>
+            public const nint m_goalPosition = 0x5E4; // VectorWS
+            public const nint m_goalEntity = 0x5F0; // CHandle<CBaseEntity>
+            public const nint m_avoid = 0x5F4; // CHandle<CBaseEntity>
+            public const nint m_avoidTimestamp = 0x5F8; // float32
+            public const nint m_isStopping = 0x5FC; // bool
+            public const nint m_hasVisitedEnemySpawn = 0x5FD; // bool
+            public const nint m_stillTimer = 0x600; // IntervalTimer
+            public const nint m_bEyeAnglesUnderPathFinderControl = 0x610; // bool
+            public const nint m_pathIndex = 0x4F10; // int32
+            public const nint m_areaEnteredTimestamp = 0x4F14; // GameTime_t
+            public const nint m_repathTimer = 0x4F18; // CountdownTimer
+            public const nint m_avoidFriendTimer = 0x4F30; // CountdownTimer
+            public const nint m_isFriendInTheWay = 0x4F48; // bool
+            public const nint m_politeTimer = 0x4F50; // CountdownTimer
+            public const nint m_isWaitingBehindFriend = 0x4F68; // bool
+            public const nint m_pathLadderEnd = 0x4F94; // float32
+            public const nint m_mustRunTimer = 0x4FE0; // CountdownTimer
+            public const nint m_waitTimer = 0x4FF8; // CountdownTimer
+            public const nint m_updateTravelDistanceTimer = 0x5010; // CountdownTimer
+            public const nint m_playerTravelDistance = 0x5028; // float32[64]
+            public const nint m_travelDistancePhase = 0x5128; // uint8
+            public const nint m_hostageEscortCount = 0x52C0; // uint8
+            public const nint m_hostageEscortCountTimestamp = 0x52C4; // float32
+            public const nint m_desiredTeam = 0x52C8; // int32
+            public const nint m_hasJoined = 0x52CC; // bool
+            public const nint m_isWaitingForHostage = 0x52CD; // bool
+            public const nint m_inhibitWaitingForHostageTimer = 0x52D0; // CountdownTimer
+            public const nint m_waitForHostageTimer = 0x52E8; // CountdownTimer
+            public const nint m_noisePosition = 0x5300; // Vector
+            public const nint m_noiseTravelDistance = 0x530C; // float32
+            public const nint m_noiseTimestamp = 0x5310; // float32
+            public const nint m_noiseSource = 0x5318; // CCSPlayerPawn*
+            public const nint m_noiseBendTimer = 0x5330; // CountdownTimer
+            public const nint m_bentNoisePosition = 0x5348; // Vector
+            public const nint m_bendNoisePositionValid = 0x5354; // bool
+            public const nint m_lookAroundStateTimestamp = 0x5358; // float32
+            public const nint m_lookAheadAngle = 0x535C; // float32
+            public const nint m_lookUpAngle = 0x5360; // float32
+            public const nint m_forwardAngle = 0x5364; // float32
+            public const nint m_inhibitLookAroundTimestamp = 0x5368; // float32
+            public const nint m_lookAtSpot = 0x5370; // Vector
+            public const nint m_lookAtSpotDuration = 0x5380; // float32
+            public const nint m_lookAtSpotTimestamp = 0x5384; // float32
+            public const nint m_lookAtSpotAngleTolerance = 0x5388; // float32
+            public const nint m_lookAtSpotClearIfClose = 0x538C; // bool
+            public const nint m_lookAtSpotAttack = 0x538D; // bool
+            public const nint m_lookAtDesc = 0x5390; // char*
+            public const nint m_peripheralTimestamp = 0x5398; // float32
+            public const nint m_approachPointCount = 0x5520; // uint8
+            public const nint m_approachPointViewPosition = 0x5524; // Vector
+            public const nint m_viewSteadyTimer = 0x5530; // IntervalTimer
+            public const nint m_tossGrenadeTimer = 0x5548; // CountdownTimer
+            public const nint m_isAvoidingGrenade = 0x5568; // CountdownTimer
+            public const nint m_spotCheckTimestamp = 0x5588; // float32
+            public const nint m_checkedHidingSpotCount = 0x5990; // int32
+            public const nint m_lookPitch = 0x5994; // float32
+            public const nint m_lookPitchVel = 0x5998; // float32
+            public const nint m_lookYaw = 0x599C; // float32
+            public const nint m_lookYawVel = 0x59A0; // float32
+            public const nint m_targetSpot = 0x59A4; // Vector
+            public const nint m_targetSpotVelocity = 0x59B0; // Vector
+            public const nint m_targetSpotPredicted = 0x59BC; // Vector
+            public const nint m_aimError = 0x59C8; // QAngle
+            public const nint m_aimGoal = 0x59D4; // QAngle
+            public const nint m_targetSpotTime = 0x59E0; // GameTime_t
+            public const nint m_aimFocus = 0x59E4; // float32
+            public const nint m_aimFocusInterval = 0x59E8; // float32
+            public const nint m_aimFocusNextUpdate = 0x59EC; // GameTime_t
+            public const nint m_ignoreEnemiesTimer = 0x59F8; // CountdownTimer
+            public const nint m_enemy = 0x5A10; // CHandle<CCSPlayerPawn>
+            public const nint m_isEnemyVisible = 0x5A14; // bool
+            public const nint m_visibleEnemyParts = 0x5A15; // uint8
+            public const nint m_lastEnemyPosition = 0x5A18; // Vector
+            public const nint m_lastSawEnemyTimestamp = 0x5A24; // float32
+            public const nint m_firstSawEnemyTimestamp = 0x5A28; // float32
+            public const nint m_currentEnemyAcquireTimestamp = 0x5A2C; // float32
+            public const nint m_enemyDeathTimestamp = 0x5A30; // float32
+            public const nint m_friendDeathTimestamp = 0x5A34; // float32
+            public const nint m_isLastEnemyDead = 0x5A38; // bool
+            public const nint m_nearbyEnemyCount = 0x5A3C; // int32
+            public const nint m_bomber = 0x5C48; // CHandle<CCSPlayerPawn>
+            public const nint m_nearbyFriendCount = 0x5C4C; // int32
+            public const nint m_closestVisibleFriend = 0x5C50; // CHandle<CCSPlayerPawn>
+            public const nint m_closestVisibleHumanFriend = 0x5C54; // CHandle<CCSPlayerPawn>
+            public const nint m_attentionInterval = 0x5C58; // IntervalTimer
+            public const nint m_attacker = 0x5C68; // CHandle<CCSPlayerPawn>
+            public const nint m_attackedTimestamp = 0x5C6C; // float32
+            public const nint m_burnedByFlamesTimer = 0x5C70; // IntervalTimer
+            public const nint m_lastVictimID = 0x5C80; // int32
+            public const nint m_isAimingAtEnemy = 0x5C84; // bool
+            public const nint m_isRapidFiring = 0x5C85; // bool
+            public const nint m_equipTimer = 0x5C88; // IntervalTimer
+            public const nint m_zoomTimer = 0x5C98; // CountdownTimer
+            public const nint m_fireWeaponTimestamp = 0x5CB0; // GameTime_t
+            public const nint m_lookForWeaponsOnGroundTimer = 0x5CB8; // CountdownTimer
+            public const nint m_bIsSleeping = 0x5CD0; // bool
+            public const nint m_isEnemySniperVisible = 0x5CD1; // bool
+            public const nint m_sawEnemySniperTimer = 0x5CD8; // CountdownTimer
+            public const nint m_enemyQueueIndex = 0x5D90; // uint8
+            public const nint m_enemyQueueCount = 0x5D91; // uint8
+            public const nint m_enemyQueueAttendIndex = 0x5D92; // uint8
+            public const nint m_isStuck = 0x5D93; // bool
+            public const nint m_stuckTimestamp = 0x5D94; // GameTime_t
+            public const nint m_stuckSpot = 0x5D98; // Vector
+            public const nint m_wiggleTimer = 0x5DA8; // CountdownTimer
+            public const nint m_stuckJumpTimer = 0x5DC0; // CountdownTimer
+            public const nint m_nextCleanupCheckTimestamp = 0x5DD8; // GameTime_t
+            public const nint m_avgVel = 0x5DDC; // float32[10]
+            public const nint m_avgVelIndex = 0x5E04; // int32
+            public const nint m_avgVelCount = 0x5E08; // int32
+            public const nint m_lastOrigin = 0x5E0C; // Vector
+            public const nint m_lastRadioRecievedTimestamp = 0x5E1C; // float32
+            public const nint m_lastRadioSentTimestamp = 0x5E20; // float32
+            public const nint m_radioSubject = 0x5E24; // CHandle<CCSPlayerPawn>
+            public const nint m_radioPosition = 0x5E28; // Vector
+            public const nint m_voiceEndTimestamp = 0x5E34; // float32
+            public const nint m_lastValidReactionQueueFrame = 0x5E40; // int32
         }
         // Parent: CBaseEntity
         // Field count: 2
@@ -2939,6 +2955,26 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // SHATTERDAMAGE_MELEE
+        // SHATTERDAMAGE_THROWN
+        // SHATTERDAMAGE_SCRIPT
+        // SHATTERDAMAGE_EXPLOSIVE
+        // SHATTERGLASS_BALLISTIC
+        // SHATTERGLASS_PULSE
+        // SHATTERGLASS_EXPLOSIVE
+        // ONFRAME_TRUE
+        // ONFRAME_FALSE
+        // SHARD_DEBRIS
+        // USE_BEST_COLLISION_BOUNDS
+        // USE_HITBOXES
+        // USE_SPECIFIED_BOUNDS
+        // USE_GAME_CODE
+        // USE_ROTATION_EXPANDED_BOUNDS
+        // USE_ROTATION_EXPANDED_ORIENTED_BOUNDS
+        // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
+        // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
+        // SURROUNDING_TYPE_BIT_COUNT
+        // MGetKV3ClassDefaults
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_flInnerDistance = 0x108; // float32
@@ -3039,6 +3075,11 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyAttributeSuggestionName
         public static class CPulseCell_Step_EntFire {
             public const nint m_Input = 0x48; // CUtlString
         }
@@ -3422,6 +3463,11 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseModelEntity
         // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // ull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\
+        // MGetKV3ClassDefaults
         public static class CLightEntity {
             public const nint m_CLightComponent = 0x768; // CLightComponent*
         }
@@ -3534,6 +3580,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
+        // :
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -3714,6 +3761,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
         // MPulseEditorHeaderIcon
         // MPulseEditorHeaderIcon
         // MPropertyDescription
@@ -3725,6 +3773,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
+        // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -3796,6 +3845,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
+        // :
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -3815,6 +3865,17 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseModelEntity
         // Field count: 22
+        //
+        // Metadata:
+        // ACTIVE
+        // FINISHED
+        // FAILED
+        // INTERACT_PASSIVE_LOOKAT
+        // INTERACT_PASSIVE_SPEAK
+        // INTERACT_PRIORITY_PASSIVE
+        // INTERACT_PRIORITY_LOW
+        // INTERACT_PRIORITY_MED
+        // INTERACT_PRIORITY_HIGH
         public static class CParticleSystem {
             public const nint m_szSnapshotFileName = 0x768; // char[512]
             public const nint m_bActive = 0x968; // bool
@@ -3892,6 +3953,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
         // MPulseEditorHeaderIcon
         // MPulseEditorHeaderIcon
         // MPropertyDescription
@@ -4207,6 +4269,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // eNotifyWhenFinished
         // eNotifyTriggered
+        // t
         public static class CEnvCombinedLightProbeVolume {
             public const nint m_Entity_Color = 0x1520; // Color
             public const nint m_Entity_flBrightness = 0x1524; // float32
@@ -4451,12 +4514,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
+        // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
         public static class CPulseCell_WaitForCursorsWithTagBase {
             public const nint m_nCursorsAllowedToWait = 0x48; // int32
             public const nint m_WaitComplete = 0x50; // CPulse_ResumePoint
         }
         // Parent: CCSPlayerPawnBase
-        // Field count: 108
+        // Field count: 105
         public static class CCSPlayerPawn {
             public const nint m_pBulletServices = 0xD08; // CCSPlayer_BulletServices*
             public const nint m_pHostageServices = 0xD10; // CCSPlayer_HostageServices*
@@ -4557,15 +4621,12 @@ namespace Source2Dumper.Schemas {
             public const nint m_angStashedShootAngles = 0x1300; // QAngle
             public const nint m_vecStashedGrenadeThrowPosition = 0x130C; // Vector
             public const nint m_vecStashedVelocity = 0x1318; // Vector
-            public const nint m_angShootAngleHistory = 0x1324; // QAngle[2]
-            public const nint m_vecThrowPositionHistory = 0x133C; // Vector[2]
-            public const nint m_vecVelocityHistory = 0x1354; // Vector[2]
-            public const nint m_bCommittingSuicideOnTeamChange = 0x1378; // bool
-            public const nint m_wasNotKilledNaturally = 0x1379; // bool
-            public const nint m_fImmuneToGunGameDamageTime = 0x137C; // GameTime_t
-            public const nint m_bGunGameImmunity = 0x1380; // bool
-            public const nint m_fMolotovDamageTime = 0x1384; // float32
-            public const nint m_angEyeAngles = 0x1388; // QAngle
+            public const nint m_bCommittingSuicideOnTeamChange = 0x1330; // bool
+            public const nint m_wasNotKilledNaturally = 0x1331; // bool
+            public const nint m_fImmuneToGunGameDamageTime = 0x1334; // GameTime_t
+            public const nint m_bGunGameImmunity = 0x1338; // bool
+            public const nint m_fMolotovDamageTime = 0x133C; // float32
+            public const nint m_angEyeAngles = 0x1340; // QAngle
         }
         // Parent: CBaseEntity
         // Field count: 22
@@ -4731,7 +4792,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // PM_NO_GIBS
-        // generic
         // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
         // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
         // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
@@ -4792,6 +4852,16 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyEditContextOverrideValue
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         public static class CPulseCell_Outflow_PlayVCD {
             public const nint m_hChoreoScene = 0xF0; // CStrongHandle<InfoForResourceTypeCChoreoSceneResource>
             public const nint m_OnPaused = 0xF8; // CPulse_OutflowConnection
@@ -4956,12 +5026,12 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
-        // ta\Local
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyDescription
+        // :
         // MPropertyDescription
         // MPropertyDescription
         // MPulseSignatureForOutflow
@@ -5400,6 +5470,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5608,6 +5679,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
+        // j
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // ull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\
         // MGetKV3ClassDefaults
         public static class CFogController {
             public const nint m_fog = 0x4A8; // fogparams_t
@@ -5651,6 +5726,14 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 11
+        //
+        // Metadata:
+        // WORLDTEXT_HORIZONTAL_ALIGN_CENTER
+        // WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
+        // WORLDTEXT_VERTICAL_ALIGN_CENTER
+        // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
+        // WORLDTEXT_ORIENTATION_FACEUSER
+        // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
         public static class CInfoOffscreenPanoramaTexture {
             public const nint m_bDisabled = 0x4A8; // bool
             public const nint m_nResolutionX = 0x4AC; // int32
@@ -5710,8 +5793,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorSubHeaderText
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
         // MPulseEditorCanvasItemSpecKV3
@@ -5728,8 +5809,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertySuppressExpr
         // MPropertySuppressExpr
-        // MPulseEditorHeaderExpr
-        // MPulsePolymorphicDependentReturn
         public static class CPulseCell_Step_FollowEntity {
             public const nint m_ParamBoneOrAttachName = 0x48; // CUtlString
             public const nint m_ParamBoneOrAttachNameChild = 0x50; // CUtlString
@@ -5757,6 +5836,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertySuppressBaseClassField
         // MPropertySuppressBaseClassField
+        // m
         public static class CCSWeaponBaseVData {
             public const nint m_WeaponType = 0x520; // CSWeaponType
             public const nint m_WeaponCategory = 0x524; // CSWeaponCategory
@@ -5870,6 +5950,11 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // ull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\
+        // MGetKV3ClassDefaults
         public static class CInfoTarget {
         }
         // Parent: CPlayerPawnComponent
@@ -5905,6 +5990,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
         // MPulseEditorHeaderIcon
         // MPulseEditorHeaderIcon
         // MPropertyDescription
@@ -5934,19 +6020,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // HIERARCHY_BONE_MERGE
-        // HIERARCHY_ATTACHMENT
-        // HIERARCHY_ABSORIGIN
-        // HIERARCHY_BONE
-        // HIERARCHY_TYPE_COUNT
-        // ROTATOR_TARGET_LOCALSPACE
-        // ROTATE_OSCILLATE
-        // ROTATE_STOP_AT_END
-        // ROTATE_LOOK_AT_TARGET
-        // ROTATE_LOOK_AT_TARGET_ONLY_YAW
-        // ROTATE_RETURN_TO_INITIAL_ORIENTATION
         public static class CPulseFuncs_GameParticleManager {
         }
         // Parent: None
@@ -6058,24 +6131,15 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyDescription
+        // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
         // MPropertyAttributeEditor
         // MPulseSignatureForOutflow
+        // MPropertyFriendlyName
+        // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyCustomFGDType
         // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderExpr
-        // MPulsePolymorphicDependentReturn
-        // MPulseEditorHeaderExpr
-        // MPulsePolymorphicDependentReturn
-        // MPropertyDescription
-        // MPulsePolymorphicDependentReturn
-        // MPropertyDescription
-        // MPulseEditorHeaderExpr
-        // MPulsePolymorphicDependentReturn
-        // MPulseEditorHeaderExpr
-        // MGetKV3ClassDefaults
         public static class CPulseCell_Step_SetAnimGraphParam {
             public const nint m_ParamName = 0x48; // CUtlString
         }
@@ -6407,8 +6471,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorSubHeaderText
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
         // MPulseEditorCanvasItemSpecKV3
@@ -6425,9 +6487,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertySuppressExpr
         // MPropertySuppressExpr
-        // MPulseEditorHeaderExpr
-        // MPulsePolymorphicDependentReturn
-        // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_ListenForEntityOutput {
             public const nint m_OnFired = 0x48; // SignatureOutflow_Resume
             public const nint m_OnCanceled = 0x90; // CPulse_ResumePoint
@@ -6635,25 +6694,10 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
-        // MPulseEditorCanvasItemSpecKV3
-        // MPulseEditorCanvasItemSpecKV3
-        // MPulseEditorCanvasItemSpecKV3
-        // MPulseEditorCanvasItemSpecKV3
-        // MPulseEditorCanvasItemSpecKV3
-        // MPulseEditorCanvasItemSpecKV3
-        // MPulseEditorCanvasItemSpecKV3
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyAttributeEditor
-        // MPropertyAttributeSuggestionName
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertySuppressExpr
-        // MPropertySuppressExpr
-        // MPulseEditorHeaderExpr
-        // MPulsePolymorphicDependentReturn
-        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyCustomFGDType
+        // MPropertyDescription
         public static class CPulseServerFuncs {
         }
         // Parent: CPointEntity
@@ -6681,7 +6725,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ta\Local
         public static class CCS2PawnGraphController {
             public const nint m_bIsDefusing = 0x588; // CAnimGraph2ParamOptionalRef<bool>
             public const nint m_moveType = 0x5A0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
@@ -6807,9 +6850,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x4A8; // CUtlSymbolLarge
             public const nint m_hTarget = 0x4B0; // CHandle<CBaseEntity>
@@ -6898,6 +6938,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7246,6 +7287,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7376,32 +7418,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // FUNC_DOOR_SPAWN_OPEN
-        // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
-        // l
-        // expDirected
-        // expUsePrecise
-        // matWood
-        // matMetal
-        // matFlesh
-        // matCinderBlock
-        // matCeilingTile
-        // matComputer
-        // matUnbreakableGlass
-        // matRocks
-        // matWeb
-        // matNone
-        // matLastMaterial
-        // BLOCK_LOS_FORCE_FALSE
-        // BLOCK_LOS_FORCE_TRUE
-        // eMovementBegin
-        // eStopBegin
-        // eStopComplete
-        // eReversing
-        // eEventsDispatched
-        // MOVE_OSCILLATE
-        // MOVE_STOP_AT_END
+        // :
         public static class CEnvDecal {
             public const nint m_hDecalMaterial = 0x768; // CStrongHandle<InfoForResourceTypeIMaterial2>
             public const nint m_flWidth = 0x770; // float32
@@ -7752,6 +7770,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8037,6 +8056,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8297,8 +8317,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorSubHeaderText
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
         // MPulseEditorCanvasItemSpecKV3
@@ -8315,9 +8333,6 @@ namespace Source2Dumper.Schemas {
         // MPropertySuppressExpr
         // MPropertySuppressExpr
         // MPropertySuppressExpr
-        // MPulseEditorHeaderExpr
-        // MPulsePolymorphicDependentReturn
-        // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_ListenForAnimgraphTag {
             public const nint m_OnStart = 0x48; // CPulse_ResumePoint
             public const nint m_OnEnd = 0x90; // CPulse_ResumePoint
@@ -8489,6 +8504,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8870,9 +8886,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseModelEntity
         // Field count: 12
-        //
-        // Metadata:
-        // ta\Local
         public static class CEnvSky {
             public const nint m_hSkyMaterial = 0x768; // CStrongHandle<InfoForResourceTypeIMaterial2>
             public const nint m_hSkyMaterialLightingOnly = 0x770; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -9032,6 +9045,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9161,14 +9175,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseClientUIEntity
         // Field count: 24
-        //
-        // Metadata:
-        // WORLDTEXT_HORIZONTAL_ALIGN_CENTER
-        // WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
-        // WORLDTEXT_VERTICAL_ALIGN_CENTER
-        // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
-        // WORLDTEXT_ORIENTATION_FACEUSER
-        // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
         public static class CPointClientUIWorldPanel {
             public const nint m_bIgnoreInput = 0x8C8; // bool
             public const nint m_bLit = 0x8C9; // bool
@@ -9317,6 +9323,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9445,6 +9452,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CRATE_TYPE_COUNT
+        // ,
         // TrackOrientation_FacePath
         // TrackOrientation_FacePathAngles
         public static class CPathSimple {
@@ -10067,6 +10075,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10508,9 +10517,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // )
-        // )
-        // MGetKV3ClassDefaults
         // MPropertyEditContextOverrideValue
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -10629,7 +10635,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CBasePlayerVData {
             public const nint m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_sModelNameAg2Override = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -10679,6 +10684,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // r
         public static class CPulseCell_CursorQueue {
             public const nint m_nCursorsAllowedToRunParallel = 0x98; // int32
         }
@@ -10693,6 +10699,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10765,6 +10772,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBreakableProp
         // Field count: 22
+        //
+        // Metadata:
+        // MOVELINEAR_AUTHORED_AT_OPEN_POSITION
+        // MOVELINEAR_AUTHORED_AT_CLOSED_POSITION
         public static class CDynamicProp {
             public const nint m_bCreateNavObstacle = 0xAD8; // bool
             public const nint m_bNavObstacleUpdatesOverridden = 0xAD9; // bool
@@ -10956,11 +10967,15 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\
         // MGetKV3ClassDefaults
         public static class CInfoParticleTarget {
         }
         // Parent: CBaseEntity
         // Field count: 18
+        //
+        // Metadata:
+        // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
         public static class CEnvCubemap {
             public const nint m_Entity_hCubemapTexture = 0x528; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_Entity_bCustomCubemapTexture = 0x530; // bool
@@ -11113,6 +11128,9 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // r
+        // r
+        // r
         // PATTACH_INVALID
         // PATTACH_ABSORIGIN_FOLLOW
         // PATTACH_CUSTOMORIGIN
@@ -11159,6 +11177,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomEditor
+        // 43706,"votes_down":6384,"comment_type":"ForumTopic","gidfeature":"1634166237646390927","gidfeature2":"659359514129288535","clan_
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -11260,6 +11279,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
+        // MSaveOpsForField
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
@@ -11309,6 +11329,9 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // r
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CTestPulseIOComponent_Derived {
@@ -11366,9 +11389,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // FUNC_DOOR_SPAWN_OPEN
+        // e38637bfd0cafb565a69d4ebd261f_large.png"}, {"name": "Misa", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
-        // l
         // expDirected
         // expUsePrecise
         // matWood
@@ -11418,6 +11441,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // :
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
@@ -11493,8 +11517,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyFriendlyName
         // MEntitySubclassScopeFile
-        // MPropertyFriendlyName
-        // MEntitySubclassScopeFile
+        // R
         public static class AmmoIndex_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -11544,7 +11567,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MSaveOpsForField
         // MPropertyDescription
         // PrioritizeClosestPart
         // MPropertyDescription
@@ -11756,6 +11778,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // :
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
@@ -11788,6 +11811,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // :
         public static class AI_MotorGroundAnimgraph_DebugSnapshotData_t {
             public const nint state = 0x8; // CGlobalSymbol
             public const nint b_has_path = 0x10; // bool
@@ -11892,6 +11916,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // :
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
@@ -11922,14 +11947,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MVDataNodeType
         // MVDataOverlayType
-        // SOUNDCTRL_CHANGE_PITCH
-        // SOUNDCTRL_STOP
-        // SOUNDCTRL_DESTROY
-        // SOUNDCTRL_FADEOUT
-        // MGetKV3ClassDefaults
-        // MKV3TransferSaveOpsForField
-        // MKV3TransferSaveOpsForField
-        // MGetKV3ClassDefaults
         public static class ExternalAnimGraphHandle_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -11978,11 +11995,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // ta\Local
-        // m
         public static class SceneEventId_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -12196,6 +12208,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // CHAT_IGNORE_ALL
+        // CHAT_IGNORE_TEAM
         public static class CBaseAnimGraphVariationUserData {
         }
         // Parent: None
@@ -12238,6 +12252,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
+        // 43706,"votes_down":6384,"comment_type":"ForumTopic","gidfeature":"1634166237646390927","gidfeature2":"659359514129288535","clan_
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -12262,11 +12277,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MPropertyCustomEditor
-        // MPropertyCustomEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
@@ -12421,16 +12431,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomEditor
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyStartGroup
-        // MPropertyStartGroup
-        // MPropertyStartGroup
-        // MPropertyStartGroup
-        // MPropertyStartGroup
-        // MPropertyStartGroup
-        // MPropertyStartGroup
+        // MPropertyCustomEditor
         public static class CFiringModeFloat {
             public const nint m_flValues = 0x0; // float32[2]
         }
@@ -12511,6 +12512,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ClientJob_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty
         // ClientJob_EMsgGCCStrike15_v2_MatchEndRewardDropsNotification
         public static class GameAmmoTypeInfo_t {
             public const nint m_nBuySize = 0x38; // int32
@@ -12615,6 +12617,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // 00,0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff
         public static class CNmAimCSNode__CDefinition {
             public const nint m_nVerticalAngleNodeIdx = 0x18; // int16
             public const nint m_nHorizontalAngleNodeIdx = 0x1A; // int16
@@ -12759,6 +12763,8 @@ namespace Source2Dumper.Schemas {
         // eCenter
         // eEyes
         // eAttachment
+        // MPropertyFriendlyName
+        // MEntitySubclassScopeFile
         // SUBCLASS_SCOPE_NONE
         // SUBCLASS_SCOPE_PLAYER_WEAPONS
         // SUBCLASS_SCOPE_COUNT
@@ -12914,10 +12920,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyAttributeEditor
+        // 8", "logo_url": "https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png", "flag_u
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
+        // MSaveOpsForField
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
@@ -12938,6 +12946,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // 00,0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff
         public static class CNmSnapWeaponNode__CDefinition {
             public const nint m_nFlashedAmountNodeIdx = 0x18; // int16
             public const nint m_nWeaponCategoryNodeIdx = 0x1A; // int16
@@ -12963,15 +12972,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomEditor
-        // MPropertyStartGroup
-        // MPropertyStartGroup
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyStartGroup
-        // MGetKV3ClassDefaults
-        // MPropertySuppressBaseClassField
-        // MPropertySuppressBaseClassField
         public static class CFiringModeInt {
             public const nint m_nValues = 0x0; // int32[2]
         }
@@ -13000,7 +13000,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // TEXT
         // ENTITY
         // COUNT
@@ -13019,34 +13018,18 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyAttributeRange
         // MPropertyDescription
-        // MGetKV3ClassDefaults
         // MPropertyDescription
+        // MGetKV3ClassDefaults
         public static class CEmptyGraphController {
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
-        // TEXT
-        // ENTITY
-        // COUNT
-        // TACTICAL_SEARCH
-        // AI_SCHEDULE
-        // AI_TASK
-        // AI_EVENT
-        // AI_PATHFINDING
-        // END_SIM_HISTORY_TYPES
-        // COMBINED
-        // MATCH
-        // HIERARCHY
-        // COUNT
-        // ANY
-        // COUNT
-        // MPropertyDescription
         // MPropertyAttributeRange
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MPropertyDescription
+        // MSaveOpsForField
         public static class ModelConfigHandle_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -13082,6 +13065,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class SceneOpportunityHandle_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -13172,10 +13158,27 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // TEXT
+        // ENTITY
+        // COUNT
+        // TACTICAL_SEARCH
+        // AI_SCHEDULE
+        // AI_TASK
+        // AI_EVENT
+        // AI_PATHFINDING
+        // END_SIM_HISTORY_TYPES
+        // COMBINED
+        // MATCH
+        // HIERARCHY
+        // COUNT
+        // ANY
+        // COUNT
+        // MPropertyDescription
         // MPropertyAttributeRange
         // MPropertyDescription
+        // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MSaveOpsForField
         public static class CAnimGraphControllerBase {
             public const nint m_hExternalGraph = 0x10; // ExternalAnimGraphHandle_t
         }

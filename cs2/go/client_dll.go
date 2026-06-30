@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 23:32:44.837465 +07:00
+// 2026-06-30 10:06:43.171224400 +07:00
 
 package schemas
 
@@ -416,7 +416,7 @@ const (
     ClientDll_C_BaseButton_m_glowEntity = 0xFA8 // CHandle<C_BaseModelEntity>
     ClientDll_C_BaseButton_m_usable = 0xFAC // bool
     ClientDll_C_BaseButton_m_szDisplayText = 0xFB0 // CUtlSymbolLarge
-    ClientDll_CCSObserver_ObserverServices_m_obsInterpState = 0x64 // ObserverInterpState_t
+    ClientDll_CCSObserver_ObserverServices_m_obsInterpState = 0x68 // ObserverInterpState_t
     ClientDll_CHitboxComponent_m_flBoundsExpandRadius = 0x14 // float32
     ClientDll_ServerAuthoritativeWeaponSlot_t_unClass = 0x30 // uint16
     ClientDll_ServerAuthoritativeWeaponSlot_t_unSlot = 0x32 // uint16
@@ -776,16 +776,17 @@ const (
     ClientDll_C_CSWeaponBase_m_bVisualsDataSet = 0x18B9 // bool
     ClientDll_C_CSWeaponBase_m_bUIWeapon = 0x18BA // bool
     ClientDll_C_CSWeaponBase_m_nCustomEconReloadEventId = 0x18BC // int32
-    ClientDll_C_CSWeaponBase_m_nextPrevOwnerUseTime = 0x18C8 // GameTime_t
-    ClientDll_C_CSWeaponBase_m_hPrevOwner = 0x18CC // CHandle<C_CSPlayerPawn>
-    ClientDll_C_CSWeaponBase_m_nDropTick = 0x18D0 // GameTick_t
-    ClientDll_C_CSWeaponBase_m_bWasActiveWeaponWhenDropped = 0x18D4 // bool
-    ClientDll_C_CSWeaponBase_m_donated = 0x18F4 // bool
-    ClientDll_C_CSWeaponBase_m_fLastShotTime = 0x18F8 // GameTime_t
-    ClientDll_C_CSWeaponBase_m_bWasOwnedByCT = 0x18FC // bool
-    ClientDll_C_CSWeaponBase_m_bWasOwnedByTerrorist = 0x18FD // bool
-    ClientDll_C_CSWeaponBase_m_flNextClientFireBulletTime = 0x1900 // float32
-    ClientDll_C_CSWeaponBase_m_flNextClientFireBulletTime_Repredict = 0x1904 // float32
+    ClientDll_C_CSWeaponBase_m_bCanBePickedUp = 0x18C8 // bool
+    ClientDll_C_CSWeaponBase_m_nextPrevOwnerUseTime = 0x18CC // GameTime_t
+    ClientDll_C_CSWeaponBase_m_hPrevOwner = 0x18D0 // CHandle<C_CSPlayerPawn>
+    ClientDll_C_CSWeaponBase_m_nDropTick = 0x18D4 // GameTick_t
+    ClientDll_C_CSWeaponBase_m_bWasActiveWeaponWhenDropped = 0x18D8 // bool
+    ClientDll_C_CSWeaponBase_m_donated = 0x18FC // bool
+    ClientDll_C_CSWeaponBase_m_fLastShotTime = 0x1900 // GameTime_t
+    ClientDll_C_CSWeaponBase_m_bWasOwnedByCT = 0x1904 // bool
+    ClientDll_C_CSWeaponBase_m_bWasOwnedByTerrorist = 0x1905 // bool
+    ClientDll_C_CSWeaponBase_m_flNextClientFireBulletTime = 0x1908 // float32
+    ClientDll_C_CSWeaponBase_m_flNextClientFireBulletTime_Repredict = 0x190C // float32
     ClientDll_C_CSWeaponBase_m_IronSightController = 0x1960 // C_IronSightController
     ClientDll_C_CSWeaponBase_m_iIronSightMode = 0x1A10 // int32
     ClientDll_C_CSWeaponBase_m_flLastLOSTraceFailureTime = 0x1A88 // GameTime_t
@@ -971,24 +972,21 @@ const (
     ClientDll_C_CSPlayerPawn_m_angStashedShootAngles = 0x1CD8 // QAngle
     ClientDll_C_CSPlayerPawn_m_vecStashedGrenadeThrowPosition = 0x1CE4 // Vector
     ClientDll_C_CSPlayerPawn_m_vecStashedVelocity = 0x1CF0 // Vector
-    ClientDll_C_CSPlayerPawn_m_angShootAngleHistory = 0x1CFC // QAngle[2]
-    ClientDll_C_CSPlayerPawn_m_vecThrowPositionHistory = 0x1D14 // Vector[2]
-    ClientDll_C_CSPlayerPawn_m_vecVelocityHistory = 0x1D2C // Vector[2]
-    ClientDll_C_CSPlayerPawn_m_bShouldAutobuyDMWeapons = 0x3280 // bool
-    ClientDll_C_CSPlayerPawn_m_fImmuneToGunGameDamageTime = 0x3284 // GameTime_t
-    ClientDll_C_CSPlayerPawn_m_bGunGameImmunity = 0x3288 // bool
-    ClientDll_C_CSPlayerPawn_m_fImmuneToGunGameDamageTimeLast = 0x328C // GameTime_t
-    ClientDll_C_CSPlayerPawn_m_fMolotovDamageTime = 0x3290 // float32
-    ClientDll_C_CSPlayerPawn_m_nPlayerInfernoBodyFx = 0x32FC // ParticleIndex_t
-    ClientDll_C_CSPlayerPawn_m_angEyeAngles = 0x3370 // QAngle
-    ClientDll_C_CSPlayerPawn_m_arrOldEyeAnglesTimes = 0x3400 // GameTime_t[4]
-    ClientDll_C_CSPlayerPawn_m_arrOldEyeAngles = 0x3410 // QAngle[4]
-    ClientDll_C_CSPlayerPawn_m_angEyeAnglesVelocity = 0x3440 // QAngle
-    ClientDll_C_CSPlayerPawn_m_iIDEntIndex = 0x344C // CEntityIndex
-    ClientDll_C_CSPlayerPawn_m_delayTargetIDTimer = 0x3450 // CountdownTimer
-    ClientDll_C_CSPlayerPawn_m_iTargetItemEntIdx = 0x3468 // CEntityIndex
-    ClientDll_C_CSPlayerPawn_m_iOldIDEntIndex = 0x346C // CEntityIndex
-    ClientDll_C_CSPlayerPawn_m_holdTargetIDTimer = 0x3470 // CountdownTimer
+    ClientDll_C_CSPlayerPawn_m_bShouldAutobuyDMWeapons = 0x3230 // bool
+    ClientDll_C_CSPlayerPawn_m_fImmuneToGunGameDamageTime = 0x3234 // GameTime_t
+    ClientDll_C_CSPlayerPawn_m_bGunGameImmunity = 0x3238 // bool
+    ClientDll_C_CSPlayerPawn_m_fImmuneToGunGameDamageTimeLast = 0x323C // GameTime_t
+    ClientDll_C_CSPlayerPawn_m_fMolotovDamageTime = 0x3240 // float32
+    ClientDll_C_CSPlayerPawn_m_nPlayerInfernoBodyFx = 0x32AC // ParticleIndex_t
+    ClientDll_C_CSPlayerPawn_m_angEyeAngles = 0x3320 // QAngle
+    ClientDll_C_CSPlayerPawn_m_arrOldEyeAnglesTimes = 0x33B0 // GameTime_t[4]
+    ClientDll_C_CSPlayerPawn_m_arrOldEyeAngles = 0x33C0 // QAngle[4]
+    ClientDll_C_CSPlayerPawn_m_angEyeAnglesVelocity = 0x33F0 // QAngle
+    ClientDll_C_CSPlayerPawn_m_iIDEntIndex = 0x33FC // CEntityIndex
+    ClientDll_C_CSPlayerPawn_m_delayTargetIDTimer = 0x3400 // CountdownTimer
+    ClientDll_C_CSPlayerPawn_m_iTargetItemEntIdx = 0x3418 // CEntityIndex
+    ClientDll_C_CSPlayerPawn_m_iOldIDEntIndex = 0x341C // CEntityIndex
+    ClientDll_C_CSPlayerPawn_m_holdTargetIDTimer = 0x3420 // CountdownTimer
     ClientDll_CPulseCell_WaitForCursorsWithTagBase_m_nCursorsAllowedToWait = 0x48 // int32
     ClientDll_CPulseCell_WaitForCursorsWithTagBase_m_WaitComplete = 0x50 // CPulse_ResumePoint
     ClientDll_C_Hostage_m_entitySpottedState = 0x11E0 // EntitySpottedState_t
@@ -1430,6 +1428,7 @@ const (
     ClientDll_C_BasePlayerPawn_m_hDefaultController = 0x13AC // CHandle<CBasePlayerController>
     ClientDll_C_BasePlayerPawn_m_bIsSwappingToPredictableController = 0x13B0 // bool
     ClientDll_C_StattrakModule_m_bKnife = 0x1160 // bool
+    ClientDll_CCSObserver_CameraServices_m_hPrevPostProcessingVolume = 0x2A8 // CHandle<C_PostProcessingVolume>
     ClientDll_CEnvSoundscapeProxy_m_MainSoundscapeName = 0x690 // CUtlSymbolLarge
     ClientDll_C_SoundEventEntity_m_bStartOnSpawn = 0x600 // bool
     ClientDll_C_SoundEventEntity_m_bToLocalPlayer = 0x601 // bool
@@ -2554,8 +2553,8 @@ const (
     ClientDll_C_RagdollPropAttached_m_vecOffset = 0x1200 // Vector
     ClientDll_C_RagdollPropAttached_m_parentTime = 0x120C // float32
     ClientDll_C_RagdollPropAttached_m_bHasParent = 0x1210 // bool
-    ClientDll_C_CSGO_PreviewPlayer_m_animgraphCharacterModeString = 0x3490 // CGlobalSymbol
-    ClientDll_C_CSGO_PreviewPlayer_m_flInitialModelScale = 0x3498 // float32
+    ClientDll_C_CSGO_PreviewPlayer_m_animgraphCharacterModeString = 0x3440 // CGlobalSymbol
+    ClientDll_C_CSGO_PreviewPlayer_m_flInitialModelScale = 0x3448 // float32
     ClientDll_C_RectLight_m_bShowLight = 0x12B8 // bool
     ClientDll_CPathSimple_m_CPathQueryComponent = 0x610 // CPathQueryComponent
     ClientDll_CPathSimple_m_pathString = 0x700 // CUtlString

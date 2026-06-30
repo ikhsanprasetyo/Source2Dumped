@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-08 23:32:44.837465 +07:00
+# 2026-06-30 10:06:43.171224400 +07:00
 
 class Schemas:
     # Module: soundsystem.dll
@@ -349,7 +349,7 @@ class Schemas:
             m_flModDepth = 0x28 # float32
             m_bApplyAntialiasing = 0x2C # bool
         class CSndSeqInstSndEvtSchema:
-            pass
+            m_nType = 0x8 # SndSeqInstrumentType_t
         class CVMixNameInputMeter:
             m_nValueIndex = 0x10 # int32
         class CSndSeqInstruments:
