@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: engine2.dll
-        // Class count: 56
+        // Class count: 58
         // Enum count: 2
         pub const engine2_dll = struct {
             // Alignment: 4
@@ -35,11 +35,20 @@ pub const source2_dumper = struct {
             };
             // Parent: CEntityComponent
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // UUUUUUUUUUUUU
+            // {S
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
             // Parent: None
             // Field count: 12
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // {S
             pub const CEntityIdentity = struct {
                 pub const m_nameStringTableIndex: usize = 0x14; // int32
                 pub const m_name: usize = 0x18; // CUtlSymbolLarge
@@ -108,52 +117,8 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // A.
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // E!
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
+            // UUUUUUUUUUUUU
+            // {S
             pub const GameTime_t = struct {
                 pub const m_Value: usize = 0x0; // float32
             };
@@ -162,7 +127,7 @@ pub const source2_dumper = struct {
             pub const EventServerBeginSimulate_t = struct {
             };
             // Parent: None
-            // Field count: 9
+            // Field count: 8
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -173,8 +138,7 @@ pub const source2_dumper = struct {
                 pub const m_pTargetInput: usize = 0x18; // CUtlSymbolLarge
                 pub const m_hActivator: usize = 0x20; // CEntityHandle
                 pub const m_hCaller: usize = 0x24; // CEntityHandle
-                pub const m_nOutputID: usize = 0x28; // int32
-                pub const m_hEntTarget: usize = 0x2C; // CEntityHandle
+                pub const m_hEntTarget: usize = 0x28; // CEntityHandle
                 pub const m_variantValue: usize = 0x30; // CVariantBase<CVariantDefaultAllocator>
             };
             // Parent: None
@@ -211,59 +175,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // 7$
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // "
-            // r
-            // E!
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
-            // r
+            // {S
             pub const GameTick_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -326,8 +238,8 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 2
             pub const CEntityAttributeTable = struct {
-                pub const m_Attributes: usize = 0x0; // CUtlOrderedMap<CUtlStringToken,Attribute_t>
-                pub const m_Names: usize = 0x28; // CUtlOrderedMap<CUtlStringToken,CUtlString>
+                pub const m_Attributes: usize = 0x0; // CUtlOrderedMap<CUtlStringTokenNoRegistration,Attribute_t>
+                pub const m_Names: usize = 0x28; // CUtlOrderedMap<CUtlStringTokenNoRegistration,CUtlString>
             };
             // Parent: None
             // Field count: 0
@@ -351,7 +263,16 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 0
+            pub const EventBugBug_t = struct {
+            };
+            // Parent: None
+            // Field count: 0
             pub const CVariantDefaultAllocator = struct {
+            };
+            // Parent: None
+            // Field count: 1
+            pub const EventBugBugComplete_t = struct {
+                pub const m_pPayload: usize = 0x0; // EventBugBug_t*
             };
             // Parent: None
             // Field count: 0

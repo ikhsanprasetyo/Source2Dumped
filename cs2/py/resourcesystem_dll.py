@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-30 10:06:43.171224400 +07:00
+# 2026-08-06 08:15:19.987246100 +07:00
 
 class Schemas:
     # Module: resourcesystem.dll
@@ -19,6 +19,9 @@ class Schemas:
             READ_ONLY = 0x1
         class InfoForResourceTypeCResponseRulesList:
             pass
+        class AABBWS_t:
+            m_vMinBounds = 0x0 # VectorWS
+            m_vMaxBounds = 0xC # VectorWS
         class InfoForResourceTypeCDotaItemDefinitionResource:
             pass
         class InfoForResourceTypeCMorphSetData:

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -7,28 +7,28 @@ pub mod source2_dumper {
     pub mod offsets {
         // Module: client.dll
         pub mod client_dll {
-            pub const dwCSGOInput: usize = 0x2356240;
-            pub const dwEntityList: usize = 0x24E76A0;
-            pub const dwGameEntitySystem: usize = 0x24E76A0;
+            pub const dwCSGOInput: usize = 0x23BA790;
+            pub const dwEntityList: usize = 0x254FE80;
+            pub const dwGameEntitySystem: usize = 0x254FE80;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGameRules: usize = 0x1A02BB8;
-            pub const dwGlobalVars: usize = 0x20616D0;
-            pub const dwGlowManager: usize = 0x233DF50;
-            pub const dwLocalPlayerController: usize = 0x2320720;
-            pub const dwLocalPlayerPawn: usize = 0x2341698;
-            pub const dwPlantedC4: usize = 0x234FF98;
-            pub const dwPrediction: usize = 0x23415A0;
-            pub const dwSensitivity: usize = 0x233EA68;
+            pub const dwGameRules: usize = 0x1A52030;
+            pub const dwGlobalVars: usize = 0x2090D60;
+            pub const dwGlowManager: usize = 0x23A1708;
+            pub const dwLocalPlayerController: usize = 0x237FB80;
+            pub const dwLocalPlayerPawn: usize = 0x23A5238;
+            pub const dwPlantedC4: usize = 0x236F658;
+            pub const dwPrediction: usize = 0x23A5140;
+            pub const dwSensitivity: usize = 0x23A2228;
             pub const dwSensitivity_sensitivity: usize = 0x58;
-            pub const dwViewAngles: usize = 0x23568C8;
-            pub const dwViewMatrix: usize = 0x2346B30;
-            pub const dwViewRender: usize = 0x2346EE0;
-            pub const dwWeaponC4: usize = 0x22BED20;
+            pub const dwViewAngles: usize = 0x23BAE18;
+            pub const dwViewMatrix: usize = 0x23AA340;
+            pub const dwViewRender: usize = 0x23AA398;
+            pub const dwWeaponC4: usize = 0x231DB50;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
-            pub const dwBuildNumber: usize = 0x60CC74;
-            pub const dwNetworkGameClient: usize = 0x90A1A0;
+            pub const dwBuildNumber: usize = 0x60F594;
+            pub const dwNetworkGameClient: usize = 0x90D4B0;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x378;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
@@ -36,16 +36,16 @@ pub mod source2_dumper {
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
-            pub const dwWindowHeight: usize = 0x90E5C4;
-            pub const dwWindowWidth: usize = 0x90E5C0;
+            pub const dwWindowHeight: usize = 0x9118D4;
+            pub const dwWindowWidth: usize = 0x9118D0;
         }
         // Module: inputsystem.dll
         pub mod inputsystem_dll {
-            pub const dwInputSystem: usize = 0x42B50;
+            pub const dwInputSystem: usize = 0x45BA0;
         }
         // Module: matchmaking.dll
         pub mod matchmaking_dll {
-            pub const dwGameTypes: usize = 0x1B0F80;
+            pub const dwGameTypes: usize = 0x1ADF80;
         }
         // Module: panorama.dll
         pub mod panorama_dll {
@@ -55,7 +55,7 @@ pub mod source2_dumper {
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
-            pub const dwSoundSystem: usize = 0x512360;
+            pub const dwSoundSystem: usize = 0x54B5D0;
             pub const dwSoundSystem_engineViewData: usize = 0x7C;
         }
     }

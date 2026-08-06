@@ -1,11 +1,18 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: scenesystem.dll
     // Class count: 9
-    // Enum count: 5
+    // Enum count: 6
     public static class ScenesystemDll {
+        // Alignment: 4
+        // Member count: 3
+        public enum ESceneObjectMeshletVisualization : uint {
+            SCENEOBJECT_MESHLET_VIS_NONE = 0x0,
+            SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1,
+            SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+        }
         // Alignment: 4
         // Member count: 7
         public enum ESceneViewDebugOverlaysListenerDataType_t : uint {
@@ -109,8 +116,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // W
-        // W
         public static class CSSDSMsg_PostLayer {
         }
         // Parent: None
@@ -141,8 +146,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // W
-        // W
         public static class CSSDSMsg_PreLayer {
         }
         // Parent: None

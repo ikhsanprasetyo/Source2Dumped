@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: resourcesystem.dll
-        // Class count: 58
+        // Class count: 59
         // Enum count: 2
         pub const resourcesystem_dll = struct {
             // Alignment: 1
@@ -71,14 +71,20 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCResponseRulesList = struct {
+            };
+            // Parent: None
+            // Field count: 2
+            pub const AABBWS_t = struct {
+                pub const m_vMinBounds: usize = 0x0; // VectorWS
+                pub const m_vMaxBounds: usize = 0xC; // VectorWS
             };
             // Parent: None
             // Field count: 0
@@ -108,13 +114,13 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCDotaItemDefinitionResource = struct {
             };
             // Parent: None
@@ -157,6 +163,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCMorphSetData = struct {
             };
             // Parent: None
@@ -172,8 +179,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeCVSoundStackScriptList = struct {
             };
             // Parent: None
@@ -201,12 +207,14 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCVPhysXSurfacePropertiesList = struct {
             };
             // Parent: None
@@ -217,10 +225,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeManifestTestResource_t = struct {
             };
             // Parent: None
@@ -238,9 +243,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
             // vrman
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub const FuseFunctionIndex_t = struct {
                 pub const m_Value: usize = 0x0; // uint16
             };
@@ -264,7 +271,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
+            // b
             pub const InfoForResourceTypeCGcExportableExternalData = struct {
             };
             // Parent: None
@@ -297,6 +304,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeIAnimGraphModelBinding = struct {
             };
             // Parent: None
@@ -334,12 +342,14 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCJavaScriptResource = struct {
             };
             // Parent: None
@@ -374,13 +384,13 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCRenderMesh = struct {
             };
             // Parent: None
@@ -418,13 +428,13 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
-            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCVoxelVisibility = struct {
             };
             // Parent: None
@@ -471,6 +481,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCPhysAggregateData = struct {
             };
             // Parent: None
@@ -519,6 +530,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCNmClip = struct {
             };
             // Parent: None
@@ -543,6 +555,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeWorld_t = struct {
             };
             // Parent: None
@@ -551,10 +564,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeProceduralTestResource_t = struct {
             };
             // Parent: None
@@ -600,6 +610,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCPostProcessingResource = struct {
             };
             // Parent: None
@@ -664,6 +675,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeIParticleSnapshot = struct {
             };
             // Parent: None
@@ -688,8 +700,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeCPanoramaLayout = struct {
             };
             // Parent: None
@@ -725,6 +736,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCTypeScriptResource = struct {
             };
             // Parent: None
@@ -746,7 +758,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
+            // b
             pub const InfoForResourceTypeCChoreoSceneResource = struct {
             };
             // Parent: None
@@ -766,7 +778,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
+            // b
             pub const InfoForResourceTypeCNmSkeleton = struct {
             };
             // Parent: None
@@ -778,10 +790,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeCTestResourceData = struct {
             };
             // Parent: None
@@ -800,8 +809,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeCAnimationGroup = struct {
             };
             // Parent: None
@@ -816,8 +824,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeCVSoundEventScriptList = struct {
             };
             // Parent: None
@@ -841,6 +848,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCVoiceContainerBase = struct {
             };
             // Parent: None
@@ -896,6 +904,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCPanoramaStyle = struct {
             };
             // Parent: None
@@ -922,6 +931,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCWorldNode = struct {
             };
             // Parent: None
@@ -952,12 +962,14 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCSurfaceGraph = struct {
             };
             // Parent: None
@@ -978,7 +990,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
+            // b
             pub const InfoForResourceTypeCCSGOEconItem = struct {
             };
             // Parent: None
@@ -1009,6 +1021,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCNmGraphDefinition = struct {
             };
             // Parent: None
@@ -1056,12 +1069,14 @@ pub const source2_dumper = struct {
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
+            // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MResourceTypeForInfoType
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCSmartProp = struct {
             };
             // Parent: None
@@ -1098,6 +1113,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCCompositeMaterialKit = struct {
             };
             // Parent: None
@@ -1148,6 +1164,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCVMixListResource = struct {
             };
             // Parent: None
@@ -1195,6 +1212,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCAnimData = struct {
             };
             // Parent: None
@@ -1240,6 +1258,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeIMaterial2 = struct {
             };
             // Parent: None
@@ -1278,6 +1297,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeIVectorGraphic = struct {
             };
             // Parent: None
@@ -1307,6 +1327,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCPanoramaDynamicImages = struct {
             };
             // Parent: None
@@ -1320,8 +1341,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeIPulseGraphDef = struct {
             };
             // Parent: None
@@ -1356,6 +1376,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCVDataItemDefs = struct {
             };
             // Parent: None
@@ -1386,8 +1407,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
-            // r
-            // r
+            // b
             pub const InfoForResourceTypeCVDataResource = struct {
             };
             // Parent: None
@@ -1428,6 +1448,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCModel = struct {
             };
             // Parent: None
@@ -1480,6 +1501,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCDOTANovelsList = struct {
             };
             // Parent: None
@@ -1513,16 +1535,16 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCTextureBase = struct {
             };
             // Parent: None
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
             // MResourceTypeForInfoType
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VApplication001
@@ -1637,6 +1659,8 @@ pub const source2_dumper = struct {
             // Vrad3_001
             // NavSystem001
             // NavGameTest001
+            // LocalServerClientAccess001
+            // ClientLocalServerAccess001
             pub const FuseVariableIndex_t = struct {
                 pub const m_Value: usize = 0x0; // uint16
             };
@@ -1694,6 +1718,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeIParticleSystemDefinition = struct {
             };
             // Parent: None
@@ -1743,6 +1768,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCSequenceGroupData = struct {
             };
             // Parent: None
@@ -1750,6 +1776,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // b
             pub const ManifestTestResource_t = struct {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_child: usize = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
@@ -1783,6 +1810,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCEntityLump = struct {
             };
             // Parent: None
@@ -1824,6 +1852,7 @@ pub const source2_dumper = struct {
             // MKV3TransferName
             // MResourceTypeForInfoType
             // MGetKV3ClassDefaults
+            // b
             pub const InfoForResourceTypeCDOTAPatchNotesList = struct {
             };
         };

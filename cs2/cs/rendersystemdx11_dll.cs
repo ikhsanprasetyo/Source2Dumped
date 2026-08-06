@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: rendersystemdx11.dll
     // Class count: 8
-    // Enum count: 8
+    // Enum count: 9
     public static class Rendersystemdx11Dll {
         // Alignment: 4
         // Member count: 14
@@ -25,7 +25,7 @@ namespace Source2Dumper.Schemas {
             RENDER_PRIM_TYPE_COUNT = 0xD
         }
         // Alignment: 4
-        // Member count: 13
+        // Member count: 14
         public enum RenderBufferFlags_t : uint {
             RENDER_BUFFER_USAGE_NONE = 0x0,
             RENDER_BUFFER_USAGE_VERTEX_BUFFER = 0x1,
@@ -39,7 +39,8 @@ namespace Source2Dumper.Schemas {
             RENDER_BUFFER_SHADER_BINDING_TABLE = 0x400,
             RENDER_BUFFER_POOL_ALLOCATED = 0x800,
             RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING = 0x1000,
-            RENDER_BUFFER_IMMOVABLE_ALLOCATION = 0x2000
+            RENDER_BUFFER_IMMOVABLE_ALLOCATION = 0x2000,
+            RENDER_BUFFER_DYNAMIC_ZERO_COPY = 0x4000
         }
         // Alignment: 1
         // Member count: 3
@@ -49,7 +50,7 @@ namespace Source2Dumper.Schemas {
             RS_CULL_FRONT = 0x2
         }
         // Alignment: 1
-        // Member count: 8
+        // Member count: 14
         public enum RsComparison_t : byte {
             RS_CMP_NEVER = 0x0,
             RS_CMP_LESS = 0x1,
@@ -58,7 +59,13 @@ namespace Source2Dumper.Schemas {
             RS_CMP_GREATER = 0x4,
             RS_CMP_NOT_EQUAL = 0x5,
             RS_CMP_GREATER_EQUAL = 0x6,
-            RS_CMP_ALWAYS = 0x7
+            RS_CMP_ALWAYS = 0x7,
+            RS_CMP_FUNC_MASK = 0x7,
+            RS_CMP_CLOSER_FARTHER_FLAG = 0x8,
+            RS_CMP_CLOSER = 0x9,
+            RS_CMP_CLOSER_EQUAL = 0xB,
+            RS_CMP_FARTHER = 0xC,
+            RS_CMP_FARTHER_EQUAL = 0xE
         }
         // Alignment: 1
         // Member count: 2
@@ -86,6 +93,16 @@ namespace Source2Dumper.Schemas {
             INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID = 0x2,
             INPUT_LAYOUT_VARIATION_MAX = 0x3
         }
+        // Alignment: 4
+        // Member count: 6
+        public enum UpscalerType_t : uint {
+            UPSCALER_NONE = 0x0,
+            UPSCALER_AMD_FSR2 = 0x1,
+            UPSCALER_AMD_FSR3 = 0x2,
+            UPSCALER_NVIDIA_DLSS = 0x3,
+            UPSCALER_INTEL_XESS = 0x4,
+            UPSCALER_COUNT = 0x5
+        }
         // Alignment: 1
         // Member count: 3
         public enum RenderSlotType_t : byte {
@@ -98,13 +115,18 @@ namespace Source2Dumper.Schemas {
         public static class RsDepthStencilStateDesc_t {
             public const nint m_bDepthTestEnable = 0x0; // bitfield:1
             public const nint m_bDepthWriteEnable = 0x0; // bitfield:1
-            public const nint m_depthFunc = 0x1; // RsComparison_t
+            public const nint m_depthFunc = 0x0; // bitfield:4
             public const nint m_stencilState = 0x2; // RsStencilStateDesc_t
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
+        // UPSCALER_AMD_FSR2
+        // UPSCALER_AMD_FSR3
+        // UPSCALER_NVIDIA_DLSS
+        // UPSCALER_INTEL_XESS
+        // UPSCALER_COUNT
         // RENDER_MULTISAMPLE_INVALID
         // RENDER_MULTISAMPLE_2X
         // RENDER_MULTISAMPLE_4X
@@ -140,9 +162,9 @@ namespace Source2Dumper.Schemas {
         // RENDER_BUFFER_POOL_ALLOCATED
         // RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING
         // RENDER_BUFFER_IMMOVABLE_ALLOCATION
+        // RENDER_BUFFER_DYNAMIC_ZERO_COPY
         // RENDER_SLOT_INVALID
         // RENDER_SLOT_PER_INSTANCE
-        // r
         public static class SheetSequenceIntegerId_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -183,15 +205,15 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 11
         public static class RsStencilStateDesc_t {
+            public const nint m_frontStencilFunc = 0x0; // bitfield:4
+            public const nint m_backStencilFunc = 0x0; // bitfield:4
             public const nint m_bStencilEnable = 0x0; // bitfield:1
             public const nint m_frontStencilFailOp = 0x0; // bitfield:3
             public const nint m_frontStencilDepthFailOp = 0x0; // bitfield:3
             public const nint m_frontStencilPassOp = 0x0; // bitfield:3
-            public const nint m_frontStencilFunc = 0x0; // bitfield:3
             public const nint m_backStencilFailOp = 0x0; // bitfield:3
             public const nint m_backStencilDepthFailOp = 0x0; // bitfield:3
             public const nint m_backStencilPassOp = 0x0; // bitfield:3
-            public const nint m_backStencilFunc = 0x0; // bitfield:3
             public const nint m_nStencilReadMask = 0x4; // uint8
             public const nint m_nStencilWriteMask = 0x5; // uint8
         }

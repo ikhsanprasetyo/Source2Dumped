@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 package schemas
 
@@ -15,6 +15,8 @@ const (
     ResourcesystemDll_FuseVariableType_t_FLOAT32 = 0x8
     ResourcesystemDll_FuseVariableAccess_t_WRITABLE = 0x0
     ResourcesystemDll_FuseVariableAccess_t_READ_ONLY = 0x1
+    ResourcesystemDll_AABBWS_t_m_vMinBounds = 0x0 // VectorWS
+    ResourcesystemDll_AABBWS_t_m_vMaxBounds = 0xC // VectorWS
     ResourcesystemDll_PackedAABB_t_m_nPackedMin = 0x0 // uint32
     ResourcesystemDll_PackedAABB_t_m_nPackedMax = 0x4 // uint32
     ResourcesystemDll_ConstantInfo_t_m_name = 0x0 // CUtlString

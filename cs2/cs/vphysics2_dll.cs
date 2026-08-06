@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: vphysics2.dll
-    // Class count: 110
+    // Class count: 113
     // Enum count: 5
     public static class Vphysics2Dll {
         // Alignment: 4
@@ -55,14 +55,49 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // l,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // GENERIC_SHAPE_SPHERE
+        // GENERIC_SHAPE_AABB
+        // GENERIC_SHAPE_CAPSULE
+        // GENERIC_SHAPE_HULL
+        // JOINT_AXIS_Y
+        // JOINT_AXIS_Z
+        // JOINT_AXIS_COUNT
+        // JOINT_MOTION_LOCKED
+        // JOINT_MOTION_COUNT
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class RnSphereDesc_t {
-            public const nint m_Sphere = 0x18; // SphereBase_t<float32>
+            public const nint m_Sphere = 0x18; // RnSphere_t
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RnSoftbodyParticle_t {
             public const nint m_flMassInv = 0x0; // float32
@@ -71,6 +106,39 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // GENERIC_SHAPE_SPHERE
+        // GENERIC_SHAPE_AABB
+        // GENERIC_SHAPE_CAPSULE
+        // GENERIC_SHAPE_HULL
+        // JOINT_AXIS_Y
+        // JOINT_AXIS_Z
+        // JOINT_AXIS_COUNT
+        // JOINT_MOTION_LOCKED
+        // JOINT_MOTION_COUNT
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -84,12 +152,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // S
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RnCapsuleDesc_t {
             public const nint m_Capsule = 0x18; // RnCapsule_t
         }
         // Parent: None
-        // Field count: 110
+        // Field count: 111
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -127,90 +201,125 @@ namespace Source2Dumper.Schemas {
             public const nint m_HingeLimits = 0x168; // CUtlVector<FeHingeLimit_t>
             public const nint m_AntiTunnelBytecode = 0x180; // CUtlVector<uint32>
             public const nint m_DynKinLinks = 0x198; // CUtlVector<FeDynKinLink_t>
-            public const nint m_AntiTunnelProbes = 0x1B0; // CUtlVector<FeAntiTunnelProbe_t>
-            public const nint m_AntiTunnelTargetNodes = 0x1C8; // CUtlVector<uint16>
-            public const nint m_NodeStrayBoxes = 0x1E0; // CUtlVector<FeNodeStrayBox_t>
-            public const nint m_AxialEdges = 0x1F8; // CUtlVector<FeAxialEdgeBend_t>
-            public const nint m_NodeInvMasses = 0x210; // CUtlVector<float32>
-            public const nint m_CtrlOffsets = 0x228; // CUtlVector<FeCtrlOffset_t>
-            public const nint m_CtrlOsOffsets = 0x240; // CUtlVector<FeCtrlOsOffset_t>
-            public const nint m_FollowNodes = 0x258; // CUtlVector<FeFollowNode_t>
-            public const nint m_CollisionPlanes = 0x270; // CUtlVector<FeCollisionPlane_t>
-            public const nint m_NodeIntegrator = 0x288; // CUtlVector<FeNodeIntegrator_t>
-            public const nint m_SpringIntegrator = 0x2A0; // CUtlVector<FeSpringIntegrator_t>
-            public const nint m_SimdSpringIntegrator = 0x2B8; // CUtlVector<FeSimdSpringIntegrator_t>
-            public const nint m_WorldCollisionParams = 0x2D0; // CUtlVector<FeWorldCollisionParams_t>
-            public const nint m_LegacyStretchForce = 0x2E8; // CUtlVector<float32>
-            public const nint m_NodeCollisionRadii = 0x300; // CUtlVector<float32>
-            public const nint m_DynNodeFriction = 0x318; // CUtlVector<float32>
-            public const nint m_LocalRotation = 0x330; // CUtlVector<float32>
-            public const nint m_LocalForce = 0x348; // CUtlVector<float32>
-            public const nint m_TaperedCapsuleStretches = 0x360; // CUtlVector<FeTaperedCapsuleStretch_t>
-            public const nint m_TaperedCapsuleRigids = 0x378; // CUtlVector<FeTaperedCapsuleRigid_t>
-            public const nint m_SphereRigids = 0x390; // CUtlVector<FeSphereRigid_t>
-            public const nint m_WorldCollisionNodes = 0x3A8; // CUtlVector<uint16>
-            public const nint m_TreeParents = 0x3C0; // CUtlVector<uint16>
-            public const nint m_TreeCollisionMasks = 0x3D8; // CUtlVector<uint16>
-            public const nint m_TreeChildren = 0x3F0; // CUtlVector<FeTreeChildren_t>
-            public const nint m_FreeNodes = 0x408; // CUtlVector<uint16>
-            public const nint m_FitMatrices = 0x420; // CUtlVector<FeFitMatrix_t>
-            public const nint m_FitWeights = 0x438; // CUtlVector<FeFitWeight_t>
-            public const nint m_ReverseOffsets = 0x450; // CUtlVector<FeNodeReverseOffset_t>
-            public const nint m_AnimStrayRadii = 0x468; // CUtlVector<FeAnimStrayRadius_t>
-            public const nint m_SimdAnimStrayRadii = 0x480; // CUtlVector<FeSimdAnimStrayRadius_t>
-            public const nint m_KelagerBends = 0x498; // CUtlVector<FeKelagerBend2_t>
-            public const nint m_CtrlSoftOffsets = 0x4B0; // CUtlVector<FeCtrlSoftOffset_t>
-            public const nint m_JiggleBones = 0x4C8; // CUtlVector<CFeIndexedJiggleBone>
-            public const nint m_SourceElems = 0x4E0; // CUtlVector<uint16>
-            public const nint m_GoalDampedSpringIntegrators = 0x4F8; // CUtlVector<uint32>
-            public const nint m_Tris = 0x510; // CUtlVector<FeTri_t>
-            public const nint m_nTriCount1 = 0x528; // uint16
-            public const nint m_nTriCount2 = 0x52A; // uint16
-            public const nint m_nReservedUint8 = 0x52C; // uint8
-            public const nint m_nExtraPressureIterations = 0x52D; // uint8
-            public const nint m_nExtraGoalIterations = 0x52E; // uint8
-            public const nint m_nExtraIterations = 0x52F; // uint8
-            public const nint m_SDFRigids = 0x530; // CUtlVector<FeSDFRigid_t>
-            public const nint m_BoxRigids = 0x548; // CUtlVector<FeBoxRigid_t>
-            public const nint m_DynNodeVertexSet = 0x560; // CUtlVector<uint8>
-            public const nint m_VertexSetNames = 0x578; // CUtlVector<uint32>
-            public const nint m_RigidColliderPriorities = 0x590; // CUtlVector<FeRigidColliderIndices_t>
-            public const nint m_MorphLayers = 0x5A8; // CUtlVector<FeMorphLayerDepr_t>
-            public const nint m_MorphSetData = 0x5C0; // CUtlVector<uint8>
-            public const nint m_VertexMaps = 0x5D8; // CUtlVector<FeVertexMapDesc_t>
-            public const nint m_VertexMapValues = 0x5F0; // CUtlVector<uint8>
-            public const nint m_Effects = 0x608; // CUtlVector<FeEffectDesc_t>
-            public const nint m_LockToParent = 0x620; // CUtlVector<FeCtrlOffset_t>
-            public const nint m_LockToGoal = 0x638; // CUtlVector<uint16>
-            public const nint m_SkelParents = 0x650; // CUtlVector<int16>
-            public const nint m_DynNodeWindBases = 0x668; // CUtlVector<FeNodeWindBase_t>
-            public const nint m_SelfCollisionLayers = 0x680; // CUtlVector<FeModelSelfCollisionLayer_t>
-            public const nint m_flInternalPressure = 0x698; // float32
-            public const nint m_flDefaultTimeDilation = 0x69C; // float32
-            public const nint m_flWindage = 0x6A0; // float32
-            public const nint m_flWindDrag = 0x6A4; // float32
-            public const nint m_flDefaultSurfaceStretch = 0x6A8; // float32
-            public const nint m_flDefaultThreadStretch = 0x6AC; // float32
-            public const nint m_flDefaultGravityScale = 0x6B0; // float32
-            public const nint m_flDefaultVelAirDrag = 0x6B4; // float32
-            public const nint m_flDefaultExpAirDrag = 0x6B8; // float32
-            public const nint m_flDefaultVelQuadAirDrag = 0x6BC; // float32
-            public const nint m_flDefaultExpQuadAirDrag = 0x6C0; // float32
-            public const nint m_flRodVelocitySmoothRate = 0x6C4; // float32
-            public const nint m_flQuadVelocitySmoothRate = 0x6C8; // float32
-            public const nint m_flAddWorldCollisionRadius = 0x6CC; // float32
-            public const nint m_flDefaultVolumetricSolveAmount = 0x6D0; // float32
-            public const nint m_flMotionSmoothCDT = 0x6D4; // float32
-            public const nint m_flLocalDrag1 = 0x6D8; // float32
-            public const nint m_nRodVelocitySmoothIterations = 0x6DC; // uint16
-            public const nint m_nQuadVelocitySmoothIterations = 0x6DE; // uint16
+            public const nint m_BoneMergeLinks = 0x1B0; // CUtlVector<FeBoneMergeLink_t>
+            public const nint m_AntiTunnelProbes = 0x1C8; // CUtlVector<FeAntiTunnelProbe_t>
+            public const nint m_AntiTunnelTargetNodes = 0x1E0; // CUtlVector<uint16>
+            public const nint m_NodeStrayBoxes = 0x1F8; // CUtlVector<FeNodeStrayBox_t>
+            public const nint m_AxialEdges = 0x210; // CUtlVector<FeAxialEdgeBend_t>
+            public const nint m_NodeInvMasses = 0x228; // CUtlVector<float32>
+            public const nint m_CtrlOffsets = 0x240; // CUtlVector<FeCtrlOffset_t>
+            public const nint m_CtrlOsOffsets = 0x258; // CUtlVector<FeCtrlOsOffset_t>
+            public const nint m_FollowNodes = 0x270; // CUtlVector<FeFollowNode_t>
+            public const nint m_CollisionPlanes = 0x288; // CUtlVector<FeCollisionPlane_t>
+            public const nint m_NodeIntegrator = 0x2A0; // CUtlVector<FeNodeIntegrator_t>
+            public const nint m_SpringIntegrator = 0x2B8; // CUtlVector<FeSpringIntegrator_t>
+            public const nint m_SimdSpringIntegrator = 0x2D0; // CUtlVector<FeSimdSpringIntegrator_t>
+            public const nint m_WorldCollisionParams = 0x2E8; // CUtlVector<FeWorldCollisionParams_t>
+            public const nint m_LegacyStretchForce = 0x300; // CUtlVector<float32>
+            public const nint m_NodeCollisionRadii = 0x318; // CUtlVector<float32>
+            public const nint m_DynNodeFriction = 0x330; // CUtlVector<float32>
+            public const nint m_LocalRotation = 0x348; // CUtlVector<float32>
+            public const nint m_LocalForce = 0x360; // CUtlVector<float32>
+            public const nint m_TaperedCapsuleStretches = 0x378; // CUtlVector<FeTaperedCapsuleStretch_t>
+            public const nint m_TaperedCapsuleRigids = 0x390; // CUtlVector<FeTaperedCapsuleRigid_t>
+            public const nint m_SphereRigids = 0x3A8; // CUtlVector<FeSphereRigid_t>
+            public const nint m_WorldCollisionNodes = 0x3C0; // CUtlVector<uint16>
+            public const nint m_TreeParents = 0x3D8; // CUtlVector<uint16>
+            public const nint m_TreeCollisionMasks = 0x3F0; // CUtlVector<uint16>
+            public const nint m_TreeChildren = 0x408; // CUtlVector<FeTreeChildren_t>
+            public const nint m_FreeNodes = 0x420; // CUtlVector<uint16>
+            public const nint m_FitMatrices = 0x438; // CUtlVector<FeFitMatrix_t>
+            public const nint m_FitWeights = 0x450; // CUtlVector<FeFitWeight_t>
+            public const nint m_ReverseOffsets = 0x468; // CUtlVector<FeNodeReverseOffset_t>
+            public const nint m_AnimStrayRadii = 0x480; // CUtlVector<FeAnimStrayRadius_t>
+            public const nint m_SimdAnimStrayRadii = 0x498; // CUtlVector<FeSimdAnimStrayRadius_t>
+            public const nint m_KelagerBends = 0x4B0; // CUtlVector<FeKelagerBend2_t>
+            public const nint m_CtrlSoftOffsets = 0x4C8; // CUtlVector<FeCtrlSoftOffset_t>
+            public const nint m_JiggleBones = 0x4E0; // CUtlVector<CFeIndexedJiggleBone>
+            public const nint m_SourceElems = 0x4F8; // CUtlVector<uint16>
+            public const nint m_GoalDampedSpringIntegrators = 0x510; // CUtlVector<uint32>
+            public const nint m_Tris = 0x528; // CUtlVector<FeTri_t>
+            public const nint m_nTriCount1 = 0x540; // uint16
+            public const nint m_nTriCount2 = 0x542; // uint16
+            public const nint m_nReservedUint8 = 0x544; // uint8
+            public const nint m_nExtraPressureIterations = 0x545; // uint8
+            public const nint m_nExtraGoalIterations = 0x546; // uint8
+            public const nint m_nExtraIterations = 0x547; // uint8
+            public const nint m_SDFRigids = 0x548; // CUtlVector<FeSDFRigid_t>
+            public const nint m_BoxRigids = 0x560; // CUtlVector<FeBoxRigid_t>
+            public const nint m_DynNodeVertexSet = 0x578; // CUtlVector<uint8>
+            public const nint m_VertexSetNames = 0x590; // CUtlVector<uint32>
+            public const nint m_RigidColliderPriorities = 0x5A8; // CUtlVector<FeRigidColliderIndices_t>
+            public const nint m_MorphLayers = 0x5C0; // CUtlVector<FeMorphLayerDepr_t>
+            public const nint m_MorphSetData = 0x5D8; // CUtlVector<uint8>
+            public const nint m_VertexMaps = 0x5F0; // CUtlVector<FeVertexMapDesc_t>
+            public const nint m_VertexMapValues = 0x608; // CUtlVector<uint8>
+            public const nint m_Effects = 0x620; // CUtlVector<FeEffectDesc_t>
+            public const nint m_LockToParent = 0x638; // CUtlVector<FeCtrlOffset_t>
+            public const nint m_LockToGoal = 0x650; // CUtlVector<uint16>
+            public const nint m_SkelParents = 0x668; // CUtlVector<int16>
+            public const nint m_DynNodeWindBases = 0x680; // CUtlVector<FeNodeWindBase_t>
+            public const nint m_SelfCollisionLayers = 0x698; // CUtlVector<FeModelSelfCollisionLayer_t>
+            public const nint m_flInternalPressure = 0x6B0; // float32
+            public const nint m_flDefaultTimeDilation = 0x6B4; // float32
+            public const nint m_flWindage = 0x6B8; // float32
+            public const nint m_flWindDrag = 0x6BC; // float32
+            public const nint m_flDefaultSurfaceStretch = 0x6C0; // float32
+            public const nint m_flDefaultThreadStretch = 0x6C4; // float32
+            public const nint m_flDefaultGravityScale = 0x6C8; // float32
+            public const nint m_flDefaultVelAirDrag = 0x6CC; // float32
+            public const nint m_flDefaultExpAirDrag = 0x6D0; // float32
+            public const nint m_flDefaultVelQuadAirDrag = 0x6D4; // float32
+            public const nint m_flDefaultExpQuadAirDrag = 0x6D8; // float32
+            public const nint m_flRodVelocitySmoothRate = 0x6DC; // float32
+            public const nint m_flQuadVelocitySmoothRate = 0x6E0; // float32
+            public const nint m_flAddWorldCollisionRadius = 0x6E4; // float32
+            public const nint m_flDefaultVolumetricSolveAmount = 0x6E8; // float32
+            public const nint m_flMotionSmoothCDT = 0x6EC; // float32
+            public const nint m_flLocalDrag1 = 0x6F0; // float32
+            public const nint m_nRodVelocitySmoothIterations = 0x6F4; // uint16
+            public const nint m_nQuadVelocitySmoothIterations = 0x6F6; // uint16
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // l,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\
+        // GENERIC_SHAPE_SPHERE
+        // GENERIC_SHAPE_AABB
+        // GENERIC_SHAPE_CAPSULE
+        // GENERIC_SHAPE_HULL
+        // JOINT_AXIS_Y
+        // JOINT_AXIS_Z
+        // JOINT_AXIS_COUNT
+        // JOINT_MOTION_LOCKED
+        // JOINT_MOTION_COUNT
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class RnMeshDesc_t {
             public const nint m_Mesh = 0x18; // RnMesh_t
         }
@@ -241,6 +350,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // 4
+        // /0x184f,0x3507/0x0004,0x1dd8/0x000f,0x1dd8/0x0010,0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
+        // /0xf018,0x1bad/0xf019,0x1bad/0xf021,0x1bad/0xf023,0x1bad/0xf025,0x1bad/0xf027,0x1bad/0xf028,0x1bad/0xf02e,0x1bad/0xf036,0x1bad/0
         public static class vphysics_save_cphysicsbody_t {
             public const nint m_nOldPointer = 0xE0; // uint64
         }
@@ -262,26 +373,53 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MVDataOutlinerLeafNameFn
+        // generic
         public static class FeBuildBoxRigid_t {
             public const nint m_nPriority = 0x40; // int32
             public const nint m_nVertexMapHash = 0x44; // uint32
             public const nint m_nAntitunnelGroupBits = 0x48; // uint32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class RnCompoundDesc_t {
+            public const nint m_Compound = 0x18; // RnCompound_t
         }
         // Parent: None
         // Field count: 3
@@ -293,6 +431,15 @@ namespace Source2Dumper.Schemas {
             public const nint m_nNode = 0x0; // uint32
             public const nint m_nJiggleParent = 0x4; // uint32
             public const nint m_jiggleBone = 0x8; // CFeJiggleBone
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class FeBoneMergeLink_t {
+            public const nint m_nParentHash = 0x0; // uint32
+            public const nint m_nChildNode = 0x4; // uint16
         }
         // Parent: None
         // Field count: 2
@@ -316,7 +463,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeTaperedCapsuleStretch_t {
             public const nint nNode = 0x0; // uint16[2]
             public const nint nCollisionMask = 0x4; // uint16
@@ -336,9 +482,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeSimdRodConstraintAnim_t {
             public const nint nNode = 0x0; // uint16[4][2]
             public const nint f4Weight0 = 0x10; // fltx4
@@ -348,6 +491,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 5
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeSimdRodConstraint_t {
             public const nint nNode = 0x0; // uint16[4][2]
@@ -362,8 +507,11 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 4
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
         public static class constraint_hingeparams_t {
-            public const nint worldPosition = 0x0; // Vector
+            public const nint worldPosition = 0x0; // VectorWS
             public const nint worldAxisDirection = 0xC; // Vector
             public const nint hingeAxis = 0x18; // constraint_axislimit_t
             public const nint constraint = 0x28; // constraint_breakableparams_t
@@ -386,30 +534,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // generic
         public static class FeBuildSphereRigid_t {
             public const nint m_nPriority = 0x20; // int32
             public const nint m_nVertexMapHash = 0x24; // uint32
@@ -434,6 +559,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class RnTriangle_t {
             public const nint m_nIndex = 0x0; // int32[3]
         }
@@ -441,8 +568,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeProxyVertexMap_t {
@@ -464,6 +589,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RnCapsule_t {
             public const nint m_vCenter = 0x0; // Vector[2]
@@ -487,6 +613,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FeAntiTunnelProbeBuild_t {
             public const nint flWeight = 0x0; // float32
             public const nint flActivationDistance = 0x4; // float32
@@ -503,7 +630,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class RnBodyDesc_t {
             public const nint m_sDebugName = 0x0; // CUtlString
-            public const nint m_vPosition = 0x8; // Vector
+            public const nint m_vPosition = 0x8; // VectorWS
             public const nint m_qOrientation = 0x14; // QuaternionStorage
             public const nint m_vLinearVelocity = 0x24; // Vector
             public const nint m_vAngularVelocity = 0x30; // Vector
@@ -544,7 +671,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class OldFeEdge_t {
             public const nint m_flK = 0x0; // float32[3]
             public const nint invA = 0xC; // float32
@@ -564,7 +690,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeFollowNode_t {
             public const nint nParentNode = 0x0; // uint16
             public const nint nChildNode = 0x2; // uint16
@@ -574,7 +699,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 11
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RnMesh_t {
             public const nint m_vMin = 0x0; // Vector
@@ -615,22 +739,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MVDataOutlinerLeafNameFn
+        // generic
         public static class FeBuildSDFRigid_t {
             public const nint m_nPriority = 0x50; // int32
             public const nint m_nVertexMapHash = 0x54; // uint32
@@ -640,6 +749,9 @@ namespace Source2Dumper.Schemas {
         // Field count: 8
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RnBlendVertex_t {
@@ -656,8 +768,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 7
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CFeMorphLayer {
             public const nint m_Name = 0x0; // CUtlString
@@ -681,10 +791,33 @@ namespace Source2Dumper.Schemas {
             public const nint flAlpha = 0x10; // float32
         }
         // Parent: None
-        // Field count: 12
+        // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class VPhysEntityId_t {
+            public const nint m_Id = 0x0; // uint32
+        }
+        // Parent: None
+        // Field count: 8
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class RnCompound_t {
+            public const nint m_Spheres = 0x0; // CUtlVector<RnSphere_t>
+            public const nint m_Capsules = 0x18; // CUtlVector<RnCapsule_t>
+            public const nint m_Hulls = 0x30; // CUtlVector<RnHull_t>
+            public const nint m_Meshes = 0x48; // CUtlVector<RnMesh_t>
+            public const nint m_Bounds = 0x60; // AABB_t
+            public const nint m_vOrthographicAreas = 0x78; // Vector
+            public const nint m_flSurfaceArea = 0x84; // float32
+            public const nint m_flVolume = 0x88; // float32
+        }
+        // Parent: None
+        // Field count: 12
+        //
+        // Metadata:
         // MGetKV3ClassDefaults
         public static class FeVertexMapDesc_t {
             public const nint sName = 0x0; // CUtlString
@@ -704,6 +837,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 5
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeTaperedCapsuleRigid_t {
             public const nint vSphere = 0x0; // fltx4[2]
@@ -742,6 +876,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FeNodeStrayBox_t {
             public const nint vMin = 0x0; // Vector
             public const nint nFlags = 0xC; // uint32
@@ -772,8 +908,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 11
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeSDFRigid_t {
             public const nint vLocalMin = 0x0; // Vector
@@ -862,7 +996,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class RnNode_t {
             public const nint m_vMin = 0x0; // Vector
             public const nint m_nChildren = 0xC; // uint32
@@ -874,8 +1007,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
         public static class FeFitMatrix_t {
             public const nint bone = 0x0; // CTransform
             public const nint vCenter = 0x20; // Vector
@@ -888,7 +1019,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ll,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t\tnull,\n\t
         // MGetKV3ClassDefaults
         public static class FeSimdQuad_t {
             public const nint nNode = 0x0; // uint16[4][4]
@@ -901,6 +1031,12 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FeSimdSpringIntegrator_t {
             public const nint nNode = 0x0; // uint16[4][2]
             public const nint flSpringRestLength = 0x10; // fltx4
@@ -912,7 +1048,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 7
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -929,8 +1064,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeQuad_t {
             public const nint nNode = 0x0; // uint16[4]
@@ -1011,7 +1144,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FourVectors2D {
             public const nint x = 0x0; // fltx4
             public const nint y = 0x10; // fltx4
@@ -1026,19 +1158,6 @@ namespace Source2Dumper.Schemas {
             public const nint flHeight0 = 0xC; // float32
             public const nint nNode = 0x10; // uint16[3]
             public const nint nReserved = 0x16; // uint16
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CastSphereSATParams_t {
-            public const nint m_vRayStart = 0x0; // Vector
-            public const nint m_vRayDelta = 0xC; // Vector
-            public const nint m_flRadius = 0x18; // float32
-            public const nint m_flMaxFraction = 0x1C; // float32
-            public const nint m_flScale = 0x20; // float32
-            public const nint m_pHull = 0x28; // RnHull_t*
         }
         // Parent: None
         // Field count: 10
@@ -1096,10 +1215,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeBoxRigid_t {
             public const nint tmFrame2 = 0x0; // CTransform
             public const nint nNode = 0x20; // uint16
@@ -1144,6 +1259,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FeNodeBase_t {
             public const nint nNode = 0x0; // uint16
             public const nint nDummy = 0x2; // uint16[3]
@@ -1157,6 +1274,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 6
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeVertexMapBuild_t {
             public const nint m_VertexMapName = 0x0; // CUtlString
@@ -1181,7 +1299,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeTri_t {
             public const nint nNode = 0x0; // uint16[3]
             public const nint w1 = 0x8; // float32
@@ -1202,20 +1319,18 @@ namespace Source2Dumper.Schemas {
             public const nint m_MassProperties = 0x34; // matrix3x4_t
             public const nint m_flVolume = 0x64; // float32
             public const nint m_flSurfaceArea = 0x68; // float32
-            public const nint m_Vertices = 0x70; // CUtlVector<RnVertex_t>
-            public const nint m_VertexPositions = 0x88; // CUtlVector<Vector>
-            public const nint m_Edges = 0xA0; // CUtlVector<RnHalfEdge_t>
-            public const nint m_Faces = 0xB8; // CUtlVector<RnFace_t>
-            public const nint m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
-            public const nint m_nFlags = 0xE8; // uint32
-            public const nint m_pRegionSVM = 0xF0; // CRegionSVM*
+            public const nint m_VertexPositions = 0x70; // CUtlVector<Vector>
+            public const nint m_FacePlanes = 0x88; // CUtlVector<RnPlane_t>
+            public const nint m_nFlags = 0xA0; // uint32
+            public const nint m_pRegionSVM = 0xA8; // CRegionSVM*
+            public const nint m_Vertices = 0xB0; // CUtlVector<RnVertex_t>
+            public const nint m_Edges = 0xC8; // CUtlVector<RnHalfEdge_t>
+            public const nint m_Faces = 0xE0; // CUtlVector<RnFace_t>
         }
         // Parent: None
         // Field count: 5
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeModelSelfCollisionLayer_t {
             public const nint m_Name = 0x0; // CUtlString
@@ -1229,6 +1344,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FeAntiTunnelGroupBuild_t {
             public const nint m_nVertexMapHash = 0x0; // uint32
             public const nint m_nCollisionMask = 0x4; // uint32
@@ -1238,7 +1354,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CovMatrix3 {
             public const nint m_vDiag = 0x0; // Vector
             public const nint m_flXY = 0xC; // float32
@@ -1247,6 +1362,19 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MVDataOutlinerLeafNameFn
         public static class PhysicsParticleId_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -1267,7 +1395,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class Dop26_t {
             public const nint m_flSupport = 0x0; // float32[26]
         }
@@ -1275,6 +1402,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeDynKinLink_t {
             public const nint m_nParent = 0x0; // uint16
@@ -1303,7 +1431,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeAntiTunnelProbe_t {
             public const nint flWeight = 0x0; // float32
             public const nint nFlags = 0x4; // uint32
@@ -1318,7 +1445,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeSourceEdge_t {
             public const nint nNode = 0x0; // uint16[2]
@@ -1338,6 +1464,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 4
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeNodeWindBase_t {
             public const nint nNodeX0 = 0x0; // uint16
@@ -1363,6 +1490,9 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FourCovMatrices3 {
             public const nint m_vDiag = 0x0; // FourVectors
             public const nint m_flXY = 0x30; // fltx4
@@ -1382,8 +1512,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 5
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1423,23 +1551,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MVDataOutlinerLeafNameFn
+        // generic
         public static class FeBuildTaperedCapsuleRigid_t {
             public const nint m_nPriority = 0x30; // int32
             public const nint m_nVertexMapHash = 0x34; // uint32
@@ -1498,7 +1610,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeFitWeight_t {
             public const nint flWeight = 0x0; // float32
             public const nint nNode = 0x4; // uint16
@@ -1521,9 +1632,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class FeSimdTri_t {
             public const nint nNode = 0x0; // uint32[4][3]
             public const nint w1 = 0x30; // fltx4
@@ -1540,6 +1648,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FeFitInfluence_t {
             public const nint nVertexNode = 0x0; // uint32

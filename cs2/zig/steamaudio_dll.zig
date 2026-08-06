@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -142,7 +142,7 @@ pub const source2_dumper = struct {
                 pub const m_probes: usize = 0x10; // CSteamAudioProbeData
                 pub const m_vecPathingRatio: usize = 0x18; // CUtlVector<float32>
                 pub const m_vecPathingDeviation: usize = 0x30; // CUtlVector<float32>
-                pub const m_vecReflectionRatio: usize = 0x48; // CUtlVector<float32>
+                pub const m_vecReflectionEnergy: usize = 0x48; // CUtlVector<float32>
             };
             // Parent: None
             // Field count: 12

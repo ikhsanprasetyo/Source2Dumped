@@ -14,63 +14,55 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentArg",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentArg",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentArg",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentArg",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentArg",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -100,10 +92,6 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -121,6 +109,106 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
@@ -132,7 +220,7 @@
       },
       "CPulseCell_BaseLerp": {
         "fields": {
-          "m_WakeResume": 72
+          "m_WakeResume": 216
         },
         "metadata": [
           {
@@ -148,6 +236,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -161,14 +257,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -207,6 +295,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -235,11 +327,103 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
@@ -273,7 +457,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -281,51 +465,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -333,7 +473,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorCanvasItemSpecKV3",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -341,23 +493,11 @@
             "type": "Unknown"
           },
           {
-            "name": "null",
+            "name": "ogram Files\\Go\\bin;C:\\Program Files\\LLVM\\bin;C:\\cloudflared;G:\\Android\\Sdk;C:\\Users\\ByteseekerPC\\.local\\bin;C:\\Program Files\\Clo",
             "type": "Unknown"
           },
           {
-            "name": "int",
-            "type": "Unknown"
-          },
-          {
-            "name": "double",
-            "type": "Unknown"
-          },
-          {
-            "name": "binary_blob",
-            "type": "Unknown"
-          },
-          {
-            "name": "table",
+            "name": "bDesktop\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\vcpkg;C:\\Users\\ByteseekerPC\\AppData\\Roaming\\n",
             "type": "Unknown"
           }
         ],
@@ -379,39 +519,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -422,13 +542,28 @@
         "parent": null
       },
       "CPulseCell_BaseYieldingInflow": {
-        "fields": {},
+        "fields": {
+          "m_BaseFlow_OnAfterCancel": 72,
+          "m_BaseFlow_WhileActive": 144
+        },
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -454,34 +589,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -493,10 +600,9 @@
       },
       "CPulseCell_BooleanSwitchState": {
         "fields": {
-          "m_Always": 192,
-          "m_Condition": 72,
-          "m_WhenFalse": 336,
-          "m_WhenTrue": 264
+          "m_Condition": 216,
+          "m_WhenFalse": 408,
+          "m_WhenTrue": 336
         },
         "metadata": [
           {
@@ -520,55 +626,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
           {
@@ -580,15 +646,23 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorHeaderIcon",
+            "name": "CURSOR_ADD_TAG",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "CURSOR_REMOVE_TAG",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "CURSOR_RETIRED",
+            "type": "Unknown"
+          },
+          {
+            "name": "REQUIREMENT_PASS",
+            "type": "Unknown"
+          },
+          {
+            "name": "REQUIREMENT_FAIL",
             "type": "Unknown"
           }
         ],
@@ -596,7 +670,7 @@
       },
       "CPulseCell_CursorQueue": {
         "fields": {
-          "m_nCursorsAllowedToRunParallel": 152
+          "m_nCursorsAllowedToRunParallel": 296
         },
         "metadata": [
           {
@@ -616,27 +690,51 @@
             "type": "Unknown"
           },
           {
-            "name": "ll,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "invalid",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "bool",
+            "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
           {
-            "name": "uint",
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           },
           {
-            "name": "string",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "array",
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -802,6 +900,158 @@
           {
             "name": "VScriptManager010",
             "type": "Unknown"
+          },
+          {
+            "name": "PropertyEditorSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MATCHFRAMEWORK_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2V8System001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaUIEngine001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaUIClient001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaTextServices001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ToolFramework2_002",
+            "type": "Unknown"
+          },
+          {
+            "name": "PhysicsBuilderMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VisBuilder_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "BakedLODBuilderMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "HelpSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ToolSceneNodeFactory_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "EconItemToolModel_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaTestExternal_Two_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaTestExternal_One_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AnimationSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AnimationSystemUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "HammerMapLoader001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MaterialUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "FontManager_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "TextLayout_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetPreviewSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetBrowserSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetRenameSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VConComm001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MODEL_PROCESSING_SERVICES_INTERFACE_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkMessagesVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "FlattenedSerializersVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SerializedEntitiesVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "DemoUpconverterVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Client002",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ClientUI001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ClientPrediction001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Server001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Host001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ModTools001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2GameClients001",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -830,11 +1080,31 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyLeafSuggestionProviderFn",
             "type": "Unknown"
           },
           {
             "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -879,11 +1149,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
+            "name": "MPropertyAttributeSuggestionName",
             "type": "Unknown"
           },
           {
@@ -893,36 +1159,15 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
           }
         ],
         "parent": null
       },
       "CPulseCell_FireCursors": {
         "fields": {
-          "m_OnCanceled": 176,
-          "m_OnFinished": 104,
-          "m_Outflows": 72,
-          "m_bWaitForChildOutflows": 96
+          "m_OnFinished": 248,
+          "m_Outflows": 216,
+          "m_bWaitForChildOutflows": 240
         },
         "metadata": [
           {
@@ -938,22 +1183,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -962,27 +1191,27 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -1011,11 +1240,103 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
@@ -1037,6 +1358,18 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -1050,22 +1383,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -1089,6 +1406,18 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -1102,22 +1431,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -1137,6 +1450,18 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -1150,22 +1475,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -1193,11 +1502,103 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
@@ -1218,35 +1619,107 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -1254,7 +1727,7 @@
       },
       "CPulseCell_Inflow_Wait": {
         "fields": {
-          "m_WakeResume": 72
+          "m_WakeResume": 216
         },
         "metadata": [
           {
@@ -1330,10 +1803,6 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -1343,6 +1812,106 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           }
         ],
@@ -1350,11 +1919,15 @@
       },
       "CPulseCell_Inflow_Yield": {
         "fields": {
-          "m_UnyieldResume": 72
+          "m_UnyieldResume": 216
         },
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SORT_BY_OUTFLOW_INDEX",
             "type": "Unknown"
           },
           {
@@ -1375,70 +1948,6 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "S",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1461,7 +1970,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1473,35 +1986,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "SORT_BY_OUTFLOW_INDEX",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1529,8 +2014,8 @@
       },
       "CPulseCell_IntervalTimer": {
         "fields": {
-          "m_Completed": 72,
-          "m_OnInterval": 144
+          "m_Completed": 216,
+          "m_OnInterval": 288
         },
         "metadata": [
           {
@@ -1550,19 +2035,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "V",
             "type": "Unknown"
           },
           {
@@ -1574,7 +2051,27 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1594,7 +2091,79 @@
             "type": "Unknown"
           },
           {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -1632,43 +2201,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "SORT_BY_OUTFLOW_INDEX",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1741,6 +2278,26 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1757,6 +2314,10 @@
           "m_nCurrentCount": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -1782,31 +2343,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1822,7 +2363,7 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
+            "name": "p",
             "type": "Unknown"
           },
           {
@@ -1830,11 +2371,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MCustomFGDMetadata",
             "type": "Unknown"
           }
         ],
@@ -1845,10 +2382,6 @@
           "m_nNextIndex": 0
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -1890,6 +2423,22 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -1918,31 +2467,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
           {
@@ -1958,7 +2483,19 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2028,6 +2565,14 @@
             "type": "Unknown"
           },
           {
+            "name": "FIRST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
             "name": "WHITE",
             "type": "Unknown"
           },
@@ -2044,7 +2589,15 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -2072,35 +2625,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "FIRST",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "SECOND",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "THIRD",
             "type": "Unknown"
           },
           {
@@ -2112,11 +2645,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MPulseEditorHeaderText",
             "type": "Unknown"
           },
           {
@@ -2125,18 +2654,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
           },
           {
@@ -2180,10 +2697,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2205,42 +2718,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
             "type": "Unknown"
           }
         ],
@@ -2273,10 +2750,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2301,11 +2774,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
+            "name": "MPropertyAttributeSuggestionName",
             "type": "Unknown"
           },
           {
@@ -2315,34 +2784,18 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
           }
         ],
         "parent": null
       },
       "CPulseCell_PickBestOutflowSelector": {
         "fields": {
+          "m_Connection": 0,
+          "m_DestinationFlowNodeID": 72,
           "m_OutflowList": 80,
-          "m_nCheckType": 72
+          "m_RequirementNodeIDs": 80,
+          "m_nCheckType": 72,
+          "m_nCursorStateBlockIndex": 104
         },
         "metadata": [
           {
@@ -2366,14 +2819,6 @@
             "type": "Unknown"
           },
           {
-            "name": "SORT_BY_OUTFLOW_INDEX",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2387,6 +2832,30 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2414,11 +2883,11 @@
       },
       "CPulseCell_Step_CallExternalMethod": {
         "fields": {
-          "m_ExpectedArgs": 96,
-          "m_MethodName": 72,
-          "m_OnFinished": 120,
-          "m_nAsyncCallMode": 112,
-          "m_nBlackboardIndex": 88
+          "m_ExpectedArgs": 240,
+          "m_MethodName": 216,
+          "m_OnFinished": 264,
+          "m_nAsyncCallMode": 256,
+          "m_nBlackboardIndex": 232
         },
         "metadata": [
           {
@@ -2430,7 +2899,27 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2464,7 +2953,27 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2496,39 +3005,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -2570,10 +3059,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2598,11 +3083,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
+            "name": "MPropertyAttributeSuggestionName",
             "type": "Unknown"
           },
           {
@@ -2611,26 +3092,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
             "type": "Unknown"
           }
         ],
@@ -2676,6 +3137,112 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyLeafSuggestionProviderFn",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Step_TestDomainEntFire": {
+        "fields": {
+          "bFail": 4,
+          "flWaitValue": 0,
+          "m_Input": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderText",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "CIRCLE",
             "type": "Unknown"
           },
@@ -2716,10 +3283,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2744,89 +3307,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CPulseCell_Step_TestDomainEntFire": {
-        "fields": {
-          "bFailOnCancel": 4,
-          "flWaitValue": 0,
-          "m_Input": 72
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderText",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyAttributeSuggestionName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           }
         ],
@@ -2848,35 +3337,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "FIRST",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "SECOND",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "THIRD",
             "type": "Unknown"
           },
           {
@@ -2888,11 +3357,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MPulseEditorHeaderText",
             "type": "Unknown"
           },
           {
@@ -2901,18 +3366,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
           },
           {
@@ -2956,10 +3409,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2984,11 +3433,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
+            "name": "MPropertyAttributeSuggestionName",
             "type": "Unknown"
           },
           {
@@ -2998,17 +3443,39 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_TestEnums": {
+        "fields": {
+          "m_nReferenceColor": 72,
+          "m_nReferenceFlags": 76
+        },
+        "metadata": [
           {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "MPulseLegacyName",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_TestWaitWithAutoTracepoints": {
+        "fields": {
+          "m_TracePrefix": 216,
+          "m_WakeResume": 224
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -3018,15 +3485,26 @@
           {
             "name": "MPulseExpressionAlias",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
       },
       "CPulseCell_TestWaitWithCursorState": {
         "fields": {
-          "m_WakeCancel": 144,
-          "m_WakeFail": 216,
-          "m_WakeResume": 72
+          "m_WakeFail": 288,
+          "m_WakeResume": 216
         },
         "metadata": [
           {
@@ -3066,6 +3544,14 @@
             "type": "Unknown"
           },
           {
+            "name": "FIRST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
             "name": "WHITE",
             "type": "Unknown"
           },
@@ -3082,7 +3568,15 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -3110,35 +3604,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "FIRST",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "SECOND",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "THIRD",
             "type": "Unknown"
           },
           {
@@ -3150,11 +3624,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MPulseEditorHeaderText",
             "type": "Unknown"
           },
           {
@@ -3163,18 +3633,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
           },
           {
@@ -3218,10 +3676,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -3244,50 +3698,67 @@
           {
             "name": "MPropertyDescription",
             "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
           }
         ],
         "parent": null
       },
       "CPulseCell_TestWaitWithCursorState__CursorState_t": {
         "fields": {
-          "bFailOnCancel": 4,
-          "flWaitValue": 0
+          "bFail": 4,
+          "flWaitValue": 0,
+          "m_hSelfCellInstance": 28,
+          "m_hSelfCellInstanceUntyped": 20,
+          "m_hSelfCursor": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_TestWaitWithCursorState__InstanceState_t": {
+        "fields": {
+          "m_nDummy": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_TestYieldForever": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_TestYieldWithObservables": {
+        "fields": {
+          "m_LiveFloatValue": 224,
+          "m_LiveStringValue": 352,
+          "m_WakeResume": 472,
+          "m_WatchForStringValue": 344,
+          "m_flWatchForFloatValue": 216
         },
         "metadata": [
           {
@@ -3313,6 +3784,14 @@
             "type": "Unknown"
           },
           {
+            "name": "FIRST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
             "name": "WHITE",
             "type": "Unknown"
           },
@@ -3329,7 +3808,15 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -3357,35 +3844,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "FIRST",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "SECOND",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "THIRD",
             "type": "Unknown"
           },
           {
@@ -3397,11 +3864,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MPulseEditorHeaderText",
             "type": "Unknown"
           },
           {
@@ -3410,18 +3873,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
           },
           {
@@ -3465,10 +3916,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -3490,42 +3937,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
             "type": "Unknown"
           }
         ],
@@ -3543,10 +3954,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -3571,11 +3978,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
+            "name": "MPropertyAttributeSuggestionName",
             "type": "Unknown"
           },
           {
@@ -3584,26 +3987,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
             "type": "Unknown"
           }
         ],
@@ -3620,35 +4003,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "FIRST",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "SECOND",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "THIRD",
             "type": "Unknown"
           },
           {
@@ -3660,11 +4023,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MPulseEditorHeaderText",
             "type": "Unknown"
           },
           {
@@ -3673,18 +4032,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
           },
           {
@@ -3728,10 +4075,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -3756,6 +4099,150 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyAttributeSuggestionName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Test_MultiOutflow_WithParams_Yielding": {
+        "fields": {
+          "m_AsyncChild1": 288,
+          "m_AsyncChild2": 360,
+          "m_Out1": 216,
+          "m_YieldResume1": 432,
+          "m_YieldResume2": 504
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseExpressionAlias",
             "type": "Unknown"
           },
@@ -3781,6 +4268,14 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -3790,33 +4285,9 @@
           {
             "name": "MPulseExpressionAlias",
             "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CPulseCell_Test_MultiOutflow_WithParams_Yielding": {
-        "fields": {
-          "m_AsyncChild1": 144,
-          "m_AsyncChild2": 216,
-          "m_Out1": 72,
-          "m_YieldResume1": 288,
-          "m_YieldResume2": 360
-        },
-        "metadata": [
+          },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -3824,51 +4295,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderText",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeSuggestionName",
             "type": "Unknown"
           }
         ],
@@ -3884,15 +4311,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderText",
             "type": "Unknown"
           }
         ],
@@ -3942,18 +4361,6 @@
             "type": "Unknown"
           },
           {
-            "name": "CIRCLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SQUARE",
-            "type": "Unknown"
-          },
-          {
-            "name": "TRIANGLE",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -3967,42 +4374,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           },
           {
@@ -4035,6 +4406,14 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -4044,72 +4423,31 @@
           {
             "name": "MPulseExpressionAlias",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
       },
       "CPulseCell_Timeline": {
         "fields": {
-          "m_OnCanceled": 176,
-          "m_OnFinished": 104,
-          "m_TimelineEvents": 72,
-          "m_bWaitForChildOutflows": 96
+          "m_OnFinished": 248,
+          "m_TimelineEvents": 216,
+          "m_bWaitForChildOutflows": 240
         },
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
             "type": "Unknown"
           },
           {
@@ -4137,7 +4475,99 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -4187,7 +4617,59 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyAttributeSuggestionName",
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyLeafSuggestionProviderFn",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -4209,7 +4691,59 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyAttributeSuggestionName",
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyLeafSuggestionProviderFn",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -4237,18 +4771,6 @@
             "type": "Unknown"
           },
           {
-            "name": ":",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
           },
@@ -4261,11 +4783,51 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": "V",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -4285,22 +4847,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -4309,27 +4855,27 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -4367,7 +4913,11 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -4375,7 +4925,103 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
@@ -4433,7 +5079,11 @@
             "type": "Unknown"
           },
           {
-            "name": "S",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -4441,7 +5091,103 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
             "type": "Unknown"
           },
           {
@@ -4475,18 +5221,6 @@
             "type": "Unknown"
           },
           {
-            "name": "CIRCLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SQUARE",
-            "type": "Unknown"
-          },
-          {
-            "name": "TRIANGLE",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -4500,42 +5234,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           },
           {
@@ -4568,6 +5266,14 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -4577,14 +5283,26 @@
           {
             "name": "MPulseExpressionAlias",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
       },
       "CPulseCell_WaitForCursorsWithTag": {
         "fields": {
-          "m_bTagSelfWhenComplete": 152,
-          "m_nDesiredKillPriority": 156
+          "m_bTagSelfWhenComplete": 296,
+          "m_nDesiredKillPriority": 300
         },
         "metadata": [
           {
@@ -4628,27 +5346,51 @@
             "type": "Unknown"
           },
           {
-            "name": "ll,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t\\tnull,\\n\\t",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "invalid",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "bool",
+            "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
           {
-            "name": "uint",
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           },
           {
-            "name": "string",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "array",
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -4674,14 +5416,166 @@
           {
             "name": "VFileSystem017",
             "type": "Unknown"
+          },
+          {
+            "name": "VAsyncFileSystem2_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceSystem013",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceManifestRegistry001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceHandleUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceCompilerSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VMaterialSystem2_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PostProcessingSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "InputSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "InputStackSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderDeviceMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundOpSystemEdit001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundOpSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SteamAudio001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VP4003",
+            "type": "Unknown"
+          },
+          {
+            "name": "Localize_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VMediaFoundation001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VAvi001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VWebm001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VBik001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MeshSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MeshUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderDevice003",
+            "type": "Unknown"
+          },
+          {
+            "name": "VRenderDeviceSetupV001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderHardwareConfig002",
+            "type": "Unknown"
+          },
+          {
+            "name": "SceneSystem_002",
+            "type": "Unknown"
+          },
+          {
+            "name": "IPulseSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SceneUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "WorldRendererMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetSystemTest001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ParticleSystemMgr003",
+            "type": "Unknown"
+          },
+          {
+            "name": "VScriptManager010",
+            "type": "Unknown"
+          },
+          {
+            "name": "PropertyEditorSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MATCHFRAMEWORK_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2V8System001",
+            "type": "Unknown"
           }
         ],
         "parent": null
       },
       "CPulseCell_WaitForCursorsWithTagBase": {
         "fields": {
-          "m_WaitComplete": 80,
-          "m_nCursorsAllowedToWait": 72
+          "m_WaitComplete": 224,
+          "m_nCursorsAllowedToWait": 216
         },
         "metadata": [
           {
@@ -4697,39 +5591,32 @@
             "type": "Unknown"
           },
           {
-            "name": "null",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "int",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "double",
+            "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
           {
-            "name": "binary_blob",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "table",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
         "parent": null
       },
-      "CPulseCell_WaitForCursorsWithTagBase__CursorState_t": {
-        "fields": {
-          "m_TagName": 0
-        },
-        "metadata": [],
-        "parent": null
-      },
       "CPulseCell_WaitForObservable": {
         "fields": {
-          "m_Condition": 72,
-          "m_OnTrue": 192
+          "m_Condition": 216,
+          "m_OnTrue": 336
         },
         "metadata": [
           {
@@ -4749,63 +5636,23 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "CURSOR_ADD_TAG",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "CURSOR_REMOVE_TAG",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "CURSOR_RETIRED",
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorCanvasItemSpecKV3",
+            "name": "REQUIREMENT_PASS",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "REQUIREMENT_FAIL",
             "type": "Unknown"
           }
         ],
@@ -4823,30 +5670,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "8\", \"logo_url\": \"https://steamcdn-a.akamaihd.net/apps/730/resource/hltv/03/ed/a50845ae9e5b4226a795971c146194e613a9.png\", \"flag_u",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPulseEditorHeaderIcon",
             "type": "Unknown"
           },
@@ -4855,7 +5678,361 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "VApplication001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VEngineCvar007",
+            "type": "Unknown"
+          },
+          {
+            "name": "VStringTokenSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "TestScriptMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VProcessUtils002",
+            "type": "Unknown"
+          },
+          {
+            "name": "VFileSystem017",
+            "type": "Unknown"
+          },
+          {
+            "name": "VAsyncFileSystem2_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceSystem013",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceManifestRegistry001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceHandleUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceCompilerSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VMaterialSystem2_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PostProcessingSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "InputSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "InputStackSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderDeviceMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundOpSystemEdit001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundOpSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SteamAudio001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VP4003",
+            "type": "Unknown"
+          },
+          {
+            "name": "Localize_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VMediaFoundation001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VAvi001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VWebm001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VBik001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MeshSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MeshUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderDevice003",
+            "type": "Unknown"
+          },
+          {
+            "name": "VRenderDeviceSetupV001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderHardwareConfig002",
+            "type": "Unknown"
+          },
+          {
+            "name": "SceneSystem_002",
+            "type": "Unknown"
+          },
+          {
+            "name": "IPulseSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SceneUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "WorldRendererMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetSystemTest001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ParticleSystemMgr003",
+            "type": "Unknown"
+          },
+          {
+            "name": "VScriptManager010",
+            "type": "Unknown"
+          },
+          {
+            "name": "PropertyEditorSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MATCHFRAMEWORK_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2V8System001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaUIEngine001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaUIClient001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaTextServices001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ToolFramework2_002",
+            "type": "Unknown"
+          },
+          {
+            "name": "PhysicsBuilderMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VisBuilder_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "BakedLODBuilderMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "HelpSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ToolSceneNodeFactory_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "EconItemToolModel_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaTestExternal_Two_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaTestExternal_One_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AnimationSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AnimationSystemUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "HammerMapLoader001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MaterialUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "FontManager_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "TextLayout_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetPreviewSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetBrowserSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetRenameSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VConComm001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MODEL_PROCESSING_SERVICES_INTERFACE_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkMessagesVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "FlattenedSerializersVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SerializedEntitiesVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "DemoUpconverterVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Client002",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ClientUI001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ClientPrediction001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Server001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Host001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ModTools001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2GameClients001",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseEnumlib": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -4867,11 +6044,43 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseEditorCanvasItemSpecKV3",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseSignatureForOutflow",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -4909,22 +6118,22 @@
       },
       "CPulseGraphInstance_TestDomain": {
         "fields": {
-          "m_Tracepoints": 320,
-          "m_bExpectingCursorTerminatedDueToMaxInstructions": 308,
-          "m_bExpectingToDestroyWithYieldedCursors": 306,
-          "m_bExplicitTimeStepping": 305,
-          "m_bIsRunningUnitTests": 304,
-          "m_bQuietTracepoints": 307,
-          "m_bTestYesOrNoPath": 344,
-          "m_nCursorsTerminatedDueToMaxInstructions": 312,
-          "m_nNextValidateIndex": 316
+          "m_Tracepoints": 312,
+          "m_bExpectingCursorTerminatedDueToMaxInstructions": 300,
+          "m_bExpectingToDestroyWithYieldedCursors": 298,
+          "m_bExplicitTimeStepping": 297,
+          "m_bIsRunningUnitTests": 296,
+          "m_bQuietTracepoints": 299,
+          "m_bTestYesOrNoPath": 336,
+          "m_nCursorsTerminatedDueToMaxInstructions": 304,
+          "m_nNextValidateIndex": 308
         },
         "metadata": [],
         "parent": null
       },
       "CPulseGraphInstance_TestDomain_Derived": {
         "fields": {
-          "m_nInstanceValueX": 352
+          "m_nInstanceValueX": 344
         },
         "metadata": [],
         "parent": null
@@ -4954,6 +6163,104 @@
         ],
         "parent": null
       },
+      "CPulseStringlib": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CPulseTestFuncs_LibraryA": {
         "fields": {},
         "metadata": [
@@ -4962,30 +6269,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPulseExpressionAlias",
             "type": "Unknown"
           },
@@ -5011,6 +6294,14 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -5019,6 +6310,18 @@
           },
           {
             "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -5048,18 +6351,6 @@
             "type": "Unknown"
           },
           {
-            "name": ":",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MPulseSignatureForOutflow",
             "type": "Unknown"
           },
@@ -5069,6 +6360,54 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": "V",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
           }
         ],
@@ -5117,6 +6456,10 @@
           "m_nSrcInstruction": 80
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -5193,10 +6536,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5209,6 +6548,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5217,20 +6560,6 @@
         "fields": {
           "m_Connection": 8,
           "m_OutflowID": 0
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "PulseObservableBoolExpression_t": {
-        "fields": {
-          "m_DependentObservableBlackboardReferences": 96,
-          "m_DependentObservableVars": 72,
-          "m_EvaluateConnection": 0
         },
         "metadata": [
           {
@@ -5294,6 +6623,14 @@
         },
         "type": "uint32"
       },
+      "PulseCursorWakePriority_t": {
+        "alignment": 4,
+        "members": {
+          "WakeElegantly": 0,
+          "WakeImmediate": 1
+        },
+        "type": "uint32"
+      },
       "PulseMethodCallMode_t": {
         "alignment": 4,
         "members": {
@@ -5310,6 +6647,24 @@
           "GREEN": 3,
           "RED": 2,
           "WHITE": 1
+        },
+        "type": "uint32"
+      },
+      "PulseTestEnumFlagsAlt_t": {
+        "alignment": 4,
+        "members": {
+          "FIRST": 1,
+          "NONE": 0
+        },
+        "type": "uint32"
+      },
+      "PulseTestEnumFlags_t": {
+        "alignment": 4,
+        "members": {
+          "FIRST": 1,
+          "NONE": 0,
+          "SECOND": 2,
+          "THIRD": 4
         },
         "type": "uint32"
       },

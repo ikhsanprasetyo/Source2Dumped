@@ -1,12 +1,19 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: scenesystem.dll
         // Class count: 9
-        // Enum count: 5
+        // Enum count: 6
         pub const scenesystem_dll = struct {
+            // Alignment: 4
+            // Member count: 3
+            pub const ESceneObjectMeshletVisualization = enum(u32) {
+                SCENEOBJECT_MESHLET_VIS_NONE = 0x0,
+                SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1,
+                SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+            };
             // Alignment: 4
             // Member count: 7
             pub const ESceneViewDebugOverlaysListenerDataType_t = enum(u32) {
@@ -108,8 +115,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // W
-            // W
             pub const CSSDSMsg_PostLayer = struct {
             };
             // Parent: None
@@ -140,8 +145,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // W
-            // W
             pub const CSSDSMsg_PreLayer = struct {
             };
             // Parent: None

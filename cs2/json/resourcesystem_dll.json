@@ -1,6 +1,14 @@
 {
   "resourcesystem.dll": {
     "classes": {
+      "AABBWS_t": {
+        "fields": {
+          "m_vMaxBounds": 12,
+          "m_vMinBounds": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
       "AABB_t": {
         "fields": {
           "m_vMaxBounds": 12,
@@ -95,15 +103,23 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyCustomFGDType",
             "type": "Unknown"
           },
           {
             "name": "vrman",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           }
         ],
@@ -115,19 +131,15 @@
         },
         "metadata": [
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyCustomFGDType",
             "type": "Unknown"
           },
           {
             "name": "MResourceTypeForInfoType",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -585,6 +597,14 @@
           {
             "name": "NavGameTest001",
             "type": "Unknown"
+          },
+          {
+            "name": "LocalServerClientAccess001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ClientLocalServerAccess001",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -755,6 +775,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -811,11 +835,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -881,7 +901,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -951,7 +971,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -1034,6 +1054,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -1225,6 +1249,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1371,6 +1399,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1378,10 +1410,6 @@
       "InfoForResourceTypeCDotaItemDefinitionResource": {
         "fields": {},
         "metadata": [
-          {
-            "name": "MResourceTypeForInfoType",
-            "type": "Unknown"
-          },
           {
             "name": "MResourceTypeForInfoType",
             "type": "Unknown"
@@ -1500,6 +1528,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -1607,6 +1639,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1679,7 +1715,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -1813,6 +1849,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferName",
             "type": "Unknown"
           },
@@ -1834,6 +1874,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -1976,6 +2020,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -2126,6 +2174,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -2301,6 +2353,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2403,6 +2459,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2463,7 +2523,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -2563,6 +2623,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2611,11 +2675,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -2819,6 +2879,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2985,6 +3049,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3123,6 +3191,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3130,10 +3202,6 @@
       "InfoForResourceTypeCRenderMesh": {
         "fields": {},
         "metadata": [
-          {
-            "name": "MResourceTypeForInfoType",
-            "type": "Unknown"
-          },
           {
             "name": "MResourceTypeForInfoType",
             "type": "Unknown"
@@ -3216,6 +3284,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -3389,10 +3461,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MResourceTypeForInfoType",
-            "type": "Unknown"
-          },
-          {
             "name": "MKV3TransferName",
             "type": "Unknown"
           },
@@ -3414,6 +3482,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -3593,6 +3665,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3765,6 +3841,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferName",
             "type": "Unknown"
           },
@@ -3786,6 +3866,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -3891,6 +3975,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferName",
             "type": "Unknown"
           },
@@ -3912,6 +4000,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -3941,19 +4033,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -4068,6 +4148,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -4191,6 +4275,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4309,6 +4397,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4361,11 +4453,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -4549,6 +4637,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4617,6 +4709,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferName",
             "type": "Unknown"
           },
@@ -4638,6 +4734,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -4679,11 +4779,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -4729,11 +4825,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -4808,6 +4900,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -4941,10 +5037,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MResourceTypeForInfoType",
-            "type": "Unknown"
-          },
-          {
             "name": "MKV3TransferName",
             "type": "Unknown"
           },
@@ -4966,6 +5058,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -5052,6 +5148,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -5162,6 +5262,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -5324,6 +5428,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -5510,6 +5618,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -5717,6 +5829,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5753,11 +5869,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -5893,6 +6005,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5917,19 +6033,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -5947,19 +6051,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
+            "name": "b",
             "type": "Unknown"
           }
         ],
@@ -6039,6 +6131,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -6051,6 +6147,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "b",
             "type": "Unknown"
           }
         ],

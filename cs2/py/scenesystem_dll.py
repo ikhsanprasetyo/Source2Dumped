@@ -1,9 +1,13 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-30 10:06:43.171224400 +07:00
+# 2026-08-06 08:15:19.987246100 +07:00
 
 class Schemas:
     # Module: scenesystem.dll
     class ScenesystemDll:
+        class ESceneObjectMeshletVisualization:
+            SCENEOBJECT_MESHLET_VIS_NONE = 0x0
+            SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1
+            SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
         class ESceneViewDebugOverlaysListenerDataType_t:
             k_ESceneViewDebugOverlaysListenerDataType_Unknown = 0x0
             k_ESceneViewDebugOverlaysListenerDataType_Sphere = 0x1

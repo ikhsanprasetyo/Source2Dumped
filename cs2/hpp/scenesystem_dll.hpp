@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 #pragma once
 
@@ -10,8 +10,15 @@ namespace source2_dumper {
     namespace schemas {
         // Module: scenesystem.dll
         // Class count: 9
-        // Enum count: 5
+        // Enum count: 6
         namespace scenesystem_dll {
+            // Alignment: 4
+            // Member count: 3
+            enum class ESceneObjectMeshletVisualization : uint32_t {
+                SCENEOBJECT_MESHLET_VIS_NONE = 0x0,
+                SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1,
+                SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+            };
             // Alignment: 4
             // Member count: 7
             enum class ESceneViewDebugOverlaysListenerDataType_t : uint32_t {
@@ -115,8 +122,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // W
-            // W
             namespace CSSDSMsg_PostLayer {
             }
             // Parent: None
@@ -147,8 +152,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // W
-            // W
             namespace CSSDSMsg_PreLayer {
             }
             // Parent: None

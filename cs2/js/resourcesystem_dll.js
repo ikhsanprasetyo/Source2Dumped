@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 export const Schemas = {
     resourcesystem_dll: {
@@ -19,6 +19,10 @@ export const Schemas = {
             READ_ONLY: 0x1,
         },
         InfoForResourceTypeCResponseRulesList: {
+        },
+        AABBWS_t: {
+            m_vMinBounds: 0x0, // VectorWS
+            m_vMaxBounds: 0xC, // VectorWS
         },
         InfoForResourceTypeCDotaItemDefinitionResource: {
         },

@@ -28,11 +28,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           }
         ],
@@ -199,6 +195,18 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "<invalid>",
             "type": "Unknown"
           },
@@ -256,14 +264,6 @@
         "metadata": [
           {
             "name": "vrman",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -339,7 +339,7 @@
       "fieldtype_t": {
         "alignment": 1,
         "members": {
-          "FIELD_AI_SCHEDULE_BITS": 69,
+          "DEPRECATED_FIELD_AI_SCHEDULE_BITS": 69,
           "FIELD_AMMO_INDEX": 67,
           "FIELD_ATTACHMENT_HANDLE": 66,
           "FIELD_BOOLEAN": 6,
@@ -382,8 +382,10 @@
           "FIELD_MODIFIER_HANDLE": 70,
           "FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_POSITION_VECTOR": 54,
           "FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTOR": 40,
+          "FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTORWS": 82,
           "FIELD_NETWORK_QUANTIZED_FLOAT": 44,
           "FIELD_NETWORK_QUANTIZED_VECTOR": 43,
+          "FIELD_NETWORK_QUANTIZED_VECTORWS": 81,
           "FIELD_POSITION_VECTOR": 14,
           "FIELD_POSITIVEINTEGER_OR_NULL": 35,
           "FIELD_QANGLE": 39,
@@ -400,7 +402,7 @@
           "FIELD_STRING_AND_TOKEN": 75,
           "FIELD_TICK": 16,
           "FIELD_TIME": 15,
-          "FIELD_TYPECOUNT": 81,
+          "FIELD_TYPECOUNT": 83,
           "FIELD_TYPEUNKNOWN": 29,
           "FIELD_UINT16": 58,
           "FIELD_UINT32": 37,

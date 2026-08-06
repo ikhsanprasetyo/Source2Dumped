@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -8,7 +8,7 @@ pub const source2_dumper = struct {
         // Enum count: 2
         pub const schemasystem_dll = struct {
             // Alignment: 1
-            // Member count: 82
+            // Member count: 84
             pub const fieldtype_t = enum(u8) {
                 FIELD_VOID = 0x0,
                 FIELD_FLOAT32 = 0x1,
@@ -79,7 +79,7 @@ pub const source2_dumper = struct {
                 FIELD_ATTACHMENT_HANDLE = 0x42,
                 FIELD_AMMO_INDEX = 0x43,
                 FIELD_CONDITION_ID = 0x44,
-                FIELD_AI_SCHEDULE_BITS = 0x45,
+                DEPRECATED_FIELD_AI_SCHEDULE_BITS = 0x45,
                 FIELD_MODIFIER_HANDLE = 0x46,
                 FIELD_ROTATION_VECTOR = 0x47,
                 FIELD_ROTATION_VECTOR_WORLDSPACE = 0x48,
@@ -91,7 +91,9 @@ pub const source2_dumper = struct {
                 FIELD_WORLD_GROUP_ID = 0x4E,
                 FIELD_GLOBALSYMBOL = 0x4F,
                 FIELD_HNMGRAPHDEFINITION = 0x50,
-                FIELD_TYPECOUNT = 0x51
+                FIELD_NETWORK_QUANTIZED_VECTORWS = 0x51,
+                FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTORWS = 0x52,
+                FIELD_TYPECOUNT = 0x53
             };
             // Alignment: 4
             // Member count: 3
@@ -105,6 +107,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             // <invalid>
             // char
             // uint8
@@ -172,8 +177,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub const CExampleSchemaVData_PolymorphicBase = struct {
                 pub const m_nBase: usize = 0x8; // int32
             };
@@ -202,8 +206,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // vrman
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // void

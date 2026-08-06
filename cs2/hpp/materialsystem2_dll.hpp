@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: materialsystem2.dll
-        // Class count: 14
+        // Class count: 15
         // Enum count: 5
         namespace materialsystem2_dll {
             // Alignment: 4
@@ -72,6 +72,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // (
             namespace MaterialParamVector_t {
                 constexpr std::ptrdiff_t m_value = 0x8; // Vector4D
             }
@@ -87,13 +88,15 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // (
             namespace MaterialParamString_t {
                 constexpr std::ptrdiff_t m_value = 0x8; // CUtlString
             }
             // Parent: None
-            // Field count: 13
+            // Field count: 15
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // VIEW_FADE_MODULATE
             // VIEW_FADE_MOD2X
@@ -111,6 +114,8 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bHasColorCorrection = 0x120; // bool
                 constexpr std::ptrdiff_t m_bHasFogScatteringParams = 0x121; // bool
                 constexpr std::ptrdiff_t m_fogScatteringParams = 0x124; // PostProcessingFogScatteringParameters_t
+                constexpr std::ptrdiff_t m_bHasLocalExposureParams = 0x144; // bool
+                constexpr std::ptrdiff_t m_localExposureParams = 0x148; // PostProcessingLocalExposureParameters_t
             }
             // Parent: None
             // Field count: 1
@@ -120,6 +125,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // (
             namespace MaterialParamInt_t {
                 constexpr std::ptrdiff_t m_nValue = 0x8; // int32
             }
@@ -142,7 +148,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // BLOOM_BLEND_SCREEN
             namespace PostProcessingLocalContrastParameters_t {
                 constexpr std::ptrdiff_t m_flLocalContrastStrength = 0x0; // float32
                 constexpr std::ptrdiff_t m_flLocalContrastEdgeStrength = 0x4; // float32
@@ -175,9 +180,10 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flMaxHighlightLum = 0x38; // float32
             }
             // Parent: None
-            // Field count: 5
+            // Field count: 8
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -187,6 +193,9 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_fCubemapScale = 0x8; // float32
                 constexpr std::ptrdiff_t m_fVolumetricScale = 0xC; // float32
                 constexpr std::ptrdiff_t m_fGradientScale = 0x10; // float32
+                constexpr std::ptrdiff_t m_fWaterScale = 0x14; // float32
+                constexpr std::ptrdiff_t m_fWaterDensity = 0x18; // float32
+                constexpr std::ptrdiff_t m_fWaterDepthBlurRadius = 0x1C; // float32
             }
             // Parent: None
             // Field count: 1
@@ -198,6 +207,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // (
             namespace MaterialParamBuffer_t {
                 constexpr std::ptrdiff_t m_value = 0x8; // CUtlBinaryBlock
             }
@@ -230,6 +240,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace PostProcessingBloomParameters_t {
                 constexpr std::ptrdiff_t m_blendMode = 0x0; // BloomBlendMode_t
                 constexpr std::ptrdiff_t m_flBloomStrength = 0x4; // float32
@@ -253,8 +264,21 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // (
             namespace MaterialParamFloat_t {
                 constexpr std::ptrdiff_t m_flValue = 0x8; // float32
+            }
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // VIEW_FADE_MODULATE
+            namespace PostProcessingLocalExposureParameters_t {
+                constexpr std::ptrdiff_t m_fShadowOffsetEV = 0x0; // float32
+                constexpr std::ptrdiff_t m_fHighlightOffsetEV = 0x4; // float32
+                constexpr std::ptrdiff_t m_fSigma = 0x8; // float32
+                constexpr std::ptrdiff_t m_fBoostLocalContrast = 0xC; // float32
             }
             // Parent: None
             // Field count: 1
@@ -262,6 +286,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // (
             namespace MaterialParamTexture_t {
                 constexpr std::ptrdiff_t m_pValue = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             }

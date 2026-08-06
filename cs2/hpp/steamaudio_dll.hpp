@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 #pragma once
 
@@ -147,7 +147,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_probes = 0x10; // CSteamAudioProbeData
                 constexpr std::ptrdiff_t m_vecPathingRatio = 0x18; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_vecPathingDeviation = 0x30; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecReflectionRatio = 0x48; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecReflectionEnergy = 0x48; // CUtlVector<float32>
             }
             // Parent: None
             // Field count: 12

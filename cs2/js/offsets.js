@@ -1,29 +1,29 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 10:06:43.171224400 +07:00
+// 2026-08-06 08:15:19.987246100 +07:00
 
 export const Offsets = {
     client_dll: {
-        dwCSGOInput: 0x2356240,
-        dwEntityList: 0x24E76A0,
-        dwGameEntitySystem: 0x24E76A0,
+        dwCSGOInput: 0x23BA790,
+        dwEntityList: 0x254FE80,
+        dwGameEntitySystem: 0x254FE80,
         dwGameEntitySystem_highestEntityIndex: 0x2090,
-        dwGameRules: 0x1A02BB8,
-        dwGlobalVars: 0x20616D0,
-        dwGlowManager: 0x233DF50,
-        dwLocalPlayerController: 0x2320720,
-        dwLocalPlayerPawn: 0x2341698,
-        dwPlantedC4: 0x234FF98,
-        dwPrediction: 0x23415A0,
-        dwSensitivity: 0x233EA68,
+        dwGameRules: 0x1A52030,
+        dwGlobalVars: 0x2090D60,
+        dwGlowManager: 0x23A1708,
+        dwLocalPlayerController: 0x237FB80,
+        dwLocalPlayerPawn: 0x23A5238,
+        dwPlantedC4: 0x236F658,
+        dwPrediction: 0x23A5140,
+        dwSensitivity: 0x23A2228,
         dwSensitivity_sensitivity: 0x58,
-        dwViewAngles: 0x23568C8,
-        dwViewMatrix: 0x2346B30,
-        dwViewRender: 0x2346EE0,
-        dwWeaponC4: 0x22BED20,
+        dwViewAngles: 0x23BAE18,
+        dwViewMatrix: 0x23AA340,
+        dwViewRender: 0x23AA398,
+        dwWeaponC4: 0x231DB50,
     },
     engine2_dll: {
-        dwBuildNumber: 0x60CC74,
-        dwNetworkGameClient: 0x90A1A0,
+        dwBuildNumber: 0x60F594,
+        dwNetworkGameClient: 0x90D4B0,
         dwNetworkGameClient_clientTickCount: 0x378,
         dwNetworkGameClient_deltaTick: 0x24C,
         dwNetworkGameClient_isBackgroundMap: 0x2C141F,
@@ -31,21 +31,21 @@ export const Offsets = {
         dwNetworkGameClient_maxClients: 0x240,
         dwNetworkGameClient_serverTickCount: 0x24C,
         dwNetworkGameClient_signOnState: 0x230,
-        dwWindowHeight: 0x90E5C4,
-        dwWindowWidth: 0x90E5C0,
+        dwWindowHeight: 0x9118D4,
+        dwWindowWidth: 0x9118D0,
     },
     inputsystem_dll: {
-        dwInputSystem: 0x42B50,
+        dwInputSystem: 0x45BA0,
     },
     matchmaking_dll: {
-        dwGameTypes: 0x1B0F80,
+        dwGameTypes: 0x1ADF80,
     },
     panorama_dll: {
     },
     panoramauiclient_dll: {
     },
     soundsystem_dll: {
-        dwSoundSystem: 0x512360,
+        dwSoundSystem: 0x54B5D0,
         dwSoundSystem_engineViewData: 0x7C,
     },
 };
