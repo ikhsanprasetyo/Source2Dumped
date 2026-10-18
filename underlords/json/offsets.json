@@ -1,0 +1,14 @@
+{
+  "client.dll": {
+    "dwEntityList": 17936448,
+    "dwViewMatrix": 18325232
+  },
+  "engine2.dll": {
+    "dwNetworkGameClient_maxClients": 664,
+    "dwNetworkGameClient_signOnState": 520,
+    "dwWindowHeight": 6030748,
+    "dwWindowWidth": 6030744
+  },
+  "inputsystem.dll": {},
+  "soundsystem.dll": {}
+}
