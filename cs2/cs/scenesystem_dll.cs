@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: scenesystem.dll
-    // Class count: 9
-    // Enum count: 6
+    // Class count: 1
+    // Enum count: 7
     public static class ScenesystemDll {
         // Alignment: 4
         // Member count: 3
@@ -12,6 +12,21 @@ namespace Source2Dumper.Schemas {
             SCENEOBJECT_MESHLET_VIS_NONE = 0x0,
             SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1,
             SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+        }
+        // Alignment: 4
+        // Member count: 11
+        public enum SceneStatsSections_t : uint {
+            SCENE_STATS_NONE = 0x0,
+            SCENE_STATS_FRAME = 0x1,
+            SCENE_STATS_GEOMETRY = 0x2,
+            SCENE_STATS_CULLING = 0x4,
+            SCENE_STATS_MATERIALS = 0x8,
+            SCENE_STATS_LIGHTING = 0x10,
+            SCENE_STATS_RAYTRACING = 0x20,
+            SCENE_STATS_INTERNALS = 0x40,
+            SCENE_STATS_RENDERDEVICE = 0x80,
+            SCENE_STATS_ALL = 0xFF,
+            SCENE_STATS_DEFAULT = 0x7F
         }
         // Alignment: 4
         // Member count: 7
@@ -62,93 +77,6 @@ namespace Source2Dumper.Schemas {
             SCENEOBJECT_VIS_INSTANCING = 0x5
         }
         // Parent: None
-        // Field count: 10
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSSDSMsg_ViewTarget {
-            public const nint m_Name = 0x0; // CUtlString
-            public const nint m_TextureId = 0x8; // uint64
-            public const nint m_nWidth = 0x10; // int32
-            public const nint m_nHeight = 0x14; // int32
-            public const nint m_nRequestedWidth = 0x18; // int32
-            public const nint m_nRequestedHeight = 0x1C; // int32
-            public const nint m_nNumMipLevels = 0x20; // int32
-            public const nint m_nDepth = 0x24; // int32
-            public const nint m_nMultisampleNumSamples = 0x28; // int32
-            public const nint m_nFormat = 0x2C; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class SceneViewId_t {
-            public const nint m_nViewId = 0x0; // uint64
-            public const nint m_nFrameCount = 0x8; // uint64
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSSDSEndFrameViewInfo {
-            public const nint m_nViewId = 0x0; // uint64
-            public const nint m_ViewName = 0x8; // CUtlString
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSSDSMsg_PostLayer {
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSSDSMsg_LayerBase {
-            public const nint m_viewId = 0x0; // SceneViewId_t
-            public const nint m_ViewName = 0x10; // CUtlString
-            public const nint m_nLayerId = 0x18; // uint64
-            public const nint m_LayerName = 0x20; // CUtlString
-            public const nint m_displayText = 0x28; // CUtlString
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSSDSMsg_PreLayer {
-        }
-        // Parent: None
         // Field count: 3
         //
         // Metadata:
@@ -163,27 +91,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_viewId = 0x0; // SceneViewId_t
             public const nint m_ViewName = 0x10; // CUtlString
             public const nint m_Targets = 0x18; // CUtlVector<CSSDSMsg_ViewTarget>
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSSDSMsg_ViewRender {
-            public const nint m_viewId = 0x0; // SceneViewId_t
-            public const nint m_ViewName = 0x10; // CUtlString
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSSDSMsg_EndFrame {
-            public const nint m_Views = 0x0; // CUtlVector<CSSDSEndFrameViewInfo>
         }
     }
 }

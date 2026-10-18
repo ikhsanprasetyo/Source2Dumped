@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 package schemas
 
@@ -7,6 +7,17 @@ const (
     ScenesystemDll_ESceneObjectMeshletVisualization_SCENEOBJECT_MESHLET_VIS_NONE = 0x0
     ScenesystemDll_ESceneObjectMeshletVisualization_SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1
     ScenesystemDll_ESceneObjectMeshletVisualization_SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_NONE = 0x0
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_FRAME = 0x1
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_GEOMETRY = 0x2
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_CULLING = 0x4
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_MATERIALS = 0x8
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_LIGHTING = 0x10
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_RAYTRACING = 0x20
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_INTERNALS = 0x40
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_RENDERDEVICE = 0x80
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_ALL = 0xFF
+    ScenesystemDll_SceneStatsSections_t_SCENE_STATS_DEFAULT = 0x7F
     ScenesystemDll_ESceneViewDebugOverlaysListenerDataType_t_k_ESceneViewDebugOverlaysListenerDataType_Unknown = 0x0
     ScenesystemDll_ESceneViewDebugOverlaysListenerDataType_t_k_ESceneViewDebugOverlaysListenerDataType_Sphere = 0x1
     ScenesystemDll_ESceneViewDebugOverlaysListenerDataType_t_k_ESceneViewDebugOverlaysListenerDataType_Capsule = 0x2
@@ -33,29 +44,7 @@ const (
     ScenesystemDll_ESceneObjectVisualization_SCENEOBJECT_VIS_TEXTURE_SIZE = 0x3
     ScenesystemDll_ESceneObjectVisualization_SCENEOBJECT_VIS_LOD = 0x4
     ScenesystemDll_ESceneObjectVisualization_SCENEOBJECT_VIS_INSTANCING = 0x5
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_Name = 0x0 // CUtlString
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_TextureId = 0x8 // uint64
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nWidth = 0x10 // int32
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nHeight = 0x14 // int32
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nRequestedWidth = 0x18 // int32
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nRequestedHeight = 0x1C // int32
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nNumMipLevels = 0x20 // int32
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nDepth = 0x24 // int32
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nMultisampleNumSamples = 0x28 // int32
-    ScenesystemDll_CSSDSMsg_ViewTarget_m_nFormat = 0x2C // int32
-    ScenesystemDll_SceneViewId_t_m_nViewId = 0x0 // uint64
-    ScenesystemDll_SceneViewId_t_m_nFrameCount = 0x8 // uint64
-    ScenesystemDll_CSSDSEndFrameViewInfo_m_nViewId = 0x0 // uint64
-    ScenesystemDll_CSSDSEndFrameViewInfo_m_ViewName = 0x8 // CUtlString
-    ScenesystemDll_CSSDSMsg_LayerBase_m_viewId = 0x0 // SceneViewId_t
-    ScenesystemDll_CSSDSMsg_LayerBase_m_ViewName = 0x10 // CUtlString
-    ScenesystemDll_CSSDSMsg_LayerBase_m_nLayerId = 0x18 // uint64
-    ScenesystemDll_CSSDSMsg_LayerBase_m_LayerName = 0x20 // CUtlString
-    ScenesystemDll_CSSDSMsg_LayerBase_m_displayText = 0x28 // CUtlString
     ScenesystemDll_CSSDSMsg_ViewTargetList_m_viewId = 0x0 // SceneViewId_t
     ScenesystemDll_CSSDSMsg_ViewTargetList_m_ViewName = 0x10 // CUtlString
     ScenesystemDll_CSSDSMsg_ViewTargetList_m_Targets = 0x18 // CUtlVector<CSSDSMsg_ViewTarget>
-    ScenesystemDll_CSSDSMsg_ViewRender_m_viewId = 0x0 // SceneViewId_t
-    ScenesystemDll_CSSDSMsg_ViewRender_m_ViewName = 0x10 // CUtlString
-    ScenesystemDll_CSSDSMsg_EndFrame_m_Views = 0x0 // CUtlVector<CSSDSEndFrameViewInfo>
 )

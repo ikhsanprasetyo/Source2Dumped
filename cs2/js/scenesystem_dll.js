@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 export const Schemas = {
     scenesystem_dll: {
@@ -7,6 +7,19 @@ export const Schemas = {
             SCENEOBJECT_MESHLET_VIS_NONE: 0x0,
             SCENEOBJECT_MESHLET_VIS_MESHLET: 0x1,
             SCENEOBJECT_MESHLET_VIS_CULLED: 0x2,
+        },
+        SceneStatsSections_t: {
+            SCENE_STATS_NONE: 0x0,
+            SCENE_STATS_FRAME: 0x1,
+            SCENE_STATS_GEOMETRY: 0x2,
+            SCENE_STATS_CULLING: 0x4,
+            SCENE_STATS_MATERIALS: 0x8,
+            SCENE_STATS_LIGHTING: 0x10,
+            SCENE_STATS_RAYTRACING: 0x20,
+            SCENE_STATS_INTERNALS: 0x40,
+            SCENE_STATS_RENDERDEVICE: 0x80,
+            SCENE_STATS_ALL: 0xFF,
+            SCENE_STATS_DEFAULT: 0x7F,
         },
         ESceneViewDebugOverlaysListenerDataType_t: {
             k_ESceneViewDebugOverlaysListenerDataType_Unknown: 0x0,
@@ -44,48 +57,10 @@ export const Schemas = {
             SCENEOBJECT_VIS_LOD: 0x4,
             SCENEOBJECT_VIS_INSTANCING: 0x5,
         },
-        CSSDSMsg_ViewTarget: {
-            m_Name: 0x0, // CUtlString
-            m_TextureId: 0x8, // uint64
-            m_nWidth: 0x10, // int32
-            m_nHeight: 0x14, // int32
-            m_nRequestedWidth: 0x18, // int32
-            m_nRequestedHeight: 0x1C, // int32
-            m_nNumMipLevels: 0x20, // int32
-            m_nDepth: 0x24, // int32
-            m_nMultisampleNumSamples: 0x28, // int32
-            m_nFormat: 0x2C, // int32
-        },
-        SceneViewId_t: {
-            m_nViewId: 0x0, // uint64
-            m_nFrameCount: 0x8, // uint64
-        },
-        CSSDSEndFrameViewInfo: {
-            m_nViewId: 0x0, // uint64
-            m_ViewName: 0x8, // CUtlString
-        },
-        CSSDSMsg_PostLayer: {
-        },
-        CSSDSMsg_LayerBase: {
-            m_viewId: 0x0, // SceneViewId_t
-            m_ViewName: 0x10, // CUtlString
-            m_nLayerId: 0x18, // uint64
-            m_LayerName: 0x20, // CUtlString
-            m_displayText: 0x28, // CUtlString
-        },
-        CSSDSMsg_PreLayer: {
-        },
         CSSDSMsg_ViewTargetList: {
             m_viewId: 0x0, // SceneViewId_t
             m_ViewName: 0x10, // CUtlString
             m_Targets: 0x18, // CUtlVector<CSSDSMsg_ViewTarget>
-        },
-        CSSDSMsg_ViewRender: {
-            m_viewId: 0x0, // SceneViewId_t
-            m_ViewName: 0x10, // CUtlString
-        },
-        CSSDSMsg_EndFrame: {
-            m_Views: 0x0, // CUtlVector<CSSDSEndFrameViewInfo>
         },
     },
 };

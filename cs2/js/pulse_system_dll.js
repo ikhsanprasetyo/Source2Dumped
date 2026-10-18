@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 export const Schemas = {
     pulse_system_dll: {
@@ -43,18 +43,7 @@ export const Schemas = {
             WakeElegantly: 0x0,
             WakeImmediate: 0x1,
         },
-        CPulseCell_Step_TestDomainDestroyFakeEntity: {
-        },
-        CPulseCell_WaitForCursorsWithTag: {
-            m_bTagSelfWhenComplete: 0x128, // bool
-            m_nDesiredKillPriority: 0x12C, // PulseCursorCancelPriority_t
-        },
-        CPulseCell_Test_NoInflow: {
-        },
         CPulseGraphInstance_TestDomain_FakeEntityOwner: {
-        },
-        CPulseCell_Base: {
-            m_nEditorNodeID: 0x8, // PulseDocNodeID_t
         },
         CPulse_ResumePoint: {
         },
@@ -62,98 +51,18 @@ export const Schemas = {
             m_nCursorValueA: 0xD8, // int32
             m_nCursorValueB: 0xDC, // int32
         },
-        CPulseCell_PickBestOutflowSelector: {
-            m_nCheckType: 0x48, // PulseBestOutflowRules_t
-            m_OutflowList: 0x50, // PulseSelectorOutflowList_t
-            m_Connection: 0x0, // CPulse_OutflowConnection
-            m_DestinationFlowNodeID: 0x48, // PulseDocNodeID_t
-            m_RequirementNodeIDs: 0x50, // CUtlVector<PulseDocNodeID_t>
-            m_nCursorStateBlockIndex: 0x68, // CUtlVector<int32>
-        },
-        CPulseTestFuncs_LibraryA: {
-        },
-        CPulseCell_WaitForObservable: {
-            m_Condition: 0xD8, // CPulseObservableExpression<bool>
-            m_OnTrue: 0x150, // CPulse_ResumePoint
-        },
         CPulse_OutflowConnection: {
             m_SourceOutflowName: 0x0, // PulseSymbol_t
             m_nDestChunk: 0x10, // PulseRuntimeChunkIndex_t
             m_nInstruction: 0x14, // int32
             m_OutflowRegisterMap: 0x18, // PulseRegisterMap_t
         },
-        CPulseGraphDef: {
-            m_DomainIdentifier: 0x8, // PulseSymbol_t
-            m_DomainSubType: 0x18, // CPulseValueFullType
-            m_ParentMapName: 0x30, // PulseSymbol_t
-            m_ParentXmlName: 0x40, // PulseSymbol_t
-            m_Chunks: 0x50, // CUtlVector<CPulse_Chunk*>
-            m_Cells: 0x68, // CUtlVector<CPulseCell_Base*>
-            m_Vars: 0x80, // CUtlVector<CPulse_Variable>
-            m_PublicOutputs: 0x98, // CUtlVector<CPulse_PublicOutput>
-            m_InvokeBindings: 0xB0, // CUtlVector<CPulse_InvokeBinding*>
-            m_CallInfos: 0xC8, // CUtlVector<CPulse_CallInfo*>
-            m_Constants: 0xE0, // CUtlVector<CPulse_Constant>
-            m_DomainValues: 0xF8, // CUtlVector<CPulse_DomainValue>
-            m_BlackboardReferences: 0x110, // CUtlVector<CPulse_BlackboardReference>
-            m_OutputConnections: 0x128, // CUtlVector<CPulse_OutputConnection*>
-        },
-        CPulseCell_TestYieldForever: {
-        },
         CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView: {
         },
         CPulseCell_TestWaitWithCursorState__InstanceState_t: {
             m_nDummy: 0x0, // int32
         },
-        CPulseCell_FireCursors: {
-            m_Outflows: 0xD8, // CUtlVector<CPulse_OutflowConnection>
-            m_bWaitForChildOutflows: 0xF0, // bool
-            m_OnFinished: 0xF8, // CPulse_ResumePoint
-        },
-        CPulseCell_Timeline__TimelineEvent_t: {
-            m_flTimeFromPrevious: 0x0, // float32
-            m_EventOutflow: 0x8, // CPulse_OutflowConnection
-        },
-        CPulseCell_IntervalTimer__CursorState_t: {
-            m_StartTime: 0x0, // GameTime_t
-            m_EndTime: 0x4, // GameTime_t
-            m_flWaitInterval: 0x8, // float32
-            m_flWaitIntervalHigh: 0xC, // float32
-            m_bCompleteOnNextWake: 0x10, // bool
-        },
-        CPulseCell_BaseRequirement: {
-        },
-        CPulseCell_BaseState: {
-        },
-        OutflowWithRequirements_t: {
-            m_Connection: 0x0, // CPulse_OutflowConnection
-            m_DestinationFlowNodeID: 0x48, // PulseDocNodeID_t
-            m_RequirementNodeIDs: 0x50, // CUtlVector<PulseDocNodeID_t>
-            m_nCursorStateBlockIndex: 0x68, // CUtlVector<int32>
-        },
-        CPulseCell_IsRequirementValid: {
-        },
-        CPulseCell_Value_Gradient: {
-            m_Gradient: 0x48, // CColorGradient
-        },
-        CPulseCell_TestWaitWithAutoTracepoints: {
-            m_TracePrefix: 0xD8, // CUtlString
-            m_WakeResume: 0xE0, // CPulse_ResumePoint
-        },
-        CPulseCursorFuncs: {
-        },
-        PulseNodeDynamicOutflows_t__DynamicOutflow_t: {
-            m_OutflowID: 0x0, // CGlobalSymbol
-            m_Connection: 0x8, // CPulse_OutflowConnection
-        },
-        CPulseCell_Test_MultiOutflow_WithParams: {
-            m_Out1: 0x48, // SignatureOutflow_Continue
-            m_Out2: 0x90, // SignatureOutflow_Continue
-        },
         CBasePulseGraphInstance: {
-        },
-        CPulseCell_Inflow_GraphHook: {
-            m_HookName: 0x80, // PulseSymbol_t
         },
         SignatureOutflow_Resume: {
         },
@@ -173,33 +82,7 @@ export const Schemas = {
             m_hSelfCellInstanceUntyped: 0x14, // HPulseCellBase
             m_hSelfCellInstance: 0x1C, // HPulseCell<CPulseCell_TestWaitWithCursorState>
         },
-        CPulseCell_Inflow_BaseEntrypoint: {
-            m_EntryChunk: 0x48, // PulseRuntimeChunkIndex_t
-            m_RegisterMap: 0x50, // PulseRegisterMap_t
-        },
         CPulseCell_Test_MultiInflow_NoDefault: {
-        },
-        CPulseCell_WaitForCursorsWithTagBase: {
-            m_nCursorsAllowedToWait: 0xD8, // int32
-            m_WaitComplete: 0xE0, // CPulse_ResumePoint
-        },
-        CPulse_InvokeBinding: {
-            m_RegisterMap: 0x0, // PulseRegisterMap_t
-            m_FuncName: 0x30, // PulseSymbol_t
-            m_nCellIndex: 0x40, // PulseRuntimeCellIndex_t
-            m_nSrcChunk: 0x44, // PulseRuntimeChunkIndex_t
-            m_nSrcInstruction: 0x48, // int32
-        },
-        CPulseCell_IntervalTimer: {
-            m_Completed: 0xD8, // CPulse_ResumePoint
-            m_OnInterval: 0x120, // SignatureOutflow_Continue
-        },
-        CPulseTestScriptLib: {
-        },
-        CPulseCell_BaseLerp: {
-            m_WakeResume: 0xD8, // CPulse_ResumePoint
-        },
-        CPulseCell_Value_TestValue50: {
         },
         CPulseCell_Test_MultiOutflow_WithParams_Yielding: {
             m_Out1: 0xD8, // SignatureOutflow_Continue
@@ -208,213 +91,45 @@ export const Schemas = {
             m_YieldResume1: 0x1B0, // SignatureOutflow_Resume
             m_YieldResume2: 0x1F8, // SignatureOutflow_Resume
         },
-        TestComponent_tAPI: {
-        },
-        CPulseCell_Value_Curve: {
-            m_Curve: 0x48, // CPiecewiseCurve
-        },
-        CPulseCell_Inflow_EventHandler: {
-            m_EventName: 0x80, // PulseSymbol_t
-        },
-        CPulseCell_BaseFlow: {
-        },
-        CPulseCell_Step_TestDomainTracepoint: {
-        },
-        CPulseCell_Outflow_CycleShuffled__InstanceState_t: {
-            m_Shuffle: 0x0, // CUtlVectorFixedGrowable<uint8,8>
-            m_nNextShuffle: 0x20, // int32
-        },
-        CPulseCell_BaseLerp__CursorState_t: {
-            m_StartTime: 0x0, // GameTime_t
-            m_EndTime: 0x4, // GameTime_t
-        },
         CPulseGraphInstance_TestDomain_Derived: {
-            m_nInstanceValueX: 0x158, // int32
-        },
-        CPulseArraylib: {
+            m_nInstanceValueX: 0xD0, // int32
         },
         CPulseGraphInstance_TestDomain: {
-            m_bIsRunningUnitTests: 0x128, // bool
-            m_bExplicitTimeStepping: 0x129, // bool
-            m_bExpectingToDestroyWithYieldedCursors: 0x12A, // bool
-            m_bQuietTracepoints: 0x12B, // bool
-            m_bExpectingCursorTerminatedDueToMaxInstructions: 0x12C, // bool
-            m_nCursorsTerminatedDueToMaxInstructions: 0x130, // int32
-            m_nNextValidateIndex: 0x134, // int32
-            m_Tracepoints: 0x138, // CUtlVector<CUtlString>
-            m_bTestYesOrNoPath: 0x150, // bool
+            m_bIsRunningUnitTests: 0xA0, // bool
+            m_bExplicitTimeStepping: 0xA1, // bool
+            m_bExpectingToDestroyWithYieldedCursors: 0xA2, // bool
+            m_bQuietTracepoints: 0xA3, // bool
+            m_bExpectingCursorTerminatedDueToMaxInstructions: 0xA4, // bool
+            m_nCursorsTerminatedDueToMaxInstructions: 0xA8, // int32
+            m_nNextValidateIndex: 0xAC, // int32
+            m_Tracepoints: 0xB0, // CUtlVector<CUtlString>
+            m_bTestYesOrNoPath: 0xC8, // bool
         },
         SignatureOutflow_Continue: {
-        },
-        CPulseCell_Timeline: {
-            m_TimelineEvents: 0xD8, // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
-            m_bWaitForChildOutflows: 0xF0, // bool
-            m_OnFinished: 0xF8, // CPulse_ResumePoint
-        },
-        CPulseCell_Inflow_EntOutputHandler: {
-            m_SourceEntity: 0x80, // PulseSymbol_t
-            m_SourceOutput: 0x90, // PulseSymbol_t
-            m_ExpectedParamType: 0xA0, // CPulseValueFullType
         },
         CPulseCell_Outflow_TestExplicitYesNo: {
             m_Yes: 0x48, // CPulse_OutflowConnection
             m_No: 0x90, // CPulse_OutflowConnection
         },
-        CPulseCell_Outflow_TestRandomYesNo: {
-            m_Yes: 0x48, // CPulse_OutflowConnection
-            m_No: 0x90, // CPulse_OutflowConnection
-        },
-        CPulseCell_Outflow_CycleOrdered__InstanceState_t: {
-            m_nNextIndex: 0x0, // int32
-        },
-        CPulseCell_LimitCount__InstanceState_t: {
-            m_nCurrentCount: 0x0, // int32
-        },
-        FakeEntity_tAPI: {
-        },
-        CPulseCell_Test_MultiInflow_WithDefault: {
-        },
-        CPulseCell_Step_DebugLog: {
-        },
-        CPulseCell_BaseYieldingInflow: {
-            m_BaseFlow_OnAfterCancel: 0x48, // CPulse_ResumePoint
-            m_BaseFlow_WhileActive: 0x90, // CPulse_ResumePoint
-        },
-        PulseNodeDynamicOutflows_t: {
-            m_Outflows: 0x0, // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
-        },
         CPulseCell_IsRequirementValid__Criteria_t: {
             m_bIsValid: 0x0, // bool
         },
-        CPulseCell_Inflow_ObservableVariableListener: {
-            m_nBlackboardReference: 0x80, // PulseRuntimeBlackboardReferenceIndex_t
-            m_bSelfReference: 0x82, // bool
-        },
-        CPulseCell_Outflow_CycleOrdered: {
-            m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
-        },
-        PulseSelectorOutflowList_t: {
-            m_Outflows: 0x0, // CUtlVector<OutflowWithRequirements_t>
-        },
         CPulseGraphInstance_TurtleGraphics: {
-        },
-        CPulseCell_Val_TestDomainGetEntityName: {
-        },
-        CPulseCell_Inflow_Wait: {
-            m_WakeResume: 0xD8, // CPulse_ResumePoint
         },
         CPulseCell_TestWaitWithCursorState: {
             m_WakeResume: 0xD8, // CPulse_ResumePoint
             m_WakeFail: 0x120, // CPulse_ResumePoint
         },
-        CPulseCell_Outflow_CycleShuffled: {
-            m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
-        },
-        CPulseCell_Inflow_Method: {
-            m_MethodName: 0x80, // PulseSymbol_t
-            m_Description: 0x90, // CUtlString
-            m_bIsPublic: 0x98, // bool
-            m_ReturnType: 0xA0, // CPulseValueFullType
-            m_Args: 0xB8, // CUtlLeanVector<CPulseRuntimeMethodArg>
-        },
-        CPulseCell_BaseValue: {
-        },
-        CPulseCell_BooleanSwitchState: {
-            m_Condition: 0xD8, // CPulseObservableExpression<bool>
-            m_WhenTrue: 0x150, // CPulse_OutflowConnection
-            m_WhenFalse: 0x198, // CPulse_OutflowConnection
-        },
-        FakeEntityDerivedB_tAPI: {
-        },
-        CPulseCell_Inflow_Yield: {
-            m_UnyieldResume: 0xD8, // CPulse_ResumePoint
-        },
-        CPulseMathlib: {
-        },
         CPulseCell_Unknown: {
             m_UnknownKeys: 0x48, // KeyValues3
-        },
-        CPulseStringlib: {
-        },
-        CPulseCell_Outflow_CycleRandom: {
-            m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
-        },
-        CPulseCell_Step_PublicOutput: {
-            m_OutputIndex: 0x48, // PulseRuntimeOutputIndex_t
-        },
-        CPulseCell_Val_TestDomainFindEntityByName: {
-        },
-        CPulse_BlackboardReference: {
-            m_hBlackboardResource: 0x0, // CStrongHandle<InfoForResourceTypeIPulseGraphDef>
-            m_BlackboardResource: 0x8, // PulseSymbol_t
-            m_nNodeID: 0x18, // PulseDocNodeID_t
-            m_NodeName: 0x20, // CGlobalSymbol
-        },
-        CPulseCell_Value_RandomInt: {
-        },
-        CPulseCell_TestEnums: {
-            m_nReferenceColor: 0x48, // PulseTestEnumColor_t
-            m_nReferenceFlags: 0x4C, // PulseTestEnumFlags_t
-        },
-        CPulseCell_Step_TestDomainEntFire: {
-            m_Input: 0x48, // CUtlString
-            flWaitValue: 0x0, // float32
-            bFail: 0x4, // bool
-        },
-        CPulseEnumlib: {
-        },
-        FakeEntityDerivedA_tAPI: {
-        },
-        CPulseCell_ExampleSelector: {
-            m_OutflowList: 0x48, // PulseSelectorOutflowList_t
-        },
-        CPulse_CallInfo: {
-            m_PortName: 0x0, // PulseSymbol_t
-            m_nEditorNodeID: 0x10, // PulseDocNodeID_t
-            m_RegisterMap: 0x18, // PulseRegisterMap_t
-            m_CallMethodID: 0x48, // PulseDocNodeID_t
-            m_nSrcChunk: 0x4C, // PulseRuntimeChunkIndex_t
-            m_nSrcInstruction: 0x50, // int32
-        },
-        CPulseCell_InlineNodeSkipSelector: {
-            m_nFlowNodeID: 0x48, // PulseDocNodeID_t
-            m_bAnd: 0x4C, // bool
-            m_PassOutflow: 0x50, // PulseSelectorOutflowList_t
-            m_FailOutflow: 0x68, // CPulse_OutflowConnection
         },
         CPulseCell_ExampleCriteria__Criteria_t: {
             m_flFloatValue1: 0x0, // float32
             m_flFloatValue2: 0x4, // float32
             m_bMyBool: 0x8, // bool
         },
-        CPulseCell_ExampleCriteria: {
-        },
-        CPulseCell_LimitCount: {
-            m_nLimitCount: 0x48, // int32
-        },
-        CPulseCell_Step_CallExternalMethod: {
-            m_MethodName: 0xD8, // PulseSymbol_t
-            m_nBlackboardIndex: 0xE8, // PulseRuntimeBlackboardReferenceIndex_t
-            m_ExpectedArgs: 0xF0, // CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode: 0x100, // PulseMethodCallMode_t
-            m_OnFinished: 0x108, // CPulse_ResumePoint
-        },
         CPulseCell_LimitCount__Criteria_t: {
             m_bLimitCountPasses: 0x0, // bool
-        },
-        CPulseCell_Step_TestDomainCreateFakeEntity: {
-        },
-        CPulseCell_TestYieldWithObservables: {
-            m_flWatchForFloatValue: 0xD8, // float32
-            m_LiveFloatValue: 0xE0, // CPulseObservableExpression<float32>
-            m_WatchForStringValue: 0x158, // CUtlString
-            m_LiveStringValue: 0x160, // CPulseObservableExpression<CUtlString>
-            m_WakeResume: 0x1D8, // CPulse_ResumePoint
-        },
-        CPulseCell_CursorQueue: {
-            m_nCursorsAllowedToRunParallel: 0x128, // int32
-        },
-        CPulseCell_Value_RandomFloat: {
         },
         CPulseExecCursor: {
         },

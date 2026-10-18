@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 package schemas
 
@@ -75,7 +75,6 @@ const (
     Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_bDepthWriteEnable = 0x0 // bitfield:1
     Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_depthFunc = 0x0 // bitfield:4
     Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_stencilState = 0x2 // RsStencilStateDesc_t
-    Rendersystemdx11Dll_SheetSequenceIntegerId_t_m_Value = 0x0 // uint32
     Rendersystemdx11Dll_RsBlendStateDesc_t_m_srcBlendBits = 0x0 // uint32
     Rendersystemdx11Dll_RsBlendStateDesc_t_m_destBlendBits = 0x4 // uint32
     Rendersystemdx11Dll_RsBlendStateDesc_t_m_srcBlendAlphaBits = 0x8 // uint32

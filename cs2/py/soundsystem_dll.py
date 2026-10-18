@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-06 08:15:19.987246100 +07:00
+# 2026-10-18 21:52:13.031739700 +07:00
 
 class Schemas:
     # Module: soundsystem.dll
@@ -21,57 +21,78 @@ class Schemas:
             SndSeqMidiStatusPitchBend = 0xE
         class VMixGraphCommandID_t:
             CMD_INVALID = 0xFFFFFFFFFFFFFFFF
-            CMD_CONTROL_INPUT_STORE = 0x1
-            CMD_CONTROL_INPUT_STORE_DB = 0x2
-            CMD_CONTROL_TRANSIENT_INPUT_STORE = 0x3
-            CMD_CONTROL_TRANSIENT_INPUT_RESET = 0x4
-            CMD_CONTROL_OUTPUT_STORE = 0x5
-            CMD_CONTROL_EVALUATE_CURVE = 0x6
-            CMD_CONTROL_COPY = 0x7
-            CMD_CONTROL_COND_COPY_IF_NEGATIVE = 0x8
-            CMD_CONTROL_REMAP_LINEAR = 0x9
-            CMD_CONTROL_REMAP_SINE = 0xA
-            CMD_CONTROL_REMAP_LOGLINEAR = 0xB
-            CMD_CONTROL_MAX = 0xC
-            CMD_CONTROL_RESET_TIMER = 0xD
-            CMD_CONTROL_INCREMENT_TIMER = 0xE
-            CMD_CONTROL_EVAL_ENVELOPE = 0xF
-            CMD_CONTROL_SINE_BLEND = 0x10
-            CMD_PROCESSOR_SET_CONTROL_VALUE = 0x11
-            CMD_PROCESSOR_SET_NAME_INPUT = 0x12
-            CMD_PROCESSOR_SET_CONTROL_ARRAYVALUE = 0x13
-            CMD_PROCESSOR_STORE_CONTROL_VALUE = 0x14
-            CMD_PROCESSOR_SET_VSND_VALUE = 0x15
-            CMD_SUBMIX_PROCESS = 0x16
-            CMD_SUBMIX_GENERATE = 0x17
-            CMD_SUBMIX_GENERATE_SIDECHAIN = 0x18
-            CMD_SUBMIX_EXTRACTCONTAINER = 0x19
-            CMD_SUBMIX_DEBUG = 0x1A
-            CMD_SUBMIX_MIX2x1 = 0x1B
-            CMD_SUBMIX_OUTPUT = 0x1C
-            CMD_SUBMIX_OUTPUTx2 = 0x1D
-            CMD_SUBMIX_COPY = 0x1E
-            CMD_SUBMIX_ACCUMULATE = 0x1F
-            CMD_SUBMIX_METER = 0x20
-            CMD_SUBMIX_METER_SPECTRUM = 0x21
-            CMD_IMPULSERESPONSE_INPUT_STORE = 0x22
-            CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x23
-            CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x24
-            CMD_IMPULSERESPONSE_RESET = 0x25
-            CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x26
-            CMD_IMPULSERESPONSE_DELAY = 0x27
+            CMD_CONTROL_CONVERT_DB_TO_GAIN = 0x1
+            CMD_CONTROL_TRANSIENT_INPUT_STORE = 0x2
+            CMD_CONTROL_TRANSIENT_INPUT_RESET = 0x3
+            CMD_CONTROL_OUTPUT_STORE = 0x4
+            CMD_CONTROL_EVALUATE_CURVE = 0x5
+            CMD_CONTROL_COPY = 0x6
+            CMD_CONTROL_COND_COPY_IF_NEGATIVE = 0x7
+            CMD_CONTROL_REMAP_LINEAR = 0x8
+            CMD_CONTROL_REMAP_SINE = 0x9
+            CMD_CONTROL_REMAP_LOGLINEAR = 0xA
+            CMD_CONTROL_MAX = 0xB
+            CMD_CONTROL_RESET_TIMER = 0xC
+            CMD_CONTROL_INCREMENT_TIMER = 0xD
+            CMD_CONTROL_EVAL_ENVELOPE = 0xE
+            CMD_CONTROL_SINE_BLEND = 0xF
+            CMD_SUBMIX_PROCESS = 0x10
+            CMD_SUBMIX_GENERATE = 0x11
+            CMD_SUBMIX_GENERATE_SIDECHAIN = 0x12
+            CMD_SUBMIX_EXTRACTCONTAINER = 0x13
+            CMD_SUBMIX_DEBUG = 0x14
+            CMD_SUBMIX_MIX2x1 = 0x15
+            CMD_SUBMIX_OUTPUT = 0x16
+            CMD_SUBMIX_OUTPUTx2 = 0x17
+            CMD_SUBMIX_COPY = 0x18
+            CMD_SUBMIX_ACCUMULATE = 0x19
+            CMD_SUBMIX_METER = 0x1A
+            CMD_SUBMIX_METER_SPECTRUM = 0x1B
+            CMD_IMPULSERESPONSE_INPUT_STORE = 0x1C
+            CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x1D
+            CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x1E
+            CMD_IMPULSERESPONSE_RESET = 0x1F
+            CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x20
+            CMD_IMPULSERESPONSE_DELAY = 0x21
         class EWaveform:
             Sine = 0x0
             Square = 0x1
             Saw = 0x2
             Triangle = 0x3
             Noise = 0x4
+        class VMixFilterChannelSet_t:
+            FILTER_ALL_CHANNELS = 0x0
+            FILTER_LEFT_ONLY = 0x1
+            FILTER_RIGHT_ONLY = 0x2
+            FILTER_MID_ONLY = 0x3
+            FILTER_SIDE_ONLY = 0x4
+            FILTER_CHANNEL_SET_MAX = 0x5
         class VMixLFOShape_t:
             LFO_SHAPE_SINE = 0x0
             LFO_SHAPE_SQUARE = 0x1
             LFO_SHAPE_TRI = 0x2
             LFO_SHAPE_SAW = 0x3
             LFO_SHAPE_NOISE = 0x4
+        class VMixOffsetType_t:
+            VO_CHAR = 0x0
+            VO_ARRAY = 0x1
+            VO_BOOL = 0x2
+            VO_FLOAT = 0x3
+            VO_UINT32 = 0x4
+            VO_INT32 = 0x5
+            VO_VECTOR = 0x6
+            VO_QUATERNION = 0x7
+            VO_CUBIC_SPLINE = 0x8
+            VO_VSND_INPUT = 0x9
+            VO_FLOAT_UTLVECTOR = 0xA
+            VO_SHAREDPTR_IR = 0xB
+            VO_TYPE_COUNT = 0xC
+        class VMixMixDownRule_t:
+            SUM = 0x0
+            LEFT = 0x1
+            RIGHT = 0x2
+            MID = 0x3
+            SIDE = 0x4
         class VMixFilterType_t:
             FILTER_UNKNOWN = 0xFFFFFFFFFFFFFFFF
             FILTER_LOWPASS = 0x0
@@ -86,6 +107,17 @@ class Schemas:
         class SndBeatTrackPlaybackType_t:
             eSndBeatTrackPlaybackTypeStep = 0x0
             eSndBeatTrackPlaybackTypeFwd = 0x1
+        class VMixSendOperator_t:
+            NO_VOICES = 0xFFFFFFFFFFFFFFFF
+            ALL_VOICES = 0x0
+            ROOM_VOICES = 0x1
+            FACING_VOICES = 0x2
+            MIXGROUP_VOICES = 0x3
+            NAMED_SEND = 0x4
+            INVERSE_NAMED_SENDS = 0x5
+            INVERSE_TOTAL_SEND = 0x6
+            ALL_MAX_SEND = 0x7
+            TRACK = 0x8
         class SndBeatEventType_t:
             eSndBeatEventTypeInvalid = 0x0
             eSndBeatEventTypeBeat = 0x1
@@ -97,11 +129,6 @@ class Schemas:
             SOS_STOPTYPE_NONE = 0x0
             SOS_STOPTYPE_TIME = 0x1
             SOS_STOPTYPE_OPVAR = 0x2
-        class SndBeatLaunchSyncType_t:
-            eSndBeatLaunchSyncTypeInvalid = 0x0
-            eSndBeatLaunchSyncTypeQueue = 0x1
-            eSndBeatLaunchSyncTypeSeek = 0x2
-            eSndBeatLaunchSyncTypeReset = 0x3
         class SndBeatKeyType_t:
             eSndBeatPatternTypeNone = 0x0
             eSndBeatPatternTypeKeys = 0x1
@@ -115,6 +142,10 @@ class Schemas:
             SOS_EDIT_ITEM_TYPE_STACK = 0x3
             SOS_EDIT_ITEM_TYPE_OPERATOR = 0x4
             SOS_EDIT_ITEM_TYPE_FIELD = 0x5
+        class SndBeatSyncType_t:
+            eSndBeatSyncTypeInvalid = 0x0
+            eSndBeatSyncTypeReset = 0x1
+            eSndBeatSyncTypeSeekImmediate = 0x2
         class PlayBackMode_t:
             Random = 0x0
             RandomNoRepeats = 0x1
@@ -179,6 +210,21 @@ class Schemas:
             A_Sharp = 0xA
             B = 0xB
             Count = 0xC
+        class VMixAutoControlType_t:
+            VMIX_AUTO_SEND_LEVEL = 0x0
+            VMIX_AUTO_STACK_VAR = 0x1
+            VMIX_AUTO_PLAYTIME = 0x2
+            VMIX_AUTO_DISTANCE = 0x3
+            VMIX_AUTO_POSITION_X = 0x4
+            VMIX_AUTO_POSITION_Y = 0x5
+            VMIX_AUTO_POSITION_Z = 0x6
+            VMIX_AUTO_POSITION_VECTOR = 0x7
+            VMIX_AUTO_LISTENER_YAW_SIN = 0x8
+            VMIX_AUTO_LISTENER_YAW_COS = 0x9
+            VMIX_AUTO_LISTENER_PITCH_SIN = 0xA
+            VMIX_AUTO_LISTENER_PITCH_COS = 0xB
+            VMIX_AUTO_LISTENER_ROLL_SIN = 0xC
+            VMIX_AUTO_LISTENER_ROLL_COS = 0xD
         class CVSoundFormat_t:
             PCM16 = 0x0
             PCM8 = 0x1
@@ -203,34 +249,21 @@ class Schemas:
         class SosGroupType_t:
             SOS_GROUPTYPE_DYNAMIC = 0x0
             SOS_GROUPTYPE_STATIC = 0x1
+        class VMixOffsetCategory_t:
+            NULL_POINTER = 0x0
+            HEAP_OFFSET = 0x1
+            INPUT_INDEX = 0x2
+            SUBMIX_INDEX = 0x3
+        class SndBeatSyncStartType_t:
+            eSndBeatSyncStartTypeInvalid = 0x0
+            eSndBeatSyncStartTypeImmediate = 0x1
+            eSndBeatSyncStartTypeQueue = 0x2
         class SosActionSetParamSortType_t:
             SOS_SETPARAM_SORTTYPE_HIGHEST = 0x0
             SOS_SETPARAM_SORTTYPE_LOWEST = 0x1
         class EVsndPlaybackMode:
             Trigger = 0x0
             Gate = 0x1
-        class CVMixInputBase:
-            m_name = 0x0 # CUtlString
-        class CVoiceContainerBlender:
-            m_firstSound = 0x70 # CSoundContainerReference
-            m_secondSound = 0x90 # CSoundContainerReference
-            m_flBlendFactor = 0xB0 # float32
-            m_soundsToPlay = 0x70 # CSoundContainerReferenceArray
-        class CVMixPitchShiftProcessorDesc:
-            m_desc = 0x20 # VMixPitchShiftDesc_t
-        class VMixFreeverbDesc_t:
-            m_flRoomSize = 0x0 # float32
-            m_flDamp = 0x4 # float32
-            m_flWidth = 0x8 # float32
-            m_flLateReflections = 0xC # float32
-        class CVoiceContainerStaticAdditiveSynth__CHarmonic:
-            m_nWaveform = 0x0 # EWaveform
-            m_nFundamental = 0x1 # EMidiNote
-            m_nOctave = 0x4 # int32
-            m_flCents = 0x8 # float32
-            m_flPhase = 0xC # float32
-            m_curve = 0x10 # CPiecewiseCurve
-            m_volumeScaling = 0x50 # CVoiceContainerStaticAdditiveSynth::CGainScalePerInstance
         class CVsndTriggerSlot:
             m_bEnableVsnd = 0x0 # bool
             m_vsnd = 0x8 # CSoundContainerReference
@@ -241,117 +274,13 @@ class Schemas:
             m_volume = 0x78 # float32
             m_fadeOut = 0x7C # float32
             m_mode = 0x80 # EVsndTriggerMode
-        class CVoiceContainerStaticAdditiveSynth__CTone:
-            m_harmonics = 0x0 # CUtlVector<CVoiceContainerStaticAdditiveSynth::CHarmonic>
-            m_curve = 0x18 # CPiecewiseCurve
-            m_bSyncInstances = 0x58 # bool
-        class CSosGroupActionOcclusionSchema:
-            m_flCalculationInterval = 0x8 # float32
-            m_flRadius = 0xC # float32
-            m_flOcclusionScale = 0x10 # float32
-            m_flOcclusionMin = 0x14 # float32
-            m_flOcclusionMax = 0x18 # float32
-            m_flTestDepth = 0x1C # float32
-        class CVoiceContainerRandomSampler:
-            m_flAmplitude = 0x80 # float32
-            m_flAmplitudeJitter = 0x84 # float32
-            m_flTimeJitter = 0x88 # float32
-            m_flMaxLength = 0x8C # float32
-            m_nNumDelayVariations = 0x90 # int32
-            m_grainResources = 0x98 # CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
-        class CVMixSteamAudioDirectProcessorDesc:
-            pass
-        class CVMixSteamAudioHRTFProcessorDesc:
-            pass
-        class CVoiceContainerDefault:
-            pass
-        class CVSound:
-            m_Sentences = 0x0 # CUtlLeanVector<CAudioSentence>
-            m_nRate = 0x10 # int32
-            m_nFormat = 0x14 # CVSoundFormat_t
-            m_nChannels = 0x18 # uint32
-            m_nLoopStart = 0x1C # int32
-            m_nSampleCount = 0x20 # uint32
-            m_flDuration = 0x24 # float32
-            m_nStreamingSize = 0x28 # uint32
-            m_nLoopEnd = 0x2C # int32
         class CDSPPresetMixgroupModifierTable:
             m_table = 0x0 # CUtlVector<CDspPresetModifierList>
-        class CSosGroupActionSoundeventClusterSchema:
-            m_nMinNearby = 0x8 # int32
-            m_flClusterEpsilon = 0xC # float32
-            m_shouldPlayOpvar = 0x10 # CUtlString
-            m_shouldPlayClusterChild = 0x18 # CUtlString
-            m_clusterSizeOpvar = 0x20 # CUtlString
-            m_groupBoundingBoxMinsOpvar = 0x28 # CUtlString
-            m_groupBoundingBoxMaxsOpvar = 0x30 # CUtlString
-        class CSosGroupActionSetSoundeventParameterSchema:
-            m_nMaxCount = 0x8 # int32
-            m_flMinValue = 0xC # float32
-            m_flMaxValue = 0x10 # float32
-            m_opvarName = 0x18 # CUtlString
-            m_nSortType = 0x20 # SosActionSetParamSortType_t
-            m_nMaxCount = 0x8 # int32
-        class CSoundContainerReference:
-            m_namespace = 0x0 # CUtlString
-            m_bUseReference = 0x8 # bool
-            m_sound = 0x10 # CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-            m_pSound = 0x18 # CVoiceContainerBase*
-        class CVoiceContainerNull:
-            pass
-        class VMixSubgraphSwitchDesc_t:
-            m_name = 0x0 # CUtlString
-            m_effectName = 0x8 # CUtlString
-            m_subgraphs = 0x10 # CUtlVector<CUtlString>
-            m_interpolationMode = 0x28 # VMixSubgraphSwitchInterpolationType_t
-            m_bOnlyTailsOnFadeOut = 0x2C # bool
-            m_flInterpolationTime = 0x30 # float32
-        class CVoiceContainerAnalysisBase:
-            m_curve = 0x8 # CPiecewiseCurve
-        class CSosGroupActionSoundeventMinMaxValuesSchema:
-            m_strQueryPublicFieldName = 0x8 # CUtlString
-            m_strDelayPublicFieldName = 0x10 # CUtlString
-            m_bExcludeStoppedSounds = 0x18 # bool
-            m_bExcludeDelayedSounds = 0x19 # bool
-            m_bExcludeSoundsBelowThreshold = 0x1A # bool
-            m_flExcludeSoundsMinThresholdValue = 0x1C # float32
-            m_bExcludSoundsAboveThreshold = 0x20 # bool
-            m_flExcludeSoundsMaxThresholdValue = 0x24 # float32
-            m_strMinValueName = 0x28 # CUtlString
-            m_strMaxValueName = 0x30 # CUtlString
-        class CVMixEnvelopeProcessorDesc:
-            m_desc = 0x20 # VMixEnvelopeDesc_t
-        class CVMixCommand:
-            m_nCommand = 0x0 # VMixGraphCommandID_t
-            m_nParameterNameHash = 0x4 # uint32
-            m_nOutputSubmix = 0x8 # int32
-            m_nInputSubmix0 = 0xC # int32
-            m_nInputSubmix1 = 0x10 # int32
-            m_nProcessor = 0x14 # int32
-            m_nInputValue0 = 0x18 # int32
-            m_nInputValue1 = 0x1C # int32
         class SamplerVoice_t:
             nNoteNum = 0x0 # uint8
-        class CVMixControlInput:
-            m_flDefaultValue = 0x10 # float32
-        class CVMixBoxverbProcessorDesc:
-            m_desc = 0x20 # VMixBoxverbDesc_t
-        class CVMixDynamicsCompressorProcessorDesc:
-            m_desc = 0x20 # VMixDynamicsCompressorDesc_t
         class VMixPannerDesc_t:
             m_type = 0x0 # VMixPannerType_t
             m_flStrength = 0x4 # float32
-        class CSosGroupActionSoundeventPrioritySchema:
-            m_priorityValue = 0x8 # CUtlString
-            m_priorityVolumeScalar = 0x10 # CUtlString
-            m_priorityContributeButDontRead = 0x18 # CUtlString
-            m_bPriorityReadButDontContribute = 0x20 # CUtlString
-        class CVoiceContainerRealtimeFMSineWave:
-            m_flCarrierFrequency = 0x70 # float32
-            m_flModulatorFrequency = 0x74 # float32
-            m_flModulatorAmount = 0x78 # float32
-        class SelectedEditItemInfo_t:
-            m_EditItems = 0x0 # CUtlVector<SosEditItemInfo_t>
         class VMixModDelayDesc_t:
             m_feedbackFilter = 0x0 # VMixFilterDesc_t
             m_bPhaseInvert = 0x10 # bool
@@ -362,33 +291,7 @@ class Schemas:
             m_flModRate = 0x24 # float32
             m_flModDepth = 0x28 # float32
             m_bApplyAntialiasing = 0x2C # bool
-        class CSndSeqInstSndEvtSchema:
-            pass
-        class CVMixNameInputMeter:
-            m_nValueIndex = 0x10 # int32
         class CSndSeqInstruments:
-            pass
-        class CVMixDynamics3BandProcessorDesc:
-            m_desc = 0x20 # VMixDynamics3BandDesc_t
-        class VMixBoxverbDesc_t:
-            m_flSizeMax = 0x0 # float32
-            m_flSizeMin = 0x4 # float32
-            m_flComplexity = 0x8 # float32
-            m_flDiffusion = 0xC # float32
-            m_flModDepth = 0x10 # float32
-            m_flModRate = 0x14 # float32
-            m_bParallel = 0x18 # bool
-            m_filterType = 0x1C # VMixFilterDesc_t
-            m_flWidth = 0x2C # float32
-            m_flHeight = 0x30 # float32
-            m_flDepth = 0x34 # float32
-            m_flFeedbackScale = 0x38 # float32
-            m_flFeedbackWidth = 0x3C # float32
-            m_flFeedbackHeight = 0x40 # float32
-            m_flFeedbackDepth = 0x44 # float32
-            m_flOutputGain = 0x48 # float32
-            m_flTaps = 0x4C # float32
-        class CSosGroupActionSchema:
             pass
         class CSosSoundEventGroupSchema:
             m_nGroupType = 0x8 # SosGroupType_t
@@ -407,37 +310,6 @@ class Schemas:
             m_Behavior_String = 0x48 # SosGroupFieldBehavior_t
             m_opvarString = 0x50 # CUtlString
             m_vActions = 0x58 # CUtlVector<CSosGroupActionSchema*>
-        class CSndSeqInstMidiSampler:
-            m_bIsSoundEvent = 0x20 # bool
-            m_bStopPrevious = 0x21 # bool
-            m_nMinNote = 0x22 # uint8
-            m_nMaxNote = 0x23 # uint8
-            m_flMinVelocityAtten = 0x24 # float32
-            m_flMaxVelocityAtten = 0x28 # float32
-            m_flAttack = 0x2C # float32
-            m_flRelease = 0x30 # float32
-            m_bBeatEnvelopes = 0x34 # bool
-            m_nNextVoiceSlot = 0xD4 # uint8
-            m_hSoundEventHash = 0xD8 # uint32
-        class CSndSeqInstBaseSchema:
-            m_nType = 0x8 # SndSeqInstrumentType_t
-            m_bStopCurrentEvents = 0xE # bool
-            m_flBPM = 0x10 # float32
-            m_flBPMFactor = 0x14 # float32
-            m_flBPMInvFactor = 0x18 # float32
-        class VMixDynamics3BandDesc_t:
-            m_fldbGainOutput = 0x0 # float32
-            m_flRMSTimeMS = 0x4 # float32
-            m_fldbKneeWidth = 0x8 # float32
-            m_flDepth = 0xC # float32
-            m_flWetMix = 0x10 # float32
-            m_flTimeScale = 0x14 # float32
-            m_flLowCutoffFreq = 0x18 # float32
-            m_flHighCutoffFreq = 0x1C # float32
-            m_bPeakMode = 0x20 # bool
-            m_bandDesc = 0x24 # VMixDynamicsBand_t[3]
-        class CVMixEQ8ProcessorDesc:
-            m_desc = 0x20 # VMixEQ8Desc_t
         class CDSPMixgroupModifier:
             m_mixgroup = 0x0 # CUtlString
             m_flModifier = 0x8 # float32
@@ -445,351 +317,25 @@ class Schemas:
             m_flSourceModifier = 0x10 # float32
             m_flSourceModifierMin = 0x14 # float32
             m_flListenerReverbModifierWhenSourceReverbIsActive = 0x18 # float32
-        class CAudioMorphData:
-            m_times = 0x0 # CUtlVector<float32>
-            m_nameHashCodes = 0x18 # CUtlVector<uint32>
-            m_nameStrings = 0x30 # CUtlVector<CUtlString>
-            m_samples = 0x48 # CUtlVector<CUtlVector<float32>>
-            m_flEaseIn = 0x60 # float32
-            m_flEaseOut = 0x64 # float32
-        class SndBeatEventKeyedFloats_t:
-            m_flFloat = 0x10 # float32
-        class VMixDualCompressorDesc_t:
-            m_flRMSTimeMS = 0x0 # float32
-            m_fldbKneeWidth = 0x4 # float32
-            m_flWetMix = 0x8 # float32
-            m_bPeakMode = 0xC # bool
-            m_bandDesc = 0x10 # VMixDynamicsBand_t
-        class CVoiceContainerStaticAdditiveSynth:
-            m_tones = 0x80 # CUtlVector<CVoiceContainerStaticAdditiveSynth::CTone>
-        class CVoiceContainerShapedNoise:
-            m_bUseCurveForFrequency = 0x70 # bool
-            m_flFrequency = 0x74 # float32
-            m_frequencySweep = 0x78 # CPiecewiseCurve
-            m_bUseCurveForResonance = 0xB8 # bool
-            m_flResonance = 0xBC # float32
-            m_resonanceSweep = 0xC0 # CPiecewiseCurve
-            m_bUseCurveForAmplitude = 0x100 # bool
-            m_flGainInDecibels = 0x104 # float32
-            m_gainSweep = 0x108 # CPiecewiseCurve
-        class CDspPresetModifierList:
-            m_dspName = 0x0 # CUtlString
-            m_modifiers = 0x8 # CUtlVector<CDSPMixgroupModifier>
-        class CVoiceContainerBase:
-            m_vSound = 0x28 # CVSound
-            m_pEnvelopeAnalyzer = 0x68 # CVoiceContainerAnalysisBase*
-        class CVMixDiffusorProcessorDesc:
-            m_desc = 0x20 # VMixDiffusorDesc_t
-        class CVMixUtilityProcessorDesc:
-            m_desc = 0x20 # VMixUtilityDesc_t
-        class CRandomPannerControls:
-            m_panningControlInputName = 0x0 # CUtlString
-            m_volumeControlInputName = 0x8 # CUtlString
-            m_flMinVolume = 0x10 # float32
-            m_flMaxVolume = 0x14 # float32
-            m_strVectorStackParam = 0x18 # CUtlString
-        class CVoiceContainerGranulator:
-            m_flGrainLength = 0x80 # float32
-            m_flGrainCrossfadeAmount = 0x84 # float32
-            m_flStartJitter = 0x88 # float32
-            m_flPlaybackJitter = 0x8C # float32
-            m_bShouldWraparound = 0x90 # bool
-            m_sourceAudio = 0x98 # CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-        class CVMixPresetDSPProcessorDesc:
-            m_desc = 0x20 # VMixPresetDSPDesc_t
-        class VMixDelayDesc_t:
-            m_feedbackFilter = 0x0 # VMixFilterDesc_t
-            m_bEnableFilter = 0x10 # bool
-            m_flDelay = 0x14 # float32
-            m_flDirectGain = 0x18 # float32
-            m_flDelayGain = 0x1C # float32
-            m_flFeedbackGain = 0x20 # float32
-            m_flWidth = 0x24 # float32
-        class VMixEQ8Desc_t:
-            m_stages = 0x0 # VMixFilterDesc_t[8]
-        class CVMixDynamicsProcessorDesc:
-            m_desc = 0x20 # VMixDynamicsDesc_t
-        class CVMixGraphDescData:
-            m_name = 0x0 # CUtlString
-            m_nGraphOutputChannels = 0x8 # int32
-            m_bIsMainGraph = 0xC # bool
-        class CVoiceContainerLoopXFade:
-            m_sound = 0x70 # CSoundContainerReference
-            m_flLoopEnd = 0x90 # float32
-            m_flLoopStart = 0x94 # float32
-            m_flFadeOut = 0x98 # float32
-            m_flFadeIn = 0x9C # float32
-            m_bPlayHead = 0xA0 # bool
-            m_bPlayTail = 0xA1 # bool
-            m_bEqualPow = 0xA2 # bool
-        class VMixPresetDSPDesc_t:
-            m_effectName = 0x0 # CUtlString
-        class CAudioPhonemeTag:
-            m_flStartTime = 0x0 # float32
-            m_flEndTime = 0x4 # float32
-            m_nPhonemeCode = 0x8 # int32
-        class CVMixControlInputArray:
-            m_nArrayIndex = 0x10 # int32
-        class CVsndRadioButtonSlot:
-            m_bEnableVsnd = 0x0 # bool
-            m_vsnd = 0x8 # CSoundContainerReference
-            m_bEnableEndcap = 0x28 # bool
-            m_endcapVsnd = 0x30 # CSoundContainerReference
-            m_bEnableLoopcap = 0x50 # bool
-            m_loopcapVsnd = 0x58 # CSoundContainerReference
-            m_group = 0x78 # int32
-            m_volume = 0x7C # float32
-            m_fadeOut = 0x80 # float32
-            m_mode = 0x84 # EVsndPlaybackMode
-        class CVMixNameInput:
-            m_defaultValue = 0x10 # CUtlString
-        class CSosGroupActionSoundeventCountSchema:
-            m_bExcludeStoppedSounds = 0x8 # bool
-            m_strCountKeyName = 0x10 # CUtlString
-        class CVoiceContainerEnvelopeAnalyzer:
-            m_mode = 0x48 # EMode_t
-            m_fAnalysisWindowMs = 0x4C # float32
-            m_flThreshold = 0x50 # float32
-        class CVMixBaseProcessorDesc:
-            m_name = 0x8 # CUtlString
-            m_nChannels = 0x14 # int32
-            m_flxfade = 0x18 # float32
-        class CVMixImpulseResponseInput:
-            pass
-        class CVMixSteamAudioHybridReverbProcessorDesc:
-            pass
-        class CSoundEventMetaData:
-            m_soundEventVMix = 0x0 # CStrongHandle<InfoForResourceTypeCVMixListResource>
-        class VMixPitchShiftDesc_t:
-            m_nGrainSampleCount = 0x0 # int32
-            m_flPitchShift = 0x4 # float32
-            m_nQuality = 0x8 # int32
-            m_nProcType = 0xC # int32
-        class CVMixControlOutput:
-            m_flDefaultValue = 0x10 # float32
-        class CVMixModDelayProcessorDesc:
-            m_desc = 0x20 # VMixModDelayDesc_t
-        class CVMixShaperProcessorDesc:
-            m_desc = 0x20 # VMixShaperDesc_t
-        class CVMixAutomaticControlInput:
-            m_name = 0x0 # CUtlString
-            m_nControlInputIndex = 0x8 # int32
-            m_bIsTrackSend = 0xC # bool
-            m_bIsStackVar = 0xD # bool
         class CSndBeatTrack:
             m_name = 0x0 # CUtlString
             m_playbackType = 0x20 # SndBeatTrackPlaybackType_t
             m_nTranspose = 0x24 # int32
             m_bSyncToVoice = 0x28 # bool
             m_flBPM = 0x2C # float32
-        class CVoiceContainerVsndRadioButton:
-            m_namespace = 0x70 # CUtlString
-            m_slot1 = 0x78 # CVsndRadioButtonSlot
-            m_slot2 = 0x100 # CVsndRadioButtonSlot
-            m_slot3 = 0x188 # CVsndRadioButtonSlot
-            m_slot4 = 0x210 # CVsndRadioButtonSlot
-            m_slot5 = 0x298 # CVsndRadioButtonSlot
-            m_slot6 = 0x320 # CVsndRadioButtonSlot
-            m_slot7 = 0x3A8 # CVsndRadioButtonSlot
-            m_slot8 = 0x430 # CVsndRadioButtonSlot
-            m_slot9 = 0x4B8 # CVsndRadioButtonSlot
-            m_slot10 = 0x540 # CVsndRadioButtonSlot
-            m_slot11 = 0x5C8 # CVsndRadioButtonSlot
-            m_slot12 = 0x650 # CVsndRadioButtonSlot
-            m_slot13 = 0x6D8 # CVsndRadioButtonSlot
-            m_slot14 = 0x760 # CVsndRadioButtonSlot
-            m_slot15 = 0x7E8 # CVsndRadioButtonSlot
-            m_slot16 = 0x870 # CVsndRadioButtonSlot
-        class CAudioEmphasisSample:
-            m_flTime = 0x0 # float32
-            m_flValue = 0x4 # float32
-        class CVMixOscProcessorDesc:
-            m_desc = 0x20 # VMixOscDesc_t
-        class CVMixCurveHeader:
-            m_nControlPointCount = 0x0 # uint32
-            m_nControlPointStart = 0x4 # uint32
-        class CVoiceContainerLoopTriggerWithRandomPanner:
-            m_randomPannerControls = 0xA0 # CRandomPannerControls
-        class CVoiceContainerGenerator:
-            pass
-        class CVoiceContainerSet:
-            m_soundsToPlay = 0x70 # CUtlVector<CVoiceContainerSetElement>
-        class VMixConvolutionDesc_t:
-            m_fldbGain = 0x0 # float32
-            m_flPreDelayMS = 0x4 # float32
-            m_flWetMix = 0x8 # float32
-            m_fldbLow = 0xC # float32
-            m_fldbMid = 0x10 # float32
-            m_fldbHigh = 0x14 # float32
-            m_flLowCutoffFreq = 0x18 # float32
-            m_flHighCutoffFreq = 0x1C # float32
-        class CVoiceContainerVsndTrigger:
-            m_namespace = 0x70 # CUtlString
-            m_slot1 = 0x78 # CVsndTriggerSlot
-            m_slot2 = 0x100 # CVsndTriggerSlot
-            m_slot3 = 0x188 # CVsndTriggerSlot
-            m_slot4 = 0x210 # CVsndTriggerSlot
-            m_slot5 = 0x298 # CVsndTriggerSlot
-            m_slot6 = 0x320 # CVsndTriggerSlot
-            m_slot7 = 0x3A8 # CVsndTriggerSlot
-            m_slot8 = 0x430 # CVsndTriggerSlot
-            m_slot9 = 0x4B8 # CVsndTriggerSlot
-            m_slot10 = 0x540 # CVsndTriggerSlot
-            m_slot11 = 0x5C8 # CVsndTriggerSlot
-            m_slot12 = 0x650 # CVsndTriggerSlot
-            m_slot13 = 0x6D8 # CVsndTriggerSlot
-            m_slot14 = 0x760 # CVsndTriggerSlot
-            m_slot15 = 0x7E8 # CVsndTriggerSlot
-            m_slot16 = 0x870 # CVsndTriggerSlot
-        class CVoiceContainerSetElement:
-            m_sound = 0x0 # CSoundContainerReference
-            m_flVolumeDB = 0x20 # float32
         class CSndBeatPatternManager:
             m_vecPatterns = 0x38 # CUtlVector<CSndBeatPattern>
             m_vecActiveTracks = 0x70 # CUtlVector<CSndBeatTrack>
-        class CVoiceContainerAsyncGenerator:
-            pass
         class CSoundInfoHeader:
             pass
-        class SosEditItemInfo_t:
-            itemType = 0x0 # SosEditItemType_t
-            itemName = 0x8 # CUtlString
-            itemTypeName = 0x10 # CUtlString
-            itemKVString = 0x20 # CUtlString
-            itemPos = 0x28 # Vector2D
-        class CVMixFlangerProcessorDesc:
-            m_desc = 0x20 # VMixFlangerDesc_t
-        class CVMixEffectChainProcessorDesc:
-            m_desc = 0x20 # VMixEffectChainDesc_t
         class KeyGroup_t:
             nCenterNote = 0x0 # uint8
             nMinNote = 0x1 # uint8
             nMaxNote = 0x2 # uint8
             nNumVelocityZones = 0x3 # uint8
             pVelocityZones = 0x8 # VelocityZone_t*
-        class CVMixFreeverbProcessorDesc:
-            m_desc = 0x20 # VMixFreeverbDesc_t
-        class VMixPlateverbDesc_t:
-            m_flPrefilter = 0x0 # float32
-            m_flInputDiffusion1 = 0x4 # float32
-            m_flInputDiffusion2 = 0x8 # float32
-            m_flDecay = 0xC # float32
-            m_flDamp = 0x10 # float32
-            m_flFeedbackDiffusion1 = 0x14 # float32
-            m_flFeedbackDiffusion2 = 0x18 # float32
-        class CVMixConvolutionProcessorDesc:
-            m_desc = 0x20 # VMixConvolutionDesc_t
-        class CSoundContainerReferenceArray:
-            m_bUseReference = 0x0 # bool
-            m_sounds = 0x8 # CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
-            m_pSounds = 0x20 # CUtlVector<CVoiceContainerBase*>
-        class CVMixFilterProcessorDesc:
-            m_desc = 0x20 # VMixFilterDesc_t
-        class CVMixAdditionalOutput:
-            m_name = 0x0 # CUtlString
-        class CVoiceContainerTapePlayer:
-            m_bShouldWraparound = 0x80 # bool
-            m_sourceAudio = 0x88 # CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-            m_flTapeSpeedAttackTime = 0x90 # float32
-            m_flTapeSpeedReleaseTime = 0x94 # float32
-        class CVMixSubgraphSwitchProcessorDesc:
-            m_desc = 0x20 # VMixSubgraphSwitchDesc_t
-        class VMixDiffusorDesc_t:
-            m_flSize = 0x0 # float32
-            m_flComplexity = 0x4 # float32
-            m_flFeedback = 0x8 # float32
-            m_flOutputGain = 0xC # float32
-        class CVMixSteamAudioPathingProcessorDesc:
-            pass
-        class CVMixPannerProcessorDesc:
-            m_desc = 0x20 # VMixPannerDesc_t
-        class VMixDynamicsCompressorDesc_t:
-            m_fldbOutputGain = 0x0 # float32
-            m_fldbCompressionThreshold = 0x4 # float32
-            m_fldbKneeWidth = 0x8 # float32
-            m_flCompressionRatio = 0xC # float32
-            m_flAttackTimeMS = 0x10 # float32
-            m_flReleaseTimeMS = 0x14 # float32
-            m_flRMSTimeMS = 0x18 # float32
-            m_flWetMix = 0x1C # float32
-            m_bPeakMode = 0x20 # bool
-        class CVoiceContainerVMixSnd:
-            pass
-        class CVMixStereoDelayProcessorDesc:
-            pass
-        class VMixShaperDesc_t:
-            m_nShape = 0x0 # int32
-            m_fldbDrive = 0x4 # float32
-            m_fldbOutputGain = 0x8 # float32
-            m_flWetMix = 0xC # float32
-            m_nOversampleFactor = 0x10 # int32
-        class VMixEnvelopeDesc_t:
-            m_flAttackTimeMS = 0x0 # float32
-            m_flHoldTimeMS = 0x4 # float32
-            m_flReleaseTimeMS = 0x8 # float32
-        class CAudioSentence:
-            m_bShouldVoiceDuck = 0x0 # bool
-            m_RunTimePhonemes = 0x8 # CUtlVector<CAudioPhonemeTag>
-            m_EmphasisSamples = 0x20 # CUtlVector<CAudioEmphasisSample>
-            m_morphData = 0x38 # CAudioMorphData
-        class CVoiceContainerParameterBlender:
-            m_firstSound = 0x70 # CSoundContainerReference
-            m_secondSound = 0x90 # CSoundContainerReference
-            m_bEnableOcclusionBlend = 0xB0 # bool
-            m_curve1 = 0xB8 # CPiecewiseCurve
-            m_curve2 = 0xF8 # CPiecewiseCurve
-            m_bEnableDistanceBlend = 0x138 # bool
-            m_curve3 = 0x140 # CPiecewiseCurve
-            m_curve4 = 0x180 # CPiecewiseCurve
-        class CVMixAudioMeter:
-            m_name = 0x0 # CUtlString
-            m_displayName = 0x8 # CUtlString
-        class CVMixVocoderProcessorDesc:
-            m_desc = 0x20 # VMixVocoderDesc_t
-        class CSosGroupActionLimitSchema:
-            m_nMaxCount = 0x8 # int32
-            m_nStopType = 0xC # SosActionStopType_t
-            m_nSortType = 0x10 # SosActionLimitSortType_t
-            m_bStopImmediate = 0x14 # bool
-            m_bCountStopped = 0x15 # bool
-        class CVoiceContainerAmpedDecayingSineWave:
-            m_flGainAmount = 0x78 # float32
-        class VMixAutoFilterDesc_t:
-            m_flEnvelopeAmount = 0x0 # float32
-            m_flAttackTimeMS = 0x4 # float32
-            m_flReleaseTimeMS = 0x8 # float32
-            m_filter = 0xC # VMixFilterDesc_t
-            m_flLFOAmount = 0x1C # float32
-            m_flLFORate = 0x20 # float32
-            m_flPhase = 0x24 # float32
-            m_nLFOShape = 0x28 # VMixLFOShape_t
-        class VMixDynamicsBand_t:
-            m_fldbGainInput = 0x0 # float32
-            m_fldbGainOutput = 0x4 # float32
-            m_fldbThresholdBelow = 0x8 # float32
-            m_fldbThresholdAbove = 0xC # float32
-            m_flRatioBelow = 0x10 # float32
-            m_flRatioAbove = 0x14 # float32
-            m_flAttackTimeMS = 0x18 # float32
-            m_flReleaseTimeMS = 0x1C # float32
-            m_bEnable = 0x20 # bool
-            m_bSolo = 0x21 # bool
-        class VMixEffectChainDesc_t:
-            m_effectName = 0x0 # CUtlString
-        class CVMixPlateReverbProcessorDesc:
-            m_desc = 0x20 # VMixPlateverbDesc_t
-        class CVoiceContainerMultiBlender:
-            m_soundsToPlay = 0x70 # CSoundContainerReferenceArray
-            m_flBlendFactor = 0xA8 # float32
-            m_flCrossover = 0xAC # float32
-        class CVMixVsndInput:
-            m_defaultValue = 0x10 # CUtlString
-            m_nProcessor = 0x18 # int32
-        class CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance:
-            m_flMinVolume = 0x0 # float32
-            m_nInstancesAtMinVolume = 0x4 # int32
-            m_flMaxVolume = 0x8 # float32
-            m_nInstancesAtMaxVolume = 0xC # int32
+        class CVMixDataOffset:
+            m_nOffset = 0x0 # uint32
         class SndBeatTimeSignature_t:
             nNumerator = 0x0 # uint8
             nDenominator = 0x1 # uint8
@@ -798,124 +344,7 @@ class Schemas:
             nNextSelection = 0x1 # uint8
             nNumSamples = 0x2 # uint8
             pSamples = 0x4 # uint32[4]
-        class CVoiceContainerSelector:
-            m_mode = 0x70 # PlayBackMode_t
-            m_soundsToPlay = 0x78 # CSoundContainerReferenceArray
-            m_fProbabilityWeights = 0xB0 # CUtlVector<float32>
-        class SndBeatEventKeyedSndEvts_t:
-            m_strSoundEventName = 0x10 # CUtlString
-        class CSosGroupActionTimeBlockLimitSchema:
-            m_nMaxCount = 0x8 # int32
-            m_flMaxDuration = 0xC # float32
-        class SndBeatEventKeyedMidiNotes_t:
-            m_nStatus = 0x10 # uint8
-            m_nNote = 0x11 # uint8
-            m_nVelocity = 0x12 # uint8
-        class CSosGroupActionMemberCountEnvelopeSchema:
-            m_nBaseCount = 0x8 # int32
-            m_nTargetCount = 0xC # int32
-            m_flBaseValue = 0x10 # float32
-            m_flTargetValue = 0x14 # float32
-            m_flAttack = 0x18 # float32
-            m_flDecay = 0x1C # float32
-            m_resultVarName = 0x20 # CUtlString
-            m_bSaveToGroup = 0x28 # bool
-        class CVMixDualCompressorProcessorDesc:
-            m_desc = 0x20 # VMixDualCompressorDesc_t
-        class CVoiceContainerSwitch:
-            m_soundsToPlay = 0x70 # CUtlVector<CSoundContainerReference>
-        class CVMixControlMeter:
-            m_nValueIndex = 0x10 # int32
-        class CVoiceContainerEnum:
-            m_soundsToPlay = 0x70 # CSoundContainerReferenceArray
-            m_iSelection = 0xA8 # int32
-            m_flCrossfadeTime = 0xAC # float32
-        class CSosGroupActionTimeLimitSchema:
-            m_flMaxDuration = 0x8 # float32
-        class VMixVocoderDesc_t:
-            m_nBandCount = 0x0 # int32
-            m_flBandwidth = 0x4 # float32
-            m_fldBModGain = 0x8 # float32
-            m_flFreqRangeStart = 0xC # float32
-            m_flFreqRangeEnd = 0x10 # float32
-            m_fldBUnvoicedGain = 0x14 # float32
-            m_flAttackTimeMS = 0x18 # float32
-            m_flReleaseTimeMS = 0x1C # float32
-            m_nDebugBand = 0x20 # int32
-            m_bPeakMode = 0x24 # bool
-        class VMixUtilityDesc_t:
-            m_nOp = 0x0 # VMixChannelOperation_t
-            m_flInputPan = 0x4 # float32
-            m_flOutputBalance = 0x8 # float32
-            m_fldbOutputGain = 0xC # float32
-            m_bBassMono = 0x10 # bool
-            m_flBassFreq = 0x14 # float32
-        class CVoiceContainerLoopTrigger:
-            m_flRetriggerTimeMin = 0x70 # float32
-            m_flRetriggerTimeMax = 0x74 # float32
-            m_flFadeTime = 0x78 # float32
-            m_bCrossFade = 0x7C # bool
-            m_sound = 0x80 # CSoundContainerReference
         class SndBeatEventKeys_t:
             m_flKey = 0x8 # float32
-        class CVoiceContainerDecayingSineWave:
-            m_flFrequency = 0x70 # float32
-            m_flDecayTime = 0x74 # float32
-        class CVMixDelayProcessorDesc:
-            m_desc = 0x20 # VMixDelayDesc_t
-        class CVMixBoxverb2ProcessorDesc:
-            m_desc = 0x20 # VMixBoxverbDesc_t
-        class VMixFilterDesc_t:
-            m_nFilterType = 0x0 # VMixFilterType_t
-            m_nFilterSlope = 0x2 # VMixFilterSlope_t
-            m_bEnabled = 0x3 # bool
-            m_fldbGain = 0x4 # float32
-            m_flCutoffFreq = 0x8 # float32
-            m_flQ = 0xC # float32
-        class CSndBeatPattern:
-            m_name = 0x0 # CUtlString
-            m_launchSyncType = 0xC # SndBeatLaunchSyncType_t
-            m_flSyncPriority = 0x10 # float32
-            m_timeSignature = 0x14 # SndBeatTimeSignature_t
-            m_flLength = 0x1C # float32
-            m_bLooping = 0x20 # bool
-            m_launchSyncEventType = 0x24 # SndBeatEventType_t
-            m_flSyncBeatMult = 0x28 # float32
-            m_playEventType = 0x2C # SndBeatEventType_t
-            m_flPlayBeatMult = 0x30 # float32
-            m_keyType = 0x34 # SndBeatKeyType_t
-            m_vecPatternKeys = 0x38 # CUtlVector<SndBeatEventKeys_t>
-            m_vecPatternFloats = 0x50 # CUtlVector<SndBeatEventKeyedFloats_t>
-            m_vecPatternSndEvts = 0x68 # CUtlVector<SndBeatEventKeyedSndEvts_t>
-            m_vecPatternMidi = 0x80 # CUtlVector<SndBeatEventKeyedMidiNotes_t>
-        class VMixOscDesc_t:
-            oscType = 0x0 # VMixLFOShape_t
-            m_freq = 0x4 # float32
-            m_flPhase = 0x8 # float32
-        class CVMixAutoFilterProcessorDesc:
-            m_desc = 0x20 # VMixAutoFilterDesc_t
         class ISndSeqInstruments:
             pass
-        class VMixFlangerDesc_t:
-            m_bPhaseInvert = 0x0 # bool
-            m_flGlideTime = 0x4 # float32
-            m_flDelay = 0x8 # float32
-            m_flOutputGain = 0xC # float32
-            m_flFeedbackGain = 0x10 # float32
-            m_flFeedforwardGain = 0x14 # float32
-            m_flModRate = 0x18 # float32
-            m_flModDepth = 0x1C # float32
-            m_bApplyAntialiasing = 0x20 # bool
-        class VMixDynamicsDesc_t:
-            m_fldbGain = 0x0 # float32
-            m_fldbNoiseGateThreshold = 0x4 # float32
-            m_fldbCompressionThreshold = 0x8 # float32
-            m_fldbLimiterThreshold = 0xC # float32
-            m_fldbKneeWidth = 0x10 # float32
-            m_flRatio = 0x14 # float32
-            m_flLimiterRatio = 0x18 # float32
-            m_flAttackTimeMS = 0x1C # float32
-            m_flReleaseTimeMS = 0x20 # float32
-            m_flRMSTimeMS = 0x24 # float32
-            m_flWetMix = 0x28 # float32
-            m_bPeakMode = 0x2C # bool

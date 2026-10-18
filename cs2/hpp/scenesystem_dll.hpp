@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: scenesystem.dll
-        // Class count: 9
-        // Enum count: 6
+        // Class count: 1
+        // Enum count: 7
         namespace scenesystem_dll {
             // Alignment: 4
             // Member count: 3
@@ -18,6 +18,21 @@ namespace source2_dumper {
                 SCENEOBJECT_MESHLET_VIS_NONE = 0x0,
                 SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1,
                 SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+            };
+            // Alignment: 4
+            // Member count: 11
+            enum class SceneStatsSections_t : uint32_t {
+                SCENE_STATS_NONE = 0x0,
+                SCENE_STATS_FRAME = 0x1,
+                SCENE_STATS_GEOMETRY = 0x2,
+                SCENE_STATS_CULLING = 0x4,
+                SCENE_STATS_MATERIALS = 0x8,
+                SCENE_STATS_LIGHTING = 0x10,
+                SCENE_STATS_RAYTRACING = 0x20,
+                SCENE_STATS_INTERNALS = 0x40,
+                SCENE_STATS_RENDERDEVICE = 0x80,
+                SCENE_STATS_ALL = 0xFF,
+                SCENE_STATS_DEFAULT = 0x7F
             };
             // Alignment: 4
             // Member count: 7
@@ -68,93 +83,6 @@ namespace source2_dumper {
                 SCENEOBJECT_VIS_INSTANCING = 0x5
             };
             // Parent: None
-            // Field count: 10
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CSSDSMsg_ViewTarget {
-                constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_TextureId = 0x8; // uint64
-                constexpr std::ptrdiff_t m_nWidth = 0x10; // int32
-                constexpr std::ptrdiff_t m_nHeight = 0x14; // int32
-                constexpr std::ptrdiff_t m_nRequestedWidth = 0x18; // int32
-                constexpr std::ptrdiff_t m_nRequestedHeight = 0x1C; // int32
-                constexpr std::ptrdiff_t m_nNumMipLevels = 0x20; // int32
-                constexpr std::ptrdiff_t m_nDepth = 0x24; // int32
-                constexpr std::ptrdiff_t m_nMultisampleNumSamples = 0x28; // int32
-                constexpr std::ptrdiff_t m_nFormat = 0x2C; // int32
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace SceneViewId_t {
-                constexpr std::ptrdiff_t m_nViewId = 0x0; // uint64
-                constexpr std::ptrdiff_t m_nFrameCount = 0x8; // uint64
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CSSDSEndFrameViewInfo {
-                constexpr std::ptrdiff_t m_nViewId = 0x0; // uint64
-                constexpr std::ptrdiff_t m_ViewName = 0x8; // CUtlString
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CSSDSMsg_PostLayer {
-            }
-            // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CSSDSMsg_LayerBase {
-                constexpr std::ptrdiff_t m_viewId = 0x0; // SceneViewId_t
-                constexpr std::ptrdiff_t m_ViewName = 0x10; // CUtlString
-                constexpr std::ptrdiff_t m_nLayerId = 0x18; // uint64
-                constexpr std::ptrdiff_t m_LayerName = 0x20; // CUtlString
-                constexpr std::ptrdiff_t m_displayText = 0x28; // CUtlString
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CSSDSMsg_PreLayer {
-            }
-            // Parent: None
             // Field count: 3
             //
             // Metadata:
@@ -169,27 +97,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_viewId = 0x0; // SceneViewId_t
                 constexpr std::ptrdiff_t m_ViewName = 0x10; // CUtlString
                 constexpr std::ptrdiff_t m_Targets = 0x18; // CUtlVector<CSSDSMsg_ViewTarget>
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CSSDSMsg_ViewRender {
-                constexpr std::ptrdiff_t m_viewId = 0x0; // SceneViewId_t
-                constexpr std::ptrdiff_t m_ViewName = 0x10; // CUtlString
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CSSDSMsg_EndFrame {
-                constexpr std::ptrdiff_t m_Views = 0x0; // CUtlVector<CSSDSEndFrameViewInfo>
             }
         }
     }

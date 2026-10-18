@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: rendersystemdx11.dll
-        // Class count: 8
+        // Class count: 7
         // Enum count: 9
         pub mod rendersystemdx11_dll {
             // Alignment: 4
@@ -128,56 +128,6 @@ pub mod source2_dumper {
                 pub const m_bDepthWriteEnable: usize = 0x0; // bitfield:1
                 pub const m_depthFunc: usize = 0x0; // bitfield:4
                 pub const m_stencilState: usize = 0x2; // RsStencilStateDesc_t
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // UPSCALER_AMD_FSR2
-            // UPSCALER_AMD_FSR3
-            // UPSCALER_NVIDIA_DLSS
-            // UPSCALER_INTEL_XESS
-            // UPSCALER_COUNT
-            // RENDER_MULTISAMPLE_INVALID
-            // RENDER_MULTISAMPLE_2X
-            // RENDER_MULTISAMPLE_4X
-            // RENDER_MULTISAMPLE_6X
-            // RENDER_MULTISAMPLE_8X
-            // RENDER_MULTISAMPLE_16X
-            // RENDER_MULTISAMPLE_TYPE_COUNT
-            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
-            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
-            // INPUT_LAYOUT_VARIATION_MAX
-            // RENDER_PRIM_LINES
-            // RENDER_PRIM_LINES_WITH_ADJACENCY
-            // RENDER_PRIM_LINE_STRIP
-            // RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY
-            // RENDER_PRIM_TRIANGLES
-            // RENDER_PRIM_TRIANGLES_WITH_ADJACENCY
-            // RENDER_PRIM_TRIANGLE_STRIP
-            // RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY
-            // RENDER_PRIM_INSTANCED_QUADS
-            // RENDER_PRIM_HETEROGENOUS
-            // RENDER_PRIM_COMPUTE_SHADER
-            // RENDER_PRIM_MESH_SHADER
-            // RENDER_PRIM_TYPE_COUNT
-            // RENDER_BUFFER_USAGE_VERTEX_BUFFER
-            // RENDER_BUFFER_USAGE_INDEX_BUFFER
-            // RENDER_BUFFER_USAGE_SHADER_RESOURCE
-            // RENDER_BUFFER_USAGE_UNORDERED_ACCESS
-            // RENDER_BUFFER_BYTEADDRESS_BUFFER
-            // RENDER_BUFFER_STRUCTURED_BUFFER
-            // RENDER_BUFFER_UAV_DRAW_INDIRECT_ARGS
-            // RENDER_BUFFER_ACCELERATION_STRUCTURE
-            // RENDER_BUFFER_SHADER_BINDING_TABLE
-            // RENDER_BUFFER_POOL_ALLOCATED
-            // RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING
-            // RENDER_BUFFER_IMMOVABLE_ALLOCATION
-            // RENDER_BUFFER_DYNAMIC_ZERO_COPY
-            // RENDER_SLOT_INVALID
-            // RENDER_SLOT_PER_INSTANCE
-            pub mod SheetSequenceIntegerId_t {
-                pub const m_Value: usize = 0x0; // uint32
             }
             // Parent: None
             // Field count: 11

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 export const Schemas = {
     schemasystem_dll: {
@@ -94,8 +94,6 @@ export const Schemas = {
             TRS_TRUE: 0x1,
             TRS_NONE: 0x2,
         },
-        InfoForResourceTypeCResourceManifestInternal: {
-        },
         CSchemaSystemInternalRegistration: {
             m_Vector2D: 0x0, // Vector2D
             m_Vector: 0x8, // Vector
@@ -120,22 +118,6 @@ export const Schemas = {
             m_stringTokenWithStorage: 0x148, // CUtlStringTokenWithStorage
             m_ResourceTypes: 0x160, // CResourceArray<CResourcePointer<CResourceString>>
             m_KV3: 0x168, // KeyValues3
-        },
-        CExampleSchemaVData_PolymorphicDerivedA: {
-            m_nDerivedA: 0x10, // int32
-        },
-        CExampleSchemaVData_PolymorphicBase: {
-            m_nBase: 0x8, // int32
-        },
-        CExampleSchemaVData_PolymorphicDerivedB: {
-            m_nDerivedB: 0x10, // int32
-        },
-        ResourceId_t: {
-            m_Value: 0x0, // uint64
-        },
-        CExampleSchemaVData_Monomorphic: {
-            m_nExample1: 0x0, // int32
-            m_nExample2: 0x4, // int32
         },
     },
 };

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 08:15:19.987246100 +07:00
+// 2026-10-18 21:52:13.031739700 +07:00
 
 export const Schemas = {
     worldrenderer_dll: {
@@ -24,6 +24,7 @@ export const Schemas = {
             OBJECT_TYPE_BAKED_GEOMETRY: 0x20000,
             OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS: 0x40000,
             OBJECT_TYPE_HAS_AGGREGATE_RTPROXY: 0x80000,
+            OBJECT_TYPE_HAS_EMISSIVE_GI: 0x100000,
         },
         AggregateInstanceStream_t: {
             AGGREGATE_INSTANCE_STREAM_NONE: 0x0,
@@ -38,23 +39,6 @@ export const Schemas = {
         },
         CEntityComponent: {
         },
-        CScriptComponent: {
-            m_scriptClassName: 0x30, // CUtlSymbolLarge
-        },
-        CEntityIdentity: {
-            m_nameStringTableIndex: 0x14, // int32
-            m_name: 0x18, // CUtlSymbolLarge
-            m_designerName: 0x20, // CUtlSymbolLarge
-            m_flags: 0x30, // uint32
-            m_worldGroupId: 0x38, // WorldGroupId_t
-            m_fDataObjectTypes: 0x3C, // uint32
-            m_PathIndex: 0x40, // ChangeAccessorFieldPathIndex_t
-            m_pAttributes: 0x48, // CEntityAttributeTable*
-            m_pPrev: 0x50, // CEntityIdentity*
-            m_pNext: 0x58, // CEntityIdentity*
-            m_pPrevByClass: 0x60, // CEntityIdentity*
-            m_pNextByClass: 0x68, // CEntityIdentity*
-        },
         RTProxyInstanceInfo_t: {
             m_nFlags: 0x0, // RTProxyInstanceFlags_t
             m_albedoFormat: 0x1, // VertexAlbedoFormat_t
@@ -65,9 +49,7 @@ export const Schemas = {
             m_nVertexEmissiveByteOffset: 0x10, // uint32
             m_fEmissiveFactor: 0x14, // float32
             m_mWorldFromLocal: 0x18, // matrix3x4_t
-        },
-        AggregateVertexAlbedoStreamOnDiskData_t: {
-            m_BufferData: 0x0, // CUtlBinaryBlock
+            m_vTintColorSRGB: 0x48, // Color
         },
         SceneObject_t: {
             m_nObjectID: 0x0, // uint32
@@ -82,24 +64,14 @@ export const Schemas = {
             m_nLODOverride: 0x6A, // int16
             m_nCubeMapPrecomputedHandshake: 0x6C, // int32
             m_nLightProbeVolumePrecomputedHandshake: 0x70, // int32
-            m_renderableModel: 0x78, // CStrongHandle<InfoForResourceTypeCModel>
-            m_renderable: 0x80, // CStrongHandle<InfoForResourceTypeCRenderMesh>
+            m_flEmissiveLightingBoost: 0x74, // float32
+            m_renderableModel: 0x80, // CStrongHandle<InfoForResourceTypeCModel>
+            m_renderable: 0x88, // CStrongHandle<InfoForResourceTypeCRenderMesh>
         },
         AggregateLODSetup_t: {
             m_vLODOrigin: 0x0, // Vector
             m_fMaxObjectScale: 0xC, // float32
             m_fSwitchDistances: 0x10, // CUtlVector<float32>
-        },
-        ExtraVertexStreamOverride_t: {
-            m_nSubSceneObject: 0x4, // uint32
-            m_nDrawCallIndex: 0x8, // uint32
-            m_nAdditionalMeshDrawPrimitiveFlags: 0xC, // MeshDrawPrimitiveFlags_t
-            m_extraBufferBinding: 0x10, // CRenderBufferBinding
-        },
-        ClutterTile_t: {
-            m_nFirstInstance: 0x0, // uint32
-            m_nLastInstance: 0x4, // uint32
-            m_BoundsWs: 0x8, // AABB_t
         },
         AggregateSceneObject_t: {
             m_allFlags: 0x0, // ObjectTypeFlags_t
@@ -114,34 +86,11 @@ export const Schemas = {
             m_fragmentTransforms: 0x58, // CUtlVector<matrix3x4_t>
             m_renderableModel: 0x70, // CStrongHandle<InfoForResourceTypeCModel>
         },
-        NodeData_t: {
-            m_nParent: 0x0, // int32
-            m_vOrigin: 0x4, // Vector
-            m_vMinBounds: 0x10, // Vector
-            m_vMaxBounds: 0x1C, // Vector
-            m_flMinimumDistance: 0x28, // float32
-            m_ChildNodeIndices: 0x30, // CUtlVector<int32>
-            m_worldNodePrefix: 0x48, // CUtlString
-        },
         VMapResourceData_t: {
         },
         AggregateInstanceStreamOnDiskData_t: {
             m_DecodedSize: 0x0, // uint32
             m_BufferData: 0x8, // CUtlBinaryBlock
-        },
-        RTProxyBLAS_t: {
-            m_nFirstIndex: 0x0, // uint32
-            m_nIndexCount: 0x4, // uint32
-            m_nVBByteOffset: 0x8, // uint32
-            m_nBaseVertex: 0xC, // uint32
-            m_nVertexCount: 0x10, // uint16
-            m_albedoFormat: 0x12, // VertexAlbedoFormat_t
-            m_boundLs: 0x14, // AABB_t
-            m_vVertexOriginLs: 0x2C, // Vector
-            m_vVertexExtentLs: 0x38, // Vector
-        },
-        AggregateVertexEmissiveStreamOnDiskData_t: {
-            m_BufferData: 0x0, // CUtlBinaryBlock
         },
         ClutterSceneObject_t: {
             m_Bounds: 0x0, // AABB_t
@@ -155,19 +104,6 @@ export const Schemas = {
             m_materialGroup: 0xA0, // CUtlStringToken
             m_flBeginCullSize: 0xA4, // float32
             m_flEndCullSize: 0xA8, // float32
-        },
-        WorldBuilderParams_t: {
-            m_flMinDrawVolumeSize: 0x0, // float32
-            m_bBuildBakedLighting: 0x4, // bool
-            m_bAggregateInstanceStreams: 0x5, // bool
-            m_bakedLightingInfo: 0x8, // BakedLightingInfo_t
-            m_nCompileTimestamp: 0x50, // uint64
-            m_nCompileFingerprint: 0x58, // uint64
-        },
-        PermEntityLumpData_t: {
-            m_name: 0x8, // CUtlString
-            m_childLumps: 0x10, // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-            m_entityKeyValues: 0x28, // CUtlLeanVector<EntityKeyValueData_t>
         },
         WorldNode_t: {
             m_sceneObjects: 0x0, // CUtlVector<SceneObject_t>
@@ -190,16 +126,6 @@ export const Schemas = {
         BaseSceneObjectOverride_t: {
             m_nSceneObjectIndex: 0x0, // uint32
         },
-        EntityIOConnectionData_t: {
-            m_outputName: 0x0, // CUtlString
-            m_targetType: 0x8, // uint32
-            m_targetName: 0x10, // CUtlString
-            m_inputName: 0x18, // CUtlString
-            m_overrideParam: 0x20, // CUtlString
-            m_flDelay: 0x28, // float32
-            m_nTimesToFire: 0x2C, // int32
-            m_paramMap: 0x30, // KeyValues3
-        },
         BakedLightingInfo_t: {
             m_nLightmapVersionNumber: 0x0, // uint32
             m_nLightmapGameVersionNumber: 0x4, // uint32
@@ -207,17 +133,16 @@ export const Schemas = {
             m_bHasLightmaps: 0x10, // bool
             m_bBakedShadowsGamma20: 0x11, // bool
             m_bCompressionEnabled: 0x12, // bool
-            m_bSHLightmaps: 0x13, // bool
-            m_nChartPackIterations: 0x14, // uint8
-            m_nVradQuality: 0x15, // uint8
+            m_nLPVEncoding: 0x13, // int8
+            m_nLightmapEncoding: 0x14, // int8
+            m_nChartPackIterations: 0x15, // uint8
+            m_nVradQuality: 0x16, // uint8
             m_lightMaps: 0x18, // CUtlVector<CStrongHandle<InfoForResourceTypeCTextureBase>>
             m_bakedShadows: 0x30, // CUtlVector<BakedLightingInfo_t::BakedShadowAssignment_t>
         },
         VoxelVisBlockOffset_t: {
             m_nOffset: 0x0, // uint32
             m_nElementCount: 0x4, // uint32
-        },
-        InfoForResourceTypeVMapResourceData_t: {
         },
         WorldNodeOnDiskBufferData_t: {
             m_nElementCount: 0x0, // int32
@@ -241,22 +166,10 @@ export const Schemas = {
             m_instanceStreams: 0x24, // AggregateInstanceStream_t
             m_fEmissiveFactor: 0x28, // float32
         },
-        World_t: {
-            m_builderParams: 0x0, // WorldBuilderParams_t
-            m_worldNodes: 0x60, // CUtlVector<NodeData_t>
-            m_worldLightingInfo: 0x78, // BakedLightingInfo_t
-            m_entityLumps: 0xC0, // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-        },
         BakedLightingInfo_t__BakedShadowAssignment_t: {
             m_nLightHash: 0x0, // uint32
             m_nMapHash: 0x4, // uint32
             m_nShadowChannel: 0x8, // int8
-        },
-        MaterialOverride_t: {
-            m_nSubSceneObject: 0x4, // uint32
-            m_nDrawCallIndex: 0x8, // uint32
-            m_pMaterial: 0x10, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_vLinearTintColor: 0x18, // Vector
         },
         AggregateRTProxySceneObject_t: {
             m_nLayer: 0x0, // int16
@@ -266,25 +179,6 @@ export const Schemas = {
             m_IBData: 0x48, // CUtlBinaryBlock
             m_InstanceAlbedoData: 0x58, // CUtlBinaryBlock
             m_InstanceEmissiveData: 0x68, // CUtlBinaryBlock
-        },
-        EntityKeyValueData_t: {
-            m_connections: 0x8, // CUtlVector<EntityIOConnectionData_t>
-            m_keyValuesData: 0x20, // CUtlBinaryBlock
-        },
-        CVoxelVisibility: {
-            m_nBaseClusterCount: 0x40, // uint32
-            m_nPVSBytesPerCluster: 0x44, // uint32
-            m_vMinBounds: 0x48, // Vector
-            m_vMaxBounds: 0x54, // Vector
-            m_flGridSize: 0x60, // float32
-            m_nSkyVisibilityCluster: 0x64, // uint32
-            m_nSunVisibilityCluster: 0x68, // uint32
-            m_NodeBlock: 0x6C, // VoxelVisBlockOffset_t
-            m_RegionBlock: 0x74, // VoxelVisBlockOffset_t
-            m_EnclosedClusterListBlock: 0x7C, // VoxelVisBlockOffset_t
-            m_EnclosedClustersBlock: 0x84, // VoxelVisBlockOffset_t
-            m_MasksBlock: 0x8C, // VoxelVisBlockOffset_t
-            m_nVisBlocks: 0x94, // VoxelVisBlockOffset_t
         },
     },
 };
