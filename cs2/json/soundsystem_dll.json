@@ -68,28 +68,47 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
       },
-      "CSndBeatPatternManager": {
+      "CSndBeatPattern": {
         "fields": {
-          "m_vecActiveTracks": 112,
-          "m_vecPatterns": 56
+          "m_bLooping": 36,
+          "m_flLength": 32,
+          "m_flPlayBeatMult": 44,
+          "m_flSyncBeatMult": 156,
+          "m_flSyncPriority": 12,
+          "m_name": 0,
+          "m_playEventType": 40,
+          "m_playKeyType": 48,
+          "m_syncEventType": 152,
+          "m_syncStartType": 16,
+          "m_syncType": 20,
+          "m_timeSignature": 24,
+          "m_vecPatternFloats": 80,
+          "m_vecPatternKeys": 56,
+          "m_vecPatternMidi": 128,
+          "m_vecPatternSndEvts": 104,
+          "m_vecSyncPatternKeys": 160
         },
         "metadata": [
           {
-            "name": "MPropertyFriendlyName",
+            "name": "MPropertyArrayElementNameKey",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerNameExpr",
             "type": "Unknown"
           },
           {
@@ -97,11 +116,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataPromoteField",
+            "name": "MPropertySuppressExpr",
             "type": "Unknown"
           },
           {
@@ -109,7 +124,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MVDataPromoteField",
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
             "type": "Unknown"
           }
         ],
@@ -185,6 +204,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyReadonlyExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -197,15 +224,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyReadonlyExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyReadonlyExpr",
+            "name": "MPropertyStartGroup",
             "type": "Unknown"
           }
         ],
@@ -311,6 +330,22 @@
           {
             "name": "MVDataNodeType",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -321,6 +356,30 @@
           "nNumerator": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "VMixDualCompressorDesc_t": {
+        "fields": {
+          "m_bPeakMode": 12,
+          "m_bandDesc": 16,
+          "m_flRMSTimeMS": 0,
+          "m_flWetMix": 8,
+          "m_fldbKneeWidth": 4
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -354,6 +413,10 @@
           "m_type": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -771,6 +834,14 @@
           "SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT": 1
         },
         "type": "uint32"
+      },
+      "VMixUpMixRule_t": {
+        "alignment": 1,
+        "members": {
+          "BROADCAST": 1,
+          "DIVIDE": 0
+        },
+        "type": "uint8"
       },
       "soundlevel_t": {
         "alignment": 4,

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 #pragma once
 
@@ -1819,15 +1819,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_index = 0x1; // uint8
             }
             // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace WeightList {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_weights = 0x8; // CUtlVector<float32>
-            }
-            // Parent: None
             // Field count: 8
             //
             // Metadata:
@@ -2530,6 +2521,14 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_SolverType = 0x0; // IKSolverType
                 constexpr std::ptrdiff_t m_nNumIterations = 0x4; // int32
                 constexpr std::ptrdiff_t m_EndEffectorRotationFixUpMode = 0x8; // EIKEndEffectorRotationFixUpMode
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CAnimTagManagerUpdater {
+                constexpr std::ptrdiff_t m_tags = 0x38; // CUtlVector<CSmartPtr<CAnimTagBase>>
             }
         }
     }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -259,7 +259,7 @@ namespace Source2Dumper.Schemas {
         public static class SignatureOutflow_Continue {
         }
         // Parent: None
-        // Field count: 2
+        // Field count: 4
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -308,6 +308,8 @@ namespace Source2Dumper.Schemas {
         public static class CPulseCell_Outflow_TestExplicitYesNo {
             public const nint m_Yes = 0x48; // CPulse_OutflowConnection
             public const nint m_No = 0x90; // CPulse_OutflowConnection
+            public const nint m_Out1 = 0xD8; // SignatureOutflow_Continue
+            public const nint m_AsyncChild1 = 0x120; // SignatureOutflow_Continue
         }
         // Parent: None
         // Field count: 1

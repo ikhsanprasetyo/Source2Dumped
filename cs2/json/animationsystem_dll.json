@@ -462,6 +462,18 @@
         ],
         "parent": null
       },
+      "CAnimTagManagerUpdater": {
+        "fields": {
+          "m_tags": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CBasePulseGraphInstance": {
         "fields": {},
         "metadata": [],
@@ -1514,19 +1526,6 @@
       "SignatureOutflow_Resume": {
         "fields": {},
         "metadata": [],
-        "parent": null
-      },
-      "WeightList": {
-        "fields": {
-          "m_name": 0,
-          "m_weights": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
         "parent": null
       }
     },

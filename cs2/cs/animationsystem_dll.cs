@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1813,15 +1813,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_index = 0x1; // uint8
         }
         // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class WeightList {
-            public const nint m_name = 0x0; // CUtlString
-            public const nint m_weights = 0x8; // CUtlVector<float32>
-        }
-        // Parent: None
         // Field count: 8
         //
         // Metadata:
@@ -2524,6 +2515,14 @@ namespace Source2Dumper.Schemas {
             public const nint m_SolverType = 0x0; // IKSolverType
             public const nint m_nNumIterations = 0x4; // int32
             public const nint m_EndEffectorRotationFixUpMode = 0x8; // EIKEndEffectorRotationFixUpMode
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CAnimTagManagerUpdater {
+            public const nint m_tags = 0x38; // CUtlVector<CSmartPtr<CAnimTagBase>>
         }
     }
 }

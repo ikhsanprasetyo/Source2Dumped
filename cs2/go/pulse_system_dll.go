@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 package schemas
 
@@ -62,6 +62,8 @@ const (
     PulseSystemDll_CPulseGraphInstance_TestDomain_m_bTestYesOrNoPath = 0xC8 // bool
     PulseSystemDll_CPulseCell_Outflow_TestExplicitYesNo_m_Yes = 0x48 // CPulse_OutflowConnection
     PulseSystemDll_CPulseCell_Outflow_TestExplicitYesNo_m_No = 0x90 // CPulse_OutflowConnection
+    PulseSystemDll_CPulseCell_Outflow_TestExplicitYesNo_m_Out1 = 0xD8 // SignatureOutflow_Continue
+    PulseSystemDll_CPulseCell_Outflow_TestExplicitYesNo_m_AsyncChild1 = 0x120 // SignatureOutflow_Continue
     PulseSystemDll_CPulseCell_IsRequirementValid__Criteria_t_m_bIsValid = 0x0 // bool
     PulseSystemDll_CPulseCell_TestWaitWithCursorState_m_WakeResume = 0xD8 // CPulse_ResumePoint
     PulseSystemDll_CPulseCell_TestWaitWithCursorState_m_WakeFail = 0x120 // CPulse_ResumePoint

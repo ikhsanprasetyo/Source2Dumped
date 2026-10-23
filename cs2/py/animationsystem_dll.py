@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-18 21:52:13.031739700 +07:00
+# 2026-10-23 09:27:00.180539200 +07:00
 
 class Schemas:
     # Module: animationsystem.dll
@@ -1246,9 +1246,6 @@ class Schemas:
         class CAnimParamHandle:
             m_type = 0x0 # AnimParamType_t
             m_index = 0x1 # uint8
-        class WeightList:
-            m_name = 0x0 # CUtlString
-            m_weights = 0x8 # CUtlVector<float32>
         class CSeqAutoLayerFlag:
             m_bPost = 0x0 # bool
             m_bSpline = 0x1 # bool
@@ -1570,3 +1567,5 @@ class Schemas:
             m_SolverType = 0x0 # IKSolverType
             m_nNumIterations = 0x4 # int32
             m_EndEffectorRotationFixUpMode = 0x8 # EIKEndEffectorRotationFixUpMode
+        class CAnimTagManagerUpdater:
+            m_tags = 0x38 # CUtlVector<CSmartPtr<CAnimTagBase>>

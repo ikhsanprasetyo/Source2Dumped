@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 export const Schemas = {
     animationsystem_dll: {
@@ -1412,10 +1412,6 @@ export const Schemas = {
             m_type: 0x0, // AnimParamType_t
             m_index: 0x1, // uint8
         },
-        WeightList: {
-            m_name: 0x0, // CUtlString
-            m_weights: 0x8, // CUtlVector<float32>
-        },
         CSeqAutoLayerFlag: {
             m_bPost: 0x0, // bool
             m_bSpline: 0x1, // bool
@@ -1777,6 +1773,9 @@ export const Schemas = {
             m_SolverType: 0x0, // IKSolverType
             m_nNumIterations: 0x4, // int32
             m_EndEffectorRotationFixUpMode: 0x8, // EIKEndEffectorRotationFixUpMode
+        },
+        CAnimTagManagerUpdater: {
+            m_tags: 0x38, // CUtlVector<CSmartPtr<CAnimTagBase>>
         },
     },
 };

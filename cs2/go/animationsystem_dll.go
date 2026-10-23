@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 package schemas
 
@@ -1053,8 +1053,6 @@ const (
     AnimationsystemDll_CSeqTransition_m_flFadeOutTime = 0x4 // float32
     AnimationsystemDll_CAnimParamHandle_m_type = 0x0 // AnimParamType_t
     AnimationsystemDll_CAnimParamHandle_m_index = 0x1 // uint8
-    AnimationsystemDll_WeightList_m_name = 0x0 // CUtlString
-    AnimationsystemDll_WeightList_m_weights = 0x8 // CUtlVector<float32>
     AnimationsystemDll_CSeqAutoLayerFlag_m_bPost = 0x0 // bool
     AnimationsystemDll_CSeqAutoLayerFlag_m_bSpline = 0x1 // bool
     AnimationsystemDll_CSeqAutoLayerFlag_m_bXFade = 0x2 // bool
@@ -1293,4 +1291,5 @@ const (
     AnimationsystemDll_IKSolverSettings_t_m_SolverType = 0x0 // IKSolverType
     AnimationsystemDll_IKSolverSettings_t_m_nNumIterations = 0x4 // int32
     AnimationsystemDll_IKSolverSettings_t_m_EndEffectorRotationFixUpMode = 0x8 // EIKEndEffectorRotationFixUpMode
+    AnimationsystemDll_CAnimTagManagerUpdater_m_tags = 0x38 // CUtlVector<CSmartPtr<CAnimTagBase>>
 )

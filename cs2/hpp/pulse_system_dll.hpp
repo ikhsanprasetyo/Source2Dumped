@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 #pragma once
 
@@ -265,7 +265,7 @@ namespace source2_dumper {
             namespace SignatureOutflow_Continue {
             }
             // Parent: None
-            // Field count: 2
+            // Field count: 4
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -314,6 +314,8 @@ namespace source2_dumper {
             namespace CPulseCell_Outflow_TestExplicitYesNo {
                 constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_No = 0x90; // CPulse_OutflowConnection
+                constexpr std::ptrdiff_t m_Out1 = 0xD8; // SignatureOutflow_Continue
+                constexpr std::ptrdiff_t m_AsyncChild1 = 0x120; // SignatureOutflow_Continue
             }
             // Parent: None
             // Field count: 1

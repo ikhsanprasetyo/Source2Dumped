@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1814,15 +1814,6 @@ pub const source2_dumper = struct {
                 pub const m_index: usize = 0x1; // uint8
             };
             // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const WeightList = struct {
-                pub const m_name: usize = 0x0; // CUtlString
-                pub const m_weights: usize = 0x8; // CUtlVector<float32>
-            };
-            // Parent: None
             // Field count: 8
             //
             // Metadata:
@@ -2525,6 +2516,14 @@ pub const source2_dumper = struct {
                 pub const m_SolverType: usize = 0x0; // IKSolverType
                 pub const m_nNumIterations: usize = 0x4; // int32
                 pub const m_EndEffectorRotationFixUpMode: usize = 0x8; // EIKEndEffectorRotationFixUpMode
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CAnimTagManagerUpdater = struct {
+                pub const m_tags: usize = 0x38; // CUtlVector<CSmartPtr<CAnimTagBase>>
             };
         };
     };

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:52:13.031739700 +07:00
+// 2026-10-23 09:27:00.180539200 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -7,26 +7,26 @@ pub mod source2_dumper {
     pub mod offsets {
         // Module: client.dll
         pub mod client_dll {
-            pub const dwCSGOInput: usize = 0x257B640;
-            pub const dwEntityList: usize = 0x271A908;
-            pub const dwGameEntitySystem: usize = 0x271A908;
+            pub const dwCSGOInput: usize = 0x257D780;
+            pub const dwEntityList: usize = 0x271C8B8;
+            pub const dwGameEntitySystem: usize = 0x271C8B8;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2120;
-            pub const dwGameRules: usize = 0x1BB3C50;
-            pub const dwGlobalVars: usize = 0x2230090;
-            pub const dwGlowManager: usize = 0x2561EF0;
-            pub const dwLocalPlayerController: usize = 0x253CB78;
-            pub const dwLocalPlayerPawn: usize = 0x2565718;
-            pub const dwPlantedC4: usize = 0x24CB3C0;
-            pub const dwPrediction: usize = 0x2565620;
-            pub const dwViewAngles: usize = 0x257BCC8;
-            pub const dwViewMatrix: usize = 0x256B020;
-            pub const dwViewRender: usize = 0x256B9E8;
-            pub const dwWeaponC4: usize = 0x24C9B30;
+            pub const dwGameRules: usize = 0x1BB5C80;
+            pub const dwGlobalVars: usize = 0x2232088;
+            pub const dwGlowManager: usize = 0x2563EB0;
+            pub const dwLocalPlayerController: usize = 0x253EEF8;
+            pub const dwLocalPlayerPawn: usize = 0x25676D8;
+            pub const dwPlantedC4: usize = 0x24CD930;
+            pub const dwPrediction: usize = 0x25675E0;
+            pub const dwViewAngles: usize = 0x257DE08;
+            pub const dwViewMatrix: usize = 0x256CFE0;
+            pub const dwViewRender: usize = 0x256D9A8;
+            pub const dwWeaponC4: usize = 0x24CBEE8;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
-            pub const dwBuildNumber: usize = 0x61CFEC;
-            pub const dwNetworkGameClient: usize = 0x91AFC0;
+            pub const dwBuildNumber: usize = 0x6BA02C;
+            pub const dwNetworkGameClient: usize = 0x9B88C0;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x398;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C143F;
@@ -34,8 +34,8 @@ pub mod source2_dumper {
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
-            pub const dwWindowHeight: usize = 0x91F33C;
-            pub const dwWindowWidth: usize = 0x91F338;
+            pub const dwWindowHeight: usize = 0x9BCFF4;
+            pub const dwWindowWidth: usize = 0x9BCFF0;
         }
         // Module: inputsystem.dll
         pub mod inputsystem_dll {
@@ -53,7 +53,7 @@ pub mod source2_dumper {
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
-            pub const dwSoundSystem: usize = 0x535350;
+            pub const dwSoundSystem: usize = 0x532460;
         }
     }
 }
