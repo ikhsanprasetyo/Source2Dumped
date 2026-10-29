@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-28 12:17:36.038432100 +07:00
+// 2026-10-29 22:21:55.473931 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
-    // Class count: 18
+    // Class count: 17
     // Enum count: 35
     public static class SoundsystemDll {
         // Alignment: 1
@@ -404,20 +404,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MVDataNodeType
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        public static class CDSPPresetMixgroupModifierTable {
-            public const nint m_table = 0x0; // CUtlVector<CDspPresetModifierList>
-        }
-        // Parent: None
-        // Field count: 1
         public static class SamplerVoice_t {
             public const nint nNoteNum = 0x0; // uint8
         }
@@ -456,12 +442,12 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MPropertyReadonlyExpr
-        // MPropertySuppressExpr
         // MPropertyStartGroup
         // MPropertySuppressExpr
         // MPropertyAttributeEditor
-        // MPropertyStartGroup
+        // MPropertyReadonlyExpr
+        // MPropertySuppressExpr
+        // MPropertyReadonlyExpr
         public static class CSosSoundEventGroupSchema {
             public const nint m_nGroupType = 0x8; // SosGroupType_t
             public const nint m_bBlocksEvents = 0xC; // bool
@@ -533,6 +519,20 @@ namespace Source2Dumper.Schemas {
             public const nint m_flBPM = 0x2C; // float32
         }
         // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MVDataPromoteField
+        // MPropertyFriendlyName
+        // MVDataPromoteField
+        public static class CSndBeatPatternManager {
+            public const nint m_vecPatterns = 0x38; // CUtlVector<CSndBeatPattern>
+            public const nint m_vecActiveTracks = 0x70; // CUtlVector<CSndBeatTrack>
+        }
+        // Parent: None
         // Field count: 0
         //
         // Metadata:
@@ -576,42 +576,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataNodeType
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // SndSeqMidiStatusNoteOff
         public static class SndBeatEventKeys_t {
             public const nint m_flKey = 0x8; // float32
-        }
-        // Parent: None
-        // Field count: 17
-        //
-        // Metadata:
-        // MPropertyArrayElementNameKey
-        // MVDataOutlinerNameExpr
-        // MGetKV3ClassDefaults
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyStartGroup
-        public static class CSndBeatPattern {
-            public const nint m_name = 0x0; // CUtlString
-            public const nint m_flSyncPriority = 0xC; // float32
-            public const nint m_syncStartType = 0x10; // SndBeatSyncStartType_t
-            public const nint m_syncType = 0x14; // SndBeatSyncType_t
-            public const nint m_timeSignature = 0x18; // SndBeatTimeSignature_t
-            public const nint m_flLength = 0x20; // float32
-            public const nint m_bLooping = 0x24; // bool
-            public const nint m_playEventType = 0x28; // SndBeatEventType_t
-            public const nint m_flPlayBeatMult = 0x2C; // float32
-            public const nint m_playKeyType = 0x30; // SndBeatKeyType_t
-            public const nint m_vecPatternKeys = 0x38; // CUtlVector<SndBeatEventKeys_t>
-            public const nint m_vecPatternFloats = 0x50; // CUtlVector<SndBeatEventKeyedFloats_t>
-            public const nint m_vecPatternSndEvts = 0x68; // CUtlVector<SndBeatEventKeyedSndEvts_t>
-            public const nint m_vecPatternMidi = 0x80; // CUtlVector<SndBeatEventKeyedMidiNotes_t>
-            public const nint m_syncEventType = 0x98; // SndBeatEventType_t
-            public const nint m_flSyncBeatMult = 0x9C; // float32
-            public const nint m_vecSyncPatternKeys = 0xA0; // CUtlVector<SndBeatEventKeys_t>
         }
         // Parent: None
         // Field count: 0

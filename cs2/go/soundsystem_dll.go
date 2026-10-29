@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-28 12:17:36.038432100 +07:00
+// 2026-10-29 22:21:55.473931 +07:00
 
 package schemas
 
@@ -241,7 +241,6 @@ const (
     SoundsystemDll_CVsndTriggerSlot_m_volume = 0x78 // float32
     SoundsystemDll_CVsndTriggerSlot_m_fadeOut = 0x7C // float32
     SoundsystemDll_CVsndTriggerSlot_m_mode = 0x80 // EVsndTriggerMode
-    SoundsystemDll_CDSPPresetMixgroupModifierTable_m_table = 0x0 // CUtlVector<CDspPresetModifierList>
     SoundsystemDll_SamplerVoice_t_nNoteNum = 0x0 // uint8
     SoundsystemDll_VMixPannerDesc_t_m_type = 0x0 // VMixPannerType_t
     SoundsystemDll_VMixPannerDesc_t_m_flStrength = 0x4 // float32
@@ -286,6 +285,8 @@ const (
     SoundsystemDll_CSndBeatTrack_m_nTranspose = 0x24 // int32
     SoundsystemDll_CSndBeatTrack_m_bSyncToVoice = 0x28 // bool
     SoundsystemDll_CSndBeatTrack_m_flBPM = 0x2C // float32
+    SoundsystemDll_CSndBeatPatternManager_m_vecPatterns = 0x38 // CUtlVector<CSndBeatPattern>
+    SoundsystemDll_CSndBeatPatternManager_m_vecActiveTracks = 0x70 // CUtlVector<CSndBeatTrack>
     SoundsystemDll_KeyGroup_t_nCenterNote = 0x0 // uint8
     SoundsystemDll_KeyGroup_t_nMinNote = 0x1 // uint8
     SoundsystemDll_KeyGroup_t_nMaxNote = 0x2 // uint8
@@ -299,21 +300,4 @@ const (
     SoundsystemDll_VelocityZone_t_nNumSamples = 0x2 // uint8
     SoundsystemDll_VelocityZone_t_pSamples = 0x4 // uint32[4]
     SoundsystemDll_SndBeatEventKeys_t_m_flKey = 0x8 // float32
-    SoundsystemDll_CSndBeatPattern_m_name = 0x0 // CUtlString
-    SoundsystemDll_CSndBeatPattern_m_flSyncPriority = 0xC // float32
-    SoundsystemDll_CSndBeatPattern_m_syncStartType = 0x10 // SndBeatSyncStartType_t
-    SoundsystemDll_CSndBeatPattern_m_syncType = 0x14 // SndBeatSyncType_t
-    SoundsystemDll_CSndBeatPattern_m_timeSignature = 0x18 // SndBeatTimeSignature_t
-    SoundsystemDll_CSndBeatPattern_m_flLength = 0x20 // float32
-    SoundsystemDll_CSndBeatPattern_m_bLooping = 0x24 // bool
-    SoundsystemDll_CSndBeatPattern_m_playEventType = 0x28 // SndBeatEventType_t
-    SoundsystemDll_CSndBeatPattern_m_flPlayBeatMult = 0x2C // float32
-    SoundsystemDll_CSndBeatPattern_m_playKeyType = 0x30 // SndBeatKeyType_t
-    SoundsystemDll_CSndBeatPattern_m_vecPatternKeys = 0x38 // CUtlVector<SndBeatEventKeys_t>
-    SoundsystemDll_CSndBeatPattern_m_vecPatternFloats = 0x50 // CUtlVector<SndBeatEventKeyedFloats_t>
-    SoundsystemDll_CSndBeatPattern_m_vecPatternSndEvts = 0x68 // CUtlVector<SndBeatEventKeyedSndEvts_t>
-    SoundsystemDll_CSndBeatPattern_m_vecPatternMidi = 0x80 // CUtlVector<SndBeatEventKeyedMidiNotes_t>
-    SoundsystemDll_CSndBeatPattern_m_syncEventType = 0x98 // SndBeatEventType_t
-    SoundsystemDll_CSndBeatPattern_m_flSyncBeatMult = 0x9C // float32
-    SoundsystemDll_CSndBeatPattern_m_vecSyncPatternKeys = 0xA0 // CUtlVector<SndBeatEventKeys_t>
 )

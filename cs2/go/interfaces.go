@@ -1,20 +1,20 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-28 12:17:36.038432100 +07:00
+// 2026-10-29 22:21:55.473931 +07:00
 
 package interfaces
 
 const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x83F6D8
     AnimationsystemDll_AnimationSystem_001 = 0x8375F8
-    ClientDll_ClientBugBugServic001_Client = 0x22356E0
-    ClientDll_ClientToolsInfo_001 = 0x22356B0
-    ClientDll_EmptyWorldService001_Client = 0x2219130
-    ClientDll_GameClientExports001 = 0x2232358
-    ClientDll_LegacyGameUI001 = 0x2242100
-    ClientDll_Source2Client002 = 0x25613A0
-    ClientDll_Source2ClientConfig001 = 0x24BDFD0
-    ClientDll_Source2ClientPrediction001 = 0x25675E0
-    ClientDll_Source2ClientUI001 = 0x2240880
+    ClientDll_ClientBugBugServic001_Client = 0x2237760
+    ClientDll_ClientToolsInfo_001 = 0x2237730
+    ClientDll_EmptyWorldService001_Client = 0x221B160
+    ClientDll_GameClientExports001 = 0x22343D8
+    ClientDll_LegacyGameUI001 = 0x2244180
+    ClientDll_Source2Client002 = 0x25635A0
+    ClientDll_Source2ClientConfig001 = 0x24C0150
+    ClientDll_Source2ClientPrediction001 = 0x25697D0
+    ClientDll_Source2ClientUI001 = 0x2242900
     Engine2Dll_BenchmarkService001 = 0x6BFCC0
     Engine2Dll_BugBugService001 = 0x6BFDC0
     Engine2Dll_BugService001 = 0x9790F0
@@ -92,20 +92,20 @@ const (
     ScenesystemDll_SceneUtils_001 = 0x676750
     SchemasystemDll_SchemaSystem_001 = 0x76710
     ServerDll_EmptyWorldService001_Server = 0x1E110C0
-    ServerDll_EntitySubclassUtilsV001 = 0x1DC0C60
-    ServerDll_NavGameTest001 = 0x1E58D48
-    ServerDll_ServerToolsInfo_001 = 0x1E37C48
-    ServerDll_Source2GameClients001 = 0x1E37170
-    ServerDll_Source2GameDirector001 = 0x1FA1490
-    ServerDll_Source2GameEntities001 = 0x1E373F0
-    ServerDll_Source2Server001 = 0x1E37230
-    ServerDll_Source2ServerConfig001 = 0x211CD98
+    ServerDll_EntitySubclassUtilsV001 = 0x1DC0C40
+    ServerDll_NavGameTest001 = 0x1E58D38
+    ServerDll_ServerToolsInfo_001 = 0x1E37C38
+    ServerDll_Source2GameClients001 = 0x1E37160
+    ServerDll_Source2GameDirector001 = 0x1FA1510
+    ServerDll_Source2GameEntities001 = 0x1E373E0
+    ServerDll_Source2Server001 = 0x1E37220
+    ServerDll_Source2ServerConfig001 = 0x211CDE8
     ServerDll_customnavsystem001 = 0x1DAE558
-    SoundsystemDll_SoundBugBugService001_Client = 0x532C80
-    SoundsystemDll_SoundOpSystem001 = 0x532B60
-    SoundsystemDll_SoundOpSystemEdit001 = 0x532A70
-    SoundsystemDll_SoundSystem001 = 0x532460
-    SoundsystemDll_VMixEditTool001 = 0x5941BFF
+    SoundsystemDll_SoundBugBugService001_Client = 0x532C40
+    SoundsystemDll_SoundOpSystem001 = 0x532B20
+    SoundsystemDll_SoundOpSystemEdit001 = 0x532A30
+    SoundsystemDll_SoundSystem001 = 0x532420
+    SoundsystemDll_VMixEditTool001 = 0x5941C0F
     SteamaudioDll_SteamAudio001 = 0x35C1A0
     Tier0Dll_TestScriptMgr001 = 0x3A1960
     Tier0Dll_VEngineCvar007 = 0x3AC670
