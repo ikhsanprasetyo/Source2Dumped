@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-29 22:21:55.473931 +07:00
+// 2026-10-31 12:34:43.677315300 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -152,7 +152,7 @@ export const Interfaces = {
         SoundOpSystem001: 0x532B20,
         SoundOpSystemEdit001: 0x532A30,
         SoundSystem001: 0x532420,
-        VMixEditTool001: 0x5941C0F,
+        VMixEditTool001: 0x5941C1F,
     },
     steamaudio_dll: {
         SteamAudio001: 0x35C1A0,
@@ -165,6 +165,9 @@ export const Interfaces = {
     },
     v8system_dll: {
         Source2V8System001: 0x34790,
+    },
+    vconcomm_dll: {
+        VConComm001: 0x3C750,
     },
     vphysics2_dll: {
         VPhysics2_Interface_001: 0x460E60,

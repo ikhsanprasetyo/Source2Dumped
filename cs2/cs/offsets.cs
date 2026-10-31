@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-29 22:21:55.473931 +07:00
+// 2026-10-31 12:34:43.677315300 +07:00
 
 namespace Source2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
         public const nint dwCSGOInput = 0x257F980;
-        public const nint dwEntityList = 0x271EB08;
-        public const nint dwGameEntitySystem = 0x271EB08;
+        public const nint dwEntityList = 0x271EB28;
+        public const nint dwGameEntitySystem = 0x271EB28;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x2120;
         public const nint dwGameRules = 0x1BB7D20;
         public const nint dwGlobalVars = 0x2234108;

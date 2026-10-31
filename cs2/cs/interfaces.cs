@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-29 22:21:55.473931 +07:00
+// 2026-10-31 12:34:43.677315300 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -177,7 +177,7 @@ namespace Source2Dumper.Interfaces {
         public const nint SoundOpSystem001 = 0x532B20;
         public const nint SoundOpSystemEdit001 = 0x532A30;
         public const nint SoundSystem001 = 0x532420;
-        public const nint VMixEditTool001 = 0x5941C0F;
+        public const nint VMixEditTool001 = 0x5941C1F;
     }
     // Module: steamaudio.dll
     public static class SteamaudioDll {
@@ -193,6 +193,10 @@ namespace Source2Dumper.Interfaces {
     // Module: v8system.dll
     public static class V8systemDll {
         public const nint Source2V8System001 = 0x34790;
+    }
+    // Module: vconcomm.dll
+    public static class VconcommDll {
+        public const nint VConComm001 = 0x3C750;
     }
     // Module: vphysics2.dll
     public static class Vphysics2Dll {

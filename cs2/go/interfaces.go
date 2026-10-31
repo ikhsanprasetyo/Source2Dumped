@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-29 22:21:55.473931 +07:00
+// 2026-10-31 12:34:43.677315300 +07:00
 
 package interfaces
 
@@ -105,13 +105,14 @@ const (
     SoundsystemDll_SoundOpSystem001 = 0x532B20
     SoundsystemDll_SoundOpSystemEdit001 = 0x532A30
     SoundsystemDll_SoundSystem001 = 0x532420
-    SoundsystemDll_VMixEditTool001 = 0x5941C0F
+    SoundsystemDll_VMixEditTool001 = 0x5941C1F
     SteamaudioDll_SteamAudio001 = 0x35C1A0
     Tier0Dll_TestScriptMgr001 = 0x3A1960
     Tier0Dll_VEngineCvar007 = 0x3AC670
     Tier0Dll_VProcessUtils002 = 0x3A1820
     Tier0Dll_VStringTokenSystem001 = 0x3D3300
     V8systemDll_Source2V8System001 = 0x34790
+    VconcommDll_VConComm001 = 0x3C750
     Vphysics2Dll_VPhysics2_Interface_001 = 0x460E60
     VscriptDll_VScriptManager010 = 0x13E430
     WorldrendererDll_WorldRendererMgr001 = 0x236D40

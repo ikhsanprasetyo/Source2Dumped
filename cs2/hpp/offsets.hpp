@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-29 22:21:55.473931 +07:00
+// 2026-10-31 12:34:43.677315300 +07:00
 
 #pragma once
 
@@ -11,8 +11,8 @@ namespace source2_dumper {
         // Module: client.dll
         namespace client_dll {
             constexpr std::ptrdiff_t dwCSGOInput = 0x257F980;
-            constexpr std::ptrdiff_t dwEntityList = 0x271EB08;
-            constexpr std::ptrdiff_t dwGameEntitySystem = 0x271EB08;
+            constexpr std::ptrdiff_t dwEntityList = 0x271EB28;
+            constexpr std::ptrdiff_t dwGameEntitySystem = 0x271EB28;
             constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2120;
             constexpr std::ptrdiff_t dwGameRules = 0x1BB7D20;
             constexpr std::ptrdiff_t dwGlobalVars = 0x2234108;

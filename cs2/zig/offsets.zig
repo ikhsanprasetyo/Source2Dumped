@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-29 22:21:55.473931 +07:00
+// 2026-10-31 12:34:43.677315300 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
             pub const dwCSGOInput: usize = 0x257F980;
-            pub const dwEntityList: usize = 0x271EB08;
-            pub const dwGameEntitySystem: usize = 0x271EB08;
+            pub const dwEntityList: usize = 0x271EB28;
+            pub const dwGameEntitySystem: usize = 0x271EB28;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2120;
             pub const dwGameRules: usize = 0x1BB7D20;
             pub const dwGlobalVars: usize = 0x2234108;

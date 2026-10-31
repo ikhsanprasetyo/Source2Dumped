@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-29 22:21:55.473931 +07:00
+# 2026-10-31 12:34:43.677315300 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -153,7 +153,7 @@ class Interfaces:
         SoundOpSystem001 = 0x532B20
         SoundOpSystemEdit001 = 0x532A30
         SoundSystem001 = 0x532420
-        VMixEditTool001 = 0x5941C0F
+        VMixEditTool001 = 0x5941C1F
     # Module: steamaudio.dll
     class SteamaudioDll:
         SteamAudio001 = 0x35C1A0
@@ -166,6 +166,9 @@ class Interfaces:
     # Module: v8system.dll
     class V8systemDll:
         Source2V8System001 = 0x34790
+    # Module: vconcomm.dll
+    class VconcommDll:
+        VConComm001 = 0x3C750
     # Module: vphysics2.dll
     class Vphysics2Dll:
         VPhysics2_Interface_001 = 0x460E60

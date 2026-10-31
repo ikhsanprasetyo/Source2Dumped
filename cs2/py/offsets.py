@@ -1,12 +1,12 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-29 22:21:55.473931 +07:00
+# 2026-10-31 12:34:43.677315300 +07:00
 
 class Offsets:
     # Module: client.dll
     class ClientDll:
         dwCSGOInput = 0x257F980
-        dwEntityList = 0x271EB08
-        dwGameEntitySystem = 0x271EB08
+        dwEntityList = 0x271EB28
+        dwGameEntitySystem = 0x271EB28
         dwGameEntitySystem_highestEntityIndex = 0x2120
         dwGameRules = 0x1BB7D20
         dwGlobalVars = 0x2234108

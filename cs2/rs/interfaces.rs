@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-29 22:21:55.473931 +07:00
+// 2026-10-31 12:34:43.677315300 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -180,7 +180,7 @@ pub mod source2_dumper {
             pub const SoundOpSystem001: usize = 0x532B20;
             pub const SoundOpSystemEdit001: usize = 0x532A30;
             pub const SoundSystem001: usize = 0x532420;
-            pub const VMixEditTool001: usize = 0x5941C0F;
+            pub const VMixEditTool001: usize = 0x5941C1F;
         }
         // Module: steamaudio.dll
         pub mod steamaudio_dll {
@@ -196,6 +196,10 @@ pub mod source2_dumper {
         // Module: v8system.dll
         pub mod v8system_dll {
             pub const Source2V8System001: usize = 0x34790;
+        }
+        // Module: vconcomm.dll
+        pub mod vconcomm_dll {
+            pub const VConComm001: usize = 0x3C750;
         }
         // Module: vphysics2.dll
         pub mod vphysics2_dll {
