@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 package interfaces
 
@@ -10,11 +10,11 @@ const (
     ClientDll_ClientToolsInfo_001 = 0x2237730
     ClientDll_EmptyWorldService001_Client = 0x221B160
     ClientDll_GameClientExports001 = 0x22343D8
-    ClientDll_LegacyGameUI001 = 0x2244180
-    ClientDll_Source2Client002 = 0x25635A0
-    ClientDll_Source2ClientConfig001 = 0x24C0150
-    ClientDll_Source2ClientPrediction001 = 0x25697D0
-    ClientDll_Source2ClientUI001 = 0x2242900
+    ClientDll_LegacyGameUI001 = 0x2244190
+    ClientDll_Source2Client002 = 0x2563620
+    ClientDll_Source2ClientConfig001 = 0x24C0160
+    ClientDll_Source2ClientPrediction001 = 0x2569850
+    ClientDll_Source2ClientUI001 = 0x2242910
     Engine2Dll_BenchmarkService001 = 0x6BFCC0
     Engine2Dll_BugBugService001 = 0x6BFDC0
     Engine2Dll_BugService001 = 0x9790F0
@@ -79,7 +79,7 @@ const (
     PanoramaDll_PanoramaUIEngine001 = 0x5895F0
     PanoramaTextPangoDll_PanoramaTextServices001 = 0x2BA9D0
     PanoramauiclientDll_PanoramaUIClient001 = 0x270710
-    ParticlesDll_ParticleSystemMgr003 = 0x65ADD0
+    ParticlesDll_ParticleSystemMgr003 = 0x65ADE0
     PulseSystemDll_IPulseSystem_001 = 0x238120
     Rendersystemdx11Dll_RenderDeviceMgr001 = 0x4342F0
     Rendersystemdx11Dll_RenderUtils_001 = 0x434BD0
@@ -91,15 +91,15 @@ const (
     ScenesystemDll_SceneSystem_002 = 0x91FB20
     ScenesystemDll_SceneUtils_001 = 0x676750
     SchemasystemDll_SchemaSystem_001 = 0x76710
-    ServerDll_EmptyWorldService001_Server = 0x1E110C0
-    ServerDll_EntitySubclassUtilsV001 = 0x1DC0C40
-    ServerDll_NavGameTest001 = 0x1E58D38
-    ServerDll_ServerToolsInfo_001 = 0x1E37C38
-    ServerDll_Source2GameClients001 = 0x1E37160
-    ServerDll_Source2GameDirector001 = 0x1FA1510
-    ServerDll_Source2GameEntities001 = 0x1E373E0
-    ServerDll_Source2Server001 = 0x1E37220
-    ServerDll_Source2ServerConfig001 = 0x211CDE8
+    ServerDll_EmptyWorldService001_Server = 0x1E11100
+    ServerDll_EntitySubclassUtilsV001 = 0x1DC0C60
+    ServerDll_NavGameTest001 = 0x1E58DB8
+    ServerDll_ServerToolsInfo_001 = 0x1E37CB8
+    ServerDll_Source2GameClients001 = 0x1E371E0
+    ServerDll_Source2GameDirector001 = 0x1FA1590
+    ServerDll_Source2GameEntities001 = 0x1E37460
+    ServerDll_Source2Server001 = 0x1E372A0
+    ServerDll_Source2ServerConfig001 = 0x211CE68
     ServerDll_customnavsystem001 = 0x1DAE558
     SoundsystemDll_SoundBugBugService001_Client = 0x532C40
     SoundsystemDll_SoundOpSystem001 = 0x532B20

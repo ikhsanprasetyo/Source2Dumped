@@ -1219,6 +1219,18 @@
         "metadata": [],
         "parent": null
       },
+      "CPulseCell_PlaySequence__CursorState_t": {
+        "fields": {
+          "m_hTarget": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CPulseCell_Unknown": {
         "fields": {
           "m_UnknownKeys": 72

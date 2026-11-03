@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 391
+        // Class count: 392
         // Enum count: 14
         namespace client_dll {
             // Alignment: 4
@@ -2445,6 +2445,14 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flScaleEnd = 0x1288; // float32[10]
                 constexpr std::ptrdiff_t m_flScaleTimeStart = 0x12B0; // GameTime_t[10]
                 constexpr std::ptrdiff_t m_flScaleTimeEnd = 0x12D8; // GameTime_t[10]
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CPulseCell_PlaySequence__CursorState_t {
+                constexpr std::ptrdiff_t m_hTarget = 0x0; // CHandle<CBaseAnimGraph>
             }
             // Parent: None
             // Field count: 0

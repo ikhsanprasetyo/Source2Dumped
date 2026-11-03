@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -11,11 +11,11 @@ export const Interfaces = {
         ClientToolsInfo_001: 0x2237730,
         EmptyWorldService001_Client: 0x221B160,
         GameClientExports001: 0x22343D8,
-        LegacyGameUI001: 0x2244180,
-        Source2Client002: 0x25635A0,
-        Source2ClientConfig001: 0x24C0150,
-        Source2ClientPrediction001: 0x25697D0,
-        Source2ClientUI001: 0x2242900,
+        LegacyGameUI001: 0x2244190,
+        Source2Client002: 0x2563620,
+        Source2ClientConfig001: 0x24C0160,
+        Source2ClientPrediction001: 0x2569850,
+        Source2ClientUI001: 0x2242910,
     },
     engine2_dll: {
         BenchmarkService001: 0x6BFCC0,
@@ -110,7 +110,7 @@ export const Interfaces = {
         PanoramaUIClient001: 0x270710,
     },
     particles_dll: {
-        ParticleSystemMgr003: 0x65ADD0,
+        ParticleSystemMgr003: 0x65ADE0,
     },
     pulse_system_dll: {
         IPulseSystem_001: 0x238120,
@@ -136,15 +136,15 @@ export const Interfaces = {
         SchemaSystem_001: 0x76710,
     },
     server_dll: {
-        EmptyWorldService001_Server: 0x1E110C0,
-        EntitySubclassUtilsV001: 0x1DC0C40,
-        NavGameTest001: 0x1E58D38,
-        ServerToolsInfo_001: 0x1E37C38,
-        Source2GameClients001: 0x1E37160,
-        Source2GameDirector001: 0x1FA1510,
-        Source2GameEntities001: 0x1E373E0,
-        Source2Server001: 0x1E37220,
-        Source2ServerConfig001: 0x211CDE8,
+        EmptyWorldService001_Server: 0x1E11100,
+        EntitySubclassUtilsV001: 0x1DC0C60,
+        NavGameTest001: 0x1E58DB8,
+        ServerToolsInfo_001: 0x1E37CB8,
+        Source2GameClients001: 0x1E371E0,
+        Source2GameDirector001: 0x1FA1590,
+        Source2GameEntities001: 0x1E37460,
+        Source2Server001: 0x1E372A0,
+        Source2ServerConfig001: 0x211CE68,
         customnavsystem001: 0x1DAE558,
     },
     soundsystem_dll: {

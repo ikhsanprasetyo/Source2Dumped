@@ -1,24 +1,24 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
-            pub const dwCSGOInput: usize = 0x257F980;
-            pub const dwEntityList: usize = 0x271EB28;
-            pub const dwGameEntitySystem: usize = 0x271EB28;
+            pub const dwCSGOInput: usize = 0x257FA10;
+            pub const dwEntityList: usize = 0x271EBA8;
+            pub const dwGameEntitySystem: usize = 0x271EBA8;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2120;
-            pub const dwGameRules: usize = 0x1BB7D20;
+            pub const dwGameRules: usize = 0x1BB7D30;
             pub const dwGlobalVars: usize = 0x2234108;
-            pub const dwGlowManager: usize = 0x25660A0;
-            pub const dwLocalPlayerController: usize = 0x25413F8;
-            pub const dwLocalPlayerPawn: usize = 0x25698C8;
+            pub const dwGlowManager: usize = 0x2566120;
+            pub const dwLocalPlayerController: usize = 0x2541538;
+            pub const dwLocalPlayerPawn: usize = 0x2569948;
             pub const dwPlantedC4: usize = 0x24CFB60;
-            pub const dwPrediction: usize = 0x25697D0;
-            pub const dwViewAngles: usize = 0x2580008;
-            pub const dwViewMatrix: usize = 0x256F1D0;
-            pub const dwViewRender: usize = 0x256FB98;
+            pub const dwPrediction: usize = 0x2569850;
+            pub const dwViewAngles: usize = 0x2580098;
+            pub const dwViewMatrix: usize = 0x256F250;
+            pub const dwViewRender: usize = 0x256FC18;
             pub const dwWeaponC4: usize = 0x24CE108;
         };
         // Module: engine2.dll

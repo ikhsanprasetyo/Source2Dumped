@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 #pragma once
 
@@ -7488,7 +7488,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nMagnitude = 0x87C; // uint32
             }
             // Parent: None
-            // Field count: 190
+            // Field count: 191
             namespace CCSGameRules {
                 constexpr std::ptrdiff_t m_bFreezePeriod = 0xD8; // bool
                 constexpr std::ptrdiff_t m_bWarmupPeriod = 0xD9; // bool
@@ -7591,10 +7591,11 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_numSpectatorsCountMax = 0xE04; // uint32
                 constexpr std::ptrdiff_t m_numSpectatorsCountMaxTV = 0xE08; // uint32
                 constexpr std::ptrdiff_t m_numSpectatorsCountMaxLnk = 0xE0C; // uint32
-                constexpr std::ptrdiff_t m_nCTsAliveAtFreezetimeEnd = 0xE18; // int32
-                constexpr std::ptrdiff_t m_nTerroristsAliveAtFreezetimeEnd = 0xE1C; // int32
-                constexpr std::ptrdiff_t m_bForceTeamChangeSilent = 0xE20; // bool
-                constexpr std::ptrdiff_t m_bLoadingRoundBackupData = 0xE21; // bool
+                constexpr std::ptrdiff_t m_bQueuedMatchmakingReportedRoundStatsPendingSend = 0xE18; // bool
+                constexpr std::ptrdiff_t m_nCTsAliveAtFreezetimeEnd = 0xE1C; // int32
+                constexpr std::ptrdiff_t m_nTerroristsAliveAtFreezetimeEnd = 0xE20; // int32
+                constexpr std::ptrdiff_t m_bForceTeamChangeSilent = 0xE24; // bool
+                constexpr std::ptrdiff_t m_bLoadingRoundBackupData = 0xE25; // bool
                 constexpr std::ptrdiff_t m_nMatchInfoShowType = 0xE58; // int32
                 constexpr std::ptrdiff_t m_flMatchInfoDecidedTime = 0xE5C; // float32
                 constexpr std::ptrdiff_t mTeamDMLastWinningTeamNumber = 0xE78; // int32

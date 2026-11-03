@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -13,14 +13,14 @@ pub mod source2_dumper {
         pub const forward: usize = 0x2238190;
         pub const jump: usize = 0x2238460;
         pub const left: usize = 0x22382B0;
-        pub const lookatweapon: usize = 0x257F8A0;
+        pub const lookatweapon: usize = 0x257F930;
         pub const reload: usize = 0x2237EC0;
         pub const right: usize = 0x2238340;
-        pub const showscores: usize = 0x257F780;
+        pub const showscores: usize = 0x257F810;
         pub const sprint: usize = 0x2237E30;
         pub const turnleft: usize = 0x2238070;
         pub const turnright: usize = 0x2238100;
         pub const r#use: usize = 0x22383D0;
-        pub const zoom: usize = 0x257F810;
+        pub const zoom: usize = 0x257F8A0;
     }
 }

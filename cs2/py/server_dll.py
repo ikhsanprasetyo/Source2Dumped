@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-31 12:34:43.677315300 +07:00
+# 2026-11-03 10:00:18.049291300 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -5733,10 +5733,11 @@ class Schemas:
             m_numSpectatorsCountMax = 0xE04 # uint32
             m_numSpectatorsCountMaxTV = 0xE08 # uint32
             m_numSpectatorsCountMaxLnk = 0xE0C # uint32
-            m_nCTsAliveAtFreezetimeEnd = 0xE18 # int32
-            m_nTerroristsAliveAtFreezetimeEnd = 0xE1C # int32
-            m_bForceTeamChangeSilent = 0xE20 # bool
-            m_bLoadingRoundBackupData = 0xE21 # bool
+            m_bQueuedMatchmakingReportedRoundStatsPendingSend = 0xE18 # bool
+            m_nCTsAliveAtFreezetimeEnd = 0xE1C # int32
+            m_nTerroristsAliveAtFreezetimeEnd = 0xE20 # int32
+            m_bForceTeamChangeSilent = 0xE24 # bool
+            m_bLoadingRoundBackupData = 0xE25 # bool
             m_nMatchInfoShowType = 0xE58 # int32
             m_flMatchInfoDecidedTime = 0xE5C # float32
             mTeamDMLastWinningTeamNumber = 0xE78 # int32

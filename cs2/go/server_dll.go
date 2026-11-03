@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 package schemas
 
@@ -4958,10 +4958,11 @@ const (
     ServerDll_CCSGameRules_m_numSpectatorsCountMax = 0xE04 // uint32
     ServerDll_CCSGameRules_m_numSpectatorsCountMaxTV = 0xE08 // uint32
     ServerDll_CCSGameRules_m_numSpectatorsCountMaxLnk = 0xE0C // uint32
-    ServerDll_CCSGameRules_m_nCTsAliveAtFreezetimeEnd = 0xE18 // int32
-    ServerDll_CCSGameRules_m_nTerroristsAliveAtFreezetimeEnd = 0xE1C // int32
-    ServerDll_CCSGameRules_m_bForceTeamChangeSilent = 0xE20 // bool
-    ServerDll_CCSGameRules_m_bLoadingRoundBackupData = 0xE21 // bool
+    ServerDll_CCSGameRules_m_bQueuedMatchmakingReportedRoundStatsPendingSend = 0xE18 // bool
+    ServerDll_CCSGameRules_m_nCTsAliveAtFreezetimeEnd = 0xE1C // int32
+    ServerDll_CCSGameRules_m_nTerroristsAliveAtFreezetimeEnd = 0xE20 // int32
+    ServerDll_CCSGameRules_m_bForceTeamChangeSilent = 0xE24 // bool
+    ServerDll_CCSGameRules_m_bLoadingRoundBackupData = 0xE25 // bool
     ServerDll_CCSGameRules_m_nMatchInfoShowType = 0xE58 // int32
     ServerDll_CCSGameRules_m_flMatchInfoDecidedTime = 0xE5C // float32
     ServerDll_CCSGameRules_mTeamDMLastWinningTeamNumber = 0xE78 // int32

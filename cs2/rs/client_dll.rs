@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 391
+        // Class count: 392
         // Enum count: 14
         pub mod client_dll {
             // Alignment: 4
@@ -2456,6 +2456,14 @@ pub mod source2_dumper {
                 pub const m_flScaleEnd: usize = 0x1288; // float32[10]
                 pub const m_flScaleTimeStart: usize = 0x12B0; // GameTime_t[10]
                 pub const m_flScaleTimeEnd: usize = 0x12D8; // GameTime_t[10]
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub mod CPulseCell_PlaySequence__CursorState_t {
+                pub const m_hTarget: usize = 0x0; // CHandle<CBaseAnimGraph>
             }
             // Parent: None
             // Field count: 0

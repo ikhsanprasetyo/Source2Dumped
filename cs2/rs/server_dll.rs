@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7694,7 +7694,7 @@ pub mod source2_dumper {
                 pub const m_nMagnitude: usize = 0x87C; // uint32
             }
             // Parent: None
-            // Field count: 190
+            // Field count: 191
             pub mod CCSGameRules {
                 pub const m_bFreezePeriod: usize = 0xD8; // bool
                 pub const m_bWarmupPeriod: usize = 0xD9; // bool
@@ -7797,10 +7797,11 @@ pub mod source2_dumper {
                 pub const m_numSpectatorsCountMax: usize = 0xE04; // uint32
                 pub const m_numSpectatorsCountMaxTV: usize = 0xE08; // uint32
                 pub const m_numSpectatorsCountMaxLnk: usize = 0xE0C; // uint32
-                pub const m_nCTsAliveAtFreezetimeEnd: usize = 0xE18; // int32
-                pub const m_nTerroristsAliveAtFreezetimeEnd: usize = 0xE1C; // int32
-                pub const m_bForceTeamChangeSilent: usize = 0xE20; // bool
-                pub const m_bLoadingRoundBackupData: usize = 0xE21; // bool
+                pub const m_bQueuedMatchmakingReportedRoundStatsPendingSend: usize = 0xE18; // bool
+                pub const m_nCTsAliveAtFreezetimeEnd: usize = 0xE1C; // int32
+                pub const m_nTerroristsAliveAtFreezetimeEnd: usize = 0xE20; // int32
+                pub const m_bForceTeamChangeSilent: usize = 0xE24; // bool
+                pub const m_bLoadingRoundBackupData: usize = 0xE25; // bool
                 pub const m_nMatchInfoShowType: usize = 0xE58; // int32
                 pub const m_flMatchInfoDecidedTime: usize = 0xE5C; // float32
                 pub const mTeamDMLastWinningTeamNumber: usize = 0xE78; // int32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 package schemas
 
@@ -1390,6 +1390,7 @@ const (
     ClientDll_C_ClientRagdoll_m_flScaleEnd = 0x1288 // float32[10]
     ClientDll_C_ClientRagdoll_m_flScaleTimeStart = 0x12B0 // GameTime_t[10]
     ClientDll_C_ClientRagdoll_m_flScaleTimeEnd = 0x12D8 // GameTime_t[10]
+    ClientDll_CPulseCell_PlaySequence__CursorState_t_m_hTarget = 0x0 // CHandle<CBaseAnimGraph>
     ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_nVariant = 0x600 // int32
     ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_nRandom = 0x604 // int32
     ClientDll_C_CSGO_TeamPreviewCharacterPosition_m_nOrdinal = 0x608 // int32

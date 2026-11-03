@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-31 12:34:43.677315300 +07:00
+# 2026-11-03 10:00:18.049291300 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1756,6 +1756,8 @@ class Schemas:
             m_flScaleEnd = 0x1288 # float32[10]
             m_flScaleTimeStart = 0x12B0 # GameTime_t[10]
             m_flScaleTimeEnd = 0x12D8 # GameTime_t[10]
+        class CPulseCell_PlaySequence__CursorState_t:
+            m_hTarget = 0x0 # CHandle<CBaseAnimGraph>
         class C_CS2WeaponModuleBase:
             pass
         class C_CSGO_TeamPreviewCharacterPosition:

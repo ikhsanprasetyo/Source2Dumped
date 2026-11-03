@@ -1,23 +1,23 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-31 12:34:43.677315300 +07:00
+// 2026-11-03 10:00:18.049291300 +07:00
 
 package offsets
 
 const (
-    ClientDll_dwCSGOInput = 0x257F980
-    ClientDll_dwEntityList = 0x271EB28
-    ClientDll_dwGameEntitySystem = 0x271EB28
+    ClientDll_dwCSGOInput = 0x257FA10
+    ClientDll_dwEntityList = 0x271EBA8
+    ClientDll_dwGameEntitySystem = 0x271EBA8
     ClientDll_dwGameEntitySystem_highestEntityIndex = 0x2120
-    ClientDll_dwGameRules = 0x1BB7D20
+    ClientDll_dwGameRules = 0x1BB7D30
     ClientDll_dwGlobalVars = 0x2234108
-    ClientDll_dwGlowManager = 0x25660A0
-    ClientDll_dwLocalPlayerController = 0x25413F8
-    ClientDll_dwLocalPlayerPawn = 0x25698C8
+    ClientDll_dwGlowManager = 0x2566120
+    ClientDll_dwLocalPlayerController = 0x2541538
+    ClientDll_dwLocalPlayerPawn = 0x2569948
     ClientDll_dwPlantedC4 = 0x24CFB60
-    ClientDll_dwPrediction = 0x25697D0
-    ClientDll_dwViewAngles = 0x2580008
-    ClientDll_dwViewMatrix = 0x256F1D0
-    ClientDll_dwViewRender = 0x256FB98
+    ClientDll_dwPrediction = 0x2569850
+    ClientDll_dwViewAngles = 0x2580098
+    ClientDll_dwViewMatrix = 0x256F250
+    ClientDll_dwViewRender = 0x256FC18
     ClientDll_dwWeaponC4 = 0x24CE108
     Engine2Dll_dwBuildNumber = 0x6BA028
     Engine2Dll_dwNetworkGameClient = 0x9B88C0
