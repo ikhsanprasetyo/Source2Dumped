@@ -2155,7 +2155,7 @@
           "m_AttributeManager": 3248,
           "m_BlockDirectionTimer": 13000,
           "m_activityTimer": 4416,
-          "m_bSpawnDyingParticles": 13026,
+          "m_bSpawnDyingParticles": 13027,
           "m_collisionStuckTimer": 4368,
           "m_currentActivity": 4412,
           "m_desiredActivity": 4408,

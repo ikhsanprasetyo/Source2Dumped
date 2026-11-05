@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 10:00:18.049291300 +07:00
+// 2026-11-05 23:25:49.162287200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -149,6 +149,7 @@ pub const source2_dumper = struct {
             // BLUE
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -260,7 +261,7 @@ pub const source2_dumper = struct {
             pub const SignatureOutflow_Continue = struct {
             };
             // Parent: None
-            // Field count: 4
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -278,6 +279,7 @@ pub const source2_dumper = struct {
             // BLUE
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -309,8 +311,6 @@ pub const source2_dumper = struct {
             pub const CPulseCell_Outflow_TestExplicitYesNo = struct {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
-                pub const m_Out1: usize = 0xD8; // SignatureOutflow_Continue
-                pub const m_AsyncChild1: usize = 0x120; // SignatureOutflow_Continue
             };
             // Parent: None
             // Field count: 1
@@ -341,6 +341,7 @@ pub const source2_dumper = struct {
             // BLUE
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseSignatureForOutflow

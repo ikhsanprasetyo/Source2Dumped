@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 10:00:18.049291300 +07:00
+// 2026-11-05 23:25:49.162287200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -6350,7 +6350,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_flActiveFollowStartTime = 0x32A4; // GameTime_t
             public const nint m_followMinuteTimer = 0x32A8; // CountdownTimer
             public const nint m_BlockDirectionTimer = 0x32C8; // CountdownTimer
-            public const nint m_bSpawnDyingParticles = 0x32E2; // bool
+            public const nint m_bSpawnDyingParticles = 0x32E3; // bool
         }
         // Parent: CPhysicsProp
         // Field count: 5

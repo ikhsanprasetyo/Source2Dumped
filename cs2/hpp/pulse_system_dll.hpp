@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 10:00:18.049291300 +07:00
+// 2026-11-05 23:25:49.162287200 +07:00
 
 #pragma once
 
@@ -154,6 +154,7 @@ namespace source2_dumper {
             // BLUE
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -265,7 +266,7 @@ namespace source2_dumper {
             namespace SignatureOutflow_Continue {
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -283,6 +284,7 @@ namespace source2_dumper {
             // BLUE
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -314,8 +316,6 @@ namespace source2_dumper {
             namespace CPulseCell_Outflow_TestExplicitYesNo {
                 constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_No = 0x90; // CPulse_OutflowConnection
-                constexpr std::ptrdiff_t m_Out1 = 0xD8; // SignatureOutflow_Continue
-                constexpr std::ptrdiff_t m_AsyncChild1 = 0x120; // SignatureOutflow_Continue
             }
             // Parent: None
             // Field count: 1
@@ -346,6 +346,7 @@ namespace source2_dumper {
             // BLUE
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPulseSignatureForOutflow

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 10:00:18.049291300 +07:00
+// 2026-11-05 23:25:49.162287200 +07:00
 
 package schemas
 
@@ -4177,7 +4177,7 @@ const (
     ServerDll_CChicken_m_flActiveFollowStartTime = 0x32A4 // GameTime_t
     ServerDll_CChicken_m_followMinuteTimer = 0x32A8 // CountdownTimer
     ServerDll_CChicken_m_BlockDirectionTimer = 0x32C8 // CountdownTimer
-    ServerDll_CChicken_m_bSpawnDyingParticles = 0x32E2 // bool
+    ServerDll_CChicken_m_bSpawnDyingParticles = 0x32E3 // bool
     ServerDll_CPhysicsPropRespawnable_m_vOriginalSpawnOrigin = 0xD10 // VectorWS
     ServerDll_CPhysicsPropRespawnable_m_vOriginalSpawnAngles = 0xD1C // QAngle
     ServerDll_CPhysicsPropRespawnable_m_vOriginalMins = 0xD28 // Vector

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 10:00:18.049291300 +07:00
+// 2026-11-05 23:25:49.162287200 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -5241,7 +5241,7 @@ export const Schemas = {
             m_flActiveFollowStartTime: 0x32A4, // GameTime_t
             m_followMinuteTimer: 0x32A8, // CountdownTimer
             m_BlockDirectionTimer: 0x32C8, // CountdownTimer
-            m_bSpawnDyingParticles: 0x32E2, // bool
+            m_bSpawnDyingParticles: 0x32E3, // bool
         },
         CPhysicsPropRespawnable: {
             m_vOriginalSpawnOrigin: 0xD10, // VectorWS

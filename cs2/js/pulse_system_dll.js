@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 10:00:18.049291300 +07:00
+// 2026-11-05 23:25:49.162287200 +07:00
 
 export const Schemas = {
     pulse_system_dll: {
@@ -110,8 +110,6 @@ export const Schemas = {
         CPulseCell_Outflow_TestExplicitYesNo: {
             m_Yes: 0x48, // CPulse_OutflowConnection
             m_No: 0x90, // CPulse_OutflowConnection
-            m_Out1: 0xD8, // SignatureOutflow_Continue
-            m_AsyncChild1: 0x120, // SignatureOutflow_Continue
         },
         CPulseCell_IsRequirementValid__Criteria_t: {
             m_bIsValid: 0x0, // bool
