@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 21:12:02.749640400 +07:00
+// 2026-11-18 23:39:06.781028800 +07:00
 
 export const Schemas = {
     animationsystem_dll: {

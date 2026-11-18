@@ -9,7 +9,10 @@
     "dwGlowManager": 39140240,
     "dwLocalPlayerController": 38989176,
     "dwLocalPlayerPawn": 39155000,
+    "dwPlantedC4": 38525416,
     "dwPrediction": 39154752,
+    "dwSensitivity": 39142984,
+    "dwSensitivity_sensitivity": 88,
     "dwViewAngles": 39245416,
     "dwViewMatrix": 39177808,
     "dwViewRender": 39180312,
@@ -37,6 +40,7 @@
   "panorama.dll": {},
   "panoramauiclient.dll": {},
   "soundsystem.dll": {
-    "dwSoundSystem": 5448816
+    "dwSoundSystem": 5448816,
+    "dwSoundSystem_engineViewData": 108
   }
 }

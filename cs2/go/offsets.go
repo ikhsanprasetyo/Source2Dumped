@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 21:12:02.749640400 +07:00
+// 2026-11-18 23:39:06.781028800 +07:00
 
 package offsets
 
@@ -13,7 +13,10 @@ const (
     ClientDll_dwGlowManager = 0x2553B90
     ClientDll_dwLocalPlayerController = 0x252ED78
     ClientDll_dwLocalPlayerPawn = 0x2557538
+    ClientDll_dwPlantedC4 = 0x24BD9E8
     ClientDll_dwPrediction = 0x2557440
+    ClientDll_dwSensitivity = 0x2554648
+    ClientDll_dwSensitivity_sensitivity = 0x58
     ClientDll_dwViewAngles = 0x256D668
     ClientDll_dwViewMatrix = 0x255CE50
     ClientDll_dwViewRender = 0x255D818
@@ -32,4 +35,5 @@ const (
     InputsystemDll_dwInputSystem = 0x46BC0
     MatchmakingDll_dwGameTypes = 0x1AEFC0
     SoundsystemDll_dwSoundSystem = 0x532470
+    SoundsystemDll_dwSoundSystem_engineViewData = 0x6C
 )

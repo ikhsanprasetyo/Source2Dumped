@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-18 21:12:02.749640400 +07:00
+# 2026-11-18 23:39:06.781028800 +07:00
 
 class Offsets:
     # Module: client.dll
@@ -13,7 +13,10 @@ class Offsets:
         dwGlowManager = 0x2553B90
         dwLocalPlayerController = 0x252ED78
         dwLocalPlayerPawn = 0x2557538
+        dwPlantedC4 = 0x24BD9E8
         dwPrediction = 0x2557440
+        dwSensitivity = 0x2554648
+        dwSensitivity_sensitivity = 0x58
         dwViewAngles = 0x256D668
         dwViewMatrix = 0x255CE50
         dwViewRender = 0x255D818
@@ -44,3 +47,4 @@ class Offsets:
     # Module: soundsystem.dll
     class SoundsystemDll:
         dwSoundSystem = 0x532470
+        dwSoundSystem_engineViewData = 0x6C
