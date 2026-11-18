@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -4710,17 +4710,6 @@ pub const source2_dumper = struct {
             pub const CWeaponM4A1Silencer = struct {
             };
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MVDataOverlayType
-            // MVDataAssociatedFile
-            // MVDataPreviewWidget
-            pub const CNoiseStreamData = struct {
-                pub const m_Stream: usize = 0x0; // NoiseStreamDef_t
-            };
-            // Parent: None
             // Field count: 0
             pub const CItemAssaultSuit = struct {
             };
@@ -6317,7 +6306,7 @@ pub const source2_dumper = struct {
                 pub const m_flActiveFollowStartTime: usize = 0x32A4; // GameTime_t
                 pub const m_followMinuteTimer: usize = 0x32A8; // CountdownTimer
                 pub const m_BlockDirectionTimer: usize = 0x32C8; // CountdownTimer
-                pub const m_bSpawnDyingParticles: usize = 0x32E3; // bool
+                pub const m_bSpawnDyingParticles: usize = 0x32E2; // bool
             };
             // Parent: CPhysicsProp
             // Field count: 5
@@ -6664,6 +6653,16 @@ pub const source2_dumper = struct {
                 pub const m_flAvgInterval: usize = 0x4C0; // float32
                 pub const m_Velocity: usize = 0x4C8; // CEntityOutputTemplate<float32>
             };
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const EngineCountdownTimer = struct {
+                pub const m_duration: usize = 0x8; // float32
+                pub const m_timestamp: usize = 0xC; // float32
+                pub const m_timescale: usize = 0x10; // float32
+            };
             // Parent: CTriggerMultiple
             // Field count: 1
             pub const CScriptTriggerMultiple = struct {
@@ -6940,6 +6939,15 @@ pub const source2_dumper = struct {
                 pub const m_i1v2Wins: usize = 0xB0; // int32
                 pub const m_iEntryCount: usize = 0xB4; // int32
                 pub const m_iEntryWins: usize = 0xB8; // int32
+            };
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const EntityRenderAttribute_t = struct {
+                pub const m_ID: usize = 0x30; // CUtlStringToken
+                pub const m_Values: usize = 0x34; // Vector4D
             };
             // Parent: CFuncBrush
             // Field count: 9
@@ -8171,16 +8179,6 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 0
             pub const CPlayer_UseServices = struct {
-            };
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CGameSceneNodeHandle = struct {
-                pub const m_hOwner: usize = 0x8; // CEntityHandle
-                pub const m_name: usize = 0xC; // CUtlStringToken
             };
             // Parent: CMarkupVolumeTagged
             // Field count: 4
@@ -9475,7 +9473,7 @@ pub const source2_dumper = struct {
                 pub const m_weaponPurchases: usize = 0x8; // CUtlVectorEmbeddedNetworkVar<WeaponPurchaseCount_t>
             };
             // Parent: CPointEntity
-            // Field count: 15
+            // Field count: 16
             pub const CMapInfo = struct {
                 pub const m_iBuyingStatus: usize = 0x4A8; // int32
                 pub const m_flBombRadius: usize = 0x4AC; // float32
@@ -9492,6 +9490,7 @@ pub const source2_dumper = struct {
                 pub const m_flEnvPuddleRippleDirection: usize = 0x4CC; // float32
                 pub const m_flEnvWetnessCoverage: usize = 0x4D0; // float32
                 pub const m_flEnvWetnessDryingAmount: usize = 0x4D4; // float32
+                pub const m_bFrostEnabled: usize = 0x4D8; // bool
             };
             // Parent: None
             // Field count: 0

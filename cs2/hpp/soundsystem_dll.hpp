@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: soundsystem.dll
-        // Class count: 17
+        // Class count: 16
         // Enum count: 35
         namespace soundsystem_dll {
             // Alignment: 1
@@ -448,12 +448,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyReadonlyExpr
+            // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertySuppressExpr
-            // MPropertyAttributeEditor
-            // MPropertyReadonlyExpr
-            // MPropertySuppressExpr
-            // MPropertyReadonlyExpr
             namespace CSosSoundEventGroupSchema {
                 constexpr std::ptrdiff_t m_nGroupType = 0x8; // SosGroupType_t
                 constexpr std::ptrdiff_t m_bBlocksEvents = 0xC; // bool
@@ -575,15 +574,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t nNextSelection = 0x1; // uint8
                 constexpr std::ptrdiff_t nNumSamples = 0x2; // uint8
                 constexpr std::ptrdiff_t pSamples = 0x4; // uint32[4]
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MVDataNodeType
-            namespace SndBeatEventKeys_t {
-                constexpr std::ptrdiff_t m_flKey = 0x8; // float32
             }
             // Parent: None
             // Field count: 0

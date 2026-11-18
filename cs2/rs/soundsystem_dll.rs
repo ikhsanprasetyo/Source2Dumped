@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: soundsystem.dll
-        // Class count: 17
+        // Class count: 16
         // Enum count: 35
         pub mod soundsystem_dll {
             // Alignment: 1
@@ -475,12 +475,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyReadonlyExpr
+            // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertySuppressExpr
-            // MPropertyAttributeEditor
-            // MPropertyReadonlyExpr
-            // MPropertySuppressExpr
-            // MPropertyReadonlyExpr
             pub mod CSosSoundEventGroupSchema {
                 pub const m_nGroupType: usize = 0x8; // SosGroupType_t
                 pub const m_bBlocksEvents: usize = 0xC; // bool
@@ -602,15 +601,6 @@ pub mod source2_dumper {
                 pub const nNextSelection: usize = 0x1; // uint8
                 pub const nNumSamples: usize = 0x2; // uint8
                 pub const pSamples: usize = 0x4; // uint32[4]
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MVDataNodeType
-            pub mod SndBeatEventKeys_t {
-                pub const m_flKey: usize = 0x8; // float32
             }
             // Parent: None
             // Field count: 0

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-09 22:31:04.602073700 +07:00
+# 2026-11-18 21:12:02.749640400 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -3629,8 +3629,6 @@ class Schemas:
             m_vPos = 0x4B8 # Vector
         class CWeaponM4A1Silencer:
             pass
-        class CNoiseStreamData:
-            m_Stream = 0x0 # NoiseStreamDef_t
         class CItemAssaultSuit:
             pass
         class CBeam:
@@ -4805,7 +4803,7 @@ class Schemas:
             m_flActiveFollowStartTime = 0x32A4 # GameTime_t
             m_followMinuteTimer = 0x32A8 # CountdownTimer
             m_BlockDirectionTimer = 0x32C8 # CountdownTimer
-            m_bSpawnDyingParticles = 0x32E3 # bool
+            m_bSpawnDyingParticles = 0x32E2 # bool
         class CPhysicsPropRespawnable:
             m_vOriginalSpawnOrigin = 0xD10 # VectorWS
             m_vOriginalSpawnAngles = 0xD1C # QAngle
@@ -5055,6 +5053,10 @@ class Schemas:
             m_fPrevVelocity = 0x4BC # float32
             m_flAvgInterval = 0x4C0 # float32
             m_Velocity = 0x4C8 # CEntityOutputTemplate<float32>
+        class EngineCountdownTimer:
+            m_duration = 0x8 # float32
+            m_timestamp = 0xC # float32
+            m_timescale = 0x10 # float32
         class CScriptTriggerMultiple:
             m_vExtent = 0x9E0 # Vector
         class CHostage:
@@ -5272,6 +5274,9 @@ class Schemas:
             m_i1v2Wins = 0xB0 # int32
             m_iEntryCount = 0xB4 # int32
             m_iEntryWins = 0xB8 # int32
+        class EntityRenderAttribute_t:
+            m_ID = 0x30 # CUtlStringToken
+            m_Values = 0x34 # Vector4D
         class CFuncMonitor:
             m_targetCamera = 0x870 # CUtlString
             m_nResolutionEnum = 0x878 # int32
@@ -6252,9 +6257,6 @@ class Schemas:
             m_pPulseGraphInstance = 0x4A0 # CPulseGraphInstance_ServerEntity*
         class CPlayer_UseServices:
             pass
-        class CGameSceneNodeHandle:
-            m_hOwner = 0x8 # CEntityHandle
-            m_name = 0xC # CUtlStringToken
         class CMarkupVolumeWithRef:
             m_bUseRef = 0x898 # bool
             m_vRefPosEntitySpace = 0x89C # Vector
@@ -7222,6 +7224,7 @@ class Schemas:
             m_flEnvPuddleRippleDirection = 0x4CC # float32
             m_flEnvWetnessCoverage = 0x4D0 # float32
             m_flEnvWetnessDryingAmount = 0x4D4 # float32
+            m_bFrostEnabled = 0x4D8 # bool
         class CSoundOpvarSetAABBEntity:
             pass
         class CPointClientUIWorldTextPanel:

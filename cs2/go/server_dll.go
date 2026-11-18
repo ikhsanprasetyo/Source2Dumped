@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 package schemas
 
@@ -3210,7 +3210,6 @@ const (
     ServerDll_CSoundAreaEntityBase_m_bDisabled = 0x4A8 // bool
     ServerDll_CSoundAreaEntityBase_m_iszSoundAreaType = 0x4B0 // CUtlSymbolLarge
     ServerDll_CSoundAreaEntityBase_m_vPos = 0x4B8 // Vector
-    ServerDll_CNoiseStreamData_m_Stream = 0x0 // NoiseStreamDef_t
     ServerDll_CBeam_m_flFrameRate = 0x850 // float32
     ServerDll_CBeam_m_flHDRColorScale = 0x854 // float32
     ServerDll_CBeam_m_flFireTime = 0x858 // GameTime_t
@@ -4177,7 +4176,7 @@ const (
     ServerDll_CChicken_m_flActiveFollowStartTime = 0x32A4 // GameTime_t
     ServerDll_CChicken_m_followMinuteTimer = 0x32A8 // CountdownTimer
     ServerDll_CChicken_m_BlockDirectionTimer = 0x32C8 // CountdownTimer
-    ServerDll_CChicken_m_bSpawnDyingParticles = 0x32E3 // bool
+    ServerDll_CChicken_m_bSpawnDyingParticles = 0x32E2 // bool
     ServerDll_CPhysicsPropRespawnable_m_vOriginalSpawnOrigin = 0xD10 // VectorWS
     ServerDll_CPhysicsPropRespawnable_m_vOriginalSpawnAngles = 0xD1C // QAngle
     ServerDll_CPhysicsPropRespawnable_m_vOriginalMins = 0xD28 // Vector
@@ -4384,6 +4383,9 @@ const (
     ServerDll_CPointVelocitySensor_m_fPrevVelocity = 0x4BC // float32
     ServerDll_CPointVelocitySensor_m_flAvgInterval = 0x4C0 // float32
     ServerDll_CPointVelocitySensor_m_Velocity = 0x4C8 // CEntityOutputTemplate<float32>
+    ServerDll_EngineCountdownTimer_m_duration = 0x8 // float32
+    ServerDll_EngineCountdownTimer_m_timestamp = 0xC // float32
+    ServerDll_EngineCountdownTimer_m_timescale = 0x10 // float32
     ServerDll_CScriptTriggerMultiple_m_vExtent = 0x9E0 // Vector
     ServerDll_CHostage_m_OnHostageBeginGrab = 0xB38 // CEntityIOOutput
     ServerDll_CHostage_m_OnFirstPickedUp = 0xB50 // CEntityIOOutput
@@ -4573,6 +4575,8 @@ const (
     ServerDll_CSMatchStats_t_m_i1v2Wins = 0xB0 // int32
     ServerDll_CSMatchStats_t_m_iEntryCount = 0xB4 // int32
     ServerDll_CSMatchStats_t_m_iEntryWins = 0xB8 // int32
+    ServerDll_EntityRenderAttribute_t_m_ID = 0x30 // CUtlStringToken
+    ServerDll_EntityRenderAttribute_t_m_Values = 0x34 // Vector4D
     ServerDll_CFuncMonitor_m_targetCamera = 0x870 // CUtlString
     ServerDll_CFuncMonitor_m_nResolutionEnum = 0x878 // int32
     ServerDll_CFuncMonitor_m_bRenderShadows = 0x87C // bool
@@ -5430,8 +5434,6 @@ const (
     ServerDll_CBaseEntity_m_flVPhysicsUpdateLocalTime = 0x498 // float32
     ServerDll_CBaseEntity_m_nBloodType = 0x49C // BloodType
     ServerDll_CBaseEntity_m_pPulseGraphInstance = 0x4A0 // CPulseGraphInstance_ServerEntity*
-    ServerDll_CGameSceneNodeHandle_m_hOwner = 0x8 // CEntityHandle
-    ServerDll_CGameSceneNodeHandle_m_name = 0xC // CUtlStringToken
     ServerDll_CMarkupVolumeWithRef_m_bUseRef = 0x898 // bool
     ServerDll_CMarkupVolumeWithRef_m_vRefPosEntitySpace = 0x89C // Vector
     ServerDll_CMarkupVolumeWithRef_m_vRefPosWorldSpace = 0x8A8 // VectorWS
@@ -6243,6 +6245,7 @@ const (
     ServerDll_CMapInfo_m_flEnvPuddleRippleDirection = 0x4CC // float32
     ServerDll_CMapInfo_m_flEnvWetnessCoverage = 0x4D0 // float32
     ServerDll_CMapInfo_m_flEnvWetnessDryingAmount = 0x4D4 // float32
+    ServerDll_CMapInfo_m_bFrostEnabled = 0x4D8 // bool
     ServerDll_CPointClientUIWorldTextPanel_m_messageText = 0xA10 // char[512]
     ServerDll_CPulseCell_LimitCount__Criteria_t_m_bLimitCountPasses = 0x0 // bool
     ServerDll_CFuncRotator_m_eRotateType = 0x850 // CFuncRotator::Rotate_t

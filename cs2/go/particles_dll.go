@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 package schemas
 
@@ -397,8 +397,6 @@ const (
     ParticlesDll_C_OP_RenderDeferredLight_m_nHSVShiftControlPoint = 0x944 // int32
     ParticlesDll_C_OP_RemapTransformToVelocity_m_TransformInput = 0x1E0 // CParticleTransformInput
     ParticlesDll_CollisionGroupContext_t_m_nCollisionGroupNumber = 0x0 // int32
-    ParticlesDll_C_OP_FadeOutSimple_m_flFadeOutTime = 0x1E0 // float32
-    ParticlesDll_C_OP_FadeOutSimple_m_nFieldOutput = 0x1E4 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_SpringToVectorConstraint_m_flRestLength = 0x1E0 // CPerParticleFloatInput
     ParticlesDll_C_OP_SpringToVectorConstraint_m_flMinDistance = 0x358 // CPerParticleFloatInput
     ParticlesDll_C_OP_SpringToVectorConstraint_m_flMaxDistance = 0x4D0 // CPerParticleFloatInput
@@ -508,11 +506,6 @@ const (
     ParticlesDll_C_INIT_StatusEffect_m_flReflectionsTintByBaseBlendToNone = 0x224 // float32
     ParticlesDll_C_INIT_StatusEffect_m_flMetalnessBlendToFull = 0x228 // float32
     ParticlesDll_C_INIT_StatusEffect_m_flSelfIllumBlendToFull = 0x22C // float32
-    ParticlesDll_C_OP_ConstrainDistance_m_fMinDistance = 0x1E0 // CParticleCollectionFloatInput
-    ParticlesDll_C_OP_ConstrainDistance_m_fMaxDistance = 0x358 // CParticleCollectionFloatInput
-    ParticlesDll_C_OP_ConstrainDistance_m_nControlPointNumber = 0x4D0 // CParticleTransformInput
-    ParticlesDll_C_OP_ConstrainDistance_m_CenterOffset = 0x538 // CParticleCollectionVecInput
-    ParticlesDll_C_OP_ConstrainDistance_m_bGlobalCenter = 0xC10 // bool
     ParticlesDll_C_INIT_RandomVector_m_vecMin = 0x1E8 // Vector
     ParticlesDll_C_INIT_RandomVector_m_vecMax = 0x1F4 // Vector
     ParticlesDll_C_INIT_RandomVector_m_nFieldOutput = 0x200 // ParticleAttributeIndex_t
@@ -527,6 +520,7 @@ const (
     ParticlesDll_C_INIT_InitialVelocityNoise_m_flNoiseScaleLoc = 0x1978 // CPerParticleFloatInput
     ParticlesDll_C_INIT_InitialVelocityNoise_m_TransformInput = 0x1AF0 // CParticleTransformInput
     ParticlesDll_C_INIT_InitialVelocityNoise_m_bIgnoreDt = 0x1B58 // bool
+    ParticlesDll_C_INIT_InitialVelocityNoise_m_vecScale = 0x1E8 // Vector
     ParticlesDll_C_OP_RemapScalarOnceTimed_m_bProportional = 0x1E0 // bool
     ParticlesDll_C_OP_RemapScalarOnceTimed_m_nFieldInput = 0x1E4 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RemapScalarOnceTimed_m_nFieldOutput = 0x1E8 // ParticleAttributeIndex_t
@@ -539,6 +533,13 @@ const (
     ParticlesDll_C_OP_PlaneCull_m_vecPlaneDirection = 0x1E8 // CParticleCollectionVecInput
     ParticlesDll_C_OP_PlaneCull_m_bLocalSpace = 0x8C0 // bool
     ParticlesDll_C_OP_PlaneCull_m_flPlaneOffset = 0x8C4 // float32
+    ParticlesDll_C_INIT_VelocityRandom_m_nControlPointNumber = 0x1E8 // int32
+    ParticlesDll_C_INIT_VelocityRandom_m_fSpeedMin = 0x1F0 // CPerParticleFloatInput
+    ParticlesDll_C_INIT_VelocityRandom_m_fSpeedMax = 0x368 // CPerParticleFloatInput
+    ParticlesDll_C_INIT_VelocityRandom_m_LocalCoordinateSystemSpeedMin = 0x4E0 // CPerParticleVecInput
+    ParticlesDll_C_INIT_VelocityRandom_m_LocalCoordinateSystemSpeedMax = 0xBB8 // CPerParticleVecInput
+    ParticlesDll_C_INIT_VelocityRandom_m_bIgnoreDT = 0x1290 // bool
+    ParticlesDll_C_INIT_VelocityRandom_m_randomnessParameters = 0x1294 // CRandomNumberGeneratorParameters
     ParticlesDll_C_OP_ModelDampenMovement_m_nControlPointNumber = 0x1E0 // int32
     ParticlesDll_C_OP_ModelDampenMovement_m_bBoundBox = 0x1E4 // bool
     ParticlesDll_C_OP_ModelDampenMovement_m_bOutside = 0x1E5 // bool
@@ -562,6 +563,26 @@ const (
     ParticlesDll_C_INIT_RemapParticleCountToNamedModelElementScalar_m_outputMinName = 0x220 // CUtlString
     ParticlesDll_C_INIT_RemapParticleCountToNamedModelElementScalar_m_outputMaxName = 0x228 // CUtlString
     ParticlesDll_C_INIT_RemapParticleCountToNamedModelElementScalar_m_bModelFromRenderer = 0x230 // bool
+    ParticlesDll_C_OP_RenderTrails_m_bEnableFadingAndClamping = 0x3358 // bool
+    ParticlesDll_C_OP_RenderTrails_m_flStartFadeDot = 0x335C // float32
+    ParticlesDll_C_OP_RenderTrails_m_flEndFadeDot = 0x3360 // float32
+    ParticlesDll_C_OP_RenderTrails_m_nPrevPntSource = 0x3364 // ParticleAttributeIndex_t
+    ParticlesDll_C_OP_RenderTrails_m_flMaxLength = 0x3368 // float32
+    ParticlesDll_C_OP_RenderTrails_m_flMinLength = 0x336C // float32
+    ParticlesDll_C_OP_RenderTrails_m_bIgnoreDT = 0x3370 // bool
+    ParticlesDll_C_OP_RenderTrails_m_flConstrainRadiusToLengthRatio = 0x3374 // float32
+    ParticlesDll_C_OP_RenderTrails_m_flLengthScale = 0x3378 // float32
+    ParticlesDll_C_OP_RenderTrails_m_flLengthFadeInTime = 0x337C // float32
+    ParticlesDll_C_OP_RenderTrails_m_flRadiusHeadTaper = 0x3380 // CPerParticleFloatInput
+    ParticlesDll_C_OP_RenderTrails_m_vecHeadColorScale = 0x34F8 // CParticleCollectionVecInput
+    ParticlesDll_C_OP_RenderTrails_m_flHeadAlphaScale = 0x3BD0 // CPerParticleFloatInput
+    ParticlesDll_C_OP_RenderTrails_m_flRadiusTaper = 0x3D48 // CPerParticleFloatInput
+    ParticlesDll_C_OP_RenderTrails_m_vecTailColorScale = 0x3EC0 // CParticleCollectionVecInput
+    ParticlesDll_C_OP_RenderTrails_m_flTailAlphaScale = 0x4598 // CPerParticleFloatInput
+    ParticlesDll_C_OP_RenderTrails_m_nHorizCropField = 0x4710 // ParticleAttributeIndex_t
+    ParticlesDll_C_OP_RenderTrails_m_nVertCropField = 0x4714 // ParticleAttributeIndex_t
+    ParticlesDll_C_OP_RenderTrails_m_flForwardShift = 0x4718 // float32
+    ParticlesDll_C_OP_RenderTrails_m_bFlipUVBasedOnPitchYaw = 0x471C // bool
     ParticlesDll_C_OP_SetControlPointPositionToTimeOfDayValue_m_nControlPointNumber = 0x1E8 // int32
     ParticlesDll_C_OP_SetControlPointPositionToTimeOfDayValue_m_pszTimeOfDayParameter = 0x1EC // char[128]
     ParticlesDll_C_OP_SetControlPointPositionToTimeOfDayValue_m_vecDefaultValue = 0x26C // Vector
@@ -580,21 +601,8 @@ const (
     ParticlesDll_C_OP_ExternalGameImpulseForce_m_bRopesZOnly = 0x369 // bool
     ParticlesDll_C_OP_ExternalGameImpulseForce_m_bExplosions = 0x36A // bool
     ParticlesDll_C_OP_ExternalGameImpulseForce_m_bParticles = 0x36B // bool
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_nInControlPointNumber = 0x1E8 // int32
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_nOutControlPointNumber = 0x1EC // int32
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_nField = 0x1F0 // int32
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_nHitboxDataType = 0x1F4 // ParticleHitboxDataSelection_t
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_flInputMin = 0x1F8 // CParticleCollectionFloatInput
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_flInputMax = 0x370 // CParticleCollectionFloatInput
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_flOutputMin = 0x4E8 // CParticleCollectionFloatInput
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_flOutputMax = 0x660 // CParticleCollectionFloatInput
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_nHeightControlPointNumber = 0x7D8 // int32
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_vecComparisonVelocity = 0x7E0 // CParticleCollectionVecInput
-    ParticlesDll_C_OP_RemapAverageHitboxSpeedtoCP_m_HitboxSetName = 0xEB8 // char[128]
     ParticlesDll_C_OP_NormalizeVector_m_nFieldOutput = 0x1E0 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_NormalizeVector_m_flScale = 0x1E4 // float32
-    ParticlesDll_C_OP_FadeInSimple_m_flFadeInTime = 0x1E0 // float32
-    ParticlesDll_C_OP_FadeInSimple_m_nFieldOutput = 0x1E4 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RepeatedTriggerChildGroup_m_nChildGroupID = 0x1E8 // int32
     ParticlesDll_C_OP_RepeatedTriggerChildGroup_m_flClusterRefireTime = 0x1F0 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_RepeatedTriggerChildGroup_m_flClusterSize = 0x368 // CParticleCollectionFloatInput
@@ -614,6 +622,7 @@ const (
     ParticlesDll_C_INIT_RingWave_m_flYaw = 0xC98 // CPerParticleFloatInput
     ParticlesDll_C_INIT_RingWave_m_bEvenDistribution = 0xE10 // bool
     ParticlesDll_C_INIT_RingWave_m_bXYVelocityOnly = 0xE11 // bool
+    ParticlesDll_C_INIT_RingWave_m_nControlPoint = 0x1E8 // int32
     ParticlesDll_C_INIT_RandomTrailLength_m_flMinLength = 0x1E8 // float32
     ParticlesDll_C_INIT_RandomTrailLength_m_flMaxLength = 0x1EC // float32
     ParticlesDll_C_INIT_RandomTrailLength_m_flLengthRandExponent = 0x1F0 // float32
@@ -645,6 +654,7 @@ const (
     ParticlesDll_C_INIT_CreateSequentialPath_m_bSaveOffset = 0x1F2 // bool
     ParticlesDll_C_INIT_CreateSequentialPath_m_PathParams = 0x200 // CPathParameters
     ParticlesDll_C_INIT_CreateSequentialPath_m_bKillUnused = 0x1E8 // bool
+    ParticlesDll_C_OP_EndCapTimedDecay_m_flDecayTime = 0x1E0 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_OscillateVectorSimple_m_Rate = 0x1E0 // Vector
     ParticlesDll_C_OP_OscillateVectorSimple_m_Frequency = 0x1EC // Vector
     ParticlesDll_C_OP_OscillateVectorSimple_m_nField = 0x1F8 // ParticleAttributeIndex_t
@@ -685,12 +695,19 @@ const (
     ParticlesDll_C_OP_SetUserEvent_m_nFallingEventType = 0x650 // EventTypeSelection_t
     ParticlesDll_C_OP_QuantizeFloat_m_InputValue = 0x1E0 // CPerParticleFloatInput
     ParticlesDll_C_OP_QuantizeFloat_m_nOutputField = 0x358 // ParticleAttributeIndex_t
+    ParticlesDll_C_OP_BasicMovement_m_Gravity = 0x1E0 // CParticleCollectionVecInput
+    ParticlesDll_C_OP_BasicMovement_m_fDrag = 0x8B8 // CParticleCollectionFloatInput
+    ParticlesDll_C_OP_BasicMovement_m_massControls = 0xA30 // CParticleMassCalculationParameters
+    ParticlesDll_C_OP_BasicMovement_m_nMaxConstraintPasses = 0xEA0 // int32
+    ParticlesDll_C_OP_BasicMovement_m_bUseNewCode = 0xEA4 // bool
     ParticlesDll_C_INIT_RandomNamedModelElement_m_hModel = 0x1E8 // CStrongHandle<InfoForResourceTypeCModel>
     ParticlesDll_C_INIT_RandomNamedModelElement_m_names = 0x1F0 // CUtlVector<CUtlString>
     ParticlesDll_C_INIT_RandomNamedModelElement_m_bShuffle = 0x208 // bool
     ParticlesDll_C_INIT_RandomNamedModelElement_m_bLinear = 0x209 // bool
     ParticlesDll_C_INIT_RandomNamedModelElement_m_bModelFromRenderer = 0x20A // bool
     ParticlesDll_C_INIT_RandomNamedModelElement_m_nFieldOutput = 0x20C // ParticleAttributeIndex_t
+    ParticlesDll_C_INIT_InitFromParentKilled_m_nAttributeToCopy = 0x1E8 // ParticleAttributeIndex_t
+    ParticlesDll_C_INIT_InitFromParentKilled_m_nEventType = 0x1EC // EventTypeSelection_t
     ParticlesDll_C_OP_GlobalLight_m_flScale = 0x1E0 // float32
     ParticlesDll_C_OP_GlobalLight_m_bClampLowerRange = 0x1E4 // bool
     ParticlesDll_C_OP_GlobalLight_m_bClampUpperRange = 0x1E5 // bool
@@ -749,9 +766,6 @@ const (
     ParticlesDll_C_INIT_VelocityRadialRandom_m_fSpeedMax = 0x1118 // CPerParticleFloatInput
     ParticlesDll_C_INIT_VelocityRadialRandom_m_vecLocalCoordinateSystemSpeedScale = 0x1290 // Vector
     ParticlesDll_C_INIT_VelocityRadialRandom_m_bIgnoreDelta = 0x129D // bool
-    ParticlesDll_C_INIT_RandomRadius_m_flRadiusMin = 0x1E8 // float32
-    ParticlesDll_C_INIT_RandomRadius_m_flRadiusMax = 0x1EC // float32
-    ParticlesDll_C_INIT_RandomRadius_m_flRadiusRandExponent = 0x1F0 // float32
     ParticlesDll_C_OP_Orient2DRelToCP_m_flRotOffset = 0x1E0 // float32
     ParticlesDll_C_OP_Orient2DRelToCP_m_flSpinStrength = 0x1E4 // float32
     ParticlesDll_C_OP_Orient2DRelToCP_m_nCP = 0x1E8 // int32
@@ -904,6 +918,7 @@ const (
     ParticlesDll_C_INIT_VelocityFromCP_m_transformInput = 0x8C0 // CParticleTransformInput
     ParticlesDll_C_INIT_VelocityFromCP_m_flVelocityScale = 0x928 // float32
     ParticlesDll_C_INIT_VelocityFromCP_m_bDirectionOnly = 0x92C // bool
+    ParticlesDll_C_INIT_VelocityFromCP_m_InputValue = 0x1E8 // CParticleCollectionVecInput
     ParticlesDll_C_OP_MovementSkinnedPositionFromCPSnapshot_m_nSnapshotControlPointNumber = 0x1E0 // int32
     ParticlesDll_C_OP_MovementSkinnedPositionFromCPSnapshot_m_nControlPointNumber = 0x1E4 // int32
     ParticlesDll_C_OP_MovementSkinnedPositionFromCPSnapshot_m_bRandom = 0x1E8 // bool
@@ -976,12 +991,6 @@ const (
     ParticlesDll_C_OP_RemapNamedModelElementOnceTimed_m_nFieldInput = 0x234 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RemapNamedModelElementOnceTimed_m_nFieldOutput = 0x238 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RemapNamedModelElementOnceTimed_m_flRemapTime = 0x23C // float32
-    ParticlesDll_C_OP_SetControlPointToPlayer_m_nCP1 = 0x1E8 // int32
-    ParticlesDll_C_OP_SetControlPointToPlayer_m_vecCP1Pos = 0x1EC // Vector
-    ParticlesDll_C_OP_SetControlPointToPlayer_m_bOrientToEyes = 0x1F8 // bool
-    ParticlesDll_C_OP_SetControlPointToPlayer_m_nPosition = 0x1FC // ParticleEntityPos_t
-    ParticlesDll_C_OP_SetControlPointToPlayer_m_nRadiusCP = 0x200 // int32
-    ParticlesDll_C_OP_SetControlPointToPlayer_m_nRadiusCPField = 0x204 // int32
     ParticlesDll_C_OP_EndCapTimedFreeze_m_flFreezeTime = 0x1E0 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_RenderGpuImplicit_m_bUsePerParticleRadius = 0x230 // bool
     ParticlesDll_C_OP_RenderGpuImplicit_m_nVertexCountKb = 0x234 // uint32
@@ -991,14 +1000,6 @@ const (
     ParticlesDll_C_OP_RenderGpuImplicit_m_fIsosurfaceThreshold = 0x530 // CParticleCollectionRendererFloatInput
     ParticlesDll_C_OP_RenderGpuImplicit_m_nScaleCP = 0x6A8 // int32
     ParticlesDll_C_OP_RenderGpuImplicit_m_hMaterial = 0x6B0 // CStrongHandle<InfoForResourceTypeIMaterial2>
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_bUseWorldLocation = 0x1E8 // bool
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_bOrient = 0x1E9 // bool
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_nCP1 = 0x1EC // int32
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_nHeadLocation = 0x1F0 // int32
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_flReRandomRate = 0x1F8 // CParticleCollectionFloatInput
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_vecCPMinPos = 0x370 // Vector
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_vecCPMaxPos = 0x37C // Vector
-    ParticlesDll_C_OP_SetRandomControlPointPosition_m_flInterpolation = 0x388 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_RenderVolumetricEmitter_m_strChannelType = 0x230 // CUtlString
     ParticlesDll_C_OP_RenderVolumetricEmitter_m_nType = 0x238 // ParticleVolumetricSmokeType_t
     ParticlesDll_C_OP_RenderVolumetricEmitter_m_nCreationType = 0x23C // ParticleVolumetricSmokeCreationType_t
@@ -1222,6 +1223,7 @@ const (
     ParticlesDll_C_OP_RenderStatusEffect_m_pTextureEnvMap = 0x260 // CStrongHandle<InfoForResourceTypeCTextureBase>
     ParticlesDll_C_OP_RandomForce_m_MinForce = 0x1F0 // Vector
     ParticlesDll_C_OP_RandomForce_m_MaxForce = 0x1FC // Vector
+    ParticlesDll_C_OP_RandomForce_m_flStartLerpTime = 0x1F0 // float32
     ParticlesDll_C_OP_RemapParticleCountOnScalarEndCap_m_nFieldOutput = 0x1E0 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RemapParticleCountOnScalarEndCap_m_nInputMin = 0x1E4 // int32
     ParticlesDll_C_OP_RemapParticleCountOnScalarEndCap_m_nInputMax = 0x1E8 // int32
@@ -1256,6 +1258,7 @@ const (
     ParticlesDll_C_OP_SetFloat_m_nOutputField = 0x358 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_SetFloat_m_nSetMethod = 0x35C // ParticleSetMethod_t
     ParticlesDll_C_OP_SetFloat_m_Lerp = 0x360 // CPerParticleFloatInput
+    ParticlesDll_C_OP_SetFloat_m_nFieldOutput = 0x1E0 // ParticleAttributeIndex_t
     ParticlesDll_C_INIT_RemapTransformToVector_m_nFieldOutput = 0x1E8 // ParticleAttributeIndex_t
     ParticlesDll_C_INIT_RemapTransformToVector_m_vInputMin = 0x1EC // Vector
     ParticlesDll_C_INIT_RemapTransformToVector_m_vInputMax = 0x1F8 // Vector
@@ -1320,6 +1323,13 @@ const (
     ParticlesDll_C_OP_DistanceCull_m_flDistance = 0x1F0 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_DistanceCull_m_bCullInside = 0x368 // bool
     ParticlesDll_C_OP_DistanceCull_m_nAttribute = 0x36C // ParticleAttributeIndex_t
+    ParticlesDll_C_INIT_CreateAlongPath_m_fMaxDistance = 0x1E8 // CPerParticleFloatInput
+    ParticlesDll_C_INIT_CreateAlongPath_m_fT = 0x360 // CPerParticleFloatInput
+    ParticlesDll_C_INIT_CreateAlongPath_m_PathParams = 0x4E0 // CPathParameters
+    ParticlesDll_C_INIT_CreateAlongPath_m_bUseRandomCPs = 0x520 // bool
+    ParticlesDll_C_INIT_CreateAlongPath_m_vEndOffset = 0x524 // Vector
+    ParticlesDll_C_INIT_CreateAlongPath_m_bSaveOffset = 0x530 // bool
+    ParticlesDll_C_INIT_CreateAlongPath_m_nXCount = 0x1E8 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_SetControlPointsToModelParticles_m_HitboxSetName = 0x1E0 // char[128]
     ParticlesDll_C_OP_SetControlPointsToModelParticles_m_AttachmentName = 0x260 // char[128]
     ParticlesDll_C_OP_SetControlPointsToModelParticles_m_nFirstControlPoint = 0x2E0 // int32
@@ -1370,9 +1380,6 @@ const (
     ParticlesDll_C_OP_VelocityMatchingForce_m_flFacingStrength = 0x1EC // float32
     ParticlesDll_C_OP_VelocityMatchingForce_m_bUseAABB = 0x1F0 // bool
     ParticlesDll_C_OP_VelocityMatchingForce_m_nCPBroadcast = 0x1F4 // int32
-    ParticlesDll_C_INIT_RandomAlphaWindowThreshold_m_flMin = 0x1E8 // float32
-    ParticlesDll_C_INIT_RandomAlphaWindowThreshold_m_flMax = 0x1EC // float32
-    ParticlesDll_C_INIT_RandomAlphaWindowThreshold_m_flExponent = 0x1F0 // float32
     ParticlesDll_C_INIT_CreateOnModelAtHeight_m_bUseBones = 0x1E8 // bool
     ParticlesDll_C_INIT_CreateOnModelAtHeight_m_bForceZ = 0x1E9 // bool
     ParticlesDll_C_INIT_CreateOnModelAtHeight_m_nControlPointNumber = 0x1EC // int32
@@ -1406,6 +1413,7 @@ const (
     ParticlesDll_C_INIT_CreateSequentialPathV2_m_bCPPairs = 0x4D9 // bool
     ParticlesDll_C_INIT_CreateSequentialPathV2_m_bSaveOffset = 0x4DA // bool
     ParticlesDll_C_INIT_CreateSequentialPathV2_m_PathParams = 0x4E0 // CPathParameters
+    ParticlesDll_C_INIT_CreateSequentialPathV2_m_TransformInput = 0x1E8 // CParticleTransformInput
     ParticlesDll_VecInputMaterialVariable_t_m_strVariable = 0x0 // CUtlString
     ParticlesDll_VecInputMaterialVariable_t_m_vecInput = 0x8 // CParticleCollectionVecInput
     ParticlesDll_C_INIT_RemapInitialDirectionToTransformToVector_m_TransformInput = 0x1E8 // CParticleTransformInput
@@ -1414,20 +1422,11 @@ const (
     ParticlesDll_C_INIT_RemapInitialDirectionToTransformToVector_m_flOffsetRot = 0x258 // float32
     ParticlesDll_C_INIT_RemapInitialDirectionToTransformToVector_m_vecOffsetAxis = 0x25C // Vector
     ParticlesDll_C_INIT_RemapInitialDirectionToTransformToVector_m_bNormalize = 0x268 // bool
-    ParticlesDll_C_OP_LockToSavedSequentialPathV2_m_flFadeStart = 0x1E0 // float32
-    ParticlesDll_C_OP_LockToSavedSequentialPathV2_m_flFadeEnd = 0x1E4 // float32
-    ParticlesDll_C_OP_LockToSavedSequentialPathV2_m_bCPPairs = 0x1E8 // bool
-    ParticlesDll_C_OP_LockToSavedSequentialPathV2_m_PathParams = 0x1F0 // CPathParameters
     ParticlesDll_C_OP_NormalLock_m_nControlPointNumber = 0x1E0 // int32
-    ParticlesDll_C_INIT_RemapTransformOrientationToRotations_m_TransformInput = 0x1E8 // CParticleTransformInput
-    ParticlesDll_C_INIT_RemapTransformOrientationToRotations_m_vecRotation = 0x250 // Vector
-    ParticlesDll_C_INIT_RemapTransformOrientationToRotations_m_bUseQuat = 0x25C // bool
-    ParticlesDll_C_INIT_RemapTransformOrientationToRotations_m_bWriteNormal = 0x25D // bool
     ParticlesDll_C_OP_Cull_m_flCullPerc = 0x1E0 // float32
     ParticlesDll_C_OP_Cull_m_flCullStart = 0x1E4 // float32
     ParticlesDll_C_OP_Cull_m_flCullEnd = 0x1E8 // float32
     ParticlesDll_C_OP_Cull_m_flCullExp = 0x1EC // float32
-    ParticlesDll_C_INIT_RandomYawFlip_m_flPercent = 0x1E8 // float32
     ParticlesDll_SequenceWeightedList_t_m_nSequence = 0x0 // int32
     ParticlesDll_SequenceWeightedList_t_m_flRelativeWeight = 0x4 // float32
     ParticlesDll_C_OP_ReadFromNeighboringParticle_m_nFieldInput = 0x1E0 // ParticleAttributeIndex_t
@@ -1442,6 +1441,9 @@ const (
     ParticlesDll_C_OP_LerpToInitialPosition_m_nCacheField = 0x360 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_LerpToInitialPosition_m_flScale = 0x368 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_LerpToInitialPosition_m_vecScale = 0x4E0 // CParticleCollectionVecInput
+    ParticlesDll_C_OP_LerpEndCapVector_m_nFieldOutput = 0x1E0 // ParticleAttributeIndex_t
+    ParticlesDll_C_OP_LerpEndCapVector_m_vecOutput = 0x1E4 // Vector
+    ParticlesDll_C_OP_LerpEndCapVector_m_flLerpTime = 0x1F0 // float32
     ParticlesDll_C_OP_VelocityDecay_m_flMinVelocity = 0x1E0 // float32
     ParticlesDll_C_OP_SetCPOrientationToPointAtCP_m_nInputCP = 0x1E8 // int32
     ParticlesDll_C_OP_SetCPOrientationToPointAtCP_m_nOutputCP = 0x1EC // int32
@@ -1642,6 +1644,11 @@ const (
     ParticlesDll_C_OP_SequenceFromModel_m_flOutputMax = 0x1F8 // float32
     ParticlesDll_C_OP_SequenceFromModel_m_nSetMethod = 0x1FC // ParticleSetMethod_t
     ParticlesDll_C_OP_AlphaDecay_m_flMinAlpha = 0x1E0 // float32
+    ParticlesDll_C_INIT_InitVec_m_InputValue = 0x1E8 // CPerParticleVecInput
+    ParticlesDll_C_INIT_InitVec_m_nOutputField = 0x8C0 // ParticleAttributeIndex_t
+    ParticlesDll_C_INIT_InitVec_m_nSetMethod = 0x8C4 // ParticleSetMethod_t
+    ParticlesDll_C_INIT_InitVec_m_bNormalizedOutput = 0x8C8 // bool
+    ParticlesDll_C_INIT_InitVec_m_bWritePreviousPosition = 0x8C9 // bool
     ParticlesDll_C_INIT_SetHitboxToModel_m_nControlPointNumber = 0x1E8 // int32
     ParticlesDll_C_INIT_SetHitboxToModel_m_nForceInModel = 0x1EC // int32
     ParticlesDll_C_INIT_SetHitboxToModel_m_bEvenDistribution = 0x1F0 // bool
@@ -1700,6 +1707,10 @@ const (
     ParticlesDll_C_OP_PercentageBetweenTransforms_m_nSetMethod = 0x2C8 // ParticleSetMethod_t
     ParticlesDll_C_OP_PercentageBetweenTransforms_m_bActiveRange = 0x2CC // bool
     ParticlesDll_C_OP_PercentageBetweenTransforms_m_bRadialCheck = 0x2CD // bool
+    ParticlesDll_C_INIT_PlaneCull_m_nControlPoint = 0x1E8 // int32
+    ParticlesDll_C_INIT_PlaneCull_m_flDistance = 0x1F0 // CParticleCollectionFloatInput
+    ParticlesDll_C_INIT_PlaneCull_m_bCullInside = 0x368 // bool
+    ParticlesDll_C_INIT_PlaneCull_m_flMinLength = 0x1E8 // float32
     ParticlesDll_C_INIT_InitFromCPSnapshot_m_nControlPointNumber = 0x1E8 // int32
     ParticlesDll_C_INIT_InitFromCPSnapshot_m_strSnapshotSubset = 0x1F0 // CUtlString
     ParticlesDll_C_INIT_InitFromCPSnapshot_m_nAttributeToRead = 0x1F8 // ParticleAttributeIndex_t
@@ -1711,8 +1722,6 @@ const (
     ParticlesDll_C_INIT_InitFromCPSnapshot_m_nManualSnapshotIndex = 0x380 // CPerParticleFloatInput
     ParticlesDll_C_INIT_InitFromCPSnapshot_m_nRandomSeed = 0x4F8 // int32
     ParticlesDll_C_INIT_InitFromCPSnapshot_m_bLocalSpaceAngles = 0x4FC // bool
-    ParticlesDll_C_INIT_InheritVelocity_m_nControlPointNumber = 0x1E8 // int32
-    ParticlesDll_C_INIT_InheritVelocity_m_flVelocityScale = 0x1EC // float32
     ParticlesDll_C_OP_SetChildControlPoints_m_nChildGroupID = 0x1E0 // int32
     ParticlesDll_C_OP_SetChildControlPoints_m_nFirstControlPoint = 0x1E4 // int32
     ParticlesDll_C_OP_SetChildControlPoints_m_nNumControlPoints = 0x1E8 // int32
@@ -1816,10 +1825,6 @@ const (
     ParticlesDll_C_OP_MovementRotateParticleAroundAxis_m_flRotRate = 0x8B8 // CParticleCollectionFloatInput
     ParticlesDll_C_OP_MovementRotateParticleAroundAxis_m_TransformInput = 0xA30 // CParticleTransformInput
     ParticlesDll_C_OP_MovementRotateParticleAroundAxis_m_bLocalSpace = 0xA98 // bool
-    ParticlesDll_C_INIT_InitFloat_m_InputValue = 0x1E8 // CPerParticleFloatInput
-    ParticlesDll_C_INIT_InitFloat_m_nOutputField = 0x360 // ParticleAttributeIndex_t
-    ParticlesDll_C_INIT_InitFloat_m_nSetMethod = 0x364 // ParticleSetMethod_t
-    ParticlesDll_C_INIT_InitFloat_m_InputStrength = 0x368 // CPerParticleFloatInput
     ParticlesDll_C_OP_InheritFromPeerSystem_m_nFieldOutput = 0x1E0 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_InheritFromPeerSystem_m_nFieldInput = 0x1E4 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_InheritFromPeerSystem_m_nIncrement = 0x1E8 // int32
@@ -1844,9 +1849,6 @@ const (
     ParticlesDll_C_OP_RenderProjected_m_nColorBlendType = 0xF38 // ParticleColorBlendType_t
     ParticlesDll_C_OP_MaxVelocity_m_flMaxVelocity = 0x1E0 // CPerParticleFloatInput
     ParticlesDll_C_OP_MaxVelocity_m_flMinVelocity = 0x358 // CPerParticleFloatInput
-    ParticlesDll_C_INIT_VelocityFromNormal_m_fSpeedMin = 0x1E8 // float32
-    ParticlesDll_C_INIT_VelocityFromNormal_m_fSpeedMax = 0x1EC // float32
-    ParticlesDll_C_INIT_VelocityFromNormal_m_bIgnoreDt = 0x1F0 // bool
     ParticlesDll_C_INIT_RemapInitialTransformDirectionToRotation_m_TransformInput = 0x1E8 // CParticleTransformInput
     ParticlesDll_C_INIT_RemapInitialTransformDirectionToRotation_m_nFieldOutput = 0x250 // ParticleAttributeIndex_t
     ParticlesDll_C_INIT_RemapInitialTransformDirectionToRotation_m_flOffsetRot = 0x254 // float32
@@ -2095,6 +2097,16 @@ const (
     ParticlesDll_C_OP_LerpToOtherAttribute_m_nFieldInputFrom = 0x358 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_LerpToOtherAttribute_m_nFieldInput = 0x35C // ParticleAttributeIndex_t
     ParticlesDll_C_OP_LerpToOtherAttribute_m_nFieldOutput = 0x360 // ParticleAttributeIndex_t
+    ParticlesDll_C_INIT_RandomColor_m_ColorMin = 0x204 // Color
+    ParticlesDll_C_INIT_RandomColor_m_ColorMax = 0x208 // Color
+    ParticlesDll_C_INIT_RandomColor_m_TintMin = 0x20C // Color
+    ParticlesDll_C_INIT_RandomColor_m_TintMax = 0x210 // Color
+    ParticlesDll_C_INIT_RandomColor_m_flTintPerc = 0x214 // float32
+    ParticlesDll_C_INIT_RandomColor_m_flUpdateThreshold = 0x218 // float32
+    ParticlesDll_C_INIT_RandomColor_m_nTintCP = 0x21C // int32
+    ParticlesDll_C_INIT_RandomColor_m_nFieldOutput = 0x220 // ParticleAttributeIndex_t
+    ParticlesDll_C_INIT_RandomColor_m_nTintBlendMode = 0x224 // ParticleColorBlendMode_t
+    ParticlesDll_C_INIT_RandomColor_m_flLightAmplification = 0x228 // float32
     ParticlesDll_C_OP_RampScalarLinearSimple_m_Rate = 0x1E0 // float32
     ParticlesDll_C_OP_RampScalarLinearSimple_m_flStartTime = 0x1E4 // float32
     ParticlesDll_C_OP_RampScalarLinearSimple_m_flEndTime = 0x1E8 // float32
@@ -2137,9 +2149,6 @@ const (
     ParticlesDll_C_OP_RenderLightBeam_m_flFogContribution = 0x1D40 // CParticleCollectionRendererFloatInput
     ParticlesDll_C_OP_RenderLightBeam_m_flRenderFilter = 0x1EB8 // CPerParticleFloatInput
     ParticlesDll_C_OP_RenderLightBeam_m_bDebugOrientation = 0x2030 // bool
-    ParticlesDll_C_INIT_SkyVisCull_m_vecTestDir = 0x1E8 // CParticleCollectionVecInput
-    ParticlesDll_C_INIT_SkyVisCull_m_nTraceSet = 0x8C0 // ParticleTraceSet_t
-    ParticlesDll_C_INIT_SkyVisCull_m_bCullOnSky = 0x8C4 // bool
     ParticlesDll_C_INIT_DistanceToCPInit_m_nFieldOutput = 0x1E8 // ParticleAttributeIndex_t
     ParticlesDll_C_INIT_DistanceToCPInit_m_flInputMin = 0x1F0 // CPerParticleFloatInput
     ParticlesDll_C_INIT_DistanceToCPInit_m_flInputMax = 0x368 // CPerParticleFloatInput
@@ -2382,5 +2391,4 @@ const (
     ParticlesDll_C_OP_LerpEndCapScalar_m_nFieldOutput = 0x1E0 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_LerpEndCapScalar_m_flOutput = 0x1E4 // float32
     ParticlesDll_C_OP_LerpEndCapScalar_m_flLerpTime = 0x1E8 // float32
-    ParticlesDll_C_OP_LerpEndCapScalar_m_flScale = 0x1E0 // CPerParticleFloatInput
 )

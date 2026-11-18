@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 #pragma once
 
@@ -4749,17 +4749,6 @@ namespace source2_dumper {
             namespace CWeaponM4A1Silencer {
             }
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MVDataOverlayType
-            // MVDataAssociatedFile
-            // MVDataPreviewWidget
-            namespace CNoiseStreamData {
-                constexpr std::ptrdiff_t m_Stream = 0x0; // NoiseStreamDef_t
-            }
-            // Parent: None
             // Field count: 0
             namespace CItemAssaultSuit {
             }
@@ -6356,7 +6345,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flActiveFollowStartTime = 0x32A4; // GameTime_t
                 constexpr std::ptrdiff_t m_followMinuteTimer = 0x32A8; // CountdownTimer
                 constexpr std::ptrdiff_t m_BlockDirectionTimer = 0x32C8; // CountdownTimer
-                constexpr std::ptrdiff_t m_bSpawnDyingParticles = 0x32E3; // bool
+                constexpr std::ptrdiff_t m_bSpawnDyingParticles = 0x32E2; // bool
             }
             // Parent: CPhysicsProp
             // Field count: 5
@@ -6703,6 +6692,16 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flAvgInterval = 0x4C0; // float32
                 constexpr std::ptrdiff_t m_Velocity = 0x4C8; // CEntityOutputTemplate<float32>
             }
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace EngineCountdownTimer {
+                constexpr std::ptrdiff_t m_duration = 0x8; // float32
+                constexpr std::ptrdiff_t m_timestamp = 0xC; // float32
+                constexpr std::ptrdiff_t m_timescale = 0x10; // float32
+            }
             // Parent: CTriggerMultiple
             // Field count: 1
             namespace CScriptTriggerMultiple {
@@ -6979,6 +6978,15 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_i1v2Wins = 0xB0; // int32
                 constexpr std::ptrdiff_t m_iEntryCount = 0xB4; // int32
                 constexpr std::ptrdiff_t m_iEntryWins = 0xB8; // int32
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace EntityRenderAttribute_t {
+                constexpr std::ptrdiff_t m_ID = 0x30; // CUtlStringToken
+                constexpr std::ptrdiff_t m_Values = 0x34; // Vector4D
             }
             // Parent: CFuncBrush
             // Field count: 9
@@ -8210,16 +8218,6 @@ namespace source2_dumper {
             // Parent: None
             // Field count: 0
             namespace CPlayer_UseServices {
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CGameSceneNodeHandle {
-                constexpr std::ptrdiff_t m_hOwner = 0x8; // CEntityHandle
-                constexpr std::ptrdiff_t m_name = 0xC; // CUtlStringToken
             }
             // Parent: CMarkupVolumeTagged
             // Field count: 4
@@ -9514,7 +9512,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_weaponPurchases = 0x8; // CUtlVectorEmbeddedNetworkVar<WeaponPurchaseCount_t>
             }
             // Parent: CPointEntity
-            // Field count: 15
+            // Field count: 16
             namespace CMapInfo {
                 constexpr std::ptrdiff_t m_iBuyingStatus = 0x4A8; // int32
                 constexpr std::ptrdiff_t m_flBombRadius = 0x4AC; // float32
@@ -9531,6 +9529,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flEnvPuddleRippleDirection = 0x4CC; // float32
                 constexpr std::ptrdiff_t m_flEnvWetnessCoverage = 0x4D0; // float32
                 constexpr std::ptrdiff_t m_flEnvWetnessDryingAmount = 0x4D4; // float32
+                constexpr std::ptrdiff_t m_bFrostEnabled = 0x4D8; // bool
             }
             // Parent: None
             // Field count: 0

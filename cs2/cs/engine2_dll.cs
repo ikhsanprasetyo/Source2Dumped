@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
@@ -288,9 +288,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_nRenderHeight = 0x24; // int32
         }
         // Parent: None
-        // Field count: 1
+        // Field count: 2
         public static class EventClientPollNetworking_t {
             public const nint m_nTickCount = 0x0; // int32
+            public const nint m_nTotalTicks = 0x4; // int32
         }
         // Parent: None
         // Field count: 1

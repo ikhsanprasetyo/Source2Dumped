@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -4743,17 +4743,6 @@ namespace Source2Dumper.Schemas {
         public static class CWeaponM4A1Silencer {
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MVDataOverlayType
-        // MVDataAssociatedFile
-        // MVDataPreviewWidget
-        public static class CNoiseStreamData {
-            public const nint m_Stream = 0x0; // NoiseStreamDef_t
-        }
-        // Parent: None
         // Field count: 0
         public static class CItemAssaultSuit {
         }
@@ -6350,7 +6339,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_flActiveFollowStartTime = 0x32A4; // GameTime_t
             public const nint m_followMinuteTimer = 0x32A8; // CountdownTimer
             public const nint m_BlockDirectionTimer = 0x32C8; // CountdownTimer
-            public const nint m_bSpawnDyingParticles = 0x32E3; // bool
+            public const nint m_bSpawnDyingParticles = 0x32E2; // bool
         }
         // Parent: CPhysicsProp
         // Field count: 5
@@ -6697,6 +6686,16 @@ namespace Source2Dumper.Schemas {
             public const nint m_flAvgInterval = 0x4C0; // float32
             public const nint m_Velocity = 0x4C8; // CEntityOutputTemplate<float32>
         }
+        // Parent: None
+        // Field count: 3
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class EngineCountdownTimer {
+            public const nint m_duration = 0x8; // float32
+            public const nint m_timestamp = 0xC; // float32
+            public const nint m_timescale = 0x10; // float32
+        }
         // Parent: CTriggerMultiple
         // Field count: 1
         public static class CScriptTriggerMultiple {
@@ -6973,6 +6972,15 @@ namespace Source2Dumper.Schemas {
             public const nint m_i1v2Wins = 0xB0; // int32
             public const nint m_iEntryCount = 0xB4; // int32
             public const nint m_iEntryWins = 0xB8; // int32
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class EntityRenderAttribute_t {
+            public const nint m_ID = 0x30; // CUtlStringToken
+            public const nint m_Values = 0x34; // Vector4D
         }
         // Parent: CFuncBrush
         // Field count: 9
@@ -8204,16 +8212,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CPlayer_UseServices {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CGameSceneNodeHandle {
-            public const nint m_hOwner = 0x8; // CEntityHandle
-            public const nint m_name = 0xC; // CUtlStringToken
         }
         // Parent: CMarkupVolumeTagged
         // Field count: 4
@@ -9508,7 +9506,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_weaponPurchases = 0x8; // CUtlVectorEmbeddedNetworkVar<WeaponPurchaseCount_t>
         }
         // Parent: CPointEntity
-        // Field count: 15
+        // Field count: 16
         public static class CMapInfo {
             public const nint m_iBuyingStatus = 0x4A8; // int32
             public const nint m_flBombRadius = 0x4AC; // float32
@@ -9525,6 +9523,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_flEnvPuddleRippleDirection = 0x4CC; // float32
             public const nint m_flEnvWetnessCoverage = 0x4D0; // float32
             public const nint m_flEnvWetnessDryingAmount = 0x4D4; // float32
+            public const nint m_bFrostEnabled = 0x4D8; // bool
         }
         // Parent: None
         // Field count: 0

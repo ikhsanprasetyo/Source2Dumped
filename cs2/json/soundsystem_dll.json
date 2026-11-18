@@ -149,27 +149,23 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyReadonlyExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
           {
             "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyReadonlyExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyReadonlyExpr",
             "type": "Unknown"
           }
         ],
@@ -261,22 +257,6 @@
           "nNoteNum": 0
         },
         "metadata": [],
-        "parent": null
-      },
-      "SndBeatEventKeys_t": {
-        "fields": {
-          "m_flKey": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataNodeType",
-            "type": "Unknown"
-          }
-        ],
         "parent": null
       },
       "SndBeatTimeSignature_t": {

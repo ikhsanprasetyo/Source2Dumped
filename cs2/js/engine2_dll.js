@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 export const Schemas = {
     engine2_dll: {
@@ -188,6 +188,7 @@ export const Schemas = {
         },
         EventClientPollNetworking_t: {
             m_nTickCount: 0x0, // int32
+            m_nTotalTicks: 0x4, // int32
         },
         EventServerBeginAsyncPostTickWork_t: {
             m_bIsOncePerFrameAsyncWorkPhase: 0x0, // bool

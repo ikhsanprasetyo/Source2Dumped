@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-09 22:31:04.602073700 +07:00
+# 2026-11-18 21:12:02.749640400 +07:00
 
 class Schemas:
     # Module: soundsystem.dll
@@ -351,7 +351,5 @@ class Schemas:
             nNextSelection = 0x1 # uint8
             nNumSamples = 0x2 # uint8
             pSamples = 0x4 # uint32[4]
-        class SndBeatEventKeys_t:
-            m_flKey = 0x8 # float32
         class ISndSeqInstruments:
             pass

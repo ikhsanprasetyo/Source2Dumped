@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 package schemas
 
@@ -299,5 +299,4 @@ const (
     SoundsystemDll_VelocityZone_t_nNextSelection = 0x1 // uint8
     SoundsystemDll_VelocityZone_t_nNumSamples = 0x2 // uint8
     SoundsystemDll_VelocityZone_t_pSamples = 0x4 // uint32[4]
-    SoundsystemDll_SndBeatEventKeys_t_m_flKey = 0x8 // float32
 )

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-09 22:31:04.602073700 +07:00
+# 2026-11-18 21:12:02.749640400 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,51 +8,51 @@ class Interfaces:
         AnimationSystem_001 = 0x8375F8
     # Module: client.dll
     class ClientDll:
-        ClientBugBugServic001_Client = 0x2238760
-        ClientToolsInfo_001 = 0x2238730
-        EmptyWorldService001_Client = 0x221C160
-        GameClientExports001 = 0x22353D8
-        LegacyGameUI001 = 0x2245180
-        Source2Client002 = 0x2564620
-        Source2ClientConfig001 = 0x24C1160
-        Source2ClientPrediction001 = 0x256A850
-        Source2ClientUI001 = 0x2243900
+        ClientBugBugServic001_Client = 0x2227190
+        ClientToolsInfo_001 = 0x2227160
+        EmptyWorldService001_Client = 0x220AEA0
+        GameClientExports001 = 0x2223E08
+        LegacyGameUI001 = 0x22351A0
+        Source2Client002 = 0x2551080
+        Source2ClientConfig001 = 0x24ADB00
+        Source2ClientPrediction001 = 0x2557440
+        Source2ClientUI001 = 0x22322A0
     # Module: engine2.dll
     class Engine2Dll:
-        BenchmarkService001 = 0x6BFCC0
-        BugBugService001 = 0x6BFDC0
-        BugService001 = 0x9790F0
-        ClientServerEngineLoopService_001 = 0x9BAAE0
-        ClientServerSharedHandleSystem001 = 0x9BA0F0
-        EngineGameUI001 = 0x6BD720
-        EngineServiceMgr001 = 0x9BA3B0
-        GameEventSystemClientV001 = 0x9BA690
-        GameEventSystemServerV001 = 0x9BA7C0
-        GameResourceServiceClientV001 = 0x6BFE00
-        GameResourceServiceServerV001 = 0x6BFE60
-        GameUIService_001 = 0x979540
-        HostStateMgr001 = 0x6C02A0
-        INETSUPPORT_001 = 0x6B8C70
-        InputService_001 = 0x979820
-        KeyValueCache001 = 0x6C0350
-        MapListService_001 = 0x9B8690
-        NetworkClientService_001 = 0x9B8820
-        NetworkP2PService_001 = 0x9B8B60
-        NetworkServerService_001 = 0x9B8D10
-        NetworkService_001 = 0x6BFFD0
-        RenderService_001 = 0x9B8F80
-        ScreenshotService001 = 0x9B9240
-        SimpleEngineLoopService_001 = 0x6C03B0
-        SoundService_001 = 0x9B93F0
-        Source2EngineToClient001 = 0x6BD030
-        Source2EngineToClientStringTable001 = 0x6BD090
-        Source2EngineToServer001 = 0x6BD108
-        Source2EngineToServerStringTable001 = 0x6BD130
-        SplitScreenService_001 = 0x6C0010
-        StatsService_001 = 0x9B9930
-        ToolService_001 = 0x6C0110
-        VENGINE_GAMEUIFUNCS_VERSION005 = 0x6BD7B0
-        VProfService_001 = 0x6C0150
+        BenchmarkService001 = 0x6B89D0
+        BugBugService001 = 0x6B8AD0
+        BugService001 = 0x9703C0
+        ClientServerEngineLoopService_001 = 0x9B1DE0
+        ClientServerSharedHandleSystem001 = 0x9B13D0
+        EngineGameUI001 = 0x6B6430
+        EngineServiceMgr001 = 0x9B1680
+        GameEventSystemClientV001 = 0x9B1970
+        GameEventSystemServerV001 = 0x9B1AA0
+        GameResourceServiceClientV001 = 0x6B8B10
+        GameResourceServiceServerV001 = 0x6B8B70
+        GameUIService_001 = 0x970810
+        HostStateMgr001 = 0x6B8FB0
+        INETSUPPORT_001 = 0x6B1980
+        InputService_001 = 0x970AF0
+        KeyValueCache001 = 0x6B9060
+        MapListService_001 = 0x9AF960
+        NetworkClientService_001 = 0x9AFAF0
+        NetworkP2PService_001 = 0x9AFE30
+        NetworkServerService_001 = 0x9AFFE0
+        NetworkService_001 = 0x6B8CE0
+        RenderService_001 = 0x9B0250
+        ScreenshotService001 = 0x9B0520
+        SimpleEngineLoopService_001 = 0x6B90C0
+        SoundService_001 = 0x9B06D0
+        Source2EngineToClient001 = 0x6B5D40
+        Source2EngineToClientStringTable001 = 0x6B5DA0
+        Source2EngineToServer001 = 0x6B5E18
+        Source2EngineToServerStringTable001 = 0x6B5E40
+        SplitScreenService_001 = 0x6B8D20
+        StatsService_001 = 0x9B0C10
+        ToolService_001 = 0x6B8E20
+        VENGINE_GAMEUIFUNCS_VERSION005 = 0x6B64C0
+        VProfService_001 = 0x6B8E60
     # Module: filesystem_stdio.dll
     class FilesystemStdioDll:
         VAsyncFileSystem2_001 = 0x214610
@@ -79,8 +79,8 @@ class Interfaces:
         Localize_001 = 0x59120
     # Module: matchmaking.dll
     class MatchmakingDll:
-        GameTypes001 = 0x1B0FD0
-        MATCHFRAMEWORK_001 = 0x1B90A0
+        GameTypes001 = 0x1AEFC0
+        MATCHFRAMEWORK_001 = 0x1B7080
     # Module: materialsystem2.dll
     class Materialsystem2Dll:
         FontManager_001 = 0x1638E0
@@ -96,10 +96,10 @@ class Interfaces:
         NavSystem001 = 0x12C000
     # Module: networksystem.dll
     class NetworksystemDll:
-        FlattenedSerializersVersion001 = 0x277A50
-        NetworkMessagesVersion001 = 0x2A3F30
-        NetworkSystemVersion001 = 0x2911A0
-        SerializedEntitiesVersion001 = 0x291290
+        FlattenedSerializersVersion001 = 0x272A30
+        NetworkMessagesVersion001 = 0x29EE00
+        NetworkSystemVersion001 = 0x28C450
+        SerializedEntitiesVersion001 = 0x28C530
     # Module: panorama.dll
     class PanoramaDll:
         PanoramaUIEngine001 = 0x5895F0
@@ -111,7 +111,7 @@ class Interfaces:
         PanoramaUIClient001 = 0x270710
     # Module: particles.dll
     class ParticlesDll:
-        ParticleSystemMgr003 = 0x65ADE0
+        ParticleSystemMgr003 = 0x65AEE0
     # Module: pulse_system.dll
     class PulseSystemDll:
         IPulseSystem_001 = 0x238120
@@ -129,31 +129,31 @@ class Interfaces:
         SceneFileCache002 = 0x11D478
     # Module: scenesystem.dll
     class ScenesystemDll:
-        RenderingPipelines_001 = 0x6759F0
+        RenderingPipelines_001 = 0x675A00
         SceneSystem_002 = 0x91FB20
-        SceneUtils_001 = 0x676750
+        SceneUtils_001 = 0x676760
     # Module: schemasystem.dll
     class SchemasystemDll:
         SchemaSystem_001 = 0x76710
     # Module: server.dll
     class ServerDll:
-        EmptyWorldService001_Server = 0x1E0D0E0
-        EntitySubclassUtilsV001 = 0x1DBCC60
-        NavGameTest001 = 0x1E54D38
-        ServerToolsInfo_001 = 0x1E33C38
-        Source2GameClients001 = 0x1E33160
-        Source2GameDirector001 = 0x1F9D5D0
-        Source2GameEntities001 = 0x1E333E0
-        Source2Server001 = 0x1E33220
-        Source2ServerConfig001 = 0x2118EA8
-        customnavsystem001 = 0x1DAA558
+        EmptyWorldService001_Server = 0x1DF4EA0
+        EntitySubclassUtilsV001 = 0x1DA4B50
+        NavGameTest001 = 0x1E3C898
+        ServerToolsInfo_001 = 0x1E1B7B8
+        Source2GameClients001 = 0x1E1ACE0
+        Source2GameDirector001 = 0x1F81A80
+        Source2GameEntities001 = 0x1E1AF60
+        Source2Server001 = 0x1E1ADA0
+        Source2ServerConfig001 = 0x20FD3F8
+        customnavsystem001 = 0x1D924A8
     # Module: soundsystem.dll
     class SoundsystemDll:
-        SoundBugBugService001_Client = 0x532C40
-        SoundOpSystem001 = 0x532B20
-        SoundOpSystemEdit001 = 0x532A30
-        SoundSystem001 = 0x532420
-        VMixEditTool001 = 0x5941C1F
+        SoundBugBugService001_Client = 0x532C90
+        SoundOpSystem001 = 0x532B70
+        SoundOpSystemEdit001 = 0x532A80
+        SoundSystem001 = 0x532470
+        VMixEditTool001 = 0x5941BBF
     # Module: steamaudio.dll
     class SteamaudioDll:
         SteamAudio001 = 0x35C1A0

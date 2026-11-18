@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-09 22:31:04.602073700 +07:00
+// 2026-11-18 21:12:02.749640400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: soundsystem.dll
-        // Class count: 17
+        // Class count: 16
         // Enum count: 35
         pub const soundsystem_dll = struct {
             // Alignment: 1
@@ -438,12 +438,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyReadonlyExpr
+            // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertySuppressExpr
-            // MPropertyAttributeEditor
-            // MPropertyReadonlyExpr
-            // MPropertySuppressExpr
-            // MPropertyReadonlyExpr
             pub const CSosSoundEventGroupSchema = struct {
                 pub const m_nGroupType: usize = 0x8; // SosGroupType_t
                 pub const m_bBlocksEvents: usize = 0xC; // bool
@@ -565,15 +564,6 @@ pub const source2_dumper = struct {
                 pub const nNextSelection: usize = 0x1; // uint8
                 pub const nNumSamples: usize = 0x2; // uint8
                 pub const pSamples: usize = 0x4; // uint32[4]
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MVDataNodeType
-            pub const SndBeatEventKeys_t = struct {
-                pub const m_flKey: usize = 0x8; // float32
             };
             // Parent: None
             // Field count: 0
