@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:39:06.781028800 +07:00
+// 2026-11-19 23:37:17.394779800 +07:00
 
 export const Schemas = {
     networksystem_dll: {

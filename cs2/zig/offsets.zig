@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:39:06.781028800 +07:00
+// 2026-11-19 23:37:17.394779800 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {
@@ -9,7 +9,7 @@ pub const source2_dumper = struct {
             pub const dwEntityList: usize = 0x270C680;
             pub const dwGameEntitySystem: usize = 0x270C680;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2120;
-            pub const dwGameRules: usize = 0x1BAE5F0;
+            pub const dwGameRules: usize = 0x1BAE608;
             pub const dwGlobalVars: usize = 0x2223AD0;
             pub const dwGlowManager: usize = 0x2553B90;
             pub const dwLocalPlayerController: usize = 0x252ED78;

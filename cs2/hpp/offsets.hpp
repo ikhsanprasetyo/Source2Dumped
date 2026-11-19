@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:39:06.781028800 +07:00
+// 2026-11-19 23:37:17.394779800 +07:00
 
 #pragma once
 
@@ -14,7 +14,7 @@ namespace source2_dumper {
             constexpr std::ptrdiff_t dwEntityList = 0x270C680;
             constexpr std::ptrdiff_t dwGameEntitySystem = 0x270C680;
             constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2120;
-            constexpr std::ptrdiff_t dwGameRules = 0x1BAE5F0;
+            constexpr std::ptrdiff_t dwGameRules = 0x1BAE608;
             constexpr std::ptrdiff_t dwGlobalVars = 0x2223AD0;
             constexpr std::ptrdiff_t dwGlowManager = 0x2553B90;
             constexpr std::ptrdiff_t dwLocalPlayerController = 0x252ED78;
