@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:37:17.394779800 +07:00
+// 2026-11-22 15:01:14.949940800 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -14,9 +14,9 @@ namespace Source2Dumper.Interfaces {
         public const nint EmptyWorldService001_Client = 0x220AEA0;
         public const nint GameClientExports001 = 0x2223E08;
         public const nint LegacyGameUI001 = 0x22351A0;
-        public const nint Source2Client002 = 0x2551080;
-        public const nint Source2ClientConfig001 = 0x24ADB00;
-        public const nint Source2ClientPrediction001 = 0x2557440;
+        public const nint Source2Client002 = 0x2551600;
+        public const nint Source2ClientConfig001 = 0x24AE080;
+        public const nint Source2ClientPrediction001 = 0x25579C0;
         public const nint Source2ClientUI001 = 0x22322A0;
     }
     // Module: engine2.dll

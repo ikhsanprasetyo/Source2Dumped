@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:37:17.394779800 +07:00
+// 2026-11-22 15:01:14.949940800 +07:00
 
 package interfaces
 
@@ -11,9 +11,9 @@ const (
     ClientDll_EmptyWorldService001_Client = 0x220AEA0
     ClientDll_GameClientExports001 = 0x2223E08
     ClientDll_LegacyGameUI001 = 0x22351A0
-    ClientDll_Source2Client002 = 0x2551080
-    ClientDll_Source2ClientConfig001 = 0x24ADB00
-    ClientDll_Source2ClientPrediction001 = 0x2557440
+    ClientDll_Source2Client002 = 0x2551600
+    ClientDll_Source2ClientConfig001 = 0x24AE080
+    ClientDll_Source2ClientPrediction001 = 0x25579C0
     ClientDll_Source2ClientUI001 = 0x22322A0
     Engine2Dll_BenchmarkService001 = 0x6B89D0
     Engine2Dll_BugBugService001 = 0x6B8AD0

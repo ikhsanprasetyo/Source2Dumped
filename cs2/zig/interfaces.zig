@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:37:17.394779800 +07:00
+// 2026-11-22 15:01:14.949940800 +07:00
 
 pub const source2_dumper = struct {
     pub const interfaces = struct {
@@ -15,9 +15,9 @@ pub const source2_dumper = struct {
             pub const EmptyWorldService001_Client: usize = 0x220AEA0;
             pub const GameClientExports001: usize = 0x2223E08;
             pub const LegacyGameUI001: usize = 0x22351A0;
-            pub const Source2Client002: usize = 0x2551080;
-            pub const Source2ClientConfig001: usize = 0x24ADB00;
-            pub const Source2ClientPrediction001: usize = 0x2557440;
+            pub const Source2Client002: usize = 0x2551600;
+            pub const Source2ClientConfig001: usize = 0x24AE080;
+            pub const Source2ClientPrediction001: usize = 0x25579C0;
             pub const Source2ClientUI001: usize = 0x22322A0;
         };
         // Module: engine2.dll

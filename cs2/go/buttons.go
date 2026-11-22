@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:37:17.394779800 +07:00
+// 2026-11-22 15:01:14.949940800 +07:00
 
 package buttons
 
@@ -11,13 +11,13 @@ const (
     Forward = 0x2227BC0
     Jump = 0x2227E90
     Left = 0x2227CE0
-    Lookatweapon = 0x256CF00
+    Lookatweapon = 0x256D480
     Reload = 0x22278F0
     Right = 0x2227D70
-    Showscores = 0x256CDE0
+    Showscores = 0x256D360
     Sprint = 0x2227860
     Turnleft = 0x2227AA0
     Turnright = 0x2227B30
     Use = 0x2227E00
-    Zoom = 0x256CE70
+    Zoom = 0x256D3F0
 )

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:37:17.394779800 +07:00
+// 2026-11-22 15:01:14.949940800 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -12,9 +12,9 @@ export const Interfaces = {
         EmptyWorldService001_Client: 0x220AEA0,
         GameClientExports001: 0x2223E08,
         LegacyGameUI001: 0x22351A0,
-        Source2Client002: 0x2551080,
-        Source2ClientConfig001: 0x24ADB00,
-        Source2ClientPrediction001: 0x2557440,
+        Source2Client002: 0x2551600,
+        Source2ClientConfig001: 0x24AE080,
+        Source2ClientPrediction001: 0x25579C0,
         Source2ClientUI001: 0x22322A0,
     },
     engine2_dll: {

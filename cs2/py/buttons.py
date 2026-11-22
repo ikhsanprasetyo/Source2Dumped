@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-19 23:37:17.394779800 +07:00
+# 2026-11-22 15:01:14.949940800 +07:00
 
 class Buttons:
     # Module: client.dll
@@ -10,12 +10,12 @@ class Buttons:
     forward = 0x2227BC0
     jump = 0x2227E90
     left = 0x2227CE0
-    lookatweapon = 0x256CF00
+    lookatweapon = 0x256D480
     reload = 0x22278F0
     right = 0x2227D70
-    showscores = 0x256CDE0
+    showscores = 0x256D360
     sprint = 0x2227860
     turnleft = 0x2227AA0
     turnright = 0x2227B30
     use = 0x2227E00
-    zoom = 0x256CE70
+    zoom = 0x256D3F0

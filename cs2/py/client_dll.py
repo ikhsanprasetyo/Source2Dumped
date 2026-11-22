@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-19 23:37:17.394779800 +07:00
+# 2026-11-22 15:01:14.949940800 +07:00
 
 class Schemas:
     # Module: client.dll
